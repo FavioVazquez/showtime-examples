@@ -1,0 +1,40 @@
+<!doctype html>
+<!-- C3 "Spotlight": no curtain at all. A dark stage, one follow-spot cone searches and finds the mark.
+     Shots: hook (the cone rakes the empty boards, off-centre), end (the cone on the mark, wordmark below). -->
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<style>
+  :root { --stage: #15100E; --cream: #F5EBDC; --gold: #E9B949; }
+  html, body { margin: 0; width: 1920px; height: 1080px; overflow: hidden; background: var(--stage); }
+  .shot { position: absolute; inset: 0; display: none; }
+  .shot.on { display: block; }
+  .floor { position: absolute; left: 0; right: 0; top: 640px; bottom: 0; background: linear-gradient(180deg, #1b1411, #0d0908); }
+  .floor::after { content: ''; position: absolute; inset: 0; background: repeating-linear-gradient(90deg, rgba(255,255,255,.018) 0 2px, transparent 2px 120px); }
+  .cone { position: absolute; top: -40px; width: 520px; height: 820px; transform-origin: 50% 0; background: linear-gradient(180deg, rgba(233,185,73,.02), rgba(233,185,73,.20) 80%, rgba(233,185,73,.26)); clip-path: polygon(46% 0, 54% 0, 100% 100%, 0 100%); filter: blur(6px); }
+  .pool { position: absolute; width: 620px; height: 120px; border-radius: 50%; background: radial-gradient(closest-side, rgba(255,236,190,.95), rgba(233,185,73,.75) 45%, rgba(233,185,73,.0)); }
+  img.mark { position: absolute; width: 300px; height: 300px; left: 810px; top: 420px; }
+  img.word { position: absolute; width: 470px; left: 725px; top: 800px; }
+</style>
+</head>
+<body>
+  <section class="shot" data-shot="hook">
+    <div class="floor"></div>
+    <div class="cone" style="left: 330px; transform: rotate(14deg)"></div>
+    <div class="pool" style="left: 120px; top: 700px; opacity:.85"></div>
+  </section>
+  <section class="shot" data-shot="end">
+    <div class="floor"></div>
+    <div class="cone" style="left: 700px"></div>
+    <div class="pool" style="left: 650px; top: 670px"></div>
+    <img class="mark" src="../media/brand/mark-hero.svg" alt="">
+    <img class="word" src="../media/brand/wordmark-on-dark.svg" alt="showtime">
+  </section>
+<script>
+  var want = new URLSearchParams(location.search).get('shot');
+  var shots = document.querySelectorAll('[data-shot]'), hit = false;
+  shots.forEach(function (s) { if (s.dataset.shot === want) { s.classList.add('on'); hit = true; } });
+  if (!hit && shots[0]) shots[0].classList.add('on');
+</script>
+</body>
+</html>

@@ -1,0 +1,65 @@
+[
+ {
+  "name": "new_project",
+  "arguments": {
+   "template": "dom",
+   "dir": "scratch/mcp-smoke",
+   "duration": 2,
+   "aspect": "1:1",
+   "title": "mcp smoke"
+  }
+ },
+ {
+  "name": "audio_sfx",
+  "arguments": {
+   "type": "whoosh-heavy",
+   "output": "<job>/pack/sfx/stinger-curtain-whoosh.wav",
+   "intensity": 0.6,
+   "seed": 4
+  }
+ },
+ {
+  "name": "audio_sfx",
+  "arguments": {
+   "type": "whoosh",
+   "output": "<job>/pack/sfx/stinger-chromatic-whoosh.wav",
+   "intensity": 0.7,
+   "seed": 7
+  }
+ },
+ {
+  "name": "render",
+  "arguments": {
+   "project": "project/sting-1x1",
+   "job": "<job>"
+  }
+ },
+ {
+  "name": "qa",
+  "arguments": {
+   "video": "<job>/final-2.mp4",
+   "project": "project/sting-1x1"
+  }
+ },
+ {
+  "name": "deliver_exports",
+  "arguments": {
+   "video": "<job>/final.mp4",
+   "targets": [
+    "web",
+    "webp",
+    "gif"
+   ],
+   "from": 0,
+   "to": 5
+  }
+ },
+ {
+  "name": "export_html",
+  "arguments": {
+   "project": "project/sting-16x9",
+   "output": "<job>/html/curtain-call-sting-player.html",
+   "audio": "embed"
+  }
+ }
+]

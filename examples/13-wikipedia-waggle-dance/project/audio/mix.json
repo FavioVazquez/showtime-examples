@@ -1,0 +1,5 @@
+{
+  "tracks": [
+    { "kind": "voice", "file": "voice/vo.wav", "start": 0 }
+  ]
+}

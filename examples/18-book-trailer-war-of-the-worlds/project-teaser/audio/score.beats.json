@@ -1,0 +1,128 @@
+{
+  "schema": "showtime.beats/1",
+  "source": "composed",
+  "file": "audio/score.wav",
+  "style": "epic-trailer",
+  "key": "Cm",
+  "bpm": 83.493,
+  "requested_bpm": 84.0,
+  "time_signature": 4,
+  "duration": 15.0,
+  "end_hit": 11.4739,
+  "rhythmic": true,
+  "pacing": "beat_cut",
+  "sections": [
+    {
+      "name": "intro",
+      "kind": "intro",
+      "start": 0.0,
+      "end": 5.7,
+      "bars": 2,
+      "beats": 8,
+      "bpm": 84.211,
+      "energy": 0.35
+    },
+    {
+      "name": "build",
+      "kind": "build",
+      "start": 5.7,
+      "end": 8.6,
+      "bars": 1,
+      "beats": 4,
+      "bpm": 82.759,
+      "energy": 0.7
+    },
+    {
+      "name": "drop",
+      "kind": "drop",
+      "start": 8.6,
+      "end": 11.4739,
+      "bars": 1,
+      "beats": 4,
+      "bpm": 83.51,
+      "energy": 1.0
+    }
+  ],
+  "beats": [
+    0.0,
+    0.7125,
+    1.425,
+    2.1375,
+    2.85,
+    3.5625,
+    4.275,
+    4.9875,
+    5.7,
+    6.425,
+    7.15,
+    7.875,
+    8.6,
+    9.31848,
+    10.03695,
+    10.75543
+  ],
+  "downbeats": [
+    0.0,
+    2.85,
+    5.7,
+    8.6
+  ],
+  "bars": [
+    {
+      "t": 0.0,
+      "bar": 0,
+      "section": "intro"
+    },
+    {
+      "t": 2.85,
+      "bar": 1,
+      "section": "intro"
+    },
+    {
+      "t": 5.7,
+      "bar": 2,
+      "section": "build"
+    },
+    {
+      "t": 8.6,
+      "bar": 3,
+      "section": "drop"
+    },
+    {
+      "t": 11.47391,
+      "bar": 4,
+      "section": "END_HIT"
+    }
+  ],
+  "events": [
+    {
+      "t": 5.7,
+      "type": "crash",
+      "section": "build"
+    },
+    {
+      "t": 8.6,
+      "type": "riser_end",
+      "section": "drop"
+    },
+    {
+      "t": 8.6,
+      "type": "impact",
+      "section": "drop"
+    },
+    {
+      "t": 8.6,
+      "type": "crash",
+      "section": "drop"
+    },
+    {
+      "t": 11.4739,
+      "type": "end_hit"
+    }
+  ],
+  "cues": {
+    "intro": 0.0,
+    "build": 5.7,
+    "drop": 8.6
+  }
+}

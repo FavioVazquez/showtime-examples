@@ -1,0 +1,37 @@
+<!doctype html>
+<!-- Step 1 card: Claude runs `showtime studio open`. Output is the real output of that command on this
+     machine (work/open-output.txt), with the key in the link masked and the static-copy path shortened.
+     Length 6.7667 s = the "open-cmd" voice slot (voice/timeline.json). -->
+<html lang="en"><head><meta charset="utf-8">
+<script src="/_st/stage.js"></script>
+<link rel="stylesheet" href="cc.css">
+<style>
+  .t1 { left: 50%; top: 47%; width: 84cqw; transform: translate(-50%, -50%); }
+  .who { position: absolute; left: 0; right: 0; text-align: center; top: 84%; }
+  .t1 .body { font-size: 2.55cqmin; padding: 3.2cqmin 3.6cqmin; }
+  .t1 .bar { height: 6cqmin; }
+</style>
+</head><body>
+<section class="scene" data-start="0" data-dur="6.7667">
+  <div class="stage-bg"></div>
+  <div class="eyebrow who">Claude, in your terminal</div>
+  <div class="term t1" id="t"><div class="bar"><i></i><i></i><i></i><b>terminal</b></div><div class="body"></div></div>
+</section>
+<script type="module">
+import { terminal } from './term.js';
+const L = (html, at, hl) => ({ html, at, hl });
+terminal(document.getElementById('t'), {
+  cmd: 'showtime studio open board-demo', typeAt: 0.75, cps: 12,   // types from 5.3 s (output) and ends on "Claude runs showtime studio open"
+  lines: [
+    L('studio board: <span class="lnk">http://127.0.0.1:58243/?k=<span class="mask">••••••••</span></span><span class="tag">key hidden</span>', 3.9,
+      [{ sel: '.lnk', at: 4.75 }]),
+    L('<span class="dim">  local only (127.0.0.1); the link carries a key, share it only with the reviewer</span>', 3.9),
+    L('<span class="dim">  static copy: showtime-out/board-demo-…/studio/board.html</span>', 3.9),
+    L('<span class="dim">  feedback:    showtime studio feedback board-demo    stop: showtime studio stop board-demo</span>', 3.9),
+  ],
+});
+// a slow push-in, so the card is never a frozen frame
+const t1 = document.getElementById('t');
+ST.onSeek((t) => { t1.style.transform = `translate(-50%, -50%) scale(${(0.95 + 0.08 * Math.sin(Math.min(1, t / 6.77) * Math.PI / 2)).toFixed(4)})`; });
+</script>
+</body></html>

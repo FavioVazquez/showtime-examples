@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <title>Cómo una bomba de calor calienta tu casa</title>
+  <!-- Fonts are real files served from ~/.showtime/node (never system fonts). -->
+  <link rel="stylesheet" href="/_lib/@fontsource-variable/inter/index.css">
+  <link rel="stylesheet" href="/_lib/@fontsource/instrument-serif/index.css">
+  <link rel="stylesheet" href="/_lib/@fontsource/instrument-serif/400-italic.css">
+  <script src="/_st/stage.js"></script>
+  <script src="/_st/film.js"></script>
+  <script src="/_st/synth.js"></script>
+</head>
+<body>
+  <script src="cues.js"></script>
+  <script src="scenes.js"></script>
+  <script src="score.js"></script>
+  <script>
+    Film.start({
+      // canvas film with the `film` look, tuned for a diagram: static grain (small files),
+      // no gate weave (lines stay crisp), a faint leak and a little dust.
+      look: { base: 'film', grain: 0.03, grainFps: 0, weave: 0, leak: 0.12, dust: 0.1, vignette: 0.42 },
+      design: [1920, 1080],
+      palette: { ink: '#f2e9dc', muted: '#c2b6a4', accent: '#ffae52', accent2: '#4f9dff' },
+      fonts: ['400 1em "Instrument Serif"', 'italic 400 1em "Instrument Serif"',
+              '500 1em "Inter Variable"', '600 1em "Inter Variable"', '700 1em "Inter Variable"', '800 1em "Inter Variable"'],
+      acts: CUE.acts,
+      scenes: drawFilm,
+      score: FILM_SCORE,
+    });
+  </script>
+</body>
+</html>

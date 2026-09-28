@@ -1,0 +1,110 @@
+{
+  "source": "03-gas.wav",
+  "duration": 6.696,
+  "language": "en",
+  "model": "kokoro-v1.0-timestamped.onnx",
+  "words": [
+    {
+      "text": "Natural",
+      "start": 0.03,
+      "end": 0.488,
+      "type": "word"
+    },
+    {
+      "text": "gas",
+      "start": 0.557,
+      "end": 0.883,
+      "type": "word"
+    },
+    {
+      "text": "took",
+      "start": 0.94,
+      "end": 1.073,
+      "type": "word"
+    },
+    {
+      "text": "its",
+      "start": 1.1,
+      "end": 1.215,
+      "type": "word"
+    },
+    {
+      "text": "place",
+      "start": 1.26,
+      "end": 1.537,
+      "type": "word"
+    },
+    {
+      "text": "first.",
+      "start": 1.608,
+      "end": 2.07,
+      "type": "word"
+    },
+    {
+      "text": "In",
+      "start": 2.5,
+      "end": 2.6,
+      "type": "word"
+    },
+    {
+      "text": "twenty",
+      "start": 2.65,
+      "end": 2.91,
+      "type": "word"
+    },
+    {
+      "text": "sixteen,",
+      "start": 2.99,
+      "end": 3.59,
+      "type": "word"
+    },
+    {
+      "text": "gas",
+      "start": 3.69,
+      "end": 4.082,
+      "type": "word"
+    },
+    {
+      "text": "passed",
+      "start": 4.16,
+      "end": 4.516,
+      "type": "word"
+    },
+    {
+      "text": "coal,",
+      "start": 4.6,
+      "end": 5.079,
+      "type": "word"
+    },
+    {
+      "text": "and",
+      "start": 5.23,
+      "end": 5.304,
+      "type": "word"
+    },
+    {
+      "text": "it",
+      "start": 5.33,
+      "end": 5.381,
+      "type": "word"
+    },
+    {
+      "text": "has",
+      "start": 5.406,
+      "end": 5.491,
+      "type": "word"
+    },
+    {
+      "text": "stayed",
+      "start": 5.541,
+      "end": 5.811,
+      "type": "word"
+    },
+    {
+      "text": "ahead.",
+      "start": 5.86,
+      "end": 6.31,
+      "type": "word"
+    }
+  ]
+}

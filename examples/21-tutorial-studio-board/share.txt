@@ -1,0 +1,23 @@
+YOUTUBE
+Title: The showtime studio board in 75 seconds: open, compare, react, pick
+Description:
+How to steer a video before it is built: open a studio board, compare concepts with their style frames and
+music sketches, leave a reaction and a note, and pick a direction. Claude reads your pick with
+`showtime studio feedback` and builds from it. Recorded live on a copy of a real board (the Curtain Call motion
+pack example); the reviewer's note is a demo.
+
+Chapters:
+0:00 Preview and opening the board
+0:19 Compare concepts
+0:37 React: like and leave a note
+0:52 Pick and hand it back to Claude
+
+Full guide: skills/showtime/references/studio.md
+Captions: captions.srt / captions.vtt
+
+YOUTUBE SHORTS (final-9x16.mp4)
+Three moves on a showtime studio board: compare, react, pick. Claude builds from your pick. #showtime #video
+
+README
+![The showtime studio board, step by step](examples/21-tutorial-studio-board/poster.jpg)
+A 75-second tutorial of the studio board, recorded live: open, compare, react, pick.

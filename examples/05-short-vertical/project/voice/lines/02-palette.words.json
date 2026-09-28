@@ -1,0 +1,56 @@
+{
+ "source": "02-palette.wav",
+ "duration": 2.633,
+ "language": "en",
+ "model": "kokoro-v1.0-timestamped.onnx",
+ "words": [
+  {
+   "text": "Command",
+   "start": 0.03,
+   "end": 0.36,
+   "type": "word"
+  },
+  {
+   "text": "K",
+   "start": 0.4,
+   "end": 0.639,
+   "type": "word"
+  },
+  {
+   "text": "searches",
+   "start": 0.702,
+   "end": 1.036,
+   "type": "word"
+  },
+  {
+   "text": "every",
+   "start": 1.09,
+   "end": 1.328,
+   "type": "word"
+  },
+  {
+   "text": "note",
+   "start": 1.373,
+   "end": 1.589,
+   "type": "word"
+  },
+  {
+   "text": "as",
+   "start": 1.64,
+   "end": 1.704,
+   "type": "word"
+  },
+  {
+   "text": "you",
+   "start": 1.743,
+   "end": 1.812,
+   "type": "word"
+  },
+  {
+   "text": "type.",
+   "start": 1.87,
+   "end": 2.233,
+   "type": "word"
+  }
+ ]
+}

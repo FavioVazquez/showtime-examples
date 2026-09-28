@@ -1,0 +1,5 @@
+{"duration": 10.0, "tracks": [
+ {"id":"bed","kind":"music","file":"beds/bed-c3-pad.wav","fade_out":0.8},
+ {"id":"swell","kind":"sfx","synth":{"type":"swell","key":"D","intensity":0.7,"dur":4},"at":6.0,"align":"hit"},
+ {"id":"hit","kind":"sfx","synth":{"type":"thock","intensity":0.7},"at":6.0,"align":"hit","gain_db":-2}],
+ "master":{"lufs":-14,"true_peak":-1}}

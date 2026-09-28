@@ -1,0 +1,101 @@
+{
+ "schema": "showtime.studio.feedback/1",
+ "events": [
+  {
+   "id": "sim_r1_01",
+   "ts": "2026-09-27T21:39:52.000Z",
+   "type": "like",
+   "target": "c1-f1",
+   "rev": 1
+  },
+  {
+   "id": "sim_r1_02",
+   "ts": "2026-09-27T21:39:52.000Z",
+   "type": "comment",
+   "target": "c1-f1",
+   "rev": 1,
+   "text": "The slit of gold between the curtains is the hook. Keep frame 0 like this: it reads as us even as a thumbnail."
+  },
+  {
+   "id": "sim_r1_03",
+   "ts": "2026-09-27T21:39:52.000Z",
+   "type": "comment",
+   "target": "c1-f3",
+   "rev": 1,
+   "text": "The mark has to face us squarely when it lands, and the wordmark needs to sit on the dark floor, not on the gold."
+  },
+  {
+   "id": "sim_r1_04",
+   "ts": "2026-09-27T21:39:52.000Z",
+   "type": "pick",
+   "slot": "concept",
+   "target": "c1",
+   "rev": 1
+  },
+  {
+   "id": "sim_r1_05",
+   "ts": "2026-09-27T21:39:52.000Z",
+   "type": "pick",
+   "slot": "beds",
+   "target": "bed-c1",
+   "rev": 1
+  },
+  {
+   "id": "sim_r1_06",
+   "ts": "2026-09-27T21:39:52.000Z",
+   "type": "like",
+   "target": "c2-f2",
+   "rev": 1
+  },
+  {
+   "id": "sim_r1_07",
+   "ts": "2026-09-27T21:39:52.000Z",
+   "type": "comment",
+   "target": "w1-f2",
+   "rev": 1,
+   "text": "Fun, but a pixelated mark breaks our own brand rules. Park it."
+  },
+  {
+   "id": "sim_r1_08",
+   "ts": "2026-09-27T21:39:52.000Z",
+   "type": "answer",
+   "target": "lt-type",
+   "value": "fraunces",
+   "rev": 1
+  },
+  {
+   "id": "sim_r1_09",
+   "ts": "2026-09-27T21:39:52.000Z",
+   "type": "answer",
+   "target": "webgl-stinger",
+   "value": "chromatic-split",
+   "rev": 1
+  },
+  {
+   "id": "sim_r1_10",
+   "ts": "2026-09-27T21:39:52.000Z",
+   "type": "answer",
+   "target": "sound-logo",
+   "value": "new",
+   "rev": 1
+  },
+  {
+   "id": "sim_r1_11",
+   "ts": "2026-09-27T21:39:52.000Z",
+   "type": "answer",
+   "target": "adopt",
+   "value": "no",
+   "rev": 1,
+   "text": "Ship it as a pack first; we decide on v2 later."
+  },
+  {
+   "id": "sim_r1_12",
+   "ts": "2026-09-27T21:39:52.000Z",
+   "type": "dial",
+   "target": "energy",
+   "value": 45,
+   "rev": 1
+  }
+ ],
+ "_note": "Simulated reviewer round (the director played the user). Each event is stamped with the time this file was written and imported with `showtime studio feedback --import`; events are in the order listed."
+}

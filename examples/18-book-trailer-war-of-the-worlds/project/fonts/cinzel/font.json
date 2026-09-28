@@ -1,0 +1,114 @@
+{
+  "id": "cinzel",
+  "family": "Cinzel",
+  "category": "serif",
+  "version": "5.3.0",
+  "license": "OFL-1.1",
+  "type": "google",
+  "source": "https://github.com/google/fonts",
+  "axes": {
+    "wght": {
+      "default": "400",
+      "min": "400",
+      "max": "900",
+      "step": "1"
+    }
+  },
+  "subsets": [
+    "latin"
+  ],
+  "weights": [
+    400,
+    700,
+    900
+  ],
+  "styles": [
+    "normal"
+  ],
+  "files": [
+    {
+      "file": "cinzel-latin-400-normal.ttf",
+      "weight": 400,
+      "style": "normal",
+      "subset": "latin",
+      "format": "ttf",
+      "variable": false,
+      "url": "https://cdn.jsdelivr.net/fontsource/fonts/cinzel@5.3.0/latin-400-normal.ttf",
+      "sha256": "4ed75e6c1c2d1078e586b508afe71c471fefc89bb284d4e8cd099fa0347edcd6",
+      "bytes": 33864,
+      "renamed": true
+    },
+    {
+      "file": "cinzel-latin-400-normal.woff2",
+      "weight": 400,
+      "style": "normal",
+      "subset": "latin",
+      "format": "woff2",
+      "variable": false,
+      "url": "https://cdn.jsdelivr.net/fontsource/fonts/cinzel@5.3.0/latin-400-normal.woff2",
+      "sha256": "b873cdd90d6bd9ca4793c805b4175abfae00b3611ee8afccf63067133dcf1217",
+      "bytes": 14128
+    },
+    {
+      "file": "cinzel-latin-700-normal.ttf",
+      "weight": 700,
+      "style": "normal",
+      "subset": "latin",
+      "format": "ttf",
+      "variable": false,
+      "url": "https://cdn.jsdelivr.net/fontsource/fonts/cinzel@5.3.0/latin-700-normal.ttf",
+      "sha256": "71546ab7738fe984b3d6ea649e58f4ec47c8978b15df5d6d5c473293401b974a",
+      "bytes": 34000,
+      "renamed": true
+    },
+    {
+      "file": "cinzel-latin-700-normal.woff2",
+      "weight": 700,
+      "style": "normal",
+      "subset": "latin",
+      "format": "woff2",
+      "variable": false,
+      "url": "https://cdn.jsdelivr.net/fontsource/fonts/cinzel@5.3.0/latin-700-normal.woff2",
+      "sha256": "8efa224fe70fef188a39c095e218b81fd31061809f2752537e33a9ec7b9c2263",
+      "bytes": 15184
+    },
+    {
+      "file": "cinzel-latin-900-normal.ttf",
+      "weight": 900,
+      "style": "normal",
+      "subset": "latin",
+      "format": "ttf",
+      "variable": false,
+      "url": "https://cdn.jsdelivr.net/fontsource/fonts/cinzel@5.3.0/latin-900-normal.ttf",
+      "sha256": "d00b3cc0cfa915ee6aecaf43f5acf8101bbd7efc0067da651d06e2f24cca3100",
+      "bytes": 34084
+    },
+    {
+      "file": "cinzel-latin-900-normal.woff2",
+      "weight": 900,
+      "style": "normal",
+      "subset": "latin",
+      "format": "woff2",
+      "variable": false,
+      "url": "https://cdn.jsdelivr.net/fontsource/fonts/cinzel@5.3.0/latin-900-normal.woff2",
+      "sha256": "87128561fd042f0283e7b852af5d074154779eff37b9ad8600b331ad0ce4a6b7",
+      "bytes": 14804
+    },
+    {
+      "file": "cinzel-latin-wght-normal.woff2",
+      "weight": [
+        400,
+        900
+      ],
+      "style": "normal",
+      "subset": "latin",
+      "format": "woff2",
+      "variable": true,
+      "url": "https://cdn.jsdelivr.net/fontsource/fonts/cinzel:vf@5.3.0/latin-wght-normal.woff2",
+      "sha256": "09941fb1c169c38fd414536b37690057fc01b3117a5c63dd6571186540c8f370",
+      "bytes": 25904
+    }
+  ],
+  "names_fixed": 1,
+  "installed": "2026-09-27T15:35:49"
+}

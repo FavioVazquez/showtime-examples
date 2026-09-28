@@ -1,0 +1,9 @@
+{
+  "schema": "showtime.studio.feedback/1",
+  "events": [
+    {"id": "sim_r3_01", "ts": "2026-09-26T21:40:05.000Z", "type": "comment", "target": "c2", "at": 15.6, "rev": 3,
+     "text": "The app sinking under the wave line into the sunrise is exactly it."},
+    {"id": "sim_r3_02", "ts": "2026-09-26T21:40:30.000Z", "type": "approve", "target": "c2", "rev": 3,
+     "text": "Pace and order approved. Go to the full-size final."}
+  ]
+}

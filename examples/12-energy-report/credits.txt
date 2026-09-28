@@ -1,0 +1,8 @@
+Data: U.S. Energy Information Administration, Monthly Energy Review (August 2026), Table 7.2a
+  "Electricity Net Generation: Total (All Sectors)",
+  https://www.eia.gov/totalenergy/data/browser/index.php?tbl=T07.02A (accessed 2026-09-27).
+  U.S. government work, public domain. Solar = utility-scale. No EIA logo is used; EIA did not make or endorse this video.
+Icons: Lucide (ISC License), https://lucide.dev (flame, atom, wind, sun, droplet, pickaxe, ellipsis)
+Fonts: Bricolage Grotesque, Inter, JetBrains Mono (SIL Open Font License 1.1)
+Voice: Kokoro-82M, am_michael (Apache-2.0), synthesized locally.
+Music: composed locally with showtime (news-bumper style, GeneralUser GS SoundFont). Sound effects: synthesized locally.

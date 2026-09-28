@@ -1,0 +1,37 @@
+showtime launch film (v4) - credits
+
+MUSIC (attribution required, CC BY 4.0)
+'With These Hands' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
+  Source: https://www.scottbuckley.com.au/library/with-these-hands/
+  License: https://creativecommons.org/licenses/by/4.0/
+  Used: 2:22.19-3:02.19 of the original, faded in 0.25 s and out 2.2 s, loudness-normalised with the film (-14 LUFS). No other changes.
+  The composer's own terms (in addition to CC BY 4.0): his music is used only synchronised with other media, as here.
+  It is never distributed as a separate audio file, and it must not be registered with Content ID or any fingerprinting service.
+
+EVERY PICTURE IN THE FILM IS A SHOWTIME EXAMPLE VIDEO (showtime repository, examples/), shown without its sound.
+Their visual sources, from each example's own credits:
+- 19 Iceland travel slideshow: photos CC0 1.0 via Wikimedia Commons (Godafoss 3 by Tord Dellsen; Kirkjufell mountain by
+  Ivars Krutainis; Iceberg reflection in Jokulsarlon by Jeremy Bishop; Reynisdrangar beach by Annie Spratt); map data
+  Natural Earth (public domain). Full list: examples/19-travel-slideshow-iceland/credits.txt
+- 18 The War of the Worlds book trailer: illustrations by Henrique Alvim Correa (1906, public domain); Mars: NASA/JPL/USGS
+  (PIA00003); text: H. G. Wells (1898), Project Gutenberg eBook #36 (public domain). examples/18-book-trailer-war-of-the-worlds/credits.txt
+- 22 circle-area math explainer: made with Manim by showtime (MIT). examples/22-manim-circle-area/README.md
+- 07 data story: NASA GISS GISTEMP v4 (public domain). examples/07-data-story/README.md
+- 02 heat-pump explainer: drawn and animated by showtime (MIT). examples/02-explainer-heat-pump/README.md
+- 14 Kilauea PDF summary: USGS Hawaiian Volcano Observatory report and USGS overflight video (public domain; not endorsed by USGS).
+  examples/14-usgs-kilauea-pdf/credits.txt
+- 15 Black 26.1.0 release video: unofficial summary, not affiliated with the Black project or the PSF; Black is MIT.
+  examples/15-oss-release-black/credits.txt
+- 01 and 05 Tidepool launch and short: Tidepool is a fictional app made as sample material for showtime.
+- 08 space-photo montage: NASA images (public domain; no endorsement implied). examples/08-beat-montage/credits.txt
+- 17 teapot promo: images The Metropolitan Museum of Art, Open Access CC0 1.0 (object 2021.153.2; not affiliated with or
+  endorsed by The Met). examples/17-product-promo-teapot/credits.txt
+- 16 podcast audiogram: NASA photos (public domain; not endorsed by NASA). examples/16-podcast-audiogram/credits.txt
+- 12 US power-mix HTML video, shown playing in a WebKit iPhone-sized viewport (390x797): U.S. EIA data (public domain;
+  EIA did not make or endorse it). examples/12-energy-report/credits.txt
+
+TYPE AND BRAND
+Fonts: Fraunces, Geist, Geist Mono (SIL Open Font License 1.1). The showtime mark and wordmark: showtime brand assets
+(assets/brand/LICENSE.md).
+
+Made with showtime.

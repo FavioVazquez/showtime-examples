@@ -1,0 +1,28 @@
+<!doctype html>
+<!-- Stinger 1, "curtain sweep" (CSS/DOM): velvet drapes close from both sides, meet at 0.42-0.58 s (cut under
+     them at 0.5 s), then part again. Transparent at 0 and 1 s. Render: showtime render . --page curtain.html --alpha prores -->
+<html lang="en"><head><meta charset="utf-8">
+<script src="/_st/stage.js"></script>
+<link rel="stylesheet" href="curtain-call.css">
+<link rel="stylesheet" href="stingers.css">
+</head><body>
+<section class="scene" data-start="0" data-dur="1">
+  <div class="velvet" id="L" style="left:0; width:52%; transform-origin: 0 50%"><div class="edge" style="right:0"></div></div>
+  <div class="velvet" id="R" style="right:0; width:52%; transform-origin: 100% 50%"><div class="edge" style="left:0"></div></div>
+</section>
+<script>
+  const L = document.getElementById('L'), R = document.getElementById('R');
+  const inC = (p) => 1 - Math.pow(1 - p, 3), outIn = (p) => p * p * p;
+  ST.onSeek((t) => {
+    // closed amount 0..1: close 0-0.42 (decelerating), hold, open 0.58-1.0 (accelerating)
+    let c = t < 0.42 ? inC(t / 0.42) : t < 0.58 ? 1 : 1 - outIn((t - 0.58) / 0.42);
+    // drapes gather as they open: squeeze the folds toward the outer edge
+    const sx = 0.35 + 0.65 * c;
+    const off = (1 - c) * 100;
+    L.style.transform = `translateX(${(-off).toFixed(3)}%) scaleX(${sx.toFixed(4)})`;
+    R.style.transform = `translateX(${off.toFixed(3)}%) scaleX(${sx.toFixed(4)})`;
+    const vis = c > 0.001 ? '' : 'hidden';
+    L.style.visibility = R.style.visibility = vis;
+  });
+</script>
+</body></html>

@@ -1,0 +1,15 @@
+/* Curtain Call transition stingers: 1 s, transparent at both ends, fully covered at the cut point (0.5 s). */
+html, body { margin: 0; width: 100%; height: 100%; background: transparent; overflow: hidden; }
+.scene { --scene-bg: transparent; }
+/* velvet: vertical folds from the brand's velvet ramp (shadow, deep, velvet, sheen); a gold hem at the bottom */
+.velvet {
+  position: absolute; top: 0; bottom: 0;
+  background:
+    linear-gradient(180deg, rgb(21 16 14 / 0.55), transparent 22%, transparent 88%, rgb(21 16 14 / 0.35) 97.4%),
+    repeating-linear-gradient(90deg, rgb(0 0 0 / 0) 0, rgb(0 0 0 / 0.38) 2.3%, rgb(0 0 0 / 0) 4.1%, rgb(255 140 120 / 0.10) 5.2%, rgb(0 0 0 / 0) 6.9%),
+    repeating-linear-gradient(90deg, #3A0A0F 0, #7A0D18 1.8%, #B3121F 4.4%, #D0413A 5.6%, #B3121F 6.6%, #6E0B16 9%, #3A0A0F 10.6%);
+}
+.velvet::after { content: ''; position: absolute; left: 0; right: 0; bottom: 0; height: 2.2%; background: linear-gradient(180deg, #b58a2c, #E9B949 45%, #8e6a1f); }
+.velvet .edge { position: absolute; top: 0; bottom: 0; width: 1.4%; background: linear-gradient(90deg, rgb(58 10 15 / 0.0), rgb(233 185 73 / 0.35), rgb(58 10 15 / 0.0)); }
+/* the lit stage plate: a still of the empty, lit stage from the sting (project-owned render) */
+.stageplate { position: absolute; inset: 0; background: center / cover no-repeat url('assets/stage-plate.jpg'); }

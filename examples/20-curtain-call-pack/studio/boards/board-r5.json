@@ -1,0 +1,563 @@
+{
+  "schema": "showtime.studio.board/1",
+  "job": "curtain-call-pack-20260927-152547",
+  "title": "Curtain Call motion pack",
+  "brief": "A 5 s Curtain Call logo sting (16:9, 1:1, 9:16) with a sound logo, four lower thirds and two transition stingers an editor can drop into Premiere, all in the showtime brand.",
+  "rev": 5,
+  "phase": "review",
+  "format": {
+    "width": 1920,
+    "height": 1080
+  },
+  "round": {
+    "n": 4,
+    "label": "Delivered · decision log",
+    "prompt": "The pack shipped (D-015) and was fixed after review round 3 (D-017). The decisions that shaped it:",
+    "note": "D-002 Concept: C1 \"Velvet curtain\" (3D curtains, mark flown in, lands in the pool) [picked] · D-003 Sound: bed-c1 direction (piano warmth); final sting uses a new logo-sting motif in D with its tonic on the landing [picked] · D-004 Lower thirds: Fraunces 900 names, Inter roles; cream text on Stage/Wings, velvet only as the bar [picked] · D-005 WebGL stinger: chromatic-split; the second stinger is the CSS curtain sweep [picked] · D-006 Do not replace brand sting v1: ship as a separate pack in the example folder [picked] · D-007 Frame rules from comments: frame 0 stays the slit of light; the mark rests square to camera; the wordmark sits on the dark apron, never on the gold pool [picked] · D-008 W1 Arcade marquee parked [picked] · D-009 Pace: skip the separate look and sound boards; next stop is one storyboard + animatic board, then lock [assumed] · D-010 Brand kit: canonical assets/brand/brand.json via SHOWTIME_BRAND; brand init --from <repo> draft rejected (wrong sources, see crew/brand/extractor-diff.md) [assumed] · D-011 Animatic approved: C1 locked at 5.0 s, landing at 2.8 s on the logo-sting tonic; build 16:9, 1:1 and 9:16 plus the pack [picked] · D-012 Lower thirds keep honest placeholder names (names.json); pill dot enlarged from 2 to 2.6 cqmin [picked] · D-013 Locked. Build: three.js sting per aspect (native projects), lower thirds and stingers rendered with --alpha prores and --alpha webm [picked] · D-014 Review fixes: gold hem made visible (it sat below the boards and used reversed smoothstep edges); drape leading edges follow their folds [picked] · D-015 Pack shipped as example 20; sting v1 unchanged [picked] · D-016 Correction: the simulated feedback is restamped with the times each round was written and imported (21:39:52Z, 21:50:22Z, 22:07:43Z); the later feedback times quoted in D-002..D-015 were wrong [picked] · D-017 Review round 3 fixes: chromatic stinger clears by 0.92 s; role lines revealed only by the letter stagger; ProRes/WebM converted with the BT.709 matrix they are tagged with; whoosh hits on the cut; the same ~12 % slit on frame 0 in every layout; named 'Curtain Call motion pack sting' until v2 is adopted; softer wordmark wipe; earlier curtain start; dust kept in the beam [picked]"
+  },
+  "history": [
+    {
+      "rev": 5,
+      "note": "Review round 3 (critic): 1 blocker, 6 should-fix and 3 polish items fixed and re-rendered (D-017); the simulated feedback restamped with its real import times (D-016)"
+    },
+    {
+      "rev": 4,
+      "note": "Shipped as example 20 (D-015); the decision log D-002..D-015 is on this page"
+    },
+    {
+      "rev": 3,
+      "note": "Built and checked: three native sting renders (qa PASS, -14.0 LUFS, -1.5 dBTP); self-review fixed the curtain hem and the drapes' straight edges; pill dot enlarged (your note on LT-4); final 1:1 and 9:16 frames added to C1"
+    },
+    {
+      "rev": 2,
+      "note": "C1 picked (D-002). Storyboard (4 shots, 5.0 s) and a half-size animatic with the real mix; wordmark moved onto the dark apron and the mark rests square (your notes on C1-1/C1-3); lower thirds (4) and stingers (2) added as LT and TR"
+    },
+    {
+      "rev": 1,
+      "note": "Four directions for the sting (3 + wildcard), a 10 s bed each, and four build questions"
+    }
+  ],
+  "fonts": [
+    {
+      "family": "Fraunces",
+      "src": "media/fonts/fraunces.woff2",
+      "weight": "100 900"
+    },
+    {
+      "family": "Inter",
+      "src": "media/fonts/inter.woff2",
+      "weight": "100 900"
+    }
+  ],
+  "concepts": [
+    {
+      "id": "c1",
+      "tag": "C1",
+      "title": "Velvet curtain",
+      "logline": "A real 3D stage: velvet curtains part, the mark is flown in from the flies and lands in the spotlight pool.",
+      "hook": "Frame 0: a slit of gold light between closed velvet curtains.",
+      "duration": 5,
+      "recommended": true,
+      "why": "The only direction that is true 3D, and it acts out the brand idea itself: the curtain opens, the show starts.",
+      "tone": [
+        "cinematic",
+        "warm",
+        "crafted"
+      ],
+      "palette": [
+        {
+          "hex": "#B3121F",
+          "name": "Velvet"
+        },
+        {
+          "hex": "#E9B949",
+          "name": "Spotlight gold"
+        },
+        {
+          "hex": "#15100E",
+          "name": "Stage"
+        },
+        {
+          "hex": "#F5EBDC",
+          "name": "House cream"
+        }
+      ],
+      "type": {
+        "display": {
+          "family": "Fraunces",
+          "sample": "showtime"
+        },
+        "body": {
+          "family": "Inter"
+        }
+      },
+      "music": {
+        "vibe": "piano, then the logo motif on the landing",
+        "bpm": 72,
+        "ref": "bed-c1"
+      },
+      "structure": [
+        {
+          "label": "Slit",
+          "dur": 0.3
+        },
+        {
+          "label": "Curtains part",
+          "dur": 2
+        },
+        {
+          "label": "Lands",
+          "dur": 0.75
+        },
+        {
+          "label": "Wordmark",
+          "dur": 1.95
+        }
+      ],
+      "risk": "Heaviest to render (WebGL); the mark moves in 3D, so it must come to rest square to camera (brand: no rotated mark).",
+      "unlocks": "nothing extra: brand files only",
+      "frames": [
+        {
+          "id": "c1-f1",
+          "src": "media/frames/c1-t0.jpg",
+          "thumb": "media/thumbs/c1-t0.jpg",
+          "caption": "0:00 slit of light (draft)"
+        },
+        {
+          "id": "c1-f3",
+          "src": "media/frames/c1-t4_6.jpg",
+          "thumb": "media/thumbs/c1-t4_6.jpg",
+          "caption": "4.6 lockup (draft)"
+        },
+        {
+          "id": "c1-f4",
+          "src": "media/frames/final-9x16.jpg",
+          "thumb": "media/thumbs/final-9x16.jpg",
+          "caption": "final 9:16 at 4.6 s"
+        }
+      ],
+      "storyboard": [
+        {
+          "id": "c1-s1",
+          "dur": 0.3,
+          "title": "Slit of light",
+          "text": "",
+          "note": "Frame 0: closed velvet, a slit of gold; the pool is already lit (feed thumbnail). Sound: piano pickup, low D drone.",
+          "thumb": "media/thumbs/c1-t0-2.jpg",
+          "frame": "media/frames/c1-t0-2.jpg"
+        },
+        {
+          "id": "c1-s2",
+          "dur": 2,
+          "title": "Curtains part",
+          "text": "",
+          "note": "0.3-2.3: the drapes travel open, the hem trails the top; the camera dollies in 7 %. Sound: heavy whoosh of velvet.",
+          "thumb": "media/thumbs/c1-t1_3.jpg",
+          "frame": "media/frames/c1-t1_3.jpg"
+        },
+        {
+          "id": "c1-s3",
+          "dur": 0.75,
+          "title": "Flown in, lands",
+          "text": "",
+          "note": "2.05-2.8: the mark is flown in from the flies and lands in the pool at 2.8, square to camera; the pool flares once. Sound: logo-sting tonic + thock on the landing, piano chorus downbeat.",
+          "thumb": "media/thumbs/c1-t2_8.jpg",
+          "frame": "media/frames/c1-t2_8.jpg"
+        },
+        {
+          "id": "c1-s4",
+          "dur": 1.95,
+          "title": "Wordmark + hold",
+          "text": "showtime",
+          "note": "3.05: the wordmark wipes up on the dark apron, readable from 3.85, holds to 5.0. Sound: shimmer, piano fades.",
+          "thumb": "media/thumbs/c1-t4_6-2.jpg",
+          "frame": "media/frames/c1-t4_6-2.jpg"
+        }
+      ],
+      "animatic": {
+        "src": "media/animatic/c1.mp4",
+        "duration": 5
+      }
+    },
+    {
+      "id": "c2",
+      "tag": "C2",
+      "title": "Marquee",
+      "logline": "A lit theatre marquee: bulbs chase around an empty board, then the mark and wordmark light up inside it.",
+      "hook": "Chasing bulbs on a dark board, one word: tonight.",
+      "duration": 5,
+      "tone": [
+        "playful",
+        "retro",
+        "warm"
+      ],
+      "palette": [
+        {
+          "hex": "#E9B949",
+          "name": "Spotlight gold"
+        },
+        {
+          "hex": "#231916",
+          "name": "Wings"
+        },
+        {
+          "hex": "#15100E",
+          "name": "Stage"
+        }
+      ],
+      "type": {
+        "display": {
+          "family": "Fraunces",
+          "sample": "tonight"
+        },
+        "body": {
+          "family": "Inter"
+        }
+      },
+      "music": {
+        "vibe": "synthwave drive",
+        "bpm": 100,
+        "ref": "bed-c2"
+      },
+      "structure": [
+        {
+          "label": "Bulbs chase",
+          "dur": 1.5
+        },
+        {
+          "label": "Board lights",
+          "dur": 1.5
+        },
+        {
+          "label": "Lockup",
+          "dur": 2
+        }
+      ],
+      "risk": "Flat 2D; close to a generic 'coming soon' sign",
+      "unlocks": "nothing extra",
+      "frames": [
+        {
+          "id": "c2-f1",
+          "src": "media/frames/c2-hook.jpg",
+          "thumb": "media/thumbs/c2-hook.jpg",
+          "caption": "hook: bulbs chase"
+        },
+        {
+          "id": "c2-f2",
+          "src": "media/frames/c2-end.jpg",
+          "thumb": "media/thumbs/c2-end.jpg",
+          "caption": "end: lockup"
+        }
+      ]
+    },
+    {
+      "id": "c3",
+      "tag": "C3",
+      "title": "Spotlight",
+      "logline": "No curtain: one follow-spot searches a dark stage and finds the mark.",
+      "hook": "A cone of light rakes across empty boards.",
+      "duration": 5,
+      "tone": [
+        "minimal",
+        "suspense",
+        "premium"
+      ],
+      "palette": [
+        {
+          "hex": "#15100E",
+          "name": "Stage"
+        },
+        {
+          "hex": "#E9B949",
+          "name": "Spotlight gold"
+        },
+        {
+          "hex": "#F5EBDC",
+          "name": "House cream"
+        }
+      ],
+      "type": {
+        "display": {
+          "family": "Fraunces",
+          "sample": "showtime"
+        },
+        "body": {
+          "family": "Inter"
+        }
+      },
+      "music": {
+        "vibe": "ambient pad, swell into the hit",
+        "bpm": 70,
+        "ref": "bed-c3"
+      },
+      "structure": [
+        {
+          "label": "Search",
+          "dur": 2
+        },
+        {
+          "label": "Find",
+          "dur": 0.8
+        },
+        {
+          "label": "Lockup",
+          "dur": 2.2
+        }
+      ],
+      "risk": "Mostly dark frames: weakest thumbnail in a feed",
+      "unlocks": "nothing extra",
+      "frames": [
+        {
+          "id": "c3-f1",
+          "src": "media/frames/c3-hook.jpg",
+          "thumb": "media/thumbs/c3-hook.jpg",
+          "caption": "hook: the search"
+        },
+        {
+          "id": "c3-f2",
+          "src": "media/frames/c3-end.jpg",
+          "thumb": "media/thumbs/c3-end.jpg",
+          "caption": "end: found"
+        }
+      ]
+    },
+    {
+      "id": "w1",
+      "tag": "W1",
+      "title": "Arcade marquee",
+      "wildcard": true,
+      "logline": "An 8-bit marquee says now showing; the board pixel-dissolves into the mark.",
+      "hook": "A pixel marquee chasing: NOW SHOWING, PRESS START.",
+      "duration": 5,
+      "tone": [
+        "playful",
+        "nerdy"
+      ],
+      "palette": [
+        {
+          "hex": "#E9B949",
+          "name": "Spotlight gold"
+        },
+        {
+          "hex": "#231916",
+          "name": "Wings"
+        },
+        {
+          "hex": "#3A2C27",
+          "name": "Proscenium"
+        }
+      ],
+      "type": {
+        "display": {
+          "family": "Inter",
+          "sample": "NOW SHOWING"
+        },
+        "body": {
+          "family": "Inter"
+        }
+      },
+      "music": {
+        "vibe": "retro 8-bit",
+        "bpm": 132,
+        "ref": "bed-w1"
+      },
+      "structure": [
+        {
+          "label": "Pixel marquee",
+          "dur": 2
+        },
+        {
+          "label": "Pixel dissolve",
+          "dur": 0.6
+        },
+        {
+          "label": "Lockup",
+          "dur": 2.4
+        }
+      ],
+      "risk": "Pixelating the mark is an effect on the artwork (BRAND.md don'ts): only the transition may touch it, never the resting mark",
+      "unlocks": "nothing extra",
+      "frames": [
+        {
+          "id": "w1-f1",
+          "src": "media/frames/w1-t0_6.jpg",
+          "thumb": "media/thumbs/w1-t0_6.jpg",
+          "caption": "hook: pixel marquee"
+        },
+        {
+          "id": "w1-f2",
+          "src": "media/frames/w1-t2_3.jpg",
+          "thumb": "media/thumbs/w1-t2_3.jpg",
+          "caption": "pixel-dissolve into the mark"
+        }
+      ]
+    },
+    {
+      "id": "lt",
+      "tag": "LT",
+      "title": "Lower thirds (pack)",
+      "logline": "Four variants for Premiere, 6 s each with alpha: bar (velvet bar), card (Wings card, gold rule), kicker (gold badge), pill (gold dot). Names in Fraunces 900, roles in Inter with an anime.js letter stagger.",
+      "hook": "Name readable within 0.6 s of the entrance.",
+      "duration": 6,
+      "tone": [
+        "clean",
+        "branded"
+      ],
+      "structure": [
+        {
+          "label": "In",
+          "dur": 0.85
+        },
+        {
+          "label": "Hold",
+          "dur": 4
+        },
+        {
+          "label": "Out",
+          "dur": 0.4
+        }
+      ],
+      "frames": [
+        {
+          "id": "lt-f1",
+          "src": "media/frames/lt-bar.jpg",
+          "thumb": "media/thumbs/lt-bar.jpg",
+          "caption": "bar",
+          "placeholder": true
+        },
+        {
+          "id": "lt-f2",
+          "src": "media/frames/lt-card.jpg",
+          "thumb": "media/thumbs/lt-card.jpg",
+          "caption": "card",
+          "placeholder": true
+        },
+        {
+          "id": "lt-f3",
+          "src": "media/frames/lt-kicker.jpg",
+          "thumb": "media/thumbs/lt-kicker.jpg",
+          "caption": "kicker (brand tagline)"
+        },
+        {
+          "id": "lt-f4",
+          "src": "media/frames/lt-pill.jpg",
+          "thumb": "media/thumbs/lt-pill.jpg",
+          "caption": "pill",
+          "placeholder": true
+        }
+      ],
+      "animatic": {
+        "src": "media/animatic/lt-bar.mp4",
+        "duration": 6
+      },
+      "risk": "Sample names are placeholders (names.json); the preview plate is a sting frame, the renders are transparent"
+    },
+    {
+      "id": "tr",
+      "tag": "TR",
+      "title": "Transition stingers (pack)",
+      "logline": "Two 1 s stingers with alpha, fully covered at the cut point: a CSS curtain sweep, and a velvet drape that turns into the lit stage through the WebGL chromatic-split.",
+      "hook": "Cut under the velvet at 0.5 s (curtain) or 0.45 s (chromatic).",
+      "duration": 1,
+      "tone": [
+        "fast",
+        "theatrical"
+      ],
+      "structure": [
+        {
+          "label": "Cover",
+          "dur": 0.42
+        },
+        {
+          "label": "Cut point",
+          "dur": 0.16
+        },
+        {
+          "label": "Reveal",
+          "dur": 0.42
+        }
+      ],
+      "frames": [
+        {
+          "id": "tr-f1",
+          "src": "media/frames/tr-curtain-300.jpg",
+          "thumb": "media/thumbs/tr-curtain-300.jpg",
+          "caption": "curtain sweep 0.3 s"
+        },
+        {
+          "id": "tr-f2",
+          "src": "media/frames/tr-chromatic-420.jpg",
+          "thumb": "media/thumbs/tr-chromatic-420.jpg",
+          "caption": "chromatic-split 0.42 s"
+        },
+        {
+          "id": "tr-f3",
+          "src": "media/frames/tr-chromatic-500.jpg",
+          "thumb": "media/thumbs/tr-chromatic-500.jpg",
+          "caption": "the lit stage 0.5 s"
+        }
+      ],
+      "animatic": {
+        "src": "media/animatic/tr-chromatic.mp4",
+        "duration": 1
+      },
+      "risk": "The shader draws opaque pixels, so its window sits between two full-frame plates; the ends are CSS moves"
+    }
+  ],
+  "audio": [
+    {
+      "id": "beds",
+      "label": "Concept beds",
+      "kind": "music",
+      "hint": "10 s each, all mastered to -14 LUFS; C1 and C3 include their sound-logo moment",
+      "variants": [
+        {
+          "id": "bed-c1",
+          "label": "C1 piano + logo sting",
+          "src": "media/audio/bed-c1-piano.mp3",
+          "meta": "piano-emotional · D · logo-sting at 6.0 s"
+        },
+        {
+          "id": "bed-c2",
+          "label": "C2 synthwave",
+          "src": "media/audio/bed-c2-synthwave.mp3",
+          "meta": "synthwave · D minor"
+        },
+        {
+          "id": "bed-c3",
+          "label": "C3 pad + swell",
+          "src": "media/audio/bed-c3-pad-swell.mp3",
+          "meta": "ambient-pad · D · swell into a hit at 6.0 s"
+        },
+        {
+          "id": "bed-w1",
+          "label": "W1 8-bit",
+          "src": "media/audio/bed-w-8bit.mp3",
+          "meta": "retro-8bit · D"
+        }
+      ]
+    }
+  ],
+  "questions": [],
+  "dials": [
+    {
+      "id": "energy",
+      "label": "Energy",
+      "left": "calm",
+      "right": "punchy",
+      "default": 45
+    },
+    {
+      "id": "pace",
+      "label": "Pace",
+      "left": "unhurried",
+      "right": "rapid",
+      "default": 55
+    }
+  ],
+  "updated": "2026-09-27T21:41:49.666Z",
+  "skip": [
+    "look",
+    "sound"
+  ]
+}

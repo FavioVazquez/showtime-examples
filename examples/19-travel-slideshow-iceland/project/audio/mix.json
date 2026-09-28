@@ -1,0 +1,97 @@
+{
+  "_comment": "Library bed: 'Somewhere Sunny (ver 2)', Kevin MacLeod, CC BY 4.0 (taken from the library by id, so the mix writes the CC-BY credit and render ships it as credits.txt). bed-a plays the track from its start to the downbeat at 38.522 s (bar 17); bed-b splices in the song's own ending at that downbeat (track 104.165 s, the last Dm-G-C cadence), so the final chord lands at 43.05 s on the grid. `showtime audio fit --dur 45` was tried first: its trim ends on bar 19 (a G chord), not on a tonic. Scene starts in index.html are the bed's downbeats (audio/somewhere-sunny-ver-2.beats.json), floored to the frame. Ambience (CC0): wind under the map open, water under the three waterfalls. Whooshes (synth) only on the three whip cuts.",
+  "sample_rate": 48000,
+  "tracks": [
+    {
+      "id": "bed-a",
+      "kind": "music",
+      "start": 0,
+      "offset": 0,
+      "end": 38.522,
+      "fade_out": 0.05,
+      "level": "raw",
+      "lib": "incompetech-somewhere-sunny-ver-2"
+    },
+    {
+      "id": "bed-b",
+      "kind": "music",
+      "start": 38.472,
+      "offset": 104.115,
+      "end": 45.0,
+      "fade_in": 0.05,
+      "fade_out": 0.6,
+      "level": "raw",
+      "lib": "incompetech-somewhere-sunny-ver-2"
+    },
+    {
+      "id": "wind",
+      "kind": "ambience",
+      "lib": "generated-ambience/wind-01-30s",
+      "start": 2.1,
+      "end": 7.4,
+      "fade_in": 0.5,
+      "fade_out": 0.9,
+      "gain_db": 2
+    },
+    {
+      "id": "water-south",
+      "kind": "ambience",
+      "lib": "oga-40-cc0-water-splash-slime-sfx/loop-water-02",
+      "loop": true,
+      "start": 15.7,
+      "end": 23.1,
+      "fade_in": 0.6,
+      "fade_out": 0.7,
+      "gain_db": 1
+    },
+    {
+      "id": "water-north",
+      "kind": "ambience",
+      "lib": "oga-40-cc0-water-splash-slime-sfx/loop-water-02",
+      "loop": true,
+      "offset": 2.0,
+      "start": 29.3,
+      "end": 34.3,
+      "fade_in": 0.6,
+      "fade_out": 0.7,
+      "gain_db": 1
+    },
+    {
+      "kind": "sfx",
+      "synth": {
+        "type": "whoosh",
+        "intensity": 0.45,
+        "seed": 11
+      },
+      "at": 20.41,
+      "align": "peak",
+      "gain_db": 6
+    },
+    {
+      "kind": "sfx",
+      "synth": {
+        "type": "whoosh",
+        "intensity": 0.45,
+        "seed": 12
+      },
+      "at": 22.686,
+      "align": "peak",
+      "gain_db": -1
+    },
+    {
+      "kind": "sfx",
+      "synth": {
+        "type": "whoosh",
+        "intensity": 0.5,
+        "seed": 13
+      },
+      "at": 24.938,
+      "align": "peak",
+      "gain_db": 6
+    }
+  ],
+  "master": {
+    "lufs": -14,
+    "true_peak": -1
+  }
+}

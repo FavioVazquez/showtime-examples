@@ -1,0 +1,14 @@
+{
+  "source": "lucide",
+  "source_label": "lucide-static 1.48.0",
+  "id": "lucide:wind",
+  "title": "wind",
+  "license": "ISC",
+  "license_url": "https://spdx.org/licenses/ISC.html",
+  "landing_url": "https://lucide.dev/icons/wind",
+  "fetched": "2026-09-27T11:48:34",
+  "license_class": "free",
+  "attribution_required": false,
+  "credit": "\"wind\" via lucide-static 1.48.0 (ISC) - https://lucide.dev/icons/wind",
+  "file": "wind.svg"
+}

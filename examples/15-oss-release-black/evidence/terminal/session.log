@@ -1,0 +1,44 @@
+$ pip install black==26.1.0
+Collecting black==26.1.0
+  Using cached black-26.1.0-cp312-cp312-macosx_10_13_x86_64.whl.metadata (88 kB)
+Collecting click>=8.0.0 (from black==26.1.0)
+  Using cached click-8.5.0-py3-none-any.whl.metadata (2.6 kB)
+Collecting mypy-extensions>=0.4.3 (from black==26.1.0)
+  Using cached mypy_extensions-1.1.0-py3-none-any.whl.metadata (1.1 kB)
+Collecting packaging>=22.0 (from black==26.1.0)
+  Using cached packaging-26.3-py3-none-any.whl.metadata (3.5 kB)
+Collecting pathspec>=1.0.0 (from black==26.1.0)
+  Using cached pathspec-1.1.1-py3-none-any.whl.metadata (14 kB)
+Collecting platformdirs>=2 (from black==26.1.0)
+  Using cached platformdirs-4.12.0-py3-none-any.whl.metadata (5.5 kB)
+Collecting pytokens>=0.3.0 (from black==26.1.0)
+  Using cached pytokens-0.4.1-py3-none-any.whl.metadata (3.8 kB)
+Using cached black-26.1.0-cp312-cp312-macosx_10_13_x86_64.whl (1.9 MB)
+Using cached click-8.5.0-py3-none-any.whl (125 kB)
+Using cached mypy_extensions-1.1.0-py3-none-any.whl (5.0 kB)
+Using cached packaging-26.3-py3-none-any.whl (129 kB)
+Using cached pathspec-1.1.1-py3-none-any.whl (57 kB)
+Using cached platformdirs-4.12.0-py3-none-any.whl (32 kB)
+Using cached pytokens-0.4.1-py3-none-any.whl (13 kB)
+Installing collected packages: pytokens, platformdirs, pathspec, packaging, mypy-extensions, click, black
+Successfully installed black-26.1.0 click-8.5.0 mypy-extensions-1.1.0 packaging-26.3 pathspec-1.1.1 platformdirs-4.12.0 pytokens-0.4.1
+
+[notice] A new release of pip is available: 24.3.1 -> 26.2.1
+[notice] To update, run: pip install --upgrade pip
+$ black --version
+black, 26.1.0 (compiled: yes)
+Python (CPython) 3.12.9
+$ black --check app.py
+would reformat app.py
+
+Oh no! 💥 💔 💥
+1 file would be reformatted.
+[exit=1]
+$ black app.py
+reformatted app.py
+
+All done! ✨ 🍰 ✨
+1 file reformatted.
+$ black --check app.py
+All done! ✨ 🍰 ✨
+1 file would be left unchanged.

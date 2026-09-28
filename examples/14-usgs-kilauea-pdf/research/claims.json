@@ -1,0 +1,23 @@
+{
+  "source_root": "src/ (job folder). PDF = src/PrelimSum_LERZ-Summit_2018.pdf, text layer extracted to src/pdf/text.txt (pypdf), pages rendered to src/pdf/page-N.png",
+  "claims": [
+    {"id": "K1", "scene": "hook", "text": "In 2018 Kīlauea's summit collapsed as the magma beneath it drained to the lower East Rift Zone", "source": "PDF title (text.txt:2-3) + https://www.usgs.gov/volcanoes/kilauea/2018-lower-east-rift-zone-eruption-and-summit-collapse ('partially drained the summit magma reservoir')", "status": "sourced"},
+    {"id": "K2", "scene": "where", "text": "Kīlauea is on the Island of Hawaiʻi; marker at 19.421 N, 155.287 W", "source": "text.txt:87 ('event on the Island of Hawaiʻi'); coordinates https://www.usgs.gov/volcanoes/kilauea Quick Facts", "status": "sourced"},
+    {"id": "K3", "scene": "where", "text": "The source is a two-page USGS Hawaiian Volcano Observatory summary, September 2018", "source": "PDF (2 pages); text.txt page-1 footer 'USGS Hawaiian Volcano Observatory, September 2018'", "status": "sourced"},
+    {"id": "K4", "scene": "start", "text": "April 30: the Puʻu ʻŌʻō vent collapses", "source": "text.txt:5", "status": "sourced"},
+    {"id": "K5", "scene": "start", "text": "May 3: fissure eruptions begin on the lower East Rift Zone", "source": "text.txt:9 ('Onset of LERZ fissure eruptions')", "status": "sourced"},
+    {"id": "K6", "scene": "start", "text": "May 4: magnitude-6.9 earthquake on Kīlauea's south flank", "source": "text.txt:10", "status": "sourced"},
+    {"id": "K7", "scene": "summit", "text": "Mid-May: shaking and ground tilt forced HVO staff out of their building on the caldera rim (chronology: May 16, HVO building vacated)", "source": "text.txt:16 and :58-62 (photo caption)", "status": "sourced"},
+    {"id": "K8", "scene": "summit", "text": "From May 29, near-daily summit collapse events, each releasing energy equivalent to a ~M5 earthquake", "source": "text.txt:19-20", "status": "sourced"},
+    {"id": "K9", "scene": "summit", "text": "Maximum subsidence more than 500 m (1,600 ft); profiles April 2018 vs August 2018", "source": "text.txt:88-89 (cross-section caption), page-2.png figure", "status": "sourced"},
+    {"id": "K10", "scene": "fissure8", "text": "Fissure 8 fountained to heights of 200 feet at times (May 29 footage)", "source": "https://www.usgs.gov/media/videos/kilauea-volcano-fissure-8-overflight (page text; also the clip's own end card)", "status": "sourced"},
+    {"id": "K11", "scene": "fissure8", "text": "June 3: lava from fissure 8 reaches the ocean at Kapoho Bay", "source": "text.txt:21 and :32", "status": "sourced"},
+    {"id": "K12", "scene": "numbers", "text": "13.7 square miles of land inundated by lava (35.5 km² on the PDF's map legend)", "source": "text.txt:66; page-1.png map legend", "status": "sourced"},
+    {"id": "K13", "scene": "numbers", "text": "716 dwellings destroyed by lava (per Hawaiʻi County)", "source": "text.txt:69", "status": "sourced"},
+    {"id": "K14", "scene": "numbers", "text": "875 acres of new land created by ocean entries", "source": "text.txt:68", "status": "sourced"},
+    {"id": "K15", "scene": "numbers", "text": "~60,000 earthquakes April 30 - August 4, 2018", "source": "text.txt:73", "status": "sourced"},
+    {"id": "K16", "scene": "numbers", "text": "Figures are preliminary (September 2018)", "source": "PDF title 'Preliminary summary'", "status": "sourced"},
+    {"id": "K17", "scene": "end", "text": "Aug 4: fissure 8 activity significantly decreases; summit deflation stops", "source": "text.txt:24", "status": "sourced"},
+    {"id": "K18", "scene": "end", "text": "Sept 22: Hawaiʻi Volcanoes National Park partially reopens", "source": "text.txt:28", "status": "sourced"}
+  ]
+}

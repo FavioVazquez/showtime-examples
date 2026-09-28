@@ -1,0 +1,421 @@
+{
+  "source": "vo.wav",
+  "duration": 25.644,
+  "language": "en",
+  "model": "showtime-voice",
+  "words": [
+    {
+      "text": "You",
+      "start": 0.06,
+      "end": 0.142,
+      "type": "word",
+      "line": "hook"
+    },
+    {
+      "text": "describe",
+      "start": 0.174,
+      "end": 0.6,
+      "type": "word",
+      "line": "hook"
+    },
+    {
+      "text": "the",
+      "start": 0.624,
+      "end": 0.67,
+      "type": "word",
+      "line": "hook"
+    },
+    {
+      "text": "video.",
+      "start": 0.714,
+      "end": 1.187,
+      "type": "word",
+      "line": "hook"
+    },
+    {
+      "text": "Claude",
+      "start": 1.947,
+      "end": 2.206,
+      "type": "word",
+      "line": "result"
+    },
+    {
+      "text": "directs.",
+      "start": 2.251,
+      "end": 2.767,
+      "type": "word",
+      "line": "result"
+    },
+    {
+      "text": "showtime",
+      "start": 3.017,
+      "end": 3.512,
+      "type": "word",
+      "line": "result"
+    },
+    {
+      "text": "does",
+      "start": 3.554,
+      "end": 3.697,
+      "type": "word",
+      "line": "result"
+    },
+    {
+      "text": "the",
+      "start": 3.724,
+      "end": 3.773,
+      "type": "word",
+      "line": "result"
+    },
+    {
+      "text": "work,",
+      "start": 3.819,
+      "end": 4.069,
+      "type": "word",
+      "line": "result"
+    },
+    {
+      "text": "on",
+      "start": 4.227,
+      "end": 4.293,
+      "type": "word",
+      "line": "result"
+    },
+    {
+      "text": "your",
+      "start": 4.317,
+      "end": 4.391,
+      "type": "word",
+      "line": "result"
+    },
+    {
+      "text": "own",
+      "start": 4.429,
+      "end": 4.547,
+      "type": "word",
+      "line": "result"
+    },
+    {
+      "text": "machine.",
+      "start": 4.57,
+      "end": 5.05,
+      "type": "word",
+      "line": "result"
+    },
+    {
+      "text": "Scored",
+      "start": 5.851,
+      "end": 6.182,
+      "type": "word",
+      "line": "terminal"
+    },
+    {
+      "text": "with",
+      "start": 6.206,
+      "end": 6.317,
+      "type": "word",
+      "line": "terminal"
+    },
+    {
+      "text": "music",
+      "start": 6.363,
+      "end": 6.672,
+      "type": "word",
+      "line": "terminal"
+    },
+    {
+      "text": "and",
+      "start": 6.704,
+      "end": 6.779,
+      "type": "word",
+      "line": "terminal"
+    },
+    {
+      "text": "sound,",
+      "start": 6.842,
+      "end": 7.281,
+      "type": "word",
+      "line": "terminal"
+    },
+    {
+      "text": "rendered",
+      "start": 7.591,
+      "end": 7.867,
+      "type": "word",
+      "line": "terminal"
+    },
+    {
+      "text": "frame",
+      "start": 7.936,
+      "end": 8.192,
+      "type": "word",
+      "line": "terminal"
+    },
+    {
+      "text": "by",
+      "start": 8.23,
+      "end": 8.368,
+      "type": "word",
+      "line": "terminal"
+    },
+    {
+      "text": "frame,",
+      "start": 8.436,
+      "end": 8.891,
+      "type": "word",
+      "line": "terminal"
+    },
+    {
+      "text": "and",
+      "start": 9.041,
+      "end": 9.118,
+      "type": "word",
+      "line": "terminal"
+    },
+    {
+      "text": "checked",
+      "start": 9.176,
+      "end": 9.461,
+      "type": "word",
+      "line": "terminal"
+    },
+    {
+      "text": "before",
+      "start": 9.511,
+      "end": 9.755,
+      "type": "word",
+      "line": "terminal"
+    },
+    {
+      "text": "it",
+      "start": 9.788,
+      "end": 9.859,
+      "type": "word",
+      "line": "terminal"
+    },
+    {
+      "text": "ships.",
+      "start": 9.924,
+      "end": 10.305,
+      "type": "word",
+      "line": "terminal"
+    },
+    {
+      "text": "Launch",
+      "start": 11.655,
+      "end": 11.898,
+      "type": "word",
+      "line": "wall"
+    },
+    {
+      "text": "films,",
+      "start": 11.944,
+      "end": 12.375,
+      "type": "word",
+      "line": "wall"
+    },
+    {
+      "text": "explainers,",
+      "start": 12.525,
+      "end": 13.136,
+      "type": "word",
+      "line": "wall"
+    },
+    {
+      "text": "vertical",
+      "start": 13.213,
+      "end": 13.558,
+      "type": "word",
+      "line": "wall"
+    },
+    {
+      "text": "shorts,",
+      "start": 13.613,
+      "end": 13.979,
+      "type": "word",
+      "line": "wall"
+    },
+    {
+      "text": "footage",
+      "start": 14.085,
+      "end": 14.384,
+      "type": "word",
+      "line": "wall"
+    },
+    {
+      "text": "cuts,",
+      "start": 14.405,
+      "end": 14.688,
+      "type": "word",
+      "line": "wall"
+    },
+    {
+      "text": "data",
+      "start": 14.835,
+      "end": 15.053,
+      "type": "word",
+      "line": "wall"
+    },
+    {
+      "text": "stories.",
+      "start": 15.099,
+      "end": 15.589,
+      "type": "word",
+      "line": "wall"
+    },
+    {
+      "text": "Want",
+      "start": 16.379,
+      "end": 16.59,
+      "type": "word",
+      "line": "studio"
+    },
+    {
+      "text": "options",
+      "start": 16.638,
+      "end": 17.02,
+      "type": "word",
+      "line": "studio"
+    },
+    {
+      "text": "first?",
+      "start": 17.067,
+      "end": 17.499,
+      "type": "word",
+      "line": "studio"
+    },
+    {
+      "text": "Pick",
+      "start": 17.749,
+      "end": 17.914,
+      "type": "word",
+      "line": "studio"
+    },
+    {
+      "text": "them",
+      "start": 17.959,
+      "end": 18.102,
+      "type": "word",
+      "line": "studio"
+    },
+    {
+      "text": "on",
+      "start": 18.132,
+      "end": 18.204,
+      "type": "word",
+      "line": "studio"
+    },
+    {
+      "text": "a",
+      "start": 18.227,
+      "end": 18.257,
+      "type": "word",
+      "line": "studio"
+    },
+    {
+      "text": "studio",
+      "start": 18.299,
+      "end": 18.617,
+      "type": "word",
+      "line": "studio"
+    },
+    {
+      "text": "board.",
+      "start": 18.663,
+      "end": 19.024,
+      "type": "word",
+      "line": "studio"
+    },
+    {
+      "text": "No",
+      "start": 19.804,
+      "end": 19.978,
+      "type": "word",
+      "line": "local"
+    },
+    {
+      "text": "cloud,",
+      "start": 20.014,
+      "end": 20.438,
+      "type": "word",
+      "line": "local"
+    },
+    {
+      "text": "no",
+      "start": 20.554,
+      "end": 20.743,
+      "type": "word",
+      "line": "local"
+    },
+    {
+      "text": "API",
+      "start": 20.824,
+      "end": 21.302,
+      "type": "word",
+      "line": "local"
+    },
+    {
+      "text": "keys,",
+      "start": 21.35,
+      "end": 21.751,
+      "type": "word",
+      "line": "local"
+    },
+    {
+      "text": "no",
+      "start": 21.914,
+      "end": 22.054,
+      "type": "word",
+      "line": "local"
+    },
+    {
+      "text": "uploads.",
+      "start": 22.1,
+      "end": 22.784,
+      "type": "word",
+      "line": "local"
+    },
+    {
+      "text": "Even",
+      "start": 23.053,
+      "end": 23.288,
+      "type": "word",
+      "line": "local"
+    },
+    {
+      "text": "this",
+      "start": 23.323,
+      "end": 23.464,
+      "type": "word",
+      "line": "local"
+    },
+    {
+      "text": "voice",
+      "start": 23.511,
+      "end": 23.77,
+      "type": "word",
+      "line": "local"
+    },
+    {
+      "text": "was",
+      "start": 23.803,
+      "end": 23.901,
+      "type": "word",
+      "line": "local"
+    },
+    {
+      "text": "made",
+      "start": 23.94,
+      "end": 24.112,
+      "type": "word",
+      "line": "local"
+    },
+    {
+      "text": "locally.",
+      "start": 24.159,
+      "end": 24.644,
+      "type": "word",
+      "line": "local"
+    }
+  ]
+}

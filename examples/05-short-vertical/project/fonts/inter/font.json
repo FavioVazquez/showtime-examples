@@ -1,0 +1,149 @@
+{
+  "id": "inter",
+  "family": "Inter",
+  "category": "sans-serif",
+  "version": "5.3.0",
+  "license": "OFL-1.1",
+  "type": "google",
+  "source": "https://github.com/google/fonts",
+  "axes": {
+    "ital": {
+      "default": "0",
+      "min": "0",
+      "max": "1",
+      "step": "1"
+    },
+    "opsz": {
+      "default": "14",
+      "min": "14",
+      "max": "32",
+      "step": "0.1"
+    },
+    "wght": {
+      "default": "400",
+      "min": "100",
+      "max": "900",
+      "step": "1"
+    }
+  },
+  "subsets": [
+    "latin"
+  ],
+  "weights": [
+    400,
+    500,
+    600,
+    700
+  ],
+  "styles": [
+    "normal"
+  ],
+  "files": [
+    {
+      "file": "inter-latin-400-normal.ttf",
+      "weight": 400,
+      "style": "normal",
+      "subset": "latin",
+      "format": "ttf",
+      "variable": false,
+      "url": "https://cdn.jsdelivr.net/fontsource/fonts/inter@5.3.0/latin-400-normal.ttf",
+      "sha256": "7c7c718a62e315a83fb5b5b0b086028bae10fc153701cf0f0b168e5f5a0c28f9",
+      "bytes": 66912,
+      "renamed": true
+    },
+    {
+      "file": "inter-latin-400-normal.woff2",
+      "weight": 400,
+      "style": "normal",
+      "subset": "latin",
+      "format": "woff2",
+      "variable": false,
+      "url": "https://cdn.jsdelivr.net/fontsource/fonts/inter@5.3.0/latin-400-normal.woff2",
+      "sha256": "8909904ab6c872eb994093482a88a28eca2cd95912d7b6fecd72103b0dc07edc",
+      "bytes": 23664
+    },
+    {
+      "file": "inter-latin-500-normal.ttf",
+      "weight": 500,
+      "style": "normal",
+      "subset": "latin",
+      "format": "ttf",
+      "variable": false,
+      "url": "https://cdn.jsdelivr.net/fontsource/fonts/inter@5.3.0/latin-500-normal.ttf",
+      "sha256": "f1bc97421091e36fe0b302e280119c2ca34fb56049964db2c73de4daa6c15b9f",
+      "bytes": 66992
+    },
+    {
+      "file": "inter-latin-500-normal.woff2",
+      "weight": 500,
+      "style": "normal",
+      "subset": "latin",
+      "format": "woff2",
+      "variable": false,
+      "url": "https://cdn.jsdelivr.net/fontsource/fonts/inter@5.3.0/latin-500-normal.woff2",
+      "sha256": "f3779f1efccc4bdcdf9c0a02ab95bf6bd092ed09c48c08cedc725889edd1d19f",
+      "bytes": 24272
+    },
+    {
+      "file": "inter-latin-600-normal.ttf",
+      "weight": 600,
+      "style": "normal",
+      "subset": "latin",
+      "format": "ttf",
+      "variable": false,
+      "url": "https://cdn.jsdelivr.net/fontsource/fonts/inter@5.3.0/latin-600-normal.ttf",
+      "sha256": "fb6efb6500fe6531b73c7a06d025ceaefc562ee03e9d840c76d48ee11e85b998",
+      "bytes": 67144
+    },
+    {
+      "file": "inter-latin-600-normal.woff2",
+      "weight": 600,
+      "style": "normal",
+      "subset": "latin",
+      "format": "woff2",
+      "variable": false,
+      "url": "https://cdn.jsdelivr.net/fontsource/fonts/inter@5.3.0/latin-600-normal.woff2",
+      "sha256": "f9a06e79cd3a2a20951c0f0e28f66dd0e6d3fda73911d640a2125c8fcb78f21a",
+      "bytes": 24452
+    },
+    {
+      "file": "inter-latin-700-normal.ttf",
+      "weight": 700,
+      "style": "normal",
+      "subset": "latin",
+      "format": "ttf",
+      "variable": false,
+      "url": "https://cdn.jsdelivr.net/fontsource/fonts/inter@5.3.0/latin-700-normal.ttf",
+      "sha256": "e0b3cad6de618fb83ef2dec26499beb6011a90971090a63dcf904670e13c53ec",
+      "bytes": 67128,
+      "renamed": true
+    },
+    {
+      "file": "inter-latin-700-normal.woff2",
+      "weight": 700,
+      "style": "normal",
+      "subset": "latin",
+      "format": "woff2",
+      "variable": false,
+      "url": "https://cdn.jsdelivr.net/fontsource/fonts/inter@5.3.0/latin-700-normal.woff2",
+      "sha256": "6f56409fd3d64bb85f7d070bce20749db2d66b6d63cec586cc22d1c761be2491",
+      "bytes": 24356
+    },
+    {
+      "file": "inter-latin-wght-normal.woff2",
+      "weight": [
+        100,
+        900
+      ],
+      "style": "normal",
+      "subset": "latin",
+      "format": "woff2",
+      "variable": true,
+      "url": "https://cdn.jsdelivr.net/fontsource/fonts/inter:vf@5.3.0/latin-wght-normal.woff2",
+      "sha256": "3100e775e8616cd2611beecfa23a4263d7037586789b43f035236a2e6fbd4c62",
+      "bytes": 48256
+    }
+  ],
+  "names_fixed": 1,
+  "installed": "2026-09-26T13:48:53"
+}

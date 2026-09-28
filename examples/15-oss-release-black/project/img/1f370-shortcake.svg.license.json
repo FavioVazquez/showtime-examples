@@ -1,0 +1,17 @@
+{
+  "source": "noto",
+  "source_label": "Noto Emoji (Google)",
+  "id": "noto:1F370",
+  "title": "shortcake emoji",
+  "author": "Google",
+  "license": "Apache-2.0",
+  "license_url": "https://spdx.org/licenses/Apache-2.0.html",
+  "landing_url": "https://github.com/googlefonts/noto-emoji",
+  "file_url": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/2D/svg/emoji_u1f370.svg",
+  "sha256": "e210a1a8ec9fca57cd3f519c9d1b677791524be7f1ea8e6f22dead49fbde7541",
+  "fetched": "2026-09-27T13:17:36",
+  "license_class": "free",
+  "attribution_required": false,
+  "credit": "\"shortcake emoji\" by Google via Noto Emoji (Google) (Apache-2.0) - https://github.com/googlefonts/noto-emoji",
+  "file": "1f370-shortcake.svg"
+}

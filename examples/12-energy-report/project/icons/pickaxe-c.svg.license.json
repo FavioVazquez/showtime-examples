@@ -1,0 +1,14 @@
+{
+  "source": "lucide",
+  "source_label": "lucide-static 1.48.0",
+  "id": "lucide:pickaxe",
+  "title": "pickaxe",
+  "license": "ISC",
+  "license_url": "https://spdx.org/licenses/ISC.html",
+  "landing_url": "https://lucide.dev/icons/pickaxe",
+  "fetched": "2026-09-27T11:54:33",
+  "license_class": "free",
+  "attribution_required": false,
+  "credit": "\"pickaxe\" via lucide-static 1.48.0 (ISC) - https://lucide.dev/icons/pickaxe",
+  "file": "pickaxe-c.svg"
+}

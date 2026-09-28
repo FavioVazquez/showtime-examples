@@ -1,0 +1,17 @@
+{
+  "source": "noto",
+  "source_label": "Noto Emoji (Google)",
+  "id": "noto:1F4A5",
+  "title": "collision emoji",
+  "author": "Google",
+  "license": "Apache-2.0",
+  "license_url": "https://spdx.org/licenses/Apache-2.0.html",
+  "landing_url": "https://github.com/googlefonts/noto-emoji",
+  "file_url": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/2D/svg/emoji_u1f4a5.svg",
+  "sha256": "485f4c7cb8810c76479f78aa577a07bcd8e2a84ddc3edb9f1abcb86c515a86eb",
+  "fetched": "2026-09-27T13:17:34",
+  "license_class": "free",
+  "attribution_required": false,
+  "credit": "\"collision emoji\" by Google via Noto Emoji (Google) (Apache-2.0) - https://github.com/googlefonts/noto-emoji",
+  "file": "1f4a5-collision.svg"
+}

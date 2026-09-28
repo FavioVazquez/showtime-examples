@@ -1,0 +1,19 @@
+== YouTube (16:9, 30 s) ==
+Title: The War of the Worlds (H. G. Wells, 1898) · a book trailer
+
+Description:
+"No one would have believed in the last years of the nineteenth century that this world was being watched keenly and closely by intelligences greater than man’s"
+H. G. Wells's novel, in its own words, over Henrique Alvim Corrêa's 1906 drawings. The book is public domain in the US: read it free at Project Gutenberg (eBook #36): https://www.gutenberg.org/ebooks/36
+
+Illustrations: Henrique Alvim Corrêa (1906), via Wikimedia Commons. Mars: NASA/JPL/USGS (PIA00003). Text: Project Gutenberg eBook #36.
+Narration: synthetic voice (Kokoro-82M, bm_george). Music and effects generated locally.
+
+Captions: the quotes are burned into the picture. captions.srt has the same text: upload it only if you want the
+quotes searchable, and know that viewers who turn CC on will see them twice.
+Thumbnail: poster.jpg (the fighting machine).
+Alt text: Henrique Alvim Corrêa's pencil drawing of a Martian fighting machine: a hooded tripod with tentacles and a heat-ray box.
+Posting notes: label the voice as synthetic if the platform asks.
+
+== YouTube Shorts / Reels (9:16, 15 s) ==
+"No one would have believed … that this world was being watched" The War of the Worlds, H. G. Wells, 1898. Read it free at Project Gutenberg (eBook #36). #books #scifi #hgwells
+(Captions are burned in; no caption file needed.)

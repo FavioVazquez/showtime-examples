@@ -1,0 +1,12 @@
+Title: Create, tag and find a note in Tidepool (50-second tutorial)
+
+Write a note, tag it, and pull it back up with ⌘K (Ctrl K on Windows and Linux). Three moves, start to finish.
+
+Chapters
+0:00 Create a note
+0:15 Tag it
+0:25 Find it with search (and search by tag)
+
+Tidepool is a fictional notes app made for this demo. Narration is a synthetic voice (Kokoro, af_heart).
+
+X: Write it. Tag it. Find it. A 50-second walkthrough of notes, tags and ⌘K search in Tidepool (a fictional demo app).

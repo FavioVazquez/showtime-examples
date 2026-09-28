@@ -1,0 +1,10 @@
+{
+  "_comment": "Library track, trimmed from 0 s to end on the 18.85 s downbeat with a short decay (same grid as `showtime audio beats`, so every scene cut in index.html sits on a beat). One low impact under the end-card downbeat. CC-BY: render writes credits.txt.",
+  "sample_rate": 48000,
+  "tracks": [
+    {"id": "bed", "kind": "music", "lib": "incompetech-at-launch", "fit": true, "level": "raw"},
+    {"kind": "sfx", "synth": {"type": "impact", "key": "C", "intensity": 0.55, "seed": 4}, "at": 16.51, "align": "hit", "gain_db": -9}
+  ],
+  "sections": {"intro": 0, "build": 9.45, "peak": 14.14, "end": 16.51},
+  "master": {"lufs": -14, "true_peak": -1}
+}

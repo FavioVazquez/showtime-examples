@@ -1,0 +1,44 @@
+{
+ "source": "03-new.wav",
+ "duration": 1.491,
+ "language": "en",
+ "model": "kokoro-v1.0-timestamped.onnx",
+ "words": [
+  {
+   "text": "Hit",
+   "start": 0.04,
+   "end": 0.113,
+   "type": "word"
+  },
+  {
+   "text": "N",
+   "start": 0.156,
+   "end": 0.297,
+   "type": "word"
+  },
+  {
+   "text": "for",
+   "start": 0.342,
+   "end": 0.459,
+   "type": "word"
+  },
+  {
+   "text": "a",
+   "start": 0.459,
+   "end": 0.509,
+   "type": "word"
+  },
+  {
+   "text": "fresh",
+   "start": 0.509,
+   "end": 0.707,
+   "type": "word"
+  },
+  {
+   "text": "note.",
+   "start": 0.751,
+   "end": 1.081,
+   "type": "word"
+  }
+ ]
+}

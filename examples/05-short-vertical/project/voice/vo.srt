@@ -1,0 +1,30 @@
+1
+00:00:00,020 --> 00:00:02,040
+Three shortcuts that
+make Tidepool fast.
+
+2
+00:00:02,537 --> 00:00:04,740
+Command K searches
+every note as you type.
+
+3
+00:00:05,407 --> 00:00:06,577
+Hit N for a fresh note.
+
+4
+00:00:07,114 --> 00:00:08,306
+Command E flips your
+
+5
+00:00:08,342 --> 00:00:09,562
+Markdown into a preview.
+
+6
+00:00:10,187 --> 00:00:10,737
+Tidepool.
+
+7
+00:00:11,027 --> 00:00:12,897
+Your notes, kept on
+your own machine.

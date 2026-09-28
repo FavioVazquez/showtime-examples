@@ -1,0 +1,198 @@
+{
+  "_comment": "Tidepool trailer: composed cinematic-build score (the studio pick, bed-macro) at 95 bpm in D minor, sections on the picture's act breaks; one sound family (water drops, soft key clicks) plus one heavy whoosh on the pull-back and a tonal swell into the name. Everything generated locally; nothing to credit. Review round 4: key clicks -9/-10 -> -3 dB with a 6 dB duck on the score while they play (4.40-5.05 s); whoosh peak 12.95 -> 13.15 s to follow the held Sync shot.",
+  "sample_rate": 48000,
+  "tracks": [
+    {
+      "id": "score",
+      "kind": "music",
+      "compose": {
+        "style": "cinematic-build",
+        "bpm": 95,
+        "key": "Dm",
+        "sections": "0:intro,7.6:build,12.6:drop,15.2:outro",
+        "seed": 0
+      },
+      "gain_db": 0,
+      "duck": {
+        "under": [
+          "key1",
+          "key2",
+          "key3",
+          "key4",
+          "key5",
+          "key6"
+        ],
+        "depth_db": 6,
+        "attack": 0.03,
+        "release": 0.35,
+        "hold": 0.25,
+        "lookahead": 0.06
+      }
+    },
+    {
+      "id": "drone",
+      "kind": "ambience",
+      "synth": {
+        "type": "drone",
+        "key": "D",
+        "dur": 9,
+        "seed": 8
+      },
+      "start": 0,
+      "gain_db": 5,
+      "fade_in": 0.05,
+      "fade_out": 1.6
+    },
+    {
+      "kind": "sfx",
+      "synth": {
+        "type": "water-drop",
+        "intensity": 0.45,
+        "seed": 1
+      },
+      "at": 0.12,
+      "align": "hit",
+      "gain_db": -7
+    },
+    {
+      "kind": "sfx",
+      "synth": {
+        "type": "keyclick",
+        "seed": 11
+      },
+      "at": 4.46,
+      "align": "hit",
+      "gain_db": -3,
+      "pan": 0.15,
+      "id": "key1"
+    },
+    {
+      "kind": "sfx",
+      "synth": {
+        "type": "keyclick",
+        "seed": 12
+      },
+      "at": 4.57,
+      "align": "hit",
+      "gain_db": -3,
+      "pan": 0.15,
+      "id": "key2"
+    },
+    {
+      "kind": "sfx",
+      "synth": {
+        "type": "keyclick",
+        "seed": 13
+      },
+      "at": 4.68,
+      "align": "hit",
+      "gain_db": -3,
+      "pan": 0.15,
+      "id": "key3"
+    },
+    {
+      "kind": "sfx",
+      "synth": {
+        "type": "keyclick",
+        "seed": 14
+      },
+      "at": 4.79,
+      "align": "hit",
+      "gain_db": -3,
+      "pan": 0.15,
+      "id": "key4"
+    },
+    {
+      "kind": "sfx",
+      "synth": {
+        "type": "keyclick",
+        "seed": 15
+      },
+      "at": 4.9,
+      "align": "hit",
+      "gain_db": -3,
+      "pan": 0.15,
+      "id": "key5"
+    },
+    {
+      "kind": "sfx",
+      "synth": {
+        "type": "keyclick",
+        "seed": 16
+      },
+      "at": 5.01,
+      "align": "hit",
+      "gain_db": -3,
+      "pan": 0.15,
+      "id": "key6"
+    },
+    {
+      "kind": "sfx",
+      "synth": {
+        "type": "water-drop",
+        "intensity": 0.6,
+        "seed": 2
+      },
+      "at": 6.3,
+      "align": "hit",
+      "gain_db": -4
+    },
+    {
+      "kind": "sfx",
+      "synth": {
+        "type": "whoosh-heavy",
+        "intensity": 0.7,
+        "seed": 3
+      },
+      "at": 13.15,
+      "align": "peak",
+      "gain_db": -5
+    },
+    {
+      "kind": "sfx",
+      "synth": {
+        "type": "swell",
+        "key": "D",
+        "dur": 1.3,
+        "intensity": 0.5,
+        "seed": 4
+      },
+      "at": 16.47,
+      "align": "hit",
+      "gain_db": -8
+    },
+    {
+      "kind": "sfx",
+      "synth": {
+        "type": "water-drop",
+        "intensity": 0.7,
+        "seed": 5
+      },
+      "at": 16.47,
+      "align": "hit",
+      "gain_db": -3
+    },
+    {
+      "kind": "sfx",
+      "synth": {
+        "type": "boom",
+        "intensity": 0.7,
+        "seed": 6
+      },
+      "at": 12.6,
+      "align": "hit",
+      "gain_db": -9
+    }
+  ],
+  "sections": {
+    "hook": 0,
+    "fragments": 2.533,
+    "build": 7.6,
+    "reveal": 12.6,
+    "name": 15.2
+  },
+  "master": {
+    "lufs": -14,
+    "true_peak": -1
+  }
+}

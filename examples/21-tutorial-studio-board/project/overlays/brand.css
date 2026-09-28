@@ -1,0 +1,12 @@
+:root {
+  --brand-bg: #15100E;
+  --brand-surface: #231916;
+  --brand-ink: #F5EBDC;
+  --brand-muted: #B6A795;
+  --brand-accent: #E9B949;
+  --brand-accent2: #B3121F;
+  --brand-border: #3A2C27;
+  --brand-font-display: 'Fraunces';
+  --brand-font-body: 'Inter';
+  --brand-font-mono: 'JetBrains Mono';
+}

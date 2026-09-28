@@ -1,0 +1,124 @@
+[
+ {
+  "id": "c1",
+  "tag": "C1",
+  "title": "Velvet curtain",
+  "logline": "A real 3D stage: velvet curtains part, the mark is flown in from the flies and lands in the spotlight pool.",
+  "hook": "Frame 0: a slit of gold light between closed velvet curtains.",
+  "duration": 5,
+  "structure": [
+   {
+    "label": "Slit of light",
+    "dur": 0.3
+   },
+   {
+    "label": "Curtains part",
+    "dur": 2
+   },
+   {
+    "label": "Mark lands",
+    "dur": 0.5
+   },
+   {
+    "label": "Wordmark + hold",
+    "dur": 2.2
+   }
+  ],
+  "tone": [
+   "cinematic",
+   "warm",
+   "crafted"
+  ],
+  "risk": "Heaviest to render (WebGL); the mark moves in 3D, so it must come to rest square to camera (brand: no rotated mark).",
+  "unlocks": "nothing extra: brand files only",
+  "recommended": true,
+  "why": "The only direction that is true 3D, and it acts out the brand idea itself: the curtain opens, the show starts."
+ },
+ {
+  "id": "c2",
+  "tag": "C2",
+  "title": "Marquee",
+  "logline": "A lit theatre marquee: bulbs chase around an empty board, then the mark and wordmark light up inside it.",
+  "hook": "Chasing bulbs on a dark board, one word: tonight.",
+  "duration": 5,
+  "structure": [
+   {
+    "label": "Bulbs chase",
+    "dur": 1.5
+   },
+   {
+    "label": "Board lights",
+    "dur": 1.5
+   },
+   {
+    "label": "Lockup",
+    "dur": 2
+   }
+  ],
+  "tone": [
+   "playful",
+   "retro",
+   "warm"
+  ],
+  "risk": "Flat 2D; close to a generic 'coming soon' sign",
+  "unlocks": "nothing extra"
+ },
+ {
+  "id": "c3",
+  "tag": "C3",
+  "title": "Spotlight",
+  "logline": "No curtain: one follow-spot searches a dark stage and finds the mark.",
+  "hook": "A cone of light rakes across empty boards.",
+  "duration": 5,
+  "structure": [
+   {
+    "label": "Search",
+    "dur": 2
+   },
+   {
+    "label": "Find",
+    "dur": 0.8
+   },
+   {
+    "label": "Lockup",
+    "dur": 2.2
+   }
+  ],
+  "tone": [
+   "minimal",
+   "suspense",
+   "premium"
+  ],
+  "risk": "Mostly dark frames: weakest thumbnail in a feed",
+  "unlocks": "nothing extra"
+ },
+ {
+  "id": "w1",
+  "tag": "W1",
+  "title": "Arcade marquee",
+  "logline": "An 8-bit marquee says now showing; the board pixel-dissolves into the mark.",
+  "hook": "A pixel marquee chasing: NOW SHOWING, PRESS START.",
+  "duration": 5,
+  "structure": [
+   {
+    "label": "Pixel marquee",
+    "dur": 2
+   },
+   {
+    "label": "Pixel dissolve",
+    "dur": 0.6
+   },
+   {
+    "label": "Lockup",
+    "dur": 2.4
+   }
+  ],
+  "tone": [
+   "playful",
+   "nerdy"
+  ],
+  "risk": "Pixelating the mark is an effect on the artwork (BRAND.md don'ts): only the transition may touch it, never the resting mark",
+  "unlocks": "nothing extra",
+  "wildcard": true
+ }
+]

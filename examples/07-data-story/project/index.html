@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>146 years of global temperature</title>
+<script src="/_st/stage.js"></script>
+<link rel="stylesheet" href="/_st/themes/editorial.css">
+<script type="module" src="/_st/components/index.js"></script>
+<script type="module">
+  import { StripesChart } from './stripes.js';
+  import { WarmestBars } from './warmest.js';
+  document.querySelectorAll('.stripes').forEach((el) => StripesChart(el));
+  document.querySelectorAll('.warmest').forEach((el) => WarmestBars(el));
+</script>
+<style>
+  /* Instrument Serif's "1" has no flag, so "11" reads as "ll" at display size. Digits in the serif
+     headings come from Fraunces instead (same theme font set, served locally); letters stay as they are. */
+  @font-face { font-family: 'Display Figures'; font-style: normal; font-display: block; font-weight: 100 900; src: url(/_lib/@fontsource-variable/fraunces/files/fraunces-latin-wght-normal.woff2) format('woff2-variations'); unicode-range: U+0030-0039; size-adjust: 84%; }
+  @font-face { font-family: 'Display Figures'; font-style: italic; font-display: block; font-weight: 100 900; src: url(/_lib/@fontsource-variable/fraunces/files/fraunces-latin-wght-italic.woff2) format('woff2-variations'); unicode-range: U+0030-0039; size-adjust: 84%; }
+  .t-hero, .t-title, .t-display, [data-st="count-up"] { font-variation-settings: "wght" 320, "opsz" 144; }
+  /* Every colour lives here. Data: NASA GISS GISTEMP v4 (data/, written by `showtime data import`). */
+  :root {
+    --font-display: 'Display Figures', 'Instrument Serif', 'Fraunces', Georgia, serif;
+    --bg: #efe8dc; --fg: #1d2422; --muted: #575b55;
+    --accent: #a8322a;                 /* warmest: the one "look here" colour */
+    --warm: #ad3d2a; --cool: #2f5f8c;  /* above / below the 1951-1980 average (warm darkened from #b8432f: 4.96:1 on --bg) */
+    /* warming-stripes ramp, cold to hot */
+    --s-cold: #1f4a78; --s-cool: #7ea6cb; --s-zero: #f8f4ec; --s-warm: #eba386; --s-hot: #c24a33; --s-max: #7d1b1f;
+    --pale-warm: #dcb4a2;   /* the other warm years: a pale version of the warm stripes */
+  }
+  .scene { padding: 0; }   /* cq units below are the full frame */
+  .stripes { position: absolute; inset: 0; }
+  .sc-svg { position: absolute; inset: 0; overflow: visible; }
+  .sc-grid line { stroke: color-mix(in oklab, var(--fg) 14%, transparent); stroke-width: 1.5; }
+  .sc-grid .sc-zero { stroke: var(--fg); stroke-width: 2.5; }
+  .sc-tick { fill: var(--muted); font: 500 29px var(--font-body); font-variant-numeric: tabular-nums; }
+  .sc-zero-lab { fill: var(--fg); font-weight: 600; }
+  .sc-year { fill: var(--muted); font: 500 30px var(--font-body); font-variant-numeric: tabular-nums; }
+  .sc-end { fill: var(--fg); font-weight: 600; }
+  .sc-run { stroke: var(--warm); stroke-width: 7; stroke-linecap: butt; }   /* flat ends: the 1977 cap stays on and above the zero line */
+  .sc-span { stroke: var(--accent); stroke-width: 3; fill: none; }
+  .sc-span-lab { fill: var(--accent); }
+  .sc-note { font: 600 31px var(--font-body); font-variant-numeric: tabular-nums; }
+  .sc-note-warm { fill: var(--warm); }
+  .sc-note-cool { fill: var(--cool); }
+  .sc-dot-cool { fill: var(--cool); }
+  .sc-mark { stroke: var(--fg); stroke-width: 3; }
+  .sc-ring { fill: none; stroke: var(--fg); stroke-width: 3; }
+  .sc-hot { fill: var(--fg); font: 700 44px var(--font-body); font-variant-numeric: tabular-nums; }
+
+  /* 1. hook */
+  .open .kicker { position: absolute; left: 7cqw; top: 8.5cqh; font-size: 2.7cqmin; }
+  .open .t-hero { position: absolute; left: 7cqw; top: 13.5cqh; font-size: 10.2cqmin; max-width: 80cqw; line-height: 0.98; }
+  .open .legend { position: absolute; left: 7cqw; right: 7cqw; top: 84.5cqh; font: 500 32px var(--font-body); color: var(--muted); text-align: center; }
+  .open .legend b { font-weight: 600; }
+  .open .legend .c { color: var(--cool); } .open .legend .w { color: var(--warm); }
+
+  /* 2. the record as bars */
+  .head { position: absolute; left: 7cqw; top: 6.5cqh; right: 7cqw; }
+  .head .t-title { font-size: 5.6cqmin; max-width: 86cqw; }
+  .head .sub { font: 400 29px var(--font-body); color: var(--muted); margin-top: 1.1cqh; }
+  .head.swap { top: 6.5cqh; }
+
+  /* 3. the eleven warmest (warmest.js, read from data/warmest-11.json and data/gistemp-annual.json) */
+  .warmest { position: absolute; inset: 0; transform: scale(calc(1 + .03 * var(--p, 0))); transform-origin: 55% 62%; }
+  .wb-svg { position: absolute; inset: 0; overflow: visible; }
+  .wb-base { stroke: var(--fg); stroke-width: 2.5; }
+  .wb-val { fill: var(--muted); font: 600 34px var(--font-body); font-variant-numeric: tabular-nums; }
+  .wb-val-hi { fill: var(--fg); }
+  .wb-year { fill: var(--muted); font: 500 31px var(--font-body); font-variant-numeric: tabular-nums; }
+  .wb-ref { stroke: var(--fg); stroke-width: 2.5; stroke-dasharray: 10 8; }
+  .wb-ref-lab { fill: var(--fg); font: 700 42px var(--font-body); font-variant-numeric: tabular-nums; }
+  .wb-ref-sub { fill: var(--fg); font: 500 32px var(--font-body); }
+  .wb-call-box { fill: var(--accent); }
+  .wb-call-text { fill: #fbf7f0; color: #fbf7f0; font: 600 31px var(--font-body); }
+  .bars .head { z-index: 1; }
+
+  /* 4. the number */
+  .stat .num { position: absolute; left: 7cqw; top: 10cqh; }
+  .stat [data-st="count-up"] { --cu-size: 20cqmin; color: var(--accent); }
+  .stat .what { position: absolute; left: 7cqw; top: 38cqh; font-size: 5.4cqmin; max-width: 86cqw; }
+  .stat .source { position: absolute; left: 7cqw; right: 7cqw; bottom: 9cqh; font: 400 32px var(--font-body); color: var(--muted); text-transform: none; letter-spacing: 0; }
+  .stat .pushwrap { position: absolute; inset: 0; transform: scale(calc(1 + .03 * var(--p, 0))); transform-origin: 50% 45%; }
+  .stat .st-cu-suffix { align-self: flex-start; margin-top: 0.14em; margin-left: 0.05em; font-size: 0.46em; }
+</style>
+</head>
+<body>
+<div class="stage">
+
+  <!-- 1. Hook: the takeaway over the record itself (146 stripes, one per year).
+       Frame 0 is already the full hook (it doubles as the thumbnail, no poster bake-in to flash):
+       the text has data-at -1, so it has landed before t=0. The first change is the bracket over
+       the last eleven stripes (0.35-0.95 s). exit-at is counted from each element's own data-at. -->
+  <section class="scene open" id="open" data-start="0" data-dur="5">
+    <div class="stripes" data-band="[0.42, 0.78]" data-wipe-at="-1" data-ends-out-at="4.3" data-span-last="11" data-span-at="0.35" data-cam-from="1" data-drift="0.006"></div>
+    <p class="t-label kicker" data-st="kinetic-type" data-style="fade" data-by="lines" data-at="-1" data-exit="fade" data-exit-at="4.85" data-exit-dur="0.4">NASA global temperature record · 1880–2025</p>
+    <h1 class="t-hero" data-st="kinetic-type" data-style="rise" data-by="lines" data-at="-1" data-dur="0.5" data-exit="fade" data-exit-at="5.15">The <em>last eleven years</em> were<br>the eleven warmest on record.</h1>
+    <p class="legend" data-st="kinetic-type" data-style="fade" data-by="lines" data-at="-1" data-exit="fade" data-exit-at="5.2">One stripe per year: <b class="c">bluer</b> is cooler, <b class="w">redder</b> is warmer.</p>
+  </section>
+
+  <!-- 2. The same stripes fold into bars around the 1951-1980 average; then 2024 alone -->
+  <section class="scene" id="lines" data-start="#open" data-dur="10.4">
+    <div class="stripes" data-band="[0.42, 0.78]" data-wipe-at="-1" data-morph-at="0.05" data-ends="false" data-notes-at="2.0" data-focus-at="5.9" data-cam-from="1.03" data-cam-to="1" data-drift="0.003"></div>
+    <div class="head">
+      <h2 class="t-title" data-st="kinetic-type" data-style="rise" data-at="0.6" data-exit="fade" data-exit-at="5.0">Since 1977, every year has been warmer than the 1951–1980 average</h2>
+      <p class="sub" data-st="kinetic-type" data-style="fade" data-by="lines" data-at="0.9" data-exit="fade" data-exit-at="4.7">Global mean surface temperature, difference from the 1951–1980 average</p>
+    </div>
+    <div class="head swap">
+      <h2 class="t-title" data-st="kinetic-type" data-style="rise" data-at="6.0">2024 was the warmest year in the record</h2>
+      <p class="sub" data-st="kinetic-type" data-style="fade" data-by="lines" data-at="6.8">146 years of annual means, 1880–2025</p>
+    </div>
+  </section>
+
+  <!-- 3. The eleven warmest years, in time order: they are the last eleven -->
+  <!-- values fade in at their final figure as each bar lands; then a dashed line at the next-warmest year -->
+  <section class="scene bars" id="bars" data-start="#lines" data-dur="7" data-transition="blur-dissolve 0.6">
+    <div class="warmest" data-at="0.15" data-ref-at="3.1" data-plot="[0.28, 0.835]"></div>
+    <div class="head">
+      <h2 class="t-title" data-st="kinetic-type" data-style="rise" data-at="0.15">The eleven warmest years on record: 2015 to 2025</h2>
+      <p class="sub" data-st="kinetic-type" data-style="fade" data-by="lines" data-at="0.95">°C above the 1951–1980 average, in time order</p>
+    </div>
+  </section>
+
+  <!-- 4. The number, and where it comes from -->
+  <section class="scene stat" id="stat" data-start="#bars" data-dur="7.6" data-transition="dip 0.7">
+    <div class="pushwrap">
+      <div class="stripes" data-wipe-at="0.02" data-wipe-dur="1.1" data-band="[0.525, 0.715]" data-mark="2024"></div>
+      <div class="num"><div data-st="count-up" data-value="1.29" data-from="1.29" data-decimals="2" data-prefix="+" data-suffix="°C" data-at="0.35" data-dur="1.6" data-align="left"></div></div>
+      <h2 class="t-display what" data-st="kinetic-type" data-style="rise" data-at="0.45"><em>2024</em>, the warmest year in 146 years of NASA records</h2>
+    </div>
+    <p class="source" data-st="kinetic-type" data-style="fade" data-by="lines" data-at="2.2">Source: NASA GISS Surface Temperature Analysis (GISTEMP v4), global annual means 1880–2025, difference from the 1951–1980 average. data.giss.nasa.gov/gistemp</p>
+  </section>
+
+  <div data-st="grain" data-opacity="0.03"></div>
+</div>
+</body>
+</html>

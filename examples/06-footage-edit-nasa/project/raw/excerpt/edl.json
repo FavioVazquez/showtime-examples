@@ -1,0 +1,18 @@
+{
+  "sources": {
+    "a": "../jsc2023m000095_Christina_Koch_Artemis_II_Crew_Announcement_Resource_Reel-social.mp4"
+  },
+  "ranges": [
+    {
+      "source": "a",
+      "start": 61.0,
+      "end": 142.0,
+      "note": "sit-down interview excerpt (source 1:01-2:22)"
+    }
+  ],
+  "output": {
+    "fps": 30
+  },
+  "grade": "none",
+  "loudness": false
+}

@@ -1,0 +1,56 @@
+{
+ "source": "04-preview.wav",
+ "duration": 2.846,
+ "language": "en",
+ "model": "kokoro-v1.0-timestamped.onnx",
+ "words": [
+  {
+   "text": "Command",
+   "start": 0.03,
+   "end": 0.47,
+   "type": "word"
+  },
+  {
+   "text": "E",
+   "start": 0.56,
+   "end": 0.846,
+   "type": "word"
+  },
+  {
+   "text": "flips",
+   "start": 0.925,
+   "end": 1.13,
+   "type": "word"
+  },
+  {
+   "text": "your",
+   "start": 1.153,
+   "end": 1.222,
+   "type": "word"
+  },
+  {
+   "text": "Markdown",
+   "start": 1.258,
+   "end": 1.694,
+   "type": "word"
+  },
+  {
+   "text": "into",
+   "start": 1.717,
+   "end": 1.883,
+   "type": "word"
+  },
+  {
+   "text": "a",
+   "start": 1.909,
+   "end": 1.939,
+   "type": "word"
+  },
+  {
+   "text": "preview.",
+   "start": 1.99,
+   "end": 2.446,
+   "type": "word"
+  }
+ ]
+}

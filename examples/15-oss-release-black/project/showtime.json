@@ -1,0 +1,14 @@
+{
+  "title": "black 26.1.0: the 2026 stable style (unofficial)",
+  "width": 1920,
+  "height": 1080,
+  "fps": 30,
+  "duration": 35.0,
+  "background": "#0f1114",
+  "poster": 32.6,
+  "audio": "audio/mix.json",
+  "platform": "github",
+  "render": {
+    "crf": 18
+  }
+}

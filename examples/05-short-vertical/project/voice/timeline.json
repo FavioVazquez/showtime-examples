@@ -1,0 +1,605 @@
+{
+ "version": 1,
+ "file": "vo.wav",
+ "sample_rate": 48000,
+ "duration": 13.498,
+ "lead_in": 0.0,
+ "tail": 0.382,
+ "loudness": -16.03,
+ "script": "../narration.md",
+ "lines": [
+  {
+   "id": "hook",
+   "index": 1,
+   "text": "Three shortcuts that make Tidepool fast.",
+   "source_text": "Three shortcuts that make Tidepool fast.",
+   "voice": "af_bella",
+   "engine": "kokoro",
+   "lang": "en-us",
+   "speed": 1.15,
+   "style": "neutral",
+   "start": 0.0,
+   "end": 2.28,
+   "duration": 2.28,
+   "speech_start": 0.02,
+   "speech_end": 1.87,
+   "pause_after": 0.227,
+   "slot": {
+    "start": 0.0,
+    "end": 2.507,
+    "duration": 2.507
+   },
+   "file": "lines/01-hook.wav",
+   "timing": "exact",
+   "wps": 3.243,
+   "words": [
+    {
+     "text": "Three",
+     "start": 0.02,
+     "end": 0.189,
+     "line": "hook"
+    },
+    {
+     "text": "shortcuts",
+     "start": 0.245,
+     "end": 0.667,
+     "line": "hook"
+    },
+    {
+     "text": "that",
+     "start": 0.698,
+     "end": 0.773,
+     "line": "hook"
+    },
+    {
+     "text": "make",
+     "start": 0.796,
+     "end": 0.925,
+     "line": "hook"
+    },
+    {
+     "text": "Tidepool",
+     "start": 0.93,
+     "end": 1.382,
+     "line": "hook"
+    },
+    {
+     "text": "fast.",
+     "start": 1.447,
+     "end": 1.87,
+     "line": "hook"
+    }
+   ]
+  },
+  {
+   "id": "palette",
+   "index": 2,
+   "text": "Command K searches every note as you type.",
+   "source_text": "Command K searches every note as you type.",
+   "voice": "af_bella",
+   "engine": "kokoro",
+   "lang": "en-us",
+   "speed": 1.15,
+   "style": "neutral",
+   "start": 2.507,
+   "end": 5.14,
+   "duration": 2.633,
+   "speech_start": 2.537,
+   "speech_end": 4.74,
+   "pause_after": 0.227,
+   "slot": {
+    "start": 2.507,
+    "end": 5.367,
+    "duration": 2.86
+   },
+   "file": "lines/02-palette.wav",
+   "timing": "exact",
+   "wps": 3.631,
+   "words": [
+    {
+     "text": "Command",
+     "start": 2.537,
+     "end": 2.867,
+     "line": "palette"
+    },
+    {
+     "text": "K",
+     "start": 2.907,
+     "end": 3.146,
+     "line": "palette"
+    },
+    {
+     "text": "searches",
+     "start": 3.209,
+     "end": 3.543,
+     "line": "palette"
+    },
+    {
+     "text": "every",
+     "start": 3.597,
+     "end": 3.835,
+     "line": "palette"
+    },
+    {
+     "text": "note",
+     "start": 3.88,
+     "end": 4.096,
+     "line": "palette"
+    },
+    {
+     "text": "as",
+     "start": 4.147,
+     "end": 4.211,
+     "line": "palette"
+    },
+    {
+     "text": "you",
+     "start": 4.25,
+     "end": 4.319,
+     "line": "palette"
+    },
+    {
+     "text": "type.",
+     "start": 4.377,
+     "end": 4.74,
+     "line": "palette"
+    }
+   ]
+  },
+  {
+   "id": "new",
+   "index": 3,
+   "text": "Hit N for a fresh note.",
+   "source_text": "Hit N for a fresh note.",
+   "voice": "af_bella",
+   "engine": "kokoro",
+   "lang": "en-us",
+   "speed": 1.15,
+   "style": "neutral",
+   "start": 5.367,
+   "end": 6.857,
+   "duration": 1.491,
+   "speech_start": 5.407,
+   "speech_end": 6.448,
+   "pause_after": 0.227,
+   "slot": {
+    "start": 5.367,
+    "end": 7.084,
+    "duration": 1.718
+   },
+   "file": "lines/03-new.wav",
+   "timing": "exact",
+   "wps": 5.764,
+   "words": [
+    {
+     "text": "Hit",
+     "start": 5.407,
+     "end": 5.48,
+     "line": "new"
+    },
+    {
+     "text": "N",
+     "start": 5.523,
+     "end": 5.664,
+     "line": "new"
+    },
+    {
+     "text": "for",
+     "start": 5.709,
+     "end": 5.826,
+     "line": "new"
+    },
+    {
+     "text": "a",
+     "start": 5.826,
+     "end": 5.876,
+     "line": "new"
+    },
+    {
+     "text": "fresh",
+     "start": 5.876,
+     "end": 6.074,
+     "line": "new"
+    },
+    {
+     "text": "note.",
+     "start": 6.118,
+     "end": 6.448,
+     "line": "new"
+    }
+   ]
+  },
+  {
+   "id": "preview",
+   "index": 4,
+   "text": "Command E flips your Markdown into a preview.",
+   "source_text": "Command E flips your Markdown into a preview.",
+   "voice": "af_bella",
+   "engine": "kokoro",
+   "lang": "en-us",
+   "speed": 1.15,
+   "style": "neutral",
+   "start": 7.084,
+   "end": 9.93,
+   "duration": 2.846,
+   "speech_start": 7.114,
+   "speech_end": 9.53,
+   "pause_after": 0.227,
+   "slot": {
+    "start": 7.084,
+    "end": 10.157,
+    "duration": 3.073
+   },
+   "file": "lines/04-preview.wav",
+   "timing": "exact",
+   "wps": 3.311,
+   "words": [
+    {
+     "text": "Command",
+     "start": 7.114,
+     "end": 7.554,
+     "line": "preview"
+    },
+    {
+     "text": "E",
+     "start": 7.644,
+     "end": 7.93,
+     "line": "preview"
+    },
+    {
+     "text": "flips",
+     "start": 8.009,
+     "end": 8.214,
+     "line": "preview"
+    },
+    {
+     "text": "your",
+     "start": 8.237,
+     "end": 8.306,
+     "line": "preview"
+    },
+    {
+     "text": "Markdown",
+     "start": 8.342,
+     "end": 8.778,
+     "line": "preview"
+    },
+    {
+     "text": "into",
+     "start": 8.801,
+     "end": 8.967,
+     "line": "preview"
+    },
+    {
+     "text": "a",
+     "start": 8.993,
+     "end": 9.023,
+     "line": "preview"
+    },
+    {
+     "text": "preview.",
+     "start": 9.074,
+     "end": 9.53,
+     "line": "preview"
+    }
+   ]
+  },
+  {
+   "id": "close",
+   "index": 5,
+   "text": "Tidepool. Your notes, kept on your own machine.",
+   "source_text": "Tidepool. Your notes, kept on your own machine.",
+   "voice": "af_bella",
+   "engine": "kokoro",
+   "lang": "en-us",
+   "speed": 1.15,
+   "style": "neutral",
+   "start": 10.157,
+   "end": 13.116,
+   "duration": 2.959,
+   "speech_start": 10.187,
+   "speech_end": 12.706,
+   "pause_after": 0.3,
+   "slot": {
+    "start": 10.157,
+    "end": 13.498,
+    "duration": 3.341
+   },
+   "file": "lines/05-close.wav",
+   "timing": "exact",
+   "wps": 3.176,
+   "words": [
+    {
+     "text": "Tidepool.",
+     "start": 10.187,
+     "end": 10.737,
+     "line": "close"
+    },
+    {
+     "text": "Your",
+     "start": 11.027,
+     "end": 11.116,
+     "line": "close"
+    },
+    {
+     "text": "notes,",
+     "start": 11.161,
+     "end": 11.525,
+     "line": "close"
+    },
+    {
+     "text": "kept",
+     "start": 11.647,
+     "end": 11.872,
+     "line": "close"
+    },
+    {
+     "text": "on",
+     "start": 11.895,
+     "end": 11.965,
+     "line": "close"
+    },
+    {
+     "text": "your",
+     "start": 11.988,
+     "end": 12.057,
+     "line": "close"
+    },
+    {
+     "text": "own",
+     "start": 12.084,
+     "end": 12.186,
+     "line": "close"
+    },
+    {
+     "text": "machine.",
+     "start": 12.209,
+     "end": 12.706,
+     "line": "close"
+    }
+   ]
+  }
+ ],
+ "words": [
+  {
+   "text": "Three",
+   "start": 0.02,
+   "end": 0.189,
+   "line": "hook"
+  },
+  {
+   "text": "shortcuts",
+   "start": 0.245,
+   "end": 0.667,
+   "line": "hook"
+  },
+  {
+   "text": "that",
+   "start": 0.698,
+   "end": 0.773,
+   "line": "hook"
+  },
+  {
+   "text": "make",
+   "start": 0.796,
+   "end": 0.925,
+   "line": "hook"
+  },
+  {
+   "text": "Tidepool",
+   "start": 0.93,
+   "end": 1.382,
+   "line": "hook"
+  },
+  {
+   "text": "fast.",
+   "start": 1.447,
+   "end": 1.87,
+   "line": "hook"
+  },
+  {
+   "text": "Command",
+   "start": 2.537,
+   "end": 2.867,
+   "line": "palette"
+  },
+  {
+   "text": "K",
+   "start": 2.907,
+   "end": 3.146,
+   "line": "palette"
+  },
+  {
+   "text": "searches",
+   "start": 3.209,
+   "end": 3.543,
+   "line": "palette"
+  },
+  {
+   "text": "every",
+   "start": 3.597,
+   "end": 3.835,
+   "line": "palette"
+  },
+  {
+   "text": "note",
+   "start": 3.88,
+   "end": 4.096,
+   "line": "palette"
+  },
+  {
+   "text": "as",
+   "start": 4.147,
+   "end": 4.211,
+   "line": "palette"
+  },
+  {
+   "text": "you",
+   "start": 4.25,
+   "end": 4.319,
+   "line": "palette"
+  },
+  {
+   "text": "type.",
+   "start": 4.377,
+   "end": 4.74,
+   "line": "palette"
+  },
+  {
+   "text": "Hit",
+   "start": 5.407,
+   "end": 5.48,
+   "line": "new"
+  },
+  {
+   "text": "N",
+   "start": 5.523,
+   "end": 5.664,
+   "line": "new"
+  },
+  {
+   "text": "for",
+   "start": 5.709,
+   "end": 5.826,
+   "line": "new"
+  },
+  {
+   "text": "a",
+   "start": 5.826,
+   "end": 5.876,
+   "line": "new"
+  },
+  {
+   "text": "fresh",
+   "start": 5.876,
+   "end": 6.074,
+   "line": "new"
+  },
+  {
+   "text": "note.",
+   "start": 6.118,
+   "end": 6.448,
+   "line": "new"
+  },
+  {
+   "text": "Command",
+   "start": 7.114,
+   "end": 7.554,
+   "line": "preview"
+  },
+  {
+   "text": "E",
+   "start": 7.644,
+   "end": 7.93,
+   "line": "preview"
+  },
+  {
+   "text": "flips",
+   "start": 8.009,
+   "end": 8.214,
+   "line": "preview"
+  },
+  {
+   "text": "your",
+   "start": 8.237,
+   "end": 8.306,
+   "line": "preview"
+  },
+  {
+   "text": "Markdown",
+   "start": 8.342,
+   "end": 8.778,
+   "line": "preview"
+  },
+  {
+   "text": "into",
+   "start": 8.801,
+   "end": 8.967,
+   "line": "preview"
+  },
+  {
+   "text": "a",
+   "start": 8.993,
+   "end": 9.023,
+   "line": "preview"
+  },
+  {
+   "text": "preview.",
+   "start": 9.074,
+   "end": 9.53,
+   "line": "preview"
+  },
+  {
+   "text": "Tidepool.",
+   "start": 10.187,
+   "end": 10.737,
+   "line": "close"
+  },
+  {
+   "text": "Your",
+   "start": 11.027,
+   "end": 11.116,
+   "line": "close"
+  },
+  {
+   "text": "notes,",
+   "start": 11.161,
+   "end": 11.525,
+   "line": "close"
+  },
+  {
+   "text": "kept",
+   "start": 11.647,
+   "end": 11.872,
+   "line": "close"
+  },
+  {
+   "text": "on",
+   "start": 11.895,
+   "end": 11.965,
+   "line": "close"
+  },
+  {
+   "text": "your",
+   "start": 11.988,
+   "end": 12.057,
+   "line": "close"
+  },
+  {
+   "text": "own",
+   "start": 12.084,
+   "end": 12.186,
+   "line": "close"
+  },
+  {
+   "text": "machine.",
+   "start": 12.209,
+   "end": 12.706,
+   "line": "close"
+  }
+ ],
+ "captions": {
+  "srt": "vo.srt",
+  "transcript": "vo.words.json",
+  "cues": 7
+ },
+ "build_seconds": 24.32,
+ "lexicon": [
+  "skills/showtime/lib/st/voice/lexicon.json (built-in)"
+ ],
+ "fit": {
+  "target": 13.5,
+  "before": 14.896,
+  "speed_factor": 1.15,
+  "pauses_trimmed": 0.51,
+  "tail_padded": 0.0,
+  "over": 0.0,
+  "under": 0.0,
+  "cut_words": 0,
+  "add_words": 0,
+  "tolerance": 0.135,
+  "words": 36,
+  "wps": 3.59,
+  "result": 13.498
+ }
+}

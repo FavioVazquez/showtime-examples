@@ -1,0 +1,22 @@
+{
+  "source": "commons",
+  "source_label": "Wikimedia Commons",
+  "id": "commons:61668982",
+  "title": "Hallgrimskirkja, Reykjavík, Iceland (Unsplash)",
+  "author": "Ferdinand Stöhr fellowferdi",
+  "author_url": null,
+  "license": "CC0 1.0",
+  "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+  "landing_url": "https://commons.wikimedia.org/wiki/File:Hallgrimskirkja,_Reykjav%C3%ADk,_Iceland_(Unsplash).jpg",
+  "note": null,
+  "type": "image",
+  "license_notice": null,
+  "file_url": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Hallgrimskirkja%2C_Reykjav%C3%ADk%2C_Iceland_%28Unsplash%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "sha256": "876e89c194ecaf16a731f2a9766051c1055f9746e0b6d7925dca14ded9d7ed79",
+  "fetched": "2026-09-27T16:26:39",
+  "license_class": "free",
+  "attribution_required": false,
+  "credit": "\"Hallgrimskirkja, Reykjavík, Iceland (Unsplash)\" by Ferdinand Stöhr fellowferdi via Wikimedia Commons (CC0 1.0) - https://commons.wikimedia.org/wiki/File:Hallgrimskirkja,_Reykjav%C3%ADk,_Iceland_(Unsplash).jpg",
+  "file": "01-reykjavik.jpg",
+  "derived": "resized to 3240x2160 for the video"
+}

@@ -1,0 +1,13 @@
+{
+  "title": "Curtain Call motion pack sting 9:16",
+  "width": 1080,
+  "height": 1920,
+  "fps": 30,
+  "duration": 5,
+  "background": "#15100E",
+  "poster": 4.6,
+  "render": {
+    "crf": 18
+  },
+  "audio": "audio/mix.json"
+}

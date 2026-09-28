@@ -1,0 +1,21 @@
+{
+  "source": "nasa",
+  "source_label": "NASA Image and Video Library",
+  "id": "nasa:carina_nebula",
+  "title": "James Webb Space Telescope NIRCam Image of the “Cosmic Cliffs” in Carina Nebula",
+  "author": "NASA ESA CSA STScI",
+  "author_url": null,
+  "license": "Public domain (NASA media)",
+  "license_url": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+  "landing_url": "https://images.nasa.gov/details/carina_nebula",
+  "note": "NASA media: no endorsement implied; do not use NASA logos or insignia. Check the description for third-party copyright notices.",
+  "type": "image",
+  "file_url": "https://images-assets.nasa.gov/image/carina_nebula/carina_nebula~large.jpg",
+  "captions": [],
+  "sha256": "e84c3f04074f32bada99d54c7d5b8632bba687ed287850674bcd26a692be34bd",
+  "fetched": "2026-09-26T14:26:58",
+  "license_class": "free",
+  "attribution_required": false,
+  "credit": "\"James Webb Space Telescope NIRCam Image of the “Cosmic Cliffs” in Carina Nebula\" by NASA ESA CSA STScI via NASA Image and Video Library (Public domain (NASA media)) - https://images.nasa.gov/details/carina_nebula",
+  "file": "carina_nebula.jpg"
+}

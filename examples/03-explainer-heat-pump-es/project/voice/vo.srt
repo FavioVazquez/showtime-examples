@@ -1,0 +1,88 @@
+1
+00:00:00,430 --> 00:00:01,450
+Afuera está helando.
+
+2
+00:00:01,820 --> 00:00:03,740
+¿Cómo puede ese aire
+calentar tu casa?
+
+3
+00:00:04,420 --> 00:00:06,640
+Incluso el aire
+helado guarda calor.
+
+4
+00:00:07,000 --> 00:00:08,756
+Cero grados Celsius está muy
+
+5
+00:00:08,826 --> 00:00:10,647
+por encima del cero absoluto.
+
+6
+00:00:11,770 --> 00:00:13,639
+Una bomba de calor
+lleva ese calor
+
+7
+00:00:13,680 --> 00:00:15,592
+adentro, con refrigerante que
+
+8
+00:00:15,641 --> 00:00:17,600
+circula en un circuito sellado.
+
+9
+00:00:18,440 --> 00:00:20,150
+Afuera, el refrigerante,
+
+10
+00:00:20,280 --> 00:00:22,680
+más frío que el aire,
+absorbe su calor,
+
+11
+00:00:22,950 --> 00:00:24,560
+hierve y se convierte en gas.
+
+12
+00:00:25,310 --> 00:00:27,038
+Un compresor comprime el gas
+
+13
+00:00:27,090 --> 00:00:28,717
+y su temperatura se dispara.
+
+14
+00:00:29,470 --> 00:00:31,867
+Adentro, el gas caliente
+libera ese calor
+
+15
+00:00:31,893 --> 00:00:34,126
+en tu casa y se
+condensa en líquido.
+
+16
+00:00:34,890 --> 00:00:37,340
+Una válvula de expansión
+baja la presión,
+
+17
+00:00:37,700 --> 00:00:40,275
+el líquido se enfría
+y el ciclo se repite.
+
+18
+00:00:41,420 --> 00:00:43,660
+Mover calor rinde
+más que producirlo.
+
+19
+00:00:43,951 --> 00:00:45,952
+Por lo general, sale más calor
+
+20
+00:00:45,992 --> 00:00:47,612
+del que entra como electricidad.

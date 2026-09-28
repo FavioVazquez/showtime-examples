@@ -1,0 +1,11 @@
+X / Bluesky
+The curtain opens, the show starts. A new 3D Curtain Call sting for showtime: three.js velvet, a flown-in logo and a sound logo in D, rendered frame by frame on one machine. 16:9, 1:1 and 9:16.
+
+LinkedIn
+We made a motion pack for showtime's Curtain Call brand, entirely on one machine: a 5-second 3D logo sting in three native aspect ratios, four lower thirds and two transition stingers with alpha for Premiere. Concepts, picks and sign-off happened on a local studio board; the sting is a three.js stage rendered frame by frame, and every sound is synthesised locally.
+
+YouTube description
+The Curtain Call motion pack sting for showtime (5 s). Velvet curtains part, the mark is flown in and lands in the spotlight on the sound-logo note. Made with showtime: three.js scene, synthesised sound, rendered locally. Brand assets are owned by the showtime project.
+
+README line
+Curtain Call motion pack: 3D sting (16:9, 1:1, 9:16), 4 lower thirds and 2 stingers with alpha, made in showtime's studio mode.

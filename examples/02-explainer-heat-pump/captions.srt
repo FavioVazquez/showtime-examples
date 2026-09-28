@@ -1,0 +1,73 @@
+1
+00:00:00,380 --> 00:00:01,840
+It's freezing outside.
+
+2
+00:00:01,840 --> 00:00:03,757
+So how can that air heat your home?
+
+3
+00:00:04,287 --> 00:00:06,287
+Even freezing air holds heat.
+
+4
+00:00:06,407 --> 00:00:09,809
+Zero Celsius is still
+far above absolute zero.
+
+5
+00:00:10,549 --> 00:00:12,929
+A heat pump moves that heat indoors,
+
+6
+00:00:12,929 --> 00:00:15,292
+with refrigerant circling a sealed loop.
+
+7
+00:00:15,962 --> 00:00:18,356
+Outside, refrigerant
+colder than the air
+
+8
+00:00:18,356 --> 00:00:21,131
+soaks up its heat
+and boils into a gas.
+
+9
+00:00:21,691 --> 00:00:23,551
+A compressor squeezes the gas,
+
+10
+00:00:23,551 --> 00:00:25,260
+and its temperature shoots up.
+
+11
+00:00:25,791 --> 00:00:28,401
+Indoors, the hot gas
+releases that heat
+
+12
+00:00:28,401 --> 00:00:31,131
+into your home and
+condenses to a liquid.
+
+13
+00:00:31,661 --> 00:00:33,981
+An expansion valve drops the pressure,
+
+14
+00:00:33,981 --> 00:00:35,461
+the liquid goes cold,
+
+15
+00:00:35,461 --> 00:00:36,756
+and the loop repeats.
+
+16
+00:00:37,516 --> 00:00:39,436
+Moving heat beats making it.
+
+17
+00:00:39,496 --> 00:00:42,600
+You usually get more heat
+out than electricity in.

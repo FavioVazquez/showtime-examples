@@ -1,0 +1,12 @@
+{
+  "title": "Artemis III training audiogram",
+  "width": 1080,
+  "height": 1920,
+  "fps": 30,
+  "duration": 45.0,
+  "background": "#0d0b0a",
+  "poster": 0,
+  "audio": "audio/mix.json",
+  "expect": {"platform": "reels", "duration": 45.0, "captions": true,
+             "must_show": ["Debra O’Connell", "Artemis III Chief Training Officer, NASA", "Leah Cheshier", "Not endorsed by NASA"]}
+}

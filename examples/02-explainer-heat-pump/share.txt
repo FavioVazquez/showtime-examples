@@ -1,0 +1,13 @@
+It's 0 °C outside, so how does that air heat a home? A heat pump moves heat that's already in the cold air indoors, and moving heat beats making it. 45 seconds, one refrigerant loop.
+
+YouTube
+Title: How a Heat Pump Heats Your Home in Winter (45-second explainer)
+Description: Even freezing air holds heat. A heat pump's refrigerant soaks it up outdoors, the compressor raises its temperature, the indoor coil releases it into your home, and an expansion valve chills the refrigerant so the loop can repeat.
+Narration is a synthetic voice (Kokoro, af_heart). Diagram is schematic, not to scale.
+
+X (≤280)
+0 °C outside and the house still gets warm? A heat pump moves heat out of freezing air, and moving heat beats making it. Evaporator, compressor, condenser, expansion valve, in 45 seconds.
+
+GitHub README
+Caption: A 45-second canvas-film explainer of a heat pump's winter cycle, with local narration and a procedural score, made with showtime.
+Alt text: Animated cutaway of a snowy house. Refrigerant dots flow around a loop from an outdoor coil, through a compressor, into an indoor coil that warms the room, and back through an expansion valve.

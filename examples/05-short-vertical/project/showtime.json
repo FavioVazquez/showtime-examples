@@ -1,0 +1,15 @@
+{
+  "title": "Tidepool shortcuts short",
+  "width": 1080,
+  "height": 1920,
+  "fps": 30,
+  "duration": 14.999,
+  "background": "#041E23",
+  "poster": 0,
+  "audio": "audio/mix.json",
+  "expect": {
+    "platform": "reels",
+    "duration": 15,
+    "captions": true
+  }
+}

@@ -1,0 +1,70 @@
+{
+ "words": [
+  {
+   "text": "the",
+   "start": 0.28,
+   "end": 0.39,
+   "type": "word"
+  },
+  {
+   "text": "exact",
+   "start": 0.4,
+   "end": 0.82,
+   "type": "word"
+  },
+  {
+   "text": "scenarios",
+   "start": 0.83,
+   "end": 1.47,
+   "type": "word"
+  },
+  {
+   "text": "we",
+   "start": 1.48,
+   "end": 1.61,
+   "type": "word"
+  },
+  {
+   "text": "train,",
+   "start": 1.62,
+   "end": 1.92,
+   "type": "word"
+  },
+  {
+   "text": "I",
+   "start": 1.93,
+   "end": 2.02,
+   "type": "word"
+  },
+  {
+   "text": "hope",
+   "start": 2.03,
+   "end": 2.18,
+   "type": "word"
+  },
+  {
+   "text": "they",
+   "start": 2.22,
+   "end": 2.46,
+   "type": "word"
+  },
+  {
+   "text": "never",
+   "start": 2.47,
+   "end": 2.86,
+   "type": "word"
+  },
+  {
+   "text": "use",
+   "start": 2.87,
+   "end": 3.06,
+   "type": "word"
+  },
+  {
+   "text": "it.",
+   "start": 3.07,
+   "end": 3.11,
+   "type": "word"
+  }
+ ]
+}

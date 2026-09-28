@@ -1,0 +1,113 @@
+{
+ "source": "nasa.gov transcript aligned to media/clip.wav",
+ "words": [
+  {
+   "text": "What",
+   "start": 3.7,
+   "end": 3.96,
+   "type": "word"
+  },
+  {
+   "text": "is",
+   "start": 3.97,
+   "end": 4.02,
+   "type": "word"
+  },
+  {
+   "text": "something",
+   "start": 4.03,
+   "end": 4.28,
+   "type": "word"
+  },
+  {
+   "text": "that",
+   "start": 4.29,
+   "end": 4.41,
+   "type": "word"
+  },
+  {
+   "text": "the",
+   "start": 4.42,
+   "end": 4.51,
+   "type": "word"
+  },
+  {
+   "text": "public",
+   "start": 4.52,
+   "end": 5.05,
+   "type": "word"
+  },
+  {
+   "text": "might",
+   "start": 5.08,
+   "end": 5.43,
+   "type": "word"
+  },
+  {
+   "text": "be",
+   "start": 5.48,
+   "end": 5.93,
+   "type": "word"
+  },
+  {
+   "text": "surprised",
+   "start": 6.01,
+   "end": 6.48,
+   "type": "word"
+  },
+  {
+   "text": "to",
+   "start": 6.49,
+   "end": 6.58,
+   "type": "word"
+  },
+  {
+   "text": "learn",
+   "start": 6.59,
+   "end": 6.8,
+   "type": "word"
+  },
+  {
+   "text": "about",
+   "start": 6.81,
+   "end": 7.07,
+   "type": "word"
+  },
+  {
+   "text": "from",
+   "start": 7.18,
+   "end": 7.36,
+   "type": "word"
+  },
+  {
+   "text": "astronaut",
+   "start": 7.37,
+   "end": 7.84,
+   "type": "word"
+  },
+  {
+   "text": "training",
+   "start": 7.85,
+   "end": 8.26,
+   "type": "word"
+  },
+  {
+   "text": "for",
+   "start": 8.29,
+   "end": 8.54,
+   "type": "word"
+  },
+  {
+   "text": "Artemis",
+   "start": 8.63,
+   "end": 9.03,
+   "type": "word"
+  },
+  {
+   "text": "missions?",
+   "start": 9.04,
+   "end": 9.64,
+   "type": "word"
+  }
+ ]
+}

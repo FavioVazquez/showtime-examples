@@ -1,0 +1,14 @@
+{
+ "duration": 36.95,
+ "tracks": [
+  {
+   "kind": "voice",
+   "file": "source/ep434-artemis-iii-training.mp3",
+   "start": 0,
+   "offset": 1509.0,
+   "fade_in": 0.03,
+   "fade_out": 0.12
+  }
+ ],
+ "_comment": "Rebuild media/clip.wav: download the episode MP3 (URL in README) to source/ep434-artemis-iii-training.mp3, then: showtime audio mix source/clip.json -o work/clip.raw.wav; showtime footage denoise work/clip.raw.wav -o work/clip.clean.wav --strength 0.5; showtime audio master work/clip.clean.wav -o media/clip.wav --target podcast --preset voice"
+}

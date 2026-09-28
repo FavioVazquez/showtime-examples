@@ -1,0 +1,10 @@
+{
+  "title": "showtime",
+  "width": 1920,
+  "height": 1080,
+  "fps": 30,
+  "duration": 30.0,
+  "background": "#0f0d0b",
+  "poster": 29.3,
+  "audio": "audio/mix.json"
+}

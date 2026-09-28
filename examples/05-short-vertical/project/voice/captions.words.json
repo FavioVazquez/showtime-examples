@@ -1,0 +1,224 @@
+{
+ "source": "timeline.json",
+ "note": "written by `showtime retime --from-voice`: word times in the video; review round 1: the hook line and the close's 'Tidepool.' set to type 'hidden' (the title and the wordmark already carry them); review round 2: word pairs merged ('Hit N', 'for a', 'fresh note.', 'on your', 'own machine.') so the dense-speech rule groups the 'new' line as one card 'HIT N FOR A / FRESH NOTE.' and the close as 'KEPT ON YOUR / OWN MACHINE.' instead of 0.2-0.35 s two-word cards",
+ "words": [
+  {
+   "text": "Three",
+   "start": 0.32,
+   "end": 0.489,
+   "type": "hidden",
+   "line": "hook"
+  },
+  {
+   "text": "shortcuts",
+   "start": 0.545,
+   "end": 0.967,
+   "type": "hidden",
+   "line": "hook"
+  },
+  {
+   "text": "that",
+   "start": 0.998,
+   "end": 1.073,
+   "type": "hidden",
+   "line": "hook"
+  },
+  {
+   "text": "make",
+   "start": 1.096,
+   "end": 1.225,
+   "type": "hidden",
+   "line": "hook"
+  },
+  {
+   "text": "Tidepool",
+   "start": 1.23,
+   "end": 1.682,
+   "type": "hidden",
+   "line": "hook"
+  },
+  {
+   "text": "fast.",
+   "start": 1.747,
+   "end": 2.17,
+   "type": "hidden",
+   "line": "hook"
+  },
+  {
+   "text": "Command",
+   "start": 3.137,
+   "end": 3.467,
+   "type": "word",
+   "line": "palette"
+  },
+  {
+   "text": "K",
+   "start": 3.507,
+   "end": 3.746,
+   "type": "word",
+   "line": "palette"
+  },
+  {
+   "text": "searches",
+   "start": 3.809,
+   "end": 4.143,
+   "type": "word",
+   "line": "palette"
+  },
+  {
+   "text": "every",
+   "start": 4.197,
+   "end": 4.435,
+   "type": "word",
+   "line": "palette"
+  },
+  {
+   "text": "note",
+   "start": 4.48,
+   "end": 4.696,
+   "type": "word",
+   "line": "palette"
+  },
+  {
+   "text": "as",
+   "start": 4.747,
+   "end": 4.811,
+   "type": "word",
+   "line": "palette"
+  },
+  {
+   "text": "you",
+   "start": 4.85,
+   "end": 4.919,
+   "type": "word",
+   "line": "palette"
+  },
+  {
+   "text": "type.",
+   "start": 4.977,
+   "end": 5.34,
+   "type": "word",
+   "line": "palette"
+  },
+  {
+   "text": "Hit N",
+   "start": 6.307,
+   "end": 6.564,
+   "type": "word",
+   "line": "new",
+   "emph": true
+  },
+  {
+   "text": "for a",
+   "start": 6.609,
+   "end": 6.776,
+   "type": "word",
+   "line": "new"
+  },
+  {
+   "text": "fresh note.",
+   "start": 6.776,
+   "end": 7.348,
+   "type": "word",
+   "line": "new"
+  },
+  {
+   "text": "Command",
+   "start": 8.315,
+   "end": 8.755,
+   "type": "word",
+   "line": "preview"
+  },
+  {
+   "text": "E",
+   "start": 8.845,
+   "end": 9.131,
+   "type": "word",
+   "line": "preview"
+  },
+  {
+   "text": "flips",
+   "start": 9.21,
+   "end": 9.415,
+   "type": "word",
+   "line": "preview"
+  },
+  {
+   "text": "your",
+   "start": 9.438,
+   "end": 9.507,
+   "type": "word",
+   "line": "preview"
+  },
+  {
+   "text": "Markdown",
+   "start": 9.543,
+   "end": 9.979,
+   "type": "word",
+   "line": "preview"
+  },
+  {
+   "text": "into",
+   "start": 10.002,
+   "end": 10.168,
+   "type": "word",
+   "line": "preview"
+  },
+  {
+   "text": "a",
+   "start": 10.194,
+   "end": 10.224,
+   "type": "word",
+   "line": "preview"
+  },
+  {
+   "text": "preview.",
+   "start": 10.275,
+   "end": 10.731,
+   "type": "word",
+   "line": "preview"
+  },
+  {
+   "text": "Tidepool.",
+   "start": 11.688,
+   "end": 12.238,
+   "type": "hidden",
+   "line": "close"
+  },
+  {
+   "text": "Your",
+   "start": 12.528,
+   "end": 12.617,
+   "type": "word",
+   "line": "close"
+  },
+  {
+   "text": "notes,",
+   "start": 12.662,
+   "end": 13.026,
+   "type": "word",
+   "line": "close"
+  },
+  {
+   "text": "kept",
+   "start": 13.148,
+   "end": 13.373,
+   "type": "word",
+   "line": "close"
+  },
+  {
+   "text": "on your",
+   "start": 13.396,
+   "end": 13.558,
+   "type": "word",
+   "line": "close"
+  },
+  {
+   "text": "own machine.",
+   "start": 13.585,
+   "end": 14.207,
+   "type": "word",
+   "line": "close"
+  }
+ ]
+}

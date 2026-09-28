@@ -1,0 +1,17 @@
+<!doctype html>
+<!-- Curtain Call motion pack sting, tall layout (1080x1920). Shared scene: sting.js. Wordmark: official outlined SVG. -->
+<html lang="en"><head>
+<meta charset="utf-8">
+<script src="/_st/stage.js"></script>
+<link rel="stylesheet" href="sting.css">
+<script type="module" src="/_st/components/index.js"></script>
+<style>.wm { top: 66%; width: 66%; } .wm.st-logo::before { display: none; } .wm { --ease-out: cubic-bezier(0.33, 0.33, 0.5, 1); }</style>
+</head><body>
+<canvas id="gl"></canvas>
+<div class="wm" data-st="logo-reveal" data-style="mask" data-at="3.05"><img src="assets/wordmark-on-dark.svg" alt="showtime"></div>
+<div class="grain" data-st="grain" data-opacity="0.035"></div>
+<script type="module">
+  import { build } from './sting.js';
+  build('tall');
+</script>
+</body></html>

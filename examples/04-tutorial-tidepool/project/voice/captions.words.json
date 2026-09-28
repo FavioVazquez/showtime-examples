@@ -1,0 +1,714 @@
+{
+"language": "en",
+"duration": 50.5,
+"words": [
+{
+"text": "Here's",
+"start": 0.34,
+"end": 0.6,
+"type": "word"
+},
+{
+"text": "how",
+"start": 0.651,
+"end": 0.788,
+"type": "word"
+},
+{
+"text": "to",
+"start": 0.814,
+"end": 0.871,
+"type": "word"
+},
+{
+"text": "write",
+"start": 0.922,
+"end": 1.084,
+"type": "word"
+},
+{
+"text": "a",
+"start": 1.112,
+"end": 1.147,
+"type": "word"
+},
+{
+"text": "note",
+"start": 1.199,
+"end": 1.425,
+"type": "word"
+},
+{
+"text": "in",
+"start": 1.43,
+"end": 1.539,
+"type": "word"
+},
+{
+"text": "Tidepool,",
+"start": 1.59,
+"end": 2.21,
+"type": "word"
+},
+{
+"text": "tag",
+"start": 2.48,
+"end": 2.755,
+"type": "word"
+},
+{
+"text": "it,",
+"start": 2.808,
+"end": 3.0,
+"type": "word"
+},
+{
+"text": "and",
+"start": 3.26,
+"end": 3.319,
+"type": "word"
+},
+{
+"text": "find",
+"start": 3.394,
+"end": 3.637,
+"type": "word"
+},
+{
+"text": "it",
+"start": 3.663,
+"end": 3.714,
+"type": "word"
+},
+{
+"text": "again",
+"start": 3.745,
+"end": 4.025,
+"type": "word"
+},
+{
+"text": "in",
+"start": 4.074,
+"end": 4.175,
+"type": "word"
+},
+{
+"text": "seconds.",
+"start": 4.23,
+"end": 4.751,
+"type": "word"
+},
+{
+"text": "Click",
+"start": 6.32,
+"end": 6.528,
+"type": "word"
+},
+{
+"text": "New",
+"start": 6.579,
+"end": 6.683,
+"type": "word"
+},
+{
+"text": "note,",
+"start": 6.729,
+"end": 7.038,
+"type": "word"
+},
+{
+"text": "and",
+"start": 7.23,
+"end": 7.295,
+"type": "word"
+},
+{
+"text": "type",
+"start": 7.353,
+"end": 7.582,
+"type": "word"
+},
+{
+"text": "a",
+"start": 7.609,
+"end": 7.642,
+"type": "word"
+},
+{
+"text": "title.",
+"start": 7.697,
+"end": 8.19,
+"type": "word"
+},
+{
+"text": "Press",
+"start": 8.68,
+"end": 8.905,
+"type": "word"
+},
+{
+"text": "Enter",
+"start": 8.956,
+"end": 9.209,
+"type": "word"
+},
+{
+"text": "to",
+"start": 9.26,
+"end": 9.327,
+"type": "word"
+},
+{
+"text": "move",
+"start": 9.378,
+"end": 9.583,
+"type": "word"
+},
+{
+"text": "to",
+"start": 9.6,
+"end": 9.685,
+"type": "word"
+},
+{
+"text": "the",
+"start": 9.713,
+"end": 9.765,
+"type": "word"
+},
+{
+"text": "body,",
+"start": 9.816,
+"end": 10.266,
+"type": "word"
+},
+{
+"text": "and",
+"start": 10.42,
+"end": 10.531,
+"type": "word"
+},
+{
+"text": "start",
+"start": 10.58,
+"end": 10.816,
+"type": "word"
+},
+{
+"text": "writing.",
+"start": 10.867,
+"end": 11.379,
+"type": "word"
+},
+{
+"text": "Tidepool",
+"start": 12.139,
+"end": 12.609,
+"type": "word"
+},
+{
+"text": "saves",
+"start": 12.686,
+"end": 12.971,
+"type": "word"
+},
+{
+"text": "it",
+"start": 13.012,
+"end": 13.07,
+"type": "word"
+},
+{
+"text": "on",
+"start": 13.103,
+"end": 13.184,
+"type": "word"
+},
+{
+"text": "this",
+"start": 13.211,
+"end": 13.342,
+"type": "word"
+},
+{
+"text": "device",
+"start": 13.389,
+"end": 13.939,
+"type": "word"
+},
+{
+"text": "as",
+"start": 13.999,
+"end": 14.136,
+"type": "word"
+},
+{
+"text": "you",
+"start": 14.18,
+"end": 14.259,
+"type": "word"
+},
+{
+"text": "type.",
+"start": 14.311,
+"end": 14.694,
+"type": "word"
+},
+{
+"text": "To",
+"start": 16.273,
+"end": 16.342,
+"type": "word"
+},
+{
+"text": "tag",
+"start": 16.405,
+"end": 16.688,
+"type": "word"
+},
+{
+"text": "it,",
+"start": 16.741,
+"end": 16.863,
+"type": "word"
+},
+{
+"text": "click",
+"start": 17.063,
+"end": 17.231,
+"type": "word"
+},
+{
+"text": "the",
+"start": 17.283,
+"end": 17.319,
+"type": "word"
+},
+{
+"text": "tag",
+"start": 17.374,
+"end": 17.671,
+"type": "word"
+},
+{
+"text": "field",
+"start": 17.722,
+"end": 17.967,
+"type": "word"
+},
+{
+"text": "under",
+"start": 17.993,
+"end": 18.135,
+"type": "word"
+},
+{
+"text": "the",
+"start": 18.163,
+"end": 18.216,
+"type": "word"
+},
+{
+"text": "title.",
+"start": 18.267,
+"end": 18.713,
+"type": "word"
+},
+{
+"text": "Type",
+"start": 19.133,
+"end": 19.382,
+"type": "word"
+},
+{
+"text": "a",
+"start": 19.409,
+"end": 19.448,
+"type": "word"
+},
+{
+"text": "tag,",
+"start": 19.518,
+"end": 19.959,
+"type": "word"
+},
+{
+"text": "and",
+"start": 20.143,
+"end": 20.238,
+"type": "word"
+},
+{
+"text": "press",
+"start": 20.289,
+"end": 20.522,
+"type": "word"
+},
+{
+"text": "Enter.",
+"start": 20.566,
+"end": 21.014,
+"type": "word"
+},
+{
+"text": "The",
+"start": 21.764,
+"end": 21.81,
+"type": "word"
+},
+{
+"text": "new",
+"start": 21.862,
+"end": 21.998,
+"type": "word"
+},
+{
+"text": "tag",
+"start": 22.057,
+"end": 22.418,
+"type": "word"
+},
+{
+"text": "shows",
+"start": 22.489,
+"end": 22.71,
+"type": "word"
+},
+{
+"text": "up",
+"start": 22.737,
+"end": 22.851,
+"type": "word"
+},
+{
+"text": "in",
+"start": 22.877,
+"end": 22.95,
+"type": "word"
+},
+{
+"text": "the",
+"start": 22.95,
+"end": 23.01,
+"type": "word"
+},
+{
+"text": "sidebar,",
+"start": 23.063,
+"end": 23.536,
+"type": "word"
+},
+{
+"text": "too.",
+"start": 23.674,
+"end": 24.058,
+"type": "word"
+},
+{
+"text": "Later,",
+"start": 25.64,
+"end": 25.994,
+"type": "word"
+},
+{
+"text": "from",
+"start": 26.074,
+"end": 26.202,
+"type": "word"
+},
+{
+"text": "any",
+"start": 26.253,
+"end": 26.412,
+"type": "word"
+},
+{
+"text": "note,",
+"start": 26.46,
+"end": 26.79,
+"type": "word"
+},
+{
+"text": "press",
+"start": 26.949,
+"end": 27.182,
+"type": "word"
+},
+{
+"text": "Command",
+"start": 27.26,
+"end": 27.618,
+"type": "word"
+},
+{
+"text": "K,",
+"start": 27.7,
+"end": 28.102,
+"type": "word"
+},
+{
+"text": "and",
+"start": 28.26,
+"end": 28.328,
+"type": "word"
+},
+{
+"text": "type",
+"start": 28.392,
+"end": 28.636,
+"type": "word"
+},
+{
+"text": "a",
+"start": 28.66,
+"end": 28.71,
+"type": "word"
+},
+{
+"text": "word",
+"start": 28.763,
+"end": 28.994,
+"type": "word"
+},
+{
+"text": "from",
+"start": 29.046,
+"end": 29.202,
+"type": "word"
+},
+{
+"text": "the",
+"start": 29.202,
+"end": 29.273,
+"type": "word"
+},
+{
+"text": "note.",
+"start": 29.324,
+"end": 29.7,
+"type": "word"
+},
+{
+"text": "Matches",
+"start": 30.19,
+"end": 30.669,
+"type": "word"
+},
+{
+"text": "light",
+"start": 30.762,
+"end": 30.98,
+"type": "word"
+},
+{
+"text": "up",
+"start": 31.009,
+"end": 31.162,
+"type": "word"
+},
+{
+"text": "as",
+"start": 31.214,
+"end": 31.297,
+"type": "word"
+},
+{
+"text": "you",
+"start": 31.345,
+"end": 31.424,
+"type": "word"
+},
+{
+"text": "type.",
+"start": 31.477,
+"end": 31.873,
+"type": "word"
+},
+{
+"text": "Press",
+"start": 32.543,
+"end": 32.758,
+"type": "word"
+},
+{
+"text": "Enter",
+"start": 32.809,
+"end": 33.077,
+"type": "word"
+},
+{
+"text": "to",
+"start": 33.129,
+"end": 33.192,
+"type": "word"
+},
+{
+"text": "jump",
+"start": 33.244,
+"end": 33.51,
+"type": "word"
+},
+{
+"text": "straight",
+"start": 33.565,
+"end": 33.823,
+"type": "word"
+},
+{
+"text": "back",
+"start": 33.863,
+"end": 34.09,
+"type": "word"
+},
+{
+"text": "to",
+"start": 34.113,
+"end": 34.246,
+"type": "word"
+},
+{
+"text": "it.",
+"start": 34.31,
+"end": 34.503,
+"type": "word"
+},
+{
+"text": "To",
+"start": 35.963,
+"end": 36.034,
+"type": "word"
+},
+{
+"text": "list",
+"start": 36.083,
+"end": 36.308,
+"type": "word"
+},
+{
+"text": "every",
+"start": 36.403,
+"end": 36.64,
+"type": "word"
+},
+{
+"text": "note",
+"start": 36.692,
+"end": 36.909,
+"type": "word"
+},
+{
+"text": "with",
+"start": 36.937,
+"end": 37.026,
+"type": "word"
+},
+{
+"text": "a",
+"start": 37.052,
+"end": 37.083,
+"type": "word"
+},
+{
+"text": "tag,",
+"start": 37.145,
+"end": 37.583,
+"type": "word"
+},
+{
+"text": "start",
+"start": 37.833,
+"end": 38.155,
+"type": "word"
+},
+{
+"text": "the",
+"start": 38.173,
+"end": 38.251,
+"type": "word"
+},
+{
+"text": "search",
+"start": 38.313,
+"end": 38.608,
+"type": "word"
+},
+{
+"text": "with",
+"start": 38.636,
+"end": 38.726,
+"type": "word"
+},
+{
+"text": "a",
+"start": 38.752,
+"end": 38.782,
+"type": "word"
+},
+{
+"text": "hash.",
+"start": 38.832,
+"end": 39.296,
+"type": "word"
+},
+{
+"text": "New",
+"start": 42.84,
+"end": 43.025,
+"type": "word"
+},
+{
+"text": "note.",
+"start": 43.06,
+"end": 43.3,
+"type": "word"
+},
+{
+"text": "A",
+"start": 43.83,
+"end": 43.86,
+"type": "word"
+},
+{
+"text": "tag.",
+"start": 43.888,
+"end": 44.36,
+"type": "word"
+},
+{
+"text": "Command",
+"start": 44.75,
+"end": 45.126,
+"type": "word"
+},
+{
+"text": "K.",
+"start": 45.17,
+"end": 45.513,
+"type": "word"
+},
+{
+"text": "That's",
+"start": 46.163,
+"end": 46.401,
+"type": "word"
+},
+{
+"text": "the",
+"start": 46.442,
+"end": 46.504,
+"type": "word"
+},
+{
+"text": "whole",
+"start": 46.555,
+"end": 46.762,
+"type": "word"
+},
+{
+"text": "loop.",
+"start": 46.813,
+"end": 47.203,
+"type": "word"
+}
+]
+}

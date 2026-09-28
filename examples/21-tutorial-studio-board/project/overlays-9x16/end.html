@@ -1,0 +1,23 @@
+<!doctype html>
+<!-- Shorts end card (2.2 s). -->
+<html lang="en"><head><meta charset="utf-8">
+<script src="/_st/stage.js"></script>
+<link rel="stylesheet" href="cc.css">
+<style>
+  .box { position: absolute; left: 8cqw; right: 8cqw; top: 36cqh; text-align: center; }
+  .box img { width: 70cqw; }
+  .box p { font: 400 4.2cqmin/1.4 var(--font-body); color: var(--muted); margin: 5cqmin 0 0; }
+  .box code { font: 500 4.4cqmin var(--font-mono); color: var(--fg); background: var(--surface); border: var(--stroke) solid var(--border);
+              border-radius: 1.2cqmin; padding: 1.2cqmin 2.2cqmin; display: inline-block; margin-top: 2cqmin; }
+</style>
+</head><body>
+<section class="scene" data-start="0" data-dur="2.2" style="padding:0">
+  <div class="stage-bg"></div>
+  <div class="box" id="b"><img src="assets/lockup-horizontal-on-dark.svg" alt="showtime">
+    <p>studio mode, step by step:</p><code>references/studio.md</code></div>
+</section>
+<script>
+const b = document.getElementById('b');
+ST.onSeek((t) => { const a = 1 - Math.pow(1 - Math.min(1, t / 0.4), 3); b.style.opacity = a; b.style.transform = `scale(${(0.96 + 0.04 * a + 0.02 * t / 2.2).toFixed(4)})`; });
+</script>
+</body></html>

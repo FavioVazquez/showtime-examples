@@ -1,0 +1,10 @@
+{
+  "title": "Ring Road",
+  "width": 1920,
+  "height": 1080,
+  "fps": 30,
+  "duration": 45.0,
+  "background": "#0c1820",
+  "poster": 0,
+  "audio": "audio/mix.json"
+}

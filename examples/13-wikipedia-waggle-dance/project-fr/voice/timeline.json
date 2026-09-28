@@ -1,0 +1,2058 @@
+{
+  "version": 1,
+  "file": "vo.wav",
+  "sample_rate": 48000,
+  "duration": 62.198,
+  "lead_in": 0.3,
+  "tail": 5.2,
+  "loudness": -16.0,
+  "script": "../narration.fr.md",
+  "lines": [
+    {
+      "id": "hook",
+      "index": 1,
+      "text": "Cette abeille donne des directions. Sa danse indique à la colonie où se trouve la nourriture.",
+      "source_text": "Cette abeille donne des directions. Sa danse indique à la colonie où se trouve la nourriture.",
+      "voice": "ff_siwis",
+      "engine": "kokoro",
+      "lang": "fr",
+      "speed": 1.0,
+      "style": "neutral",
+      "start": 0.3,
+      "end": 5.547,
+      "duration": 5.247,
+      "speech_start": 0.34,
+      "speech_end": 5.16,
+      "pause_after": 0.5,
+      "slot": {
+        "start": 0.3,
+        "end": 6.047,
+        "duration": 5.747
+      },
+      "file": "lines/01-hook.wav",
+      "timing": "exact",
+      "wps": 3.32,
+      "words": [
+        {
+          "text": "Cette",
+          "start": 0.34,
+          "end": 0.56,
+          "line": "hook"
+        },
+        {
+          "text": "abeille",
+          "start": 0.613,
+          "end": 0.918,
+          "line": "hook"
+        },
+        {
+          "text": "donne",
+          "start": 0.995,
+          "end": 1.18,
+          "line": "hook"
+        },
+        {
+          "text": "des",
+          "start": 1.222,
+          "end": 1.306,
+          "line": "hook"
+        },
+        {
+          "text": "directions.",
+          "start": 1.346,
+          "end": 2.1,
+          "line": "hook"
+        },
+        {
+          "text": "Sa",
+          "start": 2.36,
+          "end": 2.447,
+          "line": "hook"
+        },
+        {
+          "text": "danse",
+          "start": 2.496,
+          "end": 2.757,
+          "line": "hook"
+        },
+        {
+          "text": "indique",
+          "start": 2.82,
+          "end": 3.172,
+          "line": "hook"
+        },
+        {
+          "text": "à",
+          "start": 3.22,
+          "end": 3.25,
+          "line": "hook"
+        },
+        {
+          "text": "la",
+          "start": 3.271,
+          "end": 3.369,
+          "line": "hook"
+        },
+        {
+          "text": "colonie",
+          "start": 3.419,
+          "end": 3.835,
+          "line": "hook"
+        },
+        {
+          "text": "où",
+          "start": 3.892,
+          "end": 3.942,
+          "line": "hook"
+        },
+        {
+          "text": "se",
+          "start": 3.993,
+          "end": 4.093,
+          "line": "hook"
+        },
+        {
+          "text": "trouve",
+          "start": 4.142,
+          "end": 4.349,
+          "line": "hook"
+        },
+        {
+          "text": "la",
+          "start": 4.38,
+          "end": 4.46,
+          "line": "hook"
+        },
+        {
+          "text": "nourriture.",
+          "start": 4.49,
+          "end": 5.16,
+          "line": "hook"
+        }
+      ]
+    },
+    {
+      "id": "problem",
+      "index": 2,
+      "text": "Dans la ruche, il fait noir, et le rayon est un mur vertical. D'ici, elle ne peut pas montrer les fleurs. Alors, elle danse.",
+      "source_text": "Dans la ruche, il fait noir, et le rayon est un mur vertical. D'ici, elle ne peut pas montrer les fleurs. Alors, elle danse.",
+      "voice": "ff_siwis",
+      "engine": "kokoro",
+      "lang": "fr",
+      "speed": 1.0,
+      "style": "neutral",
+      "start": 6.047,
+      "end": 13.655,
+      "duration": 7.609,
+      "speech_start": 6.087,
+      "speech_end": 13.287,
+      "pause_after": 0.5,
+      "slot": {
+        "start": 6.047,
+        "end": 14.155,
+        "duration": 8.109
+      },
+      "file": "lines/02-problem.wav",
+      "timing": "exact",
+      "wps": 3.333,
+      "words": [
+        {
+          "text": "Dans",
+          "start": 6.087,
+          "end": 6.251,
+          "line": "problem"
+        },
+        {
+          "text": "la",
+          "start": 6.277,
+          "end": 6.377,
+          "line": "problem"
+        },
+        {
+          "text": "ruche,",
+          "start": 6.427,
+          "end": 6.776,
+          "line": "problem"
+        },
+        {
+          "text": "il",
+          "start": 6.917,
+          "end": 7.039,
+          "line": "problem"
+        },
+        {
+          "text": "fait",
+          "start": 7.112,
+          "end": 7.249,
+          "line": "problem"
+        },
+        {
+          "text": "noir,",
+          "start": 7.298,
+          "end": 7.743,
+          "line": "problem"
+        },
+        {
+          "text": "et",
+          "start": 7.847,
+          "end": 7.897,
+          "line": "problem"
+        },
+        {
+          "text": "le",
+          "start": 7.935,
+          "end": 8.033,
+          "line": "problem"
+        },
+        {
+          "text": "rayon",
+          "start": 8.083,
+          "end": 8.373,
+          "line": "problem"
+        },
+        {
+          "text": "est",
+          "start": 8.414,
+          "end": 8.511,
+          "line": "problem"
+        },
+        {
+          "text": "un",
+          "start": 8.555,
+          "end": 8.609,
+          "line": "problem"
+        },
+        {
+          "text": "mur",
+          "start": 8.646,
+          "end": 8.785,
+          "line": "problem"
+        },
+        {
+          "text": "vertical.",
+          "start": 8.824,
+          "end": 9.567,
+          "line": "problem"
+        },
+        {
+          "text": "D'ici,",
+          "start": 9.807,
+          "end": 10.287,
+          "line": "problem"
+        },
+        {
+          "text": "elle",
+          "start": 10.387,
+          "end": 10.535,
+          "line": "problem"
+        },
+        {
+          "text": "ne",
+          "start": 10.564,
+          "end": 10.648,
+          "line": "problem"
+        },
+        {
+          "text": "peut",
+          "start": 10.677,
+          "end": 10.81,
+          "line": "problem"
+        },
+        {
+          "text": "pas",
+          "start": 10.859,
+          "end": 10.948,
+          "line": "problem"
+        },
+        {
+          "text": "montrer",
+          "start": 10.979,
+          "end": 11.255,
+          "line": "problem"
+        },
+        {
+          "text": "les",
+          "start": 11.285,
+          "end": 11.381,
+          "line": "problem"
+        },
+        {
+          "text": "fleurs.",
+          "start": 11.457,
+          "end": 11.897,
+          "line": "problem"
+        },
+        {
+          "text": "Alors,",
+          "start": 12.147,
+          "end": 12.547,
+          "line": "problem"
+        },
+        {
+          "text": "elle",
+          "start": 12.628,
+          "end": 12.733,
+          "line": "problem"
+        },
+        {
+          "text": "danse.",
+          "start": 12.783,
+          "end": 13.287,
+          "line": "problem"
+        }
+      ]
+    },
+    {
+      "id": "angle",
+      "index": 3,
+      "text": "Sur le rayon, tout droit vers le haut signifie : vers le soleil. Si la nourriture est à quarante-cinq degrés à droite du soleil, sa course frétillante penche de quarante-cinq degrés à droite de la verticale. Quand le soleil se déplace, elle ajuste son angle.",
+      "source_text": "Sur le rayon, tout droit vers le haut signifie : vers le soleil. Si la nourriture est à quarante-cinq degrés à droite du soleil, sa course frétillante penche de quarante-cinq degrés à droite de la verticale. Quand le soleil se déplace, elle ajuste son angle.",
+      "voice": "ff_siwis",
+      "engine": "kokoro",
+      "lang": "fr",
+      "speed": 1.0,
+      "style": "neutral",
+      "start": 14.155,
+      "end": 29.081,
+      "duration": 14.925,
+      "speech_start": 14.315,
+      "speech_end": 28.685,
+      "pause_after": 0.5,
+      "slot": {
+        "start": 14.155,
+        "end": 29.581,
+        "duration": 15.425
+      },
+      "file": "lines/03-angle.wav",
+      "timing": "exact",
+      "wps": 3.062,
+      "words": [
+        {
+          "text": "Sur",
+          "start": 14.315,
+          "end": 14.506,
+          "line": "angle"
+        },
+        {
+          "text": "le",
+          "start": 14.538,
+          "end": 14.632,
+          "line": "angle"
+        },
+        {
+          "text": "rayon,",
+          "start": 14.682,
+          "end": 15.119,
+          "line": "angle"
+        },
+        {
+          "text": "tout",
+          "start": 15.265,
+          "end": 15.371,
+          "line": "angle"
+        },
+        {
+          "text": "droit",
+          "start": 15.422,
+          "end": 15.648,
+          "line": "angle"
+        },
+        {
+          "text": "vers",
+          "start": 15.698,
+          "end": 15.851,
+          "line": "angle"
+        },
+        {
+          "text": "le",
+          "start": 15.88,
+          "end": 15.968,
+          "line": "angle"
+        },
+        {
+          "text": "haut",
+          "start": 15.999,
+          "end": 16.079,
+          "line": "angle"
+        },
+        {
+          "text": "signifie:",
+          "start": 16.139,
+          "end": 16.715,
+          "line": "angle"
+        },
+        {
+          "text": "vers",
+          "start": 16.925,
+          "end": 17.105,
+          "line": "angle"
+        },
+        {
+          "text": "le",
+          "start": 17.134,
+          "end": 17.223,
+          "line": "angle"
+        },
+        {
+          "text": "soleil.",
+          "start": 17.282,
+          "end": 17.855,
+          "line": "angle"
+        },
+        {
+          "text": "Si",
+          "start": 18.125,
+          "end": 18.294,
+          "line": "angle"
+        },
+        {
+          "text": "la",
+          "start": 18.331,
+          "end": 18.429,
+          "line": "angle"
+        },
+        {
+          "text": "nourriture",
+          "start": 18.473,
+          "end": 19.061,
+          "line": "angle"
+        },
+        {
+          "text": "est",
+          "start": 19.118,
+          "end": 19.213,
+          "line": "angle"
+        },
+        {
+          "text": "à",
+          "start": 19.259,
+          "end": 19.301,
+          "line": "angle"
+        },
+        {
+          "text": "quarante-cinq",
+          "start": 19.305,
+          "end": 19.981,
+          "line": "angle"
+        },
+        {
+          "text": "degrés",
+          "start": 20.033,
+          "end": 20.402,
+          "line": "angle"
+        },
+        {
+          "text": "à",
+          "start": 20.441,
+          "end": 20.476,
+          "line": "angle"
+        },
+        {
+          "text": "droite",
+          "start": 20.517,
+          "end": 20.773,
+          "line": "angle"
+        },
+        {
+          "text": "du",
+          "start": 20.814,
+          "end": 20.895,
+          "line": "angle"
+        },
+        {
+          "text": "soleil,",
+          "start": 20.958,
+          "end": 21.515,
+          "line": "angle"
+        },
+        {
+          "text": "sa",
+          "start": 21.665,
+          "end": 21.844,
+          "line": "angle"
+        },
+        {
+          "text": "course",
+          "start": 21.905,
+          "end": 22.143,
+          "line": "angle"
+        },
+        {
+          "text": "frétillante",
+          "start": 22.194,
+          "end": 22.746,
+          "line": "angle"
+        },
+        {
+          "text": "penche",
+          "start": 22.825,
+          "end": 23.061,
+          "line": "angle"
+        },
+        {
+          "text": "de",
+          "start": 23.065,
+          "end": 23.183,
+          "line": "angle"
+        },
+        {
+          "text": "quarante-cinq",
+          "start": 23.225,
+          "end": 23.878,
+          "line": "angle"
+        },
+        {
+          "text": "degrés",
+          "start": 23.929,
+          "end": 24.305,
+          "line": "angle"
+        },
+        {
+          "text": "à",
+          "start": 24.348,
+          "end": 24.386,
+          "line": "angle"
+        },
+        {
+          "text": "droite",
+          "start": 24.429,
+          "end": 24.698,
+          "line": "angle"
+        },
+        {
+          "text": "de",
+          "start": 24.738,
+          "end": 24.79,
+          "line": "angle"
+        },
+        {
+          "text": "la",
+          "start": 24.817,
+          "end": 24.887,
+          "line": "angle"
+        },
+        {
+          "text": "verticale.",
+          "start": 24.919,
+          "end": 25.645,
+          "line": "angle"
+        },
+        {
+          "text": "Quand",
+          "start": 25.925,
+          "end": 26.052,
+          "line": "angle"
+        },
+        {
+          "text": "le",
+          "start": 26.079,
+          "end": 26.169,
+          "line": "angle"
+        },
+        {
+          "text": "soleil",
+          "start": 26.226,
+          "end": 26.588,
+          "line": "angle"
+        },
+        {
+          "text": "se",
+          "start": 26.639,
+          "end": 26.736,
+          "line": "angle"
+        },
+        {
+          "text": "déplace,",
+          "start": 26.776,
+          "end": 27.389,
+          "line": "angle"
+        },
+        {
+          "text": "elle",
+          "start": 27.525,
+          "end": 27.621,
+          "line": "angle"
+        },
+        {
+          "text": "ajuste",
+          "start": 27.672,
+          "end": 27.993,
+          "line": "angle"
+        },
+        {
+          "text": "son",
+          "start": 28.055,
+          "end": 28.248,
+          "line": "angle"
+        },
+        {
+          "text": "angle.",
+          "start": 28.286,
+          "end": 28.685,
+          "line": "angle"
+        }
+      ]
+    },
+    {
+      "id": "distance",
+      "index": 4,
+      "text": "Elle répète la boucle, en tournant à gauche, puis à droite : un huit. La course frétillante porte la distance. Plus la nourriture est loin, plus elle frétille longtemps.",
+      "source_text": "Elle répète la boucle, en tournant à gauche, puis à droite : un huit. La course frétillante porte la distance. Plus la nourriture est loin, plus elle frétille longtemps.",
+      "voice": "ff_siwis",
+      "engine": "kokoro",
+      "lang": "fr",
+      "speed": 1.0,
+      "style": "neutral",
+      "start": 29.581,
+      "end": 39.456,
+      "duration": 9.876,
+      "speech_start": 29.721,
+      "speech_end": 39.081,
+      "pause_after": 0.5,
+      "slot": {
+        "start": 29.581,
+        "end": 39.956,
+        "duration": 10.376
+      },
+      "file": "lines/04-distance.wav",
+      "timing": "exact",
+      "wps": 2.991,
+      "words": [
+        {
+          "text": "Elle",
+          "start": 29.721,
+          "end": 29.855,
+          "line": "distance"
+        },
+        {
+          "text": "répète",
+          "start": 29.905,
+          "end": 30.233,
+          "line": "distance"
+        },
+        {
+          "text": "la",
+          "start": 30.28,
+          "end": 30.381,
+          "line": "distance"
+        },
+        {
+          "text": "boucle,",
+          "start": 30.431,
+          "end": 30.892,
+          "line": "distance"
+        },
+        {
+          "text": "en",
+          "start": 31.021,
+          "end": 31.157,
+          "line": "distance"
+        },
+        {
+          "text": "tournant",
+          "start": 31.209,
+          "end": 31.535,
+          "line": "distance"
+        },
+        {
+          "text": "à",
+          "start": 31.581,
+          "end": 31.628,
+          "line": "distance"
+        },
+        {
+          "text": "gauche,",
+          "start": 31.678,
+          "end": 32.017,
+          "line": "distance"
+        },
+        {
+          "text": "puis",
+          "start": 32.24,
+          "end": 32.447,
+          "line": "distance"
+        },
+        {
+          "text": "à",
+          "start": 32.493,
+          "end": 32.54,
+          "line": "distance"
+        },
+        {
+          "text": "droite:",
+          "start": 32.589,
+          "end": 32.962,
+          "line": "distance"
+        },
+        {
+          "text": "un",
+          "start": 33.141,
+          "end": 33.252,
+          "line": "distance"
+        },
+        {
+          "text": "huit.",
+          "start": 33.303,
+          "end": 33.791,
+          "line": "distance"
+        },
+        {
+          "text": "La",
+          "start": 34.05,
+          "end": 34.157,
+          "line": "distance"
+        },
+        {
+          "text": "course",
+          "start": 34.209,
+          "end": 34.444,
+          "line": "distance"
+        },
+        {
+          "text": "frétillante",
+          "start": 34.495,
+          "end": 35.058,
+          "line": "distance"
+        },
+        {
+          "text": "porte",
+          "start": 35.171,
+          "end": 35.361,
+          "line": "distance"
+        },
+        {
+          "text": "la",
+          "start": 35.409,
+          "end": 35.495,
+          "line": "distance"
+        },
+        {
+          "text": "distance.",
+          "start": 35.532,
+          "end": 36.281,
+          "line": "distance"
+        },
+        {
+          "text": "Plus",
+          "start": 36.55,
+          "end": 36.642,
+          "line": "distance"
+        },
+        {
+          "text": "la",
+          "start": 36.678,
+          "end": 36.778,
+          "line": "distance"
+        },
+        {
+          "text": "nourriture",
+          "start": 36.822,
+          "end": 37.312,
+          "line": "distance"
+        },
+        {
+          "text": "est",
+          "start": 37.361,
+          "end": 37.404,
+          "line": "distance"
+        },
+        {
+          "text": "loin,",
+          "start": 37.453,
+          "end": 37.752,
+          "line": "distance"
+        },
+        {
+          "text": "plus",
+          "start": 37.861,
+          "end": 38.07,
+          "line": "distance"
+        },
+        {
+          "text": "elle",
+          "start": 38.117,
+          "end": 38.199,
+          "line": "distance"
+        },
+        {
+          "text": "frétille",
+          "start": 38.248,
+          "end": 38.599,
+          "line": "distance"
+        },
+        {
+          "text": "longtemps.",
+          "start": 38.627,
+          "end": 39.081,
+          "line": "distance"
+        }
+      ]
+    },
+    {
+      "id": "round",
+      "index": 5,
+      "text": "Si la nourriture est tout près, à une dizaine de mètres, elle danse en rond. Au-delà d'environ quarante mètres, le cercle s'étire en danse frétillante.",
+      "source_text": "Si la nourriture est tout près, à une dizaine de mètres, elle danse en rond. Au-delà d'environ quarante mètres, le cercle s'étire en danse frétillante.",
+      "voice": "ff_siwis",
+      "engine": "kokoro",
+      "lang": "fr",
+      "speed": 1.0,
+      "style": "neutral",
+      "start": 39.956,
+      "end": 48.743,
+      "duration": 8.787,
+      "speech_start": 40.006,
+      "speech_end": 48.356,
+      "pause_after": 0.5,
+      "slot": {
+        "start": 39.956,
+        "end": 49.243,
+        "duration": 9.287
+      },
+      "file": "lines/05-round.wav",
+      "timing": "exact",
+      "wps": 2.994,
+      "words": [
+        {
+          "text": "Si",
+          "start": 40.006,
+          "end": 40.174,
+          "line": "round"
+        },
+        {
+          "text": "la",
+          "start": 40.212,
+          "end": 40.311,
+          "line": "round"
+        },
+        {
+          "text": "nourriture",
+          "start": 40.356,
+          "end": 40.98,
+          "line": "round"
+        },
+        {
+          "text": "est",
+          "start": 41.036,
+          "end": 41.11,
+          "line": "round"
+        },
+        {
+          "text": "tout",
+          "start": 41.206,
+          "end": 41.307,
+          "line": "round"
+        },
+        {
+          "text": "près,",
+          "start": 41.386,
+          "end": 41.706,
+          "line": "round"
+        },
+        {
+          "text": "à",
+          "start": 41.826,
+          "end": 41.912,
+          "line": "round"
+        },
+        {
+          "text": "une",
+          "start": 41.96,
+          "end": 42.052,
+          "line": "round"
+        },
+        {
+          "text": "dizaine",
+          "start": 42.102,
+          "end": 42.415,
+          "line": "round"
+        },
+        {
+          "text": "de",
+          "start": 42.463,
+          "end": 42.556,
+          "line": "round"
+        },
+        {
+          "text": "mètres,",
+          "start": 42.605,
+          "end": 43.038,
+          "line": "round"
+        },
+        {
+          "text": "elle",
+          "start": 43.206,
+          "end": 43.326,
+          "line": "round"
+        },
+        {
+          "text": "danse",
+          "start": 43.376,
+          "end": 43.608,
+          "line": "round"
+        },
+        {
+          "text": "en",
+          "start": 43.66,
+          "end": 43.744,
+          "line": "round"
+        },
+        {
+          "text": "rond.",
+          "start": 43.794,
+          "end": 44.056,
+          "line": "round"
+        },
+        {
+          "text": "Au-delà",
+          "start": 44.326,
+          "end": 44.702,
+          "line": "round"
+        },
+        {
+          "text": "d'environ",
+          "start": 44.751,
+          "end": 45.177,
+          "line": "round"
+        },
+        {
+          "text": "quarante",
+          "start": 45.226,
+          "end": 45.541,
+          "line": "round"
+        },
+        {
+          "text": "mètres,",
+          "start": 45.596,
+          "end": 46.096,
+          "line": "round"
+        },
+        {
+          "text": "le",
+          "start": 46.236,
+          "end": 46.345,
+          "line": "round"
+        },
+        {
+          "text": "cercle",
+          "start": 46.421,
+          "end": 46.728,
+          "line": "round"
+        },
+        {
+          "text": "s'étire",
+          "start": 46.803,
+          "end": 47.192,
+          "line": "round"
+        },
+        {
+          "text": "en",
+          "start": 47.239,
+          "end": 47.316,
+          "line": "round"
+        },
+        {
+          "text": "danse",
+          "start": 47.352,
+          "end": 47.544,
+          "line": "round"
+        },
+        {
+          "text": "frétillante.",
+          "start": 47.588,
+          "end": 48.356,
+          "line": "round"
+        }
+      ]
+    },
+    {
+      "id": "source",
+      "index": 6,
+      "text": "Karl von Frisch, l'éthologue autrichien qui a partagé le prix Nobel 1973, fut l'un des premiers à la déchiffrer.",
+      "source_text": "Karl von Frisch, l'éthologue autrichien qui a partagé le prix Nobel 1973, fut l'un des premiers à la déchiffrer.",
+      "voice": "ff_siwis",
+      "engine": "kokoro",
+      "lang": "fr",
+      "speed": 1.0,
+      "style": "neutral",
+      "start": 49.243,
+      "end": 56.998,
+      "duration": 7.755,
+      "speech_start": 49.273,
+      "speech_end": 56.603,
+      "pause_after": 0.5,
+      "slot": {
+        "start": 49.243,
+        "end": 62.198,
+        "duration": 12.955
+      },
+      "file": "lines/06-source.wav",
+      "timing": "exact",
+      "wps": 2.592,
+      "words": [
+        {
+          "text": "Karl",
+          "start": 49.273,
+          "end": 49.539,
+          "line": "source"
+        },
+        {
+          "text": "von",
+          "start": 49.606,
+          "end": 49.798,
+          "line": "source"
+        },
+        {
+          "text": "Frisch,",
+          "start": 49.863,
+          "end": 50.293,
+          "line": "source"
+        },
+        {
+          "text": "l'éthologue",
+          "start": 50.473,
+          "end": 51.064,
+          "line": "source"
+        },
+        {
+          "text": "autrichien",
+          "start": 51.122,
+          "end": 51.702,
+          "line": "source"
+        },
+        {
+          "text": "qui",
+          "start": 51.743,
+          "end": 51.831,
+          "line": "source"
+        },
+        {
+          "text": "a",
+          "start": 51.874,
+          "end": 51.912,
+          "line": "source"
+        },
+        {
+          "text": "partagé",
+          "start": 51.963,
+          "end": 52.42,
+          "line": "source"
+        },
+        {
+          "text": "le",
+          "start": 52.46,
+          "end": 52.549,
+          "line": "source"
+        },
+        {
+          "text": "prix",
+          "start": 52.613,
+          "end": 52.757,
+          "line": "source"
+        },
+        {
+          "text": "Nobel",
+          "start": 52.803,
+          "end": 53.215,
+          "line": "source"
+        },
+        {
+          "text": "1973,",
+          "start": 53.271,
+          "end": 54.803,
+          "line": "source"
+        },
+        {
+          "text": "fut",
+          "start": 55.053,
+          "end": 55.135,
+          "line": "source"
+        },
+        {
+          "text": "l'un",
+          "start": 55.177,
+          "end": 55.309,
+          "line": "source"
+        },
+        {
+          "text": "des",
+          "start": 55.339,
+          "end": 55.427,
+          "line": "source"
+        },
+        {
+          "text": "premiers",
+          "start": 55.478,
+          "end": 55.819,
+          "line": "source"
+        },
+        {
+          "text": "à",
+          "start": 55.847,
+          "end": 55.877,
+          "line": "source"
+        },
+        {
+          "text": "la",
+          "start": 55.898,
+          "end": 55.977,
+          "line": "source"
+        },
+        {
+          "text": "déchiffrer.",
+          "start": 56.011,
+          "end": 56.603,
+          "line": "source"
+        }
+      ]
+    }
+  ],
+  "words": [
+    {
+      "text": "Cette",
+      "start": 0.34,
+      "end": 0.56,
+      "line": "hook"
+    },
+    {
+      "text": "abeille",
+      "start": 0.613,
+      "end": 0.918,
+      "line": "hook"
+    },
+    {
+      "text": "donne",
+      "start": 0.995,
+      "end": 1.18,
+      "line": "hook"
+    },
+    {
+      "text": "des",
+      "start": 1.222,
+      "end": 1.306,
+      "line": "hook"
+    },
+    {
+      "text": "directions.",
+      "start": 1.346,
+      "end": 2.1,
+      "line": "hook"
+    },
+    {
+      "text": "Sa",
+      "start": 2.36,
+      "end": 2.447,
+      "line": "hook"
+    },
+    {
+      "text": "danse",
+      "start": 2.496,
+      "end": 2.757,
+      "line": "hook"
+    },
+    {
+      "text": "indique",
+      "start": 2.82,
+      "end": 3.172,
+      "line": "hook"
+    },
+    {
+      "text": "à",
+      "start": 3.22,
+      "end": 3.25,
+      "line": "hook"
+    },
+    {
+      "text": "la",
+      "start": 3.271,
+      "end": 3.369,
+      "line": "hook"
+    },
+    {
+      "text": "colonie",
+      "start": 3.419,
+      "end": 3.835,
+      "line": "hook"
+    },
+    {
+      "text": "où",
+      "start": 3.892,
+      "end": 3.942,
+      "line": "hook"
+    },
+    {
+      "text": "se",
+      "start": 3.993,
+      "end": 4.093,
+      "line": "hook"
+    },
+    {
+      "text": "trouve",
+      "start": 4.142,
+      "end": 4.349,
+      "line": "hook"
+    },
+    {
+      "text": "la",
+      "start": 4.38,
+      "end": 4.46,
+      "line": "hook"
+    },
+    {
+      "text": "nourriture.",
+      "start": 4.49,
+      "end": 5.16,
+      "line": "hook"
+    },
+    {
+      "text": "Dans",
+      "start": 6.087,
+      "end": 6.251,
+      "line": "problem"
+    },
+    {
+      "text": "la",
+      "start": 6.277,
+      "end": 6.377,
+      "line": "problem"
+    },
+    {
+      "text": "ruche,",
+      "start": 6.427,
+      "end": 6.776,
+      "line": "problem"
+    },
+    {
+      "text": "il",
+      "start": 6.917,
+      "end": 7.039,
+      "line": "problem"
+    },
+    {
+      "text": "fait",
+      "start": 7.112,
+      "end": 7.249,
+      "line": "problem"
+    },
+    {
+      "text": "noir,",
+      "start": 7.298,
+      "end": 7.743,
+      "line": "problem"
+    },
+    {
+      "text": "et",
+      "start": 7.847,
+      "end": 7.897,
+      "line": "problem"
+    },
+    {
+      "text": "le",
+      "start": 7.935,
+      "end": 8.033,
+      "line": "problem"
+    },
+    {
+      "text": "rayon",
+      "start": 8.083,
+      "end": 8.373,
+      "line": "problem"
+    },
+    {
+      "text": "est",
+      "start": 8.414,
+      "end": 8.511,
+      "line": "problem"
+    },
+    {
+      "text": "un",
+      "start": 8.555,
+      "end": 8.609,
+      "line": "problem"
+    },
+    {
+      "text": "mur",
+      "start": 8.646,
+      "end": 8.785,
+      "line": "problem"
+    },
+    {
+      "text": "vertical.",
+      "start": 8.824,
+      "end": 9.567,
+      "line": "problem"
+    },
+    {
+      "text": "D'ici,",
+      "start": 9.807,
+      "end": 10.287,
+      "line": "problem"
+    },
+    {
+      "text": "elle",
+      "start": 10.387,
+      "end": 10.535,
+      "line": "problem"
+    },
+    {
+      "text": "ne",
+      "start": 10.564,
+      "end": 10.648,
+      "line": "problem"
+    },
+    {
+      "text": "peut",
+      "start": 10.677,
+      "end": 10.81,
+      "line": "problem"
+    },
+    {
+      "text": "pas",
+      "start": 10.859,
+      "end": 10.948,
+      "line": "problem"
+    },
+    {
+      "text": "montrer",
+      "start": 10.979,
+      "end": 11.255,
+      "line": "problem"
+    },
+    {
+      "text": "les",
+      "start": 11.285,
+      "end": 11.381,
+      "line": "problem"
+    },
+    {
+      "text": "fleurs.",
+      "start": 11.457,
+      "end": 11.897,
+      "line": "problem"
+    },
+    {
+      "text": "Alors,",
+      "start": 12.147,
+      "end": 12.547,
+      "line": "problem"
+    },
+    {
+      "text": "elle",
+      "start": 12.628,
+      "end": 12.733,
+      "line": "problem"
+    },
+    {
+      "text": "danse.",
+      "start": 12.783,
+      "end": 13.287,
+      "line": "problem"
+    },
+    {
+      "text": "Sur",
+      "start": 14.315,
+      "end": 14.506,
+      "line": "angle"
+    },
+    {
+      "text": "le",
+      "start": 14.538,
+      "end": 14.632,
+      "line": "angle"
+    },
+    {
+      "text": "rayon,",
+      "start": 14.682,
+      "end": 15.119,
+      "line": "angle"
+    },
+    {
+      "text": "tout",
+      "start": 15.265,
+      "end": 15.371,
+      "line": "angle"
+    },
+    {
+      "text": "droit",
+      "start": 15.422,
+      "end": 15.648,
+      "line": "angle"
+    },
+    {
+      "text": "vers",
+      "start": 15.698,
+      "end": 15.851,
+      "line": "angle"
+    },
+    {
+      "text": "le",
+      "start": 15.88,
+      "end": 15.968,
+      "line": "angle"
+    },
+    {
+      "text": "haut",
+      "start": 15.999,
+      "end": 16.079,
+      "line": "angle"
+    },
+    {
+      "text": "signifie:",
+      "start": 16.139,
+      "end": 16.715,
+      "line": "angle"
+    },
+    {
+      "text": "vers",
+      "start": 16.925,
+      "end": 17.105,
+      "line": "angle"
+    },
+    {
+      "text": "le",
+      "start": 17.134,
+      "end": 17.223,
+      "line": "angle"
+    },
+    {
+      "text": "soleil.",
+      "start": 17.282,
+      "end": 17.855,
+      "line": "angle"
+    },
+    {
+      "text": "Si",
+      "start": 18.125,
+      "end": 18.294,
+      "line": "angle"
+    },
+    {
+      "text": "la",
+      "start": 18.331,
+      "end": 18.429,
+      "line": "angle"
+    },
+    {
+      "text": "nourriture",
+      "start": 18.473,
+      "end": 19.061,
+      "line": "angle"
+    },
+    {
+      "text": "est",
+      "start": 19.118,
+      "end": 19.213,
+      "line": "angle"
+    },
+    {
+      "text": "à",
+      "start": 19.259,
+      "end": 19.301,
+      "line": "angle"
+    },
+    {
+      "text": "quarante-cinq",
+      "start": 19.305,
+      "end": 19.981,
+      "line": "angle"
+    },
+    {
+      "text": "degrés",
+      "start": 20.033,
+      "end": 20.402,
+      "line": "angle"
+    },
+    {
+      "text": "à",
+      "start": 20.441,
+      "end": 20.476,
+      "line": "angle"
+    },
+    {
+      "text": "droite",
+      "start": 20.517,
+      "end": 20.773,
+      "line": "angle"
+    },
+    {
+      "text": "du",
+      "start": 20.814,
+      "end": 20.895,
+      "line": "angle"
+    },
+    {
+      "text": "soleil,",
+      "start": 20.958,
+      "end": 21.515,
+      "line": "angle"
+    },
+    {
+      "text": "sa",
+      "start": 21.665,
+      "end": 21.844,
+      "line": "angle"
+    },
+    {
+      "text": "course",
+      "start": 21.905,
+      "end": 22.143,
+      "line": "angle"
+    },
+    {
+      "text": "frétillante",
+      "start": 22.194,
+      "end": 22.746,
+      "line": "angle"
+    },
+    {
+      "text": "penche",
+      "start": 22.825,
+      "end": 23.061,
+      "line": "angle"
+    },
+    {
+      "text": "de",
+      "start": 23.065,
+      "end": 23.183,
+      "line": "angle"
+    },
+    {
+      "text": "quarante-cinq",
+      "start": 23.225,
+      "end": 23.878,
+      "line": "angle"
+    },
+    {
+      "text": "degrés",
+      "start": 23.929,
+      "end": 24.305,
+      "line": "angle"
+    },
+    {
+      "text": "à",
+      "start": 24.348,
+      "end": 24.386,
+      "line": "angle"
+    },
+    {
+      "text": "droite",
+      "start": 24.429,
+      "end": 24.698,
+      "line": "angle"
+    },
+    {
+      "text": "de",
+      "start": 24.738,
+      "end": 24.79,
+      "line": "angle"
+    },
+    {
+      "text": "la",
+      "start": 24.817,
+      "end": 24.887,
+      "line": "angle"
+    },
+    {
+      "text": "verticale.",
+      "start": 24.919,
+      "end": 25.645,
+      "line": "angle"
+    },
+    {
+      "text": "Quand",
+      "start": 25.925,
+      "end": 26.052,
+      "line": "angle"
+    },
+    {
+      "text": "le",
+      "start": 26.079,
+      "end": 26.169,
+      "line": "angle"
+    },
+    {
+      "text": "soleil",
+      "start": 26.226,
+      "end": 26.588,
+      "line": "angle"
+    },
+    {
+      "text": "se",
+      "start": 26.639,
+      "end": 26.736,
+      "line": "angle"
+    },
+    {
+      "text": "déplace,",
+      "start": 26.776,
+      "end": 27.389,
+      "line": "angle"
+    },
+    {
+      "text": "elle",
+      "start": 27.525,
+      "end": 27.621,
+      "line": "angle"
+    },
+    {
+      "text": "ajuste",
+      "start": 27.672,
+      "end": 27.993,
+      "line": "angle"
+    },
+    {
+      "text": "son",
+      "start": 28.055,
+      "end": 28.248,
+      "line": "angle"
+    },
+    {
+      "text": "angle.",
+      "start": 28.286,
+      "end": 28.685,
+      "line": "angle"
+    },
+    {
+      "text": "Elle",
+      "start": 29.721,
+      "end": 29.855,
+      "line": "distance"
+    },
+    {
+      "text": "répète",
+      "start": 29.905,
+      "end": 30.233,
+      "line": "distance"
+    },
+    {
+      "text": "la",
+      "start": 30.28,
+      "end": 30.381,
+      "line": "distance"
+    },
+    {
+      "text": "boucle,",
+      "start": 30.431,
+      "end": 30.892,
+      "line": "distance"
+    },
+    {
+      "text": "en",
+      "start": 31.021,
+      "end": 31.157,
+      "line": "distance"
+    },
+    {
+      "text": "tournant",
+      "start": 31.209,
+      "end": 31.535,
+      "line": "distance"
+    },
+    {
+      "text": "à",
+      "start": 31.581,
+      "end": 31.628,
+      "line": "distance"
+    },
+    {
+      "text": "gauche,",
+      "start": 31.678,
+      "end": 32.017,
+      "line": "distance"
+    },
+    {
+      "text": "puis",
+      "start": 32.24,
+      "end": 32.447,
+      "line": "distance"
+    },
+    {
+      "text": "à",
+      "start": 32.493,
+      "end": 32.54,
+      "line": "distance"
+    },
+    {
+      "text": "droite:",
+      "start": 32.589,
+      "end": 32.962,
+      "line": "distance"
+    },
+    {
+      "text": "un",
+      "start": 33.141,
+      "end": 33.252,
+      "line": "distance"
+    },
+    {
+      "text": "huit.",
+      "start": 33.303,
+      "end": 33.791,
+      "line": "distance"
+    },
+    {
+      "text": "La",
+      "start": 34.05,
+      "end": 34.157,
+      "line": "distance"
+    },
+    {
+      "text": "course",
+      "start": 34.209,
+      "end": 34.444,
+      "line": "distance"
+    },
+    {
+      "text": "frétillante",
+      "start": 34.495,
+      "end": 35.058,
+      "line": "distance"
+    },
+    {
+      "text": "porte",
+      "start": 35.171,
+      "end": 35.361,
+      "line": "distance"
+    },
+    {
+      "text": "la",
+      "start": 35.409,
+      "end": 35.495,
+      "line": "distance"
+    },
+    {
+      "text": "distance.",
+      "start": 35.532,
+      "end": 36.281,
+      "line": "distance"
+    },
+    {
+      "text": "Plus",
+      "start": 36.55,
+      "end": 36.642,
+      "line": "distance"
+    },
+    {
+      "text": "la",
+      "start": 36.678,
+      "end": 36.778,
+      "line": "distance"
+    },
+    {
+      "text": "nourriture",
+      "start": 36.822,
+      "end": 37.312,
+      "line": "distance"
+    },
+    {
+      "text": "est",
+      "start": 37.361,
+      "end": 37.404,
+      "line": "distance"
+    },
+    {
+      "text": "loin,",
+      "start": 37.453,
+      "end": 37.752,
+      "line": "distance"
+    },
+    {
+      "text": "plus",
+      "start": 37.861,
+      "end": 38.07,
+      "line": "distance"
+    },
+    {
+      "text": "elle",
+      "start": 38.117,
+      "end": 38.199,
+      "line": "distance"
+    },
+    {
+      "text": "frétille",
+      "start": 38.248,
+      "end": 38.599,
+      "line": "distance"
+    },
+    {
+      "text": "longtemps.",
+      "start": 38.627,
+      "end": 39.081,
+      "line": "distance"
+    },
+    {
+      "text": "Si",
+      "start": 40.006,
+      "end": 40.174,
+      "line": "round"
+    },
+    {
+      "text": "la",
+      "start": 40.212,
+      "end": 40.311,
+      "line": "round"
+    },
+    {
+      "text": "nourriture",
+      "start": 40.356,
+      "end": 40.98,
+      "line": "round"
+    },
+    {
+      "text": "est",
+      "start": 41.036,
+      "end": 41.11,
+      "line": "round"
+    },
+    {
+      "text": "tout",
+      "start": 41.206,
+      "end": 41.307,
+      "line": "round"
+    },
+    {
+      "text": "près,",
+      "start": 41.386,
+      "end": 41.706,
+      "line": "round"
+    },
+    {
+      "text": "à",
+      "start": 41.826,
+      "end": 41.912,
+      "line": "round"
+    },
+    {
+      "text": "une",
+      "start": 41.96,
+      "end": 42.052,
+      "line": "round"
+    },
+    {
+      "text": "dizaine",
+      "start": 42.102,
+      "end": 42.415,
+      "line": "round"
+    },
+    {
+      "text": "de",
+      "start": 42.463,
+      "end": 42.556,
+      "line": "round"
+    },
+    {
+      "text": "mètres,",
+      "start": 42.605,
+      "end": 43.038,
+      "line": "round"
+    },
+    {
+      "text": "elle",
+      "start": 43.206,
+      "end": 43.326,
+      "line": "round"
+    },
+    {
+      "text": "danse",
+      "start": 43.376,
+      "end": 43.608,
+      "line": "round"
+    },
+    {
+      "text": "en",
+      "start": 43.66,
+      "end": 43.744,
+      "line": "round"
+    },
+    {
+      "text": "rond.",
+      "start": 43.794,
+      "end": 44.056,
+      "line": "round"
+    },
+    {
+      "text": "Au-delà",
+      "start": 44.326,
+      "end": 44.702,
+      "line": "round"
+    },
+    {
+      "text": "d'environ",
+      "start": 44.751,
+      "end": 45.177,
+      "line": "round"
+    },
+    {
+      "text": "quarante",
+      "start": 45.226,
+      "end": 45.541,
+      "line": "round"
+    },
+    {
+      "text": "mètres,",
+      "start": 45.596,
+      "end": 46.096,
+      "line": "round"
+    },
+    {
+      "text": "le",
+      "start": 46.236,
+      "end": 46.345,
+      "line": "round"
+    },
+    {
+      "text": "cercle",
+      "start": 46.421,
+      "end": 46.728,
+      "line": "round"
+    },
+    {
+      "text": "s'étire",
+      "start": 46.803,
+      "end": 47.192,
+      "line": "round"
+    },
+    {
+      "text": "en",
+      "start": 47.239,
+      "end": 47.316,
+      "line": "round"
+    },
+    {
+      "text": "danse",
+      "start": 47.352,
+      "end": 47.544,
+      "line": "round"
+    },
+    {
+      "text": "frétillante.",
+      "start": 47.588,
+      "end": 48.356,
+      "line": "round"
+    },
+    {
+      "text": "Karl",
+      "start": 49.273,
+      "end": 49.539,
+      "line": "source"
+    },
+    {
+      "text": "von",
+      "start": 49.606,
+      "end": 49.798,
+      "line": "source"
+    },
+    {
+      "text": "Frisch,",
+      "start": 49.863,
+      "end": 50.293,
+      "line": "source"
+    },
+    {
+      "text": "l'éthologue",
+      "start": 50.473,
+      "end": 51.064,
+      "line": "source"
+    },
+    {
+      "text": "autrichien",
+      "start": 51.122,
+      "end": 51.702,
+      "line": "source"
+    },
+    {
+      "text": "qui",
+      "start": 51.743,
+      "end": 51.831,
+      "line": "source"
+    },
+    {
+      "text": "a",
+      "start": 51.874,
+      "end": 51.912,
+      "line": "source"
+    },
+    {
+      "text": "partagé",
+      "start": 51.963,
+      "end": 52.42,
+      "line": "source"
+    },
+    {
+      "text": "le",
+      "start": 52.46,
+      "end": 52.549,
+      "line": "source"
+    },
+    {
+      "text": "prix",
+      "start": 52.613,
+      "end": 52.757,
+      "line": "source"
+    },
+    {
+      "text": "Nobel",
+      "start": 52.803,
+      "end": 53.215,
+      "line": "source"
+    },
+    {
+      "text": "1973,",
+      "start": 53.271,
+      "end": 54.803,
+      "line": "source"
+    },
+    {
+      "text": "fut",
+      "start": 55.053,
+      "end": 55.135,
+      "line": "source"
+    },
+    {
+      "text": "l'un",
+      "start": 55.177,
+      "end": 55.309,
+      "line": "source"
+    },
+    {
+      "text": "des",
+      "start": 55.339,
+      "end": 55.427,
+      "line": "source"
+    },
+    {
+      "text": "premiers",
+      "start": 55.478,
+      "end": 55.819,
+      "line": "source"
+    },
+    {
+      "text": "à",
+      "start": 55.847,
+      "end": 55.877,
+      "line": "source"
+    },
+    {
+      "text": "la",
+      "start": 55.898,
+      "end": 55.977,
+      "line": "source"
+    },
+    {
+      "text": "déchiffrer.",
+      "start": 56.011,
+      "end": 56.603,
+      "line": "source"
+    }
+  ],
+  "captions": {
+    "srt": "vo.srt",
+    "transcript": "vo.words.json",
+    "cues": 28
+  },
+  "build_seconds": 17.01,
+  "lexicon": [
+    "showtime:lib/st/voice/lexicon.json",
+    "../lexicon.json"
+  ]
+}

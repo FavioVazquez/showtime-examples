@@ -1,0 +1,109 @@
+1
+00:00:00,040 --> 00:00:03,791
+Why is the area of a circle pi r squared?
+
+2
+00:00:04,537 --> 00:00:07,107
+Cut the circle into thin rings,
+
+3
+00:00:07,454 --> 00:00:08,556
+like an onion.
+
+4
+00:00:09,165 --> 00:00:12,775
+Each ring is about as long
+as its circumference,
+
+5
+00:00:13,195 --> 00:00:14,344
+and very thin.
+
+6
+00:00:15,166 --> 00:00:17,716
+Straighten each ring into a strip,
+
+7
+00:00:18,106 --> 00:00:19,236
+and stack them:
+
+8
+00:00:19,826 --> 00:00:21,446
+shortest on top,
+
+9
+00:00:21,576 --> 00:00:23,301
+longest at the bottom.
+
+10
+00:00:24,037 --> 00:00:27,629
+They pile up into something
+close to a triangle.
+
+11
+00:00:29,106 --> 00:00:30,886
+Now make the rings thinner.
+
+12
+00:00:31,306 --> 00:00:32,633
+Smaller steps.
+
+13
+00:00:33,349 --> 00:00:35,119
+As the rings get thinner,
+
+14
+00:00:35,459 --> 00:00:36,879
+the steps vanish,
+
+15
+00:00:37,449 --> 00:00:39,787
+and the stack becomes a triangle.
+
+16
+00:00:40,888 --> 00:00:42,788
+Its height is the radius,
+
+17
+00:00:43,038 --> 00:00:43,868
+r.
+
+18
+00:00:44,503 --> 00:00:46,813
+Its base is the outermost ring,
+
+19
+00:00:47,013 --> 00:00:48,103
+unrolled:
+
+20
+00:00:48,543 --> 00:00:49,853
+the circumference,
+
+21
+00:00:49,983 --> 00:00:51,282
+two pi r.
+
+22
+00:00:52,190 --> 00:00:53,770
+A triangle's area
+
+23
+00:00:54,130 --> 00:00:56,485
+is half the base times the height.
+
+24
+00:00:57,211 --> 00:00:59,811
+Half of two pi r, times r,
+
+25
+00:01:00,241 --> 00:01:01,880
+is pi r squared.
+
+26
+00:01:02,895 --> 00:01:04,865
+Same area as the circle:
+
+27
+00:01:05,315 --> 00:01:06,817
+pi r squared.

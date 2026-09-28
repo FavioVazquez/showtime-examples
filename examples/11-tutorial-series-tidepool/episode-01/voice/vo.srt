@@ -1,0 +1,148 @@
+1
+00:00:04,350 --> 00:00:06,479
+This is Tidepool,
+a notes app that
+
+2
+00:00:06,531 --> 00:00:08,510
+keeps everything
+on your own device.
+
+3
+00:00:08,951 --> 00:00:11,071
+Let's capture a note
+from start to finish.
+
+4
+00:00:12,245 --> 00:00:13,605
+To start a note, press N.
+
+5
+00:00:14,005 --> 00:00:16,025
+The New note button
+does the same thing.
+
+6
+00:00:17,291 --> 00:00:18,511
+The cursor is already in
+
+7
+00:00:18,511 --> 00:00:20,077
+the title, so just type.
+
+8
+00:00:22,357 --> 00:00:24,607
+Press Enter to jump
+down to the body.
+
+9
+00:00:25,663 --> 00:00:26,973
+The body is Markdown.
+
+10
+00:00:27,363 --> 00:00:28,618
+A dash and two brackets
+
+11
+00:00:28,661 --> 00:00:29,806
+make a checklist item.
+
+12
+00:00:31,276 --> 00:00:31,966
+Press Enter,
+
+13
+00:00:32,136 --> 00:00:33,958
+and the list carries
+on by itself.
+
+14
+00:00:37,428 --> 00:00:39,144
+In split view,
+the preview on the
+
+15
+00:00:39,196 --> 00:00:40,814
+right renders it as you type.
+
+16
+00:00:41,894 --> 00:00:43,874
+Command E flips to
+the full preview.
+
+17
+00:00:44,274 --> 00:00:45,844
+Press it again to keep writing.
+
+18
+00:00:47,525 --> 00:00:48,755
+Tags go under the title.
+
+19
+00:00:49,155 --> 00:00:51,023
+Click Add tag, type planning,
+
+20
+00:00:51,229 --> 00:00:52,075
+and press Enter.
+
+21
+00:00:53,715 --> 00:00:54,885
+Then choose a notebook.
+
+22
+00:00:55,255 --> 00:00:56,675
+This one belongs in Work.
+
+23
+00:00:58,255 --> 00:00:59,545
+There's no save button.
+
+24
+00:00:59,945 --> 00:01:01,495
+Tidepool saves as you type,
+
+25
+00:01:01,635 --> 00:01:03,230
+and nothing leaves this device.
+
+26
+00:01:04,530 --> 00:01:05,970
+The sidebar says so too:
+
+27
+00:01:06,342 --> 00:01:07,917
+sync is set to local only.
+
+28
+00:01:09,287 --> 00:01:10,957
+Press Escape to
+leave the editor,
+
+29
+00:01:11,217 --> 00:01:13,037
+then P to pin the
+note to the top.
+
+30
+00:01:15,217 --> 00:01:17,237
+Pinned notes stay
+above everything else,
+
+31
+00:01:17,407 --> 00:01:18,775
+marked with a small pin.
+
+32
+00:01:20,565 --> 00:01:21,685
+That's the whole loop.
+
+33
+00:01:21,905 --> 00:01:24,301
+Press N, type, and
+Tidepool keeps it.
+
+34
+00:01:26,071 --> 00:01:28,571
+Next time: finding
+any note in a second.

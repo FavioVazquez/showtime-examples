@@ -1,0 +1,256 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Tidepool: 3 shortcuts (vertical short)</title>
+<script src="/_st/stage.js"></script>
+<link rel="stylesheet" href="/_st/themes/neon.css">
+<link rel="stylesheet" href="fonts/inter/font.css">
+<link rel="stylesheet" href="fonts/jetbrains-mono/font.css">
+<script type="module" src="/_st/components/index.js"></script>
+<style>
+  /* Tidepool brand (from examples/_apps/tidepool/styles.css): teal ramp + sun accent. */
+  :root {
+    --tp-900: #041E23; --tp-800: #073F48; --tp-700: #0B6F78; --tp-500: #14A3A0;
+    --tp-300: #6FD0C8; --tp-100: #CDEFEC; --sun: #FFB38A;
+    --bg: var(--tp-900); --fg: #E8F6F5; --muted: #9CC7C4;
+    --accent: #3CC5C0; --accent-2: var(--sun);
+    --font-display: 'Inter', sans-serif; --font-body: 'Inter', sans-serif; --font-mono: 'JetBrains Mono', monospace;
+    --weight-display: 800; --tracking-display: -0.035em; --case-display: none;
+    --cap-font: 'Inter', sans-serif; --cap-weight: 900; --cap-ink: #FFFFFF; --cap-accent: var(--sun);
+    --cap-outline: #031417;
+    --grain: 0.035;
+  }
+  /* Labels (step counter, key names, fiction note) are 44px: the 2.2 %-of-height floor for phone reading.
+     1080x1920 layout. Safe box for feed UI: x 64-916, y 220-1440. Header y 250-430,
+     app card y 478-1078, captions centred at ~64 % (y 1229), bottom 25 % holds only the waves. */
+  .scene { background:
+      radial-gradient(60% 34% at 18% 12%, rgb(20 163 160 / .34), transparent 70%),
+      radial-gradient(70% 40% at 90% 62%, rgb(11 111 120 / .45), transparent 72%),
+      linear-gradient(180deg, #06323A 0%, var(--tp-900) 62%, #03171B 100%);
+    font-family: var(--font-body); color: var(--fg); overflow: hidden; }
+
+  /* The spine: the logo's tide line, drifting under every scene on the global clock. */
+  .waves { position: absolute; left: 0; right: 0; bottom: 0; height: 430px; pointer-events: none; }
+  .waves svg { position: absolute; left: 0; width: 2160px; height: 140px; }
+  .waves .w1 { bottom: 250px; opacity: .55; }
+  .waves .w2 { bottom: 150px; opacity: .35; }
+  .waves .w3 { bottom: 50px;  opacity: .2; }
+  .waves path { fill: none; stroke: var(--tp-300); stroke-width: 7; stroke-linecap: round; }
+
+  /* Keycaps: light face, teal depth, pressed on the demo's key time. */
+  .kc-wrap { display: inline-block; animation: kc-pop .5s cubic-bezier(.3,1.55,.5,1) both; animation-delay: var(--in, 0s); }
+  .kc { display: grid; place-items: center; min-width: var(--k, 150px); height: var(--k, 150px); padding: 0 calc(var(--k, 150px) * .2);
+        box-sizing: border-box; border-radius: calc(var(--k, 150px) * .19);
+        background: linear-gradient(180deg, #FFFFFF 0%, #E3F3F1 100%); color: #0A3A42;
+        font: 750 calc(var(--k, 150px) * .5)/1 var(--font-body);
+        box-shadow: 0 calc(var(--k,150px)*.07) 0 var(--tp-300), 0 calc(var(--k,150px)*.16) calc(var(--k,150px)*.3) rgb(0 0 0 / .42), inset 0 -3px 0 rgb(10 58 66 / .06); }
+  .kc svg { width: 46%; height: 46%; fill: none; stroke: currentColor; stroke-width: 2.3; stroke-linecap: round; stroke-linejoin: round; }
+  .kc.press { animation: kc-press .34s cubic-bezier(.2,.8,.2,1) var(--at) 1 none; }
+  @keyframes kc-pop { from { opacity: 0; transform: translateY(40px) scale(.6); } to { opacity: 1; transform: none; } }
+  @keyframes kc-press {
+    0% { transform: none; }
+    30% { transform: translateY(calc(var(--k,150px)*.06)); background: linear-gradient(180deg, #FFE8DA, #FFD3BA); box-shadow: 0 2px 0 var(--sun), 0 6px 14px rgb(0 0 0 / .35); }
+    100% { transform: none; }
+  }
+  .keys { display: flex; gap: 14px; position: relative; }
+  .ring { position: absolute; left: 50%; top: 50%; width: 240px; height: 240px; margin: -120px 0 0 -120px; border-radius: 50%;
+          border: 5px solid var(--tp-300); opacity: 0; animation: ring .9s cubic-bezier(.15,.7,.3,1) var(--at) 1 none; pointer-events: none; }
+  .ring.r2 { animation-delay: calc(var(--at) + .14s); border-color: var(--sun); }
+  @keyframes ring { from { opacity: .85; transform: scale(.35); } to { opacity: 0; transform: scale(2.1); } }
+
+  /* Shortcut scenes */
+  .head { position: absolute; left: 64px; right: 164px; top: 238px; }
+  .step { font: 600 44px/1 var(--font-mono); color: var(--tp-300); letter-spacing: .06em; margin-bottom: 18px;
+          animation: fade-up .45s ease-out .1s both; }
+  .step b { color: var(--sun); font-weight: 700; }
+  .head-row { display: flex; align-items: center; gap: 34px; }
+  .label { font: 800 62px/1.02 var(--font-display); letter-spacing: -0.03em; color: #fff; animation: fade-up .5s cubic-bezier(.2,.8,.2,1) both; animation-delay: var(--in, .3s); }
+  .label em { font-style: normal; color: var(--sun); }
+  @keyframes fade-up { from { opacity: 0; transform: translateY(24px); } to { opacity: 1; transform: none; } }
+
+  .card { position: absolute; left: 64px; top: 478px; width: 896px; height: 600px; border-radius: 30px; overflow: hidden;
+          background: #F6F8F8; box-shadow: 0 0 0 2px rgb(111 208 200 / .45), 0 40px 90px rgb(0 0 0 / .5); }
+  .card .shot { position: absolute; left: 0; top: 0; width: 900px; height: 1100px; transform-origin: 0 0; }
+
+  /* Hook */
+  .hook-top { position: absolute; left: 64px; right: 164px; top: 292px; }
+  .hook-num { font: 900 300px/.78 var(--font-display); letter-spacing: -0.06em; color: #fff; }
+  .hook-num em { display: block; margin-top: 18px; font-size: 158px; line-height: .9; letter-spacing: -0.05em; font-style: normal; color: var(--sun); }
+  .hook-sub { margin-top: 30px; font: 800 64px/1.04 var(--font-display); letter-spacing: -0.035em; color: #fff; }
+  .hook-sub .accent { color: var(--accent); }
+  .row3 { position: absolute; left: 64px; width: 852px; top: 880px; display: flex; justify-content: space-between; align-items: flex-start; --k: 124px; }
+  .grp { display: flex; flex-direction: column; align-items: center; gap: 24px; }
+  .grp small { font: 600 44px/1 var(--font-mono); color: var(--tp-300); letter-spacing: .04em; animation: fade-up .4s ease-out both; animation-delay: var(--in); }
+
+  /* Close */
+  .brand { position: absolute; left: 64px; right: 164px; top: 300px; display: flex; flex-direction: column; align-items: flex-start; }
+  .brand img { width: 176px; height: 176px; animation: kc-pop .6s cubic-bezier(.3,1.5,.5,1) .12s both; }
+  .brand h2 { margin: 34px 0 0; font: 850 136px/.9 var(--font-display); letter-spacing: -0.05em; color: #fff; animation: fade-up .55s cubic-bezier(.2,.8,.2,1) .3s both; }
+  .brand p { margin: 22px 0 0; font: 700 50px/1.1 var(--font-display); color: var(--tp-300); letter-spacing: -0.02em; animation: fade-up .5s ease-out .5s both; }
+  .fiction { margin-top: 26px; padding: 10px 18px; border: 2px solid rgb(111 208 200 / .35); border-radius: 999px; font: 500 44px/1 var(--font-mono); color: var(--muted); letter-spacing: .02em;
+             animation: fade-up .4s ease-out .9s both; }
+  /* Hook emphasis (no build-in: frame 0 = frame 1 = the cover). */
+  .still .kc-wrap, .still small { animation: none; }
+  .bump { display: inline-block; transform-origin: 30% 80%; animation: bump .6s cubic-bezier(.3,1.4,.5,1) var(--at) 1 none; }
+  @keyframes bump { 0% { transform: none; } 30% { transform: scale(1.22); } 55% { transform: scale(1.17); } 100% { transform: none; } }
+  .drift { transform-origin: 0 50%; animation: drift 2.807s linear 0s 1 both; }
+  @keyframes drift { from { transform: none; } to { transform: scale(1.025); } }
+  /* Hook: a glimpse of the real app window in the empty lower band (y 1112-1440), so the
+     first second shows a notes app, not only a title. Faded at the bottom into the backdrop. */
+  .peek { position: absolute; left: 64px; top: 1112px; width: 896px; height: 328px; border-radius: 30px 30px 0 0; overflow: hidden;
+          opacity: .62; box-shadow: 0 0 0 2px rgb(111 208 200 / .35);
+          -webkit-mask-image: linear-gradient(180deg, #000 45%, transparent 100%); mask-image: linear-gradient(180deg, #000 45%, transparent 100%); }
+  .peek img { display: block; width: 100%; }
+  /* Captions: greedy wrap, not balance, so "COMMAND K" / "COMMAND E" stay on one line
+     (balance broke them as "COMMAND / K SEARCHES"). */
+  .st-cap .st-cap-line { text-wrap: wrap; }
+  /* An emphasised word keeps its 1.14x pop scale after it is spoken, and the scale eats the space after it
+     ("HIT N" left a 25 px gap before "FOR A" against 45 px elsewhere). Keep the accent colour, settle the size. */
+  .st-cap-bold-pop .st-cap-emph[data-state="spoken"] { transform: none !important; }
+  /* Card edges fade into the card colour so crops never slice UI mid-element. */
+  .card.fade-edges::after { content: ""; position: absolute; inset: 0; pointer-events: none; border-radius: inherit;
+    background: linear-gradient(90deg, transparent calc(100% - 56px), #F6F8F8 100%),
+                linear-gradient(180deg, transparent calc(100% - 64px), #F6F8F8 100%); }
+  .card.fade-right::after { content: ""; position: absolute; inset: 0; pointer-events: none; border-radius: inherit;
+    background: linear-gradient(90deg, transparent calc(100% - 64px), rgb(246 248 248 / .92) 100%); }
+</style>
+</head>
+<body>
+<div class="stage">
+
+  <!-- 1. Hook: fully built from frame 0 (frame 0 is the cover and the loop point, so nothing builds in);
+       motion is emphasis only: "3" and "fast" bump on the spoken word, the keys press at 2.3/2.5/2.7 s. -->
+  <section class="scene" id="hook" data-start="0" data-dur="2.807">
+    <div class="hook-top drift">
+      <div class="hook-num"><span class="bump" style="--at:.32s">3</span> <em>shortcuts</em></div>
+      <div class="hook-sub">that make Tidepool <span class="accent bump" style="--at:1.747s">fast</span></div>
+    </div>
+    <div class="row3 still drift">
+      <div class="grp"><div class="keys"><span class="kc-wrap"><span class="kc press" style="--at:2.3s"><svg viewBox="0 0 24 24"><path d="M9 6a3 3 0 1 0-3 3h12a3 3 0 1 0-3-3v12a3 3 0 1 0 3-3H6a3 3 0 1 0 3 3z"/></svg></span></span><span class="kc-wrap"><span class="kc press" style="--at:2.3s">K</span></span><i class="ring" style="--at:2.3s"></i></div><small>SEARCH</small></div>
+      <div class="grp"><div class="keys"><span class="kc-wrap"><span class="kc press" style="--at:2.5s">N</span></span><i class="ring" style="--at:2.5s"></i></div><small>NEW</small></div>
+      <div class="grp"><div class="keys"><span class="kc-wrap"><span class="kc press" style="--at:2.7s"><svg viewBox="0 0 24 24"><path d="M9 6a3 3 0 1 0-3 3h12a3 3 0 1 0-3-3v12a3 3 0 1 0 3-3H6a3 3 0 1 0 3 3z"/></svg></span></span><span class="kc-wrap"><span class="kc press" style="--at:2.7s">E</span></span><i class="ring" style="--at:2.7s"></i></div><small>PREVIEW</small></div>
+    </div>
+    <div class="peek drift"><img src="media/app-peek.jpg" alt=""></div>
+    <div class="waves"></div>
+  </section>
+
+  <!-- 2. Cmd+K: palette search (demo segment 1: key at 0.6 s, typing 0.97-1.5, Enter 2.47) -->
+  <!-- data-dur 3.1596, not 3.16: the cut lands at 5.9666 s, on frame 179 (5.96667 s) exactly. With 3.16 the
+       cut at 5.967 s is 0.33 ms after that frame: the stage snaps clip edges within 1 ms onto the frame,
+       but an older runtime did not snap the transition window, so frame 179 showed the "new" scene
+       alone, unpushed, for one frame before the push began. -->
+  <section class="scene" id="palette" data-start="#hook" data-dur="3.1596" data-transition="push left 0.4">
+    <div class="head">
+      <div class="step"><b>01</b> / 03</div>
+      <div class="head-row">
+        <div class="keys"><span class="kc-wrap" style="--in:.1s"><span class="kc press" style="--at:.6s"><svg viewBox="0 0 24 24"><path d="M9 6a3 3 0 1 0-3 3h12a3 3 0 1 0-3-3v12a3 3 0 1 0 3-3H6a3 3 0 1 0 3 3z"/></svg></span></span><span class="kc-wrap" style="--in:.16s"><span class="kc press" style="--at:.6s">K</span></span><i class="ring" style="--at:.6s"></i><i class="ring r2" style="--at:.6s"></i></div>
+        <div class="label" style="--in:.35s">Find any<br><em>note</em></div>
+      </div>
+    </div>
+    <div class="card fade-right" data-cam='[{"at":0,"x":0,"y":0,"w":880},{"at":0.42,"dur":0.6,"x":150,"y":135,"w":380},{"at":2.02,"dur":0.43,"x":292,"y":0,"w":640}]'>
+      <video class="shot" src="media/shortcuts.mp4" muted playsinline preload="auto" data-offset="0"></video>
+    </div>
+    <div class="waves"></div>
+  </section>
+
+  <!-- 3. N: new note (demo segment 2 from 4.017 s: key at 0.45, title typed 0.82-1.62) -->
+  <section class="scene" id="new" data-start="#palette" data-dur="2.018" data-transition="push left 0.4">
+    <div class="head">
+      <div class="step"><b>02</b> / 03</div>
+      <div class="head-row">
+        <div class="keys"><span class="kc-wrap" style="--in:.1s"><span class="kc press" style="--at:.45s">N</span></span><i class="ring" style="--at:.45s"></i><i class="ring r2" style="--at:.45s"></i></div>
+        <div class="label" style="--in:.3s">New note,<br><em>instantly</em></div>
+      </div>
+    </div>
+    <div class="card fade-edges" data-cam='[{"at":0,"x":0,"y":0,"w":760},{"at":0.38,"dur":0.6,"x":6,"y":0,"w":600}]'>
+      <video class="shot" src="media/shortcuts.mp4" muted playsinline preload="auto" data-offset="4.017"></video>
+    </div>
+    <div class="waves"></div>
+  </section>
+
+  <!-- 4. Cmd+E: source to preview (demo segment 3 from 8.8 s: key at 0.8) -->
+  <section class="scene" id="preview" data-start="#new" data-dur="3.373" data-transition="push left 0.4">
+    <div class="head">
+      <div class="step"><b>03</b> / 03</div>
+      <div class="head-row">
+        <div class="keys"><span class="kc-wrap" style="--in:.1s"><span class="kc press" style="--at:.8s"><svg viewBox="0 0 24 24"><path d="M9 6a3 3 0 1 0-3 3h12a3 3 0 1 0-3-3v12a3 3 0 1 0 3-3H6a3 3 0 1 0 3 3z"/></svg></span></span><span class="kc-wrap" style="--in:.16s"><span class="kc press" style="--at:.8s">E</span></span><i class="ring" style="--at:.8s"></i><i class="ring r2" style="--at:.8s"></i></div>
+        <div class="label" style="--in:.35s">See it<br><em>rendered</em></div>
+      </div>
+    </div>
+    <div class="card fade-edges" data-cam='[{"at":0,"x":290,"y":0,"w":620},{"at":0.12,"dur":0.55,"x":300,"y":150,"w":470},{"at":1.3,"dur":1.4,"x":300,"y":170,"w":580}]'>
+      <video class="shot" src="media/shortcuts.mp4" muted playsinline preload="auto" data-offset="8.8"></video>
+    </div>
+    <div class="waves"></div>
+  </section>
+
+  <!-- 5. Close: logo, name, the same key row as the hook (so the loop flows back) -->
+  <section class="scene" id="close" data-start="#preview" data-dur="3.641" data-transition="push left 0.4">
+    <div class="brand">
+      <img src="media/logo.svg" alt="">
+      <h2>Tidepool</h2>
+      <p>Local-first notes</p>
+      <div class="fiction">A fictional demo app</div>
+    </div>
+    <div class="row3">
+      <div class="grp"><div class="keys"><span class="kc-wrap" style="--in:.55s"><span class="kc"><svg viewBox="0 0 24 24"><path d="M9 6a3 3 0 1 0-3 3h12a3 3 0 1 0-3-3v12a3 3 0 1 0 3-3H6a3 3 0 1 0 3 3z"/></svg></span></span><span class="kc-wrap" style="--in:.6s"><span class="kc">K</span></span></div><small style="--in:.7s">SEARCH</small></div>
+      <div class="grp"><div class="keys"><span class="kc-wrap" style="--in:.7s"><span class="kc">N</span></span></div><small style="--in:.8s">NEW</small></div>
+      <div class="grp"><div class="keys"><span class="kc-wrap" style="--in:.85s"><span class="kc"><svg viewBox="0 0 24 24"><path d="M9 6a3 3 0 1 0-3 3h12a3 3 0 1 0-3-3v12a3 3 0 1 0 3-3H6a3 3 0 1 0 3 3z"/></svg></span></span><span class="kc-wrap" style="--in:.9s"><span class="kc">E</span></span></div><small style="--in:1.0s">PREVIEW</small></div>
+    </div>
+    <div class="waves"></div>
+  </section>
+
+  <!-- Captions for the whole video from the voice's word timings (retime points this at voice/captions.words.json). -->
+  <div data-st="caption-karaoke" data-src="voice/captions.words.json" data-style="bold-pop" data-emphasis="K,N,E,fast,Markdown,machine" data-at="0"></div>
+
+  <div data-st="grain"></div>
+</div>
+
+<script>
+  // Tide-line waves: one tiling SVG per scene, offset by the global clock so they flow across cuts.
+  const period = 270;
+  const wave = (amp) => {
+    let d = `M0 70`;
+    for (let x = 0; x < 2160; x += period) d += ` q ${period / 4} ${-amp} ${period / 2} 0 t ${period / 2} 0`;
+    return d;
+  };
+  document.querySelectorAll('.waves').forEach((el) => {
+    el.innerHTML = ['w1', 'w2', 'w3'].map((c, i) =>
+      `<svg class="${c}" viewBox="0 0 2160 140" preserveAspectRatio="none"><path d="${wave(34 - i * 6)}"/></svg>`).join('');
+  });
+  const waveSvgs = [...document.querySelectorAll('.waves svg')];
+
+  // App-card camera: [{at, dur, x, y, w}] regions in the app's CSS pixels (900x1100 viewport),
+  // eased between waypoints, plus a slow push-in so no frame is a frozen hold.
+  const CW = 896, CH = 600;
+  const cams = [...document.querySelectorAll('[data-cam]')].map((el) => ({
+    el, shot: el.querySelector('.shot'), path: JSON.parse(el.dataset.cam), scene: el.closest('.scene').id,
+  }));
+  const ease = (p) => (p < .5 ? 4 * p * p * p : 1 - Math.pow(-2 * p + 2, 3) / 2);
+  let clipStart = null;
+  ST.onSeek((t) => {
+    if (!clipStart) { clipStart = {}; for (const c of ST.clips()) if (c.id) clipStart[c.id] = c.start; }
+    waveSvgs.forEach((s, i) => {
+      const speed = [70, 46, 30][i % 3];
+      const x = -((t * speed + i * 90) % period);
+      s.style.transform = `translate3d(${x.toFixed(2)}px, ${(Math.sin(t * 1.3 + i) * 6).toFixed(2)}px, 0)`;
+    });
+    for (const c of cams) {
+      const lt = Math.max(0, t - (clipStart[c.scene] ?? 0));
+      let r = { ...c.path[0] };
+      for (let i = 1; i < c.path.length; i++) {
+        const k = c.path[i];
+        if (lt <= k.at) break;
+        const p = ease(Math.min(1, (lt - k.at) / (k.dur || 0.5)));
+        r = { x: r.x + (k.x - r.x) * p, y: r.y + (k.y - r.y) * p, w: r.w + (k.w - r.w) * p };
+      }
+      const w0 = r.w, w = w0 * (1 - 0.012 * lt);
+      const h0 = w0 * CH / CW, h = w * CH / CW;
+      const x = r.x + (w0 - w) / 2, y = r.y + (h0 - h) / 2;
+      const s = CW / w;
+      c.shot.style.transform = `scale(${s.toFixed(5)}) translate(${(-x).toFixed(3)}px, ${(-y).toFixed(3)}px)`;
+    }
+  });
+</script>
+</body>
+</html>

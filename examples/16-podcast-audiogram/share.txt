@@ -1,0 +1,21 @@
+Reels / TikTok caption:
+"The exact scenarios we train, I hope they never use it." Artemis III Chief Training Officer Debra O'Connell on why astronauts spend most of their training on failures they hope never happen. Full episode: nasa.gov/podcasts/houston-we-have-a-podcast/artemis-iii-training
+
+YouTube Shorts title:
+Why Artemis III astronauts train for failures they hope never happen
+
+YouTube Shorts description:
+From NASA's Houston We Have a Podcast, episode 434, "Artemis III Training" (August 21, 2026). Host Leah Cheshier asks Artemis III Chief Training Officer Debra O'Connell what would surprise the public about astronaut training.
+Full episode and transcript: https://www.nasa.gov/podcasts/houston-we-have-a-podcast/artemis-iii-training/
+Audio: NASA (public domain). Photos: NASA, Artemis II crew training in the Orion mockup (jsc2025e004086, jsc2025e004075). Not endorsed by NASA.
+
+Alt text (poster / cover):
+A pull quote in large white type on a dark background: "…the exact scenarios we train, I hope they never use it." above a dashed orange line and the name "Debra O'Connell, Artemis III Chief Training Officer, NASA".
+
+Notes for posting:
+- Captions are burned in. Do not upload a caption file to Reels or TikTok. For Shorts, captions.en.srt is optional (it only adds YouTube's CC toggle and search text).
+- Cover: frame 0 is the pull quote; pick it as the cover on Reels and TikTok.
+- It loops: the end card fades out onto the same background the quote starts on.
+- The photos show the Artemis II crew (training in January 2025), not the Artemis III crew; the on-screen label says so. Keep that label if you re-cut it.
+- Do not add NASA's insignia or the show's artwork: they are not covered by the public-domain status of the audio.
+- The first 0-3.4 s repeat the answer's last sentence as a cold open; the answer then plays uncut from the question to that same sentence.

@@ -1,0 +1,35 @@
+[
+ {
+  "name": "render",
+  "arguments": {
+   "project": "project/sting-1x1",
+   "output": "<job>/sting-1x1-r3.mp4"
+  }
+ },
+ {
+  "name": "qa",
+  "arguments": {
+   "video": "<job>/sting-1x1-r3.mp4",
+   "project": "project/sting-1x1",
+   "platform": "square"
+  }
+ },
+ {
+  "name": "deliver_exports",
+  "arguments": {
+   "video": "<job>/sting-16x9-r3.mp4",
+   "targets": [
+    "webp",
+    "gif"
+   ]
+  }
+ },
+ {
+  "name": "export_html",
+  "arguments": {
+   "project": "project/sting-16x9",
+   "output": "<job>/html/curtain-call-sting-player-r3.html",
+   "audio": "embed"
+  }
+ }
+]

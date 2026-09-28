@@ -1,0 +1,16 @@
+{
+  "source": "fontsource",
+  "source_label": "Fontsource",
+  "id": "cinzel",
+  "title": "Cinzel",
+  "license": "OFL-1.1",
+  "license_url": "https://spdx.org/licenses/OFL-1.1.html",
+  "landing_url": "https://fontsource.org/fonts/cinzel",
+  "license_text": "LICENSE.txt",
+  "license_text_source": "https://raw.githubusercontent.com/google/fonts/main/ofl/cinzel/OFL.txt",
+  "fetched": "2026-09-27T15:35:49",
+  "license_class": "free",
+  "attribution_required": false,
+  "credit": "\"Cinzel\" via Fontsource (OFL-1.1) - https://fontsource.org/fonts/cinzel",
+  "file": "cinzel"
+}

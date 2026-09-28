@@ -1,0 +1,1601 @@
+{
+  "version": 1,
+  "file": "vo.wav",
+  "sample_rate": 48000,
+  "duration": 43.892,
+  "lead_in": 0.0,
+  "tail": 0.8,
+  "loudness": -16.03,
+  "script": "../narration.md",
+  "lines": [
+    {
+      "id": "hook",
+      "index": 1,
+      "text": "Here's how to write a note in Tidepool, tag it, and find it again in seconds.",
+      "source_text": "Here's how to write a note in Tidepool, tag it, and find it again in seconds.",
+      "voice": "af_heart",
+      "engine": "kokoro",
+      "lang": "en-us",
+      "speed": 0.94,
+      "style": "tutorial",
+      "start": 0.0,
+      "end": 5.021,
+      "duration": 5.021,
+      "speech_start": 0.04,
+      "speech_end": 4.451,
+      "pause_after": 0.5,
+      "slot": {
+        "start": 0.0,
+        "end": 5.521,
+        "duration": 5.521
+      },
+      "file": "lines/01-hook.wav",
+      "timing": "exact",
+      "wps": 3.627,
+      "words": [
+        {
+          "text": "Here's",
+          "start": 0.04,
+          "end": 0.3,
+          "line": "hook"
+        },
+        {
+          "text": "how",
+          "start": 0.351,
+          "end": 0.488,
+          "line": "hook"
+        },
+        {
+          "text": "to",
+          "start": 0.514,
+          "end": 0.571,
+          "line": "hook"
+        },
+        {
+          "text": "write",
+          "start": 0.622,
+          "end": 0.784,
+          "line": "hook"
+        },
+        {
+          "text": "a",
+          "start": 0.812,
+          "end": 0.847,
+          "line": "hook"
+        },
+        {
+          "text": "note",
+          "start": 0.899,
+          "end": 1.125,
+          "line": "hook"
+        },
+        {
+          "text": "in",
+          "start": 1.13,
+          "end": 1.239,
+          "line": "hook"
+        },
+        {
+          "text": "Tidepool,",
+          "start": 1.29,
+          "end": 1.91,
+          "line": "hook"
+        },
+        {
+          "text": "tag",
+          "start": 2.18,
+          "end": 2.455,
+          "line": "hook"
+        },
+        {
+          "text": "it,",
+          "start": 2.508,
+          "end": 2.7,
+          "line": "hook"
+        },
+        {
+          "text": "and",
+          "start": 2.96,
+          "end": 3.019,
+          "line": "hook"
+        },
+        {
+          "text": "find",
+          "start": 3.094,
+          "end": 3.337,
+          "line": "hook"
+        },
+        {
+          "text": "it",
+          "start": 3.363,
+          "end": 3.414,
+          "line": "hook"
+        },
+        {
+          "text": "again",
+          "start": 3.445,
+          "end": 3.725,
+          "line": "hook"
+        },
+        {
+          "text": "in",
+          "start": 3.774,
+          "end": 3.875,
+          "line": "hook"
+        },
+        {
+          "text": "seconds.",
+          "start": 3.93,
+          "end": 4.451,
+          "line": "hook"
+        }
+      ]
+    },
+    {
+      "id": "create",
+      "index": 2,
+      "text": "Click New note, and type a title. Press Enter to move to the body, and start writing. Tidepool saves it on this device as you type.",
+      "source_text": "Click New note, and type a title. Press Enter to move to the body, and start writing. [pause 0.3] Tidepool saves it on this device as you type.",
+      "voice": "af_heart",
+      "engine": "kokoro",
+      "lang": "en-us",
+      "speed": 0.94,
+      "style": "tutorial",
+      "start": 5.521,
+      "end": 14.456,
+      "duration": 8.935,
+      "speech_start": 5.541,
+      "speech_end": 13.915,
+      "pause_after": 0.5,
+      "slot": {
+        "start": 5.521,
+        "end": 14.956,
+        "duration": 9.435
+      },
+      "file": "lines/02-create.wav",
+      "timing": "exact",
+      "wps": 3.105,
+      "words": [
+        {
+          "text": "Click",
+          "start": 5.541,
+          "end": 5.749,
+          "line": "create"
+        },
+        {
+          "text": "New",
+          "start": 5.8,
+          "end": 5.904,
+          "line": "create"
+        },
+        {
+          "text": "note,",
+          "start": 5.95,
+          "end": 6.259,
+          "line": "create"
+        },
+        {
+          "text": "and",
+          "start": 6.451,
+          "end": 6.516,
+          "line": "create"
+        },
+        {
+          "text": "type",
+          "start": 6.574,
+          "end": 6.803,
+          "line": "create"
+        },
+        {
+          "text": "a",
+          "start": 6.83,
+          "end": 6.863,
+          "line": "create"
+        },
+        {
+          "text": "title.",
+          "start": 6.918,
+          "end": 7.411,
+          "line": "create"
+        },
+        {
+          "text": "Press",
+          "start": 7.901,
+          "end": 8.126,
+          "line": "create"
+        },
+        {
+          "text": "Enter",
+          "start": 8.177,
+          "end": 8.43,
+          "line": "create"
+        },
+        {
+          "text": "to",
+          "start": 8.481,
+          "end": 8.548,
+          "line": "create"
+        },
+        {
+          "text": "move",
+          "start": 8.599,
+          "end": 8.804,
+          "line": "create"
+        },
+        {
+          "text": "to",
+          "start": 8.821,
+          "end": 8.906,
+          "line": "create"
+        },
+        {
+          "text": "the",
+          "start": 8.934,
+          "end": 8.986,
+          "line": "create"
+        },
+        {
+          "text": "body,",
+          "start": 9.037,
+          "end": 9.487,
+          "line": "create"
+        },
+        {
+          "text": "and",
+          "start": 9.641,
+          "end": 9.752,
+          "line": "create"
+        },
+        {
+          "text": "start",
+          "start": 9.801,
+          "end": 10.037,
+          "line": "create"
+        },
+        {
+          "text": "writing.",
+          "start": 10.088,
+          "end": 10.6,
+          "line": "create"
+        },
+        {
+          "text": "Tidepool",
+          "start": 11.36,
+          "end": 11.83,
+          "line": "create"
+        },
+        {
+          "text": "saves",
+          "start": 11.907,
+          "end": 12.192,
+          "line": "create"
+        },
+        {
+          "text": "it",
+          "start": 12.233,
+          "end": 12.291,
+          "line": "create"
+        },
+        {
+          "text": "on",
+          "start": 12.324,
+          "end": 12.405,
+          "line": "create"
+        },
+        {
+          "text": "this",
+          "start": 12.432,
+          "end": 12.563,
+          "line": "create"
+        },
+        {
+          "text": "device",
+          "start": 12.61,
+          "end": 13.16,
+          "line": "create"
+        },
+        {
+          "text": "as",
+          "start": 13.22,
+          "end": 13.357,
+          "line": "create"
+        },
+        {
+          "text": "you",
+          "start": 13.401,
+          "end": 13.48,
+          "line": "create"
+        },
+        {
+          "text": "type.",
+          "start": 13.532,
+          "end": 13.915,
+          "line": "create"
+        }
+      ]
+    },
+    {
+      "id": "tag",
+      "index": 3,
+      "text": "To tag it, click the tag field under the title. Type a tag, and press Enter. The new tag shows up in the sidebar, too.",
+      "source_text": "To tag it, click the tag field under the title. Type a tag, and press Enter. [pause 0.3] The new tag shows up in the sidebar, too.",
+      "voice": "af_heart",
+      "engine": "kokoro",
+      "lang": "en-us",
+      "speed": 0.94,
+      "style": "tutorial",
+      "start": 14.956,
+      "end": 23.321,
+      "duration": 8.365,
+      "speech_start": 14.996,
+      "speech_end": 22.781,
+      "pause_after": 0.5,
+      "slot": {
+        "start": 14.956,
+        "end": 23.821,
+        "duration": 8.865
+      },
+      "file": "lines/03-tag.wav",
+      "timing": "exact",
+      "wps": 3.211,
+      "words": [
+        {
+          "text": "To",
+          "start": 14.996,
+          "end": 15.065,
+          "line": "tag"
+        },
+        {
+          "text": "tag",
+          "start": 15.128,
+          "end": 15.411,
+          "line": "tag"
+        },
+        {
+          "text": "it,",
+          "start": 15.464,
+          "end": 15.586,
+          "line": "tag"
+        },
+        {
+          "text": "click",
+          "start": 15.786,
+          "end": 15.954,
+          "line": "tag"
+        },
+        {
+          "text": "the",
+          "start": 16.006,
+          "end": 16.042,
+          "line": "tag"
+        },
+        {
+          "text": "tag",
+          "start": 16.097,
+          "end": 16.394,
+          "line": "tag"
+        },
+        {
+          "text": "field",
+          "start": 16.445,
+          "end": 16.69,
+          "line": "tag"
+        },
+        {
+          "text": "under",
+          "start": 16.716,
+          "end": 16.858,
+          "line": "tag"
+        },
+        {
+          "text": "the",
+          "start": 16.886,
+          "end": 16.939,
+          "line": "tag"
+        },
+        {
+          "text": "title.",
+          "start": 16.99,
+          "end": 17.436,
+          "line": "tag"
+        },
+        {
+          "text": "Type",
+          "start": 17.856,
+          "end": 18.105,
+          "line": "tag"
+        },
+        {
+          "text": "a",
+          "start": 18.132,
+          "end": 18.171,
+          "line": "tag"
+        },
+        {
+          "text": "tag,",
+          "start": 18.241,
+          "end": 18.682,
+          "line": "tag"
+        },
+        {
+          "text": "and",
+          "start": 18.866,
+          "end": 18.961,
+          "line": "tag"
+        },
+        {
+          "text": "press",
+          "start": 19.012,
+          "end": 19.245,
+          "line": "tag"
+        },
+        {
+          "text": "Enter.",
+          "start": 19.289,
+          "end": 19.737,
+          "line": "tag"
+        },
+        {
+          "text": "The",
+          "start": 20.487,
+          "end": 20.533,
+          "line": "tag"
+        },
+        {
+          "text": "new",
+          "start": 20.585,
+          "end": 20.721,
+          "line": "tag"
+        },
+        {
+          "text": "tag",
+          "start": 20.78,
+          "end": 21.141,
+          "line": "tag"
+        },
+        {
+          "text": "shows",
+          "start": 21.212,
+          "end": 21.433,
+          "line": "tag"
+        },
+        {
+          "text": "up",
+          "start": 21.46,
+          "end": 21.574,
+          "line": "tag"
+        },
+        {
+          "text": "in",
+          "start": 21.6,
+          "end": 21.673,
+          "line": "tag"
+        },
+        {
+          "text": "the",
+          "start": 21.673,
+          "end": 21.733,
+          "line": "tag"
+        },
+        {
+          "text": "sidebar,",
+          "start": 21.786,
+          "end": 22.259,
+          "line": "tag"
+        },
+        {
+          "text": "too.",
+          "start": 22.397,
+          "end": 22.781,
+          "line": "tag"
+        }
+      ]
+    },
+    {
+      "id": "search",
+      "index": 4,
+      "text": "Later, from any note, press Command K, and type a word from the note. Matches light up as you type. Press Enter to jump straight back to it.",
+      "source_text": "Later, from any note, press Command K, and type a word from the note. Matches light up as you type. [pause 0.2] Press Enter to jump straight back to it.",
+      "voice": "af_heart",
+      "engine": "kokoro",
+      "lang": "en-us",
+      "speed": 0.94,
+      "style": "tutorial",
+      "start": 23.821,
+      "end": 33.243,
+      "duration": 9.423,
+      "speech_start": 23.861,
+      "speech_end": 32.724,
+      "pause_after": 0.5,
+      "slot": {
+        "start": 23.821,
+        "end": 33.743,
+        "duration": 9.923
+      },
+      "file": "lines/04-search.wav",
+      "timing": "exact",
+      "wps": 3.159,
+      "words": [
+        {
+          "text": "Later,",
+          "start": 23.861,
+          "end": 24.215,
+          "line": "search"
+        },
+        {
+          "text": "from",
+          "start": 24.295,
+          "end": 24.423,
+          "line": "search"
+        },
+        {
+          "text": "any",
+          "start": 24.474,
+          "end": 24.633,
+          "line": "search"
+        },
+        {
+          "text": "note,",
+          "start": 24.681,
+          "end": 25.011,
+          "line": "search"
+        },
+        {
+          "text": "press",
+          "start": 25.17,
+          "end": 25.403,
+          "line": "search"
+        },
+        {
+          "text": "Command",
+          "start": 25.481,
+          "end": 25.839,
+          "line": "search"
+        },
+        {
+          "text": "K,",
+          "start": 25.921,
+          "end": 26.323,
+          "line": "search"
+        },
+        {
+          "text": "and",
+          "start": 26.481,
+          "end": 26.549,
+          "line": "search"
+        },
+        {
+          "text": "type",
+          "start": 26.613,
+          "end": 26.857,
+          "line": "search"
+        },
+        {
+          "text": "a",
+          "start": 26.881,
+          "end": 26.931,
+          "line": "search"
+        },
+        {
+          "text": "word",
+          "start": 26.984,
+          "end": 27.215,
+          "line": "search"
+        },
+        {
+          "text": "from",
+          "start": 27.267,
+          "end": 27.423,
+          "line": "search"
+        },
+        {
+          "text": "the",
+          "start": 27.423,
+          "end": 27.494,
+          "line": "search"
+        },
+        {
+          "text": "note.",
+          "start": 27.545,
+          "end": 27.921,
+          "line": "search"
+        },
+        {
+          "text": "Matches",
+          "start": 28.411,
+          "end": 28.89,
+          "line": "search"
+        },
+        {
+          "text": "light",
+          "start": 28.983,
+          "end": 29.201,
+          "line": "search"
+        },
+        {
+          "text": "up",
+          "start": 29.23,
+          "end": 29.383,
+          "line": "search"
+        },
+        {
+          "text": "as",
+          "start": 29.435,
+          "end": 29.518,
+          "line": "search"
+        },
+        {
+          "text": "you",
+          "start": 29.566,
+          "end": 29.645,
+          "line": "search"
+        },
+        {
+          "text": "type.",
+          "start": 29.698,
+          "end": 30.094,
+          "line": "search"
+        },
+        {
+          "text": "Press",
+          "start": 30.764,
+          "end": 30.979,
+          "line": "search"
+        },
+        {
+          "text": "Enter",
+          "start": 31.03,
+          "end": 31.298,
+          "line": "search"
+        },
+        {
+          "text": "to",
+          "start": 31.35,
+          "end": 31.413,
+          "line": "search"
+        },
+        {
+          "text": "jump",
+          "start": 31.465,
+          "end": 31.731,
+          "line": "search"
+        },
+        {
+          "text": "straight",
+          "start": 31.786,
+          "end": 32.044,
+          "line": "search"
+        },
+        {
+          "text": "back",
+          "start": 32.084,
+          "end": 32.311,
+          "line": "search"
+        },
+        {
+          "text": "to",
+          "start": 32.334,
+          "end": 32.467,
+          "line": "search"
+        },
+        {
+          "text": "it.",
+          "start": 32.531,
+          "end": 32.724,
+          "line": "search"
+        }
+      ]
+    },
+    {
+      "id": "tags",
+      "index": 5,
+      "text": "To list every note with a tag, start the search with a hash.",
+      "source_text": "To list every note with a tag, start the search with a hash.",
+      "voice": "af_heart",
+      "engine": "kokoro",
+      "lang": "en-us",
+      "speed": 0.94,
+      "style": "tutorial",
+      "start": 33.743,
+      "end": 37.657,
+      "duration": 3.913,
+      "speech_start": 33.773,
+      "speech_end": 37.106,
+      "pause_after": 0.5,
+      "slot": {
+        "start": 33.743,
+        "end": 38.157,
+        "duration": 4.413
+      },
+      "file": "lines/05-tags.wav",
+      "timing": "exact",
+      "wps": 3.9,
+      "words": [
+        {
+          "text": "To",
+          "start": 33.773,
+          "end": 33.844,
+          "line": "tags"
+        },
+        {
+          "text": "list",
+          "start": 33.893,
+          "end": 34.118,
+          "line": "tags"
+        },
+        {
+          "text": "every",
+          "start": 34.213,
+          "end": 34.45,
+          "line": "tags"
+        },
+        {
+          "text": "note",
+          "start": 34.502,
+          "end": 34.719,
+          "line": "tags"
+        },
+        {
+          "text": "with",
+          "start": 34.747,
+          "end": 34.836,
+          "line": "tags"
+        },
+        {
+          "text": "a",
+          "start": 34.862,
+          "end": 34.893,
+          "line": "tags"
+        },
+        {
+          "text": "tag,",
+          "start": 34.955,
+          "end": 35.393,
+          "line": "tags"
+        },
+        {
+          "text": "start",
+          "start": 35.643,
+          "end": 35.965,
+          "line": "tags"
+        },
+        {
+          "text": "the",
+          "start": 35.983,
+          "end": 36.061,
+          "line": "tags"
+        },
+        {
+          "text": "search",
+          "start": 36.123,
+          "end": 36.418,
+          "line": "tags"
+        },
+        {
+          "text": "with",
+          "start": 36.446,
+          "end": 36.536,
+          "line": "tags"
+        },
+        {
+          "text": "a",
+          "start": 36.562,
+          "end": 36.592,
+          "line": "tags"
+        },
+        {
+          "text": "hash.",
+          "start": 36.642,
+          "end": 37.106,
+          "line": "tags"
+        }
+      ]
+    },
+    {
+      "id": "recap",
+      "index": 6,
+      "text": "New note. A tag. Command K. That's the whole loop.",
+      "source_text": "New note. A tag. Command K. [pause 0.2] That's the whole loop.",
+      "voice": "af_heart",
+      "engine": "kokoro",
+      "lang": "en-us",
+      "speed": 0.94,
+      "style": "tutorial",
+      "start": 38.157,
+      "end": 43.092,
+      "duration": 4.935,
+      "speech_start": 38.197,
+      "speech_end": 42.56,
+      "pause_after": 0.5,
+      "slot": {
+        "start": 38.157,
+        "end": 43.892,
+        "duration": 5.735
+      },
+      "file": "lines/06-recap.wav",
+      "timing": "exact",
+      "wps": 2.292,
+      "words": [
+        {
+          "text": "New",
+          "start": 38.197,
+          "end": 38.382,
+          "line": "recap"
+        },
+        {
+          "text": "note.",
+          "start": 38.417,
+          "end": 38.657,
+          "line": "recap"
+        },
+        {
+          "text": "A",
+          "start": 39.187,
+          "end": 39.217,
+          "line": "recap"
+        },
+        {
+          "text": "tag.",
+          "start": 39.245,
+          "end": 39.717,
+          "line": "recap"
+        },
+        {
+          "text": "Command",
+          "start": 40.107,
+          "end": 40.483,
+          "line": "recap"
+        },
+        {
+          "text": "K.",
+          "start": 40.527,
+          "end": 40.87,
+          "line": "recap"
+        },
+        {
+          "text": "That's",
+          "start": 41.52,
+          "end": 41.758,
+          "line": "recap"
+        },
+        {
+          "text": "the",
+          "start": 41.799,
+          "end": 41.861,
+          "line": "recap"
+        },
+        {
+          "text": "whole",
+          "start": 41.912,
+          "end": 42.119,
+          "line": "recap"
+        },
+        {
+          "text": "loop.",
+          "start": 42.17,
+          "end": 42.56,
+          "line": "recap"
+        }
+      ]
+    }
+  ],
+  "words": [
+    {
+      "text": "Here's",
+      "start": 0.04,
+      "end": 0.3,
+      "line": "hook"
+    },
+    {
+      "text": "how",
+      "start": 0.351,
+      "end": 0.488,
+      "line": "hook"
+    },
+    {
+      "text": "to",
+      "start": 0.514,
+      "end": 0.571,
+      "line": "hook"
+    },
+    {
+      "text": "write",
+      "start": 0.622,
+      "end": 0.784,
+      "line": "hook"
+    },
+    {
+      "text": "a",
+      "start": 0.812,
+      "end": 0.847,
+      "line": "hook"
+    },
+    {
+      "text": "note",
+      "start": 0.899,
+      "end": 1.125,
+      "line": "hook"
+    },
+    {
+      "text": "in",
+      "start": 1.13,
+      "end": 1.239,
+      "line": "hook"
+    },
+    {
+      "text": "Tidepool,",
+      "start": 1.29,
+      "end": 1.91,
+      "line": "hook"
+    },
+    {
+      "text": "tag",
+      "start": 2.18,
+      "end": 2.455,
+      "line": "hook"
+    },
+    {
+      "text": "it,",
+      "start": 2.508,
+      "end": 2.7,
+      "line": "hook"
+    },
+    {
+      "text": "and",
+      "start": 2.96,
+      "end": 3.019,
+      "line": "hook"
+    },
+    {
+      "text": "find",
+      "start": 3.094,
+      "end": 3.337,
+      "line": "hook"
+    },
+    {
+      "text": "it",
+      "start": 3.363,
+      "end": 3.414,
+      "line": "hook"
+    },
+    {
+      "text": "again",
+      "start": 3.445,
+      "end": 3.725,
+      "line": "hook"
+    },
+    {
+      "text": "in",
+      "start": 3.774,
+      "end": 3.875,
+      "line": "hook"
+    },
+    {
+      "text": "seconds.",
+      "start": 3.93,
+      "end": 4.451,
+      "line": "hook"
+    },
+    {
+      "text": "Click",
+      "start": 5.541,
+      "end": 5.749,
+      "line": "create"
+    },
+    {
+      "text": "New",
+      "start": 5.8,
+      "end": 5.904,
+      "line": "create"
+    },
+    {
+      "text": "note,",
+      "start": 5.95,
+      "end": 6.259,
+      "line": "create"
+    },
+    {
+      "text": "and",
+      "start": 6.451,
+      "end": 6.516,
+      "line": "create"
+    },
+    {
+      "text": "type",
+      "start": 6.574,
+      "end": 6.803,
+      "line": "create"
+    },
+    {
+      "text": "a",
+      "start": 6.83,
+      "end": 6.863,
+      "line": "create"
+    },
+    {
+      "text": "title.",
+      "start": 6.918,
+      "end": 7.411,
+      "line": "create"
+    },
+    {
+      "text": "Press",
+      "start": 7.901,
+      "end": 8.126,
+      "line": "create"
+    },
+    {
+      "text": "Enter",
+      "start": 8.177,
+      "end": 8.43,
+      "line": "create"
+    },
+    {
+      "text": "to",
+      "start": 8.481,
+      "end": 8.548,
+      "line": "create"
+    },
+    {
+      "text": "move",
+      "start": 8.599,
+      "end": 8.804,
+      "line": "create"
+    },
+    {
+      "text": "to",
+      "start": 8.821,
+      "end": 8.906,
+      "line": "create"
+    },
+    {
+      "text": "the",
+      "start": 8.934,
+      "end": 8.986,
+      "line": "create"
+    },
+    {
+      "text": "body,",
+      "start": 9.037,
+      "end": 9.487,
+      "line": "create"
+    },
+    {
+      "text": "and",
+      "start": 9.641,
+      "end": 9.752,
+      "line": "create"
+    },
+    {
+      "text": "start",
+      "start": 9.801,
+      "end": 10.037,
+      "line": "create"
+    },
+    {
+      "text": "writing.",
+      "start": 10.088,
+      "end": 10.6,
+      "line": "create"
+    },
+    {
+      "text": "Tidepool",
+      "start": 11.36,
+      "end": 11.83,
+      "line": "create"
+    },
+    {
+      "text": "saves",
+      "start": 11.907,
+      "end": 12.192,
+      "line": "create"
+    },
+    {
+      "text": "it",
+      "start": 12.233,
+      "end": 12.291,
+      "line": "create"
+    },
+    {
+      "text": "on",
+      "start": 12.324,
+      "end": 12.405,
+      "line": "create"
+    },
+    {
+      "text": "this",
+      "start": 12.432,
+      "end": 12.563,
+      "line": "create"
+    },
+    {
+      "text": "device",
+      "start": 12.61,
+      "end": 13.16,
+      "line": "create"
+    },
+    {
+      "text": "as",
+      "start": 13.22,
+      "end": 13.357,
+      "line": "create"
+    },
+    {
+      "text": "you",
+      "start": 13.401,
+      "end": 13.48,
+      "line": "create"
+    },
+    {
+      "text": "type.",
+      "start": 13.532,
+      "end": 13.915,
+      "line": "create"
+    },
+    {
+      "text": "To",
+      "start": 14.996,
+      "end": 15.065,
+      "line": "tag"
+    },
+    {
+      "text": "tag",
+      "start": 15.128,
+      "end": 15.411,
+      "line": "tag"
+    },
+    {
+      "text": "it,",
+      "start": 15.464,
+      "end": 15.586,
+      "line": "tag"
+    },
+    {
+      "text": "click",
+      "start": 15.786,
+      "end": 15.954,
+      "line": "tag"
+    },
+    {
+      "text": "the",
+      "start": 16.006,
+      "end": 16.042,
+      "line": "tag"
+    },
+    {
+      "text": "tag",
+      "start": 16.097,
+      "end": 16.394,
+      "line": "tag"
+    },
+    {
+      "text": "field",
+      "start": 16.445,
+      "end": 16.69,
+      "line": "tag"
+    },
+    {
+      "text": "under",
+      "start": 16.716,
+      "end": 16.858,
+      "line": "tag"
+    },
+    {
+      "text": "the",
+      "start": 16.886,
+      "end": 16.939,
+      "line": "tag"
+    },
+    {
+      "text": "title.",
+      "start": 16.99,
+      "end": 17.436,
+      "line": "tag"
+    },
+    {
+      "text": "Type",
+      "start": 17.856,
+      "end": 18.105,
+      "line": "tag"
+    },
+    {
+      "text": "a",
+      "start": 18.132,
+      "end": 18.171,
+      "line": "tag"
+    },
+    {
+      "text": "tag,",
+      "start": 18.241,
+      "end": 18.682,
+      "line": "tag"
+    },
+    {
+      "text": "and",
+      "start": 18.866,
+      "end": 18.961,
+      "line": "tag"
+    },
+    {
+      "text": "press",
+      "start": 19.012,
+      "end": 19.245,
+      "line": "tag"
+    },
+    {
+      "text": "Enter.",
+      "start": 19.289,
+      "end": 19.737,
+      "line": "tag"
+    },
+    {
+      "text": "The",
+      "start": 20.487,
+      "end": 20.533,
+      "line": "tag"
+    },
+    {
+      "text": "new",
+      "start": 20.585,
+      "end": 20.721,
+      "line": "tag"
+    },
+    {
+      "text": "tag",
+      "start": 20.78,
+      "end": 21.141,
+      "line": "tag"
+    },
+    {
+      "text": "shows",
+      "start": 21.212,
+      "end": 21.433,
+      "line": "tag"
+    },
+    {
+      "text": "up",
+      "start": 21.46,
+      "end": 21.574,
+      "line": "tag"
+    },
+    {
+      "text": "in",
+      "start": 21.6,
+      "end": 21.673,
+      "line": "tag"
+    },
+    {
+      "text": "the",
+      "start": 21.673,
+      "end": 21.733,
+      "line": "tag"
+    },
+    {
+      "text": "sidebar,",
+      "start": 21.786,
+      "end": 22.259,
+      "line": "tag"
+    },
+    {
+      "text": "too.",
+      "start": 22.397,
+      "end": 22.781,
+      "line": "tag"
+    },
+    {
+      "text": "Later,",
+      "start": 23.861,
+      "end": 24.215,
+      "line": "search"
+    },
+    {
+      "text": "from",
+      "start": 24.295,
+      "end": 24.423,
+      "line": "search"
+    },
+    {
+      "text": "any",
+      "start": 24.474,
+      "end": 24.633,
+      "line": "search"
+    },
+    {
+      "text": "note,",
+      "start": 24.681,
+      "end": 25.011,
+      "line": "search"
+    },
+    {
+      "text": "press",
+      "start": 25.17,
+      "end": 25.403,
+      "line": "search"
+    },
+    {
+      "text": "Command",
+      "start": 25.481,
+      "end": 25.839,
+      "line": "search"
+    },
+    {
+      "text": "K,",
+      "start": 25.921,
+      "end": 26.323,
+      "line": "search"
+    },
+    {
+      "text": "and",
+      "start": 26.481,
+      "end": 26.549,
+      "line": "search"
+    },
+    {
+      "text": "type",
+      "start": 26.613,
+      "end": 26.857,
+      "line": "search"
+    },
+    {
+      "text": "a",
+      "start": 26.881,
+      "end": 26.931,
+      "line": "search"
+    },
+    {
+      "text": "word",
+      "start": 26.984,
+      "end": 27.215,
+      "line": "search"
+    },
+    {
+      "text": "from",
+      "start": 27.267,
+      "end": 27.423,
+      "line": "search"
+    },
+    {
+      "text": "the",
+      "start": 27.423,
+      "end": 27.494,
+      "line": "search"
+    },
+    {
+      "text": "note.",
+      "start": 27.545,
+      "end": 27.921,
+      "line": "search"
+    },
+    {
+      "text": "Matches",
+      "start": 28.411,
+      "end": 28.89,
+      "line": "search"
+    },
+    {
+      "text": "light",
+      "start": 28.983,
+      "end": 29.201,
+      "line": "search"
+    },
+    {
+      "text": "up",
+      "start": 29.23,
+      "end": 29.383,
+      "line": "search"
+    },
+    {
+      "text": "as",
+      "start": 29.435,
+      "end": 29.518,
+      "line": "search"
+    },
+    {
+      "text": "you",
+      "start": 29.566,
+      "end": 29.645,
+      "line": "search"
+    },
+    {
+      "text": "type.",
+      "start": 29.698,
+      "end": 30.094,
+      "line": "search"
+    },
+    {
+      "text": "Press",
+      "start": 30.764,
+      "end": 30.979,
+      "line": "search"
+    },
+    {
+      "text": "Enter",
+      "start": 31.03,
+      "end": 31.298,
+      "line": "search"
+    },
+    {
+      "text": "to",
+      "start": 31.35,
+      "end": 31.413,
+      "line": "search"
+    },
+    {
+      "text": "jump",
+      "start": 31.465,
+      "end": 31.731,
+      "line": "search"
+    },
+    {
+      "text": "straight",
+      "start": 31.786,
+      "end": 32.044,
+      "line": "search"
+    },
+    {
+      "text": "back",
+      "start": 32.084,
+      "end": 32.311,
+      "line": "search"
+    },
+    {
+      "text": "to",
+      "start": 32.334,
+      "end": 32.467,
+      "line": "search"
+    },
+    {
+      "text": "it.",
+      "start": 32.531,
+      "end": 32.724,
+      "line": "search"
+    },
+    {
+      "text": "To",
+      "start": 33.773,
+      "end": 33.844,
+      "line": "tags"
+    },
+    {
+      "text": "list",
+      "start": 33.893,
+      "end": 34.118,
+      "line": "tags"
+    },
+    {
+      "text": "every",
+      "start": 34.213,
+      "end": 34.45,
+      "line": "tags"
+    },
+    {
+      "text": "note",
+      "start": 34.502,
+      "end": 34.719,
+      "line": "tags"
+    },
+    {
+      "text": "with",
+      "start": 34.747,
+      "end": 34.836,
+      "line": "tags"
+    },
+    {
+      "text": "a",
+      "start": 34.862,
+      "end": 34.893,
+      "line": "tags"
+    },
+    {
+      "text": "tag,",
+      "start": 34.955,
+      "end": 35.393,
+      "line": "tags"
+    },
+    {
+      "text": "start",
+      "start": 35.643,
+      "end": 35.965,
+      "line": "tags"
+    },
+    {
+      "text": "the",
+      "start": 35.983,
+      "end": 36.061,
+      "line": "tags"
+    },
+    {
+      "text": "search",
+      "start": 36.123,
+      "end": 36.418,
+      "line": "tags"
+    },
+    {
+      "text": "with",
+      "start": 36.446,
+      "end": 36.536,
+      "line": "tags"
+    },
+    {
+      "text": "a",
+      "start": 36.562,
+      "end": 36.592,
+      "line": "tags"
+    },
+    {
+      "text": "hash.",
+      "start": 36.642,
+      "end": 37.106,
+      "line": "tags"
+    },
+    {
+      "text": "New",
+      "start": 38.197,
+      "end": 38.382,
+      "line": "recap"
+    },
+    {
+      "text": "note.",
+      "start": 38.417,
+      "end": 38.657,
+      "line": "recap"
+    },
+    {
+      "text": "A",
+      "start": 39.187,
+      "end": 39.217,
+      "line": "recap"
+    },
+    {
+      "text": "tag.",
+      "start": 39.245,
+      "end": 39.717,
+      "line": "recap"
+    },
+    {
+      "text": "Command",
+      "start": 40.107,
+      "end": 40.483,
+      "line": "recap"
+    },
+    {
+      "text": "K.",
+      "start": 40.527,
+      "end": 40.87,
+      "line": "recap"
+    },
+    {
+      "text": "That's",
+      "start": 41.52,
+      "end": 41.758,
+      "line": "recap"
+    },
+    {
+      "text": "the",
+      "start": 41.799,
+      "end": 41.861,
+      "line": "recap"
+    },
+    {
+      "text": "whole",
+      "start": 41.912,
+      "end": 42.119,
+      "line": "recap"
+    },
+    {
+      "text": "loop.",
+      "start": 42.17,
+      "end": 42.56,
+      "line": "recap"
+    }
+  ],
+  "captions": {
+    "srt": "vo.srt",
+    "transcript": "vo.words.json",
+    "cues": 21
+  },
+  "build_seconds": 37.17,
+  "lexicon": [
+    "skills/showtime/lib/st/voice/lexicon.json"
+  ]
+}

@@ -1,0 +1,9 @@
+Reels / TikTok (one line + one question):
+3 shortcuts that make Tidepool fast: Cmd+K finds any note, N starts a new one, Cmd+E flips your Markdown into a preview. Which one would you use first?
+#keyboardshortcuts #notetaking #markdown #productivity
+
+Notes for posting:
+- Tidepool is a fictional demo app (it exists only as sample material); say so in the caption if the post leaves showtime's examples.
+- On Windows and Linux the modifier is Ctrl (Ctrl+K, Ctrl+E).
+- The voice-over is synthetic (Kokoro af_bella): turn on the platform's "AI-generated" label where it asks.
+- Captions are burned in: leave the platform's auto captions off.

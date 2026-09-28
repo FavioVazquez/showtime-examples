@@ -1,0 +1,15 @@
+Audio: "Artemis III Training", Houston We Have a Podcast, episode 434 (August 21, 2026), NASA Johnson Space Center.
+  Host Leah Cheshier; guest Debra O'Connell, Artemis III Chief Training Officer, NASA.
+  https://www.nasa.gov/podcasts/houston-we-have-a-podcast/artemis-iii-training/
+  Excerpt 25:09.00-25:45.95 of https://www.nasa.gov/wp-content/uploads/2026/08/ep434-artemis-iii-training.mp3
+  NASA audio is generally not subject to copyright in the United States (https://www.nasa.gov/nasa-brand-center/images-and-media/).
+  Captions: the episode's transcript on nasa.gov, aligned to the audio.
+Photos (public domain, NASA media), cropped:
+  "The Artemis II crew completing Post Insertion and Deorbit Preparation training", Mark Sowa, NASA JSC, jsc2025e004086,
+  https://images.nasa.gov/details/jsc2025e004086
+  "NASA astronauts and Artemis II crew members Reid Wiseman and Victor Glover inside of the Orion spacecraft mockup", Mark Sowa, NASA JSC, jsc2025e004075,
+  https://images.nasa.gov/details/jsc2025e004075
+Not endorsed by NASA. No NASA insignia or show artwork is used.
+Fonts: Bricolage Grotesque, Inter, JetBrains Mono (SIL Open Font License 1.1).
+Music: composed locally with showtime (hip-hop-beat style, GeneralUser GS SoundFont). No samples or library tracks.
+Speech clean-up: DeepFilterNet (MIT/Apache-2.0), run locally.

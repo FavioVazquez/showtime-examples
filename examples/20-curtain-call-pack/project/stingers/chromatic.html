@@ -1,0 +1,24 @@
+<!doctype html>
+<!-- Stinger 2, "velvet to spotlight" (CSS + WebGL chromatic-split): a velvet drape sweeps in from the right,
+     the WebGL chromatic-split turns it into the lit stage (0.30-0.60 s, cut under it at 0.45 s), and the stage
+     slides out to the left (0.63-0.92 s). Transparent on the first frame and the last two. The shader window is always fully covered, because the
+     WebGL compositor draws opaque pixels. Render: showtime render . --page chromatic.html --alpha prores -->
+<html lang="en"><head><meta charset="utf-8">
+<script src="/_st/stage.js"></script>
+<link rel="stylesheet" href="curtain-call.css">
+<link rel="stylesheet" href="stingers.css">
+<script type="module" src="/_st/components/index.js"></script>
+</head><body>
+<section class="scene" id="drape" data-start="0" data-dur="0.45"><div class="velvet" style="left:0; right:0"></div></section>
+<section class="scene" id="stage" data-start="#drape" data-dur="0.55" data-transition="chromatic-split 0.3 center"><div class="stageplate"></div></section>
+<script>
+  const A = document.getElementById('drape'), B = document.getElementById('stage');
+  const outC = (p) => 1 - Math.pow(1 - p, 3), inC = (p) => p * p * p;
+  ST.onSeek((t) => {
+    const a = Math.min(1, Math.max(0, t / 0.26));
+    A.style.transform = `translateX(${((1 - outC(a)) * 100).toFixed(3)}%)`;
+    const b = Math.min(1, Math.max(0, (t - 0.63) / 0.29));   // gone by 0.92 s: the last two frames are fully clear
+    B.style.transform = `translateX(${(-inC(b) * 100).toFixed(3)}%)`;
+  });
+</script>
+</body></html>

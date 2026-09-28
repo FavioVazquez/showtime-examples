@@ -1,0 +1,23 @@
+{
+  "source": "commons",
+  "source_label": "Wikimedia Commons",
+  "id": "commons:61894908",
+  "title": "Kirkjufell mountain (Unsplash)",
+  "author": "Ivars Krutainis krutainis",
+  "author_url": null,
+  "license": "CC0 1.0",
+  "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+  "landing_url": "https://commons.wikimedia.org/wiki/File:Kirkjufell_mountain_(Unsplash).jpg",
+  "note": null,
+  "type": "image",
+  "license_notice": null,
+  "file_url": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Kirkjufell_mountain_%28Unsplash%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "sha256": "2dfe71a5aeb8a8e26fa1da0a7012515e262044144645db2ee22ec19780716731",
+  "fetched": "2026-09-27T16:42:17",
+  "license_class": "free",
+  "attribution_required": false,
+  "credit": "\"Kirkjufell mountain (Unsplash)\" by Ivars Krutainis krutainis via Wikimedia Commons (CC0 1.0) - https://commons.wikimedia.org/wiki/File:Kirkjufell_mountain_(Unsplash).jpg",
+  "file": "08-kirkjufell.jpg",
+  "rendition": "3840px Commons thumbnail (original download rate-limited, HTTP 429)",
+  "derived": "resized to 3236x2160 for the video"
+}

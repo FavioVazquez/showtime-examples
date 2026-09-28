@@ -1,0 +1,158 @@
+{
+  "source": "06-mix-2025.wav",
+  "duration": 11.535,
+  "language": "en",
+  "model": "kokoro-v1.0-timestamped.onnx",
+  "words": [
+    {
+      "text": "In",
+      "start": 0.09,
+      "end": 0.147,
+      "type": "word"
+    },
+    {
+      "text": "twenty",
+      "start": 0.196,
+      "end": 0.45,
+      "type": "word"
+    },
+    {
+      "text": "twenty-five,",
+      "start": 0.5,
+      "end": 1.3,
+      "type": "word"
+    },
+    {
+      "text": "gas",
+      "start": 1.61,
+      "end": 1.931,
+      "type": "word"
+    },
+    {
+      "text": "made",
+      "start": 1.981,
+      "end": 2.161,
+      "type": "word"
+    },
+    {
+      "text": "about",
+      "start": 2.19,
+      "end": 2.459,
+      "type": "word"
+    },
+    {
+      "text": "forty-one",
+      "start": 2.57,
+      "end": 3.133,
+      "type": "word"
+    },
+    {
+      "text": "percent.",
+      "start": 3.183,
+      "end": 3.71,
+      "type": "word"
+    },
+    {
+      "text": "Nuclear,",
+      "start": 4.32,
+      "end": 4.897,
+      "type": "word"
+    },
+    {
+      "text": "wind",
+      "start": 5.043,
+      "end": 5.4,
+      "type": "word"
+    },
+    {
+      "text": "and",
+      "start": 5.449,
+      "end": 5.538,
+      "type": "word"
+    },
+    {
+      "text": "solar,",
+      "start": 5.646,
+      "end": 6.083,
+      "type": "word"
+    },
+    {
+      "text": "and",
+      "start": 6.166,
+      "end": 6.261,
+      "type": "word"
+    },
+    {
+      "text": "coal",
+      "start": 6.35,
+      "end": 6.741,
+      "type": "word"
+    },
+    {
+      "text": "each",
+      "start": 6.83,
+      "end": 7.03,
+      "type": "word"
+    },
+    {
+      "text": "made",
+      "start": 7.08,
+      "end": 7.272,
+      "type": "word"
+    },
+    {
+      "text": "about",
+      "start": 7.299,
+      "end": 7.5,
+      "type": "word"
+    },
+    {
+      "text": "a",
+      "start": 7.526,
+      "end": 7.572,
+      "type": "word"
+    },
+    {
+      "text": "sixth,",
+      "start": 7.688,
+      "end": 8.19,
+      "type": "word"
+    },
+    {
+      "text": "and",
+      "start": 8.57,
+      "end": 8.654,
+      "type": "word"
+    },
+    {
+      "text": "coal's",
+      "start": 8.73,
+      "end": 9.088,
+      "type": "word"
+    },
+    {
+      "text": "output",
+      "start": 9.19,
+      "end": 9.631,
+      "type": "word"
+    },
+    {
+      "text": "rose",
+      "start": 9.692,
+      "end": 10.013,
+      "type": "word"
+    },
+    {
+      "text": "thirteen",
+      "start": 10.114,
+      "end": 10.539,
+      "type": "word"
+    },
+    {
+      "text": "percent.",
+      "start": 10.57,
+      "end": 11.145,
+      "type": "word"
+    }
+  ]
+}

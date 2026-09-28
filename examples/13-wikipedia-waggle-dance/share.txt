@@ -1,0 +1,42 @@
+== YouTube (English) ==
+Title: The waggle dance: how a honey bee gives directions (60 s)
+
+Description:
+Inside the dark hive, a forager tells her nestmates where food is by dancing. The angle of her waggle run from
+straight up on the vertical comb is the angle between the sun and the food; the farther the food, the longer
+she waggles. For very close food she runs a small circle instead (Italian honey bee, Apis mellifera ligustica:
+round dance at about 10 m, waggle dance beyond about 40 m).
+
+Adapted from Wikipedia, "Waggle dance" (revision 1371912261), CC BY-SA 4.0:
+https://en.wikipedia.org/w/index.php?title=Waggle_dance&oldid=1371912261 - summarised and animated.
+Bee footage: Su S, Cai F, Si A, Zhang S, Tautz J, Chen S (2008), PLOS ONE 3(6): e2365,
+https://doi.org/10.1371/journal.pone.0002365, CC BY 3.0 (via Wikimedia Commons).
+Narration: synthetic voice (Kokoro-82M, af_heart). Music composed in code.
+This video is licensed CC BY-SA 4.0: https://creativecommons.org/licenses/by-sa/4.0/
+
+(No chapters: YouTube needs chapters of 10 s or more and this is a 60 s film; the web page keeps its 7.)
+
+Captions: upload captions.srt (English).
+Thumbnail: thumb-1280x720.jpg
+Alt text: A honey bee marked with a red dot dances on a crowded comb; a gold ring and a short trail follow the red mark as the camera moves with her.
+Posting notes: label the voice as synthetic if the platform asks ("altered or synthetic content").
+
+== YouTube (français) ==
+Titre : La danse frétillante : comment une abeille indique le chemin (64 s)
+
+Description :
+Dans le noir de la ruche, une butineuse indique à ses compagnes où trouver de la nourriture en dansant. L'angle
+de sa course frétillante par rapport à la verticale est l'angle entre le soleil et la nourriture ; plus la
+nourriture est loin, plus elle frétille longtemps. Tout près, elle danse en rond (abeille italienne, Apis
+mellifera ligustica : danse en rond vers 10 m, danse frétillante au-delà d'environ 40 m).
+
+Adapté de Wikipédia en anglais, « Waggle dance » (rév. 1371912261), CC BY-SA 4.0 :
+https://en.wikipedia.org/w/index.php?title=Waggle_dance&oldid=1371912261 - résumé, traduit et animé.
+Images d'abeilles : Su S, Cai F, Si A, Zhang S, Tautz J, Chen S (2008), PLOS ONE 3(6): e2365,
+https://doi.org/10.1371/journal.pone.0002365, CC BY 3.0 (via Wikimedia Commons).
+Narration : voix de synthèse (Kokoro-82M, ff_siwis). Musique composée en code.
+Cette vidéo est sous licence CC BY-SA 4.0 : https://creativecommons.org/licenses/by-sa/4.0/deed.fr
+
+Sous-titres : captions-fr.srt. Miniature : thumb-fr-1280x720.jpg
+Texte alternatif : Une abeille marquée d'un point rouge danse sur un rayon ; un cercle doré et une courte traîne suivent la marque rouge pendant que la caméra la suit.
+Note : traduction faite par Claude, pas encore relue par une personne de langue maternelle française.

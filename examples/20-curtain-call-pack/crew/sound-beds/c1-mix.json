@@ -1,0 +1,4 @@
+{"duration": 10.0, "tracks": [
+ {"id":"bed","kind":"music","file":"beds/bed-c1-piano.wav","fade_out":0.8,"duck":{"under":["sting"],"depth_db":6}},
+ {"id":"sting","kind":"sfx","synth":{"type":"logo-sting","key":"D","intensity":0.75},"at":6.0,"align":"hit"}],
+ "master":{"lufs":-14,"true_peak":-1}}

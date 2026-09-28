@@ -1,0 +1,73 @@
+<!doctype html>
+<!-- Step titles (alpha, the whole tutorial up to the recap: 66.8 s). One chip per step, top-left, where the
+     recording never has the action: a `lower-third` (kicker) plus a `steps` rail showing where you are.
+     Times are the output times of each "Step N" word (voice/timeline.json + 0.4 s voice offset). -->
+<html lang="en"><head><meta charset="utf-8">
+<script src="/_st/stage.js"></script>
+<link rel="stylesheet" href="cc.css">
+<link rel="stylesheet" href="/_st/components/components.css">
+<style>
+  .chip { position: absolute; left: 2.6cqw; top: 4.2cqh; padding: 1.7cqmin 2.2cqmin 1.5cqmin; border-radius: 1.6cqmin;
+          background: rgb(21 16 14);   /* opaque: no UI text shows through the plate */ border: var(--stroke) solid var(--border); box-shadow: 0 1.2cqmin 3.5cqmin rgb(0 0 0 / 0.45);
+          display: flex; flex-direction: column; gap: 1.3cqmin; min-width: 30cqw; transform-origin: 0 0; }
+  .chip [data-st="lower-third"] { position: relative; }
+  .chip .st-lt-v-kicker .st-lt-name { font-size: 4.6cqmin; text-transform: none; }
+  .chip .st-lt-role { font-size: 2.35cqmin; color: var(--fg); opacity: 0.86; }
+  .chip .st-lt-kicker { font-size: 2.25cqmin; }
+  .chip .st-lt-accent { display: none; }
+  .chip [data-st="steps"] { width: 29cqw; }
+  .chip .st-step-dot { width: 3.1cqmin; height: 3.1cqmin; font-size: 1.5cqmin; }
+  .chip .st-step-label { font-size: 1.75cqmin; color: var(--muted); }
+  .chip .st-step[data-state="active"] .st-step-label { color: var(--fg); }
+  .chip .st-steps-track { top: 1.55cqmin; }
+  .prev { min-width: 0; left: auto; top: auto; right: 2.6cqw; bottom: 5cqh; transform-origin: 100% 100%; }
+  .prev .st-lt-kicker { align-self: flex-end; }
+  .prev .st-lt-name { text-align: right; }
+  .plate-preview { position: absolute; inset: 0; background: #3b3f46; }
+  .scene { --scene-bg: transparent; }   /* alpha overlay: base.css gives every scene the theme background */
+</style>
+</head><body>
+<div class="plate-preview" id="pp" hidden></div>
+<!-- 0: outcome preview -->
+<section class="scene" data-start="0.2" data-dur="4.25" style="padding:0">
+  <div class="chip prev" data-in="0">
+    <div data-st="lower-third" data-variant="kicker" data-position="none" data-kicker="showtime studio board · the result" data-name="Where you'll be in a minute" data-hold="3.1"></div>
+  </div>
+</section>
+<!-- steps: start = the output time of the word "Step" -->
+<section class="scene" data-start="4.75" data-dur="4.3" style="padding:0">
+  <div class="chip" data-in="0"><div data-st="lower-third" data-variant="kicker" data-position="none" data-kicker="Step 1 of 4" data-name="Open the board" data-role="showtime studio open &lt;job&gt;" data-hold="3.1"></div>
+  <div data-st="steps" data-variant="dots" data-steps='["Open","Compare","React","Pick"]' data-cues='[0.2,99,100,101]'></div></div>
+</section>
+<section class="scene" data-start="19.6" data-dur="4.3" style="padding:0">
+  <div class="chip"><div data-st="lower-third" data-variant="kicker" data-position="none" data-kicker="Step 2 of 4" data-name="Compare" data-role="Style frames · music sketch · side-by-side wipe" data-hold="3.1"></div>
+  <div data-st="steps" data-variant="dots" data-steps='["Open","Compare","React","Pick"]' data-cues='[-2,0.25,100,101]'></div></div>
+</section>
+<section class="scene" data-start="37.4" data-dur="4.3" style="padding:0">
+  <div class="chip"><div data-st="lower-third" data-variant="kicker" data-position="none" data-kicker="Step 3 of 4" data-name="React" data-role="L likes · C adds a note · Ctrl+Enter sends it" data-hold="3.1"></div>
+  <div data-st="steps" data-variant="dots" data-steps='["Open","Compare","React","Pick"]' data-cues='[-3,-2,0.25,101]'></div></div>
+</section>
+<section class="scene" data-start="52.25" data-dur="4.3" style="padding:0">
+  <div class="chip"><div data-st="lower-third" data-variant="kicker" data-position="none" data-kicker="Step 4 of 4" data-name="Pick" data-role="Then tell Claude you're done" data-hold="3.1"></div>
+  <div data-st="steps" data-variant="dots" data-steps='["Open","Compare","React","Pick"]' data-cues='[-4,-3,-2,0.25]'></div></div>
+</section>
+<section data-start="66.7" data-dur="0.1"></section>
+<script type="module">
+import '/_st/components/index.js';
+const alpha = !!(window.__ST_RENDER__ && window.__ST_RENDER__.alpha);
+document.getElementById('pp').hidden = alpha;
+// each chip plate slides in with its lower third and leaves with it
+const E = (x) => 1 - Math.pow(1 - Math.max(0, Math.min(1, x)), 3);
+const chips = [...document.querySelectorAll('.chip')].map((c) => {
+  const sec = c.closest('section'); return { c, start: +sec.dataset.start, dur: +sec.dataset.dur };
+});
+ST.onSeek((t) => {
+  for (const { c, start, dur } of chips) {
+    const lt = t - start;
+    const a = E(lt / 0.4), z = Math.max(0, Math.min(1, (dur - lt) / 0.35));
+    c.style.opacity = (a * z).toFixed(3);
+    c.style.transform = `translateX(${((1 - a) * (c.classList.contains('prev') ? 1.5 : -1.5)).toFixed(2)}cqw)`;
+  }
+});
+</script>
+</body></html>

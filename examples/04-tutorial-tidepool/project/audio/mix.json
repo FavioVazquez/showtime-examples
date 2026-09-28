@@ -1,0 +1,185 @@
+{
+ "duration": 50.5,
+ "tracks": [
+  {
+   "id": "bed",
+   "kind": "music",
+   "file": "audio/bed.wav",
+   "gain_db": -3,
+   "fade_in": 0.2,
+   "duck": {
+    "under": "voice",
+    "depth_db": 11,
+    "carve": 0.35
+   }
+  },
+  {
+   "id": "vo-hook",
+   "kind": "voice",
+   "file": "voice/lines/01-hook.wav",
+   "start": 0.3
+  },
+  {
+   "id": "vo-create",
+   "kind": "voice",
+   "file": "voice/lines/02-create.wav",
+   "start": 6.3
+  },
+  {
+   "id": "vo-tag",
+   "kind": "voice",
+   "file": "voice/lines/03-tag.wav",
+   "start": 16.2333
+  },
+  {
+   "id": "vo-search",
+   "kind": "voice",
+   "file": "voice/lines/04-search.wav",
+   "start": 25.6
+  },
+  {
+   "id": "vo-tags",
+   "kind": "voice",
+   "file": "voice/lines/05-tags.wav",
+   "start": 35.9333
+  },
+  {
+   "id": "vo-recap",
+   "kind": "voice",
+   "file": "voice/lines/06-recap.wav",
+   "start": 42.8
+  },
+  {
+   "id": "click1",
+   "kind": "sfx",
+   "synth": {
+    "type": "click",
+    "seed": 1,
+    "intensity": 0.5
+   },
+   "at": 6.6333,
+   "align": "hit",
+   "gain_db": -3
+  },
+  {
+   "id": "click2",
+   "kind": "sfx",
+   "synth": {
+    "type": "click",
+    "seed": 2,
+    "intensity": 0.5
+   },
+   "at": 17.7333,
+   "align": "hit",
+   "gain_db": -3
+  },
+  {
+   "id": "click3",
+   "kind": "sfx",
+   "synth": {
+    "type": "click",
+    "seed": 3,
+    "intensity": 0.5
+   },
+   "at": 26.3667,
+   "align": "hit",
+   "gain_db": -3
+  },
+  {
+   "id": "key1",
+   "kind": "sfx",
+   "synth": {
+    "type": "keyclick",
+    "seed": 1,
+    "intensity": 0.45
+   },
+   "at": 5.0667,
+   "align": "hit",
+   "gain_db": -4
+  },
+  {
+   "id": "key2",
+   "kind": "sfx",
+   "synth": {
+    "type": "keyclick",
+    "seed": 2,
+    "intensity": 0.45
+   },
+   "at": 9.0333,
+   "align": "hit",
+   "gain_db": -4
+  },
+  {
+   "id": "key3",
+   "kind": "sfx",
+   "synth": {
+    "type": "keyclick",
+    "seed": 3,
+    "intensity": 0.45
+   },
+   "at": 20.6,
+   "align": "hit",
+   "gain_db": -4
+  },
+  {
+   "id": "key4",
+   "kind": "sfx",
+   "synth": {
+    "type": "keyclick",
+    "seed": 4,
+    "intensity": 0.45
+   },
+   "at": 27.4667,
+   "align": "hit",
+   "gain_db": -4
+  },
+  {
+   "id": "key5",
+   "kind": "sfx",
+   "synth": {
+    "type": "keyclick",
+    "seed": 5,
+    "intensity": 0.45
+   },
+   "at": 32.8667,
+   "align": "hit",
+   "gain_db": -4
+  },
+  {
+   "id": "key6",
+   "kind": "sfx",
+   "synth": {
+    "type": "keyclick",
+    "seed": 6,
+    "intensity": 0.45
+   },
+   "at": 37.6333,
+   "align": "hit",
+   "gain_db": -4
+  },
+  {
+   "id": "key7",
+   "kind": "sfx",
+   "synth": {
+    "type": "keyclick",
+    "seed": 7,
+    "intensity": 0.45
+   },
+   "at": 40.2,
+   "align": "hit",
+   "gain_db": -4
+  }
+ ],
+ "sections": {
+  "hook": 0,
+  "create": 5.8,
+  "tag": 15.73,
+  "search": 25.1,
+  "tag-search": 35.53,
+  "close": 42.5
+ },
+ "master": {
+  "lufs": -14,
+  "true_peak": -1
+ }
+}

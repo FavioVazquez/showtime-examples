@@ -1,0 +1,13 @@
+Black 26.1.0 (January 18, 2026) introduced the 2026 stable style. Here is what it changes in code you already formatted, shown as real diffs: 26.1.0 run on files that Black 25.12.0 had formatted.
+
+- Redundant parentheses on the left of = are removed (#4865)
+- A docstring after a comment is now seen as the module docstring (#4764)
+- Type comments become "# type: int" (#4645)
+- Also stable: one blank line after imports (#4489), calls on multiline strings stay compact (#1879), generic functions split at the arguments (#4777). 9 features in all; all of it was in --preview during 2025.
+
+pip install -U black (newer 26.x releases keep the 2026 style)
+Release notes: https://github.com/psf/black/releases/tag/26.1.0
+
+Changes shown were proposed by (GitHub PR authors): @Nikhil172913832, @MeGaGiGaGon, @ranjodhsingh1729, @kastkeepitjumpinlikekangaroos, @aneeshusa, @Exgene; 2026 stable style release by @cobaltt7.
+
+Black is MIT-licensed; this is an unofficial summary. Not affiliated with the Black project or the Python Software Foundation.

@@ -1,0 +1,13 @@
+Afuera hace 0 °C, ¿y aun así ese aire calienta una casa? Una bomba de calor lleva adentro el calor que ya hay en el aire frío, y mover calor rinde más que producirlo. 50 segundos, un solo circuito de refrigerante.
+
+YouTube
+Título: Cómo una bomba de calor calienta tu casa en invierno (explicación en 50 segundos)
+Descripción: Incluso el aire helado guarda calor. El refrigerante de una bomba de calor lo absorbe afuera, el compresor sube su temperatura, la unidad interior lo libera en tu casa y una válvula de expansión enfría el refrigerante para que el ciclo se repita.
+La narración es una voz sintética (Supertonic, F1). El diagrama es un esquema, no está a escala. Traducción automática, aún sin revisar por un hablante nativo.
+
+X (≤280)
+¿0 °C afuera y la casa igual se calienta? Una bomba de calor saca calor del aire helado, y mover calor rinde más que producirlo. Evaporador, compresor, condensador y válvula de expansión, en 50 segundos.
+
+GitHub README
+Caption: A 50-second Spanish canvas-film explainer of a heat pump's winter cycle, localized from example 02 with a local Spanish voice and re-timed to it, made with showtime.
+Alt text (es): Corte animado de una casa nevada. Puntos de refrigerante recorren un circuito desde una bobina exterior, pasan por un compresor, entran en una bobina interior que calienta la sala y vuelven por una válvula de expansión.

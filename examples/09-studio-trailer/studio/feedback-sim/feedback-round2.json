@@ -1,0 +1,9 @@
+{
+  "schema": "showtime.studio.feedback/1",
+  "events": [
+    {"id": "sim_r2_01", "ts": "2026-09-26T21:20:10.000Z", "type": "answer", "target": "cards", "value": "serif", "rev": 2},
+    {"id": "sim_r2_02", "ts": "2026-09-26T21:20:40.000Z", "type": "like", "target": "c2-s6", "rev": 2},
+    {"id": "sim_r2_03", "ts": "2026-09-26T21:21:15.000Z", "type": "comment", "target": "c2-s4", "rev": 2,
+     "text": "Order works. 'Saved on this device' is the payoff of this shot, let it sit sharp for a beat before the card."}
+  ]
+}

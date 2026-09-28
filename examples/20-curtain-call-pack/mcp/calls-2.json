@@ -1,0 +1,21 @@
+[
+ {
+  "name": "deliver_exports",
+  "arguments": {
+   "video": "<job>/final.mp4",
+   "targets": [
+    "web"
+   ]
+  }
+ },
+ {
+  "name": "deliver_exports",
+  "arguments": {
+   "video": "<job>/final.mp4",
+   "targets": [
+    "webp",
+    "gif"
+   ]
+  }
+ }
+]

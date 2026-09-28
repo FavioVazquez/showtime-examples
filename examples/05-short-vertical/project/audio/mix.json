@@ -1,0 +1,189 @@
+{
+ "_comment": "Composed bed + one SFX family in A minor. Scene starts: hook 0, palette 2.807, new 5.967, preview 7.984, close 11.357. Hook (built from frame 0): pop on '3' 0.32, pop on 'fast' 1.747, key row pressed 2.3/2.5/2.7. Cmd+K 3.407, N 6.417, Cmd+E 8.784. Round 2: the close now pushes in like the other cuts, so its water-drop became the same swoosh-in.",
+ "sample_rate": 48000,
+ "tracks": [
+  {
+   "id": "bed",
+   "kind": "music",
+   "compose": {
+    "style": "upbeat-tech",
+    "bpm": 124,
+    "key": "Am",
+    "sections": "0:build,2.807:drop,11.358:outro",
+    "seed": 3
+   },
+   "gain_db": 2,
+   "fade_out": 0.4,
+   "duck": {
+    "under": "voice"
+   }
+  },
+  {
+   "kind": "sfx",
+   "synth": {
+    "type": "pop",
+    "key": "A",
+    "seed": 11
+   },
+   "at": 0.32,
+   "align": "hit",
+   "gain_db": -2
+  },
+  {
+   "kind": "sfx",
+   "synth": {
+    "type": "pop",
+    "key": "E",
+    "seed": 12
+   },
+   "at": 1.747,
+   "align": "hit",
+   "gain_db": -2
+  },
+  {
+   "kind": "sfx",
+   "synth": {
+    "type": "keyclick",
+    "seed": 34
+   },
+   "at": 2.3,
+   "align": "hit",
+   "gain_db": -1
+  },
+  {
+   "kind": "sfx",
+   "synth": {
+    "type": "keyclick",
+    "seed": 35
+   },
+   "at": 2.5,
+   "align": "hit",
+   "gain_db": -1
+  },
+  {
+   "kind": "sfx",
+   "synth": {
+    "type": "keyclick",
+    "seed": 36
+   },
+   "at": 2.7,
+   "align": "hit",
+   "gain_db": -1
+  },
+  {
+   "kind": "sfx",
+   "synth": {
+    "type": "swoosh-in",
+    "seed": 21
+   },
+   "at": 2.807,
+   "align": "hit",
+   "gain_db": -3
+  },
+  {
+   "kind": "sfx",
+   "synth": {
+    "type": "keyclick",
+    "seed": 31
+   },
+   "at": 3.407,
+   "align": "hit",
+   "gain_db": 2
+  },
+  {
+   "kind": "sfx",
+   "synth": {
+    "type": "swoosh-in",
+    "seed": 22
+   },
+   "at": 5.967,
+   "align": "hit",
+   "gain_db": -3
+  },
+  {
+   "kind": "sfx",
+   "synth": {
+    "type": "keyclick",
+    "seed": 32
+   },
+   "at": 6.417,
+   "align": "hit",
+   "gain_db": 2
+  },
+  {
+   "kind": "sfx",
+   "synth": {
+    "type": "swoosh-in",
+    "seed": 23
+   },
+   "at": 7.985,
+   "align": "hit",
+   "gain_db": -3
+  },
+  {
+   "kind": "sfx",
+   "synth": {
+    "type": "keyclick",
+    "seed": 33
+   },
+   "at": 8.785,
+   "align": "hit",
+   "gain_db": 2
+  },
+  {
+   "kind": "sfx",
+   "synth": {
+    "type": "swoosh-in",
+    "seed": 24
+   },
+   "at": 11.358,
+   "align": "hit",
+   "gain_db": -3
+  },
+  {
+   "kind": "sfx",
+   "synth": {
+    "type": "logo-sting",
+    "key": "A",
+    "seed": 42
+   },
+   "at": 11.501,
+   "align": "hit",
+   "gain_db": -3
+  },
+  {
+   "id": "vo-hook",
+   "kind": "voice",
+   "file": "voice/lines/01-hook.wav",
+   "start": 0.3
+  },
+  {
+   "id": "vo-palette",
+   "kind": "voice",
+   "file": "voice/lines/02-palette.wav",
+   "start": 3.107
+  },
+  {
+   "id": "vo-new",
+   "kind": "voice",
+   "file": "voice/lines/03-new.wav",
+   "start": 6.267
+  },
+  {
+   "id": "vo-preview",
+   "kind": "voice",
+   "file": "voice/lines/04-preview.wav",
+   "start": 8.285
+  },
+  {
+   "id": "vo-close",
+   "kind": "voice",
+   "file": "voice/lines/05-close.wav",
+   "start": 11.658
+  }
+ ],
+ "master": {
+  "lufs": -14,
+  "true_peak": -1
+ }
+}

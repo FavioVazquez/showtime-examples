@@ -1,0 +1,455 @@
+{
+  "schema": "showtime.studio.board/1",
+  "job": "curtain-call-pack-20260927-152547",
+  "title": "Curtain Call motion pack",
+  "brief": "A 5 s Curtain Call logo sting (16:9, 1:1, 9:16) with a sound logo, four lower thirds and two transition stingers an editor can drop into Premiere, all in the showtime brand.",
+  "rev": 1,
+  "phase": "concepts",
+  "format": {
+    "width": 1920,
+    "height": 1080
+  },
+  "round": {
+    "n": 1,
+    "label": "Round 1 · directions",
+    "prompt": "Which direction should the new sting take? The lower thirds and stingers follow the pick.",
+    "note": "C1 frames are from a working three.js draft; C2, C3 and W1 are still compositions (style frames only)."
+  },
+  "history": [
+    {
+      "rev": 1,
+      "note": "Four directions for the sting (3 + wildcard), a 10 s bed each, and four build questions"
+    }
+  ],
+  "fonts": [
+    {
+      "family": "Fraunces",
+      "src": "media/fonts/fraunces.woff2",
+      "weight": "100 900"
+    },
+    {
+      "family": "Inter",
+      "src": "media/fonts/inter.woff2",
+      "weight": "100 900"
+    }
+  ],
+  "concepts": [
+    {
+      "id": "c1",
+      "tag": "C1",
+      "title": "Velvet curtain",
+      "logline": "A real 3D stage: velvet curtains part, the mark is flown in from the flies and lands in the spotlight pool.",
+      "hook": "Frame 0: a slit of gold light between closed velvet curtains.",
+      "duration": 5,
+      "recommended": true,
+      "why": "The only direction that is true 3D, and it acts out the brand idea itself: the curtain opens, the show starts.",
+      "tone": [
+        "cinematic",
+        "warm",
+        "crafted"
+      ],
+      "palette": [
+        {
+          "hex": "#B3121F",
+          "name": "Velvet"
+        },
+        {
+          "hex": "#E9B949",
+          "name": "Spotlight gold"
+        },
+        {
+          "hex": "#15100E",
+          "name": "Stage"
+        },
+        {
+          "hex": "#F5EBDC",
+          "name": "House cream"
+        }
+      ],
+      "type": {
+        "display": {
+          "family": "Fraunces",
+          "sample": "showtime"
+        },
+        "body": {
+          "family": "Inter"
+        }
+      },
+      "music": {
+        "vibe": "piano, then the logo motif on the landing",
+        "bpm": 72,
+        "ref": "bed-c1"
+      },
+      "structure": [
+        {
+          "label": "Slit of light",
+          "dur": 0.3
+        },
+        {
+          "label": "Curtains part",
+          "dur": 2
+        },
+        {
+          "label": "Mark lands",
+          "dur": 0.5
+        },
+        {
+          "label": "Wordmark + hold",
+          "dur": 2.2
+        }
+      ],
+      "risk": "Heaviest to render (WebGL); the mark moves in 3D, so it must come to rest square to camera (brand: no rotated mark).",
+      "unlocks": "nothing extra: brand files only",
+      "frames": [
+        {
+          "id": "c1-f1",
+          "src": "media/frames/c1-t0.jpg",
+          "thumb": "media/thumbs/c1-t0.jpg",
+          "caption": "0:00 slit of light"
+        },
+        {
+          "id": "c1-f2",
+          "src": "media/frames/c1-t2_45.jpg",
+          "thumb": "media/thumbs/c1-t2_45.jpg",
+          "caption": "2.45 flown in"
+        },
+        {
+          "id": "c1-f3",
+          "src": "media/frames/c1-t4_6.jpg",
+          "thumb": "media/thumbs/c1-t4_6.jpg",
+          "caption": "4.6 lockup"
+        }
+      ]
+    },
+    {
+      "id": "c2",
+      "tag": "C2",
+      "title": "Marquee",
+      "logline": "A lit theatre marquee: bulbs chase around an empty board, then the mark and wordmark light up inside it.",
+      "hook": "Chasing bulbs on a dark board, one word: tonight.",
+      "duration": 5,
+      "tone": [
+        "playful",
+        "retro",
+        "warm"
+      ],
+      "palette": [
+        {
+          "hex": "#E9B949",
+          "name": "Spotlight gold"
+        },
+        {
+          "hex": "#231916",
+          "name": "Wings"
+        },
+        {
+          "hex": "#15100E",
+          "name": "Stage"
+        }
+      ],
+      "type": {
+        "display": {
+          "family": "Fraunces",
+          "sample": "tonight"
+        },
+        "body": {
+          "family": "Inter"
+        }
+      },
+      "music": {
+        "vibe": "synthwave drive",
+        "bpm": 100,
+        "ref": "bed-c2"
+      },
+      "structure": [
+        {
+          "label": "Bulbs chase",
+          "dur": 1.5
+        },
+        {
+          "label": "Board lights",
+          "dur": 1.5
+        },
+        {
+          "label": "Lockup",
+          "dur": 2
+        }
+      ],
+      "risk": "Flat 2D; close to a generic 'coming soon' sign",
+      "unlocks": "nothing extra",
+      "frames": [
+        {
+          "id": "c2-f1",
+          "src": "media/frames/c2-hook.jpg",
+          "thumb": "media/thumbs/c2-hook.jpg",
+          "caption": "hook: bulbs chase"
+        },
+        {
+          "id": "c2-f2",
+          "src": "media/frames/c2-end.jpg",
+          "thumb": "media/thumbs/c2-end.jpg",
+          "caption": "end: lockup"
+        }
+      ]
+    },
+    {
+      "id": "c3",
+      "tag": "C3",
+      "title": "Spotlight",
+      "logline": "No curtain: one follow-spot searches a dark stage and finds the mark.",
+      "hook": "A cone of light rakes across empty boards.",
+      "duration": 5,
+      "tone": [
+        "minimal",
+        "suspense",
+        "premium"
+      ],
+      "palette": [
+        {
+          "hex": "#15100E",
+          "name": "Stage"
+        },
+        {
+          "hex": "#E9B949",
+          "name": "Spotlight gold"
+        },
+        {
+          "hex": "#F5EBDC",
+          "name": "House cream"
+        }
+      ],
+      "type": {
+        "display": {
+          "family": "Fraunces",
+          "sample": "showtime"
+        },
+        "body": {
+          "family": "Inter"
+        }
+      },
+      "music": {
+        "vibe": "ambient pad, swell into the hit",
+        "bpm": 70,
+        "ref": "bed-c3"
+      },
+      "structure": [
+        {
+          "label": "Search",
+          "dur": 2
+        },
+        {
+          "label": "Find",
+          "dur": 0.8
+        },
+        {
+          "label": "Lockup",
+          "dur": 2.2
+        }
+      ],
+      "risk": "Mostly dark frames: weakest thumbnail in a feed",
+      "unlocks": "nothing extra",
+      "frames": [
+        {
+          "id": "c3-f1",
+          "src": "media/frames/c3-hook.jpg",
+          "thumb": "media/thumbs/c3-hook.jpg",
+          "caption": "hook: the search"
+        },
+        {
+          "id": "c3-f2",
+          "src": "media/frames/c3-end.jpg",
+          "thumb": "media/thumbs/c3-end.jpg",
+          "caption": "end: found"
+        }
+      ]
+    },
+    {
+      "id": "w1",
+      "tag": "W1",
+      "title": "Arcade marquee",
+      "wildcard": true,
+      "logline": "An 8-bit marquee says now showing; the board pixel-dissolves into the mark.",
+      "hook": "A pixel marquee chasing: NOW SHOWING, PRESS START.",
+      "duration": 5,
+      "tone": [
+        "playful",
+        "nerdy"
+      ],
+      "palette": [
+        {
+          "hex": "#E9B949",
+          "name": "Spotlight gold"
+        },
+        {
+          "hex": "#231916",
+          "name": "Wings"
+        },
+        {
+          "hex": "#3A2C27",
+          "name": "Proscenium"
+        }
+      ],
+      "type": {
+        "display": {
+          "family": "Inter",
+          "sample": "NOW SHOWING"
+        },
+        "body": {
+          "family": "Inter"
+        }
+      },
+      "music": {
+        "vibe": "retro 8-bit",
+        "bpm": 132,
+        "ref": "bed-w1"
+      },
+      "structure": [
+        {
+          "label": "Pixel marquee",
+          "dur": 2
+        },
+        {
+          "label": "Pixel dissolve",
+          "dur": 0.6
+        },
+        {
+          "label": "Lockup",
+          "dur": 2.4
+        }
+      ],
+      "risk": "Pixelating the mark is an effect on the artwork (BRAND.md don'ts): only the transition may touch it, never the resting mark",
+      "unlocks": "nothing extra",
+      "frames": [
+        {
+          "id": "w1-f1",
+          "src": "media/frames/w1-t0_6.jpg",
+          "thumb": "media/thumbs/w1-t0_6.jpg",
+          "caption": "hook: pixel marquee"
+        },
+        {
+          "id": "w1-f2",
+          "src": "media/frames/w1-t2_3.jpg",
+          "thumb": "media/thumbs/w1-t2_3.jpg",
+          "caption": "pixel-dissolve into the mark"
+        }
+      ]
+    }
+  ],
+  "audio": [
+    {
+      "id": "beds",
+      "label": "Concept beds",
+      "kind": "music",
+      "hint": "10 s each, all mastered to -14 LUFS; C1 and C3 include their sound-logo moment",
+      "variants": [
+        {
+          "id": "bed-c1",
+          "label": "C1 piano + logo sting",
+          "src": "media/audio/bed-c1-piano.mp3",
+          "meta": "piano-emotional · D · logo-sting at 6.0 s"
+        },
+        {
+          "id": "bed-c2",
+          "label": "C2 synthwave",
+          "src": "media/audio/bed-c2-synthwave.mp3",
+          "meta": "synthwave · D minor"
+        },
+        {
+          "id": "bed-c3",
+          "label": "C3 pad + swell",
+          "src": "media/audio/bed-c3-pad-swell.mp3",
+          "meta": "ambient-pad · D · swell into a hit at 6.0 s"
+        },
+        {
+          "id": "bed-w1",
+          "label": "W1 8-bit",
+          "src": "media/audio/bed-w-8bit.mp3",
+          "meta": "retro-8bit · D"
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "lt-type",
+      "text": "Lower-third names set in?",
+      "why": "Fraunces 900 is the brand display face; Inter is the body face",
+      "options": [
+        {
+          "id": "fraunces",
+          "label": "Fraunces 900 name, Inter role"
+        },
+        {
+          "id": "inter",
+          "label": "Inter 700 for both"
+        }
+      ],
+      "recommended": "fraunces"
+    },
+    {
+      "id": "webgl-stinger",
+      "text": "The WebGL transition stinger",
+      "why": "The pack has one CSS stinger (curtain sweep) and one shader stinger",
+      "options": [
+        {
+          "id": "chromatic-split",
+          "label": "chromatic-split (fast, premium)"
+        },
+        {
+          "id": "pixel-dissolve",
+          "label": "pixel-dissolve (retro, fits W1)"
+        }
+      ],
+      "recommended": "chromatic-split"
+    },
+    {
+      "id": "sound-logo",
+      "text": "The sting's sound logo",
+      "why": "Same key (D) as the brand sound logo, so both can sit in one edit",
+      "options": [
+        {
+          "id": "new",
+          "label": "New logo-sting motif in D, on the landing"
+        },
+        {
+          "id": "existing",
+          "label": "Reuse motion/sound-logo.wav as is"
+        }
+      ],
+      "recommended": "new"
+    },
+    {
+      "id": "adopt",
+      "text": "Should this sting replace brand sting v1 (assets/brand/motion/sting.mp4)?",
+      "why": "Adopting it is a brand decision; the pack can ship alongside v1",
+      "options": [
+        {
+          "id": "no",
+          "label": "No: ship as a separate pack"
+        },
+        {
+          "id": "yes",
+          "label": "Yes: make it v2"
+        }
+      ],
+      "recommended": "no"
+    }
+  ],
+  "dials": [
+    {
+      "id": "energy",
+      "label": "Energy",
+      "left": "calm",
+      "right": "punchy",
+      "default": 45
+    },
+    {
+      "id": "pace",
+      "label": "Pace",
+      "left": "unhurried",
+      "right": "rapid",
+      "default": 55
+    }
+  ],
+  "updated": "2026-09-27T21:38:36.315Z"
+}

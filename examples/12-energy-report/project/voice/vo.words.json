@@ -1,0 +1,869 @@
+{
+  "source": "vo.wav",
+  "duration": 58.002,
+  "language": "en",
+  "model": "showtime-voice",
+  "words": [
+    {
+      "text": "In",
+      "start": 0.04,
+      "end": 0.117,
+      "type": "word",
+      "line": "hook"
+    },
+    {
+      "text": "twenty",
+      "start": 0.169,
+      "end": 0.443,
+      "type": "word",
+      "line": "hook"
+    },
+    {
+      "text": "twenty-four,",
+      "start": 0.49,
+      "end": 1.21,
+      "type": "word",
+      "line": "hook"
+    },
+    {
+      "text": "America's",
+      "start": 1.65,
+      "end": 2.253,
+      "type": "word",
+      "line": "hook"
+    },
+    {
+      "text": "wind",
+      "start": 2.353,
+      "end": 2.714,
+      "type": "word",
+      "line": "hook"
+    },
+    {
+      "text": "and",
+      "start": 2.762,
+      "end": 2.849,
+      "type": "word",
+      "line": "hook"
+    },
+    {
+      "text": "solar",
+      "start": 2.943,
+      "end": 3.28,
+      "type": "word",
+      "line": "hook"
+    },
+    {
+      "text": "farms",
+      "start": 3.358,
+      "end": 3.77,
+      "type": "word",
+      "line": "hook"
+    },
+    {
+      "text": "made",
+      "start": 3.82,
+      "end": 4.029,
+      "type": "word",
+      "line": "hook"
+    },
+    {
+      "text": "more",
+      "start": 4.092,
+      "end": 4.299,
+      "type": "word",
+      "line": "hook"
+    },
+    {
+      "text": "electricity",
+      "start": 4.349,
+      "end": 5.064,
+      "type": "word",
+      "line": "hook"
+    },
+    {
+      "text": "than",
+      "start": 5.113,
+      "end": 5.245,
+      "type": "word",
+      "line": "hook"
+    },
+    {
+      "text": "coal,",
+      "start": 5.28,
+      "end": 5.73,
+      "type": "word",
+      "line": "hook"
+    },
+    {
+      "text": "for",
+      "start": 6.09,
+      "end": 6.228,
+      "type": "word",
+      "line": "hook"
+    },
+    {
+      "text": "the",
+      "start": 6.228,
+      "end": 6.293,
+      "type": "word",
+      "line": "hook"
+    },
+    {
+      "text": "first",
+      "start": 6.37,
+      "end": 6.635,
+      "type": "word",
+      "line": "hook"
+    },
+    {
+      "text": "time.",
+      "start": 6.65,
+      "end": 7.09,
+      "type": "word",
+      "line": "hook"
+    },
+    {
+      "text": "For",
+      "start": 7.942,
+      "end": 8.043,
+      "type": "word",
+      "line": "coal-era"
+    },
+    {
+      "text": "decades,",
+      "start": 8.101,
+      "end": 8.764,
+      "type": "word",
+      "line": "coal-era"
+    },
+    {
+      "text": "coal",
+      "start": 8.902,
+      "end": 9.255,
+      "type": "word",
+      "line": "coal-era"
+    },
+    {
+      "text": "made",
+      "start": 9.305,
+      "end": 9.499,
+      "type": "word",
+      "line": "coal-era"
+    },
+    {
+      "text": "about",
+      "start": 9.525,
+      "end": 9.773,
+      "type": "word",
+      "line": "coal-era"
+    },
+    {
+      "text": "half",
+      "start": 9.855,
+      "end": 10.13,
+      "type": "word",
+      "line": "coal-era"
+    },
+    {
+      "text": "of",
+      "start": 10.157,
+      "end": 10.214,
+      "type": "word",
+      "line": "coal-era"
+    },
+    {
+      "text": "America's",
+      "start": 10.254,
+      "end": 10.76,
+      "type": "word",
+      "line": "coal-era"
+    },
+    {
+      "text": "power.",
+      "start": 10.862,
+      "end": 11.352,
+      "type": "word",
+      "line": "coal-era"
+    },
+    {
+      "text": "It",
+      "start": 11.752,
+      "end": 11.83,
+      "type": "word",
+      "line": "coal-era"
+    },
+    {
+      "text": "peaked",
+      "start": 11.902,
+      "end": 12.157,
+      "type": "word",
+      "line": "coal-era"
+    },
+    {
+      "text": "in",
+      "start": 12.2,
+      "end": 12.298,
+      "type": "word",
+      "line": "coal-era"
+    },
+    {
+      "text": "two",
+      "start": 12.342,
+      "end": 12.53,
+      "type": "word",
+      "line": "coal-era"
+    },
+    {
+      "text": "thousand",
+      "start": 12.585,
+      "end": 12.971,
+      "type": "word",
+      "line": "coal-era"
+    },
+    {
+      "text": "seven.",
+      "start": 13.06,
+      "end": 13.45,
+      "type": "word",
+      "line": "coal-era"
+    },
+    {
+      "text": "Natural",
+      "start": 14.317,
+      "end": 14.775,
+      "type": "word",
+      "line": "gas"
+    },
+    {
+      "text": "gas",
+      "start": 14.844,
+      "end": 15.17,
+      "type": "word",
+      "line": "gas"
+    },
+    {
+      "text": "took",
+      "start": 15.227,
+      "end": 15.36,
+      "type": "word",
+      "line": "gas"
+    },
+    {
+      "text": "its",
+      "start": 15.387,
+      "end": 15.502,
+      "type": "word",
+      "line": "gas"
+    },
+    {
+      "text": "place",
+      "start": 15.547,
+      "end": 15.824,
+      "type": "word",
+      "line": "gas"
+    },
+    {
+      "text": "first.",
+      "start": 15.895,
+      "end": 16.357,
+      "type": "word",
+      "line": "gas"
+    },
+    {
+      "text": "In",
+      "start": 16.787,
+      "end": 16.887,
+      "type": "word",
+      "line": "gas"
+    },
+    {
+      "text": "twenty",
+      "start": 16.937,
+      "end": 17.197,
+      "type": "word",
+      "line": "gas"
+    },
+    {
+      "text": "sixteen,",
+      "start": 17.277,
+      "end": 17.877,
+      "type": "word",
+      "line": "gas"
+    },
+    {
+      "text": "gas",
+      "start": 17.977,
+      "end": 18.369,
+      "type": "word",
+      "line": "gas"
+    },
+    {
+      "text": "passed",
+      "start": 18.447,
+      "end": 18.803,
+      "type": "word",
+      "line": "gas"
+    },
+    {
+      "text": "coal,",
+      "start": 18.887,
+      "end": 19.366,
+      "type": "word",
+      "line": "gas"
+    },
+    {
+      "text": "and",
+      "start": 19.517,
+      "end": 19.591,
+      "type": "word",
+      "line": "gas"
+    },
+    {
+      "text": "it",
+      "start": 19.617,
+      "end": 19.668,
+      "type": "word",
+      "line": "gas"
+    },
+    {
+      "text": "has",
+      "start": 19.693,
+      "end": 19.778,
+      "type": "word",
+      "line": "gas"
+    },
+    {
+      "text": "stayed",
+      "start": 19.828,
+      "end": 20.098,
+      "type": "word",
+      "line": "gas"
+    },
+    {
+      "text": "ahead.",
+      "start": 20.147,
+      "end": 20.597,
+      "type": "word",
+      "line": "gas"
+    },
+    {
+      "text": "Wind",
+      "start": 21.44,
+      "end": 21.875,
+      "type": "word",
+      "line": "newcomers"
+    },
+    {
+      "text": "and",
+      "start": 21.948,
+      "end": 22.05,
+      "type": "word",
+      "line": "newcomers"
+    },
+    {
+      "text": "solar",
+      "start": 22.157,
+      "end": 22.585,
+      "type": "word",
+      "line": "newcomers"
+    },
+    {
+      "text": "were",
+      "start": 22.635,
+      "end": 22.743,
+      "type": "word",
+      "line": "newcomers"
+    },
+    {
+      "text": "under",
+      "start": 22.785,
+      "end": 22.992,
+      "type": "word",
+      "line": "newcomers"
+    },
+    {
+      "text": "one",
+      "start": 23.067,
+      "end": 23.253,
+      "type": "word",
+      "line": "newcomers"
+    },
+    {
+      "text": "percent",
+      "start": 23.29,
+      "end": 23.744,
+      "type": "word",
+      "line": "newcomers"
+    },
+    {
+      "text": "in",
+      "start": 23.789,
+      "end": 23.889,
+      "type": "word",
+      "line": "newcomers"
+    },
+    {
+      "text": "two",
+      "start": 23.93,
+      "end": 24.134,
+      "type": "word",
+      "line": "newcomers"
+    },
+    {
+      "text": "thousand",
+      "start": 24.185,
+      "end": 24.577,
+      "type": "word",
+      "line": "newcomers"
+    },
+    {
+      "text": "seven.",
+      "start": 24.669,
+      "end": 25.07,
+      "type": "word",
+      "line": "newcomers"
+    },
+    {
+      "text": "Then",
+      "start": 25.64,
+      "end": 25.801,
+      "type": "word",
+      "line": "newcomers"
+    },
+    {
+      "text": "they",
+      "start": 25.839,
+      "end": 25.947,
+      "type": "word",
+      "line": "newcomers"
+    },
+    {
+      "text": "climbed",
+      "start": 25.98,
+      "end": 26.43,
+      "type": "word",
+      "line": "newcomers"
+    },
+    {
+      "text": "past",
+      "start": 26.52,
+      "end": 26.863,
+      "type": "word",
+      "line": "newcomers"
+    },
+    {
+      "text": "coal",
+      "start": 26.93,
+      "end": 27.315,
+      "type": "word",
+      "line": "newcomers"
+    },
+    {
+      "text": "in",
+      "start": 27.363,
+      "end": 27.455,
+      "type": "word",
+      "line": "newcomers"
+    },
+    {
+      "text": "twenty",
+      "start": 27.514,
+      "end": 27.778,
+      "type": "word",
+      "line": "newcomers"
+    },
+    {
+      "text": "twenty-four,",
+      "start": 27.82,
+      "end": 28.56,
+      "type": "word",
+      "line": "newcomers"
+    },
+    {
+      "text": "and",
+      "start": 28.93,
+      "end": 29.037,
+      "type": "word",
+      "line": "newcomers"
+    },
+    {
+      "text": "again",
+      "start": 29.08,
+      "end": 29.59,
+      "type": "word",
+      "line": "newcomers"
+    },
+    {
+      "text": "in",
+      "start": 29.73,
+      "end": 29.818,
+      "type": "word",
+      "line": "newcomers"
+    },
+    {
+      "text": "twenty",
+      "start": 29.87,
+      "end": 30.143,
+      "type": "word",
+      "line": "newcomers"
+    },
+    {
+      "text": "twenty-five.",
+      "start": 30.2,
+      "end": 31.003,
+      "type": "word",
+      "line": "newcomers"
+    },
+    {
+      "text": "Rank",
+      "start": 31.87,
+      "end": 32.104,
+      "type": "word",
+      "line": "race"
+    },
+    {
+      "text": "six",
+      "start": 32.179,
+      "end": 32.373,
+      "type": "word",
+      "line": "race"
+    },
+    {
+      "text": "sources",
+      "start": 32.431,
+      "end": 32.804,
+      "type": "word",
+      "line": "race"
+    },
+    {
+      "text": "year",
+      "start": 32.854,
+      "end": 33.029,
+      "type": "word",
+      "line": "race"
+    },
+    {
+      "text": "by",
+      "start": 33.079,
+      "end": 33.263,
+      "type": "word",
+      "line": "race"
+    },
+    {
+      "text": "year:",
+      "start": 33.337,
+      "end": 33.69,
+      "type": "word",
+      "line": "race"
+    },
+    {
+      "text": "gas",
+      "start": 34.1,
+      "end": 34.397,
+      "type": "word",
+      "line": "race"
+    },
+    {
+      "text": "takes",
+      "start": 34.44,
+      "end": 34.697,
+      "type": "word",
+      "line": "race"
+    },
+    {
+      "text": "the",
+      "start": 34.735,
+      "end": 34.787,
+      "type": "word",
+      "line": "race"
+    },
+    {
+      "text": "top",
+      "start": 34.84,
+      "end": 35.118,
+      "type": "word",
+      "line": "race"
+    },
+    {
+      "text": "spot,",
+      "start": 35.17,
+      "end": 35.568,
+      "type": "word",
+      "line": "race"
+    },
+    {
+      "text": "and",
+      "start": 35.69,
+      "end": 35.809,
+      "type": "word",
+      "line": "race"
+    },
+    {
+      "text": "wind",
+      "start": 35.893,
+      "end": 36.188,
+      "type": "word",
+      "line": "race"
+    },
+    {
+      "text": "passes",
+      "start": 36.25,
+      "end": 36.68,
+      "type": "word",
+      "line": "race"
+    },
+    {
+      "text": "hydro.",
+      "start": 36.734,
+      "end": 37.28,
+      "type": "word",
+      "line": "race"
+    },
+    {
+      "text": "In",
+      "start": 39.762,
+      "end": 39.819,
+      "type": "word",
+      "line": "mix-2025"
+    },
+    {
+      "text": "twenty",
+      "start": 39.868,
+      "end": 40.122,
+      "type": "word",
+      "line": "mix-2025"
+    },
+    {
+      "text": "twenty-five,",
+      "start": 40.172,
+      "end": 40.972,
+      "type": "word",
+      "line": "mix-2025"
+    },
+    {
+      "text": "gas",
+      "start": 41.282,
+      "end": 41.603,
+      "type": "word",
+      "line": "mix-2025"
+    },
+    {
+      "text": "made",
+      "start": 41.653,
+      "end": 41.833,
+      "type": "word",
+      "line": "mix-2025"
+    },
+    {
+      "text": "about",
+      "start": 41.862,
+      "end": 42.131,
+      "type": "word",
+      "line": "mix-2025"
+    },
+    {
+      "text": "forty-one",
+      "start": 42.242,
+      "end": 42.805,
+      "type": "word",
+      "line": "mix-2025"
+    },
+    {
+      "text": "percent.",
+      "start": 42.855,
+      "end": 43.382,
+      "type": "word",
+      "line": "mix-2025"
+    },
+    {
+      "text": "Nuclear,",
+      "start": 43.992,
+      "end": 44.569,
+      "type": "word",
+      "line": "mix-2025"
+    },
+    {
+      "text": "wind",
+      "start": 44.715,
+      "end": 45.072,
+      "type": "word",
+      "line": "mix-2025"
+    },
+    {
+      "text": "and",
+      "start": 45.121,
+      "end": 45.21,
+      "type": "word",
+      "line": "mix-2025"
+    },
+    {
+      "text": "solar,",
+      "start": 45.318,
+      "end": 45.755,
+      "type": "word",
+      "line": "mix-2025"
+    },
+    {
+      "text": "and",
+      "start": 45.838,
+      "end": 45.933,
+      "type": "word",
+      "line": "mix-2025"
+    },
+    {
+      "text": "coal",
+      "start": 46.022,
+      "end": 46.413,
+      "type": "word",
+      "line": "mix-2025"
+    },
+    {
+      "text": "each",
+      "start": 46.502,
+      "end": 46.702,
+      "type": "word",
+      "line": "mix-2025"
+    },
+    {
+      "text": "made",
+      "start": 46.752,
+      "end": 46.944,
+      "type": "word",
+      "line": "mix-2025"
+    },
+    {
+      "text": "about",
+      "start": 46.971,
+      "end": 47.172,
+      "type": "word",
+      "line": "mix-2025"
+    },
+    {
+      "text": "a",
+      "start": 47.198,
+      "end": 47.244,
+      "type": "word",
+      "line": "mix-2025"
+    },
+    {
+      "text": "sixth,",
+      "start": 47.36,
+      "end": 47.862,
+      "type": "word",
+      "line": "mix-2025"
+    },
+    {
+      "text": "and",
+      "start": 48.242,
+      "end": 48.326,
+      "type": "word",
+      "line": "mix-2025"
+    },
+    {
+      "text": "coal's",
+      "start": 48.402,
+      "end": 48.76,
+      "type": "word",
+      "line": "mix-2025"
+    },
+    {
+      "text": "output",
+      "start": 48.862,
+      "end": 49.303,
+      "type": "word",
+      "line": "mix-2025"
+    },
+    {
+      "text": "rose",
+      "start": 49.364,
+      "end": 49.685,
+      "type": "word",
+      "line": "mix-2025"
+    },
+    {
+      "text": "thirteen",
+      "start": 49.786,
+      "end": 50.211,
+      "type": "word",
+      "line": "mix-2025"
+    },
+    {
+      "text": "percent.",
+      "start": 50.242,
+      "end": 50.817,
+      "type": "word",
+      "line": "mix-2025"
+    },
+    {
+      "text": "Every",
+      "start": 51.743,
+      "end": 51.971,
+      "type": "word",
+      "line": "source"
+    },
+    {
+      "text": "number",
+      "start": 52.02,
+      "end": 52.256,
+      "type": "word",
+      "line": "source"
+    },
+    {
+      "text": "here",
+      "start": 52.306,
+      "end": 52.495,
+      "type": "word",
+      "line": "source"
+    },
+    {
+      "text": "comes",
+      "start": 52.543,
+      "end": 52.819,
+      "type": "word",
+      "line": "source"
+    },
+    {
+      "text": "from",
+      "start": 52.867,
+      "end": 53.032,
+      "type": "word",
+      "line": "source"
+    },
+    {
+      "text": "the",
+      "start": 53.032,
+      "end": 53.12,
+      "type": "word",
+      "line": "source"
+    },
+    {
+      "text": "U.S.",
+      "start": 53.224,
+      "end": 54.124,
+      "type": "word",
+      "line": "source"
+    },
+    {
+      "text": "Energy",
+      "start": 54.493,
+      "end": 54.873,
+      "type": "word",
+      "line": "source"
+    },
+    {
+      "text": "Information",
+      "start": 54.914,
+      "end": 55.567,
+      "type": "word",
+      "line": "source"
+    },
+    {
+      "text": "Administration.",
+      "start": 55.614,
+      "end": 56.514,
+      "type": "word",
+      "line": "source"
+    }
+  ]
+}

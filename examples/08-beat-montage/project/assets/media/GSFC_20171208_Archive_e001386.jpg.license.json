@@ -1,0 +1,21 @@
+{
+  "source": "nasa",
+  "source_label": "NASA Image and Video Library",
+  "id": "nasa:GSFC_20171208_Archive_e001386",
+  "title": "Most Amazing High Definition Image of Earth - Blue Marble 2012",
+  "author": "NASA/GSFC",
+  "author_url": null,
+  "license": "Public domain (NASA media)",
+  "license_url": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+  "landing_url": "https://images.nasa.gov/details/GSFC_20171208_Archive_e001386",
+  "note": "NASA media: no endorsement implied; do not use NASA logos or insignia. Check the description for third-party copyright notices.",
+  "type": "image",
+  "file_url": "https://images-assets.nasa.gov/image/GSFC_20171208_Archive_e001386/GSFC_20171208_Archive_e001386~large.jpg",
+  "captions": [],
+  "sha256": "7086bb4b90dc2660c3e76fdb4ddf91536a38796ea8da2e153b77758021111a8d",
+  "fetched": "2026-09-26T14:26:39",
+  "license_class": "free",
+  "attribution_required": false,
+  "credit": "\"Most Amazing High Definition Image of Earth - Blue Marble 2012\" by NASA/GSFC via NASA Image and Video Library (Public domain (NASA media)) - https://images.nasa.gov/details/GSFC_20171208_Archive_e001386",
+  "file": "GSFC_20171208_Archive_e001386.jpg"
+}

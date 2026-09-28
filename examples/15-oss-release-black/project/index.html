@@ -1,0 +1,325 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>black 26.1.0: the 2026 stable style, as a diff (unofficial summary)</title>
+<script src="/_st/stage.js"></script>
+<link rel="stylesheet" href="/_st/themes/base.css">
+<link rel="stylesheet" href="/_st/themes/fonts/geist.css">
+<link rel="stylesheet" href="/_st/themes/fonts/geist-mono.css">
+<script type="module" src="/_st/components/index.js"></script>
+<style>
+  /* ---------------------------------------------------------------------------------
+     Unofficial what's-new video for Black 26.1.0. Every line of code and every terminal
+     line on screen is real formatter output (see ../samples and ../term in the example).
+     Look: warm off-white on a blue-black desk, amber for the editorial voice, the usual
+     red/green only where it means a diff. No project logo, no project colours.
+     --------------------------------------------------------------------------------- */
+  :root {
+    color-scheme: dark;
+    --bg: #0f1114; --fg: #ece7da; --muted: #a7a293;
+    --surface: #171a1e; --surface-2: #1e2227; --border: rgb(236 231 218 / 0.12);
+    --accent: #e8c46a; --accent-2: #7fb6d9; --accent-ink: #14120c;
+    --good: #5fc48e; --bad: #ef7a72; --shadow: 0 3cqmin 9cqmin rgb(0 0 0 / 0.45);
+    --font-display: 'Geist', system-ui, sans-serif;
+    --font-body: 'Geist', system-ui, sans-serif;
+    --font-mono: 'Geist Mono', ui-monospace, monospace;
+    --weight-display: 700; --weight-body: 400;
+    --tracking-display: -0.035em; --leading-display: 1.02; --case-display: none;
+    --radius: 1cqmin; --radius-lg: 1.8cqmin; --stroke: max(1px, 0.14cqmin);
+    --safe-x: 6cqw; --safe-y: 7cqh;
+    --motion-energy: medium;
+    --dur-in: 0.45s; --dur-out: 0.3s; --dur-beat: 0.45s; --stagger: 0.045s;
+    --ease-in: cubic-bezier(0.5, 0, 0.75, 0);
+    --ease-out: cubic-bezier(0.22, 1, 0.36, 1);
+    --ease-move: cubic-bezier(0.65, 0, 0.35, 1);
+    --ease-emph: cubic-bezier(0.22, 1, 0.36, 1);
+    --grain: 0.03; --glow: 0.2;
+  }
+  body { background: var(--bg); }
+  .scene { background: var(--bg); color: var(--fg); font-family: var(--font-body); padding: 0; }
+
+  /* ground: a soft key light and a faint ruled grid (like line-numbered paper), drifting slowly */
+  .bg { position: absolute; inset: 0; pointer-events: none;
+    background:
+      radial-gradient(60% 70% at var(--kx, 78%) var(--ky, 18%), rgb(232 196 106 / 0.10), transparent 70%),
+      radial-gradient(55% 60% at 8% 100%, rgb(127 182 217 / 0.08), transparent 72%),
+      var(--bg); }
+  .bg::before { content: ''; position: absolute; inset: -10% 0;
+    background-image: linear-gradient(to bottom, rgb(236 231 218 / 0.035) 1px, transparent 1px);
+    background-size: 100% 5.2cqh;
+    -webkit-mask-image: radial-gradient(80% 80% at 50% 45%, black 20%, transparent 85%); mask-image: radial-gradient(80% 80% at 50% 45%, black 20%, transparent 85%);
+    animation: rule 8s linear both; }
+  @keyframes rule { from { transform: translateY(0); } to { transform: translateY(-5.2cqh); } }
+
+  /* page-wide honesty tag, top right, on every frame */
+  .tag { position: absolute; right: 6cqw; top: 6.2cqh; z-index: 80; font: 500 2.3cqh/1 var(--font-mono);
+    color: var(--muted); letter-spacing: 0.02em; padding: 0.9cqh 1.4cqh; border: var(--stroke) solid var(--border); border-radius: 99px; background: rgb(15 17 20 / 0.7); }
+
+  .crumb { position: absolute; left: 6cqw; top: 6.2cqh; font: 500 2.6cqh/1 var(--font-mono); color: var(--muted); letter-spacing: 0.01em; }
+  .crumb b { color: var(--fg); font-weight: 600; }
+  .crumb .arrow { display: inline-block; width: 1.1em; height: 0.7em; margin: 0 0.45em; vertical-align: 0.05em; }
+  .crumb .arrow path { stroke: var(--accent); stroke-width: 2.2; fill: none; stroke-linecap: round; stroke-linejoin: round; }
+
+  /* ---------- 1. hook */
+  #hook .st-notifications { width: min(62cqw, 92cqh); top: 17cqh !important; }
+  #hook .st-note { background: color-mix(in oklab, var(--surface-2) 94%, transparent); padding: 2.4cqmin 3cqmin; border-radius: 2.4cqmin; backdrop-filter: none; }
+  #hook .st-note-icon { width: 7cqmin; height: 7cqmin; border-radius: 1.6cqmin; font: 700 3.6cqmin/1 var(--font-mono); background: var(--accent); color: var(--accent-ink); }
+  #hook .st-note-head { font: 500 2.4cqmin/1.2 var(--font-mono); color: var(--muted); text-transform: none; letter-spacing: 0.01em; }
+  #hook .st-note-title { font: 700 4.2cqmin/1.15 var(--font-display); letter-spacing: -0.02em; margin-top: 0.6cqmin; }
+  #hook .st-note-text { font: 400 3cqmin/1.3 var(--font-body); color: color-mix(in oklab, var(--fg) 82%, var(--bg)); margin-top: 0.4cqmin; }
+  #hook .promise { position: absolute; left: 0; right: 0; bottom: 17cqh; text-align: center; }
+  #hook .promise h1 { font: 700 9.6cqh/1 var(--font-display); letter-spacing: -0.045em; margin: 0; }
+  #hook .promise h1 em { font-style: normal; color: var(--accent); }
+  #hook .gutter { display: inline-block; font: 600 9.6cqh/1 var(--font-mono); margin-right: 0.35em; vertical-align: 0.02em; }
+  #hook .gutter i { font-style: normal; display: inline-block; }
+  #hook .gutter .m { color: var(--bad); animation: lightM 0.25s var(--ease-out) 0.35s both; }
+  #hook .gutter .p { color: var(--good); animation: lightP 0.25s var(--ease-out) 0.5s both; }
+  @keyframes lightM { from { color: var(--muted); } to { color: var(--bad); } }
+  @keyframes lightP { from { color: var(--muted); } to { color: var(--good); } }
+  #hook .promise h1 { animation: settle 3.6s cubic-bezier(0.37, 0, 0.63, 1) both; }
+  @keyframes settle { from { scale: 1; } to { scale: 1.04; } }
+  @keyframes blinkIn { from { opacity: 0; } to { opacity: 1; } }
+
+  /* ---------- 2/3. diff scenes (one grammar: code left, the change in plain words right) */
+  .diff .panel { position: absolute; left: 6cqw; top: 15cqh; width: 55cqw; height: 76cqh;
+    border-radius: var(--radius-lg); overflow: hidden; box-shadow: var(--shadow), 0 0 0 var(--stroke) var(--border);
+    font-family: var(--font-mono); animation: push 7s cubic-bezier(0.37, 0, 0.63, 1) both; transform-origin: 30% 50%; }
+  @keyframes push { from { scale: 1; } to { scale: 1.035; } }
+  @keyframes cardpush { from { scale: 1; translate: 0 0; } to { scale: 1.07; translate: 0 -1.5cqh; } }
+  .diff .st-code-title { font-size: 2.4cqh; opacity: 0.75; }
+  .diff .st-code-ln { opacity: 0.62; }
+  .diff .st-code-line.rm { background: rgb(248 81 73 / calc(0.2 * var(--rm, 0))); }
+  .diff .st-code-line.rm .st-code-ln { color: #ff9a90; opacity: 1; }
+  .diff .st-code-line[data-diff="+"] .st-code-ln { color: #9df0b0; opacity: 1; }
+  #diff-2 .panel { height: 66cqh; }
+  #diff-2 .panel.a { animation: push 7s cubic-bezier(0.37, 0, 0.63, 1) both, gone 0.01s steps(1) var(--swap) both; }
+  #diff-2 .panel.b { animation: push 7s cubic-bezier(0.37, 0, 0.63, 1) both, out 0.01s steps(1) var(--swap) both; }
+  @keyframes gone { from { visibility: visible; } to { visibility: hidden; } }
+  #diff-2 .change.c2 { animation: stepBack 0.45s var(--ease-out) var(--swap) both; }
+  @keyframes stepBack { from { opacity: 1; } to { opacity: 0.66; } }
+  .diff .side { position: absolute; left: 65.5cqw; right: 6cqw; top: 17cqh; bottom: 12cqh; display: flex; flex-direction: column; gap: 4.2cqh; }
+  .kick { font: 600 2.5cqh/1 var(--font-mono); color: var(--accent); letter-spacing: 0.06em; text-transform: uppercase; }
+  .kick.bug { display: inline-flex; align-self: flex-start; gap: 0.6em; align-items: center; color: var(--accent-ink); background: var(--accent); padding: 0.7cqh 1.1cqh; border-radius: 0.8cqh; }
+  .change h2 { font: 700 5.4cqh/1.1 var(--font-display); letter-spacing: -0.03em; margin: 1.6cqh 0 1.6cqh; text-wrap: balance; }
+  .change h2 code { font: 600 0.92em/1 var(--font-mono); color: var(--accent); letter-spacing: -0.02em; }
+  .change .meta { font: 500 2.8cqh/1.35 var(--font-mono); color: var(--muted); }
+  .change .meta b { color: var(--fg); font-weight: 600; }
+  .change .fid { font: 400 2.7cqh/1.2 var(--font-mono); color: var(--muted); margin-top: 0.8cqh; opacity: 0.85; }
+  .appear { animation: appear 0.45s var(--ease-out) var(--d, 0s) both; }
+  @keyframes appear { from { opacity: 0; translate: 0 2.2cqh; } to { opacity: 1; translate: 0 0; } }
+
+  /* ---------- 4. terminal */
+  #terminal .steps { position: absolute; left: 6cqw; top: 26cqh; width: 17cqw; display: flex; flex-direction: column; gap: 5cqh; }
+  #terminal .step { font: 700 4.6cqh/1 var(--font-display); letter-spacing: -0.02em; color: var(--muted);
+    animation: stepOn 0.35s var(--ease-out) var(--d) both; }
+  #terminal .step small { display: block; font: 500 2.5cqh/1 var(--font-mono); color: inherit; letter-spacing: 0.05em; margin-bottom: 1.2cqh; }
+  @keyframes stepOn { from { color: var(--muted); } to { color: var(--accent); } }
+  #terminal .note { position: absolute; left: 6cqw; bottom: 12cqh; width: 17cqw; font: 400 2.6cqh/1.4 var(--font-mono); color: var(--muted); }
+  #terminal .laptop { position: absolute; left: 21cqw; top: 9cqh; width: 72cqw; height: 84cqh;
+    animation: lpush 7.5s cubic-bezier(0.37, 0, 0.63, 1) both; transform-origin: 50% 40%; }
+  @keyframes lpush { from { scale: 1; } to { scale: 1.04; } }
+  .term { position: absolute; inset: 0; background: #0b0c0e; color: #e4e0d4; font: 400 3.05cqw/1.36 var(--font-mono); padding: 2.8cqw 3.6cqw; }
+  .term .ln { white-space: pre; min-height: 1.36em; }
+  .term .ps { color: var(--good); }
+  .term .dim { color: #8f8a7d; }
+  .term .out { animation: out 0.01s steps(1) var(--d) both; }
+  @keyframes out { from { visibility: hidden; } to { visibility: visible; } }
+  .term .cmd { display: flex; }
+  .term .cmd > span:first-child { flex: none; }
+  .term .emo { height: 1.08em; width: 1.08em; vertical-align: -0.2em; }
+  .term .st-caret { background: #e4e0d4; }
+
+  /* ---------- 5. more */
+  #more .src { position: absolute; left: 6cqw; top: 15cqh; width: 42cqw; }
+  #more .card { animation: cardpush 6s cubic-bezier(0.37, 0, 0.63, 1) both; transform-origin: 50% 40%; }
+  #more .card { position: relative; border-radius: var(--radius-lg); overflow: hidden; background: #0d1117; box-shadow: var(--shadow), 0 0 0 var(--stroke) var(--border); padding: 2.2cqh 2.2cqh 0; }
+  #more .card img { display: block; width: 100%; height: auto; opacity: 0.9; }
+  #more .card .shot { position: relative; }
+  #more .card .hl { position: absolute; left: -0.9cqh; right: -0.9cqh; box-sizing: border-box; border: 0.35cqh solid var(--accent); border-radius: 0.8cqh; background: rgb(232 196 106 / 0.10);
+    opacity: 0; animation: hl 0.4s var(--ease-out) var(--d) both; }
+  @keyframes hl { from { opacity: 0; scale: 1.04; } to { opacity: 1; scale: 1; } }
+  #more .cap { font: 500 2.4cqh/1.3 var(--font-mono); color: var(--muted); margin-top: 1.6cqh; }
+  #more .list { position: absolute; left: 53cqw; right: 6cqw; top: 17cqh; }
+  #more .list h2 { font: 700 5.6cqh/1.05 var(--font-display); letter-spacing: -0.03em; margin: 1.6cqh 0 4.4cqh; }
+  #more .row { display: grid; grid-template-columns: 4.2cqh 1fr; column-gap: 1.2cqh; margin-bottom: 3.6cqh; }
+  #more .row .plus { align-self: start; font: 700 4.2cqh/1.15 var(--font-mono); color: var(--good); }
+  #more .row b { font: 600 4.2cqh/1.15 var(--font-display); letter-spacing: -0.02em; display: block; }
+  #more .row span { font: 500 2.7cqh/1.3 var(--font-mono); color: var(--muted); display: block; margin-top: 0.7cqh; }
+  #more .row.lit b { animation: lit 0.4s var(--ease-out) var(--d) both; }
+  @keyframes lit { from { color: var(--fg); } 50% { color: var(--accent); } to { color: var(--fg); } }
+  #more .foot { font: 400 2.9cqh/1.35 var(--font-mono); color: var(--muted); margin-top: 1.6cqh; }
+  #more .foot code { color: var(--fg); font-family: inherit; }
+
+  /* ---------- 6. end card */
+  #end .wrap { position: absolute; left: 6cqw; right: 6cqw; top: 14cqh; animation: drift 5s cubic-bezier(0.37, 0, 0.63, 1) both; transform-origin: 0 0; }
+  @keyframes drift { from { scale: 1; } to { scale: 1.025; } }
+  #end .word { font: 700 13cqh/0.95 var(--font-mono); letter-spacing: -0.05em; margin: 0; }
+  #end .word em { font-style: normal; color: var(--accent); }
+  #end .sub { font: 500 3.6cqh/1.2 var(--font-display); color: var(--muted); margin-top: 2cqh; }
+  #end .install { display: inline-flex; gap: 0.8em; align-items: baseline; margin-top: 4.6cqh; font: 600 4.6cqh/1 var(--font-mono);
+    background: var(--surface-2); border: var(--stroke) solid var(--border); padding: 2cqh 2.8cqh; border-radius: var(--radius); }
+  #end .install .ps { color: var(--good); }
+  #end .install small { font: 400 3.1cqh/1 var(--font-mono); color: var(--muted); }
+  #end .url { font: 500 3.2cqh/1.2 var(--font-mono); color: var(--accent-2); margin-top: 3cqh; }
+  #end .thanks { font: 400 3cqh/1.45 var(--font-mono); color: var(--muted); margin-top: 3.6cqh; max-width: 86cqw; }
+  #end .thanks b { color: var(--fg); font-weight: 500; }
+  #end .label { position: absolute; left: 6cqw; right: 6cqw; bottom: 9.5cqh; font: 500 2.8cqh/1.3 var(--font-body); color: var(--fg);
+    border-top: var(--stroke) solid var(--border); padding-top: 2.2cqh; }
+</style>
+</head>
+<body>
+<div class="stage">
+
+  <div class="tag">unofficial summary</div>
+
+  <!-- 1. HOOK: the event (release + date) on frame 0, then the promise -->
+  <section class="scene" id="hook" data-start="0" data-dur="3.6">
+    <div class="bg"></div>
+    <div data-st="notifications" data-max="3" data-items='[
+      {"app":"release","time":"18 Jan 2026","icon":"b","title":"black 26.1.0","text":"Introduces the 2026 stable style","at":-1},
+      {"app":"stable style","time":"2026","icon":"+","title":"9 preview features become stable","text":"6 of them can show up in your upgrade diff","at":0.6}]'></div>
+    <div class="promise">
+      <h1><span class="gutter"><i class="m">−</i><i class="p">+</i></span><span class="lead">Your <em>diff</em> after upgrading:</span></h1>
+    </div>
+  </section>
+
+  <!-- 2. DIFF 1: #4865, 26.1.0 run on code that 25.12.0 formatted -->
+  <section class="scene diff" id="diff-1" data-start="#hook" data-dur="6.6" data-transition="wipe left 0.5" data-transition-options='{"shape":"linear","dir":"left"}'>
+    <div class="bg" style="--kx:30%;--ky:10%"></div>
+    <div class="crumb">black <b>25.12.0</b><svg class="arrow" viewBox="0 0 22 12" aria-label="to"><path d="M1 6h19M15 1.5 20 6l-5 4.5"/></svg><b>26.1.0</b></div>
+    <div class="panel" data-st="code-block" data-src="code/diff-1-unified.json" data-title="pipeline.py" data-bg="#16181b" data-reveal="lines" data-at="0.1"
+         data-diff-at="2.5" data-diff-dur="0.8" data-size="3.6" data-highlight='[{"lines":"9-12","at":3.4,"color":"rgb(232 196 106 / 0.07)"}]' data-dim="0.7"></div>
+    <div class="side">
+      <div class="change">
+        <div class="kick appear" style="--d:0.35s">Change 1</div>
+        <h2 class="appear" style="--d:0.45s">Redundant parentheses on the left of <code>=</code> are removed</h2>
+        <div class="meta appear" style="--d:0.9s"><b>#4865</b> · @Nikhil172913832</div>
+        <div class="fid appear" style="--d:1.0s">remove_parens_from_<wbr>assignment_lhs</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 3. DIFF 2: the bug fix (#4764) and type comments (#4645); the glitch is the bug beat -->
+  <section class="scene diff" id="diff-2" data-start="#diff-1" data-dur="7.2" data-transition="signal-glitch 0.4 peak" style="--swap:3.1s">
+    <div class="bg" style="--kx:30%;--ky:10%"></div>
+    <div class="crumb">black <b>25.12.0</b><svg class="arrow" viewBox="0 0 22 12" aria-label="to"><path d="M1 6h19M15 1.5 20 6l-5 4.5"/></svg><b>26.1.0</b></div>
+    <!-- a: 25.12.0's file with only #4764 applied; b: then #4645. b replaces a at --swap, when both show the same text -->
+    <div class="panel a" data-st="code-block" data-src="code/diff-2a-docstring.json" data-title="settings.py" data-bg="#16181b" data-reveal="none" data-enter="false"
+         data-diff-at="1.5" data-diff-dur="0.8" data-size="3.6" data-highlight='[{"lines":"3","at":2.1,"color":"rgb(232 196 106 / 0.10)"}]' data-dim="0.7"></div>
+    <div class="panel b" data-st="code-block" data-src="code/diff-2b-type-comments.json" data-title="settings.py" data-bg="#16181b" data-reveal="none" data-enter="false"
+         data-diff-at="3.3" data-diff-dur="0.8" data-size="3.6" data-highlight='[{"lines":"6-9","at":3.5,"color":"rgb(232 196 106 / 0.07)"}]' data-dim="0.7"></div>
+    <div class="side">
+      <div class="change c2">
+        <div class="kick bug">Change 2 · fix</div>
+        <h2>A docstring after a comment is now seen as the module docstring</h2>
+        <div class="meta"><b>#4764</b> · @MeGaGiGaGon</div>
+        <div class="fid appear" style="--d:2.1s">line 3 is new</div>
+      </div>
+      <div class="change">
+        <div class="kick appear" style="--d:3.0s">Change 3</div>
+        <h2 class="appear" style="--d:3.1s">Type comments become <code># type: int</code></h2>
+        <div class="meta appear" style="--d:3.4s"><b>#4645</b> · @ranjodhsingh1729</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 4. TERMINAL: the real commands and their real output (captured 2026-09-27, Python 3.12.9) -->
+  <section class="scene" id="terminal" data-start="#diff-2" data-dur="7.2" data-transition="wipe left 0.5" data-transition-options='{"shape":"linear","dir":"left"}'>
+    <div class="bg" style="--kx:60%;--ky:0%"></div>
+    <div class="steps">
+      <div class="step" style="--d:0.4s"><small>01</small>install</div>
+      <div class="step" style="--d:2.45s"><small>02</small>check</div>
+      <div class="step" style="--d:4.35s"><small>03</small>reformat</div>
+    </div>
+    <div class="note">real output<br>Python 3.12</div>
+    <div class="laptop" data-st="device-frame" data-model="laptop" data-color="graphite" data-enter="none">
+      <div class="term">
+        <div class="ln cmd"><span class="ps">$ </span><span data-st="typewriter" data-cadence="uniform" data-cps="22" data-at="0.45" data-caret="block" data-hide-caret-after="0.15">pip install black==26.1.0</span></div>
+        <div class="ln out dim" style="--d:2.0s">…</div>
+        <div class="ln out" style="--d:2.15s">Successfully installed black-26.1.0 …</div>
+        <div class="ln cmd out" style="--d:2.3s"><span class="ps">$ </span><span data-st="typewriter" data-cadence="uniform" data-cps="22" data-at="2.45" data-caret="block" data-hide-caret-after="0.15">black --check app.py</span></div>
+        <div class="ln out" style="--d:3.75s">would reformat app.py</div>
+        <div class="ln out" style="--d:3.75s"> </div>
+        <div class="ln out" style="--d:3.8s">Oh no! <img class="emo" src="img/1f4a5-collision.svg" alt="💥"> <img class="emo" src="img/1f494-broken-heart.svg" alt="💔"> <img class="emo" src="img/1f4a5-collision.svg" alt="💥"></div>
+        <div class="ln out" style="--d:3.8s">1 file would be reformatted.</div>
+        <div class="ln cmd out" style="--d:4.2s"><span class="ps">$ </span><span data-st="typewriter" data-cadence="uniform" data-cps="22" data-at="4.35" data-caret="block" data-hide-caret-after="0.15">black app.py</span></div>
+        <div class="ln out" style="--d:5.18s">reformatted app.py</div>
+        <div class="ln out" style="--d:5.18s"> </div>
+        <div class="ln out" style="--d:5.28s">All done! <img class="emo" src="img/2728-sparkles.svg" alt="✨"> <img class="emo" src="img/1f370-shortcake.svg" alt="🍰"> <img class="emo" src="img/2728-sparkles.svg" alt="✨"></div>
+        <div class="ln out" style="--d:5.28s">1 file reformatted.</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 5. MORE: three more stabilised items, pointed out in the real release notes -->
+  <section class="scene" id="more" data-start="#terminal" data-dur="5.6" data-transition="stagger 0.9">
+    <div class="bg" style="--kx:70%;--ky:10%"></div>
+    <div class="src" data-stagger-item>
+      <div class="card">
+        <div class="shot">
+          <img src="img/notes-26.1.0.png" alt="Black 26.1.0 release notes: the list of stabilised features">
+          <!-- percentages of the 1440x1195 excerpt: #4489 y 165-308, #1879 y 626-728, #4777 y 571-621 -->
+          <div class="hl" style="top:13.6%;height:12.3%;--d:1.0s"></div>
+          <div class="hl" style="top:52.3%;height:8.7%;--d:1.7s"></div>
+          <div class="hl" style="top:47.6%;height:4.4%;--d:2.4s"></div>
+        </div>
+      </div>
+      <div class="cap">Source: 26.1.0 release notes (excerpt)</div>
+    </div>
+    <div class="list">
+      <div class="kick" data-stagger-item>Also stable in 26.1.0</div>
+      <h2 data-stagger-item>9 features in all. Three more:</h2>
+      <div class="row lit" data-stagger-item style="--d:1.0s"><div class="plus">+</div><div><b>One blank line after imports</b><span>#4489</span></div></div>
+      <div class="row lit" data-stagger-item style="--d:1.7s"><div class="plus">+</div><div><b>Calls on multiline strings stay compact</b><span>#1879</span></div></div>
+      <div class="row lit" data-stagger-item style="--d:2.4s"><div class="plus">+</div><div><b>Generic functions split at the arguments</b><span>#4777</span></div></div>
+      <div class="foot appear" style="--d:3.3s">All of it was in <code>--preview</code> during 2025.</div>
+    </div>
+  </section>
+
+  <!-- 6. END: where to get it, who made it, the honesty label -->
+  <section class="scene" id="end" data-start="#more" data-dur="4.8" data-transition="wipe left 0.6" data-transition-options='{"shape":"linear","dir":"left"}'>
+    <div class="bg" style="--kx:80%;--ky:30%"></div>
+    <div class="wrap">
+      <h1 class="word">black <em>26.1.0</em></h1>
+      <div class="sub">the 2026 stable style · 18 Jan 2026</div>
+      <div class="install"><span><span class="ps">$</span> pip install -U black</span><small>newer 26.x releases keep the 2026 style</small></div>
+      <div class="url">github.com/psf/black/releases/tag/26.1.0</div>
+      <div class="thanks">Changes shown, by PR author: <b>@Nikhil172913832</b> · <b>@MeGaGiGaGon</b> · <b>@ranjodhsingh1729</b> · <b>@kastkeepitjumpinlikekangaroos</b> · <b>@aneeshusa</b> · <b>@Exgene</b> · release by <b>@cobaltt7</b></div>
+    </div>
+    <div class="label">Unofficial summary. Not affiliated with the Black project or the Python Software Foundation.</div>
+  </section>
+
+</div>
+<script>
+  // Unified-diff hold. code-block collapses removed lines; here they stay on screen, turning red
+  // above the added lines, and the gutter counts the file on screen: the old file's lines before
+  // the change, the new file's after it (removed lines get a minus). Rows are 1-based.
+  (() => {
+    const M = '\u2212';
+    const DIFFS = [
+      { sel: '#diff-1 .panel', at: 3.6 + 2.5, dur: 0.8, rm: [9, 10],
+        before: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, '', ''], after: [1, 2, 3, 4, 5, 6, 7, 8, M, M, 9, 10] },
+      { sel: '#diff-2 .panel.a', at: 10.2 + 1.5, dur: 0.8, rm: [],
+        before: [1, 2, '', 3, 4, 5, 6, 7], after: [1, 2, 3, 4, 5, 6, 7, 8] },
+      { sel: '#diff-2 .panel.b', at: 10.2 + 3.3, dur: 0.8, rm: [6, 7],
+        before: [1, 2, 3, 4, 5, 6, 7, '', '', 8], after: [1, 2, 3, 4, 5, M, M, 6, 7, 8] },
+    ];
+    ST.onSeek((t) => {
+      for (const d of DIFFS) {
+        const rows = document.querySelectorAll(d.sel + ' .st-code-line');
+        rows.forEach((row, i) => {
+          const rm = d.rm.includes(i + 1);
+          const done = t >= d.at + (rm ? 0 : d.dur * 0.4);
+          const ln = row.querySelector('.st-code-ln');
+          const label = String((done ? d.after : d.before)[i] ?? '');
+          if (ln && ln.textContent !== label) ln.textContent = label;
+          row.classList.toggle('rm', rm && t >= d.at);
+          if (rm) row.style.setProperty('--rm', Math.max(0, Math.min(1, (t - d.at) / 0.25)).toFixed(3));
+        });
+      }
+    });
+  })();
+</script>
+</body>
+</html>

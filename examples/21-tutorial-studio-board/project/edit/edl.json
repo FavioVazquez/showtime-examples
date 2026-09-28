@@ -1,0 +1,166 @@
+{
+ "note": "Tutorial 21, 16:9. Voice first (voice/timeline.json, fit 73 s, placed at 0.4 s); the recording's clock is output - 11.3333 s. Review round 2: autozoom (hints.json keeps the camera wide to the end of step 4 and eases wide before the director's terminal; '. full stop' keycap), the preview starts at rec 55.9, the bed returns by 29.4 s.",
+ "sources": {
+  "rec": "../rec/autozoom.mp4",
+  "open": "../media/open.mp4",
+  "recap": "../media/recap.mp4"
+ },
+ "ranges": [
+  {
+   "source": "rec",
+   "start": 55.9,
+   "end": 60.4667,
+   "note": "0 preview: the end state (C1 picked, the note in Your feedback)"
+  },
+  {
+   "source": "open",
+   "start": 0,
+   "end": 6.7667,
+   "note": "1 open: Claude runs studio open (real output, key masked)"
+  },
+  {
+   "source": "rec",
+   "start": 0,
+   "end": 55.4667,
+   "note": "1-4: the board, recorded live (open, compare, react, pick)"
+  },
+  {
+   "source": "recap",
+   "start": 0,
+   "end": 8.2,
+   "note": "5 recap"
+  }
+ ],
+ "output": {
+  "width": 1920,
+  "height": 1080,
+  "fps": 30,
+  "fit": "cover"
+ },
+ "overlays": [
+  {
+   "file": "../media/steps.webm",
+   "start": 0,
+   "duration": 66.8,
+   "position": "full"
+  },
+  {
+   "file": "../media/feedback.webm",
+   "start": 59.9,
+   "duration": 6.9,
+   "position": "full"
+  }
+ ],
+ "audio": {
+  "tracks": [
+   {
+    "id": "vo-a",
+    "kind": "voice",
+    "file": "../voice/vo.wav",
+    "start": 0.4,
+    "dur": 51.6
+   },
+   {
+    "id": "vo-b",
+    "kind": "voice",
+    "file": "../voice/vo.wav",
+    "offset": 51.6,
+    "start": 51.88,
+    "note": "from pick-click on, 0.12 s earlier so 'Click Pick' meets the click"
+   },
+   {
+    "id": "bed",
+    "kind": "music",
+    "file": "../audio/bed-folk.wav",
+    "gain_db": -5,
+    "fade_out": 1.5,
+    "duck": {
+     "under": "voice",
+     "depth_db": 8,
+     "carve": 0.35
+    },
+    "gain_points": [
+     [
+      25.1,
+      0
+     ],
+     [
+      25.45,
+      -40
+     ],
+     [
+      29.2,
+      -40
+     ],
+     [
+      29.4,
+      0
+     ]
+    ]
+   },
+   {
+    "id": "audition",
+    "kind": "music",
+    "file": "../media/bed-c1-piano.mp3",
+    "start": 25.5,
+    "dur": 3.77,
+    "fade_out": 0.12,
+    "gain_db": 0,
+    "note": "the C1 music sketch, playing from its start while the board's play button is on (the page is silent in capture)"
+   },
+   {
+    "kind": "sfx",
+    "keystrokes": "../rec/events.json",
+    "start": 11.3333,
+    "rec_offset": 0,
+    "gain_db": -9
+   },
+   {
+    "kind": "sfx",
+    "lib": "kenney-interface-sounds/click-001",
+    "at": 21.23,
+    "gain_db": 4
+   },
+   {
+    "kind": "sfx",
+    "lib": "kenney-interface-sounds/click-001",
+    "at": 22.83,
+    "gain_db": 4
+   },
+   {
+    "kind": "sfx",
+    "lib": "kenney-interface-sounds/click-001",
+    "at": 24.03,
+    "gain_db": 4
+   },
+   {
+    "kind": "sfx",
+    "lib": "kenney-interface-sounds/click-001",
+    "at": 25.5,
+    "gain_db": 4
+   },
+   {
+    "kind": "sfx",
+    "lib": "kenney-interface-sounds/click-001",
+    "at": 29.27,
+    "gain_db": 4
+   },
+   {
+    "kind": "sfx",
+    "lib": "kenney-interface-sounds/click-001",
+    "at": 39.0,
+    "gain_db": 4
+   },
+   {
+    "kind": "sfx",
+    "lib": "kenney-interface-sounds/click-001",
+    "at": 53.63,
+    "gain_db": 5
+   }
+  ]
+ },
+ "loudness": {
+  "lufs": -16,
+  "tp": -1
+ }
+}

@@ -1,0 +1,8 @@
+{
+  "duration": 45,
+  "tracks": [
+    {"id": "vo", "kind": "voice", "file": "voice/vo.wav", "start": 0}
+  ],
+  "sections": {"hook": 0, "absolute": 4.25, "loop": 10.52, "evaporator": 15.93, "compressor": 21.66,
+               "condenser": 25.76, "valve": 31.62, "payoff": 37.48, "end": 42.6}
+}

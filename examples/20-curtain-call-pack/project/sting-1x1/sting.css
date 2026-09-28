@@ -1,0 +1,10 @@
+/* Curtain Call sting: page chrome. Colours from assets/brand/brand.json (showtime brand css). */
+:root {
+  --brand-bg: #15100E; --brand-ink: #F5EBDC; --brand-accent: #E9B949; --brand-accent2: #B3121F;
+}
+html, body { margin: 0; width: 100%; height: 100%; overflow: hidden; background: var(--brand-bg); }
+#gl { position: absolute; inset: 0; width: 100%; height: 100%; display: block; }
+/* the wordmark: official outlined SVG, cream on the dark apron, centred under the mark */
+.wm { position: absolute; left: 50%; transform: translateX(-50%); z-index: 5; }
+.wm img { display: block; width: 100%; height: auto; }
+.grain { position: absolute; inset: 0; z-index: 6; pointer-events: none; }

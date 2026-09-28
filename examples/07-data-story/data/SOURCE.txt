@@ -1,0 +1,16 @@
+Dataset: NASA GISS Surface Temperature Analysis (GISTEMP v4), Land-Ocean Temperature Index,
+global means, annual (J-D column).
+Downloaded 2026-09-26 from:
+  https://data.giss.nasa.gov/gistemp/tabledata_v4/GLB.Ts+dSST.csv
+Project page: https://data.giss.nasa.gov/gistemp/
+Units: degrees Celsius, anomaly relative to the 1951-1980 mean.
+Citation: GISTEMP Team, 2026: GISS Surface Temperature Analysis (GISTEMP), version 4.
+  NASA Goddard Institute for Space Studies. Lenssen, N., et al., 2019: Improvements in the
+  GISTEMP uncertainty model. J. Geophys. Res. Atmos., 124, no. 12, 6307-6326.
+License: NASA data, US Government work, public domain (no copyright in the US).
+
+Files:
+  GLB.Ts+dSST.raw.csv        the file as downloaded (monthly, annual and seasonal columns)
+  gistemp-global-annual.csv  year + J-D annual mean only, 1880-2025. 2026 is left out because
+                             its annual mean ("***") is not complete yet. Values are copied
+                             exactly (".89" written as "0.89"); nothing is smoothed or filled.

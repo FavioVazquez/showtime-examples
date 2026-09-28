@@ -1,0 +1,355 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Ring Road: Iceland in eight stops</title>
+<script src="/_st/stage.js"></script>
+<link rel="stylesheet" href="/_st/themes/editorial.css">
+<script type="module" src="/_st/components/index.js"></script>
+<style>
+  /* =====================================================================================
+     RING ROAD: a 45 s photo slideshow cut to "Somewhere Sunny (ver 2)" (Kevin MacLeod, CC BY 4.0).
+     Every scene starts on a downbeat of the bed (audio/somewhere-sunny-ver-2.beats.json), floored to
+     the frame (0-33 ms before the beat). Starts are written just below the frame time (6.7999999
+     for frame 204) so clips and transition windows resolve to the same frame.
+       0      title   Kirkjufell + "Ring Road" (poster, complete at t=0)        1 bar
+       2.267  map     North Atlantic -> Iceland, the loop draws                  2 bars
+       6.8    stops 1-8, one photo each; bars 2 2 2 1 1 2 2 2 (the 1-bar run is the whip run)
+       38.5   end     the loop closes on the map; final chord at 43.03 s
+     Text lives in overlay clips after the scenes, so WebGL transitions (which rasterise the scenes)
+     never smear it. The same page renders 16:9 and 9:16: tall frames switch layout in the
+     @container blocks at the end and read data-*-tall attributes (script at the end of the body).
+     ===================================================================================== */
+  :root {
+    --ink: #fbf7ef; --ink-soft: rgb(251 247 239 / 0.86);
+    --amber: #f2c14e; --sea: #0c1820; --land: #2c3a40; --land-hi: #5d7277;
+    --accent: var(--amber); --accent-2: var(--amber);
+  }
+  html, body, .stage { background: var(--sea); }
+  /* the end scene comes in at 97 % size (blur-dissolve): a sea-coloured spread shadow fills the frame edge, so the
+     bright sky of the outgoing photo does not show as a light band there */
+  .scene.end { box-shadow: 0 0 0 12cqw var(--sea); }
+  .scene { background: var(--sea); padding: 0; overflow: hidden; }
+  .photo { position: absolute; inset: 0; }
+  .photo .st-kb-media { object-position: var(--pos, 50% 50%); }
+  .grade-soft .st-kb-media { filter: contrast(1.1) saturate(1.12) brightness(0.98); }
+  /* portrait photo in a wide frame: the whole picture, centred, over a blurred and darkened copy of itself
+     (review round 1: the crop hid what the caption says); tall frames crop it as before */
+  .bgfill { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
+  .portrait .st-kb-media { object-fit: contain; }
+  .mapfade { position: absolute; inset: 0; }
+
+  /* ---------- overlays (above the transition canvas) */
+  .ov { position: absolute; inset: 0; z-index: 10; }   /* above transition layers: scenes get z-index 1-3 and the WebGL canvas 4 inside a window */   /* no pointer-events:none: check's text audit hit-tests with elementFromPoint */
+
+  /* title */
+  .title-ov { background: linear-gradient(90deg, rgb(8 14 18 / 0.55), rgb(8 14 18 / 0.0) 58%); }
+  .title-ov .box { position: absolute; left: 7cqw; top: 50%; transform: translateY(-50%); }
+  .kicker { font: 600 2.9cqh/1 var(--font-body); letter-spacing: 0.32em; text-transform: uppercase; color: var(--amber); }
+  .title-ov h1 { margin: 1.6cqh 0 0; font: 400 19cqh/0.9 var(--font-display); letter-spacing: -0.02em; color: var(--ink);
+    text-shadow: 0 0.3cqh 3cqh rgb(0 0 0 / 0.35); }
+  .title-ov .box { animation: outFade 0.45s var(--ease-in) 1.85s both; }
+
+  /* map-open line */
+  .mapline .box { position: absolute; left: 7cqw; top: 9cqh; animation: inRise 0.6s var(--ease-out) 0.35s both, outFade 0.4s var(--ease-in) 3.95s forwards; }
+  .mapline .line { margin-top: 1.4cqh; font: 400 7.2cqh/1 var(--font-display); color: var(--ink); }
+
+  /* stop labels: number, name, one short line */
+  .label::before { content: ''; position: absolute; left: 0; right: 0; bottom: 0; height: 62cqh;
+    background: linear-gradient(to top, rgb(5 10 14 / 0.72), rgb(5 10 14 / 0.5) 38%, rgb(5 10 14 / 0) 100%); }
+  .label .box::before { content: ''; position: absolute; z-index: -1; left: -14cqw; right: -16cqw; top: -12cqh; bottom: -10cqh;
+    background: radial-gradient(closest-side, rgb(5 10 14 / 0.6), rgb(5 10 14 / 0.35) 55%, rgb(5 10 14 / 0)); }
+  .label .box { z-index: 0; }
+  .label::before, .label .box::before { animation: inFade 0.45s var(--ease-out) both; }   /* the scrim eases in with the words, no pop */
+  .label .box { position: absolute; left: 6.5cqw; bottom: 13cqh; max-width: 60cqw; }
+  .label .box.nosub { padding-bottom: calc(1.6cqh + 3.3cqh * 1.25); }   /* no sub-line: keep the shared name baseline */
+  .label .num { display: inline-block; padding: 0.7cqh 0.9cqw 0.6cqh 1.1cqw; border-radius: 0.6cqmin; background: rgb(8 16 22 / 0.82);
+    font: 600 2.6cqh/1 var(--font-body); letter-spacing: 0.24em; color: var(--amber); animation: inFade 0.4s var(--ease-out) 0s both; }
+  .label .name { margin-top: 1.2cqh; font: 400 11cqh/0.95 var(--font-display); letter-spacing: -0.015em; color: var(--ink);
+    text-shadow: 0 0.2cqh 2.4cqh rgb(0 0 0 / 0.4); animation: inRise 0.55s var(--ease-out) 0.05s both; }
+  .label .sub { margin-top: 1.6cqh; font: 500 3.3cqh/1.25 var(--font-body); color: var(--ink-soft); animation: inFade 0.5s var(--ease-out) 0.3s both; }
+  .label { animation: outFade 0.3s var(--ease-in) calc(var(--d) - 0.3s) forwards; }
+
+  /* the inset map card */
+  .inset .card { position: absolute; right: 4.5cqw; top: 7cqh; width: 25cqw; height: 18cqw; border-radius: 1.4cqmin; overflow: hidden;
+    background: rgb(8 16 22 / 0.84); border: 1px solid rgb(255 255 255 / 0.18); box-shadow: 0 1cqh 4cqh rgb(0 0 0 / 0.3);
+    animation: inFade 0.5s var(--ease-out) 0.15s both, outFade 0.45s var(--ease-in) 31.05s forwards; }
+  .ov.inset { z-index: 11; }   /* above the stop labels' bottom scrim (the Vík card sits bottom-right) */
+  .inset .card .map { opacity: 1 !important; }   /* the card's fade brings the map in with it (no empty box) */
+  .inset .card.alt { top: auto; bottom: 6cqh; }  /* Vík: bottom-right, clear of the sea stacks */
+  .map { position: absolute; inset: 0; }
+  .inset .map { --map-water: transparent; }
+
+  /* world-map styling for this film */
+  .map .st-map-sphere { fill: var(--map-water, var(--sea)); stroke: none; }
+  .map .st-map-country { fill: color-mix(in oklab, var(--land-hi) calc(var(--hl, 0) * 100%), var(--land)); stroke: var(--sea); stroke-width: 0.6; }
+  .map .st-map-route { stroke: var(--amber); stroke-width: calc(2.6px + var(--glow, 0) * 2.4px); stroke-dasharray: none; stroke-linejoin: round;
+    filter: drop-shadow(0 0 calc(var(--glow, 0) * 6px) rgb(242 193 78 / 0.9)); }
+  .map .st-map-routehead { fill: var(--ink); }
+  .map .st-map-dot { fill: var(--amber); stroke: var(--sea); stroke-width: 1.5; }
+  .map .st-map-pulse { stroke: var(--amber); }
+  .map .st-map-label { fill: var(--ink); font: 600 17px var(--font-body); stroke: var(--sea); stroke-width: 4px; }
+  /* inset (marker units x0.64 on screen in 16:9): the current stop is a big amber dot with a cream rim and one
+     ring pulse on arrival (page script sets --ring-r/--ring-o); visited stops are small cream dots */
+  .inset .st-map-dot { r: 17px; stroke: var(--ink); stroke-width: 3.6px; }
+  .inset .st-map-pulse { r: var(--ring-r, 17px) !important; opacity: var(--ring-o, 0) !important; stroke: var(--ink); stroke-width: 3px; }
+  .inset .st-map-marker.past .st-map-pulse { display: none; }
+  .inset .st-map-marker.past .st-map-dot { fill: var(--ink); r: 7px; stroke: var(--sea); stroke-width: 1.5px; }
+  .end .st-map-dot { r: 4px; }
+  .end .st-map-label { opacity: var(--lbl, 0) !important; }   /* Reykjavík's dot is there from the start; its name lands on the chord */
+  .inset .st-map-route { stroke-width: 6px; }
+  .inset .map { --land-hi: #6c8287; }
+  .end .st-map-label { text-anchor: end; transform: translate(-26px, 0); }
+
+  /* end card */
+  .end-ov .box { position: absolute; left: 6.5cqw; top: 14cqh; width: 40cqw; }
+  .end-ov .kicker { animation: inFade 0.5s var(--ease-out) 0.5s both; }
+  .end-ov h2 { margin: 1.6cqh 0 0; font: 400 15cqh/0.9 var(--font-display); letter-spacing: -0.02em; color: var(--ink); animation: inRise 0.6s var(--ease-out) 2.25s both; }
+  .end-ov .credits { position: absolute; left: 6.5cqw; bottom: 11cqh; width: 58cqw; font: 500 2.75cqh/1.45 var(--font-body); color: var(--ink-soft);
+    animation: inFade 0.6s var(--ease-out) 0.7s both; }
+  .end-ov .credits b { font-weight: 600; color: var(--ink); }
+
+  @keyframes inRise { from { opacity: 0; transform: translateY(2.2cqh); } to { opacity: 1; transform: none; } }
+  @keyframes inFade { from { opacity: 0; } to { opacity: 1; } }
+  @keyframes outFade { from { opacity: 1; } to { opacity: 0; } }
+
+  /* =====================================================================================
+     TALL (9:16, Reels): the map card becomes the top band, labels sit in the centre band,
+     everything inside x 64-956 / y 220-1440 (the platform-safe box).
+     ===================================================================================== */
+  @container (max-aspect-ratio: 5/6) {
+    .title-ov { background: linear-gradient(0deg, rgb(8 14 18 / 0.0) 30%, rgb(8 14 18 / 0.5) 62%, rgb(8 14 18 / 0.0)); }
+    .title-ov .box { left: 7cqw; top: 38cqh; transform: none; }
+    .kicker { font-size: 2.3cqh; }
+    .title-ov h1 { font-size: 11.5cqh; }
+    .mapline .box { left: 7cqw; top: 12.5cqh; }
+    .mapline .line { font-size: 4.6cqh; }
+    .label::before { height: 58cqh; }
+    .label .num { padding: 0.5cqh 1.6cqw 0.45cqh 2cqw; }
+    .label .box { left: 7cqw; bottom: 29cqh; max-width: 80cqw; }
+    .label .num { font-size: 2.3cqh; }
+    .label .name { font-size: 6.6cqh; }
+    .label .sub { font-size: 2.35cqh; }
+    .inset .card { left: 6cqw; right: auto; top: 11.8cqh; width: 50cqw; height: 16cqh; }
+    .inset .card.alt { top: 11.8cqh; bottom: auto; }
+    .label .box.nosub { padding-bottom: calc(1.6cqh + 2.35cqh * 1.25); }
+    .bgfill { display: none; }
+    .portrait .st-kb-media { object-fit: cover; }
+    .end-ov .box { left: 6cqw; top: 42.8cqh; width: 80cqw; }
+    .end-ov h2 { font-size: 8.5cqh; }
+    .end-ov .credits { left: 6cqw; top: 57.7cqh; bottom: auto; width: 78cqw; font-size: 2.25cqh; }
+    .end-ov .courtesy { display: none; }   /* photographer names stay in share.txt / credits.txt for the Reels cut */
+  }
+</style>
+</head>
+<body>
+<div class="stage">
+
+  <!-- 1. TITLE (hook, poster at t=0): the strongest frame first -->
+  <section class="scene title" id="title" data-start="0" data-end="2.2666666">
+    <div class="photo" data-st="ken-burns" data-src="media/08-kirkjufell.jpg" style="--pos: 50% 42%"
+         data-ease="linear" data-from='{"scale":1.06,"x":0,"y":0}' data-to='{"scale":1.1,"x":-0.6,"y":0.4}'
+         data-pos-tall="47% 50%"></div>
+  </section>
+
+  <!-- 2. MAP OPEN: North Atlantic -> Iceland, the whole loop in one gesture, then a push into Reykjavik -->
+  <section class="scene mapopen" id="mapopen" data-start="2.2666666" data-end="6.7999999" data-transition="light-leak 0.8 center" data-transition-options='{"a":0.5}'>
+    <div class="mapfade" id="mapFade"><div class="map" id="mapOpen"></div></div>
+  </section>
+
+  <!-- 3-10. THE STOPS (counterclockwise from Reykjavik; no direction word on screen) -->
+  <section class="scene stop" id="s1" data-start="6.7999999" data-end="11.2999999" data-transition="crossfade 0.3 center">
+    <div class="photo" data-st="ken-burns" data-src="media/01-reykjavik.jpg" style="--pos: 50% 38%" data-ease="linear"
+         data-from='{"scale":1.0,"x":0,"y":0}' data-to='{"scale":1.1,"x":0,"y":1.5}' data-pos-tall="39% 50%"></div>
+  </section>
+  <section class="scene stop" id="s2" data-start="11.2999999" data-end="15.8666666" data-transition="crossfade 0.3 center">
+    <div class="photo grade-soft" data-st="ken-burns" data-src="media/02-thingvellir.jpg" style="--pos: 50% 70%" data-ease="linear"
+         data-from='{"scale":1.1,"x":3,"y":0}' data-to='{"scale":1.1,"x":-3,"y":0}' data-pos-tall="36% 50%"></div>
+  </section>
+  <section class="scene stop" id="s3" data-start="15.8666666" data-end="20.3999999" data-transition="crossfade 0.3 center">
+    <img class="bgfill" src="media/03-seljalandsfoss-bg.jpg" alt="" decoding="sync">
+    <div class="photo portrait" data-st="ken-burns" data-src="media/03-seljalandsfoss.jpg" style="--pos: 50% 50%" data-ease="linear"
+         data-from='{"scale":1.0,"x":0,"y":0}' data-to='{"scale":1.04,"x":0,"y":0}' data-pos-tall="42% 50%"
+         data-from-tall='{"scale":1.1,"x":0,"y":1}' data-to-tall='{"scale":1.0,"x":0,"y":0}'></div>
+  </section>
+  <!-- the whip run: three 1-bar-ish shots, content always moves left (the trip heads east) -->
+  <section class="scene stop" id="s4" data-start="20.3999999" data-end="22.6666666" data-transition="whip-blur 0.45 center" data-transition-options='{"a":1}'>
+    <div class="photo" data-st="ken-burns" data-src="media/04-skogafoss.jpg" style="--pos: 45% 50%" data-ease="linear"
+         data-from='{"scale":1.06,"x":1.5,"y":0}' data-to='{"scale":1.1,"x":-1.5,"y":0}' data-pos-tall="45% 50%"></div>
+  </section>
+  <section class="scene stop" id="s5" data-start="22.6666666" data-end="24.9333333" data-transition="whip-pan left 0.45 center">
+    <div class="photo" data-st="ken-burns" data-src="media/05-vik.jpg" style="--pos: 50% 52%" data-ease="linear"
+         data-from='{"scale":1.08,"x":1.5,"y":0}' data-to='{"scale":1.08,"x":-1.5,"y":0}' data-pos-tall="9% 50%"></div>
+  </section>
+  <section class="scene stop" id="s6" data-start="24.9333333" data-end="29.4333333" data-transition="whip-blur 0.45 center" data-transition-options='{"a":1}'>
+    <div class="photo" data-st="ken-burns" data-src="media/06-jokulsarlon.jpg" style="--pos: 50% 50%" data-ease="linear"
+         data-from='{"scale":1.1,"x":1.5,"y":0}' data-to='{"scale":1.0,"x":0,"y":0}' data-pos-tall="46% 50%"></div>
+  </section>
+  <section class="scene stop" id="s7" data-start="29.4333333" data-end="33.9666666" data-transition="crossfade 0.3 center">
+    <div class="photo" data-st="ken-burns" data-src="media/07-godafoss.jpg" style="--pos: 50% 45%" data-ease="linear"
+         data-from='{"scale":1.0,"x":0,"y":0}' data-to='{"scale":1.1,"x":0,"y":1}' data-pos-tall="50% 50%"></div>
+  </section>
+  <section class="scene stop" id="s8" data-start="33.9666666" data-end="38.4999999" data-transition="light-leak 0.8 center" data-transition-options='{"a":0.5}'>
+    <div class="photo" data-st="ken-burns" data-src="media/08-kirkjufell.jpg" style="--pos: 50% 50%" data-ease="linear"
+         data-from='{"scale":1.12,"x":0,"y":-1}' data-to='{"scale":1.03,"x":0,"y":0}' data-pos-tall="41% 50%"></div>
+  </section>
+
+  <!-- 11. END: the loop closes on the map; the final chord (43.03 s) lights the whole line -->
+  <section class="scene end" id="end" data-start="38.4999999" data-end="45" data-transition="blur-dissolve 0.9 center">
+    <div class="map" id="mapEnd"></div>
+  </section>
+
+  <!-- ===================== overlays: text and the inset map (never inside a shader window) -->
+  <div class="ov title-ov" data-start="0" data-end="2.35">
+    <div class="box"><div class="kicker">Iceland</div><h1>Ring Road</h1></div>
+  </div>
+  <div class="ov mapline" data-start="2.2666666" data-end="6.7">
+    <div class="box"><div class="kicker">Iceland</div><div class="line">One loop, eight stops</div></div>
+  </div>
+
+  <div class="ov inset" data-start="6.7999999" data-end="38.4999999"><div class="card"><div class="map" id="mapInset"></div></div></div>
+
+  <div class="ov label" data-start="7.05" data-end="10.95" style="--d: 3.9s"><div class="box">
+    <div class="num">01 / 08</div><div class="name">Reykjavík</div><div class="sub">Hallgrímskirkja</div></div></div>
+  <div class="ov label" data-start="11.55" data-end="15.5" style="--d: 3.95s"><div class="box">
+    <div class="num">02 / 08</div><div class="name">Þingvellir</div><div class="sub">Rift valley on the Mid-Atlantic Ridge</div></div></div>
+  <div class="ov label" data-start="16.1" data-end="20.05" style="--d: 3.95s"><div class="box">
+    <div class="num">03 / 08</div><div class="name">Seljalandsfoss</div><div class="sub">You can walk behind it</div></div></div>
+  <div class="ov label" data-start="20.55" data-end="22.4" style="--d: 1.85s"><div class="box nosub">
+    <div class="num">04 / 08</div><div class="name">Skógafoss</div></div></div>
+  <div class="ov label" data-start="22.85" data-end="24.68" style="--d: 1.83s"><div class="box">
+    <div class="num">05 / 08</div><div class="name">Vík</div><div class="sub">Reynisdrangar</div></div></div>
+  <div class="ov label" data-start="25.12" data-end="29.25" style="--d: 4.13s"><div class="box">
+    <div class="num">06 / 08</div><div class="name">Jökulsárlón</div><div class="sub">Glacial lagoon, Vatnajökull National Park</div></div></div>
+  <div class="ov label" data-start="29.7" data-end="33.6" style="--d: 3.9s"><div class="box">
+    <div class="num">07 / 08</div><div class="name">Goðafoss</div><div class="sub">On the Skjálfandafljót river</div></div></div>
+  <div class="ov label" data-start="34.2" data-end="38.0" style="--d: 3.8s"><div class="box">
+    <div class="num">08 / 08</div><div class="name">Kirkjufell</div><div class="sub">“Church Mountain”, 463 m</div></div></div>
+
+  <div class="ov end-ov" data-start="38.4999999" data-end="45">
+    <div class="box"><div class="kicker">Iceland · eight stops</div><h2>Ring Road</h2></div>
+    <div class="credits">
+      <div><b>Music:</b> “Somewhere Sunny (ver 2)” Kevin MacLeod (incompetech.com) · CC BY 4.0</div>
+      <div><b>Photos:</b> CC0 via Wikimedia Commons<span class="courtesy"> · F. Stöhr, Ypsilon from Finland, N. Hussain, J. Dela Cruz,
+        A. Spratt, J. Bishop, T. Dellsen, I. Krutainis</span></div>
+      <div><b>Map data:</b> Natural Earth · the line is a schematic of the stop order, not the road</div>
+    </div>
+  </div>
+</div>
+
+<script>
+/* Map data and per-aspect options. Runs before the components mount (they load as a module). */
+(function () {
+  const tall = innerHeight > innerWidth;
+  // tall frames: photo crops from data-pos-tall
+  document.querySelectorAll('[data-pos-tall]').forEach((el) => { if (tall) el.style.setProperty('--pos', el.dataset.posTall); });
+  // tall frames: their own Ken Burns move where one is given
+  document.querySelectorAll('[data-from-tall]').forEach((el) => { if (tall) { el.dataset.from = el.dataset.fromTall; el.dataset.to = el.dataset.toTall; } });
+
+  // stops (Wikipedia coordinates, research/19-facts.md section 2), in film order
+  const S = [
+    ['Reykjavík', -21.9266, 64.1417], ['Þingvellir', -21.0373, 64.2538], ['Seljalandsfoss', -19.9928, 63.6158],
+    ['Skógafoss', -19.5111, 63.5321], ['Vík', -19.0097, 63.4194], ['Jökulsárlón', -16.2117, 64.0703],
+    ['Goðafoss', -17.54, 65.68], ['Kirkjufell', -23.3057, 64.941],
+  ];
+  // via points (no markers) so the schematic line hugs the coast instead of crossing the interior
+  const V = { selfoss: [-21.0, 63.9333], djupivogur: [-14.2833, 64.65], egilsstadir: [-14.3833, 65.2833],
+    akureyri: [-18.10, 65.6833], blonduos: [-20.30, 65.6667], borgarnes: [-21.9167, 64.5333] };
+  const P = (i) => [S[i][1], S[i][2]];
+  // legs: from stop i-1 to stop i (index i), as point lists; leg 8 closes the loop back to Reykjavik
+  const LEGS = [
+    null,
+    [P(0), P(1)],
+    [P(1), V.selfoss, P(2)],
+    [P(2), P(3)],
+    [P(3), P(4)],
+    [P(4), P(5)],
+    [P(5), V.djupivogur, V.egilsstadir, P(6)],
+    [P(6), V.akureyri, V.blonduos, V.borgarnes, P(7)],
+    [P(7), V.borgarnes, P(0)],
+  ];
+  const dist = (a, b) => Math.hypot((a[0] - b[0]) * Math.cos((a[1] + b[1]) / 2 * Math.PI / 180), a[1] - b[1]);
+  // a leg drawn over [at, at+dur], split into its segments by length
+  function legRoutes(leg, at, dur) {
+    const lens = leg.slice(1).map((p, i) => dist(leg[i], p));
+    const tot = lens.reduce((a, b) => a + b, 0);
+    let t = at;
+    return lens.map((l, i) => { const d = dur * l / tot; const r = { at: +t.toFixed(3), from: leg[i], to: leg[i + 1], dur: +Math.max(d, 0.05).toFixed(3) }; t += d; return r; });
+  }
+  // Mercator zoom so a span of lonSpan degrees fills frac of the element width (world width = min(W, H) at zoom 1)
+  const zoomFor = (el, lonSpan, frac, hFrac) => {
+    const W = el.clientWidth, H = el.clientHeight, world = Math.min(W, H);
+    const zw = frac * W / (lonSpan / 360 * world);
+    const zh = hFrac ? hFrac * H / (lonSpan * 0.72 / 360 * world) : Infinity;   // Iceland is ~0.72x as tall as wide in Mercator
+    return +Math.min(zw, zh).toFixed(2);
+  };
+  const ICE = [-18.75, 64.95];
+  const set = (el, o) => { el.dataset.st = 'world-map'; for (const [k, v] of Object.entries(o)) el.setAttribute('data-' + k, typeof v === 'string' ? v : JSON.stringify(v)); };
+  const common = { src: '/_lib/world-atlas/countries-50m.json', projection: 'mercator', graticule: false };
+
+  // --- map open (local time; clip 2.267-6.8 s)
+  const mo = document.getElementById('mapOpen');
+  const zIce = tall ? zoomFor(mo, 11.3, 0.84, 0.5) : zoomFor(mo, 11.3, 0.5, 0.74);
+  const openRoutes = [];
+  let t = 1.75;
+  const openLegDur = [0, 0.16, 0.2, 0.1, 0.1, 0.34, 0.42, 0.5, 0.26];
+  for (let i = 1; i <= 8; i++) { openRoutes.push(...legRoutes(LEGS[i], t, openLegDur[i])); t += openLegDur[i]; }
+  const openMarkers = S.map((s, i) => ({ at: i === 0 ? 1.6 : +(1.75 + openLegDur.slice(1, i + 1).reduce((a, b) => a + b, 0)).toFixed(3), lon: s[1], lat: s[2] }));
+  set(mo, { ...common, labels: false,
+    camera: [{ at: 0, center: tall ? [-22, 60] : [-18, 61], zoom: +(zIce / (tall ? 5.2 : 6.5)).toFixed(2) },
+             { at: 0.3, center: ICE, zoom: zIce, dur: 1.5 },
+             { at: 3.85, center: P(0), zoom: +(zIce * 2.4).toFixed(2), dur: 0.9 }],
+    highlight: [{ at: 1.0, names: ['Iceland'] }],
+    markers: openMarkers, routes: openRoutes });
+
+  // --- inset (local time; clip 6.8-38.5 s): the line reaches each stop as its photo lands
+  const STARTS = [6.8, 11.3, 15.8667, 20.4, 22.6667, 24.9333, 29.4333, 33.9667];
+  const inset = document.getElementById('mapInset');
+  const zIn = zoomFor(inset, 11.3, tall ? 0.74 : 0.74, tall ? 0.78 : 0.74);
+  const inRoutes = [], inMarkers = [];
+  for (let i = 0; i < 8; i++) {
+    const at = STARTS[i] - 6.8 + 0.12, dur = i === 0 ? 0 : (i === 3 || i === 4 ? 0.6 : 0.9);
+    if (i > 0) inRoutes.push(...legRoutes(LEGS[i], at, dur));
+    inMarkers.push({ at: +(i === 0 ? 0.25 : at + dur).toFixed(3), lon: S[i][1], lat: S[i][2] });
+  }
+  set(inset, { ...common, labels: false, camera: [{ at: 0, center: ICE, zoom: zIn }], highlight: [{ at: -1, names: ['Iceland'] }],   // lit from frame 0: the card fades in with the map
+    markers: inMarkers, routes: inRoutes });
+  window.__insetStarts = STARTS.map((s, i) => inMarkers[i].at + 6.8);
+
+  // --- end (local time; clip 38.5-45 s): everything drawn, then the closing leg; Reykjavik lands on the final chord
+  const me = document.getElementById('mapEnd');
+  const zEnd = tall ? zoomFor(me, 11.3, 0.8, 0.28) : zoomFor(me, 11.3, 0.47, 0.68);
+  const endRoutes = [];
+  for (let i = 1; i <= 7; i++) endRoutes.push(...legRoutes(LEGS[i], -2, 0.5));
+  endRoutes.push(...legRoutes(LEGS[8], 0.45, 1.8));
+  set(me, { ...common, labels: true,
+    camera: [{ at: 0, center: tall ? [ICE[0] + 0.2, ICE[1] - 2.95] : [ICE[0] - 5.0, ICE[1] - 0.45], zoom: zEnd }],
+    highlight: [{ at: -1, names: ['Iceland'] }],
+    markers: [...S.slice(1).map((s) => ({ at: -1, lon: s[1], lat: s[2] })), { at: -1, lon: S[0][1], lat: S[0][2], label: 'Reykjavík' }],
+    routes: endRoutes });
+})();
+
+/* seek-safe: the inset marks visited stops (pure function of t); the end map's line glows on the final chord */
+ST.onSeek((t) => {
+  const starts = window.__insetStarts || [];
+  let cur = -1; starts.forEach((s, i) => { if (t >= s) cur = i; });
+  document.querySelectorAll('#mapInset .st-map-marker').forEach((g, i) => {
+    g.classList.toggle('past', i < cur);
+    // one ring pulse as the stop is reached (0.4 s, dot size to ~56 px on a 1920 frame), then none
+    const q = i === cur ? ST.progress(t, starts[i], starts[i] + 0.4) : 1;
+    g.style.setProperty('--ring-r', (17 + 27 * q).toFixed(2) + 'px');
+    g.style.setProperty('--ring-o', (i === cur && q < 1 ? 0.85 * (1 - q) : 0).toFixed(3));
+  });
+  // Vík: the inset moves off the sea stacks (16:9 only; CSS ignores .alt in tall frames)
+  const card = document.querySelector('.inset .card');
+  if (card) card.classList.toggle('alt', t >= 22.6666 && t < 24.9333);
+  // map open: fade to the sea colour before the church comes in (no double exposure at the 6.8 s cut)
+  const mf = document.getElementById('mapFade');
+  if (mf) mf.style.opacity = (1 - ST.progress(t, 6.42, 6.7)).toFixed(3);
+  const glow = ST.progress(t, 43.03, 43.28) * (1 - 0.6 * ST.progress(t, 43.5, 44.8));
+  const me = document.getElementById('mapEnd');
+  if (me) { me.style.setProperty('--glow', glow.toFixed(3)); me.style.setProperty('--lbl', ST.progress(t, 43.03, 43.4).toFixed(3)); }
+});
+</script>
+</body>
+</html>

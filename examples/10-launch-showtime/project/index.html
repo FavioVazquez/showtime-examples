@@ -1,0 +1,397 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>showtime: launch (30 s)</title>
+<script src="/_st/stage.js"></script>
+<link rel="stylesheet" href="/_st/themes/terminal.css">
+<link rel="stylesheet" href="fonts/inter/font.css">
+<link rel="stylesheet" href="fonts/jetbrains-mono/font.css">
+<script type="module" src="/_st/components/index.js"></script>
+<style>
+  /* showtime's own look: the studio board's amber play mark on a warm near-black. */
+  :root {
+    color-scheme: dark;
+    --bg: #0f0d0b; --fg: #f5efe6; --muted: #a79d90; --dim: #6f675d;
+    --surface: #1a1714; --surface-2: #231f1b; --border: rgb(255 240 220 / 0.09);
+    --accent: #f3b545; --accent-2: #9a5b00; --accent-ink: #1a1305;
+    --good: #7fd49b; --bad: #ff6b5e;
+    --font-display: 'Inter', sans-serif; --font-body: 'Inter', sans-serif; --font-mono: 'JetBrains Mono', monospace;
+    --weight-display: 700; --tracking-display: -0.035em; --leading-display: 1.02; --case-display: none;
+    --radius: 1cqmin; --radius-lg: 1.8cqmin;
+    --grain: 0.035;
+    --ease-o: cubic-bezier(0.16, 1, 0.3, 1);
+    --ease-io: cubic-bezier(0.65, 0, 0.35, 1);
+  }
+  body { background: var(--bg); }
+  .scene { background: radial-gradient(90% 80% at 50% 38%, #1c1712 0%, var(--bg) 70%); color: var(--fg); font-family: var(--font-body); overflow: hidden; }
+  .mono { font-family: var(--font-mono); }
+  .amber { color: var(--accent); }
+  .mark { display: inline-block; width: 1em; height: 1em; vertical-align: -0.12em; }
+
+  /* type-on text driven from t (see script) */
+  .caret::after { content: ''; display: inline-block; width: .09em; height: 1.02em; margin-left: .06em; vertical-align: -0.16em; background: var(--accent); }
+  .caret.idle::after { opacity: var(--blink, 1); }
+
+  @keyframes rise   { from { opacity: 0; transform: translateY(2.2cqmin); } }
+  @keyframes fadein { from { opacity: 0; } }
+  @keyframes maskup { from { clip-path: inset(0 0 100% 0); transform: translateY(3cqmin); } to { clip-path: inset(0 0 -20% 0); } }
+  @keyframes pop    { from { opacity: 0; transform: scale(.94); filter: blur(1cqmin); } }
+
+  /* ---------- 1. hook: the request is typed ---------- */
+  .hook { display: grid; place-items: center; }
+  .hook .prompt { width: 70cqw; padding: 4.2cqmin 4.6cqmin 4.6cqmin; border-radius: 2cqmin; background: rgb(22 19 16 / .82);
+    box-shadow: 0 0 0 1px rgb(243 181 69 / .22), 0 4cqmin 12cqmin rgb(0 0 0 / .6); }
+  .hook .prompt.sent { box-shadow: 0 0 0 1px rgb(243 181 69 / calc(.22 + .5 * var(--sent, 0))), 0 0 calc(6cqmin * var(--sent, 0)) rgb(243 181 69 / .25), 0 4cqmin 12cqmin rgb(0 0 0 / .6); }
+  .sheetbg { position: absolute; inset: -4% -10%; display: grid; gap: 2.2cqmin; align-content: center; opacity: .16; filter: grayscale(.35);
+    -webkit-mask-image: radial-gradient(60% 60% at 50% 50%, transparent 0%, #000 85%); mask-image: radial-gradient(60% 60% at 50% 50%, transparent 0%, #000 85%); }
+  .sheetbg .r { display: flex; gap: 2.2cqmin; }
+  .sheetbg img { width: 21cqw; aspect-ratio: 16/9; object-fit: cover; border-radius: .8cqmin; flex: none; }
+  .hook .who { font: 500 2.4cqmin/1 var(--font-mono); color: var(--muted); letter-spacing: .08em; margin-bottom: 2.6cqmin; display: flex; align-items: center; gap: 1.4cqmin; }
+  .hook .who .mark { width: 3.2cqmin; height: 3.2cqmin; }
+  .hook .line { font: 600 8cqmin/1.12 var(--font-display); letter-spacing: -0.03em; min-height: 2.3em; white-space: pre; display: flex; }
+  .hook .line .typed { display: block; }
+  .hook .line .chev { color: var(--accent); width: .42em; height: .62em; margin-right: .4em; vertical-align: .02em; }
+  .hook .chip { margin-top: 3.4cqmin; display: inline-flex; gap: 1.4cqmin; align-items: center; font: 500 2.5cqmin/1 var(--font-mono); color: var(--muted);
+    padding: 1.3cqmin 2cqmin; border: 1px solid var(--border); border-radius: 99px; background: rgb(255 255 255 / .03);
+    animation: rise .45s var(--ease-o) 1.38s both; }
+  .hook .chip b { color: var(--fg); font-weight: 600; }
+  .hook .push { transform-origin: 50% 45%; scale: calc(1 + .05 * var(--p, 0)); }
+
+  /* ---------- 2. result: the finished video, right away ---------- */
+  .result .req { position: absolute; left: 50%; top: 9cqh; translate: -50% 0; white-space: nowrap; font: 500 2.9cqmin/1 var(--font-body); color: var(--muted);
+    display: flex; gap: 1.2cqmin; align-items: center; }
+  .result .req .chev { color: var(--accent); width: .5em; height: .75em; }
+  .result .req .done { font: 600 2.3cqmin/1 var(--font-mono); color: var(--good); margin-left: 1.2cqmin; animation: fadein .3s ease-out .5s both; }
+  .player { position: absolute; left: 50%; top: 17.5cqh; width: 54cqw; translate: -50% 0; aspect-ratio: 16/9; border-radius: 1.4cqmin; overflow: hidden;
+    box-shadow: 0 0 0 1px rgb(255 255 255 / .08), 0 4cqmin 10cqmin rgb(0 0 0 / .55); background: #000;
+    animation: pop .6s var(--ease-o) .05s both; }
+  .player video { width: 100%; height: 100%; object-fit: cover; display: block; }
+  .player .bar { position: absolute; left: 0; bottom: 0; height: .5cqmin; background: var(--accent); width: calc(var(--pp, 0) * 100%); }
+  .result .meta { position: absolute; left: 50%; top: calc(17.5cqh + 54cqw * 9 / 16 + 3.2cqh); translate: -50% 0; white-space: nowrap;
+    font: 500 2.5cqmin/1 var(--font-mono); color: var(--muted); display: flex; gap: 2.2cqmin; animation: rise .45s var(--ease-o) 1.45s both; }
+  .result .meta b { color: var(--fg); font-weight: 500; }
+  .result .meta .ok { color: var(--good); }
+  .roles { position: absolute; left: 4.2cqw; top: 36cqh; display: grid; gap: 3.2cqmin; }
+  .roles div { font: 700 4.4cqmin/1 var(--font-display); letter-spacing: -.02em; }
+  .roles div span { display: block; font: 500 2.2cqmin/1.3 var(--font-mono); color: var(--muted); letter-spacing: .06em; margin-bottom: .8cqmin; }
+  .roles .r1 { animation: rise .45s var(--ease-o) .05s both; color: var(--muted); }
+  .roles .r2 { animation: rise .45s var(--ease-o) .3s both; }
+  .roles .r3 { animation: rise .45s var(--ease-o) 1.36s both; }
+  .roles .r3 { color: var(--accent); }
+
+  /* ---------- 3. terminal: real commands, real output ---------- */
+  .terminal { display: grid; place-items: center; }
+  .term { width: 63cqw; border-radius: 1.4cqmin; background: #15120f; box-shadow: 0 0 0 1px rgb(255 255 255 / .08), 0 5cqmin 12cqmin rgb(0 0 0 / .6);
+    overflow: hidden; transform-origin: 50% 70%; }
+  .term .titlebar { height: 5cqmin; display: flex; align-items: center; gap: 1cqmin; padding: 0 2cqmin; background: #1d1a16; border-bottom: 1px solid rgb(255 255 255 / .06);
+    font: 500 2.1cqmin/1 var(--font-mono); color: var(--muted); }
+  .term .titlebar i { width: 1.4cqmin; height: 1.4cqmin; border-radius: 50%; background: #3a342d; }
+  .term .titlebar span { margin-left: auto; margin-right: auto; translate: -3cqmin 0; }
+  .term .body { padding: 3cqmin 3.4cqmin 3.6cqmin; font: 400 2.8cqmin/1.6 var(--font-mono); color: #d8d0c4; }
+  .term .row { white-space: pre; min-height: 1.62em; }
+  .term .cmd .ps { color: var(--accent); }
+  .term .cmd { color: var(--fg); }
+  .term .out { color: #a79d90; }
+  .term .pass { color: var(--good); font-weight: 700; }
+  .term .verdict { color: var(--fg); }
+  .term .verdict b { color: var(--good); }
+  .term .hl { border-radius: .6cqmin; margin: 0 -1cqmin; padding: 0 1cqmin; background: rgb(127 212 155 / calc(.13 * var(--v, 0))); }
+  .wave { height: 7.2cqmin; margin: .6cqmin 0 1.2cqmin 2.2ch; position: relative; }
+  .wave svg { width: 100%; height: 100%; display: block; }
+  .prog { display: inline-block; width: 22ch; height: .5em; border-radius: 99px; background: #2b2621; vertical-align: .08em; margin-left: 1.6ch; overflow: hidden; position: relative; }
+  .prog i { position: absolute; inset: 0 auto 0 0; width: calc(var(--fp, 0) * 100%); background: var(--accent); border-radius: 99px; }
+
+  /* ---------- 4. wall: real renders from the examples ---------- */
+  .wall { background: radial-gradient(80% 70% at 50% 45%, #17130f 0%, #0c0a08 75%); }
+  .tile { position: absolute; }
+  .tile .clip { position: absolute; inset: 0; border-radius: 1cqmin; overflow: hidden; background: #000; box-shadow: 0 0 0 1px rgb(255 255 255 / .07), 0 2.4cqmin 6cqmin rgb(0 0 0 / .5); }
+  .tile video { width: 100%; height: 100%; object-fit: cover; display: block; }
+  .tile .lab { position: absolute; left: 0; top: calc(100% + 1.3cqmin); white-space: nowrap; font: 500 2.3cqmin/1 var(--font-mono); color: var(--fg); }
+  .tile .lab span { color: var(--accent); margin-right: 1.1cqmin; }
+  .tile .clip { animation: lightup .45s var(--ease-o) both; animation-delay: var(--d); }
+  .tile .lab { animation: rise .4s var(--ease-o) both; animation-delay: var(--d); }
+  @keyframes lightup { from { filter: brightness(.28) saturate(.4); scale: .965; } }
+  .wall .cam { position: absolute; inset: 0; transform-origin: 50% 46%; scale: calc(1.035 - .035 * var(--p, 0)); }
+
+  /* ---------- 5. studio board ---------- */
+  .studio .kick { position: absolute; left: 50%; top: 6.2cqh; translate: -50% 0; white-space: nowrap; font: 500 2.5cqmin/1 var(--font-mono); color: var(--muted);
+    display: flex; gap: 1.2cqmin; align-items: center; animation: rise .45s var(--ease-o) .1s both; }
+  .studio .kick .mark { width: 2.8cqmin; height: 2.8cqmin; }
+  .studio .kick b { color: var(--fg); font-weight: 600; }
+  .studio .cam { position: absolute; inset: 0; transform-origin: 50% 20cqh; }
+  .studio .frame { position: absolute; left: 50%; top: 13cqh; width: 78cqw; height: 78cqh; translate: -50% 0; }
+  /* the board is live DOM (not data-src) so the pick overlay lives on the page, in board-image % */
+  .studio .board { position: relative; }
+  .studio .board > img { display: block; width: 100%; height: auto; }
+  .studio .dimcard { position: absolute; top: 12.36%; bottom: -30%; background: rgb(15 13 11 / calc(.22 * var(--pk, 0))); }
+  .studio .ring { position: absolute; left: 35.6%; width: 28.8%; top: 12.1%; bottom: -30%; border-radius: .6cqmin;
+    box-shadow: 0 0 0 calc(.28cqmin * var(--pk, 0)) var(--accent), 0 0 calc(3cqmin * var(--pk, 0)) rgb(243 181 69 / .45); }
+  .studio .picked { position: absolute; left: 36.9%; top: 14.2%; display: inline-flex; align-items: center; gap: .5cqmin;
+    font: 700 1.9cqmin/1 var(--font-body); color: var(--accent-ink); background: var(--accent); padding: .8cqmin 1.3cqmin; border-radius: 99px;
+    opacity: var(--pk, 0); scale: calc(.8 + .2 * var(--pk, 0)); transform-origin: 0 50%; box-shadow: 0 .6cqmin 2cqmin rgb(0 0 0 / .35); }
+  #pick-target { position: absolute; left: 46%; top: 13.5%; width: 6%; height: 4%; }
+
+  /* ---------- 6. local ---------- */
+  .local .col { position: absolute; left: 50%; top: 12cqh; translate: -50% 0; width: 66cqw; }
+  .local .no { font: 700 12cqmin/1.02 var(--font-display); letter-spacing: -.04em; }
+  .local .no div { animation: maskup .55s var(--ease-o) both; animation-delay: var(--d); }
+  .local .no .amber { color: var(--accent); }
+  .local .stack { transform-origin: 0 0; scale: var(--sq, 1); translate: 0 var(--ty, 0); }
+  .local .voice { position: absolute; left: 0; right: 0; top: 34cqmin; animation: rise .45s var(--ease-o) 3.0s both; }
+  .local .voice .lab { font: 500 2.6cqmin/1.3 var(--font-mono); color: var(--muted); display: flex; justify-content: space-between; }
+  .local .voice .lab b { color: var(--fg); font-weight: 600; }
+  .local .voice .w { height: 13cqmin; margin-top: 1.6cqmin; position: relative; }
+  .local .voice .w svg { width: 100%; height: 100%; display: block; }
+  .local .voice .w .played { position: absolute; inset: 0; clip-path: inset(0 calc((1 - var(--vh, 0)) * 100%) 0 0); }
+  .local .col { scale: calc(1 + .06 * var(--p, 0)); transform-origin: 50% 40%; }
+  .local .voice .head { position: absolute; top: -1cqmin; bottom: -1cqmin; width: 2px; background: var(--fg); left: calc(var(--vh, 0) * 100%); }
+
+  /* ---------- 7. close ---------- */
+  .close { display: grid; place-items: center; background: radial-gradient(70% 60% at 50% 42%, #221a10 0%, var(--bg) 72%); }
+  .close .card { display: grid; justify-items: center; text-align: center; }
+  .close .logo { display: flex; align-items: center; gap: 3cqmin; }
+  .close .logo .mark { width: 15cqmin; height: 15cqmin; animation: pop .5s var(--ease-o) 0s both; }
+  .close .logo h1 { font: 700 15cqmin/1 var(--font-display); letter-spacing: -.055em; margin: 0; animation: maskup .5s var(--ease-o) .1s both; }
+  .close .tag { margin-top: 3cqmin; font: 500 4cqmin/1.2 var(--font-body); color: var(--muted); letter-spacing: -.01em; animation: rise .4s var(--ease-o) .2s both; }
+  .close .tag b { color: var(--fg); font-weight: 600; }
+  .close .install { margin-top: 5cqmin; display: grid; gap: 1.1cqmin; justify-items: start; font: 500 3cqmin/1.2 var(--font-mono); color: var(--fg);
+    padding: 2.2cqmin 3.4cqmin; border-radius: 1.2cqmin; background: #1a1612; box-shadow: 0 0 0 1px rgb(243 181 69 / .25); animation: rise .4s var(--ease-o) .25s both; }
+  .close .install span { color: var(--accent); margin-right: 1.4ch; }
+  .close .push { scale: calc(1.0 + .025 * var(--p, 0)); }
+
+  /* ---------- spine: this video's own frame counter ---------- */
+  .hud { position: absolute; left: 50%; bottom: 3.2cqh; translate: -50% 0; font: 500 1.95cqmin/1 var(--font-mono); color: #8e8579; letter-spacing: .06em; white-space: nowrap; z-index: 5;
+    padding: .9cqmin 1.8cqmin; border-radius: 99px; background: rgb(15 13 11 / .78); }
+  .hud i { display: inline-block; width: .7em; height: .7em; border-radius: 50%; background: var(--accent); margin-right: .9em; vertical-align: .02em; opacity: .9; }
+</style>
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute">
+  <defs>
+    <symbol id="st-mark" viewBox="0 0 16 16"><rect width="16" height="16" rx="4" fill="#f3b545"/><path d="M5 3.5v9l7.5-4.5z" fill="#1a1305"/></symbol>
+  </defs>
+</svg>
+<div class="stage">
+
+  <!-- 1. hook: the request, as typed (example 01's real request) -->
+  <section class="scene hook" id="hook" data-start="0" data-dur="2.217">
+    <div class="sheetbg" id="sheetbg">
+      <div class="r"><img src="shots/posters/02.jpg"><img src="shots/posters/07.jpg"><img src="shots/posters/09.jpg"><img src="shots/posters/01.jpg"><img src="shots/posters/08.jpg"><img src="shots/posters/04.jpg"></div>
+      <div class="r"><img src="shots/posters/08.jpg"><img src="shots/posters/01.jpg"><img src="shots/posters/04.jpg"><img src="shots/posters/02.jpg"><img src="shots/posters/09.jpg"><img src="shots/posters/07.jpg"></div>
+      <div class="r"><img src="shots/posters/04.jpg"><img src="shots/posters/09.jpg"><img src="shots/posters/07.jpg"><img src="shots/posters/08.jpg"><img src="shots/posters/02.jpg"><img src="shots/posters/01.jpg"></div>
+    </div>
+    <div class="push">
+      <div class="prompt sent" id="prompt">
+        <div class="who"><svg class="mark"><use href="#st-mark"/></svg>you, in Claude Code</div>
+        <div class="line"><svg class="chev" viewBox="0 0 10 16"><path d="M2 2l6 6-6 6" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></svg><span class="typed" data-text="Make a 20-second launch&#10;video for Tidepool" data-at="-0.42" data-cps="36"></span></div>
+      </div>
+    </div>
+    <div data-st="keystrokes" data-items='[{"at":1.2,"keys":"↵"}]' data-hold="0.8"></div>
+  </section>
+
+  <!-- 2. result first: the finished launch video (examples/01) -->
+  <section class="scene result" id="result" data-start="#hook" data-dur="4.193" data-transition="zoom-through 0.45">
+    <div class="req"><svg class="chev" viewBox="0 0 10 16"><path d="M2 2l6 6-6 6" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></svg>Make a 20-second launch video for Tidepool<span class="done"><svg viewBox="0 0 16 16" style="width:1em;height:1em;vertical-align:-.12em;margin-right:.35em"><path d="M3 8.5l3.2 3.2L13 4.8" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>done</span></div>
+    <div class="roles">
+      <div class="r1"><span>YOU</span>describe</div>
+      <div class="r2"><span>CLAUDE</span>directs</div>
+      <div class="r3"><span>SHOWTIME</span>does the work</div>
+    </div>
+    <div class="player" id="player">
+      <video src="media/ex01.mp4" data-offset="1.6" muted playsinline preload="auto"></video>
+      <div class="bar"></div>
+    </div>
+    <div class="meta"><span><b>tidepool-launch/final.mp4</b></span><span>1920×1080</span><span>20.00 s</span><span class="ok">qa PASS</span></div>
+  </section>
+
+  <!-- 3. the commands that made it, with their real output -->
+  <section class="scene terminal" id="terminal" data-start="#result" data-dur="6.104" data-transition="push left 0.5">
+    <div class="term" id="term">
+      <div class="titlebar"><i></i><i></i><i></i><span>~/tidepool · showtime</span></div>
+      <div class="body">
+        <div class="row cmd"><span class="ps">$ </span><span class="typed" data-text="showtime audio mix audio/mix.json -o mix.wav" data-at="0.1" data-cps="90"></span></div>
+        <div class="row out" data-show="0.62">  mix.wav  20.00s  -14.01 LUFS  -1.1 dBTP  LRA 1.86</div>
+        <div class="wave" id="mixwave" data-show="0.68"></div>
+        <div class="row cmd" data-show="1.72"><span class="ps">$ </span><span class="typed" data-text="showtime render project --job tidepool-launch" data-at="1.72" data-cps="95"></span></div>
+        <div class="row out" data-show="2.2"><span id="frames">  frames   0/600   0%</span><span class="prog" id="prog"><i></i></span></div>
+        <div class="row cmd" data-show="2.98"><span class="ps">$ </span><span class="typed" data-text="showtime qa tidepool-launch" data-at="2.98" data-cps="80"></span></div>
+        <div class="row out" data-show="3.36">  <span class="pass">PASS</span>  loudness -14.1 LUFS (target -14), true peak -1.5 dBTP</div>
+        <div class="row out" data-show="3.48">  <span class="pass">PASS</span>  no frozen stretches over 2.5s</div>
+        <div class="row verdict" data-show="3.6"><span class="hl" id="verdict">verdict: <b>PASS</b> (0 fail, 0 warn, 0 note)</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 4. what it can make: real renders from examples/ -->
+  <section class="scene wall" id="wall" data-start="#terminal" data-dur="5.034" data-transition="push left 0.497">
+    <div class="cam">
+      <!-- left column: two landscape tiles; centre: two portrait tiles; right: two landscape tiles -->
+      <div class="tile" style="left:3.5cqw;top:13cqh;width:24cqw;height:calc(24cqw*9/16);--d:.3s">
+        <div class="clip"><video src="media/ex01.mp4" data-offset="6.7" muted playsinline preload="auto"></video></div>
+        <div class="lab"><span>01</span>launch film</div></div>
+      <div class="tile" style="left:3.5cqw;top:calc(77cqh - 24cqw*9/16);width:24cqw;height:calc(24cqw*9/16);--d:1.2s">
+        <div class="clip"><video src="media/ex02.mp4" data-offset="15.2" muted playsinline preload="auto"></video></div>
+        <div class="lab"><span>02</span>explainer + narration</div></div>
+      <div class="tile" style="left:calc(50cqw - 1.35cqw - 64cqh*9/16);top:13cqh;width:calc(64cqh*9/16);height:64cqh;--d:1.88s">
+        <div class="clip"><video src="media/ex05.mp4" data-offset="2.6" muted playsinline preload="auto"></video></div>
+        <div class="lab"><span>05</span>vertical short</div></div>
+      <div class="tile" style="left:calc(50cqw + 1.35cqw);top:13cqh;width:calc(64cqh*9/16);height:64cqh;--d:2.78s">
+        <div class="clip"><video src="media/ex06.mp4" data-offset="19.5" muted playsinline preload="auto" style="transform-origin:50% 20%;scale:1.6"></video></div>
+        <div class="lab"><span>06</span>footage edit + captions</div></div>
+      <div class="tile" style="right:3.5cqw;top:13cqh;width:24cqw;height:calc(24cqw*9/16);--d:3.52s">
+        <div class="clip"><video src="media/ex07.mp4" data-offset="16.2" muted playsinline preload="auto"></video></div>
+        <div class="lab"><span>07</span>data story</div></div>
+      <div class="tile" style="right:3.5cqw;top:calc(77cqh - 24cqw*9/16);width:24cqw;height:calc(24cqw*9/16);--d:3.78s">
+        <div class="clip"><video src="media/ex08.mp4" data-offset="10.2" muted playsinline preload="auto"></video></div>
+        <div class="lab"><span>08</span>cut to the beat</div></div>
+    </div>
+  </section>
+
+  <!-- 5. studio mode: the real board from examples/09 -->
+  <section class="scene studio" id="studio" data-start="#wall" data-dur="3.725" data-transition="push left 0.5">
+    <div class="kick"><svg class="mark"><use href="#st-mark"/></svg><b>studio mode</b> concepts · style frames · storyboard · animatic</div>
+    <div class="cam" id="studiocam">
+    <div class="frame" data-st="browser-frame" data-url="127.0.0.1 / studio / tidepool-trailer" data-theme="light" data-at="0">
+      <div class="board" id="board">
+        <img src="shots/studio-board.png" alt="" decoding="sync">
+        <div class="dimcard" style="left:5.9%;width:28.4%"></div>
+        <div class="dimcard" style="left:65.7%;width:28.4%"></div>
+        <div class="ring"></div>
+        <div class="picked"><svg viewBox="0 0 16 16" style="width:1.1em;height:1.1em"><path d="M3 8.5l3.2 3.2L13 4.8" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></svg>picked</div>
+        <div id="pick-target"></div>
+      </div>
+    </div>
+    </div>
+    <div data-st="cursor" data-path='[{"at":0.3,"x":72,"y":88},{"at":1.62,"target":"#pick-target","hover":true},{"at":1.78,"target":"#pick-target","click":true}]'></div>
+  </section>
+
+  <!-- 6. local: the claims from the README, and this voice's own waveform -->
+  <section class="scene local" id="local" data-start="#studio" data-dur="5.47" data-transition="blur-dissolve 0.5">
+    <div class="col">
+      <div class="stack" id="nostack">
+        <div class="no">
+          <div style="--d:.28s">No cloud APIs.</div>
+          <div style="--d:1.03s">No API keys.</div>
+          <div style="--d:2.4s" class="amber">No uploads.</div>
+        </div>
+      </div>
+      <div class="voice">
+        <div class="lab"><span><b>this voice</b> · Kokoro, on this machine</span><span>vo.wav</span></div>
+        <div class="w" id="vowave"><div class="head"></div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 7. close -->
+  <section class="scene close" id="close" data-start="#local" data-dur="3.257" data-transition="dip 0.4">
+    <div class="push"><div class="card">
+      <div class="logo"><svg class="mark"><use href="#st-mark"/></svg><h1>showtime</h1></div>
+      <div class="tag">A local video studio for <b>Claude Code</b></div>
+      <div class="install"><div><span>/plugin</span>marketplace add faviovazquez/showtime</div><div><span>/plugin</span>install showtime@showtime</div></div>
+    </div></div>
+  </section>
+
+  <div class="hud" id="hud"><i></i>frame 0000 / 0900 · 00:00.00</div>
+  <div data-st="grain"></div>
+</div>
+
+<script>
+(() => {
+  const FPS = 30, TOTAL = 900;
+  const clamp = (x, a, b) => Math.min(b, Math.max(a, x));
+  const eo = (p) => 1 - Math.pow(1 - p, 3);
+  let starts = null;
+  const sceneOf = (el) => el.closest('section.scene');
+  function localT(el, t) {
+    if (!starts) { starts = {}; for (const c of ST.clips()) if (c.id) starts[c.id] = c; }
+    const s = starts[sceneOf(el).id];
+    return t - (s ? s.start : 0);
+  }
+
+  // waveform strips from real audio (data/peaks.json, computed from the files)
+  function bars(peaks, color) {
+    const n = peaks.length, w = 1000 / n;
+    let d = '';
+    peaks.forEach((v, i) => { const h = Math.max(1.2, v * 46); d += `M${(i * w + w * .5).toFixed(2)} ${(50 - h).toFixed(2)}V${(50 + h).toFixed(2)}`; });
+    return `<svg viewBox="0 0 1000 100" preserveAspectRatio="none"><path d="${d}" stroke="${color}" stroke-width="${(w * .55).toFixed(2)}" stroke-linecap="round" fill="none"/></svg>`;
+  }
+  const peaksReady = fetch('data/peaks.json').then(r => r.json()).then(p => {
+    const mw = document.getElementById('mixwave');
+    mw.innerHTML = bars(p.mix.peaks, '#f3b545');
+    const vw = document.getElementById('vowave');
+    vw.insertAdjacentHTML('afterbegin', bars(p.vo.peaks, '#6f675d') + '<div class="played">' + bars(p.vo.peaks, '#f3b545') + '</div>');
+    vw.dataset.from = p.vo.from; vw.dataset.to = p.vo.to;
+  });
+  ST.waitFor(peaksReady, 'peaks.json');
+
+  const typed = [...document.querySelectorAll('.typed')];
+  const shows = [...document.querySelectorAll('[data-show]')];
+
+  ST.onSeek((t) => {
+    // spine: this video's own frame counter
+    const f = Math.min(TOTAL, Math.round(t * FPS));
+    const ss = (t).toFixed(2).padStart(5, '0');
+    document.getElementById('hud').innerHTML = `<i></i>frame ${String(f).padStart(4, '0')} / ${TOTAL} · 00:${ss}`;
+
+    for (const el of typed) {
+      const lt = localT(el, t), at = +el.dataset.at, cps = +el.dataset.cps, txt = el.dataset.text;
+      const n = clamp(Math.floor((lt - at) * cps), 0, txt.length);
+      el.textContent = txt.slice(0, n);
+      const typing = n > 0 && n < txt.length;
+      const isLast = el.closest('.hook') || (n === txt.length && false);
+      el.classList.toggle('caret', !!(typing || (el.closest('.hook') && lt < 1.25)));
+    }
+    for (const el of shows) {
+      const lt = localT(el, t), at = +el.dataset.show;
+      el.style.visibility = lt >= at ? 'visible' : 'hidden';
+    }
+
+    // hook: the contact-sheet backdrop drifts; the prompt lights up on Enter
+    { const bg = document.getElementById('sheetbg'); const lt = localT(bg, t);
+      bg.querySelectorAll('.r').forEach((r, i) => { r.style.transform = `translateX(${((i % 2 ? -1 : 1) * (lt * 1.6) - 4).toFixed(3)}cqw)`; });
+      const pr = document.getElementById('prompt');
+      const k = lt < 1.2 ? 0 : Math.exp(-(lt - 1.2) * 2.2);
+      pr.style.setProperty('--sent', k.toFixed(3));
+      // gone by 0.15 s into the zoom-through, so the giant blurred prompt never sits over the clip
+      pr.closest('.push').style.opacity = (1 - clamp((t - 2.217) / 0.15, 0, 1)).toFixed(3); }
+
+    // studio: the whole browser pushes in slowly; the click at 1.78 s picks the middle concept
+    { const cam = document.getElementById('studiocam'); const lt = localT(cam, t);
+      // camera on the whole browser (not the page inside it): the edges leave the video frame, nothing is sliced under the URL bar
+      const eio = (p) => p < .5 ? 4 * p * p * p : 1 - Math.pow(-2 * p + 2, 3) / 2;
+      cam.style.scale = (1 + 0.26 * eio(clamp((lt - 0.55) / 1.2, 0, 1)) + 0.05 * clamp((lt - 1.75) / 2.0, 0, 1)).toFixed(4);
+      document.getElementById('board').style.setProperty('--pk', eo(clamp((lt - 1.8) / 0.25, 0, 1)).toFixed(3)); }
+
+    // result: player progress
+    { const el = document.getElementById('player'); const lt = localT(el, t);
+      el.style.setProperty('--pp', clamp((1.6 + lt) / 20, 0, 1)); }
+
+    // terminal: mix waveform wipes on, frame counter, verdict highlight, slow push
+    { const term = document.getElementById('term'); const lt = localT(term, t);
+      const mw = document.getElementById('mixwave');
+      const wp = eo(clamp((lt - 0.68) / 0.8, 0, 1));
+      mw.style.clipPath = `inset(0 ${(100 - wp * 100).toFixed(2)}% 0 0)`;
+      const fp = clamp((lt - 2.2) / 0.75, 0, 1);
+      const fr = Math.round(600 * fp);
+      document.getElementById('frames').textContent = `  frames ${String(fr).padStart(3, ' ')}/600 ${String(Math.round(fp * 100)).padStart(3, ' ')}%`;
+      document.getElementById('prog').style.setProperty('--fp', fp);
+      document.getElementById('verdict').style.setProperty('--v', eo(clamp((lt - 3.6) / 0.3, 0, 1)));
+      term.style.scale = (1 + 0.045 * eo(clamp(lt / 6.1, 0, 1))).toFixed(4);
+    }
+
+    // local: the three lines settle smaller, the voice waveform plays along with the narration
+    { const st = document.getElementById('nostack'); const lt = localT(st, t);
+      const q = eo(clamp((lt - 2.8) / 0.55, 0, 1));
+      st.style.setProperty('--sq', (1 - 0.3 * q).toFixed(4)); st.style.setProperty('--ty', ((1 - q) * 13).toFixed(3) + 'cqh');
+      const vw = document.getElementById('vowave');
+      // the strip is the sentence "Even this voice was made locally." (vo.wav time from..to);
+      // on the video timeline the local line starts 1.799 s later than in vo.wav (retime pads 0.3 s per scene)
+      const vt = t - 1.799, a = +vw.dataset.from, b = +vw.dataset.to;
+      vw.style.setProperty('--vh', clamp((vt - a) / (b - a), 0, 1).toFixed(4));
+    }
+  });
+})();
+</script>
+</body>
+</html>

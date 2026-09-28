@@ -1,0 +1,10 @@
+{
+  "title": "The War of the Worlds",
+  "width": 1920,
+  "height": 1080,
+  "fps": 30,
+  "duration": 30,
+  "background": "#0d0a08",
+  "audio": "audio/mix.json",
+  "poster": 20.9
+}

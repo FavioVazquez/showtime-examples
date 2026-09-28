@@ -1,0 +1,13 @@
+{
+  "_comment": "Real recording (NASA, public domain) + a composed bed ducked well under it. Voice file media/clip.wav = episode 25:09.00-25:45.95, denoised (DeepFilterNet, strength 0.5) and mastered to -16 LUFS. The cold open re-uses the answer's last sentence (clip 33.88 s). tools/build_data.py uses the same start/offset values.",
+  "sample_rate": 48000,
+  "duration": 45.0,
+  "tracks": [
+    {"id": "bed", "kind": "music", "compose": {"style": "hip-hop-beat", "bpm": 90, "key": "Cm", "sections": "0:intro,3.4:verse,40.45:outro", "seed": 1},
+     "gain_db": -8, "fade_out": 0.6, "section_gain": {"40.45": 7},
+     "duck": {"under": "voice", "depth_db": 12, "carve": 0.4, "release": 0.6, "hold": 0.4}},
+    {"id": "cold-open", "kind": "voice", "file": "media/clip.wav", "level": "raw", "start": 0.25, "offset": 33.88, "dur": 3.07, "fade_in": 0.02, "fade_out": 0.08},
+    {"id": "answer", "kind": "voice", "file": "media/clip.wav", "level": "raw", "start": 3.55, "offset": 0, "dur": 36.95, "fade_in": 0.03, "fade_out": 0.12}
+  ],
+  "master": {"lufs": -14, "true_peak": -1}
+}

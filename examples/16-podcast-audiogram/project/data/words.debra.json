@@ -1,0 +1,503 @@
+{
+ "source": "nasa.gov transcript aligned to media/clip.wav",
+ "words": [
+  {
+   "text": "I",
+   "start": 10.7,
+   "end": 10.78,
+   "type": "word"
+  },
+  {
+   "text": "think",
+   "start": 10.79,
+   "end": 10.94,
+   "type": "word"
+  },
+  {
+   "text": "the",
+   "start": 10.95,
+   "end": 11.06,
+   "type": "word"
+  },
+  {
+   "text": "most",
+   "start": 11.07,
+   "end": 11.24,
+   "type": "word"
+  },
+  {
+   "text": "surprising",
+   "start": 11.25,
+   "end": 11.66,
+   "type": "word"
+  },
+  {
+   "text": "thing",
+   "start": 11.67,
+   "end": 12.2,
+   "type": "word"
+  },
+  {
+   "text": "is",
+   "start": 12.27,
+   "end": 12.6,
+   "type": "word"
+  },
+  {
+   "text": "how",
+   "start": 13.07,
+   "end": 13.44,
+   "type": "word"
+  },
+  {
+   "text": "little",
+   "start": 13.45,
+   "end": 13.84,
+   "type": "word"
+  },
+  {
+   "text": "of",
+   "start": 13.85,
+   "end": 14.04,
+   "type": "word"
+  },
+  {
+   "text": "our",
+   "start": 14.05,
+   "end": 14.18,
+   "type": "word"
+  },
+  {
+   "text": "training",
+   "start": 14.19,
+   "end": 14.8,
+   "type": "word"
+  },
+  {
+   "text": "I",
+   "start": 14.91,
+   "end": 15.12,
+   "type": "word"
+  },
+  {
+   "text": "want",
+   "start": 15.13,
+   "end": 15.33,
+   "type": "word"
+  },
+  {
+   "text": "them",
+   "start": 15.34,
+   "end": 15.54,
+   "type": "word"
+  },
+  {
+   "text": "to",
+   "start": 15.55,
+   "end": 15.8,
+   "type": "word"
+  },
+  {
+   "text": "use",
+   "start": 15.81,
+   "end": 16.2,
+   "type": "word"
+  },
+  {
+   "text": "in",
+   "start": 16.21,
+   "end": 16.35,
+   "type": "word"
+  },
+  {
+   "text": "flight.",
+   "start": 16.36,
+   "end": 16.96,
+   "type": "word"
+  },
+  {
+   "text": "Like",
+   "start": 18.01,
+   "end": 18.2,
+   "type": "word"
+  },
+  {
+   "text": "we",
+   "start": 18.21,
+   "end": 18.36,
+   "type": "word"
+  },
+  {
+   "text": "spend",
+   "start": 18.37,
+   "end": 18.62,
+   "type": "word"
+  },
+  {
+   "text": "most",
+   "start": 18.63,
+   "end": 18.86,
+   "type": "word"
+  },
+  {
+   "text": "of",
+   "start": 18.87,
+   "end": 18.98,
+   "type": "word"
+  },
+  {
+   "text": "our",
+   "start": 18.99,
+   "end": 19.12,
+   "type": "word"
+  },
+  {
+   "text": "time",
+   "start": 19.13,
+   "end": 19.5,
+   "type": "word"
+  },
+  {
+   "text": "training",
+   "start": 19.51,
+   "end": 20.36,
+   "type": "word"
+  },
+  {
+   "text": "worst",
+   "start": 20.37,
+   "end": 20.62,
+   "type": "word"
+  },
+  {
+   "text": "case",
+   "start": 20.63,
+   "end": 20.88,
+   "type": "word"
+  },
+  {
+   "text": "scenarios,",
+   "start": 20.89,
+   "end": 22.1,
+   "type": "word"
+  },
+  {
+   "text": "different",
+   "start": 22.39,
+   "end": 22.73,
+   "type": "word"
+  },
+  {
+   "text": "failure",
+   "start": 22.75,
+   "end": 23.28,
+   "type": "word"
+  },
+  {
+   "text": "things",
+   "start": 23.29,
+   "end": 23.58,
+   "type": "word"
+  },
+  {
+   "text": "that",
+   "start": 23.6,
+   "end": 23.72,
+   "type": "word"
+  },
+  {
+   "text": "could",
+   "start": 23.73,
+   "end": 23.9,
+   "type": "word"
+  },
+  {
+   "text": "go",
+   "start": 23.91,
+   "end": 24.1,
+   "type": "word"
+  },
+  {
+   "text": "wrong,",
+   "start": 24.11,
+   "end": 24.53,
+   "type": "word"
+  },
+  {
+   "text": "and",
+   "start": 24.62,
+   "end": 24.8,
+   "type": "word"
+  },
+  {
+   "text": "ideally",
+   "start": 24.81,
+   "end": 25.32,
+   "type": "word"
+  },
+  {
+   "text": "nothing—",
+   "start": 25.33,
+   "end": 25.79,
+   "type": "word"
+  },
+  {
+   "text": "Nothing",
+   "start": 26.29,
+   "end": 26.76,
+   "type": "word"
+  },
+  {
+   "text": "off",
+   "start": 26.77,
+   "end": 26.96,
+   "type": "word"
+  },
+  {
+   "text": "nominal",
+   "start": 26.99,
+   "end": 27.42,
+   "type": "word"
+  },
+  {
+   "text": "happens",
+   "start": 27.43,
+   "end": 27.8,
+   "type": "word"
+  },
+  {
+   "text": "during",
+   "start": 27.81,
+   "end": 28.14,
+   "type": "word"
+  },
+  {
+   "text": "the",
+   "start": 28.15,
+   "end": 28.24,
+   "type": "word"
+  },
+  {
+   "text": "mission.",
+   "start": 28.25,
+   "end": 28.72,
+   "type": "word"
+  },
+  {
+   "text": "But",
+   "start": 29.83,
+   "end": 30.22,
+   "type": "word"
+  },
+  {
+   "text": "by",
+   "start": 30.23,
+   "end": 30.42,
+   "type": "word"
+  },
+  {
+   "text": "practicing",
+   "start": 30.43,
+   "end": 31.18,
+   "type": "word"
+  },
+  {
+   "text": "all",
+   "start": 31.19,
+   "end": 31.36,
+   "type": "word"
+  },
+  {
+   "text": "of",
+   "start": 31.37,
+   "end": 31.44,
+   "type": "word"
+  },
+  {
+   "text": "those",
+   "start": 31.45,
+   "end": 31.68,
+   "type": "word"
+  },
+  {
+   "text": "failures,",
+   "start": 31.69,
+   "end": 32.14,
+   "type": "word"
+  },
+  {
+   "text": "they’re",
+   "start": 32.15,
+   "end": 32.36,
+   "type": "word"
+  },
+  {
+   "text": "learning",
+   "start": 32.37,
+   "end": 32.8,
+   "type": "word"
+  },
+  {
+   "text": "the",
+   "start": 32.81,
+   "end": 32.93,
+   "type": "word"
+  },
+  {
+   "text": "process.",
+   "start": 32.96,
+   "end": 33.59,
+   "type": "word"
+  },
+  {
+   "text": "They’re",
+   "start": 33.67,
+   "end": 33.98,
+   "type": "word"
+  },
+  {
+   "text": "working",
+   "start": 33.99,
+   "end": 34.32,
+   "type": "word"
+  },
+  {
+   "text": "as",
+   "start": 34.33,
+   "end": 34.48,
+   "type": "word"
+  },
+  {
+   "text": "a",
+   "start": 34.49,
+   "end": 34.55,
+   "type": "word"
+  },
+  {
+   "text": "team.",
+   "start": 34.56,
+   "end": 35.24,
+   "type": "word"
+  },
+  {
+   "text": "There’s",
+   "start": 35.29,
+   "end": 35.5,
+   "type": "word"
+  },
+  {
+   "text": "a",
+   "start": 35.51,
+   "end": 35.58,
+   "type": "word"
+  },
+  {
+   "text": "lot",
+   "start": 35.59,
+   "end": 35.76,
+   "type": "word"
+  },
+  {
+   "text": "of",
+   "start": 35.77,
+   "end": 35.86,
+   "type": "word"
+  },
+  {
+   "text": "skills",
+   "start": 35.87,
+   "end": 36.24,
+   "type": "word"
+  },
+  {
+   "text": "that",
+   "start": 36.25,
+   "end": 36.38,
+   "type": "word"
+  },
+  {
+   "text": "are",
+   "start": 36.39,
+   "end": 36.58,
+   "type": "word"
+  },
+  {
+   "text": "applicable,",
+   "start": 36.59,
+   "end": 37.22,
+   "type": "word"
+  },
+  {
+   "text": "but",
+   "start": 37.23,
+   "end": 37.42,
+   "type": "word"
+  },
+  {
+   "text": "the",
+   "start": 37.46,
+   "end": 37.57,
+   "type": "word"
+  },
+  {
+   "text": "exact",
+   "start": 37.58,
+   "end": 38.0,
+   "type": "word"
+  },
+  {
+   "text": "scenarios",
+   "start": 38.01,
+   "end": 38.65,
+   "type": "word"
+  },
+  {
+   "text": "we",
+   "start": 38.66,
+   "end": 38.79,
+   "type": "word"
+  },
+  {
+   "text": "train,",
+   "start": 38.8,
+   "end": 39.1,
+   "type": "word"
+  },
+  {
+   "text": "I",
+   "start": 39.11,
+   "end": 39.2,
+   "type": "word"
+  },
+  {
+   "text": "hope",
+   "start": 39.21,
+   "end": 39.36,
+   "type": "word"
+  },
+  {
+   "text": "they",
+   "start": 39.4,
+   "end": 39.64,
+   "type": "word"
+  },
+  {
+   "text": "never",
+   "start": 39.65,
+   "end": 40.04,
+   "type": "word"
+  },
+  {
+   "text": "use",
+   "start": 40.05,
+   "end": 40.24,
+   "type": "word"
+  },
+  {
+   "text": "it.",
+   "start": 40.25,
+   "end": 40.29,
+   "type": "word"
+  }
+ ]
+}

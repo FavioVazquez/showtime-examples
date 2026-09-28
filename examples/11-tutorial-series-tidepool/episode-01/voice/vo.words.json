@@ -1,0 +1,1359 @@
+{
+  "source": "vo.wav",
+  "duration": 89.494,
+  "language": "en",
+  "model": "showtime-voice",
+  "words": [
+    {
+      "text": "This",
+      "start": 4.35,
+      "end": 4.521,
+      "type": "word",
+      "line": "hello"
+    },
+    {
+      "text": "is",
+      "start": 4.582,
+      "end": 4.702,
+      "type": "word",
+      "line": "hello"
+    },
+    {
+      "text": "Tidepool,",
+      "start": 4.8,
+      "end": 5.566,
+      "type": "word",
+      "line": "hello"
+    },
+    {
+      "text": "a",
+      "start": 5.73,
+      "end": 5.76,
+      "type": "word",
+      "line": "hello"
+    },
+    {
+      "text": "notes",
+      "start": 5.819,
+      "end": 6.098,
+      "type": "word",
+      "line": "hello"
+    },
+    {
+      "text": "app",
+      "start": 6.15,
+      "end": 6.342,
+      "type": "word",
+      "line": "hello"
+    },
+    {
+      "text": "that",
+      "start": 6.41,
+      "end": 6.479,
+      "type": "word",
+      "line": "hello"
+    },
+    {
+      "text": "keeps",
+      "start": 6.531,
+      "end": 6.774,
+      "type": "word",
+      "line": "hello"
+    },
+    {
+      "text": "everything",
+      "start": 6.838,
+      "end": 7.316,
+      "type": "word",
+      "line": "hello"
+    },
+    {
+      "text": "on",
+      "start": 7.356,
+      "end": 7.453,
+      "type": "word",
+      "line": "hello"
+    },
+    {
+      "text": "your",
+      "start": 7.483,
+      "end": 7.583,
+      "type": "word",
+      "line": "hello"
+    },
+    {
+      "text": "own",
+      "start": 7.634,
+      "end": 7.825,
+      "type": "word",
+      "line": "hello"
+    },
+    {
+      "text": "device.",
+      "start": 7.867,
+      "end": 8.51,
+      "type": "word",
+      "line": "hello"
+    },
+    {
+      "text": "Let's",
+      "start": 8.951,
+      "end": 9.18,
+      "type": "word",
+      "line": "hello"
+    },
+    {
+      "text": "capture",
+      "start": 9.232,
+      "end": 9.612,
+      "type": "word",
+      "line": "hello"
+    },
+    {
+      "text": "a",
+      "start": 9.639,
+      "end": 9.67,
+      "type": "word",
+      "line": "hello"
+    },
+    {
+      "text": "note",
+      "start": 9.721,
+      "end": 9.962,
+      "type": "word",
+      "line": "hello"
+    },
+    {
+      "text": "from",
+      "start": 10.014,
+      "end": 10.159,
+      "type": "word",
+      "line": "hello"
+    },
+    {
+      "text": "start",
+      "start": 10.21,
+      "end": 10.463,
+      "type": "word",
+      "line": "hello"
+    },
+    {
+      "text": "to",
+      "start": 10.51,
+      "end": 10.575,
+      "type": "word",
+      "line": "hello"
+    },
+    {
+      "text": "finish.",
+      "start": 10.627,
+      "end": 11.055,
+      "type": "word",
+      "line": "hello"
+    },
+    {
+      "text": "To",
+      "start": 12.245,
+      "end": 12.323,
+      "type": "word",
+      "line": "new"
+    },
+    {
+      "text": "start",
+      "start": 12.375,
+      "end": 12.606,
+      "type": "word",
+      "line": "new"
+    },
+    {
+      "text": "a",
+      "start": 12.632,
+      "end": 12.662,
+      "type": "word",
+      "line": "new"
+    },
+    {
+      "text": "note,",
+      "start": 12.693,
+      "end": 12.914,
+      "type": "word",
+      "line": "new"
+    },
+    {
+      "text": "press",
+      "start": 13.035,
+      "end": 13.293,
+      "type": "word",
+      "line": "new"
+    },
+    {
+      "text": "N.",
+      "start": 13.344,
+      "end": 13.605,
+      "type": "word",
+      "line": "new"
+    },
+    {
+      "text": "The",
+      "start": 14.005,
+      "end": 14.088,
+      "type": "word",
+      "line": "new"
+    },
+    {
+      "text": "New",
+      "start": 14.139,
+      "end": 14.262,
+      "type": "word",
+      "line": "new"
+    },
+    {
+      "text": "note",
+      "start": 14.304,
+      "end": 14.529,
+      "type": "word",
+      "line": "new"
+    },
+    {
+      "text": "button",
+      "start": 14.585,
+      "end": 14.865,
+      "type": "word",
+      "line": "new"
+    },
+    {
+      "text": "does",
+      "start": 14.916,
+      "end": 15.078,
+      "type": "word",
+      "line": "new"
+    },
+    {
+      "text": "the",
+      "start": 15.111,
+      "end": 15.175,
+      "type": "word",
+      "line": "new"
+    },
+    {
+      "text": "same",
+      "start": 15.247,
+      "end": 15.501,
+      "type": "word",
+      "line": "new"
+    },
+    {
+      "text": "thing.",
+      "start": 15.558,
+      "end": 15.892,
+      "type": "word",
+      "line": "new"
+    },
+    {
+      "text": "The",
+      "start": 17.412,
+      "end": 17.453,
+      "type": "word",
+      "line": "title"
+    },
+    {
+      "text": "cursor",
+      "start": 17.504,
+      "end": 17.91,
+      "type": "word",
+      "line": "title"
+    },
+    {
+      "text": "is",
+      "start": 17.959,
+      "end": 18.056,
+      "type": "word",
+      "line": "title"
+    },
+    {
+      "text": "already",
+      "start": 18.111,
+      "end": 18.401,
+      "type": "word",
+      "line": "title"
+    },
+    {
+      "text": "in",
+      "start": 18.429,
+      "end": 18.511,
+      "type": "word",
+      "line": "title"
+    },
+    {
+      "text": "the",
+      "start": 18.511,
+      "end": 18.563,
+      "type": "word",
+      "line": "title"
+    },
+    {
+      "text": "title,",
+      "start": 18.615,
+      "end": 19.072,
+      "type": "word",
+      "line": "title"
+    },
+    {
+      "text": "so",
+      "start": 19.242,
+      "end": 19.401,
+      "type": "word",
+      "line": "title"
+    },
+    {
+      "text": "just",
+      "start": 19.428,
+      "end": 19.618,
+      "type": "word",
+      "line": "title"
+    },
+    {
+      "text": "type.",
+      "start": 19.632,
+      "end": 20.077,
+      "type": "word",
+      "line": "title"
+    },
+    {
+      "text": "Press",
+      "start": 22.357,
+      "end": 22.591,
+      "type": "word",
+      "line": "enter"
+    },
+    {
+      "text": "Enter",
+      "start": 22.643,
+      "end": 23.087,
+      "type": "word",
+      "line": "enter"
+    },
+    {
+      "text": "to",
+      "start": 23.157,
+      "end": 23.279,
+      "type": "word",
+      "line": "enter"
+    },
+    {
+      "text": "jump",
+      "start": 23.358,
+      "end": 23.645,
+      "type": "word",
+      "line": "enter"
+    },
+    {
+      "text": "down",
+      "start": 23.667,
+      "end": 23.895,
+      "type": "word",
+      "line": "enter"
+    },
+    {
+      "text": "to",
+      "start": 23.938,
+      "end": 23.991,
+      "type": "word",
+      "line": "enter"
+    },
+    {
+      "text": "the",
+      "start": 24.018,
+      "end": 24.07,
+      "type": "word",
+      "line": "enter"
+    },
+    {
+      "text": "body.",
+      "start": 24.114,
+      "end": 24.607,
+      "type": "word",
+      "line": "enter"
+    },
+    {
+      "text": "The",
+      "start": 25.663,
+      "end": 25.7,
+      "type": "word",
+      "line": "body"
+    },
+    {
+      "text": "body",
+      "start": 25.752,
+      "end": 26.1,
+      "type": "word",
+      "line": "body"
+    },
+    {
+      "text": "is",
+      "start": 26.152,
+      "end": 26.253,
+      "type": "word",
+      "line": "body"
+    },
+    {
+      "text": "Markdown.",
+      "start": 26.304,
+      "end": 26.973,
+      "type": "word",
+      "line": "body"
+    },
+    {
+      "text": "A",
+      "start": 27.363,
+      "end": 27.415,
+      "type": "word",
+      "line": "body"
+    },
+    {
+      "text": "dash",
+      "start": 27.486,
+      "end": 27.795,
+      "type": "word",
+      "line": "body"
+    },
+    {
+      "text": "and",
+      "start": 27.827,
+      "end": 27.904,
+      "type": "word",
+      "line": "body"
+    },
+    {
+      "text": "two",
+      "start": 27.966,
+      "end": 28.101,
+      "type": "word",
+      "line": "body"
+    },
+    {
+      "text": "brackets",
+      "start": 28.145,
+      "end": 28.618,
+      "type": "word",
+      "line": "body"
+    },
+    {
+      "text": "make",
+      "start": 28.661,
+      "end": 28.801,
+      "type": "word",
+      "line": "body"
+    },
+    {
+      "text": "a",
+      "start": 28.827,
+      "end": 28.862,
+      "type": "word",
+      "line": "body"
+    },
+    {
+      "text": "checklist",
+      "start": 28.933,
+      "end": 29.358,
+      "type": "word",
+      "line": "body"
+    },
+    {
+      "text": "item.",
+      "start": 29.409,
+      "end": 29.806,
+      "type": "word",
+      "line": "body"
+    },
+    {
+      "text": "Press",
+      "start": 31.276,
+      "end": 31.491,
+      "type": "word",
+      "line": "continue"
+    },
+    {
+      "text": "Enter,",
+      "start": 31.536,
+      "end": 31.966,
+      "type": "word",
+      "line": "continue"
+    },
+    {
+      "text": "and",
+      "start": 32.136,
+      "end": 32.212,
+      "type": "word",
+      "line": "continue"
+    },
+    {
+      "text": "the",
+      "start": 32.239,
+      "end": 32.291,
+      "type": "word",
+      "line": "continue"
+    },
+    {
+      "text": "list",
+      "start": 32.343,
+      "end": 32.576,
+      "type": "word",
+      "line": "continue"
+    },
+    {
+      "text": "carries",
+      "start": 32.606,
+      "end": 32.954,
+      "type": "word",
+      "line": "continue"
+    },
+    {
+      "text": "on",
+      "start": 32.993,
+      "end": 33.158,
+      "type": "word",
+      "line": "continue"
+    },
+    {
+      "text": "by",
+      "start": 33.208,
+      "end": 33.381,
+      "type": "word",
+      "line": "continue"
+    },
+    {
+      "text": "itself.",
+      "start": 33.424,
+      "end": 33.958,
+      "type": "word",
+      "line": "continue"
+    },
+    {
+      "text": "In",
+      "start": 37.428,
+      "end": 37.541,
+      "type": "word",
+      "line": "preview"
+    },
+    {
+      "text": "split",
+      "start": 37.618,
+      "end": 37.902,
+      "type": "word",
+      "line": "preview"
+    },
+    {
+      "text": "view,",
+      "start": 37.954,
+      "end": 38.288,
+      "type": "word",
+      "line": "preview"
+    },
+    {
+      "text": "the",
+      "start": 38.468,
+      "end": 38.525,
+      "type": "word",
+      "line": "preview"
+    },
+    {
+      "text": "preview",
+      "start": 38.578,
+      "end": 38.915,
+      "type": "word",
+      "line": "preview"
+    },
+    {
+      "text": "on",
+      "start": 38.972,
+      "end": 39.075,
+      "type": "word",
+      "line": "preview"
+    },
+    {
+      "text": "the",
+      "start": 39.075,
+      "end": 39.144,
+      "type": "word",
+      "line": "preview"
+    },
+    {
+      "text": "right",
+      "start": 39.196,
+      "end": 39.498,
+      "type": "word",
+      "line": "preview"
+    },
+    {
+      "text": "renders",
+      "start": 39.518,
+      "end": 39.967,
+      "type": "word",
+      "line": "preview"
+    },
+    {
+      "text": "it",
+      "start": 40.019,
+      "end": 40.118,
+      "type": "word",
+      "line": "preview"
+    },
+    {
+      "text": "as",
+      "start": 40.118,
+      "end": 40.265,
+      "type": "word",
+      "line": "preview"
+    },
+    {
+      "text": "you",
+      "start": 40.316,
+      "end": 40.399,
+      "type": "word",
+      "line": "preview"
+    },
+    {
+      "text": "type.",
+      "start": 40.452,
+      "end": 40.814,
+      "type": "word",
+      "line": "preview"
+    },
+    {
+      "text": "Command",
+      "start": 41.894,
+      "end": 42.304,
+      "type": "word",
+      "line": "flip"
+    },
+    {
+      "text": "E",
+      "start": 42.394,
+      "end": 42.558,
+      "type": "word",
+      "line": "flip"
+    },
+    {
+      "text": "flips",
+      "start": 42.639,
+      "end": 42.898,
+      "type": "word",
+      "line": "flip"
+    },
+    {
+      "text": "to",
+      "start": 42.948,
+      "end": 42.999,
+      "type": "word",
+      "line": "flip"
+    },
+    {
+      "text": "the",
+      "start": 43.025,
+      "end": 43.083,
+      "type": "word",
+      "line": "flip"
+    },
+    {
+      "text": "full",
+      "start": 43.157,
+      "end": 43.342,
+      "type": "word",
+      "line": "flip"
+    },
+    {
+      "text": "preview.",
+      "start": 43.404,
+      "end": 43.874,
+      "type": "word",
+      "line": "flip"
+    },
+    {
+      "text": "Press",
+      "start": 44.274,
+      "end": 44.467,
+      "type": "word",
+      "line": "flip"
+    },
+    {
+      "text": "it",
+      "start": 44.494,
+      "end": 44.546,
+      "type": "word",
+      "line": "flip"
+    },
+    {
+      "text": "again",
+      "start": 44.577,
+      "end": 44.855,
+      "type": "word",
+      "line": "flip"
+    },
+    {
+      "text": "to",
+      "start": 44.906,
+      "end": 44.962,
+      "type": "word",
+      "line": "flip"
+    },
+    {
+      "text": "keep",
+      "start": 45.011,
+      "end": 45.195,
+      "type": "word",
+      "line": "flip"
+    },
+    {
+      "text": "writing.",
+      "start": 45.246,
+      "end": 45.745,
+      "type": "word",
+      "line": "flip"
+    },
+    {
+      "text": "Tags",
+      "start": 47.525,
+      "end": 47.857,
+      "type": "word",
+      "line": "tag"
+    },
+    {
+      "text": "go",
+      "start": 47.925,
+      "end": 48.012,
+      "type": "word",
+      "line": "tag"
+    },
+    {
+      "text": "under",
+      "start": 48.038,
+      "end": 48.17,
+      "type": "word",
+      "line": "tag"
+    },
+    {
+      "text": "the",
+      "start": 48.199,
+      "end": 48.253,
+      "type": "word",
+      "line": "tag"
+    },
+    {
+      "text": "title.",
+      "start": 48.305,
+      "end": 48.755,
+      "type": "word",
+      "line": "tag"
+    },
+    {
+      "text": "Click",
+      "start": 49.155,
+      "end": 49.376,
+      "type": "word",
+      "line": "tag"
+    },
+    {
+      "text": "Add",
+      "start": 49.435,
+      "end": 49.618,
+      "type": "word",
+      "line": "tag"
+    },
+    {
+      "text": "tag,",
+      "start": 49.693,
+      "end": 50.189,
+      "type": "word",
+      "line": "tag"
+    },
+    {
+      "text": "type",
+      "start": 50.315,
+      "end": 50.588,
+      "type": "word",
+      "line": "tag"
+    },
+    {
+      "text": "planning,",
+      "start": 50.625,
+      "end": 51.023,
+      "type": "word",
+      "line": "tag"
+    },
+    {
+      "text": "and",
+      "start": 51.229,
+      "end": 51.307,
+      "type": "word",
+      "line": "tag"
+    },
+    {
+      "text": "press",
+      "start": 51.325,
+      "end": 51.593,
+      "type": "word",
+      "line": "tag"
+    },
+    {
+      "text": "Enter.",
+      "start": 51.632,
+      "end": 52.075,
+      "type": "word",
+      "line": "tag"
+    },
+    {
+      "text": "Then",
+      "start": 53.715,
+      "end": 53.918,
+      "type": "word",
+      "line": "notebook"
+    },
+    {
+      "text": "choose",
+      "start": 53.971,
+      "end": 54.209,
+      "type": "word",
+      "line": "notebook"
+    },
+    {
+      "text": "a",
+      "start": 54.237,
+      "end": 54.267,
+      "type": "word",
+      "line": "notebook"
+    },
+    {
+      "text": "notebook.",
+      "start": 54.319,
+      "end": 54.845,
+      "type": "word",
+      "line": "notebook"
+    },
+    {
+      "text": "This",
+      "start": 55.255,
+      "end": 55.474,
+      "type": "word",
+      "line": "notebook"
+    },
+    {
+      "text": "one",
+      "start": 55.474,
+      "end": 55.632,
+      "type": "word",
+      "line": "notebook"
+    },
+    {
+      "text": "belongs",
+      "start": 55.683,
+      "end": 56.131,
+      "type": "word",
+      "line": "notebook"
+    },
+    {
+      "text": "in",
+      "start": 56.173,
+      "end": 56.263,
+      "type": "word",
+      "line": "notebook"
+    },
+    {
+      "text": "Work.",
+      "start": 56.316,
+      "end": 56.675,
+      "type": "word",
+      "line": "notebook"
+    },
+    {
+      "text": "There's",
+      "start": 58.255,
+      "end": 58.447,
+      "type": "word",
+      "line": "saved"
+    },
+    {
+      "text": "no",
+      "start": 58.5,
+      "end": 58.689,
+      "type": "word",
+      "line": "saved"
+    },
+    {
+      "text": "save",
+      "start": 58.775,
+      "end": 59.04,
+      "type": "word",
+      "line": "saved"
+    },
+    {
+      "text": "button.",
+      "start": 59.105,
+      "end": 59.545,
+      "type": "word",
+      "line": "saved"
+    },
+    {
+      "text": "Tidepool",
+      "start": 59.945,
+      "end": 60.43,
+      "type": "word",
+      "line": "saved"
+    },
+    {
+      "text": "saves",
+      "start": 60.505,
+      "end": 60.796,
+      "type": "word",
+      "line": "saved"
+    },
+    {
+      "text": "as",
+      "start": 60.84,
+      "end": 60.919,
+      "type": "word",
+      "line": "saved"
+    },
+    {
+      "text": "you",
+      "start": 60.957,
+      "end": 61.037,
+      "type": "word",
+      "line": "saved"
+    },
+    {
+      "text": "type,",
+      "start": 61.09,
+      "end": 61.495,
+      "type": "word",
+      "line": "saved"
+    },
+    {
+      "text": "and",
+      "start": 61.635,
+      "end": 61.738,
+      "type": "word",
+      "line": "saved"
+    },
+    {
+      "text": "nothing",
+      "start": 61.791,
+      "end": 62.115,
+      "type": "word",
+      "line": "saved"
+    },
+    {
+      "text": "leaves",
+      "start": 62.167,
+      "end": 62.446,
+      "type": "word",
+      "line": "saved"
+    },
+    {
+      "text": "this",
+      "start": 62.475,
+      "end": 62.638,
+      "type": "word",
+      "line": "saved"
+    },
+    {
+      "text": "device.",
+      "start": 62.685,
+      "end": 63.23,
+      "type": "word",
+      "line": "saved"
+    },
+    {
+      "text": "The",
+      "start": 64.53,
+      "end": 64.586,
+      "type": "word",
+      "line": "sync"
+    },
+    {
+      "text": "sidebar",
+      "start": 64.66,
+      "end": 65.131,
+      "type": "word",
+      "line": "sync"
+    },
+    {
+      "text": "says",
+      "start": 65.183,
+      "end": 65.353,
+      "type": "word",
+      "line": "sync"
+    },
+    {
+      "text": "so",
+      "start": 65.405,
+      "end": 65.557,
+      "type": "word",
+      "line": "sync"
+    },
+    {
+      "text": "too:",
+      "start": 65.61,
+      "end": 65.97,
+      "type": "word",
+      "line": "sync"
+    },
+    {
+      "text": "sync",
+      "start": 66.342,
+      "end": 66.601,
+      "type": "word",
+      "line": "sync"
+    },
+    {
+      "text": "is",
+      "start": 66.65,
+      "end": 66.728,
+      "type": "word",
+      "line": "sync"
+    },
+    {
+      "text": "set",
+      "start": 66.78,
+      "end": 66.942,
+      "type": "word",
+      "line": "sync"
+    },
+    {
+      "text": "to",
+      "start": 66.95,
+      "end": 67.059,
+      "type": "word",
+      "line": "sync"
+    },
+    {
+      "text": "local",
+      "start": 67.11,
+      "end": 67.42,
+      "type": "word",
+      "line": "sync"
+    },
+    {
+      "text": "only.",
+      "start": 67.472,
+      "end": 67.917,
+      "type": "word",
+      "line": "sync"
+    },
+    {
+      "text": "Press",
+      "start": 69.287,
+      "end": 69.488,
+      "type": "word",
+      "line": "pin"
+    },
+    {
+      "text": "Escape",
+      "start": 69.539,
+      "end": 69.928,
+      "type": "word",
+      "line": "pin"
+    },
+    {
+      "text": "to",
+      "start": 69.947,
+      "end": 70.047,
+      "type": "word",
+      "line": "pin"
+    },
+    {
+      "text": "leave",
+      "start": 70.098,
+      "end": 70.286,
+      "type": "word",
+      "line": "pin"
+    },
+    {
+      "text": "the",
+      "start": 70.312,
+      "end": 70.4,
+      "type": "word",
+      "line": "pin"
+    },
+    {
+      "text": "editor,",
+      "start": 70.451,
+      "end": 70.917,
+      "type": "word",
+      "line": "pin"
+    },
+    {
+      "text": "then",
+      "start": 71.217,
+      "end": 71.37,
+      "type": "word",
+      "line": "pin"
+    },
+    {
+      "text": "P",
+      "start": 71.459,
+      "end": 71.74,
+      "type": "word",
+      "line": "pin"
+    },
+    {
+      "text": "to",
+      "start": 71.791,
+      "end": 71.849,
+      "type": "word",
+      "line": "pin"
+    },
+    {
+      "text": "pin",
+      "start": 71.9,
+      "end": 72.048,
+      "type": "word",
+      "line": "pin"
+    },
+    {
+      "text": "the",
+      "start": 72.074,
+      "end": 72.126,
+      "type": "word",
+      "line": "pin"
+    },
+    {
+      "text": "note",
+      "start": 72.177,
+      "end": 72.398,
+      "type": "word",
+      "line": "pin"
+    },
+    {
+      "text": "to",
+      "start": 72.417,
+      "end": 72.501,
+      "type": "word",
+      "line": "pin"
+    },
+    {
+      "text": "the",
+      "start": 72.529,
+      "end": 72.582,
+      "type": "word",
+      "line": "pin"
+    },
+    {
+      "text": "top.",
+      "start": 72.633,
+      "end": 73.037,
+      "type": "word",
+      "line": "pin"
+    },
+    {
+      "text": "Pinned",
+      "start": 75.217,
+      "end": 75.437,
+      "type": "word",
+      "line": "pinned"
+    },
+    {
+      "text": "notes",
+      "start": 75.489,
+      "end": 75.746,
+      "type": "word",
+      "line": "pinned"
+    },
+    {
+      "text": "stay",
+      "start": 75.795,
+      "end": 76.032,
+      "type": "word",
+      "line": "pinned"
+    },
+    {
+      "text": "above",
+      "start": 76.073,
+      "end": 76.311,
+      "type": "word",
+      "line": "pinned"
+    },
+    {
+      "text": "everything",
+      "start": 76.337,
+      "end": 76.778,
+      "type": "word",
+      "line": "pinned"
+    },
+    {
+      "text": "else,",
+      "start": 76.825,
+      "end": 77.137,
+      "type": "word",
+      "line": "pinned"
+    },
+    {
+      "text": "marked",
+      "start": 77.407,
+      "end": 77.816,
+      "type": "word",
+      "line": "pinned"
+    },
+    {
+      "text": "with",
+      "start": 77.848,
+      "end": 77.945,
+      "type": "word",
+      "line": "pinned"
+    },
+    {
+      "text": "a",
+      "start": 77.97,
+      "end": 78.006,
+      "type": "word",
+      "line": "pinned"
+    },
+    {
+      "text": "small",
+      "start": 78.082,
+      "end": 78.37,
+      "type": "word",
+      "line": "pinned"
+    },
+    {
+      "text": "pin.",
+      "start": 78.377,
+      "end": 78.775,
+      "type": "word",
+      "line": "pinned"
+    },
+    {
+      "text": "That's",
+      "start": 80.565,
+      "end": 80.788,
+      "type": "word",
+      "line": "recap"
+    },
+    {
+      "text": "the",
+      "start": 80.823,
+      "end": 80.875,
+      "type": "word",
+      "line": "recap"
+    },
+    {
+      "text": "whole",
+      "start": 80.924,
+      "end": 81.112,
+      "type": "word",
+      "line": "recap"
+    },
+    {
+      "text": "loop.",
+      "start": 81.164,
+      "end": 81.495,
+      "type": "word",
+      "line": "recap"
+    },
+    {
+      "text": "Press",
+      "start": 81.905,
+      "end": 82.12,
+      "type": "word",
+      "line": "recap"
+    },
+    {
+      "text": "N,",
+      "start": 82.171,
+      "end": 82.444,
+      "type": "word",
+      "line": "recap"
+    },
+    {
+      "text": "type,",
+      "start": 82.665,
+      "end": 82.952,
+      "type": "word",
+      "line": "recap"
+    },
+    {
+      "text": "and",
+      "start": 83.085,
+      "end": 83.213,
+      "type": "word",
+      "line": "recap"
+    },
+    {
+      "text": "Tidepool",
+      "start": 83.264,
+      "end": 83.701,
+      "type": "word",
+      "line": "recap"
+    },
+    {
+      "text": "keeps",
+      "start": 83.735,
+      "end": 84.042,
+      "type": "word",
+      "line": "recap"
+    },
+    {
+      "text": "it.",
+      "start": 84.103,
+      "end": 84.301,
+      "type": "word",
+      "line": "recap"
+    },
+    {
+      "text": "Next",
+      "start": 86.071,
+      "end": 86.358,
+      "type": "word",
+      "line": "outro"
+    },
+    {
+      "text": "time:",
+      "start": 86.391,
+      "end": 86.801,
+      "type": "word",
+      "line": "outro"
+    },
+    {
+      "text": "finding",
+      "start": 87.011,
+      "end": 87.404,
+      "type": "word",
+      "line": "outro"
+    },
+    {
+      "text": "any",
+      "start": 87.43,
+      "end": 87.586,
+      "type": "word",
+      "line": "outro"
+    },
+    {
+      "text": "note",
+      "start": 87.638,
+      "end": 87.881,
+      "type": "word",
+      "line": "outro"
+    },
+    {
+      "text": "in",
+      "start": 87.926,
+      "end": 87.981,
+      "type": "word",
+      "line": "outro"
+    },
+    {
+      "text": "a",
+      "start": 88.008,
+      "end": 88.042,
+      "type": "word",
+      "line": "outro"
+    },
+    {
+      "text": "second.",
+      "start": 88.098,
+      "end": 88.571,
+      "type": "word",
+      "line": "outro"
+    }
+  ]
+}

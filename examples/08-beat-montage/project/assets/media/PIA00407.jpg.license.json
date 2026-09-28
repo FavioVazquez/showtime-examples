@@ -1,0 +1,21 @@
+{
+  "source": "nasa",
+  "source_label": "NASA Image and Video Library",
+  "id": "nasa:PIA00407",
+  "title": "Global Color Views of Mars",
+  "author": "NASA/JPL/USGS",
+  "author_url": null,
+  "license": "Public domain (NASA media)",
+  "license_url": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+  "landing_url": "https://images.nasa.gov/details/PIA00407",
+  "note": "NASA media: no endorsement implied; do not use NASA logos or insignia. Check the description for third-party copyright notices.",
+  "type": "image",
+  "file_url": "https://images-assets.nasa.gov/image/PIA00407/PIA00407~large.jpg",
+  "captions": [],
+  "sha256": "acef80a2b62138b4b19b54f1ba8c84a5f2f177ead242f60b45e3dafd985b2e75",
+  "fetched": "2026-09-26T14:29:27",
+  "license_class": "free",
+  "attribution_required": false,
+  "credit": "\"Global Color Views of Mars\" by NASA/JPL/USGS via NASA Image and Video Library (Public domain (NASA media)) - https://images.nasa.gov/details/PIA00407",
+  "file": "PIA00407.jpg"
+}

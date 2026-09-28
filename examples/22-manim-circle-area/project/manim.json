@@ -1,0 +1,17 @@
+{
+  "title": "circle-area",
+  "file": "scenes.py",
+  "scenes": ["Hook", "Rings", "Unroll", "Refine", "Label", "Payoff"],
+  "aspect": "16:9",
+  "fps": 30,
+  "voice": "voice/timeline.json",
+  "narration": "narration.md",
+  "mix": "audio/mix.json",
+  "colors": {
+    "A": "hue1",
+    "\\pi r^2": "hue1",
+    "r": "hue4",
+    "2": "hue3",
+    "\\pi r": "hue3"
+  }
+}

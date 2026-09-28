@@ -1,0 +1,23 @@
+{
+  "source": "commons",
+  "source_label": "Wikimedia Commons",
+  "id": "commons:47696382",
+  "title": "Reynisdrangar beach",
+  "author": "Annie Spratt",
+  "author_url": null,
+  "license": "CC0 1.0",
+  "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+  "landing_url": "https://commons.wikimedia.org/wiki/File:Reynisdrangar_beach.jpg",
+  "note": null,
+  "type": "image",
+  "license_notice": null,
+  "file_url": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Reynisdrangar_beach.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "sha256": "e4115199da9033a27ce8967b49ddd44f8bdeaefbfc0f33dc26238370082aa1e5",
+  "fetched": "2026-09-27T16:42:16",
+  "license_class": "free",
+  "attribution_required": false,
+  "credit": "\"Reynisdrangar beach\" by Annie Spratt via Wikimedia Commons (CC0 1.0) - https://commons.wikimedia.org/wiki/File:Reynisdrangar_beach.jpg",
+  "file": "05-vik.jpg",
+  "rendition": "3840px Commons thumbnail (original download rate-limited, HTTP 429)",
+  "derived": "resized to 3240x2160 for the video"
+}

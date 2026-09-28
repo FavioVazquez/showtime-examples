@@ -1,0 +1,935 @@
+{
+  "version": 1,
+  "file": "vo.wav",
+  "sample_rate": 48000,
+  "duration": 27.58,
+  "lead_in": 0.0,
+  "tail": 0.5,
+  "loudness": -16.07,
+  "script": "../narration.md",
+  "lines": [
+    {
+      "id": "frames",
+      "index": 1,
+      "text": "Three moves on a showtime studio board. First, compare: click through the frames.",
+      "source_text": "Three moves on a showtime studio board. First, compare: click through the frames.",
+      "voice": "bf_emma",
+      "engine": "kokoro",
+      "lang": "en-gb",
+      "speed": 1.0,
+      "style": "neutral",
+      "start": 0.0,
+      "end": 5.142,
+      "duration": 5.142,
+      "speech_start": 0.03,
+      "speech_end": 4.742,
+      "pause_after": 0.3,
+      "slot": {
+        "start": 0.0,
+        "end": 5.442,
+        "duration": 5.442
+      },
+      "file": "lines/01-frames.wav",
+      "timing": "exact",
+      "wps": 2.759,
+      "words": [
+        {
+          "text": "Three",
+          "start": 0.03,
+          "end": 0.272,
+          "line": "frames"
+        },
+        {
+          "text": "moves",
+          "start": 0.321,
+          "end": 0.576,
+          "line": "frames"
+        },
+        {
+          "text": "on",
+          "start": 0.601,
+          "end": 0.685,
+          "line": "frames"
+        },
+        {
+          "text": "a",
+          "start": 0.718,
+          "end": 0.843,
+          "line": "frames"
+        },
+        {
+          "text": "showtime",
+          "start": 0.915,
+          "end": 1.359,
+          "line": "frames"
+        },
+        {
+          "text": "studio",
+          "start": 1.408,
+          "end": 1.804,
+          "line": "frames"
+        },
+        {
+          "text": "board.",
+          "start": 1.84,
+          "end": 2.22,
+          "line": "frames"
+        },
+        {
+          "text": "First,",
+          "start": 2.59,
+          "end": 2.918,
+          "line": "frames"
+        },
+        {
+          "text": "compare:",
+          "start": 3.06,
+          "end": 3.565,
+          "line": "frames"
+        },
+        {
+          "text": "click",
+          "start": 3.7,
+          "end": 3.895,
+          "line": "frames"
+        },
+        {
+          "text": "through",
+          "start": 3.944,
+          "end": 4.06,
+          "line": "frames"
+        },
+        {
+          "text": "the",
+          "start": 4.086,
+          "end": 4.139,
+          "line": "frames"
+        },
+        {
+          "text": "frames.",
+          "start": 4.199,
+          "end": 4.742,
+          "line": "frames"
+        }
+      ]
+    },
+    {
+      "id": "bed",
+      "index": 2,
+      "text": "Play the music sketch.",
+      "source_text": "Play the music sketch.",
+      "voice": "bf_emma",
+      "engine": "kokoro",
+      "lang": "en-gb",
+      "speed": 1.0,
+      "style": "neutral",
+      "start": 5.442,
+      "end": 7.169,
+      "duration": 1.727,
+      "speech_start": 5.492,
+      "speech_end": 6.779,
+      "pause_after": 0.3,
+      "slot": {
+        "start": 5.442,
+        "end": 7.469,
+        "duration": 2.027
+      },
+      "file": "lines/02-bed.wav",
+      "timing": "exact",
+      "wps": 3.108,
+      "words": [
+        {
+          "text": "Play",
+          "start": 5.492,
+          "end": 5.693,
+          "line": "bed"
+        },
+        {
+          "text": "the",
+          "start": 5.725,
+          "end": 5.778,
+          "line": "bed"
+        },
+        {
+          "text": "music",
+          "start": 5.822,
+          "end": 6.14,
+          "line": "bed"
+        },
+        {
+          "text": "sketch.",
+          "start": 6.19,
+          "end": 6.779,
+          "line": "bed"
+        }
+      ]
+    },
+    {
+      "id": "wipe",
+      "index": 3,
+      "text": "Or drag to wipe between two looks.",
+      "source_text": "Or drag to wipe between two looks.",
+      "voice": "bf_emma",
+      "engine": "kokoro",
+      "lang": "en-gb",
+      "speed": 1.0,
+      "style": "neutral",
+      "start": 7.469,
+      "end": 9.78,
+      "duration": 2.311,
+      "speech_start": 7.499,
+      "speech_end": 9.36,
+      "pause_after": 0.3,
+      "slot": {
+        "start": 7.469,
+        "end": 10.08,
+        "duration": 2.611
+      },
+      "file": "lines/03-wipe.wav",
+      "timing": "exact",
+      "wps": 3.761,
+      "words": [
+        {
+          "text": "Or",
+          "start": 7.499,
+          "end": 7.593,
+          "line": "wipe"
+        },
+        {
+          "text": "drag",
+          "start": 7.642,
+          "end": 7.931,
+          "line": "wipe"
+        },
+        {
+          "text": "to",
+          "start": 7.969,
+          "end": 8.051,
+          "line": "wipe"
+        },
+        {
+          "text": "wipe",
+          "start": 8.1,
+          "end": 8.337,
+          "line": "wipe"
+        },
+        {
+          "text": "between",
+          "start": 8.399,
+          "end": 8.663,
+          "line": "wipe"
+        },
+        {
+          "text": "two",
+          "start": 8.728,
+          "end": 8.887,
+          "line": "wipe"
+        },
+        {
+          "text": "looks.",
+          "start": 8.936,
+          "end": 9.36,
+          "line": "wipe"
+        }
+      ]
+    },
+    {
+      "id": "like",
+      "index": 4,
+      "text": "Then react: L likes it.",
+      "source_text": "Then react: L likes it.",
+      "voice": "bf_emma",
+      "engine": "kokoro",
+      "lang": "en-gb",
+      "speed": 1.0,
+      "style": "neutral",
+      "start": 10.08,
+      "end": 12.237,
+      "duration": 2.157,
+      "speech_start": 10.12,
+      "speech_end": 11.837,
+      "pause_after": 0.3,
+      "slot": {
+        "start": 10.08,
+        "end": 12.537,
+        "duration": 2.457
+      },
+      "file": "lines/04-like.wav",
+      "timing": "exact",
+      "wps": 2.912,
+      "words": [
+        {
+          "text": "Then",
+          "start": 10.12,
+          "end": 10.33,
+          "line": "like"
+        },
+        {
+          "text": "react:",
+          "start": 10.38,
+          "end": 10.841,
+          "line": "like"
+        },
+        {
+          "text": "L",
+          "start": 11.03,
+          "end": 11.172,
+          "line": "like"
+        },
+        {
+          "text": "likes",
+          "start": 11.218,
+          "end": 11.49,
+          "line": "like"
+        },
+        {
+          "text": "it.",
+          "start": 11.561,
+          "end": 11.837,
+          "line": "like"
+        }
+      ]
+    },
+    {
+      "id": "note",
+      "index": 5,
+      "text": "C leaves a note. Control Enter sends it.",
+      "source_text": "C leaves a note. [pause 2.8] Control Enter sends it.",
+      "voice": "bf_emma",
+      "engine": "kokoro",
+      "lang": "en-gb",
+      "speed": 1.0,
+      "style": "neutral",
+      "start": 12.537,
+      "end": 18.865,
+      "duration": 6.328,
+      "speech_start": 12.577,
+      "speech_end": 18.475,
+      "pause_after": 0.2,
+      "slot": {
+        "start": 12.537,
+        "end": 19.065,
+        "duration": 6.528
+      },
+      "file": "lines/05-note.wav",
+      "timing": "exact",
+      "wps": 1.356,
+      "words": [
+        {
+          "text": "C",
+          "start": 12.577,
+          "end": 12.822,
+          "line": "note"
+        },
+        {
+          "text": "leaves",
+          "start": 12.869,
+          "end": 13.101,
+          "line": "note"
+        },
+        {
+          "text": "a",
+          "start": 13.131,
+          "end": 13.166,
+          "line": "note"
+        },
+        {
+          "text": "note.",
+          "start": 13.216,
+          "end": 13.797,
+          "line": "note"
+        },
+        {
+          "text": "Control",
+          "start": 16.88,
+          "end": 17.382,
+          "line": "note"
+        },
+        {
+          "text": "Enter",
+          "start": 17.432,
+          "end": 17.725,
+          "line": "note"
+        },
+        {
+          "text": "sends",
+          "start": 17.8,
+          "end": 18.104,
+          "line": "note"
+        },
+        {
+          "text": "it.",
+          "start": 18.181,
+          "end": 18.475,
+          "line": "note"
+        }
+      ]
+    },
+    {
+      "id": "pick",
+      "index": 6,
+      "text": "Finally, pick one.",
+      "source_text": "Finally, pick one.",
+      "voice": "bf_emma",
+      "engine": "kokoro",
+      "lang": "en-gb",
+      "speed": 1.0,
+      "style": "neutral",
+      "start": 19.065,
+      "end": 20.829,
+      "duration": 1.764,
+      "speech_start": 19.095,
+      "speech_end": 20.439,
+      "pause_after": 0.3,
+      "slot": {
+        "start": 19.065,
+        "end": 21.129,
+        "duration": 2.064
+      },
+      "file": "lines/06-pick.wav",
+      "timing": "exact",
+      "wps": 2.232,
+      "words": [
+        {
+          "text": "Finally,",
+          "start": 19.095,
+          "end": 19.602,
+          "line": "pick"
+        },
+        {
+          "text": "pick",
+          "start": 19.765,
+          "end": 19.952,
+          "line": "pick"
+        },
+        {
+          "text": "one.",
+          "start": 20.002,
+          "end": 20.439,
+          "line": "pick"
+        }
+      ]
+    },
+    {
+      "id": "review",
+      "index": 7,
+      "text": "The full stop key shows everything you've sent.",
+      "source_text": "The full stop key shows everything you've sent.",
+      "voice": "bf_emma",
+      "engine": "kokoro",
+      "lang": "en-gb",
+      "speed": 1.0,
+      "style": "neutral",
+      "start": 21.129,
+      "end": 23.888,
+      "duration": 2.759,
+      "speech_start": 21.159,
+      "speech_end": 23.468,
+      "pause_after": 0.3,
+      "slot": {
+        "start": 21.129,
+        "end": 24.188,
+        "duration": 3.059
+      },
+      "file": "lines/07-review.wav",
+      "timing": "exact",
+      "wps": 3.465,
+      "words": [
+        {
+          "text": "The",
+          "start": 21.159,
+          "end": 21.221,
+          "line": "review"
+        },
+        {
+          "text": "full",
+          "start": 21.279,
+          "end": 21.469,
+          "line": "review"
+        },
+        {
+          "text": "stop",
+          "start": 21.518,
+          "end": 21.762,
+          "line": "review"
+        },
+        {
+          "text": "key",
+          "start": 21.789,
+          "end": 22.032,
+          "line": "review"
+        },
+        {
+          "text": "shows",
+          "start": 22.096,
+          "end": 22.337,
+          "line": "review"
+        },
+        {
+          "text": "everything",
+          "start": 22.409,
+          "end": 22.829,
+          "line": "review"
+        },
+        {
+          "text": "you've",
+          "start": 22.878,
+          "end": 23.009,
+          "line": "review"
+        },
+        {
+          "text": "sent.",
+          "start": 23.068,
+          "end": 23.468,
+          "line": "review"
+        }
+      ]
+    },
+    {
+      "id": "done",
+      "index": 8,
+      "text": "Tell Claude you're done, and it builds from your pick.",
+      "source_text": "Tell Claude you're done, and it builds from your pick.",
+      "voice": "bf_emma",
+      "engine": "kokoro",
+      "lang": "en-gb",
+      "speed": 1.0,
+      "style": "neutral",
+      "start": 24.188,
+      "end": 27.08,
+      "duration": 2.892,
+      "speech_start": 24.218,
+      "speech_end": 26.68,
+      "pause_after": 0.3,
+      "slot": {
+        "start": 24.188,
+        "end": 27.58,
+        "duration": 3.392
+      },
+      "file": "lines/08-done.wav",
+      "timing": "exact",
+      "wps": 4.062,
+      "words": [
+        {
+          "text": "Tell",
+          "start": 24.218,
+          "end": 24.414,
+          "line": "done"
+        },
+        {
+          "text": "Claude",
+          "start": 24.478,
+          "end": 24.721,
+          "line": "done"
+        },
+        {
+          "text": "you're",
+          "start": 24.756,
+          "end": 24.878,
+          "line": "done"
+        },
+        {
+          "text": "done,",
+          "start": 24.927,
+          "end": 25.269,
+          "line": "done"
+        },
+        {
+          "text": "and",
+          "start": 25.438,
+          "end": 25.556,
+          "line": "done"
+        },
+        {
+          "text": "it",
+          "start": 25.581,
+          "end": 25.636,
+          "line": "done"
+        },
+        {
+          "text": "builds",
+          "start": 25.678,
+          "end": 25.946,
+          "line": "done"
+        },
+        {
+          "text": "from",
+          "start": 25.988,
+          "end": 26.094,
+          "line": "done"
+        },
+        {
+          "text": "your",
+          "start": 26.126,
+          "end": 26.254,
+          "line": "done"
+        },
+        {
+          "text": "pick.",
+          "start": 26.268,
+          "end": 26.68,
+          "line": "done"
+        }
+      ]
+    }
+  ],
+  "words": [
+    {
+      "text": "Three",
+      "start": 0.03,
+      "end": 0.272,
+      "line": "frames"
+    },
+    {
+      "text": "moves",
+      "start": 0.321,
+      "end": 0.576,
+      "line": "frames"
+    },
+    {
+      "text": "on",
+      "start": 0.601,
+      "end": 0.685,
+      "line": "frames"
+    },
+    {
+      "text": "a",
+      "start": 0.718,
+      "end": 0.843,
+      "line": "frames"
+    },
+    {
+      "text": "showtime",
+      "start": 0.915,
+      "end": 1.359,
+      "line": "frames"
+    },
+    {
+      "text": "studio",
+      "start": 1.408,
+      "end": 1.804,
+      "line": "frames"
+    },
+    {
+      "text": "board.",
+      "start": 1.84,
+      "end": 2.22,
+      "line": "frames"
+    },
+    {
+      "text": "First,",
+      "start": 2.59,
+      "end": 2.918,
+      "line": "frames"
+    },
+    {
+      "text": "compare:",
+      "start": 3.06,
+      "end": 3.565,
+      "line": "frames"
+    },
+    {
+      "text": "click",
+      "start": 3.7,
+      "end": 3.895,
+      "line": "frames"
+    },
+    {
+      "text": "through",
+      "start": 3.944,
+      "end": 4.06,
+      "line": "frames"
+    },
+    {
+      "text": "the",
+      "start": 4.086,
+      "end": 4.139,
+      "line": "frames"
+    },
+    {
+      "text": "frames.",
+      "start": 4.199,
+      "end": 4.742,
+      "line": "frames"
+    },
+    {
+      "text": "Play",
+      "start": 5.492,
+      "end": 5.693,
+      "line": "bed"
+    },
+    {
+      "text": "the",
+      "start": 5.725,
+      "end": 5.778,
+      "line": "bed"
+    },
+    {
+      "text": "music",
+      "start": 5.822,
+      "end": 6.14,
+      "line": "bed"
+    },
+    {
+      "text": "sketch.",
+      "start": 6.19,
+      "end": 6.779,
+      "line": "bed"
+    },
+    {
+      "text": "Or",
+      "start": 7.499,
+      "end": 7.593,
+      "line": "wipe"
+    },
+    {
+      "text": "drag",
+      "start": 7.642,
+      "end": 7.931,
+      "line": "wipe"
+    },
+    {
+      "text": "to",
+      "start": 7.969,
+      "end": 8.051,
+      "line": "wipe"
+    },
+    {
+      "text": "wipe",
+      "start": 8.1,
+      "end": 8.337,
+      "line": "wipe"
+    },
+    {
+      "text": "between",
+      "start": 8.399,
+      "end": 8.663,
+      "line": "wipe"
+    },
+    {
+      "text": "two",
+      "start": 8.728,
+      "end": 8.887,
+      "line": "wipe"
+    },
+    {
+      "text": "looks.",
+      "start": 8.936,
+      "end": 9.36,
+      "line": "wipe"
+    },
+    {
+      "text": "Then",
+      "start": 10.12,
+      "end": 10.33,
+      "line": "like"
+    },
+    {
+      "text": "react:",
+      "start": 10.38,
+      "end": 10.841,
+      "line": "like"
+    },
+    {
+      "text": "L",
+      "start": 11.03,
+      "end": 11.172,
+      "line": "like"
+    },
+    {
+      "text": "likes",
+      "start": 11.218,
+      "end": 11.49,
+      "line": "like"
+    },
+    {
+      "text": "it.",
+      "start": 11.561,
+      "end": 11.837,
+      "line": "like"
+    },
+    {
+      "text": "C",
+      "start": 12.577,
+      "end": 12.822,
+      "line": "note"
+    },
+    {
+      "text": "leaves",
+      "start": 12.869,
+      "end": 13.101,
+      "line": "note"
+    },
+    {
+      "text": "a",
+      "start": 13.131,
+      "end": 13.166,
+      "line": "note"
+    },
+    {
+      "text": "note.",
+      "start": 13.216,
+      "end": 13.797,
+      "line": "note"
+    },
+    {
+      "text": "Control",
+      "start": 16.88,
+      "end": 17.382,
+      "line": "note"
+    },
+    {
+      "text": "Enter",
+      "start": 17.432,
+      "end": 17.725,
+      "line": "note"
+    },
+    {
+      "text": "sends",
+      "start": 17.8,
+      "end": 18.104,
+      "line": "note"
+    },
+    {
+      "text": "it.",
+      "start": 18.181,
+      "end": 18.475,
+      "line": "note"
+    },
+    {
+      "text": "Finally,",
+      "start": 19.095,
+      "end": 19.602,
+      "line": "pick"
+    },
+    {
+      "text": "pick",
+      "start": 19.765,
+      "end": 19.952,
+      "line": "pick"
+    },
+    {
+      "text": "one.",
+      "start": 20.002,
+      "end": 20.439,
+      "line": "pick"
+    },
+    {
+      "text": "The",
+      "start": 21.159,
+      "end": 21.221,
+      "line": "review"
+    },
+    {
+      "text": "full",
+      "start": 21.279,
+      "end": 21.469,
+      "line": "review"
+    },
+    {
+      "text": "stop",
+      "start": 21.518,
+      "end": 21.762,
+      "line": "review"
+    },
+    {
+      "text": "key",
+      "start": 21.789,
+      "end": 22.032,
+      "line": "review"
+    },
+    {
+      "text": "shows",
+      "start": 22.096,
+      "end": 22.337,
+      "line": "review"
+    },
+    {
+      "text": "everything",
+      "start": 22.409,
+      "end": 22.829,
+      "line": "review"
+    },
+    {
+      "text": "you've",
+      "start": 22.878,
+      "end": 23.009,
+      "line": "review"
+    },
+    {
+      "text": "sent.",
+      "start": 23.068,
+      "end": 23.468,
+      "line": "review"
+    },
+    {
+      "text": "Tell",
+      "start": 24.218,
+      "end": 24.414,
+      "line": "done"
+    },
+    {
+      "text": "Claude",
+      "start": 24.478,
+      "end": 24.721,
+      "line": "done"
+    },
+    {
+      "text": "you're",
+      "start": 24.756,
+      "end": 24.878,
+      "line": "done"
+    },
+    {
+      "text": "done,",
+      "start": 24.927,
+      "end": 25.269,
+      "line": "done"
+    },
+    {
+      "text": "and",
+      "start": 25.438,
+      "end": 25.556,
+      "line": "done"
+    },
+    {
+      "text": "it",
+      "start": 25.581,
+      "end": 25.636,
+      "line": "done"
+    },
+    {
+      "text": "builds",
+      "start": 25.678,
+      "end": 25.946,
+      "line": "done"
+    },
+    {
+      "text": "from",
+      "start": 25.988,
+      "end": 26.094,
+      "line": "done"
+    },
+    {
+      "text": "your",
+      "start": 26.126,
+      "end": 26.254,
+      "line": "done"
+    },
+    {
+      "text": "pick.",
+      "start": 26.268,
+      "end": 26.68,
+      "line": "done"
+    }
+  ],
+  "captions": {
+    "srt": "vo.srt",
+    "transcript": "vo.words.json",
+    "cues": 12
+  },
+  "build_seconds": 17.49,
+  "lexicon": [
+    "showtime:lib/st/voice/lexicon.json"
+  ]
+}

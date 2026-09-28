@@ -1,0 +1,10 @@
+Credits (every item is public domain or openly licensed; these are courtesy credits)
+
+Text: H. G. Wells, The War of the Worlds (1898), Project Gutenberg eBook #36 (https://www.gutenberg.org/ebooks/36). Public domain in the US. The quotes use the Project Gutenberg wording.
+Illustrations: Henrique Alvim Corrêa (1906), from the Brussels edition La guerre des mondes; scans via Wikimedia Commons. Public domain.
+  - original graphic 02: https://commons.wikimedia.org/wiki/File:The_War_of_the_Worlds_by_Henrique_Alvim_Corr%C3%AAa,_original_graphic_02.jpg
+  - original graphic 05: https://commons.wikimedia.org/wiki/File:The_War_of_the_Worlds_by_Henrique_Alvim_Corr%C3%AAa,_original_graphic_05.jpg
+  - original graphic 15: https://commons.wikimedia.org/wiki/File:The_War_of_the_Worlds_by_Henrique_Alvim_Corr%C3%AAa,_original_graphic_15.jpg
+Mars: NASA/JPL/USGS, Valles Marineris Hemisphere (PIA00003), Viking Orbiter 1 mosaic, enhanced colour. https://images.nasa.gov/details/PIA00003 (no endorsement implied).
+Voice: Kokoro-82M (Apache-2.0), voice bm_george. Music and sound effects: generated with showtime. Space-wind ambience (trailer): "Space Winds" by aquinn, OpenGameArt, CC0.
+Fonts: Cinzel, Instrument Serif, Inter (SIL Open Font License 1.1); Special Elite (Apache-2.0).

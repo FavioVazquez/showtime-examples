@@ -1,0 +1,156 @@
+{
+ "_comment": "news-bumper bed composed to the narration length, sections on the scene starts, ducked under the voice; soft effects on the chart beats.",
+ "sample_rate": 48000,
+ "tracks": [
+  {
+   "id": "bed",
+   "kind": "music",
+   "compose": {
+    "style": "news-bumper",
+    "key": "D",
+    "sections": "0:intro,8.202:verse,14.887:build,22.31:chorus,33.02:drop,41.172:break,53.434:outro",
+    "seed": 3
+   },
+   "gain_db": 0,
+   "fade_out": 1.0,
+   "duck": {
+    "under": "voice",
+    "db": -20
+   }
+  },
+  {
+   "id": "vo-hook",
+   "kind": "voice",
+   "file": "voice/lines/01-hook.wav",
+   "start": 0.3
+  },
+  {
+   "id": "vo-coal-era",
+   "kind": "voice",
+   "file": "voice/lines/02-coal-era.wav",
+   "start": 8.502
+  },
+  {
+   "id": "vo-gas",
+   "kind": "voice",
+   "file": "voice/lines/03-gas.wav",
+   "start": 15.187
+  },
+  {
+   "id": "vo-newcomers",
+   "kind": "voice",
+   "file": "voice/lines/04-newcomers.wav",
+   "start": 22.61
+  },
+  {
+   "id": "vo-race",
+   "kind": "voice",
+   "file": "voice/lines/05-race.wav",
+   "start": 33.32
+  },
+  {
+   "id": "vo-mix-2025",
+   "kind": "voice",
+   "file": "voice/lines/06-mix-2025.wav",
+   "start": 41.472
+  },
+  {
+   "id": "vo-source",
+   "kind": "voice",
+   "file": "voice/lines/07-source.wav",
+   "start": 53.734
+  },
+  {
+   "kind": "sfx",
+   "synth": {
+    "type": "thock",
+    "seed": 10,
+    "intensity": 0.5
+   },
+   "at": 6.5,
+   "align": "hit",
+   "gain_db": -6
+  },
+  {
+   "kind": "sfx",
+   "synth": {
+    "type": "whoosh",
+    "seed": 11,
+    "intensity": 0.35
+   },
+   "at": 14.887,
+   "align": "hit",
+   "gain_db": -9
+  },
+  {
+   "kind": "sfx",
+   "synth": {
+    "type": "thock",
+    "seed": 12,
+    "intensity": 0.45
+   },
+   "at": 12.35,
+   "align": "hit",
+   "gain_db": -7
+  },
+  {
+   "kind": "sfx",
+   "synth": {
+    "type": "thock",
+    "seed": 13,
+    "intensity": 0.45
+   },
+   "at": 18.49,
+   "align": "hit",
+   "gain_db": -7
+  },
+  {
+   "kind": "sfx",
+   "synth": {
+    "type": "thock",
+    "seed": 14,
+    "intensity": 0.4
+   },
+   "at": 24.41,
+   "align": "hit",
+   "gain_db": -8
+  },
+  {
+   "kind": "sfx",
+   "synth": {
+    "type": "ding",
+    "seed": 15,
+    "key": "D"
+   },
+   "at": 29.01,
+   "align": "hit",
+   "gain_db": -7
+  },
+  {
+   "kind": "sfx",
+   "synth": {
+    "type": "whoosh",
+    "seed": 16,
+    "intensity": 0.5
+   },
+   "at": 33.02,
+   "align": "hit",
+   "gain_db": -7
+  },
+  {
+   "kind": "sfx",
+   "synth": {
+    "type": "thock",
+    "seed": 17,
+    "intensity": 0.5
+   },
+   "at": 51.02,
+   "align": "hit",
+   "gain_db": -6
+  }
+ ],
+ "master": {
+  "lufs": -14,
+  "true_peak": -1
+ }
+}

@@ -1,0 +1,223 @@
+{
+  "schema": "showtime.studio.feedback/1",
+  "job": "tidepool-trailer-20260926-144115",
+  "created": "2026-09-26T20:41:16.539Z",
+  "updated": "2026-09-26T21:15:15.515Z",
+  "board_rev": 3,
+  "events": [
+    {
+      "id": "sim_r1_01",
+      "ts": "2026-09-26T21:02:10.000Z",
+      "type": "like",
+      "rev": 1,
+      "client": null,
+      "target": "c1-f3",
+      "value": true
+    },
+    {
+      "id": "sim_r1_02",
+      "ts": "2026-09-26T21:02:40.000Z",
+      "type": "comment",
+      "rev": 1,
+      "client": null,
+      "target": "c1-f3",
+      "text": "Love the sun rising over the wave line. That should be the ending, whatever we pick.",
+      "at": null
+    },
+    {
+      "id": "sim_r1_03",
+      "ts": "2026-09-26T21:03:30.000Z",
+      "type": "pick",
+      "rev": 1,
+      "client": null,
+      "slot": "concept",
+      "target": "c2"
+    },
+    {
+      "id": "sim_r1_04",
+      "ts": "2026-09-26T21:03:55.000Z",
+      "type": "comment",
+      "rev": 1,
+      "client": null,
+      "target": "c2-f1",
+      "text": "Keep this hook, 'Sync: local only' reads instantly. It should drift or push in so frame 1 is already moving.",
+      "at": null
+    },
+    {
+      "id": "sim_r1_05",
+      "ts": "2026-09-26T21:04:30.000Z",
+      "type": "mix",
+      "rev": 1,
+      "client": null,
+      "target": "c2",
+      "with": "c1",
+      "text": "C2's macro fragments and pull-back, but land the name on C1's sunrise over the wave."
+    },
+    {
+      "id": "sim_r1_06",
+      "ts": "2026-09-26T21:04:50.000Z",
+      "type": "pick",
+      "rev": 1,
+      "client": null,
+      "slot": "music",
+      "target": "bed-macro"
+    },
+    {
+      "id": "sim_r1_07",
+      "ts": "2026-09-26T21:05:00.000Z",
+      "type": "answer",
+      "rev": 1,
+      "client": null,
+      "target": "length",
+      "value": "20",
+      "text": null
+    },
+    {
+      "id": "sim_r1_08",
+      "ts": "2026-09-26T21:05:05.000Z",
+      "type": "answer",
+      "rev": 1,
+      "client": null,
+      "target": "endline",
+      "value": "kept",
+      "text": null
+    },
+    {
+      "id": "sim_r1_09",
+      "ts": "2026-09-26T21:05:20.000Z",
+      "type": "dial",
+      "rev": 1,
+      "client": null,
+      "target": "energy",
+      "value": 55
+    },
+    {
+      "id": "sim_r2_01",
+      "ts": "2026-09-26T21:20:10.000Z",
+      "type": "answer",
+      "rev": 2,
+      "client": null,
+      "target": "cards",
+      "value": "serif",
+      "text": null
+    },
+    {
+      "id": "sim_r2_02",
+      "ts": "2026-09-26T21:20:40.000Z",
+      "type": "like",
+      "rev": 2,
+      "client": null,
+      "target": "c2-s6",
+      "value": true
+    },
+    {
+      "id": "sim_r2_03",
+      "ts": "2026-09-26T21:21:15.000Z",
+      "type": "comment",
+      "rev": 2,
+      "client": null,
+      "target": "c2-s4",
+      "text": "Order works. 'Saved on this device' is the payoff of this shot, let it sit sharp for a beat before the card.",
+      "at": null
+    },
+    {
+      "id": "sim_r3_01",
+      "ts": "2026-09-26T21:40:05.000Z",
+      "type": "comment",
+      "rev": 3,
+      "client": null,
+      "target": "c2",
+      "text": "The app sinking under the wave line into the sunrise is exactly it.",
+      "at": 15.6
+    },
+    {
+      "id": "sim_r3_02",
+      "ts": "2026-09-26T21:40:30.000Z",
+      "type": "approve",
+      "rev": 3,
+      "client": null,
+      "target": "c2",
+      "text": "Pace and order approved. Go to the full-size final."
+    }
+  ],
+  "state": {
+    "picks": {
+      "concept": "c2",
+      "music": "bed-macro"
+    },
+    "likes": {
+      "c1-f3": true,
+      "c2-s6": true
+    },
+    "ratings": {},
+    "dials": {
+      "energy": 55
+    },
+    "answers": {
+      "length": {
+        "value": "20",
+        "text": null
+      },
+      "endline": {
+        "value": "kept",
+        "text": null
+      },
+      "cards": {
+        "value": "serif",
+        "text": null
+      }
+    },
+    "comments": [
+      {
+        "id": "sim_r1_02",
+        "ts": "2026-09-26T21:02:40.000Z",
+        "rev": 1,
+        "target": "c1-f3",
+        "text": "Love the sun rising over the wave line. That should be the ending, whatever we pick.",
+        "at": null
+      },
+      {
+        "id": "sim_r1_04",
+        "ts": "2026-09-26T21:03:55.000Z",
+        "rev": 1,
+        "target": "c2-f1",
+        "text": "Keep this hook, 'Sync: local only' reads instantly. It should drift or push in so frame 1 is already moving.",
+        "at": null
+      },
+      {
+        "id": "sim_r2_03",
+        "ts": "2026-09-26T21:21:15.000Z",
+        "rev": 2,
+        "target": "c2-s4",
+        "text": "Order works. 'Saved on this device' is the payoff of this shot, let it sit sharp for a beat before the card.",
+        "at": null
+      },
+      {
+        "id": "sim_r3_01",
+        "ts": "2026-09-26T21:40:05.000Z",
+        "rev": 3,
+        "target": "c2",
+        "text": "The app sinking under the wave line into the sunrise is exactly it.",
+        "at": 15.6
+      }
+    ],
+    "mixes": [
+      {
+        "id": "sim_r1_05",
+        "ts": "2026-09-26T21:04:30.000Z",
+        "rev": 1,
+        "a": "c2",
+        "b": "c1",
+        "text": "C2's macro fragments and pull-back, but land the name on C1's sunrise over the wave."
+      }
+    ],
+    "approved": {
+      "target": "c2",
+      "text": "Pace and order approved. Go to the full-size final.",
+      "ts": "2026-09-26T21:40:30.000Z",
+      "rev": 3
+    },
+    "count": 14,
+    "last_ts": "2026-09-26T21:40:30.000Z"
+  }
+}

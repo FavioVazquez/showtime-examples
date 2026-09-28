@@ -1,0 +1,16 @@
+{
+  "source": "fontsource",
+  "source_label": "Fontsource",
+  "id": "instrument-serif",
+  "title": "Instrument Serif",
+  "license": "OFL-1.1",
+  "license_url": "https://spdx.org/licenses/OFL-1.1.html",
+  "landing_url": "https://fontsource.org/fonts/instrument-serif",
+  "license_text": "LICENSE.txt",
+  "license_text_source": "https://raw.githubusercontent.com/google/fonts/main/ofl/instrumentserif/OFL.txt",
+  "fetched": "2026-09-26T15:01:52",
+  "license_class": "free",
+  "attribution_required": false,
+  "credit": "\"Instrument Serif\" via Fontsource (OFL-1.1) - https://fontsource.org/fonts/instrument-serif",
+  "file": "instrument-serif"
+}

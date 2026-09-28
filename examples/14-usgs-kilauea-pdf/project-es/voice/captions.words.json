@@ -1,0 +1,1378 @@
+{
+ "source": "timeline.json",
+ "note": "written by `showtime retime --from-voice`: word times in the video",
+ "words": [
+  {
+   "text": "En",
+   "start": 0.33,
+   "end": 0.377,
+   "type": "word",
+   "line": "hook"
+  },
+  {
+   "text": "2018,",
+   "start": 0.423,
+   "end": 1.53,
+   "type": "word",
+   "line": "hook"
+  },
+  {
+   "text": "la",
+   "start": 1.74,
+   "end": 1.891,
+   "type": "word",
+   "line": "hook"
+  },
+  {
+   "text": "cumbre",
+   "start": 1.94,
+   "end": 2.251,
+   "type": "word",
+   "line": "hook"
+  },
+  {
+   "text": "del",
+   "start": 2.279,
+   "end": 2.434,
+   "type": "word",
+   "line": "hook"
+  },
+  {
+   "text": "Kīlauea",
+   "start": 2.47,
+   "end": 2.982,
+   "type": "word",
+   "line": "hook"
+  },
+  {
+   "text": "colapsó",
+   "start": 3.05,
+   "end": 3.481,
+   "type": "word",
+   "line": "hook"
+  },
+  {
+   "text": "mientras",
+   "start": 3.515,
+   "end": 3.846,
+   "type": "word",
+   "line": "hook"
+  },
+  {
+   "text": "su",
+   "start": 3.887,
+   "end": 3.986,
+   "type": "word",
+   "line": "hook"
+  },
+  {
+   "text": "magma",
+   "start": 4.035,
+   "end": 4.47,
+   "type": "word",
+   "line": "hook"
+  },
+  {
+   "text": "se",
+   "start": 4.69,
+   "end": 4.794,
+   "type": "word",
+   "line": "hook"
+  },
+  {
+   "text": "drenaba",
+   "start": 4.819,
+   "end": 5.198,
+   "type": "word",
+   "line": "hook"
+  },
+  {
+   "text": "hacia",
+   "start": 5.225,
+   "end": 5.428,
+   "type": "word",
+   "line": "hook"
+  },
+  {
+   "text": "la",
+   "start": 5.455,
+   "end": 5.553,
+   "type": "word",
+   "line": "hook"
+  },
+  {
+   "text": "zona",
+   "start": 5.603,
+   "end": 5.831,
+   "type": "word",
+   "line": "hook"
+  },
+  {
+   "text": "de",
+   "start": 5.86,
+   "end": 5.935,
+   "type": "word",
+   "line": "hook"
+  },
+  {
+   "text": "rift",
+   "start": 5.98,
+   "end": 6.24,
+   "type": "word",
+   "line": "hook"
+  },
+  {
+   "text": "este",
+   "start": 6.33,
+   "end": 6.509,
+   "type": "word",
+   "line": "hook"
+  },
+  {
+   "text": "inferior.",
+   "start": 6.534,
+   "end": 7.05,
+   "type": "word",
+   "line": "hook"
+  },
+  {
+   "text": "El",
+   "start": 8.22,
+   "end": 8.286,
+   "type": "word",
+   "line": "where"
+  },
+  {
+   "text": "Kīlauea",
+   "start": 8.36,
+   "end": 8.895,
+   "type": "word",
+   "line": "where"
+  },
+  {
+   "text": "está",
+   "start": 8.95,
+   "end": 9.231,
+   "type": "word",
+   "line": "where"
+  },
+  {
+   "text": "en",
+   "start": 9.273,
+   "end": 9.339,
+   "type": "word",
+   "line": "where"
+  },
+  {
+   "text": "la",
+   "start": 9.371,
+   "end": 9.456,
+   "type": "word",
+   "line": "where"
+  },
+  {
+   "text": "isla",
+   "start": 9.492,
+   "end": 9.774,
+   "type": "word",
+   "line": "where"
+  },
+  {
+   "text": "de",
+   "start": 9.811,
+   "end": 9.904,
+   "type": "word",
+   "line": "where"
+  },
+  {
+   "text": "Hawaiʻi.",
+   "start": 9.949,
+   "end": 10.41,
+   "type": "word",
+   "line": "where"
+  },
+  {
+   "text": "Este",
+   "start": 10.79,
+   "end": 11.032,
+   "type": "word",
+   "line": "where"
+  },
+  {
+   "text": "resumen",
+   "start": 11.079,
+   "end": 11.55,
+   "type": "word",
+   "line": "where"
+  },
+  {
+   "text": "sigue",
+   "start": 11.622,
+   "end": 11.838,
+   "type": "word",
+   "line": "where"
+  },
+  {
+   "text": "un",
+   "start": 11.862,
+   "end": 11.937,
+   "type": "word",
+   "line": "where"
+  },
+  {
+   "text": "informe",
+   "start": 11.966,
+   "end": 12.398,
+   "type": "word",
+   "line": "where"
+  },
+  {
+   "text": "de",
+   "start": 12.425,
+   "end": 12.478,
+   "type": "word",
+   "line": "where"
+  },
+  {
+   "text": "dos",
+   "start": 12.506,
+   "end": 12.67,
+   "type": "word",
+   "line": "where"
+  },
+  {
+   "text": "páginas",
+   "start": 12.74,
+   "end": 13.19,
+   "type": "word",
+   "line": "where"
+  },
+  {
+   "text": "del",
+   "start": 13.19,
+   "end": 13.337,
+   "type": "word",
+   "line": "where"
+  },
+  {
+   "text": "Servicio",
+   "start": 13.386,
+   "end": 13.852,
+   "type": "word",
+   "line": "where"
+  },
+  {
+   "text": "Geológico",
+   "start": 13.89,
+   "end": 14.459,
+   "type": "word",
+   "line": "where"
+  },
+  {
+   "text": "de",
+   "start": 14.488,
+   "end": 14.537,
+   "type": "word",
+   "line": "where"
+  },
+  {
+   "text": "Estados",
+   "start": 14.562,
+   "end": 14.965,
+   "type": "word",
+   "line": "where"
+  },
+  {
+   "text": "Unidos.",
+   "start": 15.014,
+   "end": 15.415,
+   "type": "word",
+   "line": "where"
+  },
+  {
+   "text": "El",
+   "start": 16.558,
+   "end": 16.598,
+   "type": "word",
+   "line": "start"
+  },
+  {
+   "text": "30",
+   "start": 16.658,
+   "end": 16.982,
+   "type": "word",
+   "line": "start"
+  },
+  {
+   "text": "de",
+   "start": 17.007,
+   "end": 17.057,
+   "type": "word",
+   "line": "start"
+  },
+  {
+   "text": "abril",
+   "start": 17.102,
+   "end": 17.427,
+   "type": "word",
+   "line": "start"
+  },
+  {
+   "text": "colapsó",
+   "start": 17.478,
+   "end": 17.882,
+   "type": "word",
+   "line": "start"
+  },
+  {
+   "text": "la",
+   "start": 17.918,
+   "end": 18.008,
+   "type": "word",
+   "line": "start"
+  },
+  {
+   "text": "boca",
+   "start": 18.044,
+   "end": 18.29,
+   "type": "word",
+   "line": "start"
+  },
+  {
+   "text": "eruptiva",
+   "start": 18.316,
+   "end": 18.828,
+   "type": "word",
+   "line": "start"
+  },
+  {
+   "text": "Puʻu",
+   "start": 18.858,
+   "end": 19.132,
+   "type": "word",
+   "line": "start"
+  },
+  {
+   "text": "ʻŌʻō.",
+   "start": 19.148,
+   "end": 19.538,
+   "type": "word",
+   "line": "start"
+  },
+  {
+   "text": "Las",
+   "start": 19.918,
+   "end": 20.107,
+   "type": "word",
+   "line": "start"
+  },
+  {
+   "text": "erupciones",
+   "start": 20.131,
+   "end": 20.623,
+   "type": "word",
+   "line": "start"
+  },
+  {
+   "text": "fisurales",
+   "start": 20.671,
+   "end": 21.168,
+   "type": "word",
+   "line": "start"
+  },
+  {
+   "text": "comenzaron",
+   "start": 21.178,
+   "end": 21.754,
+   "type": "word",
+   "line": "start"
+  },
+  {
+   "text": "el",
+   "start": 21.788,
+   "end": 21.874,
+   "type": "word",
+   "line": "start"
+  },
+  {
+   "text": "3",
+   "start": 21.908,
+   "end": 22.13,
+   "type": "word",
+   "line": "start"
+  },
+  {
+   "text": "de",
+   "start": 22.159,
+   "end": 22.224,
+   "type": "word",
+   "line": "start"
+  },
+  {
+   "text": "mayo,",
+   "start": 22.269,
+   "end": 22.778,
+   "type": "word",
+   "line": "start"
+  },
+  {
+   "text": "y",
+   "start": 23.008,
+   "end": 23.081,
+   "type": "word",
+   "line": "start"
+  },
+  {
+   "text": "al",
+   "start": 23.128,
+   "end": 23.202,
+   "type": "word",
+   "line": "start"
+  },
+  {
+   "text": "día",
+   "start": 23.239,
+   "end": 23.416,
+   "type": "word",
+   "line": "start"
+  },
+  {
+   "text": "siguiente",
+   "start": 23.463,
+   "end": 23.872,
+   "type": "word",
+   "line": "start"
+  },
+  {
+   "text": "hubo",
+   "start": 23.918,
+   "end": 24.092,
+   "type": "word",
+   "line": "start"
+  },
+  {
+   "text": "un",
+   "start": 24.116,
+   "end": 24.229,
+   "type": "word",
+   "line": "start"
+  },
+  {
+   "text": "sismo",
+   "start": 24.297,
+   "end": 24.593,
+   "type": "word",
+   "line": "start"
+  },
+  {
+   "text": "de",
+   "start": 24.619,
+   "end": 24.668,
+   "type": "word",
+   "line": "start"
+  },
+  {
+   "text": "magnitud",
+   "start": 24.696,
+   "end": 25.223,
+   "type": "word",
+   "line": "start"
+  },
+  {
+   "text": "6,9.",
+   "start": 25.228,
+   "end": 26.188,
+   "type": "word",
+   "line": "start"
+  },
+  {
+   "text": "Mientras",
+   "start": 27.321,
+   "end": 27.633,
+   "type": "word",
+   "line": "summit"
+  },
+  {
+   "text": "tanto,",
+   "start": 27.691,
+   "end": 28.008,
+   "type": "word",
+   "line": "summit"
+  },
+  {
+   "text": "la",
+   "start": 28.124,
+   "end": 28.181,
+   "type": "word",
+   "line": "summit"
+  },
+  {
+   "text": "cumbre",
+   "start": 28.271,
+   "end": 28.585,
+   "type": "word",
+   "line": "summit"
+  },
+  {
+   "text": "se",
+   "start": 28.63,
+   "end": 28.706,
+   "type": "word",
+   "line": "summit"
+  },
+  {
+   "text": "hundía.",
+   "start": 28.744,
+   "end": 29.221,
+   "type": "word",
+   "line": "summit"
+  },
+  {
+   "text": "A",
+   "start": 29.631,
+   "end": 29.683,
+   "type": "word",
+   "line": "summit"
+  },
+  {
+   "text": "mediados",
+   "start": 29.715,
+   "end": 30.126,
+   "type": "word",
+   "line": "summit"
+  },
+  {
+   "text": "de",
+   "start": 30.155,
+   "end": 30.218,
+   "type": "word",
+   "line": "summit"
+  },
+  {
+   "text": "mayo,",
+   "start": 30.262,
+   "end": 30.666,
+   "type": "word",
+   "line": "summit"
+  },
+  {
+   "text": "las",
+   "start": 30.811,
+   "end": 30.949,
+   "type": "word",
+   "line": "summit"
+  },
+  {
+   "text": "sacudidas",
+   "start": 30.984,
+   "end": 31.53,
+   "type": "word",
+   "line": "summit"
+  },
+  {
+   "text": "y",
+   "start": 31.577,
+   "end": 31.607,
+   "type": "word",
+   "line": "summit"
+  },
+  {
+   "text": "la",
+   "start": 31.626,
+   "end": 31.676,
+   "type": "word",
+   "line": "summit"
+  },
+  {
+   "text": "inclinación",
+   "start": 31.7,
+   "end": 32.241,
+   "type": "word",
+   "line": "summit"
+  },
+  {
+   "text": "del",
+   "start": 32.269,
+   "end": 32.385,
+   "type": "word",
+   "line": "summit"
+  },
+  {
+   "text": "terreno",
+   "start": 32.401,
+   "end": 32.971,
+   "type": "word",
+   "line": "summit"
+  },
+  {
+   "text": "obligaron",
+   "start": 33.032,
+   "end": 33.554,
+   "type": "word",
+   "line": "summit"
+  },
+  {
+   "text": "al",
+   "start": 33.595,
+   "end": 33.655,
+   "type": "word",
+   "line": "summit"
+  },
+  {
+   "text": "Observatorio",
+   "start": 33.681,
+   "end": 34.347,
+   "type": "word",
+   "line": "summit"
+  },
+  {
+   "text": "Volcánico",
+   "start": 34.378,
+   "end": 34.932,
+   "type": "word",
+   "line": "summit"
+  },
+  {
+   "text": "de",
+   "start": 34.98,
+   "end": 35.075,
+   "type": "word",
+   "line": "summit"
+  },
+  {
+   "text": "Hawaiʻi",
+   "start": 35.124,
+   "end": 35.517,
+   "type": "word",
+   "line": "summit"
+  },
+  {
+   "text": "a",
+   "start": 35.555,
+   "end": 35.585,
+   "type": "word",
+   "line": "summit"
+  },
+  {
+   "text": "dejar",
+   "start": 35.606,
+   "end": 35.908,
+   "type": "word",
+   "line": "summit"
+  },
+  {
+   "text": "su",
+   "start": 35.956,
+   "end": 36.023,
+   "type": "word",
+   "line": "summit"
+  },
+  {
+   "text": "edificio.",
+   "start": 36.047,
+   "end": 36.581,
+   "type": "word",
+   "line": "summit"
+  },
+  {
+   "text": "Desde",
+   "start": 37.031,
+   "end": 37.312,
+   "type": "word",
+   "line": "summit"
+  },
+  {
+   "text": "el",
+   "start": 37.337,
+   "end": 37.391,
+   "type": "word",
+   "line": "summit"
+  },
+  {
+   "text": "29",
+   "start": 37.43,
+   "end": 37.959,
+   "type": "word",
+   "line": "summit"
+  },
+  {
+   "text": "de",
+   "start": 37.986,
+   "end": 38.045,
+   "type": "word",
+   "line": "summit"
+  },
+  {
+   "text": "mayo,",
+   "start": 38.086,
+   "end": 38.511,
+   "type": "word",
+   "line": "summit"
+  },
+  {
+   "text": "la",
+   "start": 38.745,
+   "end": 38.84,
+   "type": "word",
+   "line": "summit"
+  },
+  {
+   "text": "cumbre",
+   "start": 38.889,
+   "end": 39.178,
+   "type": "word",
+   "line": "summit"
+  },
+  {
+   "text": "colapsó",
+   "start": 39.215,
+   "end": 39.601,
+   "type": "word",
+   "line": "summit"
+  },
+  {
+   "text": "casi",
+   "start": 39.641,
+   "end": 39.951,
+   "type": "word",
+   "line": "summit"
+  },
+  {
+   "text": "a",
+   "start": 39.989,
+   "end": 40.019,
+   "type": "word",
+   "line": "summit"
+  },
+  {
+   "text": "diario,",
+   "start": 40.049,
+   "end": 40.481,
+   "type": "word",
+   "line": "summit"
+  },
+  {
+   "text": "cada",
+   "start": 40.681,
+   "end": 40.916,
+   "type": "word",
+   "line": "summit"
+  },
+  {
+   "text": "vez",
+   "start": 40.948,
+   "end": 41.14,
+   "type": "word",
+   "line": "summit"
+  },
+  {
+   "text": "con",
+   "start": 41.151,
+   "end": 41.303,
+   "type": "word",
+   "line": "summit"
+  },
+  {
+   "text": "la",
+   "start": 41.328,
+   "end": 41.376,
+   "type": "word",
+   "line": "summit"
+  },
+  {
+   "text": "energía",
+   "start": 41.401,
+   "end": 41.829,
+   "type": "word",
+   "line": "summit"
+  },
+  {
+   "text": "de",
+   "start": 41.855,
+   "end": 41.904,
+   "type": "word",
+   "line": "summit"
+  },
+  {
+   "text": "un",
+   "start": 41.929,
+   "end": 42.042,
+   "type": "word",
+   "line": "summit"
+  },
+  {
+   "text": "sismo",
+   "start": 42.117,
+   "end": 42.426,
+   "type": "word",
+   "line": "summit"
+  },
+  {
+   "text": "de",
+   "start": 42.454,
+   "end": 42.503,
+   "type": "word",
+   "line": "summit"
+  },
+  {
+   "text": "magnitud",
+   "start": 42.532,
+   "end": 43.009,
+   "type": "word",
+   "line": "summit"
+  },
+  {
+   "text": "5.",
+   "start": 43.021,
+   "end": 43.452,
+   "type": "word",
+   "line": "summit"
+  },
+  {
+   "text": "Rift",
+   "start": 44.585,
+   "end": 44.783,
+   "type": "word",
+   "line": "fissure8"
+  },
+  {
+   "text": "abajo,",
+   "start": 44.83,
+   "end": 45.295,
+   "type": "word",
+   "line": "fissure8"
+  },
+  {
+   "text": "la",
+   "start": 45.425,
+   "end": 45.529,
+   "type": "word",
+   "line": "fissure8"
+  },
+  {
+   "text": "fisura",
+   "start": 45.577,
+   "end": 45.993,
+   "type": "word",
+   "line": "fissure8"
+  },
+  {
+   "text": "8",
+   "start": 46.041,
+   "end": 46.337,
+   "type": "word",
+   "line": "fissure8"
+  },
+  {
+   "text": "lanzó",
+   "start": 46.368,
+   "end": 46.691,
+   "type": "word",
+   "line": "fissure8"
+  },
+  {
+   "text": "fuentes",
+   "start": 46.751,
+   "end": 47.106,
+   "type": "word",
+   "line": "fissure8"
+  },
+  {
+   "text": "de",
+   "start": 47.14,
+   "end": 47.214,
+   "type": "word",
+   "line": "fissure8"
+  },
+  {
+   "text": "lava",
+   "start": 47.26,
+   "end": 47.501,
+   "type": "word",
+   "line": "fissure8"
+  },
+  {
+   "text": "de",
+   "start": 47.528,
+   "end": 47.576,
+   "type": "word",
+   "line": "fissure8"
+  },
+  {
+   "text": "hasta",
+   "start": 47.601,
+   "end": 47.788,
+   "type": "word",
+   "line": "fissure8"
+  },
+  {
+   "text": "200",
+   "start": 47.814,
+   "end": 48.295,
+   "type": "word",
+   "line": "fissure8"
+  },
+  {
+   "text": "pies.",
+   "start": 48.385,
+   "end": 48.64,
+   "type": "word",
+   "line": "fissure8"
+  },
+  {
+   "text": "Su",
+   "start": 49.87,
+   "end": 49.948,
+   "type": "word",
+   "line": "fissure8"
+  },
+  {
+   "text": "río",
+   "start": 49.991,
+   "end": 50.161,
+   "type": "word",
+   "line": "fissure8"
+  },
+  {
+   "text": "de",
+   "start": 50.189,
+   "end": 50.254,
+   "type": "word",
+   "line": "fissure8"
+  },
+  {
+   "text": "lava",
+   "start": 50.293,
+   "end": 50.66,
+   "type": "word",
+   "line": "fissure8"
+  },
+  {
+   "text": "llegó",
+   "start": 50.83,
+   "end": 51.042,
+   "type": "word",
+   "line": "fissure8"
+  },
+  {
+   "text": "al",
+   "start": 51.081,
+   "end": 51.155,
+   "type": "word",
+   "line": "fissure8"
+  },
+  {
+   "text": "océano",
+   "start": 51.197,
+   "end": 51.608,
+   "type": "word",
+   "line": "fissure8"
+  },
+  {
+   "text": "en",
+   "start": 51.635,
+   "end": 51.687,
+   "type": "word",
+   "line": "fissure8"
+  },
+  {
+   "text": "la",
+   "start": 51.715,
+   "end": 51.791,
+   "type": "word",
+   "line": "fissure8"
+  },
+  {
+   "text": "bahía",
+   "start": 51.823,
+   "end": 52.194,
+   "type": "word",
+   "line": "fissure8"
+  },
+  {
+   "text": "de",
+   "start": 52.238,
+   "end": 52.332,
+   "type": "word",
+   "line": "fissure8"
+  },
+  {
+   "text": "Kapoho",
+   "start": 52.39,
+   "end": 52.72,
+   "type": "word",
+   "line": "fissure8"
+  },
+  {
+   "text": "el",
+   "start": 52.745,
+   "end": 52.822,
+   "type": "word",
+   "line": "fissure8"
+  },
+  {
+   "text": "3",
+   "start": 52.9,
+   "end": 53.083,
+   "type": "word",
+   "line": "fissure8"
+  },
+  {
+   "text": "de",
+   "start": 53.15,
+   "end": 53.183,
+   "type": "word",
+   "line": "fissure8"
+  },
+  {
+   "text": "junio.",
+   "start": 53.233,
+   "end": 53.609,
+   "type": "word",
+   "line": "fissure8"
+  },
+  {
+   "text": "La",
+   "start": 55.251,
+   "end": 55.294,
+   "type": "word",
+   "line": "numbers"
+  },
+  {
+   "text": "lava",
+   "start": 55.327,
+   "end": 55.544,
+   "type": "word",
+   "line": "numbers"
+  },
+  {
+   "text": "cubrió",
+   "start": 55.621,
+   "end": 55.945,
+   "type": "word",
+   "line": "numbers"
+  },
+  {
+   "text": "13,7",
+   "start": 56.031,
+   "end": 56.967,
+   "type": "word",
+   "line": "numbers"
+  },
+  {
+   "text": "millas",
+   "start": 57.019,
+   "end": 57.341,
+   "type": "word",
+   "line": "numbers"
+  },
+  {
+   "text": "cuadradas.",
+   "start": 57.411,
+   "end": 58.051,
+   "type": "word",
+   "line": "numbers"
+  },
+  {
+   "text": "El",
+   "start": 58.341,
+   "end": 58.412,
+   "type": "word",
+   "line": "numbers"
+  },
+  {
+   "text": "Condado",
+   "start": 58.491,
+   "end": 58.837,
+   "type": "word",
+   "line": "numbers"
+  },
+  {
+   "text": "de",
+   "start": 58.873,
+   "end": 58.964,
+   "type": "word",
+   "line": "numbers"
+  },
+  {
+   "text": "Hawaiʻi",
+   "start": 59.011,
+   "end": 59.384,
+   "type": "word",
+   "line": "numbers"
+  },
+  {
+   "text": "contó",
+   "start": 59.461,
+   "end": 59.747,
+   "type": "word",
+   "line": "numbers"
+  },
+  {
+   "text": "716",
+   "start": 59.795,
+   "end": 60.944,
+   "type": "word",
+   "line": "numbers"
+  },
+  {
+   "text": "viviendas",
+   "start": 61.011,
+   "end": 61.421,
+   "type": "word",
+   "line": "numbers"
+  },
+  {
+   "text": "destruidas.",
+   "start": 61.471,
+   "end": 62.171,
+   "type": "word",
+   "line": "numbers"
+  },
+  {
+   "text": "Las",
+   "start": 62.511,
+   "end": 62.65,
+   "type": "word",
+   "line": "numbers"
+  },
+  {
+   "text": "entradas",
+   "start": 62.693,
+   "end": 63.133,
+   "type": "word",
+   "line": "numbers"
+  },
+  {
+   "text": "al",
+   "start": 63.182,
+   "end": 63.266,
+   "type": "word",
+   "line": "numbers"
+  },
+  {
+   "text": "mar",
+   "start": 63.315,
+   "end": 63.535,
+   "type": "word",
+   "line": "numbers"
+  },
+  {
+   "text": "crearon",
+   "start": 63.601,
+   "end": 63.942,
+   "type": "word",
+   "line": "numbers"
+  },
+  {
+   "text": "875",
+   "start": 63.966,
+   "end": 65.361,
+   "type": "word",
+   "line": "numbers"
+  },
+  {
+   "text": "acres",
+   "start": 65.418,
+   "end": 65.694,
+   "type": "word",
+   "line": "numbers"
+  },
+  {
+   "text": "de",
+   "start": 65.723,
+   "end": 65.789,
+   "type": "word",
+   "line": "numbers"
+  },
+  {
+   "text": "tierra",
+   "start": 65.851,
+   "end": 66.115,
+   "type": "word",
+   "line": "numbers"
+  },
+  {
+   "text": "nueva,",
+   "start": 66.158,
+   "end": 66.541,
+   "type": "word",
+   "line": "numbers"
+  },
+  {
+   "text": "y",
+   "start": 66.831,
+   "end": 66.896,
+   "type": "word",
+   "line": "numbers"
+  },
+  {
+   "text": "unos",
+   "start": 66.934,
+   "end": 67.156,
+   "type": "word",
+   "line": "numbers"
+  },
+  {
+   "text": "60 000",
+   "start": 67.2,
+   "end": 67.855,
+   "type": "word",
+   "line": "numbers"
+  },
+  {
+   "text": "sismos",
+   "start": 67.932,
+   "end": 68.294,
+   "type": "word",
+   "line": "numbers"
+  },
+  {
+   "text": "sacudieron",
+   "start": 68.344,
+   "end": 68.832,
+   "type": "word",
+   "line": "numbers"
+  },
+  {
+   "text": "la",
+   "start": 68.865,
+   "end": 68.963,
+   "type": "word",
+   "line": "numbers"
+  },
+  {
+   "text": "zona.",
+   "start": 68.981,
+   "end": 69.311,
+   "type": "word",
+   "line": "numbers"
+  },
+  {
+   "text": "A",
+   "start": 70.448,
+   "end": 70.478,
+   "type": "word",
+   "line": "end"
+  },
+  {
+   "text": "principios",
+   "start": 70.51,
+   "end": 71.057,
+   "type": "word",
+   "line": "end"
+  },
+  {
+   "text": "de",
+   "start": 71.084,
+   "end": 71.137,
+   "type": "word",
+   "line": "end"
+  },
+  {
+   "text": "agosto,",
+   "start": 71.18,
+   "end": 71.668,
+   "type": "word",
+   "line": "end"
+  },
+  {
+   "text": "la",
+   "start": 71.745,
+   "end": 71.802,
+   "type": "word",
+   "line": "end"
+  },
+  {
+   "text": "erupción",
+   "start": 71.827,
+   "end": 72.34,
+   "type": "word",
+   "line": "end"
+  },
+  {
+   "text": "se",
+   "start": 72.39,
+   "end": 72.451,
+   "type": "word",
+   "line": "end"
+  },
+  {
+   "text": "apagó.",
+   "start": 72.476,
+   "end": 72.978,
+   "type": "word",
+   "line": "end"
+  },
+  {
+   "text": "El",
+   "start": 73.308,
+   "end": 73.401,
+   "type": "word",
+   "line": "end"
+  },
+  {
+   "text": "22",
+   "start": 73.446,
+   "end": 73.933,
+   "type": "word",
+   "line": "end"
+  },
+  {
+   "text": "de",
+   "start": 73.961,
+   "end": 74.028,
+   "type": "word",
+   "line": "end"
+  },
+  {
+   "text": "septiembre,",
+   "start": 74.078,
+   "end": 74.766,
+   "type": "word",
+   "line": "end"
+  },
+  {
+   "text": "el",
+   "start": 74.908,
+   "end": 74.984,
+   "type": "word",
+   "line": "end"
+  },
+  {
+   "text": "parque",
+   "start": 75.038,
+   "end": 75.329,
+   "type": "word",
+   "line": "end"
+  },
+  {
+   "text": "nacional",
+   "start": 75.362,
+   "end": 75.861,
+   "type": "word",
+   "line": "end"
+  },
+  {
+   "text": "reabrió",
+   "start": 75.916,
+   "end": 76.287,
+   "type": "word",
+   "line": "end"
+  },
+  {
+   "text": "en",
+   "start": 76.313,
+   "end": 76.403,
+   "type": "word",
+   "line": "end"
+  },
+  {
+   "text": "parte.",
+   "start": 76.453,
+   "end": 76.841,
+   "type": "word",
+   "line": "end"
+  }
+ ]
+}

@@ -1,0 +1,121 @@
+{
+  "_comment": "Composed bed + soft effects, no downloads. Sections follow the scenes: intro on the stripes, build as they fold into bars (5.0), drop on the eleven warmest (15.4), outro under the closing number (22.4). Effects: a soft whoosh and thock as the bracket over the last eleven stripes draws and lands (0.35, 0.95), whoosh on the fold, thocks on the 1976 note (7.05) and the 2024 focus (10.95), a soft thock as the next-warmest line draws (18.5), paper swipe and whoosh on the scene changes, ding as the 2024 tick appears over the closing stripes (23.8).",
+  "sample_rate": 48000,
+  "tracks": [
+    {
+      "id": "bed",
+      "kind": "music",
+      "compose": {
+        "style": "cinematic-build",
+        "bpm": 90,
+        "key": "Dm",
+        "sections": "0:intro,5:build,15.4:drop,22.4:outro",
+        "seed": 2
+      },
+      "gain_db": 0,
+      "fade_out": 1.2
+    },
+    {
+      "kind": "sfx",
+      "synth": {
+        "type": "whoosh",
+        "intensity": 0.3,
+        "seed": 11
+      },
+      "at": 0.35,
+      "align": "hit",
+      "gain_db": -9
+    },
+    {
+      "kind": "sfx",
+      "synth": {
+        "type": "thock",
+        "intensity": 0.5,
+        "seed": 12
+      },
+      "at": 0.95,
+      "align": "hit",
+      "gain_db": -8
+    },
+    {
+      "kind": "sfx",
+      "synth": {
+        "type": "whoosh",
+        "intensity": 0.4,
+        "seed": 2
+      },
+      "at": 5.15,
+      "align": "hit",
+      "gain_db": -9
+    },
+    {
+      "kind": "sfx",
+      "synth": {
+        "type": "thock",
+        "intensity": 0.5,
+        "seed": 4
+      },
+      "at": 7.05,
+      "align": "hit",
+      "gain_db": -8
+    },
+    {
+      "kind": "sfx",
+      "synth": {
+        "type": "thock",
+        "intensity": 0.6,
+        "seed": 7
+      },
+      "at": 10.95,
+      "align": "hit",
+      "gain_db": -6
+    },
+    {
+      "kind": "sfx",
+      "synth": {
+        "type": "paper-swipe",
+        "seed": 3
+      },
+      "at": 15.4,
+      "align": "hit",
+      "gain_db": -7
+    },
+    {
+      "kind": "sfx",
+      "synth": {
+        "type": "thock",
+        "intensity": 0.45,
+        "seed": 9
+      },
+      "at": 18.5,
+      "align": "hit",
+      "gain_db": -9
+    },
+    {
+      "kind": "sfx",
+      "synth": {
+        "type": "whoosh",
+        "intensity": 0.35,
+        "seed": 5
+      },
+      "at": 22.4,
+      "align": "hit",
+      "gain_db": -9
+    },
+    {
+      "kind": "sfx",
+      "synth": {
+        "type": "ding",
+        "key": "D",
+        "seed": 5
+      },
+      "at": 23.8,
+      "align": "hit",
+      "gain_db": -6
+    }
+  ],
+  "master": {
+    "lufs": -14,
+    "true_peak": -1
+  }
+}

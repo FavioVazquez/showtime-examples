@@ -1,0 +1,141 @@
+{
+  "source": "vo.wav",
+  "duration": 7.348,
+  "language": "en",
+  "model": "showtime-voice",
+  "words": [
+    {
+      "text": "No",
+      "start": 0.34,
+      "end": 0.59,
+      "type": "word",
+      "line": "watch"
+    },
+    {
+      "text": "one",
+      "start": 0.59,
+      "end": 0.886,
+      "type": "word",
+      "line": "watch"
+    },
+    {
+      "text": "would",
+      "start": 0.948,
+      "end": 1.045,
+      "type": "word",
+      "line": "watch"
+    },
+    {
+      "text": "have",
+      "start": 1.045,
+      "end": 1.141,
+      "type": "word",
+      "line": "watch"
+    },
+    {
+      "text": "believed",
+      "start": 1.195,
+      "end": 1.85,
+      "type": "word",
+      "line": "watch"
+    },
+    {
+      "text": "in",
+      "start": 1.98,
+      "end": 2.047,
+      "type": "word",
+      "line": "watch"
+    },
+    {
+      "text": "the",
+      "start": 2.047,
+      "end": 2.128,
+      "type": "word",
+      "line": "watch"
+    },
+    {
+      "text": "last",
+      "start": 2.202,
+      "end": 2.558,
+      "type": "word",
+      "line": "watch"
+    },
+    {
+      "text": "years",
+      "start": 2.619,
+      "end": 2.954,
+      "type": "word",
+      "line": "watch"
+    },
+    {
+      "text": "of",
+      "start": 2.99,
+      "end": 3.088,
+      "type": "word",
+      "line": "watch"
+    },
+    {
+      "text": "the",
+      "start": 3.088,
+      "end": 3.16,
+      "type": "word",
+      "line": "watch"
+    },
+    {
+      "text": "nineteenth",
+      "start": 3.214,
+      "end": 3.709,
+      "type": "word",
+      "line": "watch"
+    },
+    {
+      "text": "century",
+      "start": 3.771,
+      "end": 4.4,
+      "type": "word",
+      "line": "watch"
+    },
+    {
+      "text": "that",
+      "start": 4.78,
+      "end": 4.866,
+      "type": "word",
+      "line": "watch"
+    },
+    {
+      "text": "this",
+      "start": 4.92,
+      "end": 5.134,
+      "type": "word",
+      "line": "watch"
+    },
+    {
+      "text": "world",
+      "start": 5.216,
+      "end": 5.647,
+      "type": "word",
+      "line": "watch"
+    },
+    {
+      "text": "was",
+      "start": 5.73,
+      "end": 5.849,
+      "type": "word",
+      "line": "watch"
+    },
+    {
+      "text": "being",
+      "start": 5.92,
+      "end": 6.145,
+      "type": "word",
+      "line": "watch"
+    },
+    {
+      "text": "watched",
+      "start": 6.228,
+      "end": 6.778,
+      "type": "word",
+      "line": "watch"
+    }
+  ]
+}

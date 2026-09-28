@@ -1,0 +1,124 @@
+1
+00:00:00,340 --> 00:00:02,110
+Cette abeille donne
+des directions.
+
+2
+00:00:02,360 --> 00:00:03,835
+Sa danse indique à la colonie
+
+3
+00:00:03,892 --> 00:00:05,262
+où se trouve la nourriture.
+
+4
+00:00:06,087 --> 00:00:07,743
+Dans la ruche, il fait noir,
+
+5
+00:00:07,847 --> 00:00:09,567
+et le rayon est un mur vertical.
+
+6
+00:00:09,807 --> 00:00:10,977
+D'ici, elle ne peut pas
+
+7
+00:00:10,979 --> 00:00:11,949
+montrer les fleurs.
+
+8
+00:00:12,147 --> 00:00:13,287
+Alors, elle danse.
+
+9
+00:00:14,315 --> 00:00:15,968
+Sur le rayon, tout droit vers le
+
+10
+00:00:15,999 --> 00:00:17,855
+haut signifie: vers le soleil.
+
+11
+00:00:18,125 --> 00:00:19,981
+Si la nourriture
+est à quarante-cinq
+
+12
+00:00:20,033 --> 00:00:21,515
+degrés à droite du soleil,
+
+13
+00:00:21,665 --> 00:00:21,844
+sa
+
+14
+00:00:21,905 --> 00:00:25,675
+course frétillante penche de quarante-cinq
+degrés à droite de la verticale.
+
+15
+00:00:25,925 --> 00:00:27,389
+Quand le soleil se déplace,
+
+16
+00:00:27,525 --> 00:00:28,685
+elle ajuste son angle.
+
+17
+00:00:29,721 --> 00:00:31,535
+Elle répète la
+boucle, en tournant
+
+18
+00:00:31,581 --> 00:00:33,791
+à gauche, puis à
+droite: un huit.
+
+19
+00:00:34,050 --> 00:00:36,281
+La course frétillante
+porte la distance.
+
+20
+00:00:36,441 --> 00:00:37,861
+Plus la nourriture est loin,
+
+21
+00:00:37,861 --> 00:00:39,331
+plus elle frétille longtemps.
+
+22
+00:00:40,006 --> 00:00:42,052
+Si la nourriture
+est tout près, à une
+
+23
+00:00:42,102 --> 00:00:44,056
+dizaine de mètres,
+elle danse en rond.
+
+24
+00:00:44,326 --> 00:00:46,096
+Au-delà d'environ
+quarante mètres,
+
+25
+00:00:46,236 --> 00:00:48,356
+le cercle s'étire en
+danse frétillante.
+
+26
+00:00:49,273 --> 00:00:51,702
+Karl von Frisch,
+l'éthologue autrichien
+
+27
+00:00:51,743 --> 00:00:54,803
+qui a partagé le
+prix Nobel 1973,
+
+28
+00:00:55,053 --> 00:00:56,973
+fut l'un des premiers
+à la déchiffrer.

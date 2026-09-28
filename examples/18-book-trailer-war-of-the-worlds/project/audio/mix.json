@@ -1,0 +1,491 @@
+{
+ "duration": 30.0,
+ "tracks": [
+  {
+   "id": "bed",
+   "kind": "music",
+   "file": "audio/score.wav",
+   "gain_db": 3,
+   "section_gain": {
+    "build": 2
+   },
+   "duck": {
+    "under": [
+     "voice",
+     "braam-drop",
+     "key1",
+     "key2",
+     "key3",
+     "key4",
+     "key6",
+     "key7",
+     "key8",
+     "key9",
+     "key11",
+     "key12",
+     "key13",
+     "key15",
+     "key16",
+     "key17",
+     "key18",
+     "key19",
+     "key21",
+     "key22",
+     "key24",
+     "key25",
+     "key26",
+     "key28",
+     "key29",
+     "key30",
+     "key31",
+     "key32",
+     "key34",
+     "key35",
+     "key36",
+     "key37",
+     "key38",
+     "key39",
+     "key40",
+     "key42",
+     "key43",
+     "key44",
+     "key45",
+     "key46"
+    ],
+    "depth_db": 8,
+    "carve": 0.4,
+    "release": 0.9
+   },
+   "fade_out": 1.2
+  },
+  {
+   "id": "voice",
+   "kind": "voice",
+   "file": "voice/vo.wav",
+   "start": 0
+  },
+  {
+   "id": "wind",
+   "kind": "ambience",
+   "lib": "oga-space-winds",
+   "start": 0,
+   "end": 11.0,
+   "fade_in": 0.05,
+   "fade_out": 2.5,
+   "gain_db": 2
+  },
+  {
+   "id": "wind-tail",
+   "kind": "ambience",
+   "lib": "oga-space-winds",
+   "offset": 14.0,
+   "start": 26.314,
+   "end": 30.0,
+   "fade_in": 1.4,
+   "fade_out": 1.6,
+   "gain_db": -3
+  },
+  {
+   "id": "braam-open",
+   "kind": "sfx",
+   "file": "audio/sfx/braam-open.wav",
+   "at": 0.0,
+   "align": "hit",
+   "gain_db": -5
+  },
+  {
+   "id": "boom-star",
+   "kind": "sfx",
+   "file": "audio/sfx/boom-star.wav",
+   "at": 8.571,
+   "align": "hit",
+   "gain_db": -3
+  },
+  {
+   "id": "key1",
+   "kind": "sfx",
+   "file": "audio/sfx/key-2.wav",
+   "at": 11.1778,
+   "align": "hit",
+   "gain_db": 6,
+   "pan": 0.25
+  },
+  {
+   "id": "key2",
+   "kind": "sfx",
+   "file": "audio/sfx/key-3.wav",
+   "at": 11.2333,
+   "align": "hit",
+   "gain_db": 6,
+   "pan": 0.25
+  },
+  {
+   "id": "key3",
+   "kind": "sfx",
+   "file": "audio/sfx/key-4.wav",
+   "at": 11.2889,
+   "align": "hit",
+   "gain_db": 6,
+   "pan": 0.25
+  },
+  {
+   "id": "key4",
+   "kind": "sfx",
+   "file": "audio/sfx/key-1.wav",
+   "at": 11.3444,
+   "align": "hit",
+   "gain_db": 6,
+   "pan": 0.25
+  },
+  {
+   "id": "key6",
+   "kind": "sfx",
+   "file": "audio/sfx/key-3.wav",
+   "at": 11.4556,
+   "align": "hit",
+   "gain_db": 6,
+   "pan": 0.25
+  },
+  {
+   "id": "key7",
+   "kind": "sfx",
+   "file": "audio/sfx/key-4.wav",
+   "at": 11.5111,
+   "align": "hit",
+   "gain_db": 6,
+   "pan": 0.25
+  },
+  {
+   "id": "key8",
+   "kind": "sfx",
+   "file": "audio/sfx/key-1.wav",
+   "at": 11.5667,
+   "align": "hit",
+   "gain_db": 6,
+   "pan": 0.25
+  },
+  {
+   "id": "key9",
+   "kind": "sfx",
+   "file": "audio/sfx/key-2.wav",
+   "at": 11.6222,
+   "align": "hit",
+   "gain_db": 6,
+   "pan": 0.25
+  },
+  {
+   "id": "key11",
+   "kind": "sfx",
+   "file": "audio/sfx/key-4.wav",
+   "at": 11.7333,
+   "align": "hit",
+   "gain_db": 6,
+   "pan": 0.25
+  },
+  {
+   "id": "key12",
+   "kind": "sfx",
+   "file": "audio/sfx/key-1.wav",
+   "at": 11.7889,
+   "align": "hit",
+   "gain_db": 6,
+   "pan": 0.25
+  },
+  {
+   "id": "key13",
+   "kind": "sfx",
+   "file": "audio/sfx/key-2.wav",
+   "at": 11.8444,
+   "align": "hit",
+   "gain_db": 6,
+   "pan": 0.25
+  },
+  {
+   "id": "key15",
+   "kind": "sfx",
+   "file": "audio/sfx/key-4.wav",
+   "at": 11.9556,
+   "align": "hit",
+   "gain_db": 6,
+   "pan": 0.25
+  },
+  {
+   "id": "key16",
+   "kind": "sfx",
+   "file": "audio/sfx/key-1.wav",
+   "at": 12.0111,
+   "align": "hit",
+   "gain_db": 6,
+   "pan": 0.25
+  },
+  {
+   "id": "key17",
+   "kind": "sfx",
+   "file": "audio/sfx/key-2.wav",
+   "at": 12.0667,
+   "align": "hit",
+   "gain_db": 6,
+   "pan": 0.25
+  },
+  {
+   "id": "key18",
+   "kind": "sfx",
+   "file": "audio/sfx/key-3.wav",
+   "at": 12.1222,
+   "align": "hit",
+   "gain_db": 6,
+   "pan": 0.25
+  },
+  {
+   "id": "key19",
+   "kind": "sfx",
+   "file": "audio/sfx/key-4.wav",
+   "at": 12.1778,
+   "align": "hit",
+   "gain_db": 6,
+   "pan": 0.25
+  },
+  {
+   "id": "key21",
+   "kind": "sfx",
+   "file": "audio/sfx/key-2.wav",
+   "at": 12.2889,
+   "align": "hit",
+   "gain_db": 6,
+   "pan": 0.25
+  },
+  {
+   "id": "key22",
+   "kind": "sfx",
+   "file": "audio/sfx/key-3.wav",
+   "at": 12.3444,
+   "align": "hit",
+   "gain_db": 6,
+   "pan": 0.25
+  },
+  {
+   "id": "key24",
+   "kind": "sfx",
+   "file": "audio/sfx/key-1.wav",
+   "at": 12.4556,
+   "align": "hit",
+   "gain_db": 6,
+   "pan": 0.25
+  },
+  {
+   "id": "key25",
+   "kind": "sfx",
+   "file": "audio/sfx/key-2.wav",
+   "at": 12.5111,
+   "align": "hit",
+   "gain_db": 6,
+   "pan": 0.25
+  },
+  {
+   "id": "key26",
+   "kind": "sfx",
+   "file": "audio/sfx/key-3.wav",
+   "at": 12.5667,
+   "align": "hit",
+   "gain_db": 6,
+   "pan": 0.25
+  },
+  {
+   "id": "key28",
+   "kind": "sfx",
+   "file": "audio/sfx/key-1.wav",
+   "at": 12.6778,
+   "align": "hit",
+   "gain_db": 6,
+   "pan": 0.25
+  },
+  {
+   "id": "key29",
+   "kind": "sfx",
+   "file": "audio/sfx/key-2.wav",
+   "at": 12.7333,
+   "align": "hit",
+   "gain_db": 6,
+   "pan": 0.25
+  },
+  {
+   "id": "key30",
+   "kind": "sfx",
+   "file": "audio/sfx/key-3.wav",
+   "at": 12.7889,
+   "align": "hit",
+   "gain_db": 6,
+   "pan": 0.25
+  },
+  {
+   "id": "key31",
+   "kind": "sfx",
+   "file": "audio/sfx/key-4.wav",
+   "at": 12.8444,
+   "align": "hit",
+   "gain_db": 6,
+   "pan": 0.25
+  },
+  {
+   "id": "key32",
+   "kind": "sfx",
+   "file": "audio/sfx/key-1.wav",
+   "at": 12.9,
+   "align": "hit",
+   "gain_db": 6,
+   "pan": 0.25
+  },
+  {
+   "id": "key34",
+   "kind": "sfx",
+   "file": "audio/sfx/key-3.wav",
+   "at": 13.0111,
+   "align": "hit",
+   "gain_db": 6,
+   "pan": 0.25
+  },
+  {
+   "id": "key35",
+   "kind": "sfx",
+   "file": "audio/sfx/key-4.wav",
+   "at": 13.0667,
+   "align": "hit",
+   "gain_db": 6,
+   "pan": 0.25
+  },
+  {
+   "id": "key36",
+   "kind": "sfx",
+   "file": "audio/sfx/key-1.wav",
+   "at": 13.1222,
+   "align": "hit",
+   "gain_db": 6,
+   "pan": 0.25
+  },
+  {
+   "id": "key37",
+   "kind": "sfx",
+   "file": "audio/sfx/key-2.wav",
+   "at": 13.1778,
+   "align": "hit",
+   "gain_db": 6,
+   "pan": 0.25
+  },
+  {
+   "id": "key38",
+   "kind": "sfx",
+   "file": "audio/sfx/key-3.wav",
+   "at": 13.2333,
+   "align": "hit",
+   "gain_db": 6,
+   "pan": 0.25
+  },
+  {
+   "id": "key39",
+   "kind": "sfx",
+   "file": "audio/sfx/key-4.wav",
+   "at": 13.2889,
+   "align": "hit",
+   "gain_db": 6,
+   "pan": 0.25
+  },
+  {
+   "id": "key40",
+   "kind": "sfx",
+   "file": "audio/sfx/key-1.wav",
+   "at": 13.3444,
+   "align": "hit",
+   "gain_db": 6,
+   "pan": 0.25
+  },
+  {
+   "id": "key42",
+   "kind": "sfx",
+   "file": "audio/sfx/key-3.wav",
+   "at": 13.4556,
+   "align": "hit",
+   "gain_db": 6,
+   "pan": 0.25
+  },
+  {
+   "id": "key43",
+   "kind": "sfx",
+   "file": "audio/sfx/key-4.wav",
+   "at": 13.5111,
+   "align": "hit",
+   "gain_db": 6,
+   "pan": 0.25
+  },
+  {
+   "id": "key44",
+   "kind": "sfx",
+   "file": "audio/sfx/key-1.wav",
+   "at": 13.5667,
+   "align": "hit",
+   "gain_db": 6,
+   "pan": 0.25
+  },
+  {
+   "id": "key45",
+   "kind": "sfx",
+   "file": "audio/sfx/key-2.wav",
+   "at": 13.6222,
+   "align": "hit",
+   "gain_db": 6,
+   "pan": 0.25
+  },
+  {
+   "id": "key46",
+   "kind": "sfx",
+   "file": "audio/sfx/key-3.wav",
+   "at": 13.6778,
+   "align": "hit",
+   "gain_db": 6,
+   "pan": 0.25
+  },
+  {
+   "id": "riser",
+   "kind": "sfx",
+   "file": "audio/sfx/riser.wav",
+   "at": 20.0,
+   "align": "hit",
+   "gain_db": -2
+  },
+  {
+   "id": "reverse-hit",
+   "kind": "sfx",
+   "file": "audio/sfx/reverse-hit.wav",
+   "at": 20.0,
+   "align": "hit",
+   "gain_db": -2
+  },
+  {
+   "id": "braam-drop",
+   "kind": "sfx",
+   "file": "audio/sfx/braam-drop.wav",
+   "at": 20.0,
+   "align": "hit",
+   "gain_db": 3
+  },
+  {
+   "id": "impact",
+   "kind": "sfx",
+   "file": "audio/sfx/impact.wav",
+   "at": 20.0,
+   "align": "hit",
+   "gain_db": -5
+  },
+  {
+   "id": "boom-title",
+   "kind": "sfx",
+   "file": "audio/sfx/boom-title.wav",
+   "at": 25.714,
+   "align": "hit",
+   "gain_db": -1
+  }
+ ],
+ "master": {
+  "lufs": -14,
+  "true_peak": -1
+ }
+}

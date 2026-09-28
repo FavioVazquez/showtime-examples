@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="Tidepool">
+  <defs>
+    <linearGradient id="tp-bg" x1="8" y1="4" x2="56" y2="60" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#22B8B0"/>
+      <stop offset="1" stop-color="#0B5F6B"/>
+    </linearGradient>
+    <clipPath id="tp-clip"><rect x="2" y="2" width="60" height="60" rx="18"/></clipPath>
+  </defs>
+  <rect x="2" y="2" width="60" height="60" rx="18" fill="url(#tp-bg)"/>
+  <g clip-path="url(#tp-clip)">
+    <path d="M-2 40c5.5 0 5.5-5 11-5s5.5 5 11 5 5.5-5 11-5 5.5 5 11 5 5.5-5 11-5 5.5 5 11 5V66H-2z" fill="#0A4C57" opacity=".55"/>
+    <path d="M-2 47c5.5 0 5.5-5 11-5s5.5 5 11 5 5.5-5 11-5 5.5 5 11 5 5.5-5 11-5 5.5 5 11 5V66H-2z" fill="#083E48" opacity=".7"/>
+  </g>
+  <path d="M12 33c3.3 0 3.3-4 6.7-4s3.3 4 6.6 4 3.4-4 6.7-4 3.3 4 6.7 4 3.3-4 6.6-4 3.4 4 6.7 4" fill="none" stroke="#FFFFFF" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="42" cy="18" r="6" fill="#FFB38A"/>
+</svg>

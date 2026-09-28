@@ -1,0 +1,23 @@
+{
+  "source": "nasa",
+  "source_label": "NASA Image and Video Library",
+  "id": "nasa:jsc2023m000095_Christina_Koch_Artemis_II_Crew_Announcement_Resource_Reel-social",
+  "title": "jsc2023m000095_Christina_Koch_Artemis_II_Crew_Announcement_Resource_Reel-social",
+  "author": "NASA/JSC",
+  "author_url": null,
+  "license": "Public domain (NASA media)",
+  "license_url": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+  "landing_url": "https://images.nasa.gov/details/jsc2023m000095_Christina_Koch_Artemis_II_Crew_Announcement_Resource_Reel-social",
+  "note": "NASA media: no endorsement implied; do not use NASA logos or insignia. Check the description for third-party copyright notices.",
+  "type": "video",
+  "file_url": "https://images-assets.nasa.gov/video/jsc2023m000095_Christina_Koch_Artemis_II_Crew_Announcement_Resource_Reel-social/jsc2023m000095_Christina_Koch_Artemis_II_Crew_Announcement_Resource_Reel-social~large.mp4",
+  "captions": [
+    "https://images-assets.nasa.gov/video/jsc2023m000095_Christina_Koch_Artemis_II_Crew_Announcement_Resource_Reel-social/jsc2023m000095_Christina_Koch_Artemis_II_Crew_Announcement_Resource_Reel-social.srt"
+  ],
+  "sha256": "28c93e4326abc682d09d5175364f4610dcee779d1f8f72311f076988b5f52764",
+  "fetched": "2026-09-26T14:09:27",
+  "license_class": "free",
+  "attribution_required": false,
+  "credit": "\"jsc2023m000095_Christina_Koch_Artemis_II_Crew_Announcement_Resource_Reel-social\" by NASA/JSC via NASA Image and Video Library (Public domain (NASA media)) - https://images.nasa.gov/details/jsc2023m000095_Christina_Koch_Artemis_II_Crew_Announcement_Resource_Reel-social",
+  "file": "jsc2023m000095_Christina_Koch_Artemis_II_Crew_Announcement_Resource_Reel-social.mp4"
+}

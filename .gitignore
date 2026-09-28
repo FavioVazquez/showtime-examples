@@ -1,0 +1,67 @@
+# Render outputs and scratch
+showtime-out/
+# work folders showtime writes inside projects and jobs (check, snap, render scratch)
+**/work/
+*.work/
+*.part
+showtime-bug-report.md
+**/studio/.state/
+
+# Dependencies and environments
+node_modules/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Media: videos up to 10 MB are committed. Every file over 10 MB and every .mov under examples/
+# is an asset of this repository's media release, listed in examples/MEDIA.json and
+# excluded by the managed block at the end (python scripts/publish_media.py --refresh).
+*.mp4
+!examples/**/*.mp4
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# BEGIN example media published as release assets (scripts/publish_media.py --refresh; do not edit)
+# every .mov/.prores under examples/ is a release asset, whatever its size
+examples/**/*.mov
+examples/**/*.prores
+/examples/01-launch-tidepool/final.mp4
+/examples/02-explainer-heat-pump/final.mp4
+/examples/03-explainer-heat-pump-es/final.mp4
+/examples/04-tutorial-tidepool/final.mp4
+/examples/06-footage-edit-nasa/final-16x9.mp4
+/examples/06-footage-edit-nasa/final.mp4
+/examples/07-data-story/final.mp4
+/examples/08-beat-montage/final.mp4
+/examples/09-studio-trailer/final.mp4
+/examples/10-launch-showtime/final.mp4
+/examples/11-tutorial-series-tidepool/episode-01/final.mp4
+/examples/11-tutorial-series-tidepool/episode-02/final.mp4
+/examples/12-energy-report/final.mp4
+/examples/13-wikipedia-waggle-dance/danse-fretillante.html
+/examples/13-wikipedia-waggle-dance/final-fr.mp4
+/examples/13-wikipedia-waggle-dance/final.mp4
+/examples/13-wikipedia-waggle-dance/waggle-dance.html
+/examples/14-usgs-kilauea-pdf/final-es.mp4
+/examples/14-usgs-kilauea-pdf/final.mp4
+/examples/15-oss-release-black/final.mp4
+/examples/16-podcast-audiogram/final.mp4
+/examples/17-product-promo-teapot/final.mp4
+/examples/18-book-trailer-war-of-the-worlds/final-teaser-9x16.mp4
+/examples/18-book-trailer-war-of-the-worlds/final.mp4
+/examples/19-travel-slideshow-iceland/final-9x16.mp4
+/examples/19-travel-slideshow-iceland/final.mp4
+/examples/21-tutorial-studio-board/final.mp4
+/examples/_brand/sting-square.mp4
+/examples/_brand/sting.mp4
+/examples/_launch/launch-16x9.html
+/examples/_launch/launch-16x9.mp4
+/examples/_launch/launch-1x1.mp4
+/examples/_launch/launch-9x16.mp4
+# END example media

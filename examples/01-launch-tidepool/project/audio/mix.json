@@ -1,0 +1,180 @@
+{
+ "_comment": "Tidepool launch: composed corporate-minimal bed (G, 110 bpm) with sections on the scene cuts, plus one small sound family: water drops (the tide-pool motif: hook lines, the ripple into the landing page, the saved task, and the logo landing on the bed's final tonic hit at 17.7 s), key clicks and soft swooshes. Times are on the video timeline (write plays the recording at 1.75x, the task is checked at 13.95 s; scene starts: hook 0, reveal 3.2, search 6.6, write 10.8, close 16.6).",
+ "sample_rate": 48000,
+ "duration": 20.0,
+ "tracks": [
+  {
+   "id": "bed",
+   "kind": "music",
+   "compose": {
+    "style": "corporate-minimal",
+    "key": "G",
+    "sections": "0:verse,3.2:build,6.6:chorus,16.6:outro",
+    "seed": 1
+   },
+   "gain_db": 1,
+   "fade_out": 0.8
+  },
+  {
+   "kind": "sfx",
+   "synth": {
+    "type": "water-drop",
+    "seed": 1
+   },
+   "at": 0.05,
+   "align": "hit",
+   "gain_db": -7
+  },
+  {
+   "kind": "sfx",
+   "synth": {
+    "type": "water-drop",
+    "seed": 2
+   },
+   "at": 1.3,
+   "align": "hit",
+   "gain_db": -7
+  },
+  {
+   "kind": "sfx",
+   "synth": {
+    "type": "swell",
+    "key": "G",
+    "dur": 1.6,
+    "intensity": 0.4,
+    "seed": 3
+   },
+   "at": 3.3,
+   "align": "hit",
+   "gain_db": -9
+  },
+  {
+   "kind": "sfx",
+   "synth": {
+    "type": "water-drop",
+    "seed": 4
+   },
+   "at": 3.3,
+   "align": "hit",
+   "gain_db": -3
+  },
+  {
+   "kind": "sfx",
+   "synth": {
+    "type": "swoosh-in",
+    "intensity": 0.35,
+    "seed": 5
+   },
+   "at": 6.6,
+   "align": "hit",
+   "gain_db": -9
+  },
+  {
+   "kind": "sfx",
+   "synth": {
+    "type": "keyclick",
+    "seed": 6
+   },
+   "at": 7.0,
+   "align": "hit",
+   "gain_db": -3
+  },
+  {
+   "kind": "sfx",
+   "synth": {
+    "type": "keyclick",
+    "seed": 7
+   },
+   "at": 7.8,
+   "align": "hit",
+   "gain_db": -8
+  },
+  {
+   "kind": "sfx",
+   "synth": {
+    "type": "keyclick",
+    "seed": 8
+   },
+   "at": 8.08,
+   "align": "hit",
+   "gain_db": -8
+  },
+  {
+   "kind": "sfx",
+   "synth": {
+    "type": "keyclick",
+    "seed": 9
+   },
+   "at": 8.33,
+   "align": "hit",
+   "gain_db": -8
+  },
+  {
+   "kind": "sfx",
+   "synth": {
+    "type": "click",
+    "seed": 10
+   },
+   "at": 9.67,
+   "align": "hit",
+   "gain_db": -4
+  },
+  {
+   "kind": "sfx",
+   "synth": {
+    "type": "swoosh-in",
+    "intensity": 0.35,
+    "seed": 11
+   },
+   "at": 10.8,
+   "align": "hit",
+   "gain_db": -9
+  },
+  {
+   "kind": "sfx",
+   "synth": {
+    "type": "typing",
+    "dur": 2.35,
+    "intensity": 0.45,
+    "seed": 22
+   },
+   "at": 10.9,
+   "align": "start",
+   "gain_db": -12
+  },
+  {
+   "kind": "sfx",
+   "synth": {
+    "type": "toggle",
+    "seed": 16
+   },
+   "at": 13.95,
+   "align": "hit",
+   "gain_db": -2
+  },
+  {
+   "kind": "sfx",
+   "synth": {
+    "type": "water-drop",
+    "seed": 17
+   },
+   "at": 14.02,
+   "align": "hit",
+   "gain_db": -6
+  },
+  {
+   "kind": "sfx",
+   "synth": {
+    "type": "water-drop",
+    "seed": 18
+   },
+   "at": 17.7,
+   "align": "hit",
+   "gain_db": -4
+  }
+ ],
+ "master": {
+  "lufs": -14,
+  "true_peak": -1
+ }
+}

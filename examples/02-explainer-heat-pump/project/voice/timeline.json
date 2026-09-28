@@ -1,0 +1,1514 @@
+{
+  "version": 1,
+  "file": "vo.wav",
+  "sample_rate": 48000,
+  "duration": 44.58,
+  "lead_in": 0.35,
+  "tail": 2.2,
+  "loudness": -16.07,
+  "script": "../narration.md",
+  "lines": [
+    {
+      "id": "hook",
+      "index": 1,
+      "text": "It's freezing outside. So how can that air heat your home?",
+      "source_text": "It's freezing outside. So how can that air heat your home?",
+      "voice": "af_heart",
+      "engine": "kokoro",
+      "lang": "en-us",
+      "speed": 0.981,
+      "style": "neutral",
+      "start": 0.35,
+      "end": 3.847,
+      "duration": 3.497,
+      "speech_start": 0.38,
+      "speech_end": 3.457,
+      "pause_after": 0.4,
+      "slot": {
+        "start": 0.35,
+        "end": 4.247,
+        "duration": 3.897
+      },
+      "file": "lines/01-hook.wav",
+      "timing": "exact",
+      "wps": 3.575,
+      "words": [
+        {
+          "text": "It's",
+          "start": 0.38,
+          "end": 0.53,
+          "line": "hook"
+        },
+        {
+          "text": "freezing",
+          "start": 0.584,
+          "end": 0.942,
+          "line": "hook"
+        },
+        {
+          "text": "outside.",
+          "start": 0.993,
+          "end": 1.58,
+          "line": "hook"
+        },
+        {
+          "text": "So",
+          "start": 1.84,
+          "end": 1.974,
+          "line": "hook"
+        },
+        {
+          "text": "how",
+          "start": 2.025,
+          "end": 2.188,
+          "line": "hook"
+        },
+        {
+          "text": "can",
+          "start": 2.234,
+          "end": 2.323,
+          "line": "hook"
+        },
+        {
+          "text": "that",
+          "start": 2.358,
+          "end": 2.522,
+          "line": "hook"
+        },
+        {
+          "text": "air",
+          "start": 2.57,
+          "end": 2.735,
+          "line": "hook"
+        },
+        {
+          "text": "heat",
+          "start": 2.787,
+          "end": 2.942,
+          "line": "hook"
+        },
+        {
+          "text": "your",
+          "start": 2.969,
+          "end": 3.048,
+          "line": "hook"
+        },
+        {
+          "text": "home?",
+          "start": 3.096,
+          "end": 3.457,
+          "line": "hook"
+        }
+      ]
+    },
+    {
+      "id": "absolute",
+      "index": 2,
+      "text": "Even freezing air holds heat. Zero Celsius is still far above absolute zero.",
+      "source_text": "Even freezing air holds heat. Zero Celsius is still far above absolute zero.",
+      "voice": "af_heart",
+      "engine": "kokoro",
+      "lang": "en-us",
+      "speed": 0.981,
+      "style": "neutral",
+      "start": 4.247,
+      "end": 9.919,
+      "duration": 5.672,
+      "speech_start": 4.287,
+      "speech_end": 9.509,
+      "pause_after": 0.6,
+      "slot": {
+        "start": 4.247,
+        "end": 10.519,
+        "duration": 6.272
+      },
+      "file": "lines/02-absolute.wav",
+      "timing": "exact",
+      "wps": 2.489,
+      "words": [
+        {
+          "text": "Even",
+          "start": 4.287,
+          "end": 4.531,
+          "line": "absolute"
+        },
+        {
+          "text": "freezing",
+          "start": 4.61,
+          "end": 4.982,
+          "line": "absolute"
+        },
+        {
+          "text": "air",
+          "start": 5.037,
+          "end": 5.253,
+          "line": "absolute"
+        },
+        {
+          "text": "holds",
+          "start": 5.304,
+          "end": 5.583,
+          "line": "absolute"
+        },
+        {
+          "text": "heat.",
+          "start": 5.634,
+          "end": 5.987,
+          "line": "absolute"
+        },
+        {
+          "text": "Zero",
+          "start": 6.407,
+          "end": 6.778,
+          "line": "absolute"
+        },
+        {
+          "text": "Celsius",
+          "start": 6.853,
+          "end": 7.398,
+          "line": "absolute"
+        },
+        {
+          "text": "is",
+          "start": 7.417,
+          "end": 7.53,
+          "line": "absolute"
+        },
+        {
+          "text": "still",
+          "start": 7.617,
+          "end": 7.834,
+          "line": "absolute"
+        },
+        {
+          "text": "far",
+          "start": 7.954,
+          "end": 8.228,
+          "line": "absolute"
+        },
+        {
+          "text": "above",
+          "start": 8.263,
+          "end": 8.489,
+          "line": "absolute"
+        },
+        {
+          "text": "absolute",
+          "start": 8.517,
+          "end": 9.044,
+          "line": "absolute"
+        },
+        {
+          "text": "zero.",
+          "start": 9.094,
+          "end": 9.509,
+          "line": "absolute"
+        }
+      ]
+    },
+    {
+      "id": "loop",
+      "index": 3,
+      "text": "A heat pump moves that heat indoors, with refrigerant circling a sealed loop.",
+      "source_text": "A heat pump moves that heat indoors, with refrigerant circling a sealed loop.",
+      "voice": "af_heart",
+      "engine": "kokoro",
+      "lang": "en-us",
+      "speed": 0.981,
+      "style": "neutral",
+      "start": 10.519,
+      "end": 15.382,
+      "duration": 4.863,
+      "speech_start": 10.549,
+      "speech_end": 14.992,
+      "pause_after": 0.55,
+      "slot": {
+        "start": 10.519,
+        "end": 15.932,
+        "duration": 5.413
+      },
+      "file": "lines/03-loop.wav",
+      "timing": "exact",
+      "wps": 2.926,
+      "words": [
+        {
+          "text": "A",
+          "start": 10.549,
+          "end": 10.598,
+          "line": "loop"
+        },
+        {
+          "text": "heat",
+          "start": 10.67,
+          "end": 10.883,
+          "line": "loop"
+        },
+        {
+          "text": "pump",
+          "start": 10.949,
+          "end": 11.187,
+          "line": "loop"
+        },
+        {
+          "text": "moves",
+          "start": 11.243,
+          "end": 11.523,
+          "line": "loop"
+        },
+        {
+          "text": "that",
+          "start": 11.569,
+          "end": 11.714,
+          "line": "loop"
+        },
+        {
+          "text": "heat",
+          "start": 11.783,
+          "end": 11.965,
+          "line": "loop"
+        },
+        {
+          "text": "indoors,",
+          "start": 12.008,
+          "end": 12.639,
+          "line": "loop"
+        },
+        {
+          "text": "with",
+          "start": 12.929,
+          "end": 13.028,
+          "line": "loop"
+        },
+        {
+          "text": "refrigerant",
+          "start": 13.078,
+          "end": 13.643,
+          "line": "loop"
+        },
+        {
+          "text": "circling",
+          "start": 13.711,
+          "end": 14.151,
+          "line": "loop"
+        },
+        {
+          "text": "a",
+          "start": 14.203,
+          "end": 14.254,
+          "line": "loop"
+        },
+        {
+          "text": "sealed",
+          "start": 14.345,
+          "end": 14.626,
+          "line": "loop"
+        },
+        {
+          "text": "loop.",
+          "start": 14.678,
+          "end": 14.992,
+          "line": "loop"
+        }
+      ]
+    },
+    {
+      "id": "evaporator",
+      "index": 4,
+      "text": "Outside, refrigerant colder than the air soaks up its heat and boils into a gas.",
+      "source_text": "Outside, refrigerant colder than the air soaks up its heat and boils into a gas.",
+      "voice": "af_heart",
+      "engine": "kokoro",
+      "lang": "en-us",
+      "speed": 0.981,
+      "style": "neutral",
+      "start": 15.932,
+      "end": 21.261,
+      "duration": 5.329,
+      "speech_start": 15.962,
+      "speech_end": 20.831,
+      "pause_after": 0.4,
+      "slot": {
+        "start": 15.932,
+        "end": 21.661,
+        "duration": 5.729
+      },
+      "file": "lines/04-evaporator.wav",
+      "timing": "exact",
+      "wps": 3.081,
+      "words": [
+        {
+          "text": "Outside,",
+          "start": 15.962,
+          "end": 16.632,
+          "line": "evaporator"
+        },
+        {
+          "text": "refrigerant",
+          "start": 16.762,
+          "end": 17.286,
+          "line": "evaporator"
+        },
+        {
+          "text": "colder",
+          "start": 17.332,
+          "end": 17.735,
+          "line": "evaporator"
+        },
+        {
+          "text": "than",
+          "start": 17.784,
+          "end": 17.861,
+          "line": "evaporator"
+        },
+        {
+          "text": "the",
+          "start": 17.886,
+          "end": 17.974,
+          "line": "evaporator"
+        },
+        {
+          "text": "air",
+          "start": 18.012,
+          "end": 18.273,
+          "line": "evaporator"
+        },
+        {
+          "text": "soaks",
+          "start": 18.356,
+          "end": 18.606,
+          "line": "evaporator"
+        },
+        {
+          "text": "up",
+          "start": 18.631,
+          "end": 18.731,
+          "line": "evaporator"
+        },
+        {
+          "text": "its",
+          "start": 18.758,
+          "end": 18.881,
+          "line": "evaporator"
+        },
+        {
+          "text": "heat",
+          "start": 18.931,
+          "end": 19.202,
+          "line": "evaporator"
+        },
+        {
+          "text": "and",
+          "start": 19.512,
+          "end": 19.641,
+          "line": "evaporator"
+        },
+        {
+          "text": "boils",
+          "start": 19.702,
+          "end": 20.079,
+          "line": "evaporator"
+        },
+        {
+          "text": "into",
+          "start": 20.104,
+          "end": 20.296,
+          "line": "evaporator"
+        },
+        {
+          "text": "a",
+          "start": 20.333,
+          "end": 20.364,
+          "line": "evaporator"
+        },
+        {
+          "text": "gas.",
+          "start": 20.392,
+          "end": 20.831,
+          "line": "evaporator"
+        }
+      ]
+    },
+    {
+      "id": "compressor",
+      "index": 5,
+      "text": "A compressor squeezes the gas, and its temperature shoots up.",
+      "source_text": "A compressor squeezes the gas, and its temperature shoots up.",
+      "voice": "af_heart",
+      "engine": "kokoro",
+      "lang": "en-us",
+      "speed": 0.981,
+      "style": "neutral",
+      "start": 21.661,
+      "end": 25.361,
+      "duration": 3.699,
+      "speech_start": 21.691,
+      "speech_end": 24.96,
+      "pause_after": 0.4,
+      "slot": {
+        "start": 21.661,
+        "end": 25.761,
+        "duration": 4.099
+      },
+      "file": "lines/05-compressor.wav",
+      "timing": "exact",
+      "wps": 3.059,
+      "words": [
+        {
+          "text": "A",
+          "start": 21.691,
+          "end": 21.721,
+          "line": "compressor"
+        },
+        {
+          "text": "compressor",
+          "start": 21.791,
+          "end": 22.257,
+          "line": "compressor"
+        },
+        {
+          "text": "squeezes",
+          "start": 22.324,
+          "end": 22.749,
+          "line": "compressor"
+        },
+        {
+          "text": "the",
+          "start": 22.801,
+          "end": 22.836,
+          "line": "compressor"
+        },
+        {
+          "text": "gas,",
+          "start": 22.887,
+          "end": 23.341,
+          "line": "compressor"
+        },
+        {
+          "text": "and",
+          "start": 23.551,
+          "end": 23.648,
+          "line": "compressor"
+        },
+        {
+          "text": "its",
+          "start": 23.673,
+          "end": 23.786,
+          "line": "compressor"
+        },
+        {
+          "text": "temperature",
+          "start": 23.831,
+          "end": 24.323,
+          "line": "compressor"
+        },
+        {
+          "text": "shoots",
+          "start": 24.407,
+          "end": 24.657,
+          "line": "compressor"
+        },
+        {
+          "text": "up.",
+          "start": 24.696,
+          "end": 24.96,
+          "line": "compressor"
+        }
+      ]
+    },
+    {
+      "id": "condenser",
+      "index": 6,
+      "text": "Indoors, the hot gas releases that heat into your home and condenses to a liquid.",
+      "source_text": "Indoors, the hot gas releases that heat into your home and condenses to a liquid.",
+      "voice": "af_heart",
+      "engine": "kokoro",
+      "lang": "en-us",
+      "speed": 0.981,
+      "style": "neutral",
+      "start": 25.761,
+      "end": 31.221,
+      "duration": 5.46,
+      "speech_start": 25.791,
+      "speech_end": 30.831,
+      "pause_after": 0.4,
+      "slot": {
+        "start": 25.761,
+        "end": 31.621,
+        "duration": 5.86
+      },
+      "file": "lines/06-condenser.wav",
+      "timing": "exact",
+      "wps": 2.976,
+      "words": [
+        {
+          "text": "Indoors,",
+          "start": 25.791,
+          "end": 26.441,
+          "line": "condenser"
+        },
+        {
+          "text": "the",
+          "start": 26.581,
+          "end": 26.625,
+          "line": "condenser"
+        },
+        {
+          "text": "hot",
+          "start": 26.691,
+          "end": 26.953,
+          "line": "condenser"
+        },
+        {
+          "text": "gas",
+          "start": 27.021,
+          "end": 27.323,
+          "line": "condenser"
+        },
+        {
+          "text": "releases",
+          "start": 27.401,
+          "end": 27.829,
+          "line": "condenser"
+        },
+        {
+          "text": "that",
+          "start": 27.911,
+          "end": 28.049,
+          "line": "condenser"
+        },
+        {
+          "text": "heat",
+          "start": 28.071,
+          "end": 28.338,
+          "line": "condenser"
+        },
+        {
+          "text": "into",
+          "start": 28.401,
+          "end": 28.521,
+          "line": "condenser"
+        },
+        {
+          "text": "your",
+          "start": 28.553,
+          "end": 28.64,
+          "line": "condenser"
+        },
+        {
+          "text": "home",
+          "start": 28.691,
+          "end": 29.051,
+          "line": "condenser"
+        },
+        {
+          "text": "and",
+          "start": 29.361,
+          "end": 29.461,
+          "line": "condenser"
+        },
+        {
+          "text": "condenses",
+          "start": 29.512,
+          "end": 30.125,
+          "line": "condenser"
+        },
+        {
+          "text": "to",
+          "start": 30.161,
+          "end": 30.267,
+          "line": "condenser"
+        },
+        {
+          "text": "a",
+          "start": 30.311,
+          "end": 30.35,
+          "line": "condenser"
+        },
+        {
+          "text": "liquid.",
+          "start": 30.401,
+          "end": 30.831,
+          "line": "condenser"
+        }
+      ]
+    },
+    {
+      "id": "valve",
+      "index": 7,
+      "text": "An expansion valve drops the pressure, the liquid goes cold, and the loop repeats.",
+      "source_text": "An expansion valve drops the pressure, the liquid goes cold, and the loop repeats.",
+      "voice": "af_heart",
+      "engine": "kokoro",
+      "lang": "en-us",
+      "speed": 0.981,
+      "style": "neutral",
+      "start": 31.621,
+      "end": 36.876,
+      "duration": 5.255,
+      "speech_start": 31.661,
+      "speech_end": 36.456,
+      "pause_after": 0.6,
+      "slot": {
+        "start": 31.621,
+        "end": 37.476,
+        "duration": 5.855
+      },
+      "file": "lines/07-valve.wav",
+      "timing": "exact",
+      "wps": 2.92,
+      "words": [
+        {
+          "text": "An",
+          "start": 31.661,
+          "end": 31.713,
+          "line": "valve"
+        },
+        {
+          "text": "expansion",
+          "start": 31.762,
+          "end": 32.339,
+          "line": "valve"
+        },
+        {
+          "text": "valve",
+          "start": 32.39,
+          "end": 32.702,
+          "line": "valve"
+        },
+        {
+          "text": "drops",
+          "start": 32.771,
+          "end": 33.056,
+          "line": "valve"
+        },
+        {
+          "text": "the",
+          "start": 33.111,
+          "end": 33.141,
+          "line": "valve"
+        },
+        {
+          "text": "pressure,",
+          "start": 33.211,
+          "end": 33.681,
+          "line": "valve"
+        },
+        {
+          "text": "the",
+          "start": 33.981,
+          "end": 34.054,
+          "line": "valve"
+        },
+        {
+          "text": "liquid",
+          "start": 34.106,
+          "end": 34.409,
+          "line": "valve"
+        },
+        {
+          "text": "goes",
+          "start": 34.441,
+          "end": 34.702,
+          "line": "valve"
+        },
+        {
+          "text": "cold,",
+          "start": 34.761,
+          "end": 35.281,
+          "line": "valve"
+        },
+        {
+          "text": "and",
+          "start": 35.461,
+          "end": 35.557,
+          "line": "valve"
+        },
+        {
+          "text": "the",
+          "start": 35.583,
+          "end": 35.637,
+          "line": "valve"
+        },
+        {
+          "text": "loop",
+          "start": 35.688,
+          "end": 35.879,
+          "line": "valve"
+        },
+        {
+          "text": "repeats.",
+          "start": 35.881,
+          "end": 36.456,
+          "line": "valve"
+        }
+      ]
+    },
+    {
+      "id": "payoff",
+      "index": 8,
+      "text": "Moving heat beats making it. You usually get more heat out than electricity in.",
+      "source_text": "Moving heat beats making it. You usually get more heat out than electricity in.",
+      "voice": "af_heart",
+      "engine": "kokoro",
+      "lang": "en-us",
+      "speed": 0.981,
+      "style": "neutral",
+      "start": 37.476,
+      "end": 42.38,
+      "duration": 4.904,
+      "speech_start": 37.516,
+      "speech_end": 41.97,
+      "pause_after": 0.4,
+      "slot": {
+        "start": 37.476,
+        "end": 44.58,
+        "duration": 7.104
+      },
+      "file": "lines/08-payoff.wav",
+      "timing": "exact",
+      "wps": 3.143,
+      "words": [
+        {
+          "text": "Moving",
+          "start": 37.516,
+          "end": 37.861,
+          "line": "payoff"
+        },
+        {
+          "text": "heat",
+          "start": 37.94,
+          "end": 38.174,
+          "line": "payoff"
+        },
+        {
+          "text": "beats",
+          "start": 38.256,
+          "end": 38.495,
+          "line": "payoff"
+        },
+        {
+          "text": "making",
+          "start": 38.546,
+          "end": 38.855,
+          "line": "payoff"
+        },
+        {
+          "text": "it.",
+          "start": 38.92,
+          "end": 39.136,
+          "line": "payoff"
+        },
+        {
+          "text": "You",
+          "start": 39.496,
+          "end": 39.54,
+          "line": "payoff"
+        },
+        {
+          "text": "usually",
+          "start": 39.604,
+          "end": 39.957,
+          "line": "payoff"
+        },
+        {
+          "text": "get",
+          "start": 40.008,
+          "end": 40.145,
+          "line": "payoff"
+        },
+        {
+          "text": "more",
+          "start": 40.196,
+          "end": 40.38,
+          "line": "payoff"
+        },
+        {
+          "text": "heat",
+          "start": 40.458,
+          "end": 40.647,
+          "line": "payoff"
+        },
+        {
+          "text": "out",
+          "start": 40.688,
+          "end": 40.882,
+          "line": "payoff"
+        },
+        {
+          "text": "than",
+          "start": 40.946,
+          "end": 41.012,
+          "line": "payoff"
+        },
+        {
+          "text": "electricity",
+          "start": 41.059,
+          "end": 41.652,
+          "line": "payoff"
+        },
+        {
+          "text": "in.",
+          "start": 41.699,
+          "end": 41.97,
+          "line": "payoff"
+        }
+      ]
+    }
+  ],
+  "words": [
+    {
+      "text": "It's",
+      "start": 0.38,
+      "end": 0.53,
+      "line": "hook"
+    },
+    {
+      "text": "freezing",
+      "start": 0.584,
+      "end": 0.942,
+      "line": "hook"
+    },
+    {
+      "text": "outside.",
+      "start": 0.993,
+      "end": 1.58,
+      "line": "hook"
+    },
+    {
+      "text": "So",
+      "start": 1.84,
+      "end": 1.974,
+      "line": "hook"
+    },
+    {
+      "text": "how",
+      "start": 2.025,
+      "end": 2.188,
+      "line": "hook"
+    },
+    {
+      "text": "can",
+      "start": 2.234,
+      "end": 2.323,
+      "line": "hook"
+    },
+    {
+      "text": "that",
+      "start": 2.358,
+      "end": 2.522,
+      "line": "hook"
+    },
+    {
+      "text": "air",
+      "start": 2.57,
+      "end": 2.735,
+      "line": "hook"
+    },
+    {
+      "text": "heat",
+      "start": 2.787,
+      "end": 2.942,
+      "line": "hook"
+    },
+    {
+      "text": "your",
+      "start": 2.969,
+      "end": 3.048,
+      "line": "hook"
+    },
+    {
+      "text": "home?",
+      "start": 3.096,
+      "end": 3.457,
+      "line": "hook"
+    },
+    {
+      "text": "Even",
+      "start": 4.287,
+      "end": 4.531,
+      "line": "absolute"
+    },
+    {
+      "text": "freezing",
+      "start": 4.61,
+      "end": 4.982,
+      "line": "absolute"
+    },
+    {
+      "text": "air",
+      "start": 5.037,
+      "end": 5.253,
+      "line": "absolute"
+    },
+    {
+      "text": "holds",
+      "start": 5.304,
+      "end": 5.583,
+      "line": "absolute"
+    },
+    {
+      "text": "heat.",
+      "start": 5.634,
+      "end": 5.987,
+      "line": "absolute"
+    },
+    {
+      "text": "Zero",
+      "start": 6.407,
+      "end": 6.778,
+      "line": "absolute"
+    },
+    {
+      "text": "Celsius",
+      "start": 6.853,
+      "end": 7.398,
+      "line": "absolute"
+    },
+    {
+      "text": "is",
+      "start": 7.417,
+      "end": 7.53,
+      "line": "absolute"
+    },
+    {
+      "text": "still",
+      "start": 7.617,
+      "end": 7.834,
+      "line": "absolute"
+    },
+    {
+      "text": "far",
+      "start": 7.954,
+      "end": 8.228,
+      "line": "absolute"
+    },
+    {
+      "text": "above",
+      "start": 8.263,
+      "end": 8.489,
+      "line": "absolute"
+    },
+    {
+      "text": "absolute",
+      "start": 8.517,
+      "end": 9.044,
+      "line": "absolute"
+    },
+    {
+      "text": "zero.",
+      "start": 9.094,
+      "end": 9.509,
+      "line": "absolute"
+    },
+    {
+      "text": "A",
+      "start": 10.549,
+      "end": 10.598,
+      "line": "loop"
+    },
+    {
+      "text": "heat",
+      "start": 10.67,
+      "end": 10.883,
+      "line": "loop"
+    },
+    {
+      "text": "pump",
+      "start": 10.949,
+      "end": 11.187,
+      "line": "loop"
+    },
+    {
+      "text": "moves",
+      "start": 11.243,
+      "end": 11.523,
+      "line": "loop"
+    },
+    {
+      "text": "that",
+      "start": 11.569,
+      "end": 11.714,
+      "line": "loop"
+    },
+    {
+      "text": "heat",
+      "start": 11.783,
+      "end": 11.965,
+      "line": "loop"
+    },
+    {
+      "text": "indoors,",
+      "start": 12.008,
+      "end": 12.639,
+      "line": "loop"
+    },
+    {
+      "text": "with",
+      "start": 12.929,
+      "end": 13.028,
+      "line": "loop"
+    },
+    {
+      "text": "refrigerant",
+      "start": 13.078,
+      "end": 13.643,
+      "line": "loop"
+    },
+    {
+      "text": "circling",
+      "start": 13.711,
+      "end": 14.151,
+      "line": "loop"
+    },
+    {
+      "text": "a",
+      "start": 14.203,
+      "end": 14.254,
+      "line": "loop"
+    },
+    {
+      "text": "sealed",
+      "start": 14.345,
+      "end": 14.626,
+      "line": "loop"
+    },
+    {
+      "text": "loop.",
+      "start": 14.678,
+      "end": 14.992,
+      "line": "loop"
+    },
+    {
+      "text": "Outside,",
+      "start": 15.962,
+      "end": 16.632,
+      "line": "evaporator"
+    },
+    {
+      "text": "refrigerant",
+      "start": 16.762,
+      "end": 17.286,
+      "line": "evaporator"
+    },
+    {
+      "text": "colder",
+      "start": 17.332,
+      "end": 17.735,
+      "line": "evaporator"
+    },
+    {
+      "text": "than",
+      "start": 17.784,
+      "end": 17.861,
+      "line": "evaporator"
+    },
+    {
+      "text": "the",
+      "start": 17.886,
+      "end": 17.974,
+      "line": "evaporator"
+    },
+    {
+      "text": "air",
+      "start": 18.012,
+      "end": 18.273,
+      "line": "evaporator"
+    },
+    {
+      "text": "soaks",
+      "start": 18.356,
+      "end": 18.606,
+      "line": "evaporator"
+    },
+    {
+      "text": "up",
+      "start": 18.631,
+      "end": 18.731,
+      "line": "evaporator"
+    },
+    {
+      "text": "its",
+      "start": 18.758,
+      "end": 18.881,
+      "line": "evaporator"
+    },
+    {
+      "text": "heat",
+      "start": 18.931,
+      "end": 19.202,
+      "line": "evaporator"
+    },
+    {
+      "text": "and",
+      "start": 19.512,
+      "end": 19.641,
+      "line": "evaporator"
+    },
+    {
+      "text": "boils",
+      "start": 19.702,
+      "end": 20.079,
+      "line": "evaporator"
+    },
+    {
+      "text": "into",
+      "start": 20.104,
+      "end": 20.296,
+      "line": "evaporator"
+    },
+    {
+      "text": "a",
+      "start": 20.333,
+      "end": 20.364,
+      "line": "evaporator"
+    },
+    {
+      "text": "gas.",
+      "start": 20.392,
+      "end": 20.831,
+      "line": "evaporator"
+    },
+    {
+      "text": "A",
+      "start": 21.691,
+      "end": 21.721,
+      "line": "compressor"
+    },
+    {
+      "text": "compressor",
+      "start": 21.791,
+      "end": 22.257,
+      "line": "compressor"
+    },
+    {
+      "text": "squeezes",
+      "start": 22.324,
+      "end": 22.749,
+      "line": "compressor"
+    },
+    {
+      "text": "the",
+      "start": 22.801,
+      "end": 22.836,
+      "line": "compressor"
+    },
+    {
+      "text": "gas,",
+      "start": 22.887,
+      "end": 23.341,
+      "line": "compressor"
+    },
+    {
+      "text": "and",
+      "start": 23.551,
+      "end": 23.648,
+      "line": "compressor"
+    },
+    {
+      "text": "its",
+      "start": 23.673,
+      "end": 23.786,
+      "line": "compressor"
+    },
+    {
+      "text": "temperature",
+      "start": 23.831,
+      "end": 24.323,
+      "line": "compressor"
+    },
+    {
+      "text": "shoots",
+      "start": 24.407,
+      "end": 24.657,
+      "line": "compressor"
+    },
+    {
+      "text": "up.",
+      "start": 24.696,
+      "end": 24.96,
+      "line": "compressor"
+    },
+    {
+      "text": "Indoors,",
+      "start": 25.791,
+      "end": 26.441,
+      "line": "condenser"
+    },
+    {
+      "text": "the",
+      "start": 26.581,
+      "end": 26.625,
+      "line": "condenser"
+    },
+    {
+      "text": "hot",
+      "start": 26.691,
+      "end": 26.953,
+      "line": "condenser"
+    },
+    {
+      "text": "gas",
+      "start": 27.021,
+      "end": 27.323,
+      "line": "condenser"
+    },
+    {
+      "text": "releases",
+      "start": 27.401,
+      "end": 27.829,
+      "line": "condenser"
+    },
+    {
+      "text": "that",
+      "start": 27.911,
+      "end": 28.049,
+      "line": "condenser"
+    },
+    {
+      "text": "heat",
+      "start": 28.071,
+      "end": 28.338,
+      "line": "condenser"
+    },
+    {
+      "text": "into",
+      "start": 28.401,
+      "end": 28.521,
+      "line": "condenser"
+    },
+    {
+      "text": "your",
+      "start": 28.553,
+      "end": 28.64,
+      "line": "condenser"
+    },
+    {
+      "text": "home",
+      "start": 28.691,
+      "end": 29.051,
+      "line": "condenser"
+    },
+    {
+      "text": "and",
+      "start": 29.361,
+      "end": 29.461,
+      "line": "condenser"
+    },
+    {
+      "text": "condenses",
+      "start": 29.512,
+      "end": 30.125,
+      "line": "condenser"
+    },
+    {
+      "text": "to",
+      "start": 30.161,
+      "end": 30.267,
+      "line": "condenser"
+    },
+    {
+      "text": "a",
+      "start": 30.311,
+      "end": 30.35,
+      "line": "condenser"
+    },
+    {
+      "text": "liquid.",
+      "start": 30.401,
+      "end": 30.831,
+      "line": "condenser"
+    },
+    {
+      "text": "An",
+      "start": 31.661,
+      "end": 31.713,
+      "line": "valve"
+    },
+    {
+      "text": "expansion",
+      "start": 31.762,
+      "end": 32.339,
+      "line": "valve"
+    },
+    {
+      "text": "valve",
+      "start": 32.39,
+      "end": 32.702,
+      "line": "valve"
+    },
+    {
+      "text": "drops",
+      "start": 32.771,
+      "end": 33.056,
+      "line": "valve"
+    },
+    {
+      "text": "the",
+      "start": 33.111,
+      "end": 33.141,
+      "line": "valve"
+    },
+    {
+      "text": "pressure,",
+      "start": 33.211,
+      "end": 33.681,
+      "line": "valve"
+    },
+    {
+      "text": "the",
+      "start": 33.981,
+      "end": 34.054,
+      "line": "valve"
+    },
+    {
+      "text": "liquid",
+      "start": 34.106,
+      "end": 34.409,
+      "line": "valve"
+    },
+    {
+      "text": "goes",
+      "start": 34.441,
+      "end": 34.702,
+      "line": "valve"
+    },
+    {
+      "text": "cold,",
+      "start": 34.761,
+      "end": 35.281,
+      "line": "valve"
+    },
+    {
+      "text": "and",
+      "start": 35.461,
+      "end": 35.557,
+      "line": "valve"
+    },
+    {
+      "text": "the",
+      "start": 35.583,
+      "end": 35.637,
+      "line": "valve"
+    },
+    {
+      "text": "loop",
+      "start": 35.688,
+      "end": 35.879,
+      "line": "valve"
+    },
+    {
+      "text": "repeats.",
+      "start": 35.881,
+      "end": 36.456,
+      "line": "valve"
+    },
+    {
+      "text": "Moving",
+      "start": 37.516,
+      "end": 37.861,
+      "line": "payoff"
+    },
+    {
+      "text": "heat",
+      "start": 37.94,
+      "end": 38.174,
+      "line": "payoff"
+    },
+    {
+      "text": "beats",
+      "start": 38.256,
+      "end": 38.495,
+      "line": "payoff"
+    },
+    {
+      "text": "making",
+      "start": 38.546,
+      "end": 38.855,
+      "line": "payoff"
+    },
+    {
+      "text": "it.",
+      "start": 38.92,
+      "end": 39.136,
+      "line": "payoff"
+    },
+    {
+      "text": "You",
+      "start": 39.496,
+      "end": 39.54,
+      "line": "payoff"
+    },
+    {
+      "text": "usually",
+      "start": 39.604,
+      "end": 39.957,
+      "line": "payoff"
+    },
+    {
+      "text": "get",
+      "start": 40.008,
+      "end": 40.145,
+      "line": "payoff"
+    },
+    {
+      "text": "more",
+      "start": 40.196,
+      "end": 40.38,
+      "line": "payoff"
+    },
+    {
+      "text": "heat",
+      "start": 40.458,
+      "end": 40.647,
+      "line": "payoff"
+    },
+    {
+      "text": "out",
+      "start": 40.688,
+      "end": 40.882,
+      "line": "payoff"
+    },
+    {
+      "text": "than",
+      "start": 40.946,
+      "end": 41.012,
+      "line": "payoff"
+    },
+    {
+      "text": "electricity",
+      "start": 41.059,
+      "end": 41.652,
+      "line": "payoff"
+    },
+    {
+      "text": "in.",
+      "start": 41.699,
+      "end": 41.97,
+      "line": "payoff"
+    }
+  ],
+  "captions": {
+    "srt": "vo.srt",
+    "transcript": "vo.words.json",
+    "cues": 18
+  },
+  "build_seconds": 51.39,
+  "lexicon": [
+    "showtime:lib/st/voice/lexicon.json"
+  ],
+  "fit": {
+    "target": 45.0,
+    "before": 44.25,
+    "speed_factor": 0.981,
+    "pauses_trimmed": 0.0,
+    "tail_padded": 0.0,
+    "over": 0.0,
+    "under": 0.0,
+    "cut_words": 0,
+    "add_words": 0,
+    "tolerance": 0.45,
+    "words": 105,
+    "wps": 2.99,
+    "result": 44.58
+  }
+}

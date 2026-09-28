@@ -1,0 +1,16 @@
+{
+  "source": "fontsource",
+  "source_label": "Fontsource",
+  "id": "special-elite",
+  "title": "Special Elite",
+  "license": "Apache-2.0",
+  "license_url": "https://spdx.org/licenses/Apache-2.0.html",
+  "landing_url": "https://fontsource.org/fonts/special-elite",
+  "license_text": "LICENSE.txt",
+  "license_text_source": "https://raw.githubusercontent.com/google/fonts/main/apache/specialelite/LICENSE.txt",
+  "fetched": "2026-09-27T15:35:50",
+  "license_class": "free",
+  "attribution_required": false,
+  "credit": "\"Special Elite\" via Fontsource (Apache-2.0) - https://fontsource.org/fonts/special-elite",
+  "file": "special-elite"
+}

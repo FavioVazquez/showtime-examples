@@ -1,0 +1,60 @@
+<!doctype html>
+<!-- C1 "Low tide": typography only. The logo's wave line is the horizon; real seed-note titles surface under it.
+   Render: showtime studio frame <job> --concept c1 --html comps/c1.html --shots hook,titles,end -->
+<html lang="en"><head><meta charset="utf-8">
+<link rel="stylesheet" href="/_st/themes/fonts/inter.css">
+<link rel="stylesheet" href="/_st/themes/fonts/instrument-serif.css">
+<link rel="stylesheet" href="tp.css">
+<style>
+  .sea { position: absolute; inset: 0; background:
+      linear-gradient(180deg, #03171C 0%, #06262D 40%, #0B3E47 46.4%, #06262D 47%, #031419 100%); }
+  .horizon { position: absolute; left: -40px; top: 470px; width: 2000px; height: 80px; overflow: visible; }
+  .horizon { filter: drop-shadow(0 0 14px rgba(60,197,192,.7)); }
+  .title { position: absolute; left: 0; right: 0; text-align: center; font-family: var(--serif); color: var(--foam); letter-spacing: -.01em; }
+  .refl { transform: scaleY(-1); opacity: .16; filter: blur(4px); }
+  .card { position: absolute; left: 0; right: 0; text-align: center; font: italic 400 96px/1 var(--serif); color: var(--foam); }
+  .sun { position: absolute; left: 960px; top: 505px; width: 150px; height: 150px; margin: -75px 0 0 -75px; border-radius: 50%;
+         background: var(--sun); box-shadow: 0 0 90px 30px rgba(255,179,138,.35), 0 0 260px 90px rgba(255,179,138,.16); }
+  .sunclip { position: absolute; left: 0; top: 0; width: 1920px; height: 505px; overflow: hidden; }
+  .name { position: absolute; left: 0; right: 0; top: 590px; text-align: center; font: 400 188px/1 var(--serif); color: #fff; letter-spacing: -.015em; }
+  .tag { position: absolute; left: 0; right: 0; top: 810px; text-align: center; font: 500 40px/1 var(--sans); color: var(--mist); }
+</style></head>
+<body>
+  <svg width="0" height="0" style="position:absolute"><defs>
+    <path id="wave" fill="none" stroke="#fff" stroke-width="5" stroke-linecap="round" d="M0 40 C 80 40 80 12 160 12 S 240 40 320 40 S 400 12 480 12 S 560 40 640 40 S 720 12 800 12 S 880 40 960 40 S 1040 12 1120 12 S 1200 40 1280 40 S 1360 12 1440 12 S 1520 40 1600 40 S 1680 12 1760 12 S 1840 40 1920 40 S 2000 12 2080 12"/></defs></svg>
+
+  <section class="shot" data-shot="hook">
+    <div class="sea"></div>
+    <svg class="horizon" viewBox="0 0 2000 80"><use href="#wave"/></svg>
+    <div class="title" style="top:572px; font-size:132px">Q4 planning draft</div>
+    <div class="title refl" style="top:716px; font-size:132px">Q4 planning draft</div>
+    <div class="grade"></div><div class="vignette"></div><div class="grain"></div>
+  </section>
+
+  <section class="shot" data-shot="titles">
+    <div class="sea"></div>
+    <div class="card" style="top:250px">Everything you write</div>
+    <svg class="horizon" viewBox="0 0 2000 80"><use href="#wave"/></svg>
+    <div class="title" style="top:575px; font-size:84px; opacity:.95">Standup, Sep 24</div>
+    <div class="title" style="top:680px; font-size:64px; opacity:.7; filter:blur(1px); transform:translateX(-380px)">Sourdough schedule</div>
+    <div class="title" style="top:690px; font-size:58px; opacity:.6; filter:blur(1.5px); transform:translateX(420px)">Reading list: autumn</div>
+    <div class="title" style="top:790px; font-size:46px; opacity:.4; filter:blur(2.5px); transform:translateX(-120px)">Snippet: debounce</div>
+    <div class="title" style="top:870px; font-size:38px; opacity:.26; filter:blur(3.5px); transform:translateX(300px)">Weekly review</div>
+    <div class="grade"></div><div class="vignette"></div><div class="grain"></div>
+  </section>
+
+  <section class="shot" data-shot="end">
+    <div class="sea"></div>
+    <div class="sunclip"><div class="sun" style="top:470px"></div></div>
+    <svg class="horizon" viewBox="0 0 2000 80"><use href="#wave"/></svg>
+    <div class="name">Tidepool</div>
+    <div class="tag">Your notes, kept on your own machine.</div>
+    <div class="fictional">A fictional app, made as showtime sample material.</div>
+    <div class="grade"></div><div class="vignette"></div><div class="grain"></div>
+  </section>
+<script>
+  var want = new URLSearchParams(location.search).get('shot'), hit = false;
+  document.querySelectorAll('[data-shot]').forEach(function (s) { if (s.dataset.shot === want) { s.classList.add('on'); hit = true; } });
+  if (!hit) document.querySelector('[data-shot]').classList.add('on');
+</script>
+</body></html>

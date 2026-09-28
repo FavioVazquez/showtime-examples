@@ -1,0 +1,22 @@
+{
+ "schema": "showtime.studio.feedback/1",
+ "events": [
+  {
+   "id": "sim_r3_01",
+   "ts": "2026-09-27T22:07:43.000Z",
+   "type": "like",
+   "target": "c1-f4",
+   "rev": 3
+  },
+  {
+   "id": "sim_r3_02",
+   "ts": "2026-09-27T22:07:43.000Z",
+   "type": "answer",
+   "target": "ship",
+   "value": "ship",
+   "rev": 3,
+   "text": "Ship the pack. We decide on replacing sting v1 separately."
+  }
+ ],
+ "_note": "Simulated reviewer round (the director played the user). Each event is stamped with the time this file was written and imported with `showtime studio feedback --import`; events are in the order listed."
+}

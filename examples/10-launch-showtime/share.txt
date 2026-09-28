@@ -1,0 +1,23 @@
+showtime launch video (30 s, 16:9, plus a 1080x1080 version). Made with showtime itself, on one machine.
+
+Default
+You describe the video. Claude directs. showtime does the work on your own machine: scenes rendered frame by frame, local voices, music and sound, and a QA pass before anything ships. No cloud APIs, no API keys, no uploads.
+
+X (under 280 characters)
+You describe the video. Claude directs. showtime makes it on your machine: launch films, explainers, vertical shorts, footage cuts, data stories. No cloud APIs, no API keys, no uploads.
+
+LinkedIn
+A local video studio for Claude Code.
+Describe a video; Claude directs it and showtime renders it on your own machine.
+Voice-over, music, sound effects, captions and a QA check, with no cloud APIs, keys or uploads.
+Every clip in this video is a real render from the examples folder.
+
+YouTube
+Title: showtime: a local video studio for Claude Code (30 s)
+Description: You describe the video, Claude directs, showtime does the work on your machine. Every clip shown is a real render from the repo's examples; the narration was generated locally with Kokoro.
+
+GitHub README
+Caption: A 30-second launch video for showtime, made with showtime. Every clip in it is a real render from examples/.
+Alt text: A prompt reading "Make a 20-second launch video for Tidepool" is typed, and the finished Tidepool launch video plays. A terminal runs showtime audio mix, render and qa, ending on "verdict: PASS". A wall of six example videos lights up (launch film, explainer, vertical short, footage edit, data story, beat montage), then showtime's studio board, where the cursor picks one of three concepts, the lines "No cloud APIs. No API keys. No uploads." over the narration's own waveform, and the showtime logo with its install commands.
+
+Note: the narration is a synthetic voice (Kokoro, af_heart), generated on this machine. Disclose it where the platform asks for an AI-voice label.

@@ -1,0 +1,153 @@
+1
+00:00:04,330 --> 00:00:06,133
+Once you have a
+few notes, finding
+
+2
+00:00:06,165 --> 00:00:07,935
+the right one should
+take a second.
+
+3
+00:00:08,010 --> 00:00:08,751
+Here's how.
+
+4
+00:00:09,901 --> 00:00:12,031
+Press Command K,
+or click Search,
+
+5
+00:00:12,241 --> 00:00:13,661
+to open the command palette.
+
+6
+00:00:14,897 --> 00:00:16,167
+Before you type anything,
+
+7
+00:00:16,407 --> 00:00:18,027
+it lists your most recent notes.
+
+8
+00:00:19,098 --> 00:00:19,918
+Type any word.
+
+9
+00:00:20,318 --> 00:00:21,708
+Tidepool searches titles,
+
+10
+00:00:21,818 --> 00:00:23,225
+text and tags at once.
+
+11
+00:00:24,705 --> 00:00:25,975
+Matches are highlighted,
+
+12
+00:00:26,215 --> 00:00:27,685
+and the best one comes first.
+
+13
+00:00:28,633 --> 00:00:30,753
+Use the arrow keys
+to choose a result,
+
+14
+00:00:31,003 --> 00:00:32,585
+then press Enter to open it.
+
+15
+00:00:34,965 --> 00:00:36,215
+Start with a hash sign,
+
+16
+00:00:36,485 --> 00:00:38,505
+and the palette lists
+your tags instead.
+
+17
+00:00:39,844 --> 00:00:41,458
+Press Enter, and the list shows
+
+18
+00:00:41,524 --> 00:00:42,994
+only the notes with that tag.
+
+19
+00:00:44,344 --> 00:00:45,554
+With the list in focus,
+
+20
+00:00:45,674 --> 00:00:47,434
+J and K step through the notes.
+
+21
+00:00:47,834 --> 00:00:48,879
+No mouse needed.
+
+22
+00:00:50,849 --> 00:00:51,919
+To narrow it further,
+
+23
+00:00:52,036 --> 00:00:53,479
+type in Filter this list.
+
+24
+00:00:53,879 --> 00:00:55,107
+Escape clears it again.
+
+25
+00:00:56,797 --> 00:00:58,147
+The sidebar works too.
+
+26
+00:00:58,557 --> 00:00:59,983
+Click any notebook or tag
+
+27
+00:01:00,032 --> 00:01:01,315
+to filter with one click.
+
+28
+00:01:03,325 --> 00:01:05,047
+Finally, a greater-than sign
+
+29
+00:01:05,100 --> 00:01:06,525
+turns search into commands.
+
+30
+00:01:06,955 --> 00:01:08,200
+Let's try dark mode.
+
+31
+00:01:10,771 --> 00:01:12,417
+Every note, tag and command
+
+32
+00:01:12,464 --> 00:01:13,720
+is one shortcut away.
+
+33
+00:01:14,920 --> 00:01:17,110
+So: Command K
+searches everything,
+
+34
+00:01:17,420 --> 00:01:18,900
+a hash jumps to tags,
+
+35
+00:01:19,150 --> 00:01:20,757
+and greater-than runs commands.
+
+36
+00:01:22,557 --> 00:01:24,127
+Your notes stay on your device,
+
+37
+00:01:24,317 --> 00:01:25,787
+and now they're easy to find.

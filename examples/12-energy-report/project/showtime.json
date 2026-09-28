@@ -1,0 +1,11 @@
+{
+  "title": "US power mix 1950-2025",
+  "width": 1920,
+  "height": 1080,
+  "fps": 30,
+  "duration": 60.103,
+  "background": "#0d0b0a",
+  "poster": 7.6,
+  "audio": "audio/mix.json",
+  "expect": {"must_show": ["672", "652", "2024", "2,016", "2007", "48.5", "2016", "760", "737", "40.8", "17.7", "17.2", "16.6", "Table 7.2a", "August 2026"]}
+}

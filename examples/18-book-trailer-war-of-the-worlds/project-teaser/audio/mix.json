@@ -1,0 +1,82 @@
+{
+ "duration": 15.0,
+ "tracks": [
+  {
+   "id": "bed",
+   "kind": "music",
+   "file": "audio/score.wav",
+   "gain_db": 3,
+   "section_gain": {
+    "build": 2
+   },
+   "duck": {
+    "under": [
+     "voice",
+     "braam-drop"
+    ],
+    "depth_db": 8,
+    "carve": 0.4,
+    "release": 0.9
+   },
+   "fade_out": 0.8
+  },
+  {
+   "id": "voice",
+   "kind": "voice",
+   "file": "voice/vo.wav",
+   "start": 0
+  },
+  {
+   "id": "braam-open",
+   "kind": "sfx",
+   "file": "audio/sfx/braam-open.wav",
+   "at": 0.0,
+   "align": "hit",
+   "gain_db": -5
+  },
+  {
+   "id": "riser",
+   "kind": "sfx",
+   "file": "audio/sfx/riser.wav",
+   "at": 8.6,
+   "align": "hit",
+   "gain_db": -2
+  },
+  {
+   "id": "reverse-hit",
+   "kind": "sfx",
+   "file": "audio/sfx/reverse-hit.wav",
+   "at": 8.6,
+   "align": "hit",
+   "gain_db": -2
+  },
+  {
+   "id": "braam-drop",
+   "kind": "sfx",
+   "file": "audio/sfx/braam-drop.wav",
+   "at": 8.6,
+   "align": "hit",
+   "gain_db": 3
+  },
+  {
+   "id": "impact",
+   "kind": "sfx",
+   "file": "audio/sfx/impact.wav",
+   "at": 8.6,
+   "align": "hit",
+   "gain_db": -5
+  },
+  {
+   "id": "boom-title",
+   "kind": "sfx",
+   "file": "audio/sfx/boom-title.wav",
+   "at": 11.474,
+   "align": "hit",
+   "gain_db": -1
+  }
+ ],
+ "master": {
+  "lufs": -14,
+  "true_peak": -1
+ }
+}

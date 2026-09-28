@@ -1,0 +1,46 @@
+{
+  "id": "special-elite",
+  "family": "Special Elite",
+  "category": "display",
+  "version": "5.3.0",
+  "license": "Apache-2.0",
+  "type": "google",
+  "source": "https://github.com/google/fonts",
+  "axes": null,
+  "subsets": [
+    "latin"
+  ],
+  "weights": [
+    400
+  ],
+  "styles": [
+    "normal"
+  ],
+  "files": [
+    {
+      "file": "special-elite-latin-400-normal.ttf",
+      "weight": 400,
+      "style": "normal",
+      "subset": "latin",
+      "format": "ttf",
+      "variable": false,
+      "url": "https://cdn.jsdelivr.net/fontsource/fonts/special-elite@5.3.0/latin-400-normal.ttf",
+      "sha256": "b591bb28c798bb8fabc4569214173c1294148d3a7320bf1b0ef37084d63f3a6f",
+      "bytes": 117064,
+      "renamed": true
+    },
+    {
+      "file": "special-elite-latin-400-normal.woff2",
+      "weight": 400,
+      "style": "normal",
+      "subset": "latin",
+      "format": "woff2",
+      "variable": false,
+      "url": "https://cdn.jsdelivr.net/fontsource/fonts/special-elite@5.3.0/latin-400-normal.woff2",
+      "sha256": "770493d84cbb753cd0573d0f014550583138f40469d137e310d239593a1949d8",
+      "bytes": 53296
+    }
+  ],
+  "names_fixed": 1,
+  "installed": "2026-09-27T15:35:50"
+}

@@ -1,0 +1,20 @@
+The waggle dance (English, 60 s) - credits
+
+Text adapted from "Waggle dance" by Wikipedia contributors, English Wikipedia, revision 1371912261 (2026-08-29),
+https://en.wikipedia.org/w/index.php?title=Waggle_dance&oldid=1371912261 - licensed CC BY-SA 4.0
+(https://creativecommons.org/licenses/by-sa/4.0/). Changes: summarised, rewritten as narration and animated.
+The source scene shows a text-only copy of that revision (its images and the Wikipedia logo hidden).
+
+Bee footage: Movie S2 from Su S, Cai F, Si A, Zhang S, Tautz J, Chen S (2008) "East Learns from West: Asiatic
+Honeybees Can Understand Dance Language of European Honeybees", PLOS ONE 3(6): e2365,
+https://doi.org/10.1371/journal.pone.0002365 - via Wikimedia Commons
+(https://commons.wikimedia.org/wiki/File:East-Learns-from-West-Asiatic-Honeybees-Can-Understand-Dance-Language-of-European-Honeybees-pone.0002365.s004.ogv),
+CC BY 3.0 (https://creativecommons.org/licenses/by/3.0/). Changes: trimmed, cropped, overlay drawn
+(a ring and a short trail on the red mark's position in each measured frame; the camera follows her).
+
+Voice: Kokoro-82M (af_heart), Apache-2.0, synthesized on this machine.
+Fonts: Fraunces, Inter (SIL Open Font License 1.1), served locally by showtime.
+Music: composed in code for this film with showtime's Synth (no samples, no library tracks).
+Drawings (hive, comb, bees, sun, flowers, diagrams): original, drawn in code for this film.
+
+This video, its script and its project sources are licensed CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/).

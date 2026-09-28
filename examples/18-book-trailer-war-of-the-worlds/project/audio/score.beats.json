@@ -1,0 +1,184 @@
+{
+  "schema": "showtime.beats/1",
+  "source": "composed",
+  "file": "work/score-try/score.wav",
+  "style": "epic-trailer",
+  "key": "Cm",
+  "bpm": 84.003,
+  "requested_bpm": 84.0,
+  "time_signature": 4,
+  "duration": 29.2,
+  "end_hit": 25.7136,
+  "rhythmic": true,
+  "pacing": "beat_cut",
+  "sections": [
+    {
+      "name": "intro",
+      "kind": "intro",
+      "start": 0.0,
+      "end": 10.0,
+      "bars": 4,
+      "beats": 14,
+      "bpm": 84.0,
+      "energy": 0.35
+    },
+    {
+      "name": "build",
+      "kind": "build",
+      "start": 10.0,
+      "end": 20.0,
+      "bars": 4,
+      "beats": 14,
+      "bpm": 84.0,
+      "energy": 0.7
+    },
+    {
+      "name": "drop",
+      "kind": "drop",
+      "start": 20.0,
+      "end": 25.7136,
+      "bars": 2,
+      "beats": 8,
+      "bpm": 84.01,
+      "energy": 1.0
+    }
+  ],
+  "beats": [
+    0.0,
+    0.71429,
+    1.42857,
+    2.14286,
+    2.85714,
+    3.57143,
+    4.28571,
+    5.0,
+    5.71429,
+    6.42857,
+    7.14286,
+    7.85714,
+    8.57143,
+    9.28571,
+    10.0,
+    10.71429,
+    11.42857,
+    12.14286,
+    12.85714,
+    13.57143,
+    14.28571,
+    15.0,
+    15.71429,
+    16.42857,
+    17.14286,
+    17.85714,
+    18.57143,
+    19.28571,
+    20.0,
+    20.7142,
+    21.4284,
+    22.1426,
+    22.8568,
+    23.571,
+    24.2852,
+    24.9994
+  ],
+  "downbeats": [
+    0.0,
+    2.85714,
+    5.71429,
+    8.57143,
+    10.0,
+    12.85714,
+    15.71429,
+    18.57143,
+    20.0,
+    22.8568
+  ],
+  "bars": [
+    {
+      "t": 0.0,
+      "bar": 0,
+      "section": "intro"
+    },
+    {
+      "t": 2.85714,
+      "bar": 1,
+      "section": "intro"
+    },
+    {
+      "t": 5.71429,
+      "bar": 2,
+      "section": "intro"
+    },
+    {
+      "t": 8.57143,
+      "bar": 3,
+      "section": "intro"
+    },
+    {
+      "t": 10.0,
+      "bar": 4,
+      "section": "build"
+    },
+    {
+      "t": 12.85714,
+      "bar": 5,
+      "section": "build"
+    },
+    {
+      "t": 15.71429,
+      "bar": 6,
+      "section": "build"
+    },
+    {
+      "t": 18.57143,
+      "bar": 7,
+      "section": "build"
+    },
+    {
+      "t": 20.0,
+      "bar": 8,
+      "section": "drop"
+    },
+    {
+      "t": 22.8568,
+      "bar": 9,
+      "section": "drop"
+    },
+    {
+      "t": 25.71361,
+      "bar": 10,
+      "section": "END_HIT"
+    }
+  ],
+  "events": [
+    {
+      "t": 10.0,
+      "type": "crash",
+      "section": "build"
+    },
+    {
+      "t": 20.0,
+      "type": "riser_end",
+      "section": "drop"
+    },
+    {
+      "t": 20.0,
+      "type": "impact",
+      "section": "drop"
+    },
+    {
+      "t": 20.0,
+      "type": "crash",
+      "section": "drop"
+    },
+    {
+      "t": 25.7136,
+      "type": "end_hit"
+    }
+  ],
+  "cues": {
+    "intro": 0.0,
+    "build": 10.0,
+    "drop": 20.0
+  }
+}

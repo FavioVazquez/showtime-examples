@@ -1,0 +1,2668 @@
+{
+ "source": "raw/koch-interview.mp4",
+ "duration": 81.0,
+ "language": "en",
+ "language_probability": 1.0,
+ "model": "large-v3-turbo",
+ "engine": "faster-whisper",
+ "audio_track": 0,
+ "text": "I'm Christina Koch, I'm a mission specialist on the Artemis II mission to the moon. When I first found out that I was assigned to Artemis II, my thoughts were disbelief, an immense sense of honor and responsibility, and readiness. I'm ready to try to make everyone proud and to really fulfill what this mission truly means to all humanity. For me, there's never really been a time when I didn't want to be an astronaut. Going back, as far as I can remember, it's what I always dreamed of. I think the spark was really lit when I visited Kennedy Space Center with my family and came home with a bunch of posters that then went up on the walls of my bedroom and became the things that I dreamed of from then on. When I think about the Artemis II crew, my first thought is that I am so privileged to be a part of it. These other astronauts have an amazing history, amazing record, amazing experience, and they're great people. I've known them all for many, many years. I've had a chance to work with them in different capacities, and I think our skills really complement each other. They all have a military background, and I come from a more raw, technical engineering background, and I think that that complements one another really well. I think we'll work together great, and I hope to be someone on the crew that really is that engineering expert, and I hope that that can be the way that I contribute the most.",
+ "version": 1,
+ "cache_key": "69bdaa9aa76331b14a91bb36",
+ "source_hash": "e2370824d7e343b8659a",
+ "created": "2026-09-26T14:15:56",
+ "asr_seconds": 162.24,
+ "stats": {
+  "refine": {
+   "moved": 95,
+   "words": 262,
+   "mean_shift_ms": 37.6,
+   "threshold_db": -42.6
+  },
+  "words": 262,
+  "fillers": 0,
+  "events": 0,
+  "low_confidence": 0,
+  "respread": 0,
+  "levels": {
+   "peak_db": -5.3,
+   "mean_db": -27.8,
+   "floor_db": -52.6,
+   "active_ratio": 0.733
+  }
+ },
+ "guards": {
+  "dropped": [],
+  "warnings": []
+ },
+ "words": [
+  {
+   "text": "I'm",
+   "start": 2.9,
+   "end": 3.05,
+   "conf": 0.939,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w0"
+  },
+  {
+   "text": "Christina",
+   "start": 3.05,
+   "end": 3.39,
+   "conf": 0.826,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w1"
+  },
+  {
+   "text": "Koch,",
+   "start": 3.39,
+   "end": 3.74,
+   "conf": 0.399,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w2"
+  },
+  {
+   "text": " ",
+   "start": 3.74,
+   "end": 4.02,
+   "type": "spacing"
+  },
+  {
+   "text": "I'm",
+   "start": 4.02,
+   "end": 4.15,
+   "conf": 0.967,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w3"
+  },
+  {
+   "text": "a",
+   "start": 4.15,
+   "end": 4.23,
+   "conf": 0.992,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w4"
+  },
+  {
+   "text": "mission",
+   "start": 4.23,
+   "end": 4.45,
+   "conf": 0.807,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w5"
+  },
+  {
+   "text": "specialist",
+   "start": 4.45,
+   "end": 4.99,
+   "conf": 0.995,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w6"
+  },
+  {
+   "text": "on",
+   "start": 4.99,
+   "end": 5.37,
+   "conf": 0.986,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w7"
+  },
+  {
+   "text": "the",
+   "start": 5.37,
+   "end": 5.45,
+   "conf": 0.995,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w8"
+  },
+  {
+   "text": "Artemis",
+   "start": 5.45,
+   "end": 5.83,
+   "conf": 0.98,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w9"
+  },
+  {
+   "text": "II",
+   "start": 5.83,
+   "end": 6.05,
+   "conf": 0.768,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w10"
+  },
+  {
+   "text": "mission",
+   "start": 6.05,
+   "end": 6.37,
+   "conf": 0.878,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w11"
+  },
+  {
+   "text": "to",
+   "start": 6.37,
+   "end": 6.65,
+   "conf": 0.993,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w12"
+  },
+  {
+   "text": "the",
+   "start": 6.65,
+   "end": 6.77,
+   "conf": 0.996,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w13"
+  },
+  {
+   "text": "moon.",
+   "start": 6.77,
+   "end": 7.02,
+   "conf": 0.6,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w14"
+  },
+  {
+   "text": " ",
+   "start": 7.02,
+   "end": 8.33,
+   "type": "spacing"
+  },
+  {
+   "text": "When",
+   "start": 8.33,
+   "end": 8.4,
+   "conf": 0.994,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w15"
+  },
+  {
+   "text": "I",
+   "start": 8.4,
+   "end": 8.5,
+   "conf": 0.996,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w16"
+  },
+  {
+   "text": "first",
+   "start": 8.5,
+   "end": 8.74,
+   "conf": 0.998,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w17"
+  },
+  {
+   "text": "found",
+   "start": 8.74,
+   "end": 8.98,
+   "conf": 0.999,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w18"
+  },
+  {
+   "text": "out",
+   "start": 8.98,
+   "end": 9.22,
+   "conf": 0.99,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w19"
+  },
+  {
+   "text": "that",
+   "start": 9.22,
+   "end": 9.38,
+   "conf": 0.97,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w20"
+  },
+  {
+   "text": "I",
+   "start": 9.38,
+   "end": 9.48,
+   "conf": 0.995,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w21"
+  },
+  {
+   "text": "was",
+   "start": 9.48,
+   "end": 9.6,
+   "conf": 0.999,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w22"
+  },
+  {
+   "text": "assigned",
+   "start": 9.6,
+   "end": 9.88,
+   "conf": 0.998,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w23"
+  },
+  {
+   "text": "to",
+   "start": 9.88,
+   "end": 10.0,
+   "conf": 0.989,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w24"
+  },
+  {
+   "text": "Artemis",
+   "start": 10.01,
+   "end": 10.38,
+   "conf": 0.997,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w25"
+  },
+  {
+   "text": "II,",
+   "start": 10.38,
+   "end": 10.86,
+   "conf": 0.992,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w26"
+  },
+  {
+   "text": " ",
+   "start": 10.86,
+   "end": 10.96,
+   "type": "spacing"
+  },
+  {
+   "text": "my",
+   "start": 10.96,
+   "end": 11.18,
+   "conf": 0.997,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w27"
+  },
+  {
+   "text": "thoughts",
+   "start": 11.18,
+   "end": 11.56,
+   "conf": 0.998,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w28"
+  },
+  {
+   "text": " ",
+   "start": 11.56,
+   "end": 11.61,
+   "type": "spacing"
+  },
+  {
+   "text": "were",
+   "start": 11.61,
+   "end": 11.96,
+   "conf": 0.997,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w29"
+  },
+  {
+   "text": "disbelief,",
+   "start": 11.96,
+   "end": 12.82,
+   "conf": 0.988,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w30"
+  },
+  {
+   "text": " ",
+   "start": 12.82,
+   "end": 13.29,
+   "type": "spacing"
+  },
+  {
+   "text": "an",
+   "start": 13.29,
+   "end": 13.36,
+   "conf": 0.95,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w31"
+  },
+  {
+   "text": "immense",
+   "start": 13.36,
+   "end": 13.63,
+   "conf": 0.998,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w32"
+  },
+  {
+   "text": " ",
+   "start": 13.63,
+   "end": 13.69,
+   "type": "spacing"
+  },
+  {
+   "text": "sense",
+   "start": 13.69,
+   "end": 13.96,
+   "conf": 0.999,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w33"
+  },
+  {
+   "text": "of",
+   "start": 13.96,
+   "end": 14.21,
+   "conf": 0.999,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w34"
+  },
+  {
+   "text": "honor",
+   "start": 14.22,
+   "end": 14.54,
+   "conf": 0.993,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w35"
+  },
+  {
+   "text": "and",
+   "start": 14.54,
+   "end": 15.06,
+   "conf": 0.885,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w36"
+  },
+  {
+   "text": "responsibility,",
+   "start": 15.06,
+   "end": 15.91,
+   "conf": 0.997,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w37"
+  },
+  {
+   "text": " ",
+   "start": 15.91,
+   "end": 16.52,
+   "type": "spacing"
+  },
+  {
+   "text": "and",
+   "start": 16.52,
+   "end": 16.74,
+   "conf": 0.999,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w38"
+  },
+  {
+   "text": "readiness.",
+   "start": 16.74,
+   "end": 17.69,
+   "conf": 0.996,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w39"
+  },
+  {
+   "text": " ",
+   "start": 17.69,
+   "end": 17.81,
+   "type": "spacing"
+  },
+  {
+   "text": "I'm",
+   "start": 17.81,
+   "end": 18.0,
+   "conf": 0.979,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w40"
+  },
+  {
+   "text": "ready",
+   "start": 18.0,
+   "end": 18.22,
+   "conf": 0.998,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w41"
+  },
+  {
+   "text": "to",
+   "start": 18.22,
+   "end": 18.5,
+   "conf": 0.999,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w42"
+  },
+  {
+   "text": "try",
+   "start": 18.5,
+   "end": 18.7,
+   "conf": 0.996,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w43"
+  },
+  {
+   "text": "to",
+   "start": 18.7,
+   "end": 18.82,
+   "conf": 0.981,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w44"
+  },
+  {
+   "text": "make",
+   "start": 18.82,
+   "end": 18.99,
+   "conf": 0.999,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w45"
+  },
+  {
+   "text": " ",
+   "start": 18.99,
+   "end": 19.03,
+   "type": "spacing"
+  },
+  {
+   "text": "everyone",
+   "start": 19.03,
+   "end": 19.3,
+   "conf": 0.998,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w46"
+  },
+  {
+   "text": "proud",
+   "start": 19.3,
+   "end": 19.68,
+   "conf": 0.999,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w47"
+  },
+  {
+   "text": "and",
+   "start": 19.68,
+   "end": 20.36,
+   "conf": 0.7,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w48"
+  },
+  {
+   "text": "to",
+   "start": 20.36,
+   "end": 20.6,
+   "conf": 0.995,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w49"
+  },
+  {
+   "text": "really",
+   "start": 20.6,
+   "end": 20.84,
+   "conf": 0.995,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w50"
+  },
+  {
+   "text": "fulfill",
+   "start": 20.84,
+   "end": 21.18,
+   "conf": 0.985,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w51"
+  },
+  {
+   "text": "what",
+   "start": 21.18,
+   "end": 21.58,
+   "conf": 0.999,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w52"
+  },
+  {
+   "text": "this",
+   "start": 21.58,
+   "end": 21.76,
+   "conf": 0.997,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w53"
+  },
+  {
+   "text": "mission",
+   "start": 21.76,
+   "end": 22.02,
+   "conf": 0.998,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w54"
+  },
+  {
+   "text": "truly",
+   "start": 22.02,
+   "end": 22.28,
+   "conf": 0.995,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w55"
+  },
+  {
+   "text": "means",
+   "start": 22.28,
+   "end": 22.56,
+   "conf": 0.999,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w56"
+  },
+  {
+   "text": "to",
+   "start": 22.56,
+   "end": 22.72,
+   "conf": 0.995,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w57"
+  },
+  {
+   "text": "all",
+   "start": 22.72,
+   "end": 22.84,
+   "conf": 0.997,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w58"
+  },
+  {
+   "text": "humanity.",
+   "start": 22.84,
+   "end": 23.31,
+   "conf": 0.984,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w59"
+  },
+  {
+   "text": " ",
+   "start": 23.31,
+   "end": 24.35,
+   "type": "spacing"
+  },
+  {
+   "text": "For",
+   "start": 24.35,
+   "end": 24.4,
+   "conf": 0.998,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w60"
+  },
+  {
+   "text": "me,",
+   "start": 24.4,
+   "end": 24.62,
+   "conf": 1.0,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w61"
+  },
+  {
+   "text": "there's",
+   "start": 24.62,
+   "end": 24.93,
+   "conf": 0.988,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w62"
+  },
+  {
+   "text": "never",
+   "start": 24.95,
+   "end": 25.12,
+   "conf": 0.996,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w63"
+  },
+  {
+   "text": "really",
+   "start": 25.12,
+   "end": 25.34,
+   "conf": 0.994,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w64"
+  },
+  {
+   "text": "been",
+   "start": 25.34,
+   "end": 25.5,
+   "conf": 0.999,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w65"
+  },
+  {
+   "text": "a",
+   "start": 25.5,
+   "end": 25.63,
+   "conf": 0.998,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w66"
+  },
+  {
+   "text": " ",
+   "start": 25.63,
+   "end": 25.66,
+   "type": "spacing"
+  },
+  {
+   "text": "time",
+   "start": 25.66,
+   "end": 25.84,
+   "conf": 1.0,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w67"
+  },
+  {
+   "text": "when",
+   "start": 25.84,
+   "end": 26.02,
+   "conf": 0.987,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w68"
+  },
+  {
+   "text": "I",
+   "start": 26.02,
+   "end": 26.14,
+   "conf": 0.998,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w69"
+  },
+  {
+   "text": "didn't",
+   "start": 26.14,
+   "end": 26.42,
+   "conf": 0.998,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w70"
+  },
+  {
+   "text": "want",
+   "start": 26.42,
+   "end": 26.5,
+   "conf": 0.948,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w71"
+  },
+  {
+   "text": "to",
+   "start": 26.5,
+   "end": 26.6,
+   "conf": 0.999,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w72"
+  },
+  {
+   "text": "be",
+   "start": 26.6,
+   "end": 26.7,
+   "conf": 0.999,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w73"
+  },
+  {
+   "text": "an",
+   "start": 26.7,
+   "end": 26.84,
+   "conf": 0.998,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w74"
+  },
+  {
+   "text": "astronaut.",
+   "start": 26.84,
+   "end": 27.32,
+   "conf": 0.996,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w75"
+  },
+  {
+   "text": " ",
+   "start": 27.32,
+   "end": 27.46,
+   "type": "spacing"
+  },
+  {
+   "text": "Going",
+   "start": 27.46,
+   "end": 27.64,
+   "conf": 0.987,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w76"
+  },
+  {
+   "text": "back,",
+   "start": 27.64,
+   "end": 27.9,
+   "conf": 0.999,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w77"
+  },
+  {
+   "text": " ",
+   "start": 27.9,
+   "end": 27.97,
+   "type": "spacing"
+  },
+  {
+   "text": "as",
+   "start": 27.97,
+   "end": 28.08,
+   "conf": 0.998,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w78"
+  },
+  {
+   "text": " ",
+   "start": 28.08,
+   "end": 28.15,
+   "type": "spacing"
+  },
+  {
+   "text": "far",
+   "start": 28.15,
+   "end": 28.22,
+   "conf": 0.999,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w79"
+  },
+  {
+   "text": "as",
+   "start": 28.22,
+   "end": 28.36,
+   "conf": 0.996,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w80"
+  },
+  {
+   "text": "I",
+   "start": 28.36,
+   "end": 28.44,
+   "conf": 0.998,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w81"
+  },
+  {
+   "text": "can",
+   "start": 28.44,
+   "end": 28.56,
+   "conf": 0.991,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w82"
+  },
+  {
+   "text": "remember,",
+   "start": 28.56,
+   "end": 28.93,
+   "conf": 0.998,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w83"
+  },
+  {
+   "text": "it's",
+   "start": 28.93,
+   "end": 29.4,
+   "conf": 0.993,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w84"
+  },
+  {
+   "text": "what",
+   "start": 29.4,
+   "end": 29.58,
+   "conf": 0.998,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w85"
+  },
+  {
+   "text": "I",
+   "start": 29.58,
+   "end": 29.7,
+   "conf": 0.999,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w86"
+  },
+  {
+   "text": "always",
+   "start": 29.7,
+   "end": 30.0,
+   "conf": 0.994,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w87"
+  },
+  {
+   "text": "dreamed",
+   "start": 30.0,
+   "end": 30.28,
+   "conf": 0.996,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w88"
+  },
+  {
+   "text": "of.",
+   "start": 30.28,
+   "end": 30.58,
+   "conf": 0.999,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w89"
+  },
+  {
+   "text": " ",
+   "start": 30.58,
+   "end": 31.21,
+   "type": "spacing"
+  },
+  {
+   "text": "I",
+   "start": 31.21,
+   "end": 31.32,
+   "conf": 0.976,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w90"
+  },
+  {
+   "text": "think",
+   "start": 31.32,
+   "end": 31.54,
+   "conf": 0.998,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w91"
+  },
+  {
+   "text": "the",
+   "start": 31.54,
+   "end": 31.74,
+   "conf": 0.989,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w92"
+  },
+  {
+   "text": "spark",
+   "start": 31.74,
+   "end": 31.99,
+   "conf": 0.984,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w93"
+  },
+  {
+   "text": " ",
+   "start": 31.99,
+   "end": 32.08,
+   "type": "spacing"
+  },
+  {
+   "text": "was",
+   "start": 32.08,
+   "end": 32.2,
+   "conf": 0.998,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w94"
+  },
+  {
+   "text": "really",
+   "start": 32.2,
+   "end": 32.44,
+   "conf": 0.996,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w95"
+  },
+  {
+   "text": "lit",
+   "start": 32.44,
+   "end": 32.72,
+   "conf": 0.996,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w96"
+  },
+  {
+   "text": "when",
+   "start": 32.72,
+   "end": 32.94,
+   "conf": 0.994,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w97"
+  },
+  {
+   "text": "I",
+   "start": 32.94,
+   "end": 33.06,
+   "conf": 0.997,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w98"
+  },
+  {
+   "text": "visited",
+   "start": 33.06,
+   "end": 33.4,
+   "conf": 0.996,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w99"
+  },
+  {
+   "text": "Kennedy",
+   "start": 33.4,
+   "end": 33.84,
+   "conf": 0.993,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w100"
+  },
+  {
+   "text": "Space",
+   "start": 33.84,
+   "end": 34.1,
+   "conf": 0.995,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w101"
+  },
+  {
+   "text": "Center",
+   "start": 34.1,
+   "end": 34.4,
+   "conf": 0.997,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w102"
+  },
+  {
+   "text": "with",
+   "start": 34.4,
+   "end": 34.57,
+   "conf": 0.995,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w103"
+  },
+  {
+   "text": " ",
+   "start": 34.57,
+   "end": 34.66,
+   "type": "spacing"
+  },
+  {
+   "text": "my",
+   "start": 34.66,
+   "end": 34.76,
+   "conf": 0.998,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w104"
+  },
+  {
+   "text": "family",
+   "start": 34.76,
+   "end": 35.14,
+   "conf": 0.999,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w105"
+  },
+  {
+   "text": "and",
+   "start": 35.14,
+   "end": 35.32,
+   "conf": 0.908,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w106"
+  },
+  {
+   "text": "came",
+   "start": 35.32,
+   "end": 35.52,
+   "conf": 0.997,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w107"
+  },
+  {
+   "text": "home",
+   "start": 35.52,
+   "end": 35.72,
+   "conf": 0.999,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w108"
+  },
+  {
+   "text": "with",
+   "start": 35.72,
+   "end": 35.86,
+   "conf": 0.999,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w109"
+  },
+  {
+   "text": " ",
+   "start": 35.86,
+   "end": 35.91,
+   "type": "spacing"
+  },
+  {
+   "text": "a",
+   "start": 35.91,
+   "end": 35.98,
+   "conf": 0.999,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w110"
+  },
+  {
+   "text": "bunch",
+   "start": 35.98,
+   "end": 36.1,
+   "conf": 0.999,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w111"
+  },
+  {
+   "text": "of",
+   "start": 36.1,
+   "end": 36.24,
+   "conf": 0.999,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w112"
+  },
+  {
+   "text": " ",
+   "start": 36.24,
+   "end": 36.27,
+   "type": "spacing"
+  },
+  {
+   "text": "posters",
+   "start": 36.27,
+   "end": 36.62,
+   "conf": 0.997,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w113"
+  },
+  {
+   "text": "that",
+   "start": 36.62,
+   "end": 36.94,
+   "conf": 0.991,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w114"
+  },
+  {
+   "text": "then",
+   "start": 36.94,
+   "end": 37.28,
+   "conf": 0.991,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w115"
+  },
+  {
+   "text": "went",
+   "start": 37.28,
+   "end": 38.0,
+   "conf": 0.991,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w116"
+  },
+  {
+   "text": "up",
+   "start": 38.0,
+   "end": 38.1,
+   "conf": 0.997,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w117"
+  },
+  {
+   "text": " ",
+   "start": 38.1,
+   "end": 38.15,
+   "type": "spacing"
+  },
+  {
+   "text": "on",
+   "start": 38.15,
+   "end": 38.24,
+   "conf": 0.994,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w118"
+  },
+  {
+   "text": "the",
+   "start": 38.24,
+   "end": 38.32,
+   "conf": 0.999,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w119"
+  },
+  {
+   "text": "walls",
+   "start": 38.32,
+   "end": 38.54,
+   "conf": 0.998,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w120"
+  },
+  {
+   "text": "of",
+   "start": 38.55,
+   "end": 38.68,
+   "conf": 0.961,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w121"
+  },
+  {
+   "text": "my",
+   "start": 38.68,
+   "end": 38.8,
+   "conf": 0.999,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w122"
+  },
+  {
+   "text": "bedroom",
+   "start": 38.8,
+   "end": 39.16,
+   "conf": 0.999,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w123"
+  },
+  {
+   "text": "and",
+   "start": 39.16,
+   "end": 39.58,
+   "conf": 0.983,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w124"
+  },
+  {
+   "text": "became",
+   "start": 39.58,
+   "end": 40.02,
+   "conf": 0.991,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w125"
+  },
+  {
+   "text": "the",
+   "start": 40.02,
+   "end": 40.38,
+   "conf": 0.997,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w126"
+  },
+  {
+   "text": " ",
+   "start": 40.38,
+   "end": 40.47,
+   "type": "spacing"
+  },
+  {
+   "text": "things",
+   "start": 40.47,
+   "end": 40.6,
+   "conf": 0.998,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w127"
+  },
+  {
+   "text": "that",
+   "start": 40.6,
+   "end": 40.74,
+   "conf": 0.973,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w128"
+  },
+  {
+   "text": "I",
+   "start": 40.74,
+   "end": 40.86,
+   "conf": 0.999,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w129"
+  },
+  {
+   "text": "dreamed",
+   "start": 40.86,
+   "end": 41.08,
+   "conf": 0.998,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w130"
+  },
+  {
+   "text": "of",
+   "start": 41.08,
+   "end": 41.3,
+   "conf": 0.997,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w131"
+  },
+  {
+   "text": "from",
+   "start": 41.3,
+   "end": 41.5,
+   "conf": 0.997,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w132"
+  },
+  {
+   "text": "then",
+   "start": 41.5,
+   "end": 41.66,
+   "conf": 0.998,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w133"
+  },
+  {
+   "text": "on.",
+   "start": 41.66,
+   "end": 41.88,
+   "conf": 0.999,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w134"
+  },
+  {
+   "text": " ",
+   "start": 41.88,
+   "end": 42.61,
+   "type": "spacing"
+  },
+  {
+   "text": "When",
+   "start": 42.61,
+   "end": 42.87,
+   "conf": 0.996,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w135"
+  },
+  {
+   "text": "I",
+   "start": 42.87,
+   "end": 42.97,
+   "conf": 0.999,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w136"
+  },
+  {
+   "text": "think",
+   "start": 42.97,
+   "end": 43.17,
+   "conf": 0.999,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w137"
+  },
+  {
+   "text": "about",
+   "start": 43.18,
+   "end": 43.39,
+   "conf": 0.999,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w138"
+  },
+  {
+   "text": "the",
+   "start": 43.39,
+   "end": 43.53,
+   "conf": 0.997,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w139"
+  },
+  {
+   "text": "Artemis",
+   "start": 43.53,
+   "end": 43.85,
+   "conf": 0.991,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w140"
+  },
+  {
+   "text": "II",
+   "start": 43.85,
+   "end": 44.03,
+   "conf": 0.689,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w141"
+  },
+  {
+   "text": "crew,",
+   "start": 44.03,
+   "end": 44.23,
+   "conf": 0.986,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w142"
+  },
+  {
+   "text": "my",
+   "start": 44.23,
+   "end": 44.45,
+   "conf": 0.998,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w143"
+  },
+  {
+   "text": " ",
+   "start": 44.45,
+   "end": 44.55,
+   "type": "spacing"
+  },
+  {
+   "text": "first",
+   "start": 44.55,
+   "end": 44.73,
+   "conf": 1.0,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w144"
+  },
+  {
+   "text": "thought",
+   "start": 44.73,
+   "end": 45.05,
+   "conf": 0.999,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w145"
+  },
+  {
+   "text": "is",
+   "start": 45.05,
+   "end": 45.29,
+   "conf": 0.998,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w146"
+  },
+  {
+   "text": "that",
+   "start": 45.29,
+   "end": 45.43,
+   "conf": 0.998,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w147"
+  },
+  {
+   "text": "I",
+   "start": 45.43,
+   "end": 45.57,
+   "conf": 0.998,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w148"
+  },
+  {
+   "text": "am",
+   "start": 45.57,
+   "end": 45.68,
+   "conf": 0.644,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w149"
+  },
+  {
+   "text": "so",
+   "start": 45.69,
+   "end": 45.91,
+   "conf": 0.999,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w150"
+  },
+  {
+   "text": "privileged",
+   "start": 45.91,
+   "end": 46.29,
+   "conf": 0.998,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w151"
+  },
+  {
+   "text": "to",
+   "start": 46.29,
+   "end": 46.55,
+   "conf": 1.0,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w152"
+  },
+  {
+   "text": "be",
+   "start": 46.55,
+   "end": 46.67,
+   "conf": 1.0,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w153"
+  },
+  {
+   "text": "a",
+   "start": 46.67,
+   "end": 46.76,
+   "conf": 0.982,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w154"
+  },
+  {
+   "text": " ",
+   "start": 46.76,
+   "end": 46.8,
+   "type": "spacing"
+  },
+  {
+   "text": "part",
+   "start": 46.8,
+   "end": 46.95,
+   "conf": 1.0,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w155"
+  },
+  {
+   "text": "of",
+   "start": 46.95,
+   "end": 47.09,
+   "conf": 1.0,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w156"
+  },
+  {
+   "text": "it.",
+   "start": 47.09,
+   "end": 47.23,
+   "conf": 0.999,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w157"
+  },
+  {
+   "text": " ",
+   "start": 47.23,
+   "end": 47.67,
+   "type": "spacing"
+  },
+  {
+   "text": "These",
+   "start": 47.67,
+   "end": 48.05,
+   "conf": 0.998,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w158"
+  },
+  {
+   "text": "other",
+   "start": 48.05,
+   "end": 48.35,
+   "conf": 0.999,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w159"
+  },
+  {
+   "text": "astronauts",
+   "start": 48.35,
+   "end": 48.83,
+   "conf": 0.999,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w160"
+  },
+  {
+   "text": "have",
+   "start": 48.83,
+   "end": 49.27,
+   "conf": 0.999,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w161"
+  },
+  {
+   "text": "an",
+   "start": 49.27,
+   "end": 49.49,
+   "conf": 0.996,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w162"
+  },
+  {
+   "text": "amazing",
+   "start": 49.49,
+   "end": 49.93,
+   "conf": 1.0,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w163"
+  },
+  {
+   "text": "history,",
+   "start": 49.93,
+   "end": 50.51,
+   "conf": 1.0,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w164"
+  },
+  {
+   "text": "amazing",
+   "start": 50.51,
+   "end": 50.93,
+   "conf": 0.946,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w165"
+  },
+  {
+   "text": "record,",
+   "start": 50.93,
+   "end": 51.34,
+   "conf": 0.995,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w166"
+  },
+  {
+   "text": "amazing",
+   "start": 51.34,
+   "end": 51.83,
+   "conf": 0.997,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w167"
+  },
+  {
+   "text": "experience,",
+   "start": 51.83,
+   "end": 52.53,
+   "conf": 0.998,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w168"
+  },
+  {
+   "text": " ",
+   "start": 52.53,
+   "end": 52.7,
+   "type": "spacing"
+  },
+  {
+   "text": "and",
+   "start": 52.7,
+   "end": 52.81,
+   "conf": 0.999,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w169"
+  },
+  {
+   "text": "they're",
+   "start": 52.81,
+   "end": 52.95,
+   "conf": 0.982,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w170"
+  },
+  {
+   "text": "great",
+   "start": 52.95,
+   "end": 53.25,
+   "conf": 0.999,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w171"
+  },
+  {
+   "text": "people.",
+   "start": 53.25,
+   "end": 53.73,
+   "conf": 1.0,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w172"
+  },
+  {
+   "text": " ",
+   "start": 53.73,
+   "end": 53.83,
+   "type": "spacing"
+  },
+  {
+   "text": "I've",
+   "start": 53.83,
+   "end": 54.13,
+   "conf": 0.998,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w173"
+  },
+  {
+   "text": "known",
+   "start": 54.13,
+   "end": 54.27,
+   "conf": 0.996,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w174"
+  },
+  {
+   "text": "them",
+   "start": 54.27,
+   "end": 54.45,
+   "conf": 0.999,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w175"
+  },
+  {
+   "text": "all",
+   "start": 54.45,
+   "end": 54.61,
+   "conf": 0.999,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w176"
+  },
+  {
+   "text": "for",
+   "start": 54.61,
+   "end": 54.81,
+   "conf": 0.998,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w177"
+  },
+  {
+   "text": "many,",
+   "start": 54.81,
+   "end": 55.11,
+   "conf": 1.0,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w178"
+  },
+  {
+   "text": "many",
+   "start": 55.11,
+   "end": 55.33,
+   "conf": 1.0,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w179"
+  },
+  {
+   "text": "years.",
+   "start": 55.33,
+   "end": 55.59,
+   "conf": 0.997,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w180"
+  },
+  {
+   "text": "I've",
+   "start": 55.59,
+   "end": 55.83,
+   "conf": 0.998,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w181"
+  },
+  {
+   "text": "had",
+   "start": 55.84,
+   "end": 55.91,
+   "conf": 0.999,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w182"
+  },
+  {
+   "text": "a",
+   "start": 55.91,
+   "end": 55.97,
+   "conf": 0.993,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w183"
+  },
+  {
+   "text": " ",
+   "start": 55.97,
+   "end": 56.03,
+   "type": "spacing"
+  },
+  {
+   "text": "chance",
+   "start": 56.03,
+   "end": 56.17,
+   "conf": 0.999,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w184"
+  },
+  {
+   "text": "to",
+   "start": 56.17,
+   "end": 56.35,
+   "conf": 1.0,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w185"
+  },
+  {
+   "text": "work",
+   "start": 56.35,
+   "end": 56.55,
+   "conf": 0.999,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w186"
+  },
+  {
+   "text": "with",
+   "start": 56.55,
+   "end": 56.71,
+   "conf": 0.999,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w187"
+  },
+  {
+   "text": " ",
+   "start": 56.71,
+   "end": 56.8,
+   "type": "spacing"
+  },
+  {
+   "text": "them",
+   "start": 56.8,
+   "end": 56.91,
+   "conf": 1.0,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w188"
+  },
+  {
+   "text": "in",
+   "start": 56.91,
+   "end": 57.05,
+   "conf": 0.999,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w189"
+  },
+  {
+   "text": "different",
+   "start": 57.05,
+   "end": 57.27,
+   "conf": 0.999,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w190"
+  },
+  {
+   "text": "capacities,",
+   "start": 57.27,
+   "end": 57.83,
+   "conf": 0.999,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w191"
+  },
+  {
+   "text": "and",
+   "start": 57.83,
+   "end": 58.39,
+   "conf": 1.0,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w192"
+  },
+  {
+   "text": "I",
+   "start": 58.39,
+   "end": 58.5,
+   "conf": 0.999,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w193"
+  },
+  {
+   "text": " ",
+   "start": 58.5,
+   "end": 58.58,
+   "type": "spacing"
+  },
+  {
+   "text": "think",
+   "start": 58.58,
+   "end": 58.71,
+   "conf": 1.0,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w194"
+  },
+  {
+   "text": "our",
+   "start": 58.71,
+   "end": 58.87,
+   "conf": 0.999,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w195"
+  },
+  {
+   "text": "skills",
+   "start": 58.87,
+   "end": 59.17,
+   "conf": 0.999,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w196"
+  },
+  {
+   "text": "really",
+   "start": 59.17,
+   "end": 59.47,
+   "conf": 0.999,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w197"
+  },
+  {
+   "text": "complement",
+   "start": 59.47,
+   "end": 59.83,
+   "conf": 0.937,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w198"
+  },
+  {
+   "text": "each",
+   "start": 59.83,
+   "end": 60.15,
+   "conf": 1.0,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w199"
+  },
+  {
+   "text": "other.",
+   "start": 60.16,
+   "end": 60.37,
+   "conf": 1.0,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w200"
+  },
+  {
+   "text": "They",
+   "start": 60.37,
+   "end": 61.01,
+   "conf": 0.839,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w201"
+  },
+  {
+   "text": "all",
+   "start": 61.01,
+   "end": 61.21,
+   "conf": 0.998,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w202"
+  },
+  {
+   "text": "have",
+   "start": 61.21,
+   "end": 61.35,
+   "conf": 0.999,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w203"
+  },
+  {
+   "text": "a",
+   "start": 61.35,
+   "end": 61.45,
+   "conf": 0.991,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w204"
+  },
+  {
+   "text": "military",
+   "start": 61.45,
+   "end": 61.83,
+   "conf": 0.998,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w205"
+  },
+  {
+   "text": "background,",
+   "start": 61.83,
+   "end": 62.33,
+   "conf": 1.0,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w206"
+  },
+  {
+   "text": "and",
+   "start": 62.33,
+   "end": 62.57,
+   "conf": 0.999,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w207"
+  },
+  {
+   "text": "I",
+   "start": 62.57,
+   "end": 62.71,
+   "conf": 0.999,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w208"
+  },
+  {
+   "text": "come",
+   "start": 62.71,
+   "end": 62.93,
+   "conf": 0.999,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w209"
+  },
+  {
+   "text": "from",
+   "start": 62.93,
+   "end": 63.13,
+   "conf": 0.999,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w210"
+  },
+  {
+   "text": "a",
+   "start": 63.13,
+   "end": 63.27,
+   "conf": 0.997,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w211"
+  },
+  {
+   "text": "more",
+   "start": 63.27,
+   "end": 63.47,
+   "conf": 0.996,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w212"
+  },
+  {
+   "text": "raw,",
+   "start": 63.47,
+   "end": 64.08,
+   "conf": 0.999,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w213"
+  },
+  {
+   "text": " ",
+   "start": 64.08,
+   "end": 64.27,
+   "type": "spacing"
+  },
+  {
+   "text": "technical",
+   "start": 64.27,
+   "end": 64.76,
+   "conf": 0.993,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w214"
+  },
+  {
+   "text": " ",
+   "start": 64.76,
+   "end": 64.83,
+   "type": "spacing"
+  },
+  {
+   "text": "engineering",
+   "start": 64.83,
+   "end": 65.27,
+   "conf": 0.963,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w215"
+  },
+  {
+   "text": "background,",
+   "start": 65.27,
+   "end": 65.77,
+   "conf": 1.0,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w216"
+  },
+  {
+   "text": "and",
+   "start": 65.77,
+   "end": 66.29,
+   "conf": 0.999,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w217"
+  },
+  {
+   "text": "I",
+   "start": 66.29,
+   "end": 66.4,
+   "conf": 0.998,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w218"
+  },
+  {
+   "text": " ",
+   "start": 66.4,
+   "end": 66.49,
+   "type": "spacing"
+  },
+  {
+   "text": "think",
+   "start": 66.49,
+   "end": 66.59,
+   "conf": 1.0,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w219"
+  },
+  {
+   "text": " ",
+   "start": 66.59,
+   "end": 66.66,
+   "type": "spacing"
+  },
+  {
+   "text": "that",
+   "start": 66.66,
+   "end": 66.75,
+   "conf": 1.0,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w220"
+  },
+  {
+   "text": " ",
+   "start": 66.75,
+   "end": 66.81,
+   "type": "spacing"
+  },
+  {
+   "text": "that",
+   "start": 66.81,
+   "end": 66.91,
+   "conf": 0.988,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w221"
+  },
+  {
+   "text": " ",
+   "start": 66.91,
+   "end": 67.0,
+   "type": "spacing"
+  },
+  {
+   "text": "complements",
+   "start": 67.0,
+   "end": 67.55,
+   "conf": 0.933,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w222"
+  },
+  {
+   "text": " ",
+   "start": 67.55,
+   "end": 67.6,
+   "type": "spacing"
+  },
+  {
+   "text": "one",
+   "start": 67.6,
+   "end": 68.01,
+   "conf": 0.999,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w223"
+  },
+  {
+   "text": "another",
+   "start": 68.01,
+   "end": 68.31,
+   "conf": 0.998,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w224"
+  },
+  {
+   "text": "really",
+   "start": 68.31,
+   "end": 68.59,
+   "conf": 0.998,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w225"
+  },
+  {
+   "text": "well.",
+   "start": 68.59,
+   "end": 68.98,
+   "conf": 1.0,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w226"
+  },
+  {
+   "text": " ",
+   "start": 68.98,
+   "end": 69.04,
+   "type": "spacing"
+  },
+  {
+   "text": "I",
+   "start": 69.04,
+   "end": 69.11,
+   "conf": 0.999,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w227"
+  },
+  {
+   "text": " ",
+   "start": 69.11,
+   "end": 69.19,
+   "type": "spacing"
+  },
+  {
+   "text": "think",
+   "start": 69.19,
+   "end": 69.27,
+   "conf": 1.0,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w228"
+  },
+  {
+   "text": "we'll",
+   "start": 69.27,
+   "end": 69.49,
+   "conf": 0.99,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w229"
+  },
+  {
+   "text": "work",
+   "start": 69.49,
+   "end": 69.67,
+   "conf": 0.999,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w230"
+  },
+  {
+   "text": " ",
+   "start": 69.67,
+   "end": 69.77,
+   "type": "spacing"
+  },
+  {
+   "text": "together",
+   "start": 69.77,
+   "end": 70.05,
+   "conf": 1.0,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w231"
+  },
+  {
+   "text": "great,",
+   "start": 70.05,
+   "end": 70.41,
+   "conf": 0.995,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w232"
+  },
+  {
+   "text": " ",
+   "start": 70.41,
+   "end": 70.48,
+   "type": "spacing"
+  },
+  {
+   "text": "and",
+   "start": 70.48,
+   "end": 71.07,
+   "conf": 1.0,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w233"
+  },
+  {
+   "text": "I",
+   "start": 71.07,
+   "end": 71.47,
+   "conf": 0.995,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w234"
+  },
+  {
+   "text": "hope",
+   "start": 71.47,
+   "end": 71.67,
+   "conf": 1.0,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w235"
+  },
+  {
+   "text": "to",
+   "start": 71.67,
+   "end": 71.81,
+   "conf": 0.999,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w236"
+  },
+  {
+   "text": "be",
+   "start": 71.81,
+   "end": 72.05,
+   "conf": 0.999,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w237"
+  },
+  {
+   "text": "someone",
+   "start": 72.05,
+   "end": 72.63,
+   "conf": 0.999,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w238"
+  },
+  {
+   "text": "on",
+   "start": 72.63,
+   "end": 72.81,
+   "conf": 0.998,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w239"
+  },
+  {
+   "text": "the",
+   "start": 72.81,
+   "end": 72.89,
+   "conf": 0.998,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w240"
+  },
+  {
+   "text": "crew",
+   "start": 72.89,
+   "end": 73.13,
+   "conf": 0.999,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w241"
+  },
+  {
+   "text": "that",
+   "start": 73.13,
+   "end": 73.33,
+   "conf": 0.994,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w242"
+  },
+  {
+   "text": "really",
+   "start": 73.33,
+   "end": 73.69,
+   "conf": 0.998,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w243"
+  },
+  {
+   "text": "is",
+   "start": 73.69,
+   "end": 73.91,
+   "conf": 1.0,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w244"
+  },
+  {
+   "text": "that",
+   "start": 73.91,
+   "end": 74.09,
+   "conf": 0.999,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w245"
+  },
+  {
+   "text": " ",
+   "start": 74.09,
+   "end": 74.16,
+   "type": "spacing"
+  },
+  {
+   "text": "engineering",
+   "start": 74.16,
+   "end": 74.55,
+   "conf": 0.999,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w246"
+  },
+  {
+   "text": "expert,",
+   "start": 74.55,
+   "end": 75.07,
+   "conf": 0.999,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w247"
+  },
+  {
+   "text": "and",
+   "start": 75.07,
+   "end": 75.39,
+   "conf": 1.0,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w248"
+  },
+  {
+   "text": "I",
+   "start": 75.39,
+   "end": 75.53,
+   "conf": 0.999,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w249"
+  },
+  {
+   "text": "hope",
+   "start": 75.53,
+   "end": 75.69,
+   "conf": 1.0,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w250"
+  },
+  {
+   "text": " ",
+   "start": 75.69,
+   "end": 75.76,
+   "type": "spacing"
+  },
+  {
+   "text": "that",
+   "start": 75.76,
+   "end": 75.84,
+   "conf": 1.0,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w251"
+  },
+  {
+   "text": " ",
+   "start": 75.84,
+   "end": 75.89,
+   "type": "spacing"
+  },
+  {
+   "text": "that",
+   "start": 75.89,
+   "end": 75.99,
+   "conf": 0.987,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w252"
+  },
+  {
+   "text": "can",
+   "start": 75.99,
+   "end": 76.11,
+   "conf": 0.998,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w253"
+  },
+  {
+   "text": "be",
+   "start": 76.11,
+   "end": 76.23,
+   "conf": 1.0,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w254"
+  },
+  {
+   "text": "the",
+   "start": 76.23,
+   "end": 76.33,
+   "conf": 0.998,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w255"
+  },
+  {
+   "text": "way",
+   "start": 76.33,
+   "end": 76.45,
+   "conf": 1.0,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w256"
+  },
+  {
+   "text": "that",
+   "start": 76.45,
+   "end": 76.58,
+   "conf": 0.984,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w257"
+  },
+  {
+   "text": "I",
+   "start": 76.59,
+   "end": 76.7,
+   "conf": 0.999,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w258"
+  },
+  {
+   "text": " ",
+   "start": 76.7,
+   "end": 76.79,
+   "type": "spacing"
+  },
+  {
+   "text": "contribute",
+   "start": 76.79,
+   "end": 77.03,
+   "conf": 0.996,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w259"
+  },
+  {
+   "text": "the",
+   "start": 77.03,
+   "end": 77.25,
+   "conf": 0.999,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w260"
+  },
+  {
+   "text": "most.",
+   "start": 77.25,
+   "end": 77.53,
+   "conf": 1.0,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w261"
+  }
+ ]
+}

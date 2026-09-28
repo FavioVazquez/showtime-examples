@@ -1,0 +1,19 @@
+La danse frétillante (français, 64 s) - crédits
+
+Texte adapté de « Waggle dance », contributeurs de Wikipédia, Wikipédia en anglais, révision 1371912261 (2026-08-29),
+https://en.wikipedia.org/w/index.php?title=Waggle_dance&oldid=1371912261 - sous licence CC BY-SA 4.0
+(https://creativecommons.org/licenses/by-sa/4.0/). Modifications : résumé, réécrit en narration, traduit en français
+et animé. La scène « source » montre une copie texte seul de cette révision (images et logo de Wikipédia masqués).
+
+Images d'abeilles : Movie S2 de Su S, Cai F, Si A, Zhang S, Tautz J, Chen S (2008) « East Learns from West: Asiatic
+Honeybees Can Understand Dance Language of European Honeybees », PLOS ONE 3(6): e2365,
+https://doi.org/10.1371/journal.pone.0002365 - via Wikimedia Commons
+(https://commons.wikimedia.org/wiki/File:East-Learns-from-West-Asiatic-Honeybees-Can-Understand-Dance-Language-of-European-Honeybees-pone.0002365.s004.ogv),
+CC BY 3.0 (https://creativecommons.org/licenses/by/3.0/). Modifications : coupées, recadrées, repère ajouté
+(un cercle et une courte traîne sur la position de la marque rouge dans chaque image mesurée ; la caméra la suit).
+
+Voix : Kokoro-82M (ff_siwis, entraînée sur le corpus SIWIS, CC BY 4.0), Apache-2.0, synthétisée sur cette machine.
+Polices : Fraunces, Inter (SIL Open Font License 1.1).
+Musique : composée en code pour ce film avec le Synth de showtime (aucun échantillon).
+
+Cette vidéo, son script et ses sources sont sous licence CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/).

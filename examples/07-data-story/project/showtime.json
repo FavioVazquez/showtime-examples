@@ -1,0 +1,17 @@
+{
+  "title": "GISTEMP data story",
+  "width": 1920,
+  "height": 1080,
+  "fps": 30,
+  "duration": 30.0,
+  "background": "#efe8dc",
+  "audio": "audio/mix.json",
+  "expect": {
+    "must_show": [
+      "+1.29",
+      "1976",
+      "2015",
+      "2025"
+    ]
+  }
+}

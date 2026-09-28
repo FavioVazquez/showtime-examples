@@ -1,0 +1,218 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Teapot, ca. 1879</title>
+<script src="/_st/stage.js"></script>
+<!-- theme bold (warm near-black ground), accent overridden to silver below -->
+<link rel="stylesheet" href="/_st/themes/bold.css">
+<script src="/_lib/lottie-web/build/player/lottie_light.min.js"></script>
+<script type="module" src="/_st/components/index.js"></script>
+<style>
+  /* Example 17: a 20 s square promo for a museum object (The Met 823191). Every word on screen
+     comes from the museum record; see README.md. Scene cuts sit on the lounge-jazz bed's
+     downbeats (108 bpm, one bar = 2.2222 s), rounded to the nearest frame, and every
+     transition is centred on its downbeat (align center), so the visible change lands on the beat. Starts are written a
+     hair below the frame time (6.6666666 for frame 200): CSS transitions test t >= start - 1 us while
+     clips snap within 1 ms, so 6.6667 would show the bare incoming scene for one frame. */
+  :root {
+    --accent: #d4d2cf;          /* silver instead of bold's ember (contrast 13:1 on --bg) */
+    --accent-2: #9d8f80;
+    --accent-ink: #0d0b0a;
+    --silver: #e9e6e1;
+    --weight-display: 700;
+  }
+  .stage { background: var(--bg); }
+  .scene { padding: 0; overflow: hidden; }
+  .label {
+    font-family: var(--font-body); font-weight: 600; font-size: 2.9cqmin; letter-spacing: 0.16em;
+    text-transform: uppercase; color: var(--muted);
+  }
+
+  /* ---------- 1 hook: the cut-out slides into a spotlight; the date is readable at frame 0 */
+  .hook .pool {
+    position: absolute; inset: 0;
+    background:
+      radial-gradient(60% 38% at 50% 70%, rgb(255 244 230 / 0.16), transparent 70%),
+      radial-gradient(90% 60% at 50% 100%, rgb(255 236 214 / 0.07), transparent 70%);
+    animation: pool 1.4s cubic-bezier(.16,1,.3,1) both;
+  }
+  @keyframes pool { from { opacity: 0.45; } to { opacity: 1; } }
+  .hook .floor {
+    position: absolute; left: 20cqw; right: 20cqw; top: 86cqh; height: 5cqh; border-radius: 50%;
+    background: radial-gradient(closest-side, rgb(0 0 0 / 0.75), transparent);
+    animation: slide-in 1.8s cubic-bezier(.16,1,.3,1) both;
+  }
+  .hook .teapot {
+    position: absolute; left: 11cqw; width: 78cqw; top: 41cqh;
+    animation: slide-in 1.8s cubic-bezier(.16,1,.3,1) both;
+    filter: drop-shadow(0 2cqmin 3cqmin rgb(0 0 0 / 0.5));
+  }
+  @keyframes slide-in { from { transform: translateX(7cqw); } to { transform: translateX(0); } }
+  .hook .kicker { position: absolute; left: 0; right: 0; top: 9cqh; text-align: center; }
+  .hook .date {
+    position: absolute; left: 0; right: 0; top: 13.5cqh; text-align: center;
+    font-family: var(--font-display); font-weight: 750; font-size: 19cqmin; line-height: 1;
+    letter-spacing: -0.03em; color: var(--silver);
+    animation: track 2.2s cubic-bezier(.16,1,.3,1) both;
+  }
+  @keyframes track { from { letter-spacing: 0.01em; } to { letter-spacing: -0.03em; } }
+
+  /* ---------- 2 turn: the three-quarter view, a slow push, a sheen, steam over the spout */
+  .turn .glow {
+    position: absolute; inset: 0;
+    background: radial-gradient(55% 45% at 50% 58%, rgb(255 244 230 / 0.13), transparent 72%);
+  }
+  .turn .rig {
+    position: absolute; left: 13cqw; width: 74cqw; top: 22cqh; aspect-ratio: 1600 / 1446;
+    transform-origin: 50% 60%;
+    animation: push 4.4333s cubic-bezier(.37,0,.63,1) both;
+  }
+  @keyframes push { from { transform: scale(0.97) translateY(1cqh); } to { transform: scale(1.07) translateY(-1cqh); } }
+  .rig img, .rig2 img { position: absolute; inset: 0; width: 100%; height: 100%; filter: drop-shadow(0 2cqmin 3cqmin rgb(0 0 0 / 0.5)); }
+  .sheen {
+    position: absolute; inset: 0; pointer-events: none; mix-blend-mode: screen;
+    background: linear-gradient(105deg, transparent 44%, rgb(255 255 255 / 0.42) 50%, transparent 56%) no-repeat;
+    background-size: 300% 100%;
+    -webkit-mask: var(--m) center / 100% 100% no-repeat; mask: var(--m) center / 100% 100% no-repeat;
+    animation: sheen 1.1s cubic-bezier(.45,0,.55,1) both;
+  }
+  @keyframes sheen { from { background-position: 100% 0; } to { background-position: 0% 0; } }
+  .turn .sheen { --m: url(img/teapot-026.png); animation-delay: 0.45s; }
+  /* the spout tip is at 95.8 % / 54.9 % of the cut-out */
+  .steam { position: absolute; width: 20%; aspect-ratio: 2 / 3; left: calc(95.8% - 10%); bottom: calc(45.1% + 0.5%); }
+
+  /* ---------- 3 specs: the record's facts as a spec sheet */
+  .specs .mini { position: absolute; left: 32cqw; width: 36cqw; top: 5cqh; filter: drop-shadow(0 1.4cqmin 2cqmin rgb(0 0 0 / 0.5));
+    animation: mini-in 0.8s cubic-bezier(.16,1,.3,1) both; }
+  @keyframes mini-in { from { opacity: 0; transform: translateY(2cqh); } }
+  .specs .label { position: absolute; left: 8cqw; top: 29.5cqh; }
+  .specs [data-st="feature-grid"] {
+    position: absolute; left: 8cqw; right: 8cqw; top: 35cqh;
+    display: grid; grid-template-columns: 1fr; gap: 1.8cqmin;
+  }
+  .specs .st-fg-card {
+    display: grid; grid-template-columns: auto 1fr auto; align-items: center; column-gap: 3.4cqmin;
+    padding: 2.2cqmin 3.2cqmin; border-radius: 2cqmin;
+    background: color-mix(in oklab, var(--surface) 88%, var(--fg));
+  }
+  .specs .st-fg-icon { width: 8.4cqmin; height: 8.4cqmin; border-radius: 50%; background: color-mix(in oklab, var(--accent) 12%, transparent); }
+  .specs .st-fg-icon img { width: 100%; height: 100%; border-radius: 50%; box-shadow: 0 0 0 0.3cqmin rgb(255 244 230 / 0.28); }
+  .specs .st-fg-icon svg { width: 55%; height: 55%; }
+  .specs .st-fg-title { font-size: 5.6cqmin; font-weight: 700; color: var(--silver); white-space: nowrap; }
+  .specs .st-fg-text { font-size: 3cqmin; text-align: right; color: var(--muted); white-space: nowrap; }
+
+  /* ---------- 4 maker: the marks on the underside, then the designer and the maker */
+  .maker [data-st="ken-burns"] { position: absolute; inset: 0; }
+  .maker .shade { position: absolute; inset: 0;
+    background: linear-gradient(to bottom, transparent 44%, rgb(13 11 10 / 0.86) 64%, var(--bg) 76%); }
+  .maker .pill {
+    position: absolute; left: 7cqw; top: 7cqh; padding: 1.2cqmin 2.6cqmin; border-radius: 99cqmin;
+    background: rgb(13 11 10 / 0.82); color: var(--fg); font-family: var(--font-body); font-weight: 600;
+    font-size: 3cqmin; letter-spacing: 0.02em;
+    /* in with the wide view, out at 2.4 s (13.5 s), well before the push brings the diamond up under it */
+    animation: fade-up 0.5s cubic-bezier(.16,1,.3,1) 0.25s both, fade-out 0.35s ease-in 2.4s forwards;
+  }
+  @keyframes fade-out { to { opacity: 0; } }
+  .maker .who { position: absolute; left: 7cqw; right: 7cqw; top: 68cqh; }
+  .maker .role { margin-bottom: 1.2cqmin; animation: fade-up 0.5s cubic-bezier(.16,1,.3,1) 0.9s both; }
+  .maker .name { font-family: var(--font-display); font-weight: 700; font-size: 8.4cqmin; line-height: 1; letter-spacing: -0.03em; color: var(--silver); }
+  .maker .bio { font-family: var(--font-body); font-size: 4cqmin; color: var(--fg); margin-top: 1.4cqmin; }
+  .maker .firm { font-family: var(--font-body); font-size: 3.2cqmin; color: var(--muted); margin-top: 2.2cqmin;
+    animation: fade-up 0.6s cubic-bezier(.16,1,.3,1) 1.8s both; }
+  @keyframes fade-up { from { opacity: 0; transform: translateY(1.2cqh); } }
+
+  /* ---------- 5 end: the museum record and the credit */
+  .end .glow { position: absolute; inset: 0; background: radial-gradient(50% 32% at 50% 26%, rgb(255 244 230 / 0.12), transparent 72%); }
+  .end .rig2 { position: absolute; left: 31cqw; width: 38cqw; top: 6cqh; aspect-ratio: 1600 / 1446;
+    animation: mini-in 0.9s cubic-bezier(.16,1,.3,1) 0.1s both, drift 4.4333s linear both; transform-origin: 50% 70%; }
+  @keyframes drift { from { scale: 1; } to { scale: 1.06; } }
+  /* the sheen peaks on the bed's final hit (17.78 s = 2.21 s into the scene) */
+  .end .rig2 .sheen { --m: url(img/teapot-026.png); animation-delay: 1.66s; }
+  .end [data-st="end-card"] { position: absolute; left: 0; right: 0; top: 42cqh; height: 36cqh; inset-inline: 0; }
+  .end .st-end-card { place-items: start center; }
+  .end .st-logo-word { font-size: 9cqmin; color: var(--silver); font-weight: 700; letter-spacing: -0.03em; }
+  .end .st-ec-tagline { font-size: 4cqmin; color: var(--fg); }
+  .end .st-ec-cta { font-size: 3.2cqmin; }
+  .end .st-ec-url { font-size: 3cqmin; color: var(--muted); }
+  .end .fine { position: absolute; left: 5cqw; right: 5cqw; text-wrap: balance; bottom: 10cqh; text-align: center;
+    font-family: var(--font-body); font-size: 3cqmin; line-height: 1.45; color: var(--muted);
+    animation: fade-up 0.6s cubic-bezier(.16,1,.3,1) 1.6s both; }
+</style>
+</head>
+<body>
+<div class="stage">
+
+  <!-- 1 hook (0-2.23 s): the object and its date, complete at frame 0 -->
+  <section class="scene hook" id="hook" data-start="0" data-dur="2.2333333">
+    <div class="pool"></div>
+    <div class="floor"></div>
+    <img class="teapot" src="img/teapot-025.png" alt="Teapot, side view">
+    <div class="kicker label">Teapot</div>
+    <div class="date">ca. 1879.</div>
+  </section>
+
+  <!-- 2 turn (2.23-6.67 s): the three-quarter view; steam curl (original Lottie) over the spout -->
+  <section class="scene turn" id="turn" data-start="2.2333333" data-dur="4.4333333"
+           data-transition="sdf-iris 0.65 center" data-transition-options='{"a":0.5,"b":0.55}'>
+    <div class="glow"></div>
+    <div class="rig">
+      <img src="img/teapot-026.png" alt="Teapot, three-quarter view">
+      <div class="sheen"></div>
+      <div class="steam" id="steam"></div>
+    </div>
+  </section>
+
+  <!-- 3 specs (6.67-11.1 s): the facts from the record -->
+  <section class="scene specs" id="specs" data-start="6.6666666" data-dur="4.4333333" data-transition="slide left 0.6 center">
+    <img class="mini" src="img/teapot-025.png" alt="">
+    <div class="label">From the museum record</div>
+    <div data-st="feature-grid" data-columns="1" data-at="0.2" data-stagger="0.12" data-dim="0.72"
+         data-items='[
+           {"icon":"img/swatch-silver.png","title":"Silverplate","text":"Material"},
+           {"icon":"img/swatch-ebony.png","title":"Ebony","text":"Material"},
+           {"icon":"/_lib/lucide-static/icons/ruler-dimension-line.svg","title":"12.7 × 22.9 × 13.3 cm","text":"H × W × D"},
+           {"icon":"/_lib/lucide-static/icons/weight.svg","title":"500 g","text":"1.1 lb."}]'
+         data-focus='[{"at":0.556,"index":0},{"at":1.389,"index":1},{"at":2.222,"index":2},{"at":3.056,"index":3},{"at":3.889,"index":-1}]'></div>
+  </section>
+
+  <!-- 4 maker (11.1-15.57 s): the stamped marks lead to the designer and the maker -->
+  <section class="scene maker" id="maker" data-start="11.0999999" data-dur="4.4666667" data-transition="slide left 0.6 center">
+    <div data-st="ken-burns" data-src="img/marks-046.jpg" data-from='{"scale":1.05,"x":0,"y":0}'
+         data-to='{"scale":2.0,"x":9,"y":-4}' data-ease="power2.inOut"></div>
+    <div class="shade"></div>
+    <div class="pill">Marks on the underside</div>
+    <div class="who">
+      <div class="role label">Designer</div>
+      <div class="name" data-st="kinetic-type" data-style="slide" data-at="1.0">Christopher Dresser</div>
+      <div class="bio" data-st="kinetic-type" data-style="slide" data-at="1.45">British, 1834–1904</div>
+      <div class="firm">Manufactory: James Dixon &amp; Sons, Sheffield</div>
+    </div>
+  </section>
+
+  <!-- 5 end (15.57-20 s): where to see the record; the credit. The bed's final hit is at 17.78 s -->
+  <section class="scene end" id="end" data-start="15.5666666" data-dur="4.4333334"
+           data-transition="iris 0.6 center" data-transition-options='{"center":[50,45]}'>
+    <div class="glow"></div>
+    <div class="rig2">
+      <img src="img/teapot-026.png" alt="Teapot">
+      <div class="sheen"></div>
+    </div>
+    <div data-st="end-card" data-text="Teapot, ca. 1879" data-dot="false" data-style="mask" data-at="0.3"
+         data-tagline="The Metropolitan Museum of Art" data-cta="See the record"
+         data-url="metmuseum.org/art/collection/search/823191"></div>
+    <div class="fine">Images: The Met, CC0 · Object 2021.153.2<br>Museum object; not affiliated with or endorsed by The Met.</div>
+  </section>
+
+  <div data-st="grain" data-opacity="0.035"></div>
+</div>
+
+<script>
+  // Steam curl: an original Lottie (lottie/steam-curl.json, written by tools/make_steam_lottie.py).
+  // The stage seeks it: 1.0 s into the turn scene it draws on, and it holds its (empty) last frame after.
+  const steam = lottie.loadAnimation({ container: document.getElementById('steam'), renderer: 'svg',
+    autoplay: false, loop: false, path: 'lottie/steam-curl.json' });
+  ST.lottie(steam, { offset: 2.2333333 + 1.0, loop: false, name: 'steam' });
+</script>
+</body>
+</html>

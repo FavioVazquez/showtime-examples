@@ -1,0 +1,152 @@
+{
+  "source": "04-newcomers.wav",
+  "duration": 9.983,
+  "language": "en",
+  "model": "kokoro-v1.0-timestamped.onnx",
+  "words": [
+    {
+      "text": "Wind",
+      "start": 0.03,
+      "end": 0.465,
+      "type": "word"
+    },
+    {
+      "text": "and",
+      "start": 0.538,
+      "end": 0.64,
+      "type": "word"
+    },
+    {
+      "text": "solar",
+      "start": 0.747,
+      "end": 1.175,
+      "type": "word"
+    },
+    {
+      "text": "were",
+      "start": 1.225,
+      "end": 1.333,
+      "type": "word"
+    },
+    {
+      "text": "under",
+      "start": 1.375,
+      "end": 1.582,
+      "type": "word"
+    },
+    {
+      "text": "one",
+      "start": 1.657,
+      "end": 1.843,
+      "type": "word"
+    },
+    {
+      "text": "percent",
+      "start": 1.88,
+      "end": 2.334,
+      "type": "word"
+    },
+    {
+      "text": "in",
+      "start": 2.379,
+      "end": 2.479,
+      "type": "word"
+    },
+    {
+      "text": "two",
+      "start": 2.52,
+      "end": 2.724,
+      "type": "word"
+    },
+    {
+      "text": "thousand",
+      "start": 2.775,
+      "end": 3.167,
+      "type": "word"
+    },
+    {
+      "text": "seven.",
+      "start": 3.259,
+      "end": 3.66,
+      "type": "word"
+    },
+    {
+      "text": "Then",
+      "start": 4.23,
+      "end": 4.391,
+      "type": "word"
+    },
+    {
+      "text": "they",
+      "start": 4.429,
+      "end": 4.537,
+      "type": "word"
+    },
+    {
+      "text": "climbed",
+      "start": 4.57,
+      "end": 5.02,
+      "type": "word"
+    },
+    {
+      "text": "past",
+      "start": 5.11,
+      "end": 5.453,
+      "type": "word"
+    },
+    {
+      "text": "coal",
+      "start": 5.52,
+      "end": 5.905,
+      "type": "word"
+    },
+    {
+      "text": "in",
+      "start": 5.953,
+      "end": 6.045,
+      "type": "word"
+    },
+    {
+      "text": "twenty",
+      "start": 6.104,
+      "end": 6.368,
+      "type": "word"
+    },
+    {
+      "text": "twenty-four,",
+      "start": 6.41,
+      "end": 7.15,
+      "type": "word"
+    },
+    {
+      "text": "and",
+      "start": 7.52,
+      "end": 7.627,
+      "type": "word"
+    },
+    {
+      "text": "again",
+      "start": 7.67,
+      "end": 8.18,
+      "type": "word"
+    },
+    {
+      "text": "in",
+      "start": 8.32,
+      "end": 8.408,
+      "type": "word"
+    },
+    {
+      "text": "twenty",
+      "start": 8.46,
+      "end": 8.733,
+      "type": "word"
+    },
+    {
+      "text": "twenty-five.",
+      "start": 8.79,
+      "end": 9.593,
+      "type": "word"
+    }
+  ]
+}

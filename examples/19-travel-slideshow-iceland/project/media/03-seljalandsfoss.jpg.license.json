@@ -1,0 +1,23 @@
+{
+  "source": "commons",
+  "source_label": "Wikimedia Commons",
+  "id": "commons:121381245",
+  "title": "Premises of Seljalandsfoss 25",
+  "author": "Netha Hussain",
+  "author_url": null,
+  "license": "CC0 1.0",
+  "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+  "landing_url": "https://commons.wikimedia.org/wiki/File:Premises_of_Seljalandsfoss_25.jpg",
+  "note": null,
+  "type": "image",
+  "license_notice": null,
+  "file_url": "https://upload.wikimedia.org/wikipedia/commons/1/19/Premises_of_Seljalandsfoss_25.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "sha256": "fc5972a2279d46f939ef25090665877374889a21d2de4fe829472db0f2d52f65",
+  "fetched": "2026-09-27T16:42:16",
+  "license_class": "free",
+  "attribution_required": false,
+  "credit": "\"Premises of Seljalandsfoss 25\" by Netha Hussain via Wikimedia Commons (CC0 1.0) - https://commons.wikimedia.org/wiki/File:Premises_of_Seljalandsfoss_25.jpg",
+  "file": "03-seljalandsfoss.jpg",
+  "rendition": "1920px Commons thumbnail (original 2736x3648 rate-limited)",
+  "derived": "resized to 1920x2560 for the video"
+}

@@ -1,0 +1,23 @@
+Tidepool launch video (20 s, 16:9). Tidepool is a fictional app, made as sample material for showtime.
+
+Default
+No account. No server. No loading spinner. Tidepool keeps your notes on your own machine: press Cmd+K to find anything, write Markdown and watch it render as you type.
+
+X (under 280 characters)
+No account. No server. No loading spinner.
+Tidepool keeps your notes on your own machine: Cmd+K finds anything, Markdown renders as you type. (A fictional demo app.)
+
+LinkedIn
+Your notes, kept on your own machine.
+Tidepool saves everything in the browser: no sign-up, nothing sent anywhere.
+Cmd+K searches titles, text and #tags as you type.
+Markdown renders side by side while you write.
+(Tidepool is a fictional app made as sample material for showtime.)
+
+YouTube
+Title: Tidepool: your notes, kept on your own machine (20 s launch)
+Description: A local-first Markdown notebook: no account, no server, Cmd+K search and a live preview. Tidepool is fictional, built as showtime sample material.
+
+GitHub README
+Caption: A 20-second launch video for Tidepool, a fictional local-first notes app, made with showtime from its landing page and a scripted recording of the real app.
+Alt text: Dark teal title cards reading "No account. No server. No loading spinner." ripple into the Tidepool landing page, then the app searches notes with Cmd+K, previews a Markdown task list as it is typed, checks a task and shows "Saved on this device", ending on the Tidepool logo.

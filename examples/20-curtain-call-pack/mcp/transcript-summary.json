@@ -1,0 +1,213 @@
+[
+ {
+  "session": "-1",
+  "tool": "new_project",
+  "arguments": {
+   "template": "dom",
+   "dir": "scratch/mcp-smoke",
+   "duration": 2,
+   "aspect": "1:1",
+   "title": "mcp smoke"
+  },
+  "status": "OK: showtime new dom scratch/mcp-smoke --duration=2 --aspect=1:1 \"--title=mcp smoke\"  [0.4 s]",
+  "seconds": 0.4
+ },
+ {
+  "session": "-1",
+  "tool": "audio_sfx",
+  "arguments": {
+   "type": "whoosh-heavy",
+   "output": "<job>/pack/sfx/stinger-curtain-whoosh.wav",
+   "intensity": 0.6,
+   "seed": 4
+  },
+  "status": "OK: showtime audio sfx whoosh-heavy --output=<job>/pack/sfx/stinger-curtain-whoosh.wav --intensity=0.6 --seed=4  [1.6 s]",
+  "seconds": 1.6
+ },
+ {
+  "session": "-1",
+  "tool": "audio_sfx",
+  "arguments": {
+   "type": "whoosh",
+   "output": "<job>/pack/sfx/stinger-chromatic-whoosh.wav",
+   "intensity": 0.7,
+   "seed": 7
+  },
+  "status": "OK: showtime audio sfx whoosh --output=<job>/pack/sfx/stinger-chromatic-whoosh.wav --intensity=0.7 --seed=7  [1.6 s]",
+  "seconds": 1.6
+ },
+ {
+  "session": "-1",
+  "tool": "render",
+  "arguments": {
+   "project": "project/sting-1x1",
+   "job": "<job>"
+  },
+  "status": "OK: showtime render project/sting-1x1 --job=<job>  [11.4 s]",
+  "seconds": 11.4
+ },
+ {
+  "session": "-1",
+  "tool": "qa",
+  "arguments": {
+   "video": "<job>/final-2.mp4",
+   "project": "project/sting-1x1"
+  },
+  "status": "OK: showtime qa <job>/final-2.mp4 --project=project/sting-1x1  [2.9 s]",
+  "seconds": 2.9
+ },
+ {
+  "session": "-1",
+  "tool": "deliver_exports",
+  "arguments": {
+   "video": "<job>/final.mp4",
+   "targets": [
+    "web",
+    "webp",
+    "gif"
+   ],
+   "from": 0,
+   "to": 5
+  },
+  "status": "FAILED",
+  "seconds": 0.3
+ },
+ {
+  "session": "-1",
+  "tool": "export_html",
+  "arguments": {
+   "project": "project/sting-16x9",
+   "output": "<job>/html/curtain-call-sting-player.html",
+   "audio": "embed"
+  },
+  "status": "OK: showtime export html project/sting-16x9 --output=<job>/html/curtain-call-sting-player.html --audio=embed  [8.4 s]",
+  "seconds": 8.4
+ },
+ {
+  "session": "-2",
+  "tool": "deliver_exports",
+  "arguments": {
+   "video": "<job>/final.mp4",
+   "targets": [
+    "web"
+   ]
+  },
+  "status": "OK: showtime deliver exports <job>/final.mp4 --targets=web  [13.0 s]",
+  "seconds": 13
+ },
+ {
+  "session": "-2",
+  "tool": "deliver_exports",
+  "arguments": {
+   "video": "<job>/final.mp4",
+   "targets": [
+    "webp",
+    "gif"
+   ]
+  },
+  "status": "OK: showtime deliver exports <job>/final.mp4 --targets=webp,gif  [26.7 s]",
+  "seconds": 26.7
+ },
+ {
+  "session": "-3",
+  "tool": "render",
+  "arguments": {
+   "project": "project/sting-1x1",
+   "output": "<job>/sting-1x1.mp4"
+  },
+  "status": "OK: showtime render project/sting-1x1 --output=<job>/sting-1x1.mp4  [11.3 s]",
+  "seconds": 11.3
+ },
+ {
+  "session": "-3",
+  "tool": "qa",
+  "arguments": {
+   "video": "<job>/sting-1x1.mp4",
+   "project": "project/sting-1x1",
+   "platform": "square"
+  },
+  "status": "OK: showtime qa <job>/sting-1x1.mp4 --project=project/sting-1x1 --platform=square  [4.9 s]",
+  "seconds": 4.9
+ },
+ {
+  "session": "-3",
+  "tool": "deliver_exports",
+  "arguments": {
+   "video": "<job>/sting-16x9.mp4",
+   "targets": [
+    "web"
+   ]
+  },
+  "status": "OK: showtime deliver exports <job>/sting-16x9.mp4 --targets=web  [15.4 s]",
+  "seconds": 15.4
+ },
+ {
+  "session": "-3",
+  "tool": "deliver_exports",
+  "arguments": {
+   "video": "<job>/sting-16x9.mp4",
+   "targets": [
+    "webp",
+    "gif"
+   ]
+  },
+  "status": "OK: showtime deliver exports <job>/sting-16x9.mp4 --targets=webp,gif  [44.3 s]",
+  "seconds": 44.3
+ },
+ {
+  "session": "-3",
+  "tool": "export_html",
+  "arguments": {
+   "project": "project/sting-16x9",
+   "output": "<job>/html/curtain-call-sting-player-v2.html",
+   "audio": "embed"
+  },
+  "status": "OK: showtime export html project/sting-16x9 --output=<job>/html/curtain-call-sting-player-v2.html --audio=embed  [22.4 s]",
+  "seconds": 22.4
+ },
+ {
+  "session": "-4",
+  "tool": "render",
+  "arguments": {
+   "project": "project/sting-1x1",
+   "output": "<job>/sting-1x1-r3.mp4"
+  },
+  "status": "OK: showtime render project/sting-1x1 --output=<job>/sting-1x1-r3.mp4  [11.1 s]",
+  "seconds": 11.1
+ },
+ {
+  "session": "-4",
+  "tool": "qa",
+  "arguments": {
+   "video": "<job>/sting-1x1-r3.mp4",
+   "project": "project/sting-1x1",
+   "platform": "square"
+  },
+  "status": "OK: showtime qa <job>/sting-1x1-r3.mp4 --project=project/sting-1x1 --platform=square  [2.8 s]",
+  "seconds": 2.8
+ },
+ {
+  "session": "-4",
+  "tool": "deliver_exports",
+  "arguments": {
+   "video": "<job>/sting-16x9-r3.mp4",
+   "targets": [
+    "webp",
+    "gif"
+   ]
+  },
+  "status": "OK: showtime deliver exports <job>/sting-16x9-r3.mp4 --targets=webp,gif  [23.0 s]",
+  "seconds": 23.0
+ },
+ {
+  "session": "-4",
+  "tool": "export_html",
+  "arguments": {
+   "project": "project/sting-16x9",
+   "output": "<job>/html/curtain-call-sting-player-r3.html",
+   "audio": "embed"
+  },
+  "status": "OK: showtime export html project/sting-16x9 --output=<job>/html/curtain-call-sting-player-r3.html --audio=embed  [8.0 s]",
+  "seconds": 8.0
+ }
+]

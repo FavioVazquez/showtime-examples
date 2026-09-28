@@ -1,0 +1,204 @@
+{
+ "note": "Tutorial 21, Shorts cut (9:16): steps 2-4 only, cut from the same recording with the vertical follow-cam (autozoom --look plain --size 1080x1920 --fit cover). Each range is placed so its narrated action lands on its word (shorts/ranges.json). Review round 2: 1.6 s of the note's typing and of the voice's pause cut (the dead stretch), the vertical follow-cam at zoom 1.0 for the comment box, opaque chips, the Pick chip leaves as the digest shot starts.",
+ "sources": {
+  "rec": "../rec/autozoom-9x16.mp4",
+  "end": "../media/end-9x16.mp4"
+ },
+ "ranges": [
+  {
+   "source": "rec",
+   "start": 5.9,
+   "end": 11.6333,
+   "note": "frames: 'click' lands on the action at rec 9.9 s"
+  },
+  {
+   "source": "rec",
+   "start": 14.108,
+   "end": 16.1414,
+   "note": "bed: 'Play' lands on the action at rec 14.1667 s"
+  },
+  {
+   "source": "rec",
+   "start": 22.458,
+   "end": 25.058,
+   "note": "wipe: 'drag' lands on the action at rec 22.6333 s"
+  },
+  {
+   "source": "rec",
+   "start": 27.1367,
+   "end": 29.6033,
+   "note": "like: 'L' lands on the action at rec 28.1 s"
+  },
+  {
+   "source": "rec",
+   "start": 31.6563,
+   "end": 33.4,
+   "note": "note: 'C' lands on the action at rec 31.7 s; typing up to rec 33.4"
+  },
+  {
+   "source": "rec",
+   "start": 35.0,
+   "end": 38.1897,
+   "note": "note, resumed at rec 35.0 (1.6 s of typing cut, the voice's pause cut by the same); 'Control' lands on Ctrl+Enter at rec 36.033"
+  },
+  {
+   "source": "rec",
+   "start": 41.6017,
+   "end": 43.6683,
+   "note": "pick: 'pick' lands on the action at rec 42.3 s"
+  },
+  {
+   "source": "rec",
+   "start": 45.321,
+   "end": 48.3877,
+   "note": "review: 'full' lands on the action at rec 45.4667 s"
+  },
+  {
+   "source": "rec",
+   "start": 57.1,
+   "end": 60.4667,
+   "note": "done: from the Picked card to the digest in Your feedback (end state)"
+  },
+  {
+   "source": "end",
+   "start": 0,
+   "end": 2.2,
+   "note": "end card"
+  }
+ ],
+ "output": {
+  "width": 1080,
+  "height": 1920,
+  "fps": 30,
+  "fit": "cover"
+ },
+ "overlays": [
+  {
+   "file": "../media/chips-9x16.webm",
+   "start": 0,
+   "duration": 26.2667,
+   "position": "full"
+  }
+ ],
+ "subtitles": "caps-9x16.ass",
+ "audio": {
+  "tracks": [
+   {
+    "id": "vo-a",
+    "kind": "voice",
+    "file": "../shorts/voice/vo.wav",
+    "start": 0.3,
+    "dur": 14.5,
+    "note": "voice 0-14.5 s"
+   },
+   {
+    "id": "vo-b",
+    "kind": "voice",
+    "file": "../shorts/voice/vo.wav",
+    "offset": 16.1,
+    "start": 14.8,
+    "note": "from 16.1 s of the voice on: 1.6 s of the pause after 'C leaves a note.' cut, with the typing"
+   },
+   {
+    "id": "bed",
+    "kind": "music",
+    "file": "../audio/bed-folk-short-2.wav",
+    "gain_db": -5,
+    "fade_out": 1.2,
+    "duck": {
+     "under": "voice",
+     "depth_db": 8,
+     "carve": 0.35
+    },
+    "gain_points": [
+     [
+      5.492,
+      0
+     ],
+     [
+      5.792,
+      -40
+     ],
+     [
+      7.766666666666667,
+      -40
+     ],
+     [
+      8.266666666666666,
+      0
+     ]
+    ]
+   },
+   {
+    "id": "audition",
+    "kind": "music",
+    "file": "../media/bed-c1-piano.mp3",
+    "start": 5.792,
+    "dur": 1.975,
+    "fade_out": 0.1,
+    "duck": {
+     "under": "voice",
+     "depth_db": 4
+    }
+   },
+   {
+    "kind": "sfx",
+    "lib": "kenney-interface-sounds/click-001",
+    "at": 4.0,
+    "gain_db": 4
+   },
+   {
+    "kind": "sfx",
+    "lib": "kenney-interface-sounds/click-001",
+    "at": 5.6,
+    "gain_db": 4
+   },
+   {
+    "kind": "sfx",
+    "lib": "kenney-interface-sounds/click-001",
+    "at": 5.792,
+    "gain_db": 4
+   },
+   {
+    "kind": "sfx",
+    "lib": "kenney-interface-sounds/click-001",
+    "at": 10.897,
+    "gain_db": 4
+   },
+   {
+    "kind": "sfx",
+    "lib": "kenney-interface-sounds/click-001",
+    "at": 18.465,
+    "gain_db": 4
+   },
+   {
+    "kind": "sfx",
+    "lib": "kenney-interface-sounds/click-001",
+    "at": 11.33,
+    "gain_db": 4
+   },
+   {
+    "kind": "sfx",
+    "lib": "kenney-interface-sounds/click-001",
+    "at": 12.877,
+    "gain_db": 4
+   },
+   {
+    "kind": "sfx",
+    "lib": "kenney-interface-sounds/click-001",
+    "at": 15.61,
+    "gain_db": 4
+   },
+   {
+    "kind": "sfx",
+    "lib": "kenney-interface-sounds/click-001",
+    "at": 19.979,
+    "gain_db": 4
+   }
+  ]
+ },
+ "loudness": {
+  "lufs": -16,
+  "tp": -1
+ }
+}

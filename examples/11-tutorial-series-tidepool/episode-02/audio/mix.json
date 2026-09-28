@@ -1,0 +1,6 @@
+{
+  "tracks": [
+    { "kind": "voice", "file": "voice/vo.wav", "start": 0, "gain_db": 0 }
+  ],
+  "master": { "engine": "none" }
+}

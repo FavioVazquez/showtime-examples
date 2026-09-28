@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tidepool</title>
+  <meta name="description" content="Tidepool is a fictional local-first notes app, built as demo material for showtime examples.">
+  <link rel="icon" href="logo.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="fonts/inter/font.css">
+  <link rel="stylesheet" href="fonts/jetbrains-mono/font.css">
+  <link rel="stylesheet" href="styles.css">
+  <script>
+    /* Set the theme before first paint so there is no flash. */
+    (function () {
+      var t = null;
+      try { t = new URLSearchParams(location.search).get('theme'); } catch (e) {}
+      if (t !== 'light' && t !== 'dark') {
+        try { t = localStorage.getItem('tidepool.theme'); } catch (e) {}
+      }
+      if (t !== 'light' && t !== 'dark') {
+        t = window.matchMedia && matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+      }
+      document.documentElement.setAttribute('data-theme', t);
+    })();
+  </script>
+</head>
+<body>
+  <div class="app" id="app" data-mode="split" data-view="list">
+
+    <!-- Sidebar ----------------------------------------------------------->
+    <aside class="sidebar" id="sidebar" aria-label="Notebooks and tags">
+      <div class="brand">
+        <img src="logo.svg" alt="" width="28" height="28" class="brand-logo">
+        <span class="brand-name">Tidepool</span>
+      </div>
+
+      <button class="btn btn-primary btn-block" id="new-note" type="button" title="New note (N)">
+        <span class="i" data-icon="plus"></span><span>New note</span>
+      </button>
+
+      <button class="search-trigger" id="search-trigger" type="button" aria-haspopup="dialog" title="Search notes and commands">
+        <span class="i" data-icon="search"></span>
+        <span class="search-trigger-label">Search</span>
+        <kbd class="kbd" data-mod-key>⌘K</kbd>
+      </button>
+
+      <nav class="nav" aria-label="Notebooks">
+        <div class="nav-heading">Notebooks</div>
+        <ul class="nav-list" id="notebook-list"></ul>
+      </nav>
+
+      <nav class="nav" aria-label="Tags">
+        <div class="nav-heading">Tags</div>
+        <ul class="tag-cloud" id="tag-list"></ul>
+      </nav>
+
+      <div class="sidebar-footer">
+        <button class="sync-status" id="sync-status" type="button" title="Notes are stored in this browser only. Nothing is uploaded.">
+          <span class="sync-dot" aria-hidden="true"></span>
+          <span class="sync-label">Sync: local only</span>
+        </button>
+        <div class="footer-actions">
+          <button class="icon-btn" id="shortcuts-btn" type="button" title="Keyboard shortcuts (?)" aria-label="Keyboard shortcuts">
+            <span class="i" data-icon="keyboard"></span>
+          </button>
+          <button class="icon-btn" id="theme-toggle" type="button" title="Toggle theme (Shift+⌘L)" aria-label="Toggle theme">
+            <span class="i theme-icon-dark" data-icon="moon"></span>
+            <span class="i theme-icon-light" data-icon="sun"></span>
+          </button>
+        </div>
+      </div>
+    </aside>
+
+    <!-- Note list --------------------------------------------------------->
+    <section class="list-pane" id="list-pane" aria-label="Notes">
+      <header class="list-header">
+        <div class="m-bar">
+          <div class="brand"><img src="logo.svg" alt="" width="26" height="26" class="brand-logo"><span class="brand-name">Tidepool</span></div>
+          <button class="icon-btn m-search" type="button" aria-label="Search"><span class="i" data-icon="search"></span></button>
+          <button class="icon-btn m-theme" type="button" aria-label="Toggle theme"><span class="i theme-icon-dark" data-icon="moon"></span><span class="i theme-icon-light" data-icon="sun"></span></button>
+          <button class="icon-btn m-new" type="button" aria-label="New note"><span class="i" data-icon="plus"></span></button>
+        </div>
+        <div class="list-title-row">
+          <h1 class="list-title" id="list-title">All notes</h1>
+          <span class="list-count" id="list-count">0</span>
+        </div>
+        <label class="list-filter">
+          <span class="i" data-icon="search"></span>
+          <input id="list-search" type="search" placeholder="Filter this list" autocomplete="off" spellcheck="false">
+        </label>
+      </header>
+      <ul class="note-list" id="note-list" role="listbox" aria-label="Notes"></ul>
+      <div class="list-empty" id="list-empty" hidden>
+        <p>No notes match.</p>
+        <button class="btn btn-ghost" id="list-empty-new" type="button"><span class="i" data-icon="plus"></span>New note</button>
+      </div>
+    </section>
+
+    <!-- Editor ------------------------------------------------------------>
+    <main class="editor-pane" id="editor-pane" aria-label="Editor">
+      <header class="editor-toolbar">
+        <button class="icon-btn back-btn" id="back-btn" type="button" aria-label="Back to notes">
+          <span class="i" data-icon="chevron-left"></span>
+        </button>
+        <div class="crumbs" id="crumbs">
+          <span class="crumb-notebook" id="crumb-notebook">Inbox</span>
+          <span class="crumb-sep">/</span>
+          <span class="crumb-title" id="crumb-title">Untitled</span>
+        </div>
+        <div class="segmented" role="tablist" aria-label="View mode">
+          <button class="seg" id="mode-edit" data-mode="edit" type="button" role="tab" title="Edit (⌘E toggles preview)"><span class="i" data-icon="pencil"></span><span>Edit</span></button>
+          <button class="seg" id="mode-split" data-mode="split" type="button" role="tab" title="Split (⌘\)"><span class="i" data-icon="columns-2"></span><span>Split</span></button>
+          <button class="seg" id="mode-preview" data-mode="preview" type="button" role="tab" title="Preview (⌘E)"><span class="i" data-icon="eye"></span><span>Preview</span></button>
+        </div>
+        <button class="icon-btn" id="pin-btn" type="button" title="Pin note (P)" aria-label="Pin note" aria-pressed="false">
+          <span class="i" data-icon="pin"></span>
+        </button>
+        <button class="icon-btn danger" id="delete-btn" type="button" title="Delete note" aria-label="Delete note">
+          <span class="i" data-icon="trash-2"></span>
+        </button>
+      </header>
+
+      <div class="editor-head">
+        <input class="note-title" id="note-title" type="text" placeholder="Untitled" autocomplete="off" spellcheck="false" aria-label="Note title">
+        <div class="note-meta">
+          <select class="notebook-select" id="notebook-select" aria-label="Notebook"></select>
+          <div class="tag-editor" id="tag-editor">
+            <span class="tag-chips" id="tag-chips"></span>
+            <input class="tag-input" id="tag-input" type="text" placeholder="Add tag" autocomplete="off" spellcheck="false" aria-label="Add tag">
+          </div>
+        </div>
+      </div>
+
+      <div class="editor-body">
+        <div class="source-wrap">
+          <textarea class="source" id="editor" spellcheck="false" aria-label="Note body (Markdown)" placeholder="Start writing. Markdown works: # headings, **bold**, - lists, [ ] tasks, `code`"></textarea>
+        </div>
+        <article class="preview md" id="preview" aria-label="Preview"></article>
+      </div>
+
+      <footer class="statusbar" id="statusbar">
+        <span id="stat-words">0 words</span>
+        <span class="dot-sep">·</span>
+        <span id="stat-chars">0 characters</span>
+        <span class="spacer"></span>
+        <span class="save-state" id="save-state"><span class="i" data-icon="hard-drive"></span><span id="save-label">Saved on this device</span></span>
+      </footer>
+
+      <div class="editor-empty" id="editor-empty" hidden>
+        <img src="logo.svg" alt="" width="56" height="56">
+        <p>Select a note, or press <kbd class="kbd">N</kbd> to start a new one.</p>
+      </div>
+    </main>
+  </div>
+
+  <!-- Command palette ----------------------------------------------------->
+  <div class="overlay" id="palette" hidden>
+    <div class="palette" role="dialog" aria-modal="true" aria-label="Search">
+      <div class="palette-input-row">
+        <span class="i" data-icon="search"></span>
+        <input id="palette-input" type="text" placeholder="Search notes, #tags, or commands" autocomplete="off" spellcheck="false" aria-controls="palette-results">
+        <kbd class="kbd">esc</kbd>
+      </div>
+      <ul class="palette-results" id="palette-results" role="listbox"></ul>
+      <div class="palette-footer">
+        <span><kbd class="kbd">↑</kbd><kbd class="kbd">↓</kbd> move</span>
+        <span><kbd class="kbd">↵</kbd> open</span>
+        <span><kbd class="kbd">#</kbd> tags</span>
+        <span><kbd class="kbd">&gt;</kbd> commands</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Shortcuts dialog ---------------------------------------------------->
+  <div class="overlay" id="shortcuts-dialog" hidden>
+    <div class="dialog" tabindex="-1" role="dialog" aria-modal="true" aria-labelledby="shortcuts-title">
+      <header class="dialog-head">
+        <h2 id="shortcuts-title">Keyboard shortcuts</h2>
+        <button class="icon-btn" id="shortcuts-close" type="button" aria-label="Close"><span class="i" data-icon="x"></span></button>
+      </header>
+      <dl class="shortcut-grid" id="shortcut-grid"></dl>
+    </div>
+  </div>
+
+  <div class="toast-region" id="toasts" aria-live="polite"></div>
+
+  <script src="app.js"></script>
+</body>
+</html>

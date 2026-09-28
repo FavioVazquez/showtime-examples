@@ -1,0 +1,36 @@
+YouTube title:
+Where US electricity came from, 1950-2025: coal, gas, wind and solar in EIA's own numbers
+
+YouTube description:
+In 2024, US wind and solar farms made more electricity than coal for the first time in EIA's annual record: 672 vs 652 TWh (utility-scale, all sectors). They did it again in 2025 (760 vs 737 TWh), even though coal generation rose 13 % that year.
+Coal made about half of US electricity for decades and peaked in 2007 (2,016 TWh, 48.5 %). Natural gas passed coal first, in 2016. In 2025 gas made 40.8 %, nuclear 17.7 %, wind + solar 17.2 %, coal 16.6 %.
+
+Chapters:
+0:00 2024: wind + solar vs coal, and the coal era
+0:15 Gas, then wind + solar, pass coal
+0:33 Six sources ranked, the 2025 mix and the source
+
+Data: U.S. Energy Information Administration, Monthly Energy Review (August 2026), Table 7.2a, https://www.eia.gov/totalenergy/data/browser/index.php?tbl=T07.02A (accessed September 27, 2026). Solar is utility-scale generation. 2025 values are preliminary and may be revised. Through 1988 the table covers electric utilities only (except hydro).
+Made with showtime. Narration: synthetic voice (Kokoro-82M, generated locally).
+
+X (one post):
+For the first time in EIA's annual record, US wind + solar out-generated coal in 2024: 672 vs 652 TWh. Again in 2025 (760 vs 737), though coal rose 13 %. Gas passed coal first, in 2016. 60 s, EIA Monthly Energy Review Table 7.2a.
+
+LinkedIn:
+US electricity in one minute, straight from EIA's Monthly Energy Review (Table 7.2a, August 2026 edition):
+- Coal made about half of US power for decades and peaked in 2007 at 2,016 TWh.
+- Natural gas passed coal in 2016 and has stayed ahead every year since.
+- In 2024 wind + solar passed coal for the first time in the annual record (672 vs 652 TWh), and again in 2025 (760 vs 737), even as coal rose 13 %.
+- 2025 mix: gas 40.8 %, nuclear 17.7 %, wind + solar 17.2 %, coal 16.6 %.
+Solar = utility-scale; 2025 values are preliminary.
+
+Alt text (poster):
+Two cards: "Wind + solar 672 TWh" in green and "Coal 652 TWh" in grey, under the headline "Wind + solar made more electricity than coal" and a label "US electricity generation, 2024", with an orange badge "First time in EIA's annual record".
+
+Notes for posting:
+- Say "wind and solar", never "renewables": in this table renewables include hydro and wood, which passed coal earlier.
+- Do not add the EIA logo (a registered trademark); the text credit above is what EIA asks for.
+- EIA revises recent values monthly: the next Monthly Energy Review (September 29, 2026) may move the 2025 numbers. Re-derive before reposting after that date.
+- YouTube only uses chapters when there are at least 3 and each lasts 10 s or more, so the list above has 3
+  (the web page keeps all 7 scenes as chapters).
+- The voice-over is synthetic: use the platform's "AI-generated" label where it asks.

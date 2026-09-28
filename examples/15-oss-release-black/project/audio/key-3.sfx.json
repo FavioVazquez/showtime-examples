@@ -1,0 +1,20 @@
+{
+  "type": "keyclick",
+  "kind": "onset",
+  "category": "ui",
+  "duration": 0.09,
+  "hit": 0.0,
+  "hit_frame_30fps": 0,
+  "hit_frame_60fps": 0,
+  "key": null,
+  "intensity": 0.7,
+  "seed": 2,
+  "level": {
+    "target_lufs": -24.0,
+    "measured_lufs": -43.25,
+    "gain_db": 19.25,
+    "peak_limited": true
+  },
+  "peak_dbfs": -8.0,
+  "file": "audio/key-3.wav"
+}

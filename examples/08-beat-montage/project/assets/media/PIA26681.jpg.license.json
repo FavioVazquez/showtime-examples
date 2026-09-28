@@ -1,0 +1,21 @@
+{
+  "source": "nasa",
+  "source_label": "NASA Image and Video Library",
+  "id": "nasa:PIA26681",
+  "title": "Image of Sun From NASA's Solar Dynamics Observatory",
+  "author": "NASA/GSFC/Solar Dynamics Observatory",
+  "author_url": null,
+  "license": "Public domain (NASA media)",
+  "license_url": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+  "landing_url": "https://images.nasa.gov/details/PIA26681",
+  "note": "NASA media: no endorsement implied; do not use NASA logos or insignia. Check the description for third-party copyright notices.",
+  "type": "image",
+  "file_url": "https://images-assets.nasa.gov/image/PIA26681/PIA26681~large.jpg",
+  "captions": [],
+  "sha256": "7c3109bbefd9e9eb3d0e5ca0bdea8583d4db49af1df6bc95f6be04f9a378c2b3",
+  "fetched": "2026-09-26T14:26:45",
+  "license_class": "free",
+  "attribution_required": false,
+  "credit": "\"Image of Sun From NASA's Solar Dynamics Observatory\" by NASA/GSFC/Solar Dynamics Observatory via NASA Image and Video Library (Public domain (NASA media)) - https://images.nasa.gov/details/PIA26681",
+  "file": "PIA26681.jpg"
+}

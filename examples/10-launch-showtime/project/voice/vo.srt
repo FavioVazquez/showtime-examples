@@ -1,0 +1,51 @@
+1
+00:00:00,060 --> 00:00:01,230
+You describe the video.
+
+2
+00:00:01,947 --> 00:00:02,767
+Claude directs.
+
+3
+00:00:03,017 --> 00:00:04,187
+showtime does the work,
+
+4
+00:00:04,227 --> 00:00:05,247
+on your own machine.
+
+5
+00:00:05,851 --> 00:00:06,182
+Scored
+
+6
+00:00:06,206 --> 00:00:10,305
+with music and sound, rendered frame
+by frame, and checked before it ships.
+
+7
+00:00:11,655 --> 00:00:13,979
+Launch films, explainers,
+vertical shorts,
+
+8
+00:00:14,085 --> 00:00:15,589
+footage cuts, data stories.
+
+9
+00:00:16,379 --> 00:00:17,499
+Want options first?
+
+10
+00:00:17,749 --> 00:00:19,169
+Pick them on a studio board.
+
+11
+00:00:19,804 --> 00:00:22,784
+No cloud, no API
+keys, no uploads.
+
+12
+00:00:23,053 --> 00:00:24,723
+Even this voice
+was made locally.

@@ -1,0 +1,5 @@
+studio board: http://127.0.0.1:58243/?k=<masked>
+  local only (127.0.0.1); the link carries a key, share it only with the reviewer
+  static copy: <work>/showtime-out/board-demo-20260927-165709/studio/board.html
+  feedback:    showtime studio feedback <work>/showtime-out/board-demo-20260927-165709    stop: showtime studio stop <work>/showtime-out/board-demo-20260927-165709
+  (add --browser to open it here)

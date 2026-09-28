@@ -1,0 +1,12 @@
+{
+  "title": "La danse frétillante",
+  "subtitle": "Comment une abeille indique le chemin : une vidéo explicative adaptée de Wikipédia (CC BY-SA 4.0)",
+  "width": 1920,
+  "height": 1080,
+  "fps": 30,
+  "duration": 64.2,
+  "background": "#15100a",
+  "score": true,
+  "audio": "audio/mix.json",
+  "poster": 4.6
+}

@@ -1,0 +1,64 @@
+name: ci
+
+# The examples repository has no code of its own: this checks that the media manifest, the .gitignore block
+# and the media release agree. tests/test_publish_media.py is generated from showtime's test suite.
+on:
+  push:
+    branches: [main]
+  pull_request:
+  release:
+    types: [published, edited]
+  workflow_dispatch:
+
+concurrency:
+  group: ci-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+permissions:
+  contents: read
+
+env:
+  PYTHONUTF8: "1"
+
+jobs:
+  media:
+    name: media manifest and release
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: publish_media tests
+        run: python tests/test_publish_media.py -v
+      - name: Manifest and .gitignore agree with the files
+        run: python scripts/publish_media.py
+      - name: Every asset in MEDIA.json is in the release, with its size
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          TAG=$(python -c "import json; print(json.load(open('examples/MEDIA.json'))['release']['tag'])")
+          if ! gh release view "$TAG" --repo "$GITHUB_REPOSITORY" --json assets > release.json 2> release.err; then
+            cat release.err
+            echo "::warning::release $TAG not found: the release links in the READMEs do not resolve yet"
+            exit 0
+          fi
+          python - <<'PY'
+          import json, sys
+          man = json.load(open("examples/MEDIA.json"))
+          rel = {a["name"]: a["size"] for a in json.load(open("release.json"))["assets"]}
+          bad = []
+          for e in man["files"]:
+              if e["asset"] not in rel:
+                  bad.append("missing from the release: " + e["asset"])
+              elif rel[e["asset"]] != e["bytes"]:
+                  bad.append("size differs: %s (release %d, MEDIA.json %d)" % (e["asset"], rel[e["asset"]], e["bytes"]))
+          extra = sorted(set(rel) - {e["asset"] for e in man["files"]})
+          for n in extra:
+              print("::notice::in the release but not in MEDIA.json: " + n)
+          for b in bad:
+              print("::error::" + b)
+          print("%d assets in MEDIA.json, %d in the release, %d problem(s)" % (len(man["files"]), len(rel), len(bad)))
+          sys.exit(1 if bad else 0)
+          PY

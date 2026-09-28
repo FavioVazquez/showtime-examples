@@ -1,0 +1,16 @@
+{
+  "source": "fontsource",
+  "source_label": "Fontsource",
+  "id": "inter",
+  "title": "Inter",
+  "license": "OFL-1.1",
+  "license_url": "https://spdx.org/licenses/OFL-1.1.html",
+  "landing_url": "https://fontsource.org/fonts/inter",
+  "license_text": "LICENSE.txt",
+  "license_text_source": null,
+  "fetched": "2026-09-26T13:50:02",
+  "license_class": "free",
+  "attribution_required": false,
+  "credit": "\"Inter\" via Fontsource (OFL-1.1) - https://fontsource.org/fonts/inter",
+  "file": "inter"
+}

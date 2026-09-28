@@ -1,0 +1,13 @@
+{
+  "title": "Tidepool",
+  "width": 1920,
+  "height": 1080,
+  "fps": 30,
+  "duration": 20.0,
+  "background": "#062A2F",
+  "poster": 3.1,
+  "audio": "audio/mix.json",
+  "render": {
+    "poster_bake": "off"
+  }
+}

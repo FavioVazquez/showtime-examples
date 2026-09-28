@@ -1,0 +1,36 @@
+<!doctype html>
+<!-- W1 "Arcade marquee" concept frames: a pixel marquee, then a pixel-dissolve (WebGL) into the official mark. -->
+<html lang="en"><head><meta charset="utf-8">
+<script src="/_st/stage.js"></script>
+<link rel="stylesheet" href="/_st/themes/fonts/inter.css">
+<script type="module" src="/_st/components/index.js"></script>
+<style>
+  html, body { margin: 0; background: #15100E; }
+  .scene { position: absolute; inset: 0; background: #15100E; }
+  canvas.px { position: absolute; inset: 0; width: 1920px; height: 1080px; image-rendering: pixelated; }
+  .lock { position: absolute; left: 50%; top: 45%; transform: translate(-50%, -50%); display: flex; flex-direction: column; align-items: center; gap: 48px; }
+  .lock img.mark { width: 320px; height: 320px; } .lock img.word { width: 460px; }
+</style></head><body>
+<section class="scene" id="arcade" data-start="0" data-dur="2"><canvas class="px" id="px" width="240" height="135"></canvas></section>
+<section class="scene" id="logo" data-start="#arcade" data-dur="2" data-transition="pixel-dissolve 0.6">
+  <div class="lock"><img class="mark" src="assets/mark-hero.svg" alt=""><img class="word" src="assets/wordmark-on-dark.svg" alt="showtime"></div>
+</section>
+<script>
+  const cv = document.getElementById('px'), g = cv.getContext('2d');
+  ST.waitFor(document.fonts.ready.then(() => document.fonts.load('700 16px Inter')));
+  ST.onSeek((t) => {
+    g.fillStyle = '#15100E'; g.fillRect(0, 0, 240, 135);
+    // marquee frame: square "bulbs" chasing, one step every 0.1 s
+    const step = Math.floor(t * 10), pts = [];
+    for (let x = 20; x <= 220; x += 8) pts.push([x, 22]);
+    for (let y = 30; y <= 106; y += 8) pts.push([220, y]);
+    for (let x = 220; x >= 20; x -= 8) pts.push([x, 112]);
+    for (let y = 106; y >= 30; y -= 8) pts.push([20, y]);
+    pts.forEach((p, i) => { g.fillStyle = (i + step) % 3 === 0 ? '#E9B949' : '#3A2C27'; g.fillRect(p[0] - 2, p[1] - 2, 4, 4); });
+    g.fillStyle = '#231916'; g.fillRect(28, 30, 184, 76);
+    g.font = '700 16px Inter'; g.textAlign = 'center'; g.textBaseline = 'middle';
+    g.fillStyle = '#F5EBDC'; g.fillText('NOW SHOWING', 120, 58);
+    g.fillStyle = (step % 6 < 3) ? '#E9B949' : '#B6A795'; g.font = '700 9px Inter'; g.fillText('PRESS START', 120, 84);
+  });
+</script>
+</body></html>

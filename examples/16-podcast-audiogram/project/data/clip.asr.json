@@ -1,0 +1,1118 @@
+{
+ "source": "media/clip.wav",
+ "duration": 36.92,
+ "language": "en",
+ "language_probability": 1.0,
+ "model": "large-v3-turbo",
+ "engine": "faster-whisper",
+ "audio_track": 0,
+ "text": "What is something that the public might be surprised to learn about from astronaut training for Artemis missions? I think the most surprising thing is how little of our training I want them to use in flight. That's a good point. Like, we spend most of our time training worst-case scenarios, um, different failure things that could go wrong, and ideally nothing. Yeah. Nothing off nominal happens during the mission. Um, but by practicing all of those failures, they're learning the process, They're working as a team. There's a lot of skills that are applicable, but the exact scenarios we train, I hope they never use it.",
+ "version": 1,
+ "cache_key": "a6e6cace096afbbf0c44e255",
+ "source_hash": "d06deb3b5a7dbc94ce00",
+ "created": "2026-09-27T14:28:42",
+ "asr_seconds": 31.68,
+ "stats": {
+  "refine": {
+   "moved": 44,
+   "words": 107,
+   "mean_shift_ms": 41.0,
+   "threshold_db": -38.9
+  },
+  "diarize": {
+   "speakers": 2,
+   "words_per_speaker": {
+    "S0": 18,
+    "S1": 89
+   }
+  },
+  "words": 107,
+  "fillers": 2,
+  "events": 0,
+  "low_confidence": 2,
+  "respread": 0,
+  "levels": {
+   "peak_db": -1.2,
+   "mean_db": -19.3,
+   "floor_db": -40.7,
+   "active_ratio": 0.774
+  }
+ },
+ "guards": {
+  "dropped": [],
+  "warnings": []
+ },
+ "words": [
+  {
+   "text": "What",
+   "start": 0.15,
+   "end": 0.32,
+   "conf": 0.936,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w0"
+  },
+  {
+   "text": "is",
+   "start": 0.32,
+   "end": 0.46,
+   "conf": 1.0,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w1"
+  },
+  {
+   "text": "something",
+   "start": 0.46,
+   "end": 0.68,
+   "conf": 1.0,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w2"
+  },
+  {
+   "text": "that",
+   "start": 0.68,
+   "end": 0.83,
+   "conf": 1.0,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w3"
+  },
+  {
+   "text": " ",
+   "start": 0.83,
+   "end": 0.87,
+   "type": "spacing"
+  },
+  {
+   "text": "the",
+   "start": 0.87,
+   "end": 0.94,
+   "conf": 1.0,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w4"
+  },
+  {
+   "text": " ",
+   "start": 0.94,
+   "end": 0.97,
+   "type": "spacing"
+  },
+  {
+   "text": "public",
+   "start": 0.97,
+   "end": 1.28,
+   "conf": 1.0,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w5"
+  },
+  {
+   "text": "might",
+   "start": 1.28,
+   "end": 1.74,
+   "conf": 1.0,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w6"
+  },
+  {
+   "text": "be",
+   "start": 1.74,
+   "end": 2.16,
+   "conf": 1.0,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w7"
+  },
+  {
+   "text": "surprised",
+   "start": 2.16,
+   "end": 2.82,
+   "conf": 1.0,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w8"
+  },
+  {
+   "text": "to",
+   "start": 2.82,
+   "end": 3.02,
+   "conf": 1.0,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w9"
+  },
+  {
+   "text": "learn",
+   "start": 3.02,
+   "end": 3.2,
+   "conf": 1.0,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w10"
+  },
+  {
+   "text": "about",
+   "start": 3.2,
+   "end": 3.46,
+   "conf": 1.0,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w11"
+  },
+  {
+   "text": "from",
+   "start": 3.46,
+   "end": 3.74,
+   "conf": 1.0,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w12"
+  },
+  {
+   "text": "astronaut",
+   "start": 3.74,
+   "end": 4.16,
+   "conf": 1.0,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w13"
+  },
+  {
+   "text": "training",
+   "start": 4.16,
+   "end": 4.54,
+   "conf": 1.0,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w14"
+  },
+  {
+   "text": "for",
+   "start": 4.54,
+   "end": 4.86,
+   "conf": 1.0,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w15"
+  },
+  {
+   "text": "Artemis",
+   "start": 4.86,
+   "end": 5.44,
+   "conf": 0.999,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w16"
+  },
+  {
+   "text": "missions?",
+   "start": 5.44,
+   "end": 6.0,
+   "conf": 0.993,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w17"
+  },
+  {
+   "text": " ",
+   "start": 6.0,
+   "end": 7.15,
+   "type": "spacing"
+  },
+  {
+   "text": "I",
+   "start": 7.15,
+   "end": 7.22,
+   "conf": 0.996,
+   "type": "word",
+   "speaker": "S1",
+   "id": "w18"
+  },
+  {
+   "text": "think",
+   "start": 7.22,
+   "end": 7.36,
+   "conf": 1.0,
+   "type": "word",
+   "speaker": "S1",
+   "id": "w19"
+  },
+  {
+   "text": "the",
+   "start": 7.36,
+   "end": 7.48,
+   "conf": 1.0,
+   "type": "word",
+   "speaker": "S1",
+   "id": "w20"
+  },
+  {
+   "text": "most",
+   "start": 7.48,
+   "end": 7.64,
+   "conf": 1.0,
+   "type": "word",
+   "speaker": "S1",
+   "id": "w21"
+  },
+  {
+   "text": "surprising",
+   "start": 7.64,
+   "end": 8.0,
+   "conf": 1.0,
+   "type": "word",
+   "speaker": "S1",
+   "id": "w22"
+  },
+  {
+   "text": "thing",
+   "start": 8.0,
+   "end": 8.28,
+   "conf": 1.0,
+   "type": "word",
+   "speaker": "S1",
+   "id": "w23"
+  },
+  {
+   "text": "is",
+   "start": 8.28,
+   "end": 8.86,
+   "conf": 1.0,
+   "type": "word",
+   "speaker": "S1",
+   "id": "w24"
+  },
+  {
+   "text": "how",
+   "start": 8.86,
+   "end": 9.72,
+   "conf": 0.999,
+   "type": "word",
+   "speaker": "S1",
+   "id": "w25"
+  },
+  {
+   "text": "little",
+   "start": 9.72,
+   "end": 10.08,
+   "conf": 1.0,
+   "type": "word",
+   "speaker": "S1",
+   "id": "w26"
+  },
+  {
+   "text": "of",
+   "start": 10.08,
+   "end": 10.42,
+   "conf": 1.0,
+   "type": "word",
+   "speaker": "S1",
+   "id": "w27"
+  },
+  {
+   "text": "our",
+   "start": 10.42,
+   "end": 10.56,
+   "conf": 1.0,
+   "type": "word",
+   "speaker": "S1",
+   "id": "w28"
+  },
+  {
+   "text": "training",
+   "start": 10.56,
+   "end": 10.94,
+   "conf": 1.0,
+   "type": "word",
+   "speaker": "S1",
+   "id": "w29"
+  },
+  {
+   "text": "I",
+   "start": 10.94,
+   "end": 11.5,
+   "conf": 1.0,
+   "type": "word",
+   "speaker": "S1",
+   "id": "w30"
+  },
+  {
+   "text": "want",
+   "start": 11.5,
+   "end": 11.74,
+   "conf": 1.0,
+   "type": "word",
+   "speaker": "S1",
+   "id": "w31"
+  },
+  {
+   "text": "them",
+   "start": 11.74,
+   "end": 11.92,
+   "conf": 1.0,
+   "type": "word",
+   "speaker": "S1",
+   "id": "w32"
+  },
+  {
+   "text": "to",
+   "start": 11.92,
+   "end": 12.08,
+   "conf": 1.0,
+   "type": "word",
+   "speaker": "S1",
+   "id": "w33"
+  },
+  {
+   "text": "use",
+   "start": 12.08,
+   "end": 12.46,
+   "conf": 1.0,
+   "type": "word",
+   "speaker": "S1",
+   "id": "w34"
+  },
+  {
+   "text": "in",
+   "start": 12.46,
+   "end": 12.78,
+   "conf": 1.0,
+   "type": "word",
+   "speaker": "S1",
+   "id": "w35"
+  },
+  {
+   "text": "flight.",
+   "start": 12.78,
+   "end": 13.12,
+   "conf": 0.998,
+   "type": "word",
+   "speaker": "S1",
+   "id": "w36"
+  },
+  {
+   "text": " ",
+   "start": 13.12,
+   "end": 13.21,
+   "type": "spacing"
+  },
+  {
+   "text": "That's",
+   "start": 13.21,
+   "end": 13.72,
+   "conf": 0.999,
+   "type": "word",
+   "speaker": "S1",
+   "id": "w37"
+  },
+  {
+   "text": "a",
+   "start": 13.72,
+   "end": 13.8,
+   "conf": 1.0,
+   "type": "word",
+   "speaker": "S1",
+   "id": "w38"
+  },
+  {
+   "text": " ",
+   "start": 13.8,
+   "end": 13.85,
+   "type": "spacing"
+  },
+  {
+   "text": "good",
+   "start": 13.85,
+   "end": 13.96,
+   "conf": 1.0,
+   "type": "word",
+   "speaker": "S1",
+   "id": "w39"
+  },
+  {
+   "text": "point.",
+   "start": 13.96,
+   "end": 14.36,
+   "conf": 1.0,
+   "type": "word",
+   "speaker": "S1",
+   "id": "w40"
+  },
+  {
+   "text": " ",
+   "start": 14.36,
+   "end": 14.46,
+   "type": "spacing"
+  },
+  {
+   "text": "Like,",
+   "start": 14.46,
+   "end": 14.6,
+   "conf": 0.813,
+   "type": "word",
+   "speaker": "S1",
+   "id": "w41"
+  },
+  {
+   "text": "we",
+   "start": 14.6,
+   "end": 14.74,
+   "conf": 1.0,
+   "type": "word",
+   "speaker": "S1",
+   "id": "w42"
+  },
+  {
+   "text": "spend",
+   "start": 14.74,
+   "end": 14.98,
+   "conf": 1.0,
+   "type": "word",
+   "speaker": "S1",
+   "id": "w43"
+  },
+  {
+   "text": "most",
+   "start": 14.98,
+   "end": 15.23,
+   "conf": 1.0,
+   "type": "word",
+   "speaker": "S1",
+   "id": "w44"
+  },
+  {
+   "text": "of",
+   "start": 15.24,
+   "end": 15.4,
+   "conf": 1.0,
+   "type": "word",
+   "speaker": "S1",
+   "id": "w45"
+  },
+  {
+   "text": "our",
+   "start": 15.4,
+   "end": 15.54,
+   "conf": 1.0,
+   "type": "word",
+   "speaker": "S1",
+   "id": "w46"
+  },
+  {
+   "text": "time",
+   "start": 15.54,
+   "end": 15.84,
+   "conf": 1.0,
+   "type": "word",
+   "speaker": "S1",
+   "id": "w47"
+  },
+  {
+   "text": "training",
+   "start": 15.84,
+   "end": 16.32,
+   "conf": 1.0,
+   "type": "word",
+   "speaker": "S1",
+   "id": "w48"
+  },
+  {
+   "text": "worst-case",
+   "start": 16.32,
+   "end": 17.24,
+   "conf": 0.875,
+   "type": "word",
+   "speaker": "S1",
+   "id": "w49"
+  },
+  {
+   "text": "scenarios,",
+   "start": 17.24,
+   "end": 18.23,
+   "conf": 1.0,
+   "type": "word",
+   "speaker": "S1",
+   "id": "w50"
+  },
+  {
+   "text": " ",
+   "start": 18.23,
+   "end": 18.43,
+   "type": "spacing"
+  },
+  {
+   "text": "um,",
+   "start": 18.43,
+   "end": 18.61,
+   "conf": 0.008,
+   "type": "word",
+   "speaker": "S1",
+   "id": "w51"
+  },
+  {
+   "text": "different",
+   "start": 18.61,
+   "end": 19.04,
+   "conf": 0.998,
+   "type": "word",
+   "speaker": "S1",
+   "id": "w52"
+  },
+  {
+   "text": "failure",
+   "start": 19.04,
+   "end": 19.52,
+   "conf": 0.998,
+   "type": "word",
+   "speaker": "S1",
+   "id": "w53"
+  },
+  {
+   "text": "things",
+   "start": 19.52,
+   "end": 19.88,
+   "conf": 0.944,
+   "type": "word",
+   "speaker": "S1",
+   "id": "w54"
+  },
+  {
+   "text": "that",
+   "start": 19.88,
+   "end": 20.12,
+   "conf": 1.0,
+   "type": "word",
+   "speaker": "S1",
+   "id": "w55"
+  },
+  {
+   "text": " ",
+   "start": 20.12,
+   "end": 20.16,
+   "type": "spacing"
+  },
+  {
+   "text": "could",
+   "start": 20.16,
+   "end": 20.3,
+   "conf": 0.999,
+   "type": "word",
+   "speaker": "S1",
+   "id": "w56"
+  },
+  {
+   "text": "go",
+   "start": 20.3,
+   "end": 20.48,
+   "conf": 1.0,
+   "type": "word",
+   "speaker": "S1",
+   "id": "w57"
+  },
+  {
+   "text": "wrong,",
+   "start": 20.48,
+   "end": 20.94,
+   "conf": 1.0,
+   "type": "word",
+   "speaker": "S1",
+   "id": "w58"
+  },
+  {
+   "text": " ",
+   "start": 20.94,
+   "end": 21.07,
+   "type": "spacing"
+  },
+  {
+   "text": "and",
+   "start": 21.07,
+   "end": 21.18,
+   "conf": 1.0,
+   "type": "word",
+   "speaker": "S1",
+   "id": "w59"
+  },
+  {
+   "text": "ideally",
+   "start": 21.18,
+   "end": 21.6,
+   "conf": 0.969,
+   "type": "word",
+   "speaker": "S1",
+   "id": "w60"
+  },
+  {
+   "text": "nothing.",
+   "start": 21.6,
+   "end": 22.05,
+   "conf": 0.663,
+   "type": "word",
+   "speaker": "S1",
+   "id": "w61"
+  },
+  {
+   "text": " ",
+   "start": 22.05,
+   "end": 22.35,
+   "type": "spacing"
+  },
+  {
+   "text": "Yeah.",
+   "start": 22.35,
+   "end": 22.57,
+   "conf": 0.943,
+   "type": "word",
+   "speaker": "S1",
+   "id": "w62"
+  },
+  {
+   "text": " ",
+   "start": 22.57,
+   "end": 22.74,
+   "type": "spacing"
+  },
+  {
+   "text": "Nothing",
+   "start": 22.74,
+   "end": 23.06,
+   "conf": 0.996,
+   "type": "word",
+   "speaker": "S1",
+   "id": "w63"
+  },
+  {
+   "text": "off",
+   "start": 23.06,
+   "end": 23.37,
+   "conf": 0.992,
+   "type": "word",
+   "speaker": "S1",
+   "id": "w64"
+  },
+  {
+   "text": " ",
+   "start": 23.37,
+   "end": 23.44,
+   "type": "spacing"
+  },
+  {
+   "text": "nominal",
+   "start": 23.44,
+   "end": 23.72,
+   "conf": 0.141,
+   "type": "word",
+   "speaker": "S1",
+   "id": "w65"
+  },
+  {
+   "text": "happens",
+   "start": 23.72,
+   "end": 24.2,
+   "conf": 1.0,
+   "type": "word",
+   "speaker": "S1",
+   "id": "w66"
+  },
+  {
+   "text": "during",
+   "start": 24.2,
+   "end": 24.5,
+   "conf": 1.0,
+   "type": "word",
+   "speaker": "S1",
+   "id": "w67"
+  },
+  {
+   "text": "the",
+   "start": 24.5,
+   "end": 24.66,
+   "conf": 1.0,
+   "type": "word",
+   "speaker": "S1",
+   "id": "w68"
+  },
+  {
+   "text": "mission.",
+   "start": 24.66,
+   "end": 25.13,
+   "conf": 1.0,
+   "type": "word",
+   "speaker": "S1",
+   "id": "w69"
+  },
+  {
+   "text": " ",
+   "start": 25.13,
+   "end": 25.81,
+   "type": "spacing"
+  },
+  {
+   "text": "Um,",
+   "start": 25.81,
+   "end": 26.07,
+   "conf": 0.888,
+   "type": "word",
+   "speaker": "S1",
+   "id": "w70"
+  },
+  {
+   "text": "but",
+   "start": 26.07,
+   "end": 26.44,
+   "conf": 0.999,
+   "type": "word",
+   "speaker": "S1",
+   "id": "w71"
+  },
+  {
+   "text": "by",
+   "start": 26.45,
+   "end": 26.82,
+   "conf": 0.985,
+   "type": "word",
+   "speaker": "S1",
+   "id": "w72"
+  },
+  {
+   "text": "practicing",
+   "start": 26.82,
+   "end": 27.31,
+   "conf": 0.999,
+   "type": "word",
+   "speaker": "S1",
+   "id": "w73"
+  },
+  {
+   "text": "all",
+   "start": 27.32,
+   "end": 27.76,
+   "conf": 1.0,
+   "type": "word",
+   "speaker": "S1",
+   "id": "w74"
+  },
+  {
+   "text": "of",
+   "start": 27.76,
+   "end": 27.88,
+   "conf": 0.999,
+   "type": "word",
+   "speaker": "S1",
+   "id": "w75"
+  },
+  {
+   "text": "those",
+   "start": 27.88,
+   "end": 28.06,
+   "conf": 1.0,
+   "type": "word",
+   "speaker": "S1",
+   "id": "w76"
+  },
+  {
+   "text": "failures,",
+   "start": 28.06,
+   "end": 28.55,
+   "conf": 1.0,
+   "type": "word",
+   "speaker": "S1",
+   "id": "w77"
+  },
+  {
+   "text": " ",
+   "start": 28.55,
+   "end": 28.6,
+   "type": "spacing"
+  },
+  {
+   "text": "they're",
+   "start": 28.6,
+   "end": 28.76,
+   "conf": 0.998,
+   "type": "word",
+   "speaker": "S1",
+   "id": "w78"
+  },
+  {
+   "text": "learning",
+   "start": 28.76,
+   "end": 29.06,
+   "conf": 1.0,
+   "type": "word",
+   "speaker": "S1",
+   "id": "w79"
+  },
+  {
+   "text": "the",
+   "start": 29.06,
+   "end": 29.34,
+   "conf": 0.995,
+   "type": "word",
+   "speaker": "S1",
+   "id": "w80"
+  },
+  {
+   "text": "process,",
+   "start": 29.36,
+   "end": 29.8,
+   "conf": 1.0,
+   "type": "word",
+   "speaker": "S1",
+   "id": "w81"
+  },
+  {
+   "text": "They're",
+   "start": 29.8,
+   "end": 30.34,
+   "conf": 0.877,
+   "type": "word",
+   "speaker": "S1",
+   "id": "w82"
+  },
+  {
+   "text": "working",
+   "start": 30.34,
+   "end": 30.66,
+   "conf": 1.0,
+   "type": "word",
+   "speaker": "S1",
+   "id": "w83"
+  },
+  {
+   "text": "as",
+   "start": 30.66,
+   "end": 30.88,
+   "conf": 1.0,
+   "type": "word",
+   "speaker": "S1",
+   "id": "w84"
+  },
+  {
+   "text": "a",
+   "start": 30.88,
+   "end": 30.96,
+   "conf": 1.0,
+   "type": "word",
+   "speaker": "S1",
+   "id": "w85"
+  },
+  {
+   "text": " ",
+   "start": 30.96,
+   "end": 31.01,
+   "type": "spacing"
+  },
+  {
+   "text": "team.",
+   "start": 31.01,
+   "end": 31.53,
+   "conf": 1.0,
+   "type": "word",
+   "speaker": "S1",
+   "id": "w86"
+  },
+  {
+   "text": "There's",
+   "start": 31.55,
+   "end": 31.92,
+   "conf": 0.999,
+   "type": "word",
+   "speaker": "S1",
+   "id": "w87"
+  },
+  {
+   "text": "a",
+   "start": 31.92,
+   "end": 32.02,
+   "conf": 1.0,
+   "type": "word",
+   "speaker": "S1",
+   "id": "w88"
+  },
+  {
+   "text": "lot",
+   "start": 32.02,
+   "end": 32.14,
+   "conf": 1.0,
+   "type": "word",
+   "speaker": "S1",
+   "id": "w89"
+  },
+  {
+   "text": "of",
+   "start": 32.14,
+   "end": 32.26,
+   "conf": 1.0,
+   "type": "word",
+   "speaker": "S1",
+   "id": "w90"
+  },
+  {
+   "text": "skills",
+   "start": 32.26,
+   "end": 32.54,
+   "conf": 1.0,
+   "type": "word",
+   "speaker": "S1",
+   "id": "w91"
+  },
+  {
+   "text": "that",
+   "start": 32.54,
+   "end": 32.8,
+   "conf": 1.0,
+   "type": "word",
+   "speaker": "S1",
+   "id": "w92"
+  },
+  {
+   "text": "are",
+   "start": 32.8,
+   "end": 32.92,
+   "conf": 1.0,
+   "type": "word",
+   "speaker": "S1",
+   "id": "w93"
+  },
+  {
+   "text": "applicable,",
+   "start": 32.92,
+   "end": 33.38,
+   "conf": 1.0,
+   "type": "word",
+   "speaker": "S1",
+   "id": "w94"
+  },
+  {
+   "text": "but",
+   "start": 33.38,
+   "end": 33.83,
+   "conf": 1.0,
+   "type": "word",
+   "speaker": "S1",
+   "id": "w95"
+  },
+  {
+   "text": " ",
+   "start": 33.83,
+   "end": 33.91,
+   "type": "spacing"
+  },
+  {
+   "text": "the",
+   "start": 33.91,
+   "end": 34.0,
+   "conf": 0.999,
+   "type": "word",
+   "speaker": "S1",
+   "id": "w96"
+  },
+  {
+   "text": "exact",
+   "start": 34.0,
+   "end": 34.41,
+   "conf": 1.0,
+   "type": "word",
+   "speaker": "S1",
+   "id": "w97"
+  },
+  {
+   "text": " ",
+   "start": 34.41,
+   "end": 34.46,
+   "type": "spacing"
+  },
+  {
+   "text": "scenarios",
+   "start": 34.46,
+   "end": 34.98,
+   "conf": 0.999,
+   "type": "word",
+   "speaker": "S1",
+   "id": "w98"
+  },
+  {
+   "text": "we",
+   "start": 34.98,
+   "end": 35.24,
+   "conf": 1.0,
+   "type": "word",
+   "speaker": "S1",
+   "id": "w99"
+  },
+  {
+   "text": "train,",
+   "start": 35.24,
+   "end": 35.44,
+   "conf": 0.996,
+   "type": "word",
+   "speaker": "S1",
+   "id": "w100"
+  },
+  {
+   "text": "I",
+   "start": 35.44,
+   "end": 35.62,
+   "conf": 1.0,
+   "type": "word",
+   "speaker": "S1",
+   "id": "w101"
+  },
+  {
+   "text": "hope",
+   "start": 35.62,
+   "end": 35.77,
+   "conf": 1.0,
+   "type": "word",
+   "speaker": "S1",
+   "id": "w102"
+  },
+  {
+   "text": " ",
+   "start": 35.77,
+   "end": 35.85,
+   "type": "spacing"
+  },
+  {
+   "text": "they",
+   "start": 35.85,
+   "end": 35.96,
+   "conf": 1.0,
+   "type": "word",
+   "speaker": "S1",
+   "id": "w103"
+  },
+  {
+   "text": "never",
+   "start": 35.96,
+   "end": 36.3,
+   "conf": 1.0,
+   "type": "word",
+   "speaker": "S1",
+   "id": "w104"
+  },
+  {
+   "text": "use",
+   "start": 36.3,
+   "end": 36.64,
+   "conf": 1.0,
+   "type": "word",
+   "speaker": "S1",
+   "id": "w105"
+  },
+  {
+   "text": "it.",
+   "start": 36.64,
+   "end": 36.81,
+   "conf": 1.0,
+   "type": "word",
+   "speaker": "S1",
+   "id": "w106"
+  }
+ ]
+}

@@ -1,0 +1,278 @@
+{
+  "version": 1,
+  "file": "vo.wav",
+  "sample_rate": 48000,
+  "duration": 7.348,
+  "lead_in": 0.3,
+  "tail": 0.4,
+  "loudness": -16.02,
+  "script": "../narration.md",
+  "lines": [
+    {
+      "id": "watch",
+      "index": 1,
+      "text": "No one would have believed in the last years of the nineteenth century that this world was being watched",
+      "source_text": "No one would have believed in the last years of the nineteenth century that this world was being watched",
+      "voice": "bm_george",
+      "engine": "kokoro",
+      "lang": "en-gb",
+      "speed": 0.9,
+      "style": "trailer",
+      "start": 0.3,
+      "end": 6.948,
+      "duration": 6.648,
+      "speech_start": 0.34,
+      "speech_end": 6.778,
+      "pause_after": 0.35,
+      "slot": {
+        "start": 0.3,
+        "end": 7.348,
+        "duration": 7.048
+      },
+      "file": "lines/01-watch.wav",
+      "timing": "exact",
+      "wps": 2.951,
+      "words": [
+        {
+          "text": "No",
+          "start": 0.34,
+          "end": 0.59,
+          "line": "watch"
+        },
+        {
+          "text": "one",
+          "start": 0.59,
+          "end": 0.886,
+          "line": "watch"
+        },
+        {
+          "text": "would",
+          "start": 0.948,
+          "end": 1.045,
+          "line": "watch"
+        },
+        {
+          "text": "have",
+          "start": 1.045,
+          "end": 1.141,
+          "line": "watch"
+        },
+        {
+          "text": "believed",
+          "start": 1.195,
+          "end": 1.85,
+          "line": "watch"
+        },
+        {
+          "text": "in",
+          "start": 1.98,
+          "end": 2.047,
+          "line": "watch"
+        },
+        {
+          "text": "the",
+          "start": 2.047,
+          "end": 2.128,
+          "line": "watch"
+        },
+        {
+          "text": "last",
+          "start": 2.202,
+          "end": 2.558,
+          "line": "watch"
+        },
+        {
+          "text": "years",
+          "start": 2.619,
+          "end": 2.954,
+          "line": "watch"
+        },
+        {
+          "text": "of",
+          "start": 2.99,
+          "end": 3.088,
+          "line": "watch"
+        },
+        {
+          "text": "the",
+          "start": 3.088,
+          "end": 3.16,
+          "line": "watch"
+        },
+        {
+          "text": "nineteenth",
+          "start": 3.214,
+          "end": 3.709,
+          "line": "watch"
+        },
+        {
+          "text": "century",
+          "start": 3.771,
+          "end": 4.4,
+          "line": "watch"
+        },
+        {
+          "text": "that",
+          "start": 4.78,
+          "end": 4.866,
+          "line": "watch"
+        },
+        {
+          "text": "this",
+          "start": 4.92,
+          "end": 5.134,
+          "line": "watch"
+        },
+        {
+          "text": "world",
+          "start": 5.216,
+          "end": 5.647,
+          "line": "watch"
+        },
+        {
+          "text": "was",
+          "start": 5.73,
+          "end": 5.849,
+          "line": "watch"
+        },
+        {
+          "text": "being",
+          "start": 5.92,
+          "end": 6.145,
+          "line": "watch"
+        },
+        {
+          "text": "watched",
+          "start": 6.228,
+          "end": 6.778,
+          "line": "watch"
+        }
+      ]
+    }
+  ],
+  "words": [
+    {
+      "text": "No",
+      "start": 0.34,
+      "end": 0.59,
+      "line": "watch"
+    },
+    {
+      "text": "one",
+      "start": 0.59,
+      "end": 0.886,
+      "line": "watch"
+    },
+    {
+      "text": "would",
+      "start": 0.948,
+      "end": 1.045,
+      "line": "watch"
+    },
+    {
+      "text": "have",
+      "start": 1.045,
+      "end": 1.141,
+      "line": "watch"
+    },
+    {
+      "text": "believed",
+      "start": 1.195,
+      "end": 1.85,
+      "line": "watch"
+    },
+    {
+      "text": "in",
+      "start": 1.98,
+      "end": 2.047,
+      "line": "watch"
+    },
+    {
+      "text": "the",
+      "start": 2.047,
+      "end": 2.128,
+      "line": "watch"
+    },
+    {
+      "text": "last",
+      "start": 2.202,
+      "end": 2.558,
+      "line": "watch"
+    },
+    {
+      "text": "years",
+      "start": 2.619,
+      "end": 2.954,
+      "line": "watch"
+    },
+    {
+      "text": "of",
+      "start": 2.99,
+      "end": 3.088,
+      "line": "watch"
+    },
+    {
+      "text": "the",
+      "start": 3.088,
+      "end": 3.16,
+      "line": "watch"
+    },
+    {
+      "text": "nineteenth",
+      "start": 3.214,
+      "end": 3.709,
+      "line": "watch"
+    },
+    {
+      "text": "century",
+      "start": 3.771,
+      "end": 4.4,
+      "line": "watch"
+    },
+    {
+      "text": "that",
+      "start": 4.78,
+      "end": 4.866,
+      "line": "watch"
+    },
+    {
+      "text": "this",
+      "start": 4.92,
+      "end": 5.134,
+      "line": "watch"
+    },
+    {
+      "text": "world",
+      "start": 5.216,
+      "end": 5.647,
+      "line": "watch"
+    },
+    {
+      "text": "was",
+      "start": 5.73,
+      "end": 5.849,
+      "line": "watch"
+    },
+    {
+      "text": "being",
+      "start": 5.92,
+      "end": 6.145,
+      "line": "watch"
+    },
+    {
+      "text": "watched",
+      "start": 6.228,
+      "end": 6.778,
+      "line": "watch"
+    }
+  ],
+  "captions": {
+    "srt": "vo.srt",
+    "transcript": "vo.words.json",
+    "cues": 3
+  },
+  "build_seconds": 0.89,
+  "lexicon": [
+    "showtime:lib/st/voice/lexicon.json"
+  ]
+}

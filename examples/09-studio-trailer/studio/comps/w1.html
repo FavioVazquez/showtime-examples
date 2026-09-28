@@ -1,0 +1,33 @@
+<!doctype html>
+<!-- W1 "The trailer is a note": the trailer is typed as Markdown in a real Tidepool note; the preview is the title card.
+   Render: showtime studio frame <job> --concept w1 --html comps/w1.html --shots note,preview -->
+<html lang="en"><head><meta charset="utf-8">
+<link rel="stylesheet" href="/_st/themes/fonts/inter.css">
+<link rel="stylesheet" href="tp.css">
+<style>
+  body { background: #E9EFF0; }
+  .grade-light { position: absolute; inset: 0; pointer-events: none; background: radial-gradient(120% 100% at 50% 50%, transparent 60%, rgba(15,30,34,.22) 100%); }
+</style></head>
+<body>
+  <section class="shot" data-shot="note">
+    <div class="cam3d" style="--ax:960px; --ay:540px">
+      <div class="plate" style="--fx:2400; --fy:760; --s:.78; --rx:0deg; --rz:0deg; --dofw:1900; --dofh:900; --blur:5px">
+        <img class="soft" src="../media/plates/light-trailer-note.jpg" style="filter:blur(5px)"><img class="sharp" src="../media/plates/light-trailer-note.jpg">
+      </div>
+    </div>
+    <div class="grade-light"></div>
+  </section>
+  <section class="shot" data-shot="preview">
+    <div class="cam3d" style="--ax:900px; --ay:470px">
+      <div class="plate" style="--fx:3160; --fy:700; --s:1.7; --rx:14deg; --rz:-3deg; --dofw:1300; --dofh:320; --blur:7px">
+        <img class="soft" src="../media/plates/light-trailer-note.jpg" style="filter:blur(7px)"><img class="sharp" src="../media/plates/light-trailer-note.jpg">
+      </div>
+    </div>
+    <div class="grade-light"></div>
+  </section>
+<script>
+  var want = new URLSearchParams(location.search).get('shot'), hit = false;
+  document.querySelectorAll('[data-shot]').forEach(function (s) { if (s.dataset.shot === want) { s.classList.add('on'); hit = true; } });
+  if (!hit) document.querySelector('[data-shot]').classList.add('on');
+</script>
+</body></html>

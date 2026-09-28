@@ -1,0 +1,306 @@
+{
+  "schema": "showtime.mix.report/1",
+  "output": "mix.wav",
+  "duration": 5.0,
+  "sample_rate": 48000,
+  "master": {
+    "target_lufs": -14.0,
+    "target_true_peak": -1.0,
+    "engine": "st",
+    "input_lufs": -18.35,
+    "gain_db": 4.78,
+    "limiting_db": 5.17,
+    "output_lufs": -14.01,
+    "output_tp": -1.1
+  },
+  "integrated_lufs": -14.01,
+  "true_peak_dbtp": -1.1,
+  "lra": 0.31,
+  "short_term_max_lufs": -13.0,
+  "sample_peak_dbfs": -1.11,
+  "premaster": {
+    "integrated_lufs": -18.35,
+    "true_peak_dbtp": -0.71
+  },
+  "voice_to_music_db": null,
+  "sections": [
+    {
+      "name": "closed",
+      "start": 0.0,
+      "end": 0.3,
+      "rms_dbfs": -21.16,
+      "peak_dbfs": -9.68,
+      "lufs": null,
+      "buses_rms_dbfs": {
+        "music": -22.4,
+        "ambience": -27.6,
+        "sfx": -104.5
+      }
+    },
+    {
+      "name": "parting",
+      "start": 0.3,
+      "end": 2.5,
+      "rms_dbfs": -17.81,
+      "peak_dbfs": -4.89,
+      "lufs": -15.76,
+      "buses_rms_dbfs": {
+        "music": -21.5,
+        "ambience": -27.3,
+        "sfx": -21.4
+      }
+    },
+    {
+      "name": "landing",
+      "start": 2.5,
+      "end": 3.05,
+      "rms_dbfs": -11.77,
+      "peak_dbfs": -1.11,
+      "lufs": -8.27,
+      "buses_rms_dbfs": {
+        "music": -22.0,
+        "ambience": -26.9,
+        "sfx": -11.0
+      }
+    },
+    {
+      "name": "wordmark",
+      "start": 3.05,
+      "end": 5.0,
+      "rms_dbfs": -18.54,
+      "peak_dbfs": -5.61,
+      "lufs": -15.87,
+      "buses_rms_dbfs": {
+        "music": -20.9,
+        "ambience": -26.9,
+        "sfx": -24.0
+      }
+    }
+  ],
+  "tracks": [
+    {
+      "id": "piano",
+      "index": 0,
+      "kind": "music",
+      "source": "file",
+      "path": "piano.wav",
+      "gain_db": -6.0,
+      "level": {
+        "reference": "-20 LUFS integrated",
+        "measured": -14.0
+      },
+      "start": 0.0,
+      "end": 5.0,
+      "end_hit": 6.999,
+      "music_sections": [
+        {
+          "name": "intro",
+          "start": 0.0,
+          "end": 2.8
+        },
+        {
+          "name": "chorus",
+          "start": 2.8,
+          "end": 6.999
+        }
+      ],
+      "downbeats": [
+        0.0,
+        2.8
+      ],
+      "duck": {
+        "under": [
+          "logo"
+        ],
+        "depth_db": 5.0,
+        "active_seconds": 1.23,
+        "max_reduction_db": 5.0
+      }
+    },
+    {
+      "id": "drone",
+      "index": 1,
+      "kind": "ambience",
+      "source": "synth",
+      "path": null,
+      "gain_db": 2.0,
+      "level": {
+        "reference": "-32 LUFS integrated",
+        "measured": -32.0
+      },
+      "start": 0.0,
+      "end": 5.0,
+      "synth": {
+        "type": "drone",
+        "hit": 0.232,
+        "category": "ambience",
+        "duration": 9.0
+      }
+    },
+    {
+      "id": "curtain",
+      "index": 2,
+      "kind": "sfx",
+      "source": "synth",
+      "path": null,
+      "gain_db": -3.0,
+      "level": {
+        "reference": "sfx category (already levelled)",
+        "category": "transition"
+      },
+      "aligned": {
+        "at": 1.3,
+        "align": "peak",
+        "anchor": 1.132
+      },
+      "start": 0.168,
+      "end": 3.0113,
+      "synth": {
+        "type": "whoosh-heavy",
+        "hit": 1.132,
+        "category": "transition",
+        "duration": 2.8433
+      },
+      "above_bed_db": 6.5
+    },
+    {
+      "id": "swell",
+      "index": 3,
+      "kind": "sfx",
+      "source": "synth",
+      "path": null,
+      "gain_db": 0.0,
+      "level": {
+        "reference": "sfx category (already levelled)",
+        "category": "transition"
+      },
+      "aligned": {
+        "at": 2.8,
+        "align": "hit",
+        "anchor": 2.4
+      },
+      "start": 0.4,
+      "end": 2.8,
+      "synth": {
+        "type": "swell",
+        "hit": 2.4,
+        "category": "transition",
+        "duration": 2.4
+      },
+      "above_bed_db": 1.0
+    },
+    {
+      "id": "land",
+      "index": 4,
+      "kind": "sfx",
+      "source": "synth",
+      "path": null,
+      "gain_db": -7.0,
+      "level": {
+        "reference": "sfx category (already levelled)",
+        "category": "impact"
+      },
+      "aligned": {
+        "at": 2.8,
+        "align": "hit",
+        "anchor": 0.0
+      },
+      "start": 2.8,
+      "end": 3.1,
+      "synth": {
+        "type": "thock",
+        "hit": 0.0,
+        "category": "impact",
+        "duration": 0.3
+      },
+      "above_bed_db": -4.6
+    },
+    {
+      "id": "weight",
+      "index": 5,
+      "kind": "sfx",
+      "source": "synth",
+      "path": null,
+      "gain_db": -14.0,
+      "level": {
+        "reference": "sfx category (already levelled)",
+        "category": "impact"
+      },
+      "aligned": {
+        "at": 2.8,
+        "align": "hit",
+        "anchor": 0.0
+      },
+      "start": 2.8,
+      "end": 5.0,
+      "synth": {
+        "type": "boom",
+        "hit": 0.0,
+        "category": "impact",
+        "duration": 3.0
+      },
+      "above_bed_db": -9.9
+    },
+    {
+      "id": "logo",
+      "index": 6,
+      "kind": "sfx",
+      "source": "synth",
+      "path": null,
+      "gain_db": 3.0,
+      "level": {
+        "reference": "sfx category (already levelled)",
+        "category": "musical"
+      },
+      "aligned": {
+        "at": 2.8,
+        "align": "hit",
+        "anchor": 0.28
+      },
+      "start": 2.52,
+      "end": 4.72,
+      "synth": {
+        "type": "logo-sting",
+        "hit": 0.28,
+        "category": "musical",
+        "duration": 2.2
+      },
+      "above_bed_db": 2.9
+    },
+    {
+      "id": "sparkle",
+      "index": 7,
+      "kind": "sfx",
+      "source": "synth",
+      "path": null,
+      "gain_db": 0.0,
+      "level": {
+        "reference": "sfx category (already levelled)",
+        "category": "ui"
+      },
+      "aligned": {
+        "at": 3.55,
+        "align": "peak",
+        "anchor": 0.552
+      },
+      "start": 2.998,
+      "end": 4.598,
+      "synth": {
+        "type": "shimmer",
+        "hit": 0.552,
+        "category": "ui",
+        "duration": 1.6
+      },
+      "above_bed_db": -2.5
+    }
+  ],
+  "library_items": [],
+  "credits": [],
+  "credits_file": null,
+  "warnings": [
+    "the first section (parting, -15.8 LUFS) is 7.5 LU under the loudest (-8.3): the hook may sound too quiet in feeds; lift it with section_gain / gain_points on the bed, or add a drone or ambience under it",
+    "sfx land at 2.80s is 4.6 dB under the rest of the mix there (likely masked): raise its gain_db or duck the bed under it (\"duck\": {\"under\": [\"land\"]})",
+    "sfx weight at 2.80s is 9.9 dB under the rest of the mix there (likely masked): raise its gain_db or duck the bed under it (\"duck\": {\"under\": [\"weight\"]})",
+    "sfx sparkle at 3.55s is 2.5 dB under the rest of the mix there (likely masked): raise its gain_db or duck the bed under it (\"duck\": {\"under\": [\"sparkle\"]})"
+  ]
+}

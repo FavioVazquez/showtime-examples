@@ -1,0 +1,9 @@
+This folder (the two videos, their script and narration, the web pages, the project sources, captions and
+images) is an adaptation of the English Wikipedia article "Waggle dance" (revision 1371912261) and is licensed
+under Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0):
+https://creativecommons.org/licenses/by-sa/4.0/
+
+It is NOT covered by the MIT licence of the showtime code in this repository.
+
+Exception: project/media/dance.webm (and the footage inside the videos and pages) is Movie S2 from Su et al.
+(2008), PLOS ONE 3(6): e2365, licensed CC BY 3.0 (https://creativecommons.org/licenses/by/3.0/); see credits.txt.

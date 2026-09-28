@@ -1,0 +1,54 @@
+{
+ "schema": "showtime.studio.feedback/1",
+ "events": [
+  {
+   "id": "sim_r2_01",
+   "ts": "2026-09-27T21:50:22.000Z",
+   "type": "comment",
+   "target": "c1",
+   "at": 2.8,
+   "rev": 2,
+   "text": "The landing on the logo note is the moment. Keep it exactly here."
+  },
+  {
+   "id": "sim_r2_02",
+   "ts": "2026-09-27T21:50:22.000Z",
+   "type": "comment",
+   "target": "lt-f4",
+   "rev": 2,
+   "text": "Pill: the gold dot looks small next to the name, make it a bit bigger."
+  },
+  {
+   "id": "sim_r2_03",
+   "ts": "2026-09-27T21:50:22.000Z",
+   "type": "like",
+   "target": "tr-f2",
+   "rev": 2
+  },
+  {
+   "id": "sim_r2_04",
+   "ts": "2026-09-27T21:50:22.000Z",
+   "type": "answer",
+   "target": "signoff",
+   "value": "approve",
+   "rev": 2
+  },
+  {
+   "id": "sim_r2_05",
+   "ts": "2026-09-27T21:50:22.000Z",
+   "type": "answer",
+   "target": "lt-names",
+   "value": "placeholders",
+   "rev": 2
+  },
+  {
+   "id": "sim_r2_06",
+   "ts": "2026-09-27T21:50:22.000Z",
+   "type": "approve",
+   "target": "c1",
+   "rev": 2,
+   "text": "Go: build all three aspects and the pack."
+  }
+ ],
+ "_note": "Simulated reviewer round (the director played the user). Each event is stamped with the time this file was written and imported with `showtime studio feedback --import`; events are in the order listed."
+}

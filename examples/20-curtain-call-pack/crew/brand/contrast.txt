@@ -1,0 +1,9 @@
+Text pairs the pack uses (WCAG 2.x ratios from BRAND.md; checked again by `showtime check` on the real pixels)
+House cream #F5EBDC on Stage #15100E ....... 16.0  all text (wordmark, lower-third names)
+House cream on Wings #231916 ............... 14.6  all text (card and pill lower thirds)
+Programme #B6A795 on Stage / Wings ......... 8.1 / ~7.4  all text (roles)
+Stage on Spotlight gold #E9B949 ............ 10.3  all text (kicker badge)
+Spotlight gold on Stage .................... 10.3  all text (accents)
+Velvet #B3121F on Stage .................... 2.7   shapes only: the lower-third bar, curtains; never text or thin lines
+Spotlight gold on Velvet ................... 3.8   large graphics only (the hem braid on the curtains)
+Gold on House cream ........................ 1.6   never

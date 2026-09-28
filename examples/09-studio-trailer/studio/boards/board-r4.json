@@ -1,0 +1,543 @@
+{
+  "schema": "showtime.studio.board/1",
+  "job": "tidepool-trailer-20260926-144115",
+  "title": "Tidepool trailer",
+  "brief": "A 20 s trailer that tells note-takers everything they write in Tidepool stays on their own machine, and shows it before it names it.",
+  "rev": 4,
+  "phase": "build",
+  "format": {
+    "width": 1920,
+    "height": 1080
+  },
+  "round": {
+    "n": 4,
+    "label": "Locked · building",
+    "prompt": "Locked after the animatic sign-off: the full-size final renders from the same project.",
+    "note": "Decisions D-001 to D-009 in decisions.md; the locked summary is in brief.md."
+  },
+  "history": [
+    {
+      "rev": 4,
+      "note": "Animatic approved (D-009); locked, building the 1920x1080 final"
+    },
+    {
+      "rev": 3,
+      "note": "Animatic (960x540, 20 s, score + effects). Your storyboard note: 'Saved on this device' now holds sharp for 0.65 s before the card; cards in serif italic"
+    },
+    {
+      "rev": 2,
+      "note": "C2 picked + C1's sunrise ending (your mix note); hook drifts and pushes from frame 1 (your note on C2-1); 20 s, end line 'Your notes, kept on your own machine.'; cards borrow C1's serif"
+    },
+    {
+      "rev": 1,
+      "note": "Four directions: C1 Low tide, C2 Macro, C3 Keystrokes, W1 The trailer is a note"
+    }
+  ],
+  "fonts": [
+    {
+      "family": "Instrument Serif",
+      "src": "media/fonts/instrument-serif.woff2",
+      "weight": "400"
+    },
+    {
+      "family": "Inter",
+      "src": "media/fonts/inter.woff2",
+      "weight": "100 900"
+    },
+    {
+      "family": "JetBrains Mono",
+      "src": "media/fonts/jetbrains-mono.woff2",
+      "weight": "100 900"
+    }
+  ],
+  "concepts": [
+    {
+      "id": "c1",
+      "tag": "C1",
+      "title": "Low tide",
+      "logline": "Typography only: the logo's wave becomes a horizon, and real note titles surface below it like things the tide leaves behind.",
+      "hook": "A single white wave line draws across a night-teal frame; \"Q4 planning draft\" rises out of the water under it.",
+      "duration": 20,
+      "tone": [
+        "cinematic",
+        "calm",
+        "literary"
+      ],
+      "palette": [
+        {
+          "hex": "#041317",
+          "name": "Night"
+        },
+        {
+          "hex": "#0B4650",
+          "name": "Deep sea"
+        },
+        {
+          "hex": "#14A3A0",
+          "name": "Tidepool teal"
+        },
+        {
+          "hex": "#FFB38A",
+          "name": "Sun"
+        },
+        {
+          "hex": "#E3EEEF",
+          "name": "Foam"
+        }
+      ],
+      "type": {
+        "display": {
+          "family": "Instrument Serif",
+          "sample": "Everything you write"
+        },
+        "body": {
+          "family": "Inter"
+        }
+      },
+      "music": {
+        "vibe": "drumless ambient pad, E",
+        "bpm": 72,
+        "ref": "bed-lowtide"
+      },
+      "structure": [
+        {
+          "label": "Horizon",
+          "dur": 4
+        },
+        {
+          "label": "Titles surface",
+          "dur": 8
+        },
+        {
+          "label": "Stays on your device",
+          "dur": 3
+        },
+        {
+          "label": "Sunrise + name",
+          "dur": 5
+        }
+      ],
+      "risk": "No UI until the end card: pretty, but a viewer may not know it is an app until 15 s",
+      "frames": [
+        {
+          "id": "c1-f1",
+          "src": "media/frames/c1-hook.jpg",
+          "thumb": "media/thumbs/c1-hook.jpg",
+          "caption": "Hook: the wave line and a surfacing note title"
+        },
+        {
+          "id": "c1-f2",
+          "src": "media/frames/c1-titles.jpg",
+          "thumb": "media/thumbs/c1-titles.jpg",
+          "caption": "Fragments: real note titles under the tide"
+        },
+        {
+          "id": "c1-f3",
+          "src": "media/frames/c1-end.jpg",
+          "thumb": "media/thumbs/c1-end.jpg",
+          "caption": "End: sunrise over the wave"
+        }
+      ]
+    },
+    {
+      "id": "c2",
+      "tag": "C2",
+      "title": "Macro, ending on the sunrise",
+      "logline": "Extreme close-ups of the real app, never the whole screen, until the camera pulls all the way back on the drop; then the app sinks under C1's wave line and the sun rises on the name.",
+      "hook": "\"Sync: local only\", the app's own status line, fills the frame in macro focus from frame 1.",
+      "duration": 20,
+      "recommended": true,
+      "why": "Shows the real product and still withholds it; the app's teal and sun-amber make the cinematic grade for free",
+      "tone": [
+        "cinematic",
+        "tense",
+        "precise"
+      ],
+      "palette": [
+        {
+          "hex": "#041317",
+          "name": "Night"
+        },
+        {
+          "hex": "#0B4650",
+          "name": "Deep sea"
+        },
+        {
+          "hex": "#14A3A0",
+          "name": "Tidepool teal"
+        },
+        {
+          "hex": "#FFB38A",
+          "name": "Sun"
+        },
+        {
+          "hex": "#E3EEEF",
+          "name": "Foam"
+        }
+      ],
+      "type": {
+        "display": {
+          "family": "Instrument Serif",
+          "sample": "Everything you write"
+        },
+        "body": {
+          "family": "Inter"
+        }
+      },
+      "music": {
+        "vibe": "cinematic build, toms into an impact on the reveal, Dm",
+        "bpm": 95,
+        "ref": "bed-macro"
+      },
+      "structure": [
+        {
+          "label": "Macro hook",
+          "dur": 2.533
+        },
+        {
+          "label": "Card",
+          "dur": 1.767
+        },
+        {
+          "label": "Find",
+          "dur": 1.7
+        },
+        {
+          "label": "Tick + saved",
+          "dur": 1.6
+        },
+        {
+          "label": "Card",
+          "dur": 1.875
+        },
+        {
+          "label": "Fragments",
+          "dur": 3.125
+        },
+        {
+          "label": "Pull-back",
+          "dur": 2.6
+        },
+        {
+          "label": "Sunrise + name",
+          "dur": 4.8
+        }
+      ],
+      "frames": [
+        {
+          "id": "c2-f1",
+          "src": "media/frames/c2-hook.jpg",
+          "thumb": "media/thumbs/c2-hook.jpg",
+          "caption": "Hook: Sync: local only"
+        },
+        {
+          "id": "c2-f2",
+          "src": "media/frames/c2-find.jpg",
+          "thumb": "media/thumbs/c2-find.jpg",
+          "caption": "Fragment: the palette finds export"
+        },
+        {
+          "id": "c2-f3",
+          "src": "media/frames/c2-reveal.jpg",
+          "thumb": "media/thumbs/c2-reveal.jpg",
+          "caption": "Reveal: the pull-back"
+        }
+      ],
+      "storyboard": [
+        {
+          "id": "c2-s1",
+          "dur": 2.533,
+          "title": "Hook: Sync: local only",
+          "thumb": "media/thumbs/c2-t1_2.jpg",
+          "vo": "",
+          "text": "Sync: local only (app UI, macro)",
+          "note": "Frame 1 already drifting and pushing in; a single water drop"
+        },
+        {
+          "id": "c2-s2",
+          "dur": 1.767,
+          "title": "Card",
+          "thumb": "media/thumbs/c2-t3_4.jpg",
+          "vo": "",
+          "text": "Everything you write",
+          "note": "Instrument Serif italic, blurs in on the cut"
+        },
+        {
+          "id": "c2-s3",
+          "dur": 1.7,
+          "title": "Find",
+          "thumb": "media/thumbs/c2-t4_9.jpg",
+          "vo": "",
+          "text": "export (typed in the ⌘K palette)",
+          "note": "Real typing, one captured frame per letter; soft key clicks; camera slides to the amber match"
+        },
+        {
+          "id": "c2-s4",
+          "dur": 1.6,
+          "title": "Tick + saved",
+          "thumb": "media/thumbs/c2-t7_2.jpg",
+          "vo": "",
+          "text": "Draft the export spec · Saved on this device",
+          "note": "The task ticks in the live preview (water drop), camera pans to the save label"
+        },
+        {
+          "id": "c2-s5",
+          "dur": 1.875,
+          "title": "Card",
+          "thumb": "media/thumbs/c2-t8_6.jpg",
+          "vo": "",
+          "text": "stays on your device.",
+          "note": "Lands on the build's first downbeat (crash)"
+        },
+        {
+          "id": "c2-s6",
+          "dur": 3.125,
+          "title": "Fragments",
+          "thumb": "media/thumbs/c2-t9_8.jpg",
+          "vo": "",
+          "text": "on this device · ⌘K · [[Q4 planning · #guide · pinned · Just now",
+          "note": "One per beat, then half beats: 0.625, 0.625, 0.625, 0.625, 0.31, 0.31 s"
+        },
+        {
+          "id": "c2-s7",
+          "dur": 2.6,
+          "title": "Pull-back reveal",
+          "thumb": "media/thumbs/c2-t14_2.jpg",
+          "vo": "",
+          "text": "(the whole app, first time)",
+          "note": "Starts back on Sync: local only, pulls all the way out on the drop impact; heavy whoosh"
+        },
+        {
+          "id": "c2-s8",
+          "dur": 4.8,
+          "title": "Sunrise + name",
+          "thumb": "media/thumbs/c2-t18_5.jpg",
+          "vo": "",
+          "text": "Tidepool · Your notes, kept on your own machine. · fictional-app line",
+          "note": "App sinks under the wave line, sun rises, name lands on the final hit (16.47 s); holds 3.5 s"
+        }
+      ],
+      "animatic": {
+        "src": "media/animatic/c2-animatic-2.mp4",
+        "poster": "media/thumbs/c2-t1_2.jpg",
+        "duration": 20
+      }
+    },
+    {
+      "id": "c3",
+      "tag": "C3",
+      "title": "Keystrokes",
+      "logline": "The trailer is played on the keyboard: every cut is a key on the beat, and every key does its real thing in the app.",
+      "hook": "A giant ⌘K keycap slams down on the first downbeat and the real palette opens behind it.",
+      "duration": 20,
+      "tone": [
+        "punchy",
+        "playful",
+        "technical"
+      ],
+      "palette": [
+        {
+          "hex": "#F6F8F8",
+          "name": "Paper"
+        },
+        {
+          "hex": "#0E8A8C",
+          "name": "Teal"
+        },
+        {
+          "hex": "#0F1E22",
+          "name": "Ink"
+        },
+        {
+          "hex": "#FFB38A",
+          "name": "Sun"
+        }
+      ],
+      "type": {
+        "display": {
+          "family": "JetBrains Mono",
+          "sample": "⌘K  N  J  K"
+        },
+        "body": {
+          "family": "Inter"
+        }
+      },
+      "music": {
+        "vibe": "four-on-the-floor tech, C",
+        "bpm": 120,
+        "ref": "bed-keys"
+      },
+      "structure": [
+        {
+          "label": "⌘K",
+          "dur": 2
+        },
+        {
+          "label": "N J K ⌘E P ? (one per beat)",
+          "dur": 10
+        },
+        {
+          "label": "Esc",
+          "dur": 2
+        },
+        {
+          "label": "Name",
+          "dur": 6
+        }
+      ],
+      "risk": "Reads as a shortcut tutorial if the keys outnumber the moments",
+      "frames": [
+        {
+          "id": "c3-f1",
+          "src": "media/frames/c3-key.jpg",
+          "thumb": "media/thumbs/c3-key.jpg",
+          "caption": "Hook: ⌘K on the first downbeat"
+        },
+        {
+          "id": "c3-f2",
+          "src": "media/frames/c3-run.jpg",
+          "thumb": "media/thumbs/c3-run.jpg",
+          "caption": "One key per beat"
+        },
+        {
+          "id": "c3-f3",
+          "src": "media/frames/c3-end.jpg",
+          "thumb": "media/thumbs/c3-end.jpg",
+          "caption": "End: press N and type"
+        }
+      ]
+    },
+    {
+      "id": "w1",
+      "tag": "W1",
+      "title": "The trailer is a note",
+      "wildcard": true,
+      "logline": "The whole trailer is typed as Markdown in a Tidepool note; the live preview renders each line as the title card.",
+      "hook": "A blank note. \"# Kept on your own machine.\" is typed, and the preview sets it as a headline.",
+      "duration": 20,
+      "tone": [
+        "deadpan",
+        "meta",
+        "quiet"
+      ],
+      "palette": [
+        {
+          "hex": "#FFFFFF",
+          "name": "Surface"
+        },
+        {
+          "hex": "#F6F8F8",
+          "name": "Paper"
+        },
+        {
+          "hex": "#0E8A8C",
+          "name": "Teal"
+        },
+        {
+          "hex": "#0F1E22",
+          "name": "Ink"
+        }
+      ],
+      "type": {
+        "display": {
+          "family": "Inter",
+          "sample": "# Kept on your own machine."
+        },
+        "body": {
+          "family": "JetBrains Mono"
+        }
+      },
+      "music": {
+        "vibe": "lo-fi, swung, F",
+        "bpm": 72,
+        "ref": "bed-note"
+      },
+      "structure": [
+        {
+          "label": "Blank note",
+          "dur": 2
+        },
+        {
+          "label": "Typed cards",
+          "dur": 12
+        },
+        {
+          "label": "[[Tidepool]] link",
+          "dur": 2
+        },
+        {
+          "label": "Name",
+          "dur": 4
+        }
+      ],
+      "risk": "Lives or dies on typing pace; can feel like a tutorial",
+      "unlocks": "a light, funny cut-down for social",
+      "frames": [
+        {
+          "id": "w1-f1",
+          "src": "media/frames/w1-note.jpg",
+          "thumb": "media/thumbs/w1-note.jpg",
+          "caption": "The note is the script"
+        },
+        {
+          "id": "w1-f2",
+          "src": "media/frames/w1-preview.jpg",
+          "thumb": "media/thumbs/w1-preview.jpg",
+          "caption": "The preview is the title card"
+        }
+      ]
+    }
+  ],
+  "audio": [
+    {
+      "id": "music",
+      "label": "Music beds",
+      "kind": "music",
+      "hint": "10 s each, same length: switch while it plays",
+      "variants": [
+        {
+          "id": "bed-lowtide",
+          "label": "C1 · ambient pad",
+          "src": "media/audio/bed-lowtide.mp3",
+          "meta": "72 bpm · E"
+        },
+        {
+          "id": "bed-macro",
+          "label": "C2 · cinematic build",
+          "src": "media/audio/bed-macro.mp3",
+          "meta": "95 bpm · Dm"
+        },
+        {
+          "id": "bed-keys",
+          "label": "C3 · upbeat tech",
+          "src": "media/audio/bed-keys.mp3",
+          "meta": "120 bpm · C"
+        },
+        {
+          "id": "bed-note",
+          "label": "W1 · lo-fi",
+          "src": "media/audio/bed-note.mp3",
+          "meta": "72 bpm · F"
+        }
+      ]
+    }
+  ],
+  "questions": [],
+  "dials": [
+    {
+      "id": "energy",
+      "label": "Energy",
+      "left": "calm",
+      "right": "punchy",
+      "default": 45
+    },
+    {
+      "id": "pace",
+      "label": "Pace",
+      "left": "unhurried",
+      "right": "rapid",
+      "default": 50
+    }
+  ],
+  "updated": "2026-09-26T20:57:58.944Z"
+}

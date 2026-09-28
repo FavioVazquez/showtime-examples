@@ -1,0 +1,260 @@
+{
+ "source": "vo.wav",
+ "duration": 13.498,
+ "language": "en",
+ "model": "showtime-voice",
+ "words": [
+  {
+   "text": "Three",
+   "start": 0.02,
+   "end": 0.189,
+   "type": "word",
+   "line": "hook"
+  },
+  {
+   "text": "shortcuts",
+   "start": 0.245,
+   "end": 0.667,
+   "type": "word",
+   "line": "hook"
+  },
+  {
+   "text": "that",
+   "start": 0.698,
+   "end": 0.773,
+   "type": "word",
+   "line": "hook"
+  },
+  {
+   "text": "make",
+   "start": 0.796,
+   "end": 0.925,
+   "type": "word",
+   "line": "hook"
+  },
+  {
+   "text": "Tidepool",
+   "start": 0.93,
+   "end": 1.382,
+   "type": "word",
+   "line": "hook"
+  },
+  {
+   "text": "fast.",
+   "start": 1.447,
+   "end": 1.87,
+   "type": "word",
+   "line": "hook"
+  },
+  {
+   "text": "Command",
+   "start": 2.537,
+   "end": 2.867,
+   "type": "word",
+   "line": "palette"
+  },
+  {
+   "text": "K",
+   "start": 2.907,
+   "end": 3.146,
+   "type": "word",
+   "line": "palette"
+  },
+  {
+   "text": "searches",
+   "start": 3.209,
+   "end": 3.543,
+   "type": "word",
+   "line": "palette"
+  },
+  {
+   "text": "every",
+   "start": 3.597,
+   "end": 3.835,
+   "type": "word",
+   "line": "palette"
+  },
+  {
+   "text": "note",
+   "start": 3.88,
+   "end": 4.096,
+   "type": "word",
+   "line": "palette"
+  },
+  {
+   "text": "as",
+   "start": 4.147,
+   "end": 4.211,
+   "type": "word",
+   "line": "palette"
+  },
+  {
+   "text": "you",
+   "start": 4.25,
+   "end": 4.319,
+   "type": "word",
+   "line": "palette"
+  },
+  {
+   "text": "type.",
+   "start": 4.377,
+   "end": 4.74,
+   "type": "word",
+   "line": "palette"
+  },
+  {
+   "text": "Hit",
+   "start": 5.407,
+   "end": 5.48,
+   "type": "word",
+   "line": "new"
+  },
+  {
+   "text": "N",
+   "start": 5.523,
+   "end": 5.664,
+   "type": "word",
+   "line": "new"
+  },
+  {
+   "text": "for",
+   "start": 5.709,
+   "end": 5.826,
+   "type": "word",
+   "line": "new"
+  },
+  {
+   "text": "a",
+   "start": 5.826,
+   "end": 5.876,
+   "type": "word",
+   "line": "new"
+  },
+  {
+   "text": "fresh",
+   "start": 5.876,
+   "end": 6.074,
+   "type": "word",
+   "line": "new"
+  },
+  {
+   "text": "note.",
+   "start": 6.118,
+   "end": 6.448,
+   "type": "word",
+   "line": "new"
+  },
+  {
+   "text": "Command",
+   "start": 7.114,
+   "end": 7.554,
+   "type": "word",
+   "line": "preview"
+  },
+  {
+   "text": "E",
+   "start": 7.644,
+   "end": 7.93,
+   "type": "word",
+   "line": "preview"
+  },
+  {
+   "text": "flips",
+   "start": 8.009,
+   "end": 8.214,
+   "type": "word",
+   "line": "preview"
+  },
+  {
+   "text": "your",
+   "start": 8.237,
+   "end": 8.306,
+   "type": "word",
+   "line": "preview"
+  },
+  {
+   "text": "Markdown",
+   "start": 8.342,
+   "end": 8.778,
+   "type": "word",
+   "line": "preview"
+  },
+  {
+   "text": "into",
+   "start": 8.801,
+   "end": 8.967,
+   "type": "word",
+   "line": "preview"
+  },
+  {
+   "text": "a",
+   "start": 8.993,
+   "end": 9.023,
+   "type": "word",
+   "line": "preview"
+  },
+  {
+   "text": "preview.",
+   "start": 9.074,
+   "end": 9.53,
+   "type": "word",
+   "line": "preview"
+  },
+  {
+   "text": "Tidepool.",
+   "start": 10.187,
+   "end": 10.737,
+   "type": "word",
+   "line": "close"
+  },
+  {
+   "text": "Your",
+   "start": 11.027,
+   "end": 11.116,
+   "type": "word",
+   "line": "close"
+  },
+  {
+   "text": "notes,",
+   "start": 11.161,
+   "end": 11.525,
+   "type": "word",
+   "line": "close"
+  },
+  {
+   "text": "kept",
+   "start": 11.647,
+   "end": 11.872,
+   "type": "word",
+   "line": "close"
+  },
+  {
+   "text": "on",
+   "start": 11.895,
+   "end": 11.965,
+   "type": "word",
+   "line": "close"
+  },
+  {
+   "text": "your",
+   "start": 11.988,
+   "end": 12.057,
+   "type": "word",
+   "line": "close"
+  },
+  {
+   "text": "own",
+   "start": 12.084,
+   "end": 12.186,
+   "type": "word",
+   "line": "close"
+  },
+  {
+   "text": "machine.",
+   "start": 12.209,
+   "end": 12.706,
+   "type": "word",
+   "line": "close"
+  }
+ ]
+}

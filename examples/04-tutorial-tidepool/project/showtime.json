@@ -1,0 +1,12 @@
+{
+  "title": "Tidepool tutorial",
+  "width": 1920,
+  "height": 1080,
+  "fps": 30,
+  "duration": 50.5,
+  "background": "#073f48",
+  "poster": 0,
+  "audio": "audio/mix.json",
+  "expect": {"duration": 50.5, "tolerance": 0.2, "platform": "youtube", "audio": true,
+             "must_show": ["Write it.", "Create a note", "Tag it", "Find it with search", "Tidepool is a fictional app, made for this demo."]}
+}

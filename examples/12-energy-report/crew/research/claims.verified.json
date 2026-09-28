@@ -1,0 +1,181 @@
+{
+ "source": "U.S. EIA, Monthly Energy Review (August 2026), Table 7.2a, snapshot accessed 2026-09-27; solar = utility-scale; 1949-1988 non-hydro = electric utilities only",
+ "claims": [
+  {
+   "claim": "Coal peaked in 2007",
+   "where": "coal-era marker, source card",
+   "derived": 2007,
+   "shown": 2007,
+   "verdict": "verified"
+  },
+  {
+   "claim": "Coal 2007 = 2,016 TWh",
+   "where": "coal-era marker",
+   "derived": "2,016",
+   "shown": "2,016",
+   "verdict": "verified"
+  },
+  {
+   "claim": "Coal share 2007 = 48.5 %",
+   "where": "coal-era marker",
+   "derived": "48.5",
+   "shown": "48.5",
+   "verdict": "verified"
+  },
+  {
+   "claim": "Coal about half, 1949-2008 (range)",
+   "where": "coal-era title, VO",
+   "derived": "44.0-56.9",
+   "shown": "44.0-56.9",
+   "verdict": "verified"
+  },
+  {
+   "claim": "Gas passes coal first in 2016",
+   "where": "gas title, source card",
+   "derived": 2016,
+   "shown": 2016,
+   "verdict": "verified"
+  },
+  {
+   "claim": "2016: gas 1,379, coal 1,239 TWh",
+   "where": "gas marker",
+   "derived": "1,379/1,239",
+   "shown": "1,379/1,239",
+   "verdict": "verified"
+  },
+  {
+   "claim": "Gas ahead of coal every year 2016-2025",
+   "where": "VO gas",
+   "derived": true,
+   "shown": true,
+   "verdict": "verified"
+  },
+  {
+   "claim": "Wind + solar under 1 % in 2007 (35 TWh)",
+   "where": "newcomers marker, VO",
+   "derived": "35/0.8",
+   "shown": "35/0.8",
+   "verdict": "verified"
+  },
+  {
+   "claim": "Wind + solar pass coal first in 2024",
+   "where": "hook, newcomers, source card",
+   "derived": 2024,
+   "shown": 2024,
+   "verdict": "verified"
+  },
+  {
+   "claim": "2024: 672 vs 652 TWh",
+   "where": "hook count-ups, newcomers marker",
+   "derived": "672/652",
+   "shown": "672/652",
+   "verdict": "verified"
+  },
+  {
+   "claim": "2025: 760 vs 737 TWh",
+   "where": "newcomers end labels",
+   "derived": "760/737",
+   "shown": "760/737",
+   "verdict": "verified"
+  },
+  {
+   "claim": "Gas 2025 = 1,807 TWh",
+   "where": "gas/newcomers end label",
+   "derived": "1,807",
+   "shown": "1,807",
+   "verdict": "verified"
+  },
+  {
+   "claim": "2025 total 4,430 TWh",
+   "where": "mix subtitle and footnote",
+   "derived": "4,430",
+   "shown": "4,430",
+   "verdict": "verified"
+  },
+  {
+   "claim": "2025 share Natural gas 40.8 %",
+   "where": "mix-2025 bars",
+   "derived": "40.8",
+   "shown": "40.8",
+   "verdict": "verified"
+  },
+  {
+   "claim": "2025 share Nuclear 17.7 %",
+   "where": "mix-2025 bars",
+   "derived": "17.7",
+   "shown": "17.7",
+   "verdict": "verified"
+  },
+  {
+   "claim": "2025 share Wind + solar 17.2 %",
+   "where": "mix-2025 bars",
+   "derived": "17.2",
+   "shown": "17.2",
+   "verdict": "verified"
+  },
+  {
+   "claim": "2025 share Coal 16.6 %",
+   "where": "mix-2025 bars",
+   "derived": "16.6",
+   "shown": "16.6",
+   "verdict": "verified"
+  },
+  {
+   "claim": "2025 share Hydro 5.6 %",
+   "where": "mix-2025 bars",
+   "derived": "5.6",
+   "shown": "5.6",
+   "verdict": "verified"
+  },
+  {
+   "claim": "2025 share Other 2.1 %",
+   "where": "mix-2025 bars",
+   "derived": "2.1",
+   "shown": "2.1",
+   "verdict": "verified"
+  },
+  {
+   "claim": "Coal 2024 share 15.1 %",
+   "where": "mix ref line",
+   "derived": "15.1",
+   "shown": "15.1",
+   "verdict": "verified"
+  },
+  {
+   "claim": "Coal +13 % in 2025",
+   "where": "mix callout, VO",
+   "derived": "13",
+   "shown": "13",
+   "verdict": "verified"
+  },
+  {
+   "claim": "Gas about 41 % (VO)",
+   "where": "VO mix",
+   "derived": "41",
+   "shown": "41",
+   "verdict": "verified"
+  },
+  {
+   "claim": "Race: gas takes the top spot (2016)",
+   "where": "race VO",
+   "derived": 2016,
+   "shown": 2016,
+   "verdict": "verified"
+  },
+  {
+   "claim": "Race: wind passes hydro (2019)",
+   "where": "race VO",
+   "derived": 2019,
+   "shown": 2019,
+   "verdict": "verified"
+  },
+  {
+   "claim": "Race: neither wind nor solar alone passes coal",
+   "where": "race (sources shown separately)",
+   "derived": true,
+   "shown": true,
+   "verdict": "verified"
+  }
+ ],
+ "all_verified": true
+}

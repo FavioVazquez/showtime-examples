@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>The waggle dance</title>
+  <script src="/_st/stage.js"></script>
+  <!-- Fonts are files served by showtime (OFL): Fraunces for titles, Inter for labels. -->
+  <link rel="stylesheet" href="/_lib/@fontsource-variable/fraunces/index.css">
+  <link rel="stylesheet" href="/_lib/@fontsource-variable/inter/index.css">
+  <link rel="stylesheet" href="/_lib/@fontsource-variable/inter/wght-italic.css">
+  <script src="/_st/film.js"></script>
+  <script src="/_st/synth.js"></script>
+  <style>
+    .layer { position: absolute; left: 0; top: 0; width: 1920px; height: 1080px; pointer-events: none; z-index: 2; }
+    .foot { position: absolute; left: 110px; top: 200px; width: 880px; height: 660px; overflow: hidden; border-radius: 18px; background: #0c0905; }
+    /* the whole 720x480 frame, scaled so its picture (rows 22-454, inside the black bands and the
+       head-switch edge) fills the card: rows 22..454 -> 0..660 px, centred horizontally */
+    .foot-in { position: absolute; left: -48.89px; top: -33.61px; width: 977.78px; height: 733.33px; transform-origin: 46% 42%; }
+    .foot-in video, .foot-in svg { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: fill; display: block; }
+    .foot::after { content: ''; position: absolute; inset: 0; border-radius: 18px; box-shadow: inset 0 0 90px rgb(0 0 0 / 0.55); }
+    .browser .st-bw-bar, .browser .st-bw-bar * { font-family: "Inter Variable", sans-serif !important; }
+    .browser { --font-body: "Inter Variable"; position: absolute; left: 90px; top: 172px; width: 1200px; height: 736px; font-family: "Inter Variable", sans-serif; }
+  </style>
+</head>
+<body>
+  <!-- 1. hook: the real dance (Su et al. 2008, Movie S2, CC BY 3.0); a ring and a short trail follow her red
+       paint mark in the frame (the camera follows her, so the trail is not her path on the comb) -->
+  <div class="layer" id="hook-layer" data-start="0" data-dur="6">
+    <div class="foot"><div class="foot-in" id="foot-in">
+      <video src="media/dance.webm" muted playsinline data-offset="0.2"></video>
+      <svg viewBox="0 0 720 480" preserveAspectRatio="none">
+        <path id="trace-under" fill="none" stroke="rgba(0,0,0,0.55)" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+        <path id="trace" fill="none" stroke="#f2b63d" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"/>
+        <ellipse id="trace-head" rx="20" ry="22" fill="none" stroke="#f2b63d" stroke-width="3"/>
+      </svg>
+    </div></div>
+  </div>
+  <!-- 6. source: the article itself (rev 1371912261), text only, scrolled with `showtime site record` -->
+  <div class="layer" id="source-layer" data-start="45" data-dur="8">
+    <div class="browser" data-st="browser-frame" data-url="en.wikipedia.org/wiki/Waggle_dance" data-type-url="true"
+         data-theme="light" data-src="media/wiki-scroll.webm"></div>
+  </div>
+
+  <script src="voice/cues.js"></script>
+  <script src="lang.js"></script>
+  <script src="strings.js"></script>
+  <script src="cues.js"></script>
+  <script src="data/dance-track.js"></script>
+  <script src="scenes.js"></script>
+  <script src="score.js"></script>
+  <script src="layers.js"></script>
+  <script type="module" src="/_st/components/index.js"></script>
+  <script>
+    document.documentElement.lang = LANG;
+    document.title = S.title;
+    Film.start({
+      look: { base: 'dark', grain: 0.03, vignette: 0.35, dust: 0 },
+      design: [1920, 1080],
+      palette: { bg: '#15100a', bg2: '#1e170e', ink: '#f6ecd8', muted: '#c2b294', accent: '#f2b63d', accent2: '#f0799f' },
+      fonts: ['600 1em "Fraunces Variable"', '400 1em "Inter Variable"', '450 1em "Inter Variable"', '500 1em "Inter Variable"',
+              '550 1em "Inter Variable"', '600 1em "Inter Variable"', '650 1em "Inter Variable"', '700 1em "Inter Variable"',
+              '750 1em "Inter Variable"', 'italic 450 1em "Inter Variable"'],
+      acts: CUE.acts,
+      subtitle: S.hookSub,
+      scenes: drawFilm,
+      score: FILM_SCORE,
+    });
+  </script>
+</body>
+</html>

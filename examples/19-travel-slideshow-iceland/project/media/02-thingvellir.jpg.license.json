@@ -1,0 +1,22 @@
+{
+  "source": "commons",
+  "source_label": "Wikimedia Commons",
+  "id": "commons:34705109",
+  "title": "Thingvellir cracks 2",
+  "author": "Ypsilon from Finland",
+  "author_url": null,
+  "license": "CC0 1.0",
+  "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+  "landing_url": "https://commons.wikimedia.org/wiki/File:Thingvellir_cracks_2.JPG",
+  "note": null,
+  "type": "image",
+  "license_notice": null,
+  "file_url": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Thingvellir_cracks_2.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "sha256": "060ae9012a0aceb50ba853cb4a08b6b6f68af4aef88c0d3943c9ff3b992c3e24",
+  "fetched": "2026-09-27T16:26:40",
+  "license_class": "free",
+  "attribution_required": false,
+  "credit": "\"Thingvellir cracks 2\" by Ypsilon from Finland via Wikimedia Commons (CC0 1.0) - https://commons.wikimedia.org/wiki/File:Thingvellir_cracks_2.JPG",
+  "file": "02-thingvellir.jpg",
+  "derived": "resized to 2880x2160 for the video"
+}

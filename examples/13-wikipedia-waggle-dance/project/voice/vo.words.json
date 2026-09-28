@@ -1,0 +1,1009 @@
+{
+  "source": "vo.wav",
+  "duration": 58.0,
+  "language": "en",
+  "model": "showtime-voice",
+  "words": [
+    {
+      "text": "This",
+      "start": 0.33,
+      "end": 0.518,
+      "type": "word",
+      "line": "hook"
+    },
+    {
+      "text": "bee",
+      "start": 0.59,
+      "end": 0.8,
+      "type": "word",
+      "line": "hook"
+    },
+    {
+      "text": "is",
+      "start": 0.849,
+      "end": 0.939,
+      "type": "word",
+      "line": "hook"
+    },
+    {
+      "text": "giving",
+      "start": 0.988,
+      "end": 1.199,
+      "type": "word",
+      "line": "hook"
+    },
+    {
+      "text": "directions.",
+      "start": 1.243,
+      "end": 1.97,
+      "type": "word",
+      "line": "hook"
+    },
+    {
+      "text": "Her",
+      "start": 2.3,
+      "end": 2.379,
+      "type": "word",
+      "line": "hook"
+    },
+    {
+      "text": "dance",
+      "start": 2.428,
+      "end": 2.753,
+      "type": "word",
+      "line": "hook"
+    },
+    {
+      "text": "tells",
+      "start": 2.8,
+      "end": 3.043,
+      "type": "word",
+      "line": "hook"
+    },
+    {
+      "text": "the",
+      "start": 3.09,
+      "end": 3.128,
+      "type": "word",
+      "line": "hook"
+    },
+    {
+      "text": "colony",
+      "start": 3.179,
+      "end": 3.616,
+      "type": "word",
+      "line": "hook"
+    },
+    {
+      "text": "where",
+      "start": 3.655,
+      "end": 3.755,
+      "type": "word",
+      "line": "hook"
+    },
+    {
+      "text": "the",
+      "start": 3.782,
+      "end": 3.841,
+      "type": "word",
+      "line": "hook"
+    },
+    {
+      "text": "food",
+      "start": 3.916,
+      "end": 4.141,
+      "type": "word",
+      "line": "hook"
+    },
+    {
+      "text": "is.",
+      "start": 4.212,
+      "end": 4.495,
+      "type": "word",
+      "line": "hook"
+    },
+    {
+      "text": "Inside",
+      "start": 5.412,
+      "end": 5.813,
+      "type": "word",
+      "line": "problem"
+    },
+    {
+      "text": "the",
+      "start": 5.84,
+      "end": 5.889,
+      "type": "word",
+      "line": "problem"
+    },
+    {
+      "text": "hive",
+      "start": 5.938,
+      "end": 6.252,
+      "type": "word",
+      "line": "problem"
+    },
+    {
+      "text": "it's",
+      "start": 6.3,
+      "end": 6.446,
+      "type": "word",
+      "line": "problem"
+    },
+    {
+      "text": "dark,",
+      "start": 6.522,
+      "end": 6.892,
+      "type": "word",
+      "line": "problem"
+    },
+    {
+      "text": "and",
+      "start": 7.012,
+      "end": 7.096,
+      "type": "word",
+      "line": "problem"
+    },
+    {
+      "text": "the",
+      "start": 7.121,
+      "end": 7.173,
+      "type": "word",
+      "line": "problem"
+    },
+    {
+      "text": "comb",
+      "start": 7.232,
+      "end": 7.614,
+      "type": "word",
+      "line": "problem"
+    },
+    {
+      "text": "is",
+      "start": 7.667,
+      "end": 7.748,
+      "type": "word",
+      "line": "problem"
+    },
+    {
+      "text": "a",
+      "start": 7.782,
+      "end": 7.827,
+      "type": "word",
+      "line": "problem"
+    },
+    {
+      "text": "vertical",
+      "start": 7.901,
+      "end": 8.299,
+      "type": "word",
+      "line": "problem"
+    },
+    {
+      "text": "wall.",
+      "start": 8.348,
+      "end": 8.712,
+      "type": "word",
+      "line": "problem"
+    },
+    {
+      "text": "She",
+      "start": 9.162,
+      "end": 9.286,
+      "type": "word",
+      "line": "problem"
+    },
+    {
+      "text": "can't",
+      "start": 9.335,
+      "end": 9.556,
+      "type": "word",
+      "line": "problem"
+    },
+    {
+      "text": "point",
+      "start": 9.622,
+      "end": 9.885,
+      "type": "word",
+      "line": "problem"
+    },
+    {
+      "text": "at",
+      "start": 9.91,
+      "end": 9.959,
+      "type": "word",
+      "line": "problem"
+    },
+    {
+      "text": "the",
+      "start": 10.012,
+      "end": 10.042,
+      "type": "word",
+      "line": "problem"
+    },
+    {
+      "text": "flowers",
+      "start": 10.097,
+      "end": 10.474,
+      "type": "word",
+      "line": "problem"
+    },
+    {
+      "text": "from",
+      "start": 10.522,
+      "end": 10.646,
+      "type": "word",
+      "line": "problem"
+    },
+    {
+      "text": "in",
+      "start": 10.694,
+      "end": 10.788,
+      "type": "word",
+      "line": "problem"
+    },
+    {
+      "text": "here.",
+      "start": 10.837,
+      "end": 11.162,
+      "type": "word",
+      "line": "problem"
+    },
+    {
+      "text": "So",
+      "start": 11.422,
+      "end": 11.529,
+      "type": "word",
+      "line": "problem"
+    },
+    {
+      "text": "she",
+      "start": 11.579,
+      "end": 11.658,
+      "type": "word",
+      "line": "problem"
+    },
+    {
+      "text": "dances.",
+      "start": 11.707,
+      "end": 12.327,
+      "type": "word",
+      "line": "problem"
+    },
+    {
+      "text": "On",
+      "start": 13.254,
+      "end": 13.379,
+      "type": "word",
+      "line": "angle"
+    },
+    {
+      "text": "the",
+      "start": 13.379,
+      "end": 13.438,
+      "type": "word",
+      "line": "angle"
+    },
+    {
+      "text": "comb,",
+      "start": 13.496,
+      "end": 13.911,
+      "type": "word",
+      "line": "angle"
+    },
+    {
+      "text": "straight",
+      "start": 14.194,
+      "end": 14.419,
+      "type": "word",
+      "line": "angle"
+    },
+    {
+      "text": "up",
+      "start": 14.446,
+      "end": 14.593,
+      "type": "word",
+      "line": "angle"
+    },
+    {
+      "text": "means",
+      "start": 14.642,
+      "end": 14.893,
+      "type": "word",
+      "line": "angle"
+    },
+    {
+      "text": "toward",
+      "start": 14.942,
+      "end": 15.188,
+      "type": "word",
+      "line": "angle"
+    },
+    {
+      "text": "the",
+      "start": 15.216,
+      "end": 15.272,
+      "type": "word",
+      "line": "angle"
+    },
+    {
+      "text": "sun.",
+      "start": 15.341,
+      "end": 15.624,
+      "type": "word",
+      "line": "angle"
+    },
+    {
+      "text": "Food",
+      "start": 16.166,
+      "end": 16.436,
+      "type": "word",
+      "line": "angle"
+    },
+    {
+      "text": "forty-five",
+      "start": 16.509,
+      "end": 17.075,
+      "type": "word",
+      "line": "angle"
+    },
+    {
+      "text": "degrees",
+      "start": 17.104,
+      "end": 17.481,
+      "type": "word",
+      "line": "angle"
+    },
+    {
+      "text": "right",
+      "start": 17.531,
+      "end": 17.681,
+      "type": "word",
+      "line": "angle"
+    },
+    {
+      "text": "of",
+      "start": 17.706,
+      "end": 17.783,
+      "type": "word",
+      "line": "angle"
+    },
+    {
+      "text": "the",
+      "start": 17.784,
+      "end": 17.846,
+      "type": "word",
+      "line": "angle"
+    },
+    {
+      "text": "sun?",
+      "start": 17.918,
+      "end": 18.404,
+      "type": "word",
+      "line": "angle"
+    },
+    {
+      "text": "Her",
+      "start": 18.604,
+      "end": 18.715,
+      "type": "word",
+      "line": "angle"
+    },
+    {
+      "text": "waggle",
+      "start": 18.785,
+      "end": 19.108,
+      "type": "word",
+      "line": "angle"
+    },
+    {
+      "text": "run",
+      "start": 19.158,
+      "end": 19.409,
+      "type": "word",
+      "line": "angle"
+    },
+    {
+      "text": "leans",
+      "start": 19.459,
+      "end": 19.757,
+      "type": "word",
+      "line": "angle"
+    },
+    {
+      "text": "forty-five",
+      "start": 19.834,
+      "end": 20.405,
+      "type": "word",
+      "line": "angle"
+    },
+    {
+      "text": "degrees",
+      "start": 20.424,
+      "end": 20.828,
+      "type": "word",
+      "line": "angle"
+    },
+    {
+      "text": "right",
+      "start": 20.879,
+      "end": 21.038,
+      "type": "word",
+      "line": "angle"
+    },
+    {
+      "text": "of",
+      "start": 21.063,
+      "end": 21.118,
+      "type": "word",
+      "line": "angle"
+    },
+    {
+      "text": "straight",
+      "start": 21.167,
+      "end": 21.405,
+      "type": "word",
+      "line": "angle"
+    },
+    {
+      "text": "up.",
+      "start": 21.435,
+      "end": 21.654,
+      "type": "word",
+      "line": "angle"
+    },
+    {
+      "text": "As",
+      "start": 22.233,
+      "end": 22.348,
+      "type": "word",
+      "line": "angle"
+    },
+    {
+      "text": "the",
+      "start": 22.383,
+      "end": 22.443,
+      "type": "word",
+      "line": "angle"
+    },
+    {
+      "text": "sun",
+      "start": 22.516,
+      "end": 22.708,
+      "type": "word",
+      "line": "angle"
+    },
+    {
+      "text": "moves,",
+      "start": 22.759,
+      "end": 23.184,
+      "type": "word",
+      "line": "angle"
+    },
+    {
+      "text": "she",
+      "start": 23.449,
+      "end": 23.547,
+      "type": "word",
+      "line": "angle"
+    },
+    {
+      "text": "shifts",
+      "start": 23.643,
+      "end": 23.896,
+      "type": "word",
+      "line": "angle"
+    },
+    {
+      "text": "her",
+      "start": 23.921,
+      "end": 24.043,
+      "type": "word",
+      "line": "angle"
+    },
+    {
+      "text": "angle",
+      "start": 24.098,
+      "end": 24.401,
+      "type": "word",
+      "line": "angle"
+    },
+    {
+      "text": "to",
+      "start": 24.414,
+      "end": 24.517,
+      "type": "word",
+      "line": "angle"
+    },
+    {
+      "text": "match.",
+      "start": 24.565,
+      "end": 25.007,
+      "type": "word",
+      "line": "angle"
+    },
+    {
+      "text": "She",
+      "start": 25.934,
+      "end": 26.059,
+      "type": "word",
+      "line": "distance"
+    },
+    {
+      "text": "repeats",
+      "start": 26.104,
+      "end": 26.494,
+      "type": "word",
+      "line": "distance"
+    },
+    {
+      "text": "the",
+      "start": 26.564,
+      "end": 26.594,
+      "type": "word",
+      "line": "distance"
+    },
+    {
+      "text": "loop,",
+      "start": 26.644,
+      "end": 26.977,
+      "type": "word",
+      "line": "distance"
+    },
+    {
+      "text": "turning",
+      "start": 27.124,
+      "end": 27.404,
+      "type": "word",
+      "line": "distance"
+    },
+    {
+      "text": "left,",
+      "start": 27.453,
+      "end": 27.784,
+      "type": "word",
+      "line": "distance"
+    },
+    {
+      "text": "then",
+      "start": 27.974,
+      "end": 28.12,
+      "type": "word",
+      "line": "distance"
+    },
+    {
+      "text": "right:",
+      "start": 28.169,
+      "end": 28.574,
+      "type": "word",
+      "line": "distance"
+    },
+    {
+      "text": "a",
+      "start": 28.75,
+      "end": 28.799,
+      "type": "word",
+      "line": "distance"
+    },
+    {
+      "text": "figure-eight.",
+      "start": 28.804,
+      "end": 29.564,
+      "type": "word",
+      "line": "distance"
+    },
+    {
+      "text": "The",
+      "start": 29.841,
+      "end": 29.916,
+      "type": "word",
+      "line": "distance"
+    },
+    {
+      "text": "waggle",
+      "start": 29.984,
+      "end": 30.306,
+      "type": "word",
+      "line": "distance"
+    },
+    {
+      "text": "run",
+      "start": 30.356,
+      "end": 30.607,
+      "type": "word",
+      "line": "distance"
+    },
+    {
+      "text": "carries",
+      "start": 30.668,
+      "end": 31.011,
+      "type": "word",
+      "line": "distance"
+    },
+    {
+      "text": "the",
+      "start": 31.05,
+      "end": 31.1,
+      "type": "word",
+      "line": "distance"
+    },
+    {
+      "text": "distance.",
+      "start": 31.114,
+      "end": 31.794,
+      "type": "word",
+      "line": "distance"
+    },
+    {
+      "text": "The",
+      "start": 32.145,
+      "end": 32.207,
+      "type": "word",
+      "line": "distance"
+    },
+    {
+      "text": "farther",
+      "start": 32.269,
+      "end": 32.555,
+      "type": "word",
+      "line": "distance"
+    },
+    {
+      "text": "the",
+      "start": 32.597,
+      "end": 32.665,
+      "type": "word",
+      "line": "distance"
+    },
+    {
+      "text": "food,",
+      "start": 32.752,
+      "end": 33.136,
+      "type": "word",
+      "line": "distance"
+    },
+    {
+      "text": "the",
+      "start": 33.264,
+      "end": 33.32,
+      "type": "word",
+      "line": "distance"
+    },
+    {
+      "text": "longer",
+      "start": 33.372,
+      "end": 33.69,
+      "type": "word",
+      "line": "distance"
+    },
+    {
+      "text": "she",
+      "start": 33.74,
+      "end": 33.828,
+      "type": "word",
+      "line": "distance"
+    },
+    {
+      "text": "waggles.",
+      "start": 33.877,
+      "end": 34.391,
+      "type": "word",
+      "line": "distance"
+    },
+    {
+      "text": "For",
+      "start": 35.338,
+      "end": 35.437,
+      "type": "word",
+      "line": "round"
+    },
+    {
+      "text": "very",
+      "start": 35.487,
+      "end": 35.726,
+      "type": "word",
+      "line": "round"
+    },
+    {
+      "text": "close",
+      "start": 35.768,
+      "end": 36.062,
+      "type": "word",
+      "line": "round"
+    },
+    {
+      "text": "food,",
+      "start": 36.124,
+      "end": 36.548,
+      "type": "word",
+      "line": "round"
+    },
+    {
+      "text": "about",
+      "start": 36.638,
+      "end": 36.873,
+      "type": "word",
+      "line": "round"
+    },
+    {
+      "text": "ten",
+      "start": 36.908,
+      "end": 37.124,
+      "type": "word",
+      "line": "round"
+    },
+    {
+      "text": "metres,",
+      "start": 37.172,
+      "end": 37.794,
+      "type": "word",
+      "line": "round"
+    },
+    {
+      "text": "she",
+      "start": 37.918,
+      "end": 38.037,
+      "type": "word",
+      "line": "round"
+    },
+    {
+      "text": "runs",
+      "start": 38.094,
+      "end": 38.409,
+      "type": "word",
+      "line": "round"
+    },
+    {
+      "text": "in",
+      "start": 38.449,
+      "end": 38.5,
+      "type": "word",
+      "line": "round"
+    },
+    {
+      "text": "a",
+      "start": 38.526,
+      "end": 38.562,
+      "type": "word",
+      "line": "round"
+    },
+    {
+      "text": "small",
+      "start": 38.639,
+      "end": 38.918,
+      "type": "word",
+      "line": "round"
+    },
+    {
+      "text": "circle",
+      "start": 38.994,
+      "end": 39.342,
+      "type": "word",
+      "line": "round"
+    },
+    {
+      "text": "instead.",
+      "start": 39.393,
+      "end": 39.958,
+      "type": "word",
+      "line": "round"
+    },
+    {
+      "text": "Past",
+      "start": 40.448,
+      "end": 40.696,
+      "type": "word",
+      "line": "round"
+    },
+    {
+      "text": "about",
+      "start": 40.724,
+      "end": 40.978,
+      "type": "word",
+      "line": "round"
+    },
+    {
+      "text": "forty",
+      "start": 41.054,
+      "end": 41.302,
+      "type": "word",
+      "line": "round"
+    },
+    {
+      "text": "metres,",
+      "start": 41.352,
+      "end": 41.878,
+      "type": "word",
+      "line": "round"
+    },
+    {
+      "text": "the",
+      "start": 42.058,
+      "end": 42.107,
+      "type": "word",
+      "line": "round"
+    },
+    {
+      "text": "circle",
+      "start": 42.181,
+      "end": 42.494,
+      "type": "word",
+      "line": "round"
+    },
+    {
+      "text": "stretches",
+      "start": 42.545,
+      "end": 42.973,
+      "type": "word",
+      "line": "round"
+    },
+    {
+      "text": "into",
+      "start": 42.999,
+      "end": 43.15,
+      "type": "word",
+      "line": "round"
+    },
+    {
+      "text": "the",
+      "start": 43.183,
+      "end": 43.242,
+      "type": "word",
+      "line": "round"
+    },
+    {
+      "text": "waggle",
+      "start": 43.295,
+      "end": 43.612,
+      "type": "word",
+      "line": "round"
+    },
+    {
+      "text": "dance.",
+      "start": 43.661,
+      "end": 44.123,
+      "type": "word",
+      "line": "round"
+    },
+    {
+      "text": "Karl",
+      "start": 45.03,
+      "end": 45.34,
+      "type": "word",
+      "line": "source"
+    },
+    {
+      "text": "von",
+      "start": 45.412,
+      "end": 45.685,
+      "type": "word",
+      "line": "source"
+    },
+    {
+      "text": "Frisch,",
+      "start": 45.777,
+      "end": 46.27,
+      "type": "word",
+      "line": "source"
+    },
+    {
+      "text": "the",
+      "start": 46.536,
+      "end": 46.636,
+      "type": "word",
+      "line": "source"
+    },
+    {
+      "text": "Austrian",
+      "start": 46.71,
+      "end": 47.155,
+      "type": "word",
+      "line": "source"
+    },
+    {
+      "text": "scientist",
+      "start": 47.209,
+      "end": 47.878,
+      "type": "word",
+      "line": "source"
+    },
+    {
+      "text": "who",
+      "start": 47.88,
+      "end": 48.031,
+      "type": "word",
+      "line": "source"
+    },
+    {
+      "text": "shared",
+      "start": 48.109,
+      "end": 48.348,
+      "type": "word",
+      "line": "source"
+    },
+    {
+      "text": "the",
+      "start": 48.4,
+      "end": 48.448,
+      "type": "word",
+      "line": "source"
+    },
+    {
+      "text": "1973",
+      "start": 48.506,
+      "end": 49.702,
+      "type": "word",
+      "line": "source"
+    },
+    {
+      "text": "Nobel",
+      "start": 49.754,
+      "end": 50.147,
+      "type": "word",
+      "line": "source"
+    },
+    {
+      "text": "Prize,",
+      "start": 50.197,
+      "end": 50.74,
+      "type": "word",
+      "line": "source"
+    },
+    {
+      "text": "was",
+      "start": 51.09,
+      "end": 51.204,
+      "type": "word",
+      "line": "source"
+    },
+    {
+      "text": "one",
+      "start": 51.253,
+      "end": 51.359,
+      "type": "word",
+      "line": "source"
+    },
+    {
+      "text": "of",
+      "start": 51.387,
+      "end": 51.474,
+      "type": "word",
+      "line": "source"
+    },
+    {
+      "text": "the",
+      "start": 51.474,
+      "end": 51.544,
+      "type": "word",
+      "line": "source"
+    },
+    {
+      "text": "first",
+      "start": 51.634,
+      "end": 51.968,
+      "type": "word",
+      "line": "source"
+    },
+    {
+      "text": "to",
+      "start": 52.02,
+      "end": 52.073,
+      "type": "word",
+      "line": "source"
+    },
+    {
+      "text": "decode",
+      "start": 52.114,
+      "end": 52.467,
+      "type": "word",
+      "line": "source"
+    },
+    {
+      "text": "it.",
+      "start": 52.518,
+      "end": 52.63,
+      "type": "word",
+      "line": "source"
+    }
+  ]
+}

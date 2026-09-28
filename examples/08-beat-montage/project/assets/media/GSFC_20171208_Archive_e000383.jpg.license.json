@@ -1,0 +1,21 @@
+{
+  "source": "nasa",
+  "source_label": "NASA Image and Video Library",
+  "id": "nasa:GSFC_20171208_Archive_e000383",
+  "title": "Hubble Sees a Star ‘Inflating’ a Giant Bubble",
+  "author": "NASA/GSFC",
+  "author_url": null,
+  "license": "Public domain (NASA media)",
+  "license_url": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+  "landing_url": "https://images.nasa.gov/details/GSFC_20171208_Archive_e000383",
+  "note": "NASA media: no endorsement implied; do not use NASA logos or insignia. Check the description for third-party copyright notices.",
+  "type": "image",
+  "file_url": "https://images-assets.nasa.gov/image/GSFC_20171208_Archive_e000383/GSFC_20171208_Archive_e000383~large.jpg",
+  "captions": [],
+  "sha256": "bac8cba2d1c13cb978f48adeb0e4a338ae621a0bb4b5b57ac64f2e7f92c419fb",
+  "fetched": "2026-09-26T14:26:54",
+  "license_class": "free",
+  "attribution_required": false,
+  "credit": "\"Hubble Sees a Star ‘Inflating’ a Giant Bubble\" by NASA/GSFC via NASA Image and Video Library (Public domain (NASA media)) - https://images.nasa.gov/details/GSFC_20171208_Archive_e000383",
+  "file": "GSFC_20171208_Archive_e000383.jpg"
+}

@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>The War of the Worlds</title>
+  <!-- Fonts are real files: Inter + Instrument Serif from setup, Cinzel (OFL) + Special Elite (Apache-2.0) in fonts/ -->
+  <link rel="stylesheet" href="/_lib/@fontsource-variable/inter/index.css">
+  <link rel="stylesheet" href="/_lib/@fontsource/instrument-serif/400-italic.css">
+  <link rel="stylesheet" href="fonts/cinzel/font.css">
+  <link rel="stylesheet" href="fonts/special-elite/font.css">
+  <style>:root { --accent: #e8a35a; --accent-2: #c65d3b; } body { margin: 0; background: #0d0a08; }</style>
+  <script src="/_st/stage.js"></script>
+  <script src="/_st/film.js"></script>
+</head>
+<body>
+  <script src="cues.js"></script>
+  <script src="scenes.js"></script>
+  <script>
+    Film.start({
+      look: { base: 'film', grain: 0.06, grainFps: 12, dust: 0.3, leak: 0, vignette: 0.55, weave: 0.6 },
+      design: [1080, 1920],
+      palette: { bg: '#0d0a08', ink: '#f2e9dc', muted: '#b9ab95', accent: '#e8a35a' },
+      fonts: ['900 1em "Cinzel"', '700 1em "Cinzel"', '400 1em "Special Elite"',
+              'italic 400 1em "Instrument Serif"', '500 1em "Inter Variable"'],
+      images: {
+        mars: 'media/mars.jpg', launch: 'media/launch.jpg', emerges: 'media/emerges.jpg',
+        machine: 'media/machine.jpg',
+      },
+      acts: CUE.acts,
+      subtitle: 'H. G. Wells, 1898 · a 15-second teaser',
+      scenes: drawFilm,
+    });
+  </script>
+</body>
+</html>

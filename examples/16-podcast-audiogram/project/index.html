@@ -1,0 +1,203 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Artemis III training: the scenarios we hope they never use</title>
+<script src="/_st/stage.js"></script>
+<link rel="stylesheet" href="/_st/themes/bold.css">
+<script type="module" src="/_st/components/index.js"></script>
+<style>
+  /* 1080x1920 audiogram. Safe box for app UI: x 6-85 %, y 11.5-75 %. Layout, top to bottom:
+     kicker 12 % | name card 15-22 % | photo band 0-58 % (fades into the ground) |
+     waveform 49-54 % | captions centred at 64 %. Nothing that matters below 75 %. */
+  :root { --leah: var(--accent-2); --debra: var(--accent); }
+
+  .scene { background:
+      radial-gradient(75% 38% at 12% 10%, color-mix(in oklab, var(--accent-2) 22%, transparent), transparent 70%),
+      radial-gradient(90% 45% at 92% 78%, color-mix(in oklab, var(--accent) 26%, transparent), transparent 70%),
+      var(--bg); }
+
+  /* ---------- persistent layers */
+  .kicker { position: absolute; left: 6cqw; top: 12.1cqh; z-index: 6; display: flex; align-items: center; gap: 1.8cqw;
+    font: 700 4cqw/1 var(--font-body); letter-spacing: 0; color: var(--fg);
+    text-shadow: 0 0.3cqw 1.2cqw rgb(0 0 0 / 0.7); animation: fade-in 0.4s var(--ease-out) 0.35s both, kicker-out 0.35s var(--ease-in) 36.75s both; }
+  @keyframes fade-in { from { opacity: 0; } to { opacity: 1; } }
+  .kicker i { width: 2cqw; height: 2cqw; border-radius: 50%; background: var(--accent); box-shadow: 0 0 2cqw var(--accent); }
+  .kicker b { font-weight: 600; color: rgb(251 246 241 / 0.86); }
+  @keyframes kicker-out { to { opacity: 0; } }
+
+  .who { position: absolute; left: 6cqw; right: 15cqw; top: 15.6cqh; z-index: 6; --accent: var(--debra); }
+  .who.leah { --accent: var(--leah); }
+  /* check/qa find text by hit-testing; the component sets pointer-events: none, so opt back in */
+  .who .st-lower-third, .who .st-lower-third * { pointer-events: auto; }
+  .who .st-lt-name { font-size: 6.4cqw; }
+  .who .st-lt-role { font-size: 4.1cqw; line-height: 1.25; text-wrap: balance; color: var(--fg); opacity: 0.86; }
+  .who .st-lt-v-card .st-lt-box { display: inline-flex; padding: 2.2cqw 3.4cqw 3cqw; background: rgb(28 23 21 / 0.92); }
+
+  .wave { position: absolute; left: 6cqw; right: 15cqw; top: 48.2cqh; height: 5.2cqh; z-index: 5; display: flex;
+    align-items: center; justify-content: space-between; }
+  .wave span { display: block; width: 1.15cqw; height: 100%; border-radius: 1cqw; background: var(--debra);
+    transform-origin: 50% 50%; transform: scaleY(0.06); }
+  .wave.leah span { background: var(--leah); }
+  .wave-out { animation: wave-out 0.35s var(--ease-in) 40.3s both; }
+  @keyframes wave-out { to { opacity: 0; } }
+
+  /* ---------- 1. hook: the payoff line, verbatim, complete at frame 0 */
+  .quote { position: absolute; left: 6cqw; right: 15cqw; top: 13.9cqh; margin: 0; }
+  .quote .mark { display: block; height: 5.6cqh; font: 900 26cqw/0.9 var(--font-display); color: var(--accent); }
+  .quote p { margin: 0; font: var(--weight-display) 10.2cqw/0.98 var(--font-display); letter-spacing: -0.04em; color: var(--fg);
+    text-wrap: balance; }
+  .quote p span { transition: none; }
+  .quote p span.lit { color: var(--accent); }
+  .quote p .ell { margin-right: 0.1em; } /* the tight tracking otherwise lands the last dot on the next letter */
+    .quote-by { position: absolute; left: 6cqw; right: 15cqw; top: 57.5cqh; font: 500 4.2cqw/1.3 var(--font-body); color: var(--muted); }
+  .quote-by b { display: block; font: 700 5cqw/1.15 var(--font-display); color: var(--fg); letter-spacing: -0.01em; }
+
+  /* bold-pop keeps a spoken emphasis word popped 14 %, which eats the word gap; let it settle back */
+  .st-cap-bold-pop .st-cap-emph[data-state="spoken"] { transform: none !important; }
+
+  /* ---------- 2-4. the photo band (answer is illustrated with real NASA training photos) */
+  .band { position: absolute; left: 0; right: 0; top: 0; height: 58cqh; overflow: hidden;
+    -webkit-mask-image: linear-gradient(to bottom, black 70%, transparent 100%); mask-image: linear-gradient(to bottom, black 70%, transparent 100%); }
+  .band [data-st="ken-burns"] { position: absolute; inset: 0; }
+  /* team shot: the picture starts under the name card, so the astronaut's face lands between the
+     card (y 300-552) and the photo label, instead of behind the card */
+  #team .band [data-st="ken-burns"] { top: 19.5cqh;
+    -webkit-mask-image: linear-gradient(to bottom, transparent 0, black 9cqh); mask-image: linear-gradient(to bottom, transparent 0, black 9cqh); }
+  /* the photo leaves before the end card arrives (speech ends 40.29 s) */
+  #team .band { animation: fade-out 0.35s var(--ease-in) 10.6s both; }
+  .band::after { content: ''; position: absolute; inset: 0; pointer-events: none;
+    background: linear-gradient(to bottom, rgb(13 11 10 / 0.86) 0%, rgb(13 11 10 / 0.35) 27%, rgb(13 11 10 / 0) 40%); }
+  .credit { position: absolute; left: 6cqw; top: 40.2cqh; z-index: 6; font: 600 4cqw/1.2 var(--font-body);
+    padding: 0.9cqw 1.4cqw 1cqw; border-radius: 1cqw; background: rgb(0 0 0 / 0.62);
+    color: rgb(251 246 241 / 0.96); animation: fade-in 0.4s var(--ease-out) 0.5s both, kicker-out 0.35s var(--ease-in) 36.95s both; }
+
+  /* ---------- 5. end: where to hear the rest, credit, and a clean loop back to the quote */
+  .end-wrap { position: absolute; left: 6cqw; right: 15cqw; top: 16cqh; display: flex; flex-direction: column; gap: 2.6cqh; animation: drift 4.55s linear both; }
+  @keyframes drift { from { transform: translateY(1.2cqh) scale(0.985); } to { transform: translateY(-1.2cqh) scale(1.015); } }
+  .end-show { font: 700 4cqw/1 var(--font-body); color: var(--muted); }
+  .end-title { margin: 0; font: var(--weight-display) 11cqw/0.95 var(--font-display); letter-spacing: -0.04em; }
+  .end-title em { font-style: normal; color: var(--accent); }
+  .end-link { font: 600 4.4cqw/1.25 var(--font-body); color: var(--fg); }
+  .end-link small { display: block; font: 600 4cqw/1 var(--font-mono); letter-spacing: 0.08em; text-transform: uppercase; color: var(--accent); margin-bottom: 1.2cqh; }
+  .end-link span { overflow-wrap: anywhere; }
+  .end-fine { font: 450 4.1cqw/1.35 var(--font-body); color: var(--muted); text-wrap: balance; }
+  .end-bar { height: 1cqh; border-radius: 1cqh; background: var(--accent); transform-origin: 0 50%; animation: grow 3.6s linear 0.8s both; }
+  @keyframes grow { from { transform: scaleX(0); } to { transform: scaleX(1); } }
+  .end .rise { animation: rise 0.55s var(--ease-out) both, fade-out 0.3s var(--ease-in) forwards; } /* forwards: fade-out must not hold the text visible before it rises */
+  .end .r1 { animation-delay: 0.4s, 4.22s; } .end .r2 { animation-delay: 0.48s, 4.22s; }
+  .end .r3 { animation-delay: 0.56s, 4.22s; } .end .r4 { animation-delay: 0.64s, 4.22s; } .end .r5 { animation: fade-out 0.3s var(--ease-in) 4.22s both; }
+  @keyframes rise { from { opacity: 0; transform: translateY(3cqh); } to { opacity: 1; transform: none; } }
+  @keyframes fade-out { from { opacity: 1; } to { opacity: 0; } }
+</style>
+</head>
+<body>
+<div class="stage">
+
+  <!-- 1. Hook (0-3.4 s): the guest's strongest line, verbatim, as a pull quote; her voice says it (cold open). -->
+  <section class="scene" id="hook" data-start="0" data-dur="3.4">
+    <blockquote class="quote">
+      <span class="mark" aria-hidden="true">“</span>
+      <p id="quote-text">…the exact scenarios we train, I hope they never use it.”</p>
+    </blockquote>
+    <div class="quote-by"><b>Debra O’Connell</b>Artemis III Chief Training Officer, NASA</div>
+  </section>
+
+  <!-- 2. Ask (3.4-10.55 s): the host's question; the photo band opens on crew training in an Orion mockup. -->
+  <section class="scene" id="ask" data-start="#hook" data-dur="7.15" data-transition="blur-dissolve 0.45">
+    <div class="band"><div data-st="ken-burns" data-src="media/crew-mockup.jpg" data-from='{"scale":1.0,"x":0,"y":0}' data-to='{"scale":1.024,"x":-0.3,"y":0.2}' data-ease="linear"></div></div>
+  </section>
+
+  <!-- 3. Answer (10.55-29.7 s): same shot keeps pushing in while she explains what they train for. -->
+  <section class="scene" id="answer" data-start="#ask" data-dur="19.15">
+    <div class="band"><div data-st="ken-burns" data-src="media/crew-mockup.jpg" data-from='{"scale":1.024,"x":-0.3,"y":0.2}' data-to='{"scale":1.09,"x":-1.1,"y":0.75}' data-ease="linear"></div></div>
+  </section>
+
+  <!-- 4. Team (29.7-40.45 s): "by practicing all of those failures ... working as a team": closer on one crew member. -->
+  <section class="scene" id="team" data-start="#answer" data-dur="10.75" data-transition="crossfade 0.6">
+    <div class="band"><div data-st="ken-burns" data-src="media/crew-window.jpg" data-from='{"scale":1.02,"x":1.2,"y":0}' data-to='{"scale":1.1,"x":-1.2,"y":0.6}' data-ease="sine.inOut"></div></div>
+  </section>
+
+  <!-- 5. End (40.45-44 s): where to hear the rest + credit; text leaves at the end so frame 0 follows on the same ground. -->
+  <section class="scene end" id="end" data-start="#team" data-dur="4.55" data-transition="crossfade 0.45">
+    <div class="end-wrap">
+      <div class="end-show rise r1">Houston We Have a Podcast · Ep. 434</div>
+      <h2 class="end-title rise r2">Artemis III <em>Training</em></h2>
+      <div class="end-link rise r3"><small>Full episode</small><span>nasa.gov/podcasts</span></div>
+      <div class="end-fine rise r4">Audio and photos: NASA. Not endorsed by NASA.</div>
+      <div class="r5"><div class="end-bar"></div></div>
+    </div>
+  </section>
+
+  <!-- persistent: show kicker, photo credit, speaker cards, waveform, captions -->
+  <div class="kicker" data-start="3.4" data-dur="37.05"><i></i>Houston We Have a Podcast <b>· Ep. 434</b></div>
+  <div class="credit" data-start="3.4" data-dur="37.3">Photos: Artemis II crew training,<br>not the guest (NASA, 2025)</div>
+
+  <div class="who leah" data-start="3.7" data-dur="6.75"><div data-st="lower-third" data-variant="card" data-position="none" data-name="Leah Cheshier" data-role="Host, NASA Johnson Space Center" data-at="0.05" data-hold="5.3"></div></div>
+  <div class="who" data-start="10.4" data-dur="30.05"><div data-st="lower-third" data-variant="card" data-position="none" data-name="Debra O’Connell" data-role="Artemis III Chief Training Officer, NASA" data-at="0.05" data-hold="28.9"></div></div>
+
+  <div class="wave wave-out" id="wave"></div>
+
+  <!-- captions: host in blue boxes, guest in bold-pop ember; interjections as a small blue pill -->
+  <div data-st="caption-karaoke" data-src="data/words.leah-q.json" data-style="highlight-box" data-position="lower" data-at="0" style="--cap-accent: #3a55d0; --cap-active-ink: #ffffff;"></div>
+  <div data-st="caption-karaoke" data-src="data/words.debra.json" data-style="bold-pop" data-position="lower" data-at="0" data-hold-last="0.45" data-keep="worst case,never use it." data-emphasis="surprising,little,worst,case,failure,failures,team,never"></div>
+  <div data-st="caption-karaoke" data-src="data/words.leah-i.json" data-style="boxed-pill" data-position="center" data-size="0.7" data-max-words="5" data-keep="That’s a good point." data-at="0" style="--cap-plate: color-mix(in oklab, var(--leah) 88%, black); --cap-ink: #0b0d1a; --cap-accent: #0b0d1a; --cap-active-ink: #0b0d1a; transform: translateY(6.2cqh);"></div>
+
+  <div data-st="grain"></div>
+</div>
+
+<script type="module">
+  // Waveform and quote highlight: pure functions of time, from data files built by tools/build_data.py.
+  const load = (p) => fetch(p).then((r) => r.json());
+  const ready = Promise.all([load('data/envelope.json'), load('data/speakers.json'), load('data/quote.json')]);
+  ST.waitFor(ready, 'audiogram data');
+  const [env, speakers, quote] = await ready;
+
+  const N = 29, C = (N - 1) / 2;
+  const wave = document.getElementById('wave');
+  const bars = Array.from({ length: N }, () => wave.appendChild(document.createElement('span')));
+  const shape = bars.map((_, i) => 0.55 + 0.45 * Math.cos((Math.abs(i - C) / C) * Math.PI * 0.5));
+  const jitter = bars.map((_, i) => 0.78 + 0.22 * Math.abs(Math.sin(i * 12.9898 + 4.1)));
+  const envAt = (t) => {
+    const f = t * env.hz, i = Math.floor(f), k = f - i, v = env.values;
+    if (i < 0 || i >= v.length - 1) return 0;
+    return v[i] * (1 - k) + v[i + 1] * k;
+  };
+  const whoAt = (t) => {
+    for (const s of speakers) if (t >= s.from - 0.05 && t <= s.to + 0.25) return s.who;
+    return null;
+  };
+
+  // quote: split the paragraph into spans matched to the cold-open words, in order
+  const qp = document.getElementById('quote-text');
+  const tokens = qp.textContent.split(/(\s+)/);
+  qp.textContent = '';
+  const spans = [];
+  for (const tok of tokens) {
+    if (/^\s+$/.test(tok)) { qp.append(tok); continue; }
+    let word = tok;
+    if (word.startsWith('…')) {   // leading ellipsis: its own box with a little air after it, not a highlighted word
+      const e = document.createElement('span'); e.className = 'ell'; e.textContent = '…'; qp.append(e); word = word.slice(1);
+    }
+    const s = document.createElement('span'); s.textContent = word; qp.append(s); spans.push(s);
+  }
+  const qw = quote.words;
+
+  // colour = the speaker of the current or most recent turn (a pure function of t)
+  const colourAt = (t) => {
+    let who = speakers[0].who;
+    for (const s of speakers) if (t >= s.from - 0.05) who = s.who;
+    return whoAt(t) || who;
+  };
+  ST.onSeek((t) => {
+    wave.classList.toggle('leah', colourAt(t) === 'leah');
+    for (let i = 0; i < N; i++) {
+      const lag = Math.abs(i - C) * 0.028;
+      const v = envAt(t - lag);
+      bars[i].style.transform = `scaleY(${Math.max(0.06, Math.min(1, v * shape[i] * jitter[i] * 1.12)).toFixed(3)})`;
+    }
+    for (let i = 0; i < spans.length && i < qw.length; i++) spans[i].classList.toggle('lit', t >= qw[i].start - 0.02);
+  });
+</script>
+</body>
+</html>

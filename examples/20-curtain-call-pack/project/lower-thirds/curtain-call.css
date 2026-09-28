@@ -1,0 +1,24 @@
+/* Curtain Call theme: the showtime brand kit (assets/brand/brand.json, `showtime brand css`) mapped onto
+   showtime's component token contract. Text is cream or Programme on Stage/Wings; velvet is only ever a shape. */
+@import url('/_st/themes/base.css');
+@import url('/_st/themes/fonts/fraunces.css');
+@import url('/_st/themes/fonts/inter.css');
+
+:root {
+  --brand-bg: #15100E; --brand-surface: #231916; --brand-ink: #F5EBDC; --brand-muted: #B6A795;
+  --brand-accent: #E9B949; --brand-accent2: #B3121F; --brand-border: #3A2C27;
+  --velvet: #B3121F; --velvet-deep: #6E0B16;
+  color-scheme: dark;
+  --bg: var(--brand-bg); --fg: var(--brand-ink); --muted: var(--brand-muted);
+  --surface: rgb(35 25 22 / 0.94); --surface-2: #2c201c; --border: var(--brand-border);
+  --accent: var(--brand-accent); --accent-2: var(--velvet); --accent-ink: var(--brand-bg);
+  --good: var(--brand-accent); --bad: #D0413A; --shadow: 0 1.6cqmin 4cqmin rgb(0 0 0 / 0.35);
+  --font-display: 'Fraunces', serif; --font-body: 'Inter', sans-serif; --font-mono: 'Inter', sans-serif;
+  --weight-display: 900; --weight-body: 400;
+  --tracking-display: -0.01em; --leading-display: 1.02; --case-display: none;
+  --radius: 1.1cqmin; --radius-lg: 2cqmin; --stroke: max(1px, 0.14cqmin);
+  --motion-energy: medium; --dur-in: 0.5s; --dur-out: 0.4s; --stagger: 0.04s;
+  --ease-in: cubic-bezier(0.55, 0, 0.9, 0.3); --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-move: cubic-bezier(0.65, 0, 0.35, 1); --ease-emph: cubic-bezier(0.34, 1.4, 0.64, 1);
+  --grain: 0; --glow: 0;
+}

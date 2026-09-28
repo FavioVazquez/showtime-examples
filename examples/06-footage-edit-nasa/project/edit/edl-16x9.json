@@ -1,0 +1,94 @@
+{
+  "version": 1,
+  "sources": {
+    "koch-interview": "../../../raw/koch-interview.mp4"
+  },
+  "transcripts": {
+    "koch-interview": "transcripts/koch-interview.json"
+  },
+  "ranges": [
+    {
+      "source": "koch-interview",
+      "start": 2.75,
+      "end": 7.17,
+      "note": "I'm Christina Koch, I'm a mission specialist on ..."
+    },
+    {
+      "source": "koch-interview",
+      "start": 8.18,
+      "end": 16.06,
+      "note": "When I first found out that I was ...",
+      "zoom": 1.2
+    },
+    {
+      "source": "koch-interview",
+      "start": 16.2,
+      "end": 23.46,
+      "note": "and readiness. I'm ready to try to make ... (start padded 16.37 -> 16.2: keep the beat before 'and readiness')"
+    },
+    {
+      "source": "koch-interview",
+      "start": 24.2,
+      "end": 30.73,
+      "note": "For me, there's never really been a time ...",
+      "zoom": 1.2
+    },
+    {
+      "source": "koch-interview",
+      "start": 31.06,
+      "end": 42.03,
+      "note": "I think the spark was really lit when ..."
+    },
+    {
+      "source": "koch-interview",
+      "start": 42.46,
+      "end": 47.46,
+      "note": "When I think about the Artemis II crew, ... (round 3: fixed crop on her face, x 0.503; the tracker's dead zone left her at 60 % of the width)",
+      "zoom": 1.2,
+      "fit": "cover",
+      "focus": {
+        "x": 0.503,
+        "y": 0.25
+      }
+    },
+    {
+      "source": "koch-interview",
+      "start": 47.46,
+      "end": 53.726667,
+      "note": "These other astronauts ... (reframe only, no cut: same source time)"
+    },
+    {
+      "source": "koch-interview",
+      "start": 53.726667,
+      "end": 60.46,
+      "note": "I've known them all for many, many years ... (reframe only)",
+      "zoom": 1.2
+    },
+    {
+      "source": "koch-interview",
+      "start": 60.46,
+      "end": 70.426667,
+      "note": "They all have a military background ... (reframe only)"
+    },
+    {
+      "source": "koch-interview",
+      "start": 70.426667,
+      "end": 77.66,
+      "note": "and I hope to be someone on the crew ... (reframe only; tail trimmed 77.88 -> 77.66)",
+      "zoom": 1.2
+    }
+  ],
+  "output": {
+    "aspect": "16:9"
+  },
+  "grade": {
+    "lut": "teal-orange",
+    "strength": 0.3
+  },
+  "captions": false,
+  "loudness": {
+    "lufs": -14,
+    "tp": -1
+  },
+  "subtitles": "captions-16x9.ass"
+}

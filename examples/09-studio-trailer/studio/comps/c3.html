@@ -1,0 +1,54 @@
+<!doctype html>
+<!-- C3 "Keystrokes": every cut is a key on the beat, and each key does its real thing in the app (light theme).
+   Render: showtime studio frame <job> --concept c3 --html comps/c3.html --shots key,run,end -->
+<html lang="en"><head><meta charset="utf-8">
+<link rel="stylesheet" href="/_st/themes/fonts/inter.css">
+<link rel="stylesheet" href="/_st/themes/fonts/jetbrains-mono.css">
+<link rel="stylesheet" href="tp.css">
+<style>
+  body { background: var(--paper); }
+  .teal { position: absolute; inset: 0; background: radial-gradient(90% 90% at 30% 30%, #14A3A0, #0B6F78 70%, #0A5A62); }
+  .key { position: absolute; display: grid; place-items: center; font: 600 1em/1 var(--mono); color: var(--ink);
+         background: linear-gradient(180deg, #fff, #E6EEEF); border-radius: .16em; padding: 0 .28em; min-width: .9em; height: 1.18em;
+         box-shadow: 0 .06em 0 #B9C9CC, 0 .12em 0 #9FB3B7, 0 .3em .5em rgba(7,40,46,.35); }
+  .count { position: absolute; left: 90px; top: 80px; font: 500 30px/1 var(--mono); color: rgba(255,255,255,.75); letter-spacing: .08em; }
+  .shotimg { position: absolute; border-radius: 26px; overflow: hidden; box-shadow: 0 40px 120px rgba(7,40,46,.35); }
+  .shotimg img { display: block; width: 100%; }
+  .row { position: absolute; left: 0; right: 0; bottom: 70px; display: flex; justify-content: center; gap: 26px; font-size: 64px; }
+  .row .key { position: relative; opacity: .45; }
+  .row .key.lit { opacity: 1; background: linear-gradient(180deg, #FFE3D2, #FFB38A); }
+  .mark { width: 150px; height: 150px; }
+  .endname { font: 700 150px/1 var(--sans); letter-spacing: -.035em; color: var(--ink); }
+</style></head>
+<body>
+  <section class="shot" data-shot="key">
+    <div class="teal"></div>
+    <div class="count">01 / 08</div>
+    <div class="shotimg" style="left:760px; top:170px; width:1240px; transform:rotate(-3deg); opacity:.96"><img src="../media/plates/light-palette.jpg"></div>
+    <div class="key" style="left:250px; top:330px; font-size:230px">⌘K</div>
+    <div class="grain" style="opacity:.05"></div>
+  </section>
+
+  <section class="shot" data-shot="run">
+    <div style="position:absolute; inset:0; background:var(--paper)"></div>
+    <div class="shotimg" style="left:300px; top:40px; width:1320px"><img src="../media/plates/light-trailer-note.jpg"></div>
+    <div class="row"><span class="key">⌘K</span><span class="key lit">N</span><span class="key">J</span><span class="key">K</span><span class="key">⌘E</span><span class="key">P</span><span class="key">?</span><span class="key">esc</span></div>
+  </section>
+
+  <section class="shot" data-shot="end">
+    <div style="position:absolute; inset:0; background:var(--paper); display:grid; place-items:center">
+      <div style="text-align:center">
+        <img class="mark" src="../media/plates/logo.svg">
+        <div class="endname" style="margin-top:26px">Tidepool</div>
+        <div style="font:500 44px/1.3 var(--sans); color:#4F6469; margin-top:34px; display:flex; gap:16px; align-items:center; justify-content:center">
+          Open the app, press <span class="key" style="position:relative; font-size:42px">N</span>, and type.</div>
+      </div>
+    </div>
+    <div class="fictional" style="color:#6A7F85">A fictional app, made as showtime sample material.</div>
+  </section>
+<script>
+  var want = new URLSearchParams(location.search).get('shot'), hit = false;
+  document.querySelectorAll('[data-shot]').forEach(function (s) { if (s.dataset.shot === want) { s.classList.add('on'); hit = true; } });
+  if (!hit) document.querySelector('[data-shot]').classList.add('on');
+</script>
+</body></html>

@@ -1,0 +1,90 @@
+{
+ "_comment": "lounge-jazz bed at 108 bpm with its sections on the scene cuts (each cut is a downbeat; one bar = 2.2222 s); the bed's final tonic hit lands on the end card at 17.78 s. shimmer peaks with the sheen on the turn; one thock per spec row as the spotlight reaches it.",
+ "sample_rate": 48000,
+ "tracks": [
+  {
+   "id": "bed",
+   "kind": "music",
+   "compose": {
+    "style": "lounge-jazz",
+    "bpm": 108,
+    "sections": "0:intro,2.2222:verse,6.6667:chorus,11.1111:bridge,15.5556:outro",
+    "seed": 1
+   },
+   "gain_db": 0,
+   "fade_out": 0.6,
+   "section_gain": {
+    "intro": 3
+   },
+   "duck": {
+    "under": [
+     "sfx1"
+    ],
+    "depth_db": 4,
+    "attack": 0.1,
+    "release": 0.6
+   }
+  },
+  {
+   "kind": "sfx",
+   "synth": {
+    "type": "shimmer",
+    "key": "F",
+    "intensity": 0.55,
+    "seed": 3
+   },
+   "at": 3.23,
+   "align": "peak",
+   "gain_db": 0,
+   "id": "sfx1"
+  },
+  {
+   "kind": "sfx",
+   "synth": {
+    "type": "thock",
+    "intensity": 0.55,
+    "seed": 11
+   },
+   "at": 7.2227,
+   "align": "hit",
+   "gain_db": -4
+  },
+  {
+   "kind": "sfx",
+   "synth": {
+    "type": "thock",
+    "intensity": 0.55,
+    "seed": 12
+   },
+   "at": 8.0557,
+   "align": "hit",
+   "gain_db": -4
+  },
+  {
+   "kind": "sfx",
+   "synth": {
+    "type": "thock",
+    "intensity": 0.55,
+    "seed": 13
+   },
+   "at": 8.8887,
+   "align": "hit",
+   "gain_db": -1
+  },
+  {
+   "kind": "sfx",
+   "synth": {
+    "type": "thock",
+    "intensity": 0.6,
+    "seed": 14
+   },
+   "at": 9.7227,
+   "align": "hit",
+   "gain_db": -4
+  }
+ ],
+ "master": {
+  "lufs": -14,
+  "true_peak": -1
+ }
+}

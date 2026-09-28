@@ -1,0 +1,24 @@
+The last 11 years were the 11 warmest in NASA's global temperature record. 2024 was the warmest of all: +1.29 °C above the 1951–1980 average.
+
+X (≤280):
+The 11 warmest years in NASA's 146-year global temperature record are the last 11, 2015–2025. 2024 tops the list at +1.29 °C above the 1951–1980 average. Data: NASA GISS GISTEMP v4 #climate #dataviz
+
+LinkedIn:
+The 11 warmest years in NASA's global temperature record are 2015 through 2025.
+Every year since 1977 has been warmer than the 1951–1980 average; 1976 was the last one below it.
+2024 was the warmest: +1.29 °C.
+Source: NASA GISS Surface Temperature Analysis (GISTEMP v4), annual means 1880–2025.
+
+YouTube title: The last 11 years were the 11 warmest on record (NASA GISTEMP, 1880–2025)
+YouTube description:
+146 years of NASA global surface temperature data in 30 seconds: every year since 1977 above the 1951–1980 average, and 2024 the warmest at +1.29 °C.
+Data: NASA GISS GISTEMP v4, https://data.giss.nasa.gov/gistemp/ (public domain), downloaded 2026-09-26.
+
+GitHub README caption: A 30-second data story made with showtime from NASA's GISTEMP v4 annual global temperature anomalies.
+Alt text: Warming stripes for 1880 to 2025, blue in early years turning deep red recently, fold into a bar chart of yearly temperature differences from the 1951–1980 average; the last 11 bars are the tallest, and 2024 is highlighted at +1.29 °C.
+
+Notes for posting:
+- Values are NASA's as downloaded on 2026-09-26; GISTEMP is revised as new station data arrives, so recent values can shift by a few hundredths.
+- 2026 is left out because its annual mean is not complete.
+- The stripes are drawn from the data by the video itself (after Ed Hawkins' "warming stripes" idea); no third-party graphic is used.
+- Frame 0 is already the hook (headline over the stripes), so chat apps and autoplay show it. Where the platform takes a cover image (YouTube, X, LinkedIn), upload poster.jpg (the 3.0 s frame).

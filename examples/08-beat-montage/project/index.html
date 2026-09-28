@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Look Up: a beat-cut space montage</title>
+<script src="/_st/stage.js"></script>
+<link rel="stylesheet" href="/_st/themes/base.css">
+<link rel="stylesheet" href="fonts/space-grotesk/font.css">
+<link rel="stylesheet" href="fonts/jetbrains-mono/font.css">
+<script type="module" src="/_st/components/index.js"></script>
+<style>
+  /* Every cut sits one or two frames before a beat of "At Launch" (102 bpm, grid in data/at-launch.beats.json).
+     Calm intro: one shot per bar (2.35 s). Build: every 2 beats. Peak: every beat, 4 shots.
+     The end card lands on the downbeat at 16.51 s. */
+  :root {
+    --bg: #000; --fg: #f4f7ff; --muted: #a9b3c7; --accent: #9fd3ff;
+    --font-display: 'Space Grotesk', sans-serif; --font-mono: 'JetBrains Mono', monospace;
+  }
+  body { background: #000; }
+  .scene { background: #000; overflow: hidden; }
+
+  /* photo layer */
+  .scene > [data-st="ken-burns"] { position: absolute; inset: 0; }
+  /* the SDO frame is a square whose corona touches its edges: show it in a centred square
+     with a soft round mask */
+  .scene > .sun-disc { inset: auto; top: calc(50% - 56.8cqh); left: calc(50% - 56.8cqh); width: 113.6cqh; height: 113.6cqh;
+    -webkit-mask-image: radial-gradient(circle closest-side, #000 82%, transparent 100%);
+            mask-image: radial-gradient(circle closest-side, #000 82%, transparent 100%); }
+  /* the instrument timestamp sits in the bottom 1.7-3.75 % of the image: a second mask on the image
+     itself (so it scales with the ken-burns zoom) fades that strip out; the corona there is already dim */
+  .sun-disc > img { -webkit-mask-image: linear-gradient(to top, transparent 4.4%, #000 8%);
+                            mask-image: linear-gradient(to top, transparent 4.4%, #000 8%); }
+  /* build + peak shots arrive with a small punch (runs on the clip's own clock) */
+  .punch > [data-st="ken-burns"] { animation: punch .42s cubic-bezier(.16,1,.3,1) both; }
+  @keyframes punch { from { scale: 1.07; filter: brightness(1.35); } to { scale: 1; filter: brightness(1); } }
+
+  /* soft vignette + a bottom shade so labels read on bright frames */
+  .shade { position: absolute; inset: 0; pointer-events: none;
+    background:
+      radial-gradient(ellipse 80% 75% at 50% 48%, transparent 58%, rgb(0 0 0 / .42)),
+      linear-gradient(to top, rgb(0 0 0 / .55), transparent 26%); }
+
+  /* shot label: object + source, bottom-left */
+  .label { position: absolute; left: 5.2cqw; bottom: 7.4cqh; display: flex; flex-direction: column; gap: 1.1cqmin;
+    animation: label-in .32s cubic-bezier(.16,1,.3,1) both; }
+  .label b { font: 700 4.4cqmin/1 var(--font-display); letter-spacing: .01em; color: var(--fg);
+    text-shadow: 0 .3cqmin 2cqmin rgb(0 0 0 / .6); }
+  .label span { font: 500 2.7cqmin/1 var(--font-mono); letter-spacing: .18em; text-transform: uppercase; color: #c9d6ea;
+    text-shadow: 0 .2cqmin 1cqmin rgb(0 0 0 / .8); }
+  .label::before { content: ''; width: 5cqmin; height: .35cqmin; background: var(--accent); margin-bottom: .9cqmin;
+    transform-origin: left; animation: rule-in .32s cubic-bezier(.16,1,.3,1) both; }
+  @keyframes label-in { from { opacity: 0; translate: 0 1.6cqmin; } to { opacity: 1; translate: 0 0; } }
+  @keyframes rule-in { from { scale: 0 1; } to { scale: 1 1; } }
+  /* the Sun -> Mars cross-zoom (9.25-9.55 s) blurs everything in the scene, so neither label is on
+     screen inside that window: the Sun label leaves by 9.23 s, the Mars label arrives from 9.56 s */
+  #sun .label { animation: label-in .32s cubic-bezier(.16,1,.3,1) both, label-out .18s ease-in 1.98s forwards; }
+  @keyframes label-out { to { opacity: 0; translate: 0 -1cqmin; } }
+  #mars .label, #mars .label::before { animation-delay: .16s; }
+
+
+  /* title */
+  .title-wrap { position: absolute; left: 0; right: 0; top: 13cqh; text-align: center; }
+  .kicker { font: 500 2.5cqmin/1 var(--font-mono); letter-spacing: .36em; text-transform: uppercase; color: #e8f1ff; margin: 0 0 3.2cqmin .42em; }
+  .title { font: 700 17cqmin/0.9 var(--font-display); letter-spacing: .06em; margin: 0; color: var(--fg);
+    text-shadow: 0 0 6cqmin rgb(120 190 255 / .25); }
+
+  /* end card */
+  .end-copy { position: absolute; left: 0; right: 0; top: 11cqh; text-align: center; }
+  .end-line { font: 700 9.4cqmin/1 var(--font-display); letter-spacing: .01em; margin: 0; color: var(--fg);
+    text-shadow: 0 .4cqmin 3cqmin rgb(0 0 0 / .55); }
+  .end-sub { font: 500 2.4cqmin/1 var(--font-mono); letter-spacing: .3em; text-transform: uppercase; color: #dbe6f7; margin: 3.4cqmin 0 0;
+    text-shadow: 0 .2cqmin 1.2cqmin rgb(0 0 0 / .8); }
+  .scrim { position: absolute; inset: 0; pointer-events: none;
+    background: linear-gradient(to top, rgb(0 0 0 / .72), rgb(0 0 0 / .5) 17%, transparent 34%); }
+  .credits { position: absolute; left: 0; right: 0; bottom: 6.2cqh; text-align: center; font: 500 2.7cqmin/1.55 var(--font-mono);
+    letter-spacing: .03em; color: #eef3fb; text-shadow: 0 .2cqmin 1cqmin rgb(0 0 0 / .9);
+    animation: label-in .6s cubic-bezier(.16,1,.3,1) .56s both; }
+</style>
+</head>
+<body>
+<div class="stage">
+
+  <!-- 0. Title over Artemis II's Earthset (downbeat 0.02 s) -->
+  <section class="scene" id="title" data-start="0" data-end="2.3332">
+    <div data-st="ken-burns" data-src="assets/media/art002e021278.jpg" data-from='{"scale":1.14,"x":0,"y":-4}' data-to='{"scale":1.04,"x":0,"y":1}' data-ease="sine.out" data-fade="0"></div>
+    <div class="shade"></div>
+    <div class="title-wrap">
+      <p class="kicker" data-st="kinetic-type" data-style="fade" data-by="chars" data-at="0.3" data-stagger="0.012">Moon to deep field</p>
+      <h1 class="title" data-st="kinetic-type" data-style="blur" data-by="chars" data-at="0.02" data-stagger="0.06">LOOK UP</h1>
+    </div>
+    <div class="label"><b>Earthset</b><span>Artemis II · Orion · 2026</span></div>
+  </section>
+
+  <!-- 1-3. One shot per bar (calm intro) -->
+  <section class="scene" id="moon" data-start="2.3332" data-end="4.6999">
+    <div data-st="ken-burns" data-src="assets/media/as11-37-5505.jpg" data-focus="[38,62]" data-zoom="1.1" data-ease="sine.out" data-fade="0"></div>
+    <div class="shade"></div>
+    <div class="label"><b>The Moon</b><span>Apollo 11 · 1969</span></div>
+  </section>
+
+  <section class="scene" id="earth" data-start="4.6999" data-end="7.0666">
+    <div data-st="ken-burns" data-src="assets/media/GSFC_20171208_Archive_e001386.jpg" data-fit="contain" data-from='{"scale":0.9}' data-to='{"scale":0.98}' data-ease="sine.out" data-fade="0"></div>
+    <div class="shade"></div>
+    <div class="label"><b>Earth</b><span>Suomi NPP · 2012</span></div>
+  </section>
+
+  <section class="scene" id="sun" data-start="7.0666" data-end="9.3999">
+    <div class="sun-disc" data-st="ken-burns" data-src="assets/media/PIA26681.jpg" data-from='{"scale":0.9}' data-to='{"scale":0.98}' data-ease="sine.out" data-fade="0"></div>
+    <div class="shade"></div>
+    <div class="label"><b>The Sun</b><span>SDO · 2025</span></div>
+  </section>
+
+  <!-- 4-7. Build: every two beats; cross-zoom straddles the 9.45 s downbeat -->
+  <section class="scene punch" id="mars" data-start="9.3999" data-end="10.5666" data-transition="cross-zoom 0.3 center">
+    <div data-st="ken-burns" data-src="assets/media/PIA00407.jpg" data-fit="contain" data-from='{"scale":0.82}' data-to='{"scale":0.89}' data-ease="linear" data-fade="0"></div>
+    <div class="shade"></div>
+    <div class="label"><b>Mars</b></div>
+  </section>
+
+  <section class="scene punch" id="jupiter" data-start="10.5666" data-end="11.7332">
+    <div data-st="ken-burns" data-src="assets/media/PIA04866.jpg" data-fit="contain" data-from='{"scale":0.86,"x":3.3}' data-to='{"scale":0.93,"x":3.3}' data-ease="linear" data-fade="0"></div>
+    <div class="shade"></div>
+    <div class="label"><b>Jupiter</b></div>
+  </section>
+
+  <section class="scene punch" id="saturn" data-start="11.7332" data-end="12.9332">
+    <div data-st="ken-burns" data-src="assets/media/PIA06193.jpg" data-from='{"scale":1.0}' data-to='{"scale":1.04}' data-ease="linear" data-fade="0"></div>
+    <div class="shade"></div>
+    <div class="label"><b>Saturn</b></div>
+  </section>
+
+  <section class="scene punch" id="pillars" data-start="12.9332" data-end="14.0999">
+    <div data-st="ken-burns" data-src="assets/media/GSFC_20171208_Archive_e000842.jpg" data-focus="[48,40]" data-zoom="1.08" data-ease="linear" data-fade="0"></div>
+    <div class="shade"></div>
+    <div class="label"><b>Eagle Nebula</b></div>
+  </section>
+
+  <!-- 8-11. Peak: one shot per beat -->
+  <section class="scene punch" id="bubble" data-start="14.0999" data-end="14.6666">
+    <div data-st="ken-burns" data-src="assets/media/GSFC_20171208_Archive_e000383.jpg" data-focus="[48,52]" data-zoom="1.06" data-ease="linear" data-fade="0"></div>
+    <div class="shade"></div>
+  </section>
+
+  <section class="scene punch" id="mystic" data-start="14.6666" data-end="15.2666">
+    <div data-st="ken-burns" data-src="assets/media/GSFC_20171208_Archive_e002074.jpg" data-focus="[46,34]" data-zoom="1.06" data-ease="linear" data-fade="0"></div>
+    <div class="shade"></div>
+  </section>
+
+  <section class="scene punch" id="galaxy" data-start="15.2666" data-end="15.8332">
+    <div data-st="ken-burns" data-src="assets/media/GSFC_20171208_Archive_e002154.jpg" data-focus="[52,50]" data-zoom="1.06" data-ease="linear" data-fade="0"></div>
+    <div class="shade"></div>
+  </section>
+
+  <section class="scene punch" id="deep" data-start="15.8332" data-end="16.4666">
+    <div data-st="ken-burns" data-src="assets/media/webb_first_deep_field.jpg" data-focus="[50,50]" data-zoom="1.08" data-ease="linear" data-fade="0"></div>
+    <div class="shade"></div>
+  </section>
+
+  <!-- 12. End card on the 16.51 s downbeat: Webb's Cosmic Cliffs. The flash window is 16.42-16.66 s and
+       peaks white (and cuts) at 16.50 s, on the impact. -->
+  <section class="scene" id="end" data-start="16.4666" data-end="20" data-transition="flash 0.24" data-transition-options='{"at":16.4166}'>
+    <div data-st="ken-burns" data-src="assets/media/carina_nebula.jpg" data-from='{"scale":1.12,"x":0,"y":2}' data-to='{"scale":1.02,"x":0,"y":0}' data-ease="power2.out" data-fade="0"></div>
+    <div class="shade"></div>
+    <div class="end-copy">
+      <h2 class="end-line" data-st="kinetic-type" data-style="rise" data-by="words" data-at="0.08">Keep looking up.</h2>
+      <p class="end-sub" data-st="kinetic-type" data-style="fade" data-at="0.62">Cosmic Cliffs · Carina Nebula · Webb · 2022</p>
+    </div>
+    <div class="scrim"></div>
+    <p class="credits">Images: NASA, ESA, CSA, STScI (public domain)<br>Music: “At Launch” by Kevin MacLeod (incompetech.com), CC BY 4.0</p>
+  </section>
+
+</div>
+</body>
+</html>

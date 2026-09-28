@@ -1,0 +1,30 @@
+/* Lower-third looks in the Curtain Call brand (on top of the lower-third component). */
+html, body { margin: 0; width: 100%; height: 100%; background: transparent; }
+.scene { --scene-bg: transparent; }
+.plate { position: absolute; inset: 0; background: center / cover no-repeat url('assets/plate.jpg'); }
+.plate[hidden] { display: none; }
+.st-lt-role { font-weight: 500; letter-spacing: 0.01em; color: var(--brand-muted); }
+/* the role line is revealed only by the anime.js letter stagger (lt.js): the component's own role fade is
+   switched off, and every letter starts hidden, so no letter shows before its turn */
+.st-lt-role { opacity: 1 !important; transform: none !important; }
+.st-lt-role .ch { display: inline-block; white-space: pre; opacity: 0; }
+/* bar: velvet bar (a shape, never text) beside a Stage plate carrying cream text */
+.st-lt-v-bar .st-lt-accent { background: var(--velvet); width: 0.9cqmin; border-radius: 0; }
+.st-lt-v-bar .st-lt-text { background: rgb(21 16 14 / 0.92); padding: 1.4cqmin 2.8cqmin 1.6cqmin 2.2cqmin; }
+.st-lt-v-bar .st-lt-box { gap: 0; }
+/* card: Wings card, gold underline */
+.st-lt-v-card .st-lt-accent { background: var(--brand-accent); }
+/* kicker: gold badge with Stage text, name on a Stage plate, gold rule */
+.st-lt-v-kicker .st-lt-text { background: rgb(21 16 14 / 0.92); padding: 1.6cqmin 2.8cqmin 1.8cqmin; border-radius: var(--radius); }
+.st-lt-v-kicker .st-lt-kicker { font-family: var(--font-body); font-weight: 700; color: var(--brand-bg); background: var(--brand-accent); }
+.st-lt-v-kicker .st-lt-accent { z-index: 2; background: var(--brand-accent); left: 2.8cqmin; right: 2.8cqmin; bottom: 0.9cqmin; height: 0.3cqmin; }
+.st-lt-v-kicker .st-lt-name { font-size: 4.6cqmin; }
+/* pill: Wings pill, a gold "spotlight" dot */
+.st-lt-v-pill .st-lt-dot { width: 2.6cqmin; height: 2.6cqmin; background: var(--brand-accent); box-shadow: 0 0 0 0.7cqmin rgb(233 185 73 / 0.25); }
+/* sizes for 1080p broadcast: names ~56 px, roles ~28 px */
+.st-lt-name { font-size: 5.2cqmin; }
+.st-lt-role { font-size: 2.6cqmin; }
+.st-lt-v-kicker .st-lt-name { font-size: 5.6cqmin; }
+.st-lt-v-kicker .st-lt-kicker { font-size: 2cqmin; }
+.st-lt-v-pill .st-lt-name { font-size: 3.8cqmin; }
+.st-lt-v-pill .st-lt-role { font-size: 2.3cqmin; }

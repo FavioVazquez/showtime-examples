@@ -1,0 +1,7 @@
+{
+  "_note": "Sample text for the pack. Change a line, then re-render that variant (see README).",
+  "bar":    { "name": "Speaker Name", "role": "Role, Organisation" },
+  "card":   { "name": "Guest Name", "role": "Title or affiliation" },
+  "kicker": { "kicker": "Now showing", "name": "showtime", "role": "Describe a video. Claude directs. Your machine renders." },
+  "pill":   { "name": "Host Name", "role": "@handle" }
+}

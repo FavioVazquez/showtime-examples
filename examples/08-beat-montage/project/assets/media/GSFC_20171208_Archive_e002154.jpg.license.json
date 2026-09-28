@@ -1,0 +1,21 @@
+{
+  "source": "nasa",
+  "source_label": "NASA Image and Video Library",
+  "id": "nasa:GSFC_20171208_Archive_e002154",
+  "title": "Barred Spiral Galaxy",
+  "author": "NASA/GSFC",
+  "author_url": null,
+  "license": "Public domain (NASA media)",
+  "license_url": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+  "landing_url": "https://images.nasa.gov/details/GSFC_20171208_Archive_e002154",
+  "note": "NASA media: no endorsement implied; do not use NASA logos or insignia. Check the description for third-party copyright notices.",
+  "type": "image",
+  "file_url": "https://images-assets.nasa.gov/image/GSFC_20171208_Archive_e002154/GSFC_20171208_Archive_e002154~large.jpg",
+  "captions": [],
+  "sha256": "fa3660bb1f26a8227a7b84c5bfcfb91da67cab67d8be41c99646245df025e8a1",
+  "fetched": "2026-09-26T14:28:42",
+  "license_class": "free",
+  "attribution_required": false,
+  "credit": "\"Barred Spiral Galaxy\" by NASA/GSFC via NASA Image and Video Library (Public domain (NASA media)) - https://images.nasa.gov/details/GSFC_20171208_Archive_e002154",
+  "file": "GSFC_20171208_Archive_e002154.jpg"
+}

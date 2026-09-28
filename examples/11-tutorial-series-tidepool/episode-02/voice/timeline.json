@@ -1,0 +1,2636 @@
+{
+  "version": 1,
+  "file": "vo.wav",
+  "sample_rate": 48000,
+  "duration": 86.723,
+  "lead_in": 0.0,
+  "tail": 0.4,
+  "loudness": -16.23,
+  "script": "../narration.md",
+  "lines": [
+    {
+      "id": "hello",
+      "index": 1,
+      "text": "Once you have a few notes, finding the right one should take a second. Here's how.",
+      "source_text": "Once you have a few notes, finding the right one should take a second. Here's how.",
+      "voice": "af_heart",
+      "engine": "kokoro",
+      "lang": "en-us",
+      "speed": 0.94,
+      "style": "tutorial",
+      "start": 4.3,
+      "end": 9.281,
+      "duration": 4.981,
+      "speech_start": 4.33,
+      "speech_end": 8.751,
+      "pause_after": 0.6,
+      "slot": {
+        "start": 4.3,
+        "end": 9.881,
+        "duration": 5.581
+      },
+      "file": "lines/01-hello.wav",
+      "timing": "exact",
+      "wps": 3.619,
+      "words": [
+        {
+          "text": "Once",
+          "start": 4.33,
+          "end": 4.556,
+          "line": "hello"
+        },
+        {
+          "text": "you",
+          "start": 4.585,
+          "end": 4.663,
+          "line": "hello"
+        },
+        {
+          "text": "have",
+          "start": 4.697,
+          "end": 4.818,
+          "line": "hello"
+        },
+        {
+          "text": "a",
+          "start": 4.844,
+          "end": 4.874,
+          "line": "hello"
+        },
+        {
+          "text": "few",
+          "start": 4.923,
+          "end": 5.07,
+          "line": "hello"
+        },
+        {
+          "text": "notes,",
+          "start": 5.109,
+          "end": 5.6,
+          "line": "hello"
+        },
+        {
+          "text": "finding",
+          "start": 5.71,
+          "end": 6.133,
+          "line": "hello"
+        },
+        {
+          "text": "the",
+          "start": 6.165,
+          "end": 6.223,
+          "line": "hello"
+        },
+        {
+          "text": "right",
+          "start": 6.275,
+          "end": 6.482,
+          "line": "hello"
+        },
+        {
+          "text": "one",
+          "start": 6.509,
+          "end": 6.645,
+          "line": "hello"
+        },
+        {
+          "text": "should",
+          "start": 6.697,
+          "end": 6.805,
+          "line": "hello"
+        },
+        {
+          "text": "take",
+          "start": 6.857,
+          "end": 7.029,
+          "line": "hello"
+        },
+        {
+          "text": "a",
+          "start": 7.055,
+          "end": 7.09,
+          "line": "hello"
+        },
+        {
+          "text": "second.",
+          "start": 7.143,
+          "end": 7.59,
+          "line": "hello"
+        },
+        {
+          "text": "Here's",
+          "start": 8.01,
+          "end": 8.304,
+          "line": "hello"
+        },
+        {
+          "text": "how.",
+          "start": 8.356,
+          "end": 8.751,
+          "line": "hello"
+        }
+      ]
+    },
+    {
+      "id": "open",
+      "index": 2,
+      "text": "Press Command K, or click Search, to open the command palette.",
+      "source_text": "Press Command K, or click Search, to open the command palette.",
+      "voice": "af_heart",
+      "engine": "kokoro",
+      "lang": "en-us",
+      "speed": 0.94,
+      "style": "tutorial",
+      "start": 9.881,
+      "end": 14.047,
+      "duration": 4.165,
+      "speech_start": 9.901,
+      "speech_end": 13.521,
+      "pause_after": 0.8,
+      "slot": {
+        "start": 9.881,
+        "end": 14.847,
+        "duration": 4.965
+      },
+      "file": "lines/02-open.wav",
+      "timing": "exact",
+      "wps": 3.039,
+      "words": [
+        {
+          "text": "Press",
+          "start": 9.901,
+          "end": 10.101,
+          "line": "open"
+        },
+        {
+          "text": "Command",
+          "start": 10.171,
+          "end": 10.529,
+          "line": "open"
+        },
+        {
+          "text": "K,",
+          "start": 10.581,
+          "end": 10.978,
+          "line": "open"
+        },
+        {
+          "text": "or",
+          "start": 11.181,
+          "end": 11.292,
+          "line": "open"
+        },
+        {
+          "text": "click",
+          "start": 11.341,
+          "end": 11.55,
+          "line": "open"
+        },
+        {
+          "text": "Search,",
+          "start": 11.601,
+          "end": 12.031,
+          "line": "open"
+        },
+        {
+          "text": "to",
+          "start": 12.241,
+          "end": 12.326,
+          "line": "open"
+        },
+        {
+          "text": "open",
+          "start": 12.377,
+          "end": 12.636,
+          "line": "open"
+        },
+        {
+          "text": "the",
+          "start": 12.662,
+          "end": 12.714,
+          "line": "open"
+        },
+        {
+          "text": "command",
+          "start": 12.765,
+          "end": 13.103,
+          "line": "open"
+        },
+        {
+          "text": "palette.",
+          "start": 13.154,
+          "end": 13.521,
+          "line": "open"
+        }
+      ]
+    },
+    {
+      "id": "recent",
+      "index": 3,
+      "text": "Before you type anything, it lists your most recent notes.",
+      "source_text": "Before you type anything, it lists your most recent notes.",
+      "voice": "af_heart",
+      "engine": "kokoro",
+      "lang": "en-us",
+      "speed": 0.94,
+      "style": "tutorial",
+      "start": 14.847,
+      "end": 18.578,
+      "duration": 3.731,
+      "speech_start": 14.897,
+      "speech_end": 18.018,
+      "pause_after": 0.5,
+      "slot": {
+        "start": 14.847,
+        "end": 19.078,
+        "duration": 4.231
+      },
+      "file": "lines/03-recent.wav",
+      "timing": "exact",
+      "wps": 3.204,
+      "words": [
+        {
+          "text": "Before",
+          "start": 14.897,
+          "end": 15.143,
+          "line": "recent"
+        },
+        {
+          "text": "you",
+          "start": 15.186,
+          "end": 15.264,
+          "line": "recent"
+        },
+        {
+          "text": "type",
+          "start": 15.316,
+          "end": 15.566,
+          "line": "recent"
+        },
+        {
+          "text": "anything,",
+          "start": 15.616,
+          "end": 16.137,
+          "line": "recent"
+        },
+        {
+          "text": "it",
+          "start": 16.407,
+          "end": 16.489,
+          "line": "recent"
+        },
+        {
+          "text": "lists",
+          "start": 16.539,
+          "end": 16.773,
+          "line": "recent"
+        },
+        {
+          "text": "your",
+          "start": 16.8,
+          "end": 16.877,
+          "line": "recent"
+        },
+        {
+          "text": "most",
+          "start": 16.91,
+          "end": 17.145,
+          "line": "recent"
+        },
+        {
+          "text": "recent",
+          "start": 17.212,
+          "end": 17.547,
+          "line": "recent"
+        },
+        {
+          "text": "notes.",
+          "start": 17.591,
+          "end": 18.018,
+          "line": "recent"
+        }
+      ]
+    },
+    {
+      "id": "type",
+      "index": 4,
+      "text": "Type any word. Tidepool searches titles, text and tags at once.",
+      "source_text": "Type any word. Tidepool searches titles, text and tags at once.",
+      "voice": "af_heart",
+      "engine": "kokoro",
+      "lang": "en-us",
+      "speed": 0.94,
+      "style": "tutorial",
+      "start": 19.078,
+      "end": 23.785,
+      "duration": 4.707,
+      "speech_start": 19.098,
+      "speech_end": 23.225,
+      "pause_after": 0.9,
+      "slot": {
+        "start": 19.078,
+        "end": 24.685,
+        "duration": 5.607
+      },
+      "file": "lines/04-type.wav",
+      "timing": "exact",
+      "wps": 2.665,
+      "words": [
+        {
+          "text": "Type",
+          "start": 19.098,
+          "end": 19.316,
+          "line": "type"
+        },
+        {
+          "text": "any",
+          "start": 19.342,
+          "end": 19.497,
+          "line": "type"
+        },
+        {
+          "text": "word.",
+          "start": 19.549,
+          "end": 19.918,
+          "line": "type"
+        },
+        {
+          "text": "Tidepool",
+          "start": 20.318,
+          "end": 20.74,
+          "line": "type"
+        },
+        {
+          "text": "searches",
+          "start": 20.792,
+          "end": 21.114,
+          "line": "type"
+        },
+        {
+          "text": "titles,",
+          "start": 21.118,
+          "end": 21.708,
+          "line": "type"
+        },
+        {
+          "text": "text",
+          "start": 21.818,
+          "end": 22.205,
+          "line": "type"
+        },
+        {
+          "text": "and",
+          "start": 22.247,
+          "end": 22.324,
+          "line": "type"
+        },
+        {
+          "text": "tags",
+          "start": 22.38,
+          "end": 22.705,
+          "line": "type"
+        },
+        {
+          "text": "at",
+          "start": 22.736,
+          "end": 22.829,
+          "line": "type"
+        },
+        {
+          "text": "once.",
+          "start": 22.829,
+          "end": 23.225,
+          "line": "type"
+        }
+      ]
+    },
+    {
+      "id": "match",
+      "index": 5,
+      "text": "Matches are highlighted, and the best one comes first.",
+      "source_text": "Matches are highlighted, and the best one comes first.",
+      "voice": "af_heart",
+      "engine": "kokoro",
+      "lang": "en-us",
+      "speed": 0.94,
+      "style": "tutorial",
+      "start": 24.685,
+      "end": 28.203,
+      "duration": 3.518,
+      "speech_start": 24.705,
+      "speech_end": 27.643,
+      "pause_after": 0.4,
+      "slot": {
+        "start": 24.685,
+        "end": 28.603,
+        "duration": 3.918
+      },
+      "file": "lines/05-match.wav",
+      "timing": "exact",
+      "wps": 3.063,
+      "words": [
+        {
+          "text": "Matches",
+          "start": 24.705,
+          "end": 25.155,
+          "line": "match"
+        },
+        {
+          "text": "are",
+          "start": 25.193,
+          "end": 25.28,
+          "line": "match"
+        },
+        {
+          "text": "highlighted,",
+          "start": 25.334,
+          "end": 25.975,
+          "line": "match"
+        },
+        {
+          "text": "and",
+          "start": 26.215,
+          "end": 26.315,
+          "line": "match"
+        },
+        {
+          "text": "the",
+          "start": 26.341,
+          "end": 26.394,
+          "line": "match"
+        },
+        {
+          "text": "best",
+          "start": 26.446,
+          "end": 26.674,
+          "line": "match"
+        },
+        {
+          "text": "one",
+          "start": 26.7,
+          "end": 26.835,
+          "line": "match"
+        },
+        {
+          "text": "comes",
+          "start": 26.887,
+          "end": 27.136,
+          "line": "match"
+        },
+        {
+          "text": "first.",
+          "start": 27.189,
+          "end": 27.643,
+          "line": "match"
+        }
+      ]
+    },
+    {
+      "id": "pick",
+      "index": 6,
+      "text": "Use the arrow keys to choose a result, then press Enter to open it.",
+      "source_text": "Use the arrow keys to choose a result, then press Enter to open it.",
+      "voice": "af_heart",
+      "engine": "kokoro",
+      "lang": "en-us",
+      "speed": 0.94,
+      "style": "tutorial",
+      "start": 28.603,
+      "end": 33.135,
+      "duration": 4.532,
+      "speech_start": 28.633,
+      "speech_end": 32.585,
+      "pause_after": 1.8,
+      "slot": {
+        "start": 28.603,
+        "end": 34.935,
+        "duration": 6.332
+      },
+      "file": "lines/06-pick.wav",
+      "timing": "exact",
+      "wps": 3.543,
+      "words": [
+        {
+          "text": "Use",
+          "start": 28.633,
+          "end": 28.885,
+          "line": "pick"
+        },
+        {
+          "text": "the",
+          "start": 28.922,
+          "end": 29.021,
+          "line": "pick"
+        },
+        {
+          "text": "arrow",
+          "start": 29.095,
+          "end": 29.393,
+          "line": "pick"
+        },
+        {
+          "text": "keys",
+          "start": 29.463,
+          "end": 29.721,
+          "line": "pick"
+        },
+        {
+          "text": "to",
+          "start": 29.773,
+          "end": 29.842,
+          "line": "pick"
+        },
+        {
+          "text": "choose",
+          "start": 29.895,
+          "end": 30.145,
+          "line": "pick"
+        },
+        {
+          "text": "a",
+          "start": 30.171,
+          "end": 30.201,
+          "line": "pick"
+        },
+        {
+          "text": "result,",
+          "start": 30.235,
+          "end": 30.753,
+          "line": "pick"
+        },
+        {
+          "text": "then",
+          "start": 31.003,
+          "end": 31.193,
+          "line": "pick"
+        },
+        {
+          "text": "press",
+          "start": 31.248,
+          "end": 31.505,
+          "line": "pick"
+        },
+        {
+          "text": "Enter",
+          "start": 31.553,
+          "end": 31.862,
+          "line": "pick"
+        },
+        {
+          "text": "to",
+          "start": 31.915,
+          "end": 31.998,
+          "line": "pick"
+        },
+        {
+          "text": "open",
+          "start": 32.013,
+          "end": 32.329,
+          "line": "pick"
+        },
+        {
+          "text": "it.",
+          "start": 32.39,
+          "end": 32.585,
+          "line": "pick"
+        }
+      ]
+    },
+    {
+      "id": "tags",
+      "index": 7,
+      "text": "Start with a hash sign, and the palette lists your tags instead.",
+      "source_text": "Start with a hash sign, and the palette lists your tags instead.",
+      "voice": "af_heart",
+      "engine": "kokoro",
+      "lang": "en-us",
+      "speed": 0.94,
+      "style": "tutorial",
+      "start": 34.935,
+      "end": 38.924,
+      "duration": 3.989,
+      "speech_start": 34.965,
+      "speech_end": 38.384,
+      "pause_after": 0.9,
+      "slot": {
+        "start": 34.935,
+        "end": 39.824,
+        "duration": 4.889
+      },
+      "file": "lines/07-tags.wav",
+      "timing": "exact",
+      "wps": 3.51,
+      "words": [
+        {
+          "text": "Start",
+          "start": 34.965,
+          "end": 35.255,
+          "line": "tags"
+        },
+        {
+          "text": "with",
+          "start": 35.281,
+          "end": 35.365,
+          "line": "tags"
+        },
+        {
+          "text": "a",
+          "start": 35.391,
+          "end": 35.421,
+          "line": "tags"
+        },
+        {
+          "text": "hash",
+          "start": 35.471,
+          "end": 35.725,
+          "line": "tags"
+        },
+        {
+          "text": "sign,",
+          "start": 35.785,
+          "end": 36.215,
+          "line": "tags"
+        },
+        {
+          "text": "and",
+          "start": 36.485,
+          "end": 36.549,
+          "line": "tags"
+        },
+        {
+          "text": "the",
+          "start": 36.575,
+          "end": 36.627,
+          "line": "tags"
+        },
+        {
+          "text": "palette",
+          "start": 36.682,
+          "end": 37.034,
+          "line": "tags"
+        },
+        {
+          "text": "lists",
+          "start": 37.085,
+          "end": 37.272,
+          "line": "tags"
+        },
+        {
+          "text": "your",
+          "start": 37.298,
+          "end": 37.378,
+          "line": "tags"
+        },
+        {
+          "text": "tags",
+          "start": 37.434,
+          "end": 37.809,
+          "line": "tags"
+        },
+        {
+          "text": "instead.",
+          "start": 37.849,
+          "end": 38.384,
+          "line": "tags"
+        }
+      ]
+    },
+    {
+      "id": "filter",
+      "index": 8,
+      "text": "Press Enter, and the list shows only the notes with that tag.",
+      "source_text": "Press Enter, and the list shows only the notes with that tag.",
+      "voice": "af_heart",
+      "engine": "kokoro",
+      "lang": "en-us",
+      "speed": 0.94,
+      "style": "tutorial",
+      "start": 39.824,
+      "end": 43.504,
+      "duration": 3.68,
+      "speech_start": 39.844,
+      "speech_end": 42.974,
+      "pause_after": 0.8,
+      "slot": {
+        "start": 39.824,
+        "end": 44.304,
+        "duration": 4.48
+      },
+      "file": "lines/08-filter.wav",
+      "timing": "exact",
+      "wps": 3.834,
+      "words": [
+        {
+          "text": "Press",
+          "start": 39.844,
+          "end": 40.046,
+          "line": "filter"
+        },
+        {
+          "text": "Enter,",
+          "start": 40.092,
+          "end": 40.544,
+          "line": "filter"
+        },
+        {
+          "text": "and",
+          "start": 40.744,
+          "end": 40.807,
+          "line": "filter"
+        },
+        {
+          "text": "the",
+          "start": 40.833,
+          "end": 40.886,
+          "line": "filter"
+        },
+        {
+          "text": "list",
+          "start": 40.938,
+          "end": 41.175,
+          "line": "filter"
+        },
+        {
+          "text": "shows",
+          "start": 41.232,
+          "end": 41.458,
+          "line": "filter"
+        },
+        {
+          "text": "only",
+          "start": 41.524,
+          "end": 41.766,
+          "line": "filter"
+        },
+        {
+          "text": "the",
+          "start": 41.797,
+          "end": 41.856,
+          "line": "filter"
+        },
+        {
+          "text": "notes",
+          "start": 41.908,
+          "end": 42.196,
+          "line": "filter"
+        },
+        {
+          "text": "with",
+          "start": 42.224,
+          "end": 42.315,
+          "line": "filter"
+        },
+        {
+          "text": "that",
+          "start": 42.344,
+          "end": 42.512,
+          "line": "filter"
+        },
+        {
+          "text": "tag.",
+          "start": 42.534,
+          "end": 42.974,
+          "line": "filter"
+        }
+      ]
+    },
+    {
+      "id": "jk",
+      "index": 9,
+      "text": "With the list in focus, J and K step through the notes. No mouse needed.",
+      "source_text": "With the list in focus, J and K step through the notes. No mouse needed.",
+      "voice": "af_heart",
+      "engine": "kokoro",
+      "lang": "en-us",
+      "speed": 0.94,
+      "style": "tutorial",
+      "start": 44.304,
+      "end": 49.429,
+      "duration": 5.125,
+      "speech_start": 44.344,
+      "speech_end": 48.879,
+      "pause_after": 1.4,
+      "slot": {
+        "start": 44.304,
+        "end": 50.829,
+        "duration": 6.525
+      },
+      "file": "lines/09-jk.wav",
+      "timing": "exact",
+      "wps": 3.308,
+      "words": [
+        {
+          "text": "With",
+          "start": 44.344,
+          "end": 44.464,
+          "line": "jk"
+        },
+        {
+          "text": "the",
+          "start": 44.464,
+          "end": 44.526,
+          "line": "jk"
+        },
+        {
+          "text": "list",
+          "start": 44.578,
+          "end": 44.791,
+          "line": "jk"
+        },
+        {
+          "text": "in",
+          "start": 44.826,
+          "end": 44.92,
+          "line": "jk"
+        },
+        {
+          "text": "focus,",
+          "start": 44.972,
+          "end": 45.554,
+          "line": "jk"
+        },
+        {
+          "text": "J",
+          "start": 45.674,
+          "end": 45.996,
+          "line": "jk"
+        },
+        {
+          "text": "and",
+          "start": 46.024,
+          "end": 46.102,
+          "line": "jk"
+        },
+        {
+          "text": "K",
+          "start": 46.157,
+          "end": 46.408,
+          "line": "jk"
+        },
+        {
+          "text": "step",
+          "start": 46.462,
+          "end": 46.699,
+          "line": "jk"
+        },
+        {
+          "text": "through",
+          "start": 46.714,
+          "end": 46.866,
+          "line": "jk"
+        },
+        {
+          "text": "the",
+          "start": 46.893,
+          "end": 46.945,
+          "line": "jk"
+        },
+        {
+          "text": "notes.",
+          "start": 46.996,
+          "end": 47.434,
+          "line": "jk"
+        },
+        {
+          "text": "No",
+          "start": 47.834,
+          "end": 48.081,
+          "line": "jk"
+        },
+        {
+          "text": "mouse",
+          "start": 48.133,
+          "end": 48.417,
+          "line": "jk"
+        },
+        {
+          "text": "needed.",
+          "start": 48.47,
+          "end": 48.879,
+          "line": "jk"
+        }
+      ]
+    },
+    {
+      "id": "narrow",
+      "index": 10,
+      "text": "To narrow it further, type in Filter this list. Escape clears it again.",
+      "source_text": "To narrow it further, type in Filter this list. Escape clears it again.",
+      "voice": "af_heart",
+      "engine": "kokoro",
+      "lang": "en-us",
+      "speed": 0.94,
+      "style": "tutorial",
+      "start": 50.829,
+      "end": 55.657,
+      "duration": 4.828,
+      "speech_start": 50.849,
+      "speech_end": 55.107,
+      "pause_after": 1.1,
+      "slot": {
+        "start": 50.829,
+        "end": 56.757,
+        "duration": 5.928
+      },
+      "file": "lines/10-narrow.wav",
+      "timing": "exact",
+      "wps": 3.053,
+      "words": [
+        {
+          "text": "To",
+          "start": 50.849,
+          "end": 50.933,
+          "line": "narrow"
+        },
+        {
+          "text": "narrow",
+          "start": 50.985,
+          "end": 51.275,
+          "line": "narrow"
+        },
+        {
+          "text": "it",
+          "start": 51.317,
+          "end": 51.406,
+          "line": "narrow"
+        },
+        {
+          "text": "further,",
+          "start": 51.469,
+          "end": 51.879,
+          "line": "narrow"
+        },
+        {
+          "text": "type",
+          "start": 52.036,
+          "end": 52.304,
+          "line": "narrow"
+        },
+        {
+          "text": "in",
+          "start": 52.339,
+          "end": 52.441,
+          "line": "narrow"
+        },
+        {
+          "text": "Filter",
+          "start": 52.5,
+          "end": 52.815,
+          "line": "narrow"
+        },
+        {
+          "text": "this",
+          "start": 52.858,
+          "end": 53.002,
+          "line": "narrow"
+        },
+        {
+          "text": "list.",
+          "start": 53.054,
+          "end": 53.479,
+          "line": "narrow"
+        },
+        {
+          "text": "Escape",
+          "start": 53.879,
+          "end": 54.273,
+          "line": "narrow"
+        },
+        {
+          "text": "clears",
+          "start": 54.339,
+          "end": 54.595,
+          "line": "narrow"
+        },
+        {
+          "text": "it",
+          "start": 54.622,
+          "end": 54.676,
+          "line": "narrow"
+        },
+        {
+          "text": "again.",
+          "start": 54.706,
+          "end": 55.107,
+          "line": "narrow"
+        }
+      ]
+    },
+    {
+      "id": "sidebar",
+      "index": 11,
+      "text": "The sidebar works too. Click any notebook or tag to filter with one click.",
+      "source_text": "The sidebar works too. Click any notebook or tag to filter with one click.",
+      "voice": "af_heart",
+      "engine": "kokoro",
+      "lang": "en-us",
+      "speed": 0.94,
+      "style": "tutorial",
+      "start": 56.757,
+      "end": 61.885,
+      "duration": 5.128,
+      "speech_start": 56.797,
+      "speech_end": 61.315,
+      "pause_after": 1.4,
+      "slot": {
+        "start": 56.757,
+        "end": 63.285,
+        "duration": 6.528
+      },
+      "file": "lines/11-sidebar.wav",
+      "timing": "exact",
+      "wps": 3.099,
+      "words": [
+        {
+          "text": "The",
+          "start": 56.797,
+          "end": 56.854,
+          "line": "sidebar"
+        },
+        {
+          "text": "sidebar",
+          "start": 56.928,
+          "end": 57.397,
+          "line": "sidebar"
+        },
+        {
+          "text": "works",
+          "start": 57.449,
+          "end": 57.705,
+          "line": "sidebar"
+        },
+        {
+          "text": "too.",
+          "start": 57.771,
+          "end": 58.147,
+          "line": "sidebar"
+        },
+        {
+          "text": "Click",
+          "start": 58.557,
+          "end": 58.704,
+          "line": "sidebar"
+        },
+        {
+          "text": "any",
+          "start": 58.73,
+          "end": 58.887,
+          "line": "sidebar"
+        },
+        {
+          "text": "notebook",
+          "start": 58.939,
+          "end": 59.421,
+          "line": "sidebar"
+        },
+        {
+          "text": "or",
+          "start": 59.487,
+          "end": 59.591,
+          "line": "sidebar"
+        },
+        {
+          "text": "tag",
+          "start": 59.657,
+          "end": 59.983,
+          "line": "sidebar"
+        },
+        {
+          "text": "to",
+          "start": 60.032,
+          "end": 60.096,
+          "line": "sidebar"
+        },
+        {
+          "text": "filter",
+          "start": 60.148,
+          "end": 60.492,
+          "line": "sidebar"
+        },
+        {
+          "text": "with",
+          "start": 60.532,
+          "end": 60.657,
+          "line": "sidebar"
+        },
+        {
+          "text": "one",
+          "start": 60.71,
+          "end": 60.895,
+          "line": "sidebar"
+        },
+        {
+          "text": "click.",
+          "start": 60.948,
+          "end": 61.315,
+          "line": "sidebar"
+        }
+      ]
+    },
+    {
+      "id": "commands",
+      "index": 12,
+      "text": "Finally, a greater-than sign turns search into commands. Let's try dark mode.",
+      "source_text": "Finally, a greater-than sign turns search into commands. Let's try dark mode.",
+      "voice": "af_heart",
+      "engine": "kokoro",
+      "lang": "en-us",
+      "speed": 0.94,
+      "style": "tutorial",
+      "start": 63.285,
+      "end": 68.741,
+      "duration": 5.455,
+      "speech_start": 63.325,
+      "speech_end": 68.2,
+      "pause_after": 2.0,
+      "slot": {
+        "start": 63.285,
+        "end": 70.741,
+        "duration": 7.455
+      },
+      "file": "lines/12-commands.wav",
+      "timing": "exact",
+      "wps": 2.462,
+      "words": [
+        {
+          "text": "Finally,",
+          "start": 63.325,
+          "end": 63.887,
+          "line": "commands"
+        },
+        {
+          "text": "a",
+          "start": 64.045,
+          "end": 64.115,
+          "line": "commands"
+        },
+        {
+          "text": "greater-than",
+          "start": 64.181,
+          "end": 64.646,
+          "line": "commands"
+        },
+        {
+          "text": "sign",
+          "start": 64.723,
+          "end": 65.047,
+          "line": "commands"
+        },
+        {
+          "text": "turns",
+          "start": 65.1,
+          "end": 65.39,
+          "line": "commands"
+        },
+        {
+          "text": "search",
+          "start": 65.459,
+          "end": 65.707,
+          "line": "commands"
+        },
+        {
+          "text": "into",
+          "start": 65.733,
+          "end": 65.895,
+          "line": "commands"
+        },
+        {
+          "text": "commands.",
+          "start": 65.945,
+          "end": 66.525,
+          "line": "commands"
+        },
+        {
+          "text": "Let's",
+          "start": 66.955,
+          "end": 67.156,
+          "line": "commands"
+        },
+        {
+          "text": "try",
+          "start": 67.208,
+          "end": 67.444,
+          "line": "commands"
+        },
+        {
+          "text": "dark",
+          "start": 67.497,
+          "end": 67.745,
+          "line": "commands"
+        },
+        {
+          "text": "mode.",
+          "start": 67.797,
+          "end": 68.2,
+          "line": "commands"
+        }
+      ]
+    },
+    {
+      "id": "dark",
+      "index": 13,
+      "text": "Every note, tag and command is one shortcut away.",
+      "source_text": "Every note, tag and command is one shortcut away.",
+      "voice": "af_heart",
+      "engine": "kokoro",
+      "lang": "en-us",
+      "speed": 0.94,
+      "style": "tutorial",
+      "start": 70.741,
+      "end": 74.28,
+      "duration": 3.539,
+      "speech_start": 70.771,
+      "speech_end": 73.72,
+      "pause_after": 0.6,
+      "slot": {
+        "start": 70.741,
+        "end": 74.88,
+        "duration": 4.139
+      },
+      "file": "lines/13-dark.wav",
+      "timing": "exact",
+      "wps": 3.052,
+      "words": [
+        {
+          "text": "Every",
+          "start": 70.771,
+          "end": 71.014,
+          "line": "dark"
+        },
+        {
+          "text": "note,",
+          "start": 71.065,
+          "end": 71.451,
+          "line": "dark"
+        },
+        {
+          "text": "tag",
+          "start": 71.601,
+          "end": 71.845,
+          "line": "dark"
+        },
+        {
+          "text": "and",
+          "start": 71.871,
+          "end": 71.949,
+          "line": "dark"
+        },
+        {
+          "text": "command",
+          "start": 72.0,
+          "end": 72.417,
+          "line": "dark"
+        },
+        {
+          "text": "is",
+          "start": 72.464,
+          "end": 72.568,
+          "line": "dark"
+        },
+        {
+          "text": "one",
+          "start": 72.644,
+          "end": 72.843,
+          "line": "dark"
+        },
+        {
+          "text": "shortcut",
+          "start": 72.92,
+          "end": 73.298,
+          "line": "dark"
+        },
+        {
+          "text": "away.",
+          "start": 73.338,
+          "end": 73.72,
+          "line": "dark"
+        }
+      ]
+    },
+    {
+      "id": "recap",
+      "index": 14,
+      "text": "So: Command K searches everything, a hash jumps to tags, and greater-than runs commands.",
+      "source_text": "So: Command K searches everything, a hash jumps to tags, and greater-than runs commands.",
+      "voice": "af_heart",
+      "engine": "kokoro",
+      "lang": "en-us",
+      "speed": 0.94,
+      "style": "tutorial",
+      "start": 74.88,
+      "end": 81.327,
+      "duration": 6.447,
+      "speech_start": 74.92,
+      "speech_end": 80.757,
+      "pause_after": 1.2,
+      "slot": {
+        "start": 74.88,
+        "end": 82.527,
+        "duration": 7.647
+      },
+      "file": "lines/14-recap.wav",
+      "timing": "exact",
+      "wps": 2.398,
+      "words": [
+        {
+          "text": "So:",
+          "start": 74.92,
+          "end": 75.285,
+          "line": "recap"
+        },
+        {
+          "text": "Command",
+          "start": 75.49,
+          "end": 75.816,
+          "line": "recap"
+        },
+        {
+          "text": "K",
+          "start": 75.868,
+          "end": 76.026,
+          "line": "recap"
+        },
+        {
+          "text": "searches",
+          "start": 76.082,
+          "end": 76.442,
+          "line": "recap"
+        },
+        {
+          "text": "everything,",
+          "start": 76.52,
+          "end": 77.11,
+          "line": "recap"
+        },
+        {
+          "text": "a",
+          "start": 77.42,
+          "end": 77.467,
+          "line": "recap"
+        },
+        {
+          "text": "hash",
+          "start": 77.524,
+          "end": 77.836,
+          "line": "recap"
+        },
+        {
+          "text": "jumps",
+          "start": 77.9,
+          "end": 78.174,
+          "line": "recap"
+        },
+        {
+          "text": "to",
+          "start": 78.23,
+          "end": 78.296,
+          "line": "recap"
+        },
+        {
+          "text": "tags,",
+          "start": 78.349,
+          "end": 78.9,
+          "line": "recap"
+        },
+        {
+          "text": "and",
+          "start": 79.15,
+          "end": 79.224,
+          "line": "recap"
+        },
+        {
+          "text": "greater-than",
+          "start": 79.278,
+          "end": 79.821,
+          "line": "recap"
+        },
+        {
+          "text": "runs",
+          "start": 79.882,
+          "end": 80.153,
+          "line": "recap"
+        },
+        {
+          "text": "commands.",
+          "start": 80.19,
+          "end": 80.757,
+          "line": "recap"
+        }
+      ]
+    },
+    {
+      "id": "outro",
+      "index": 15,
+      "text": "Your notes stay on your device, and now they're easy to find.",
+      "source_text": "Your notes stay on your device, and now they're easy to find.",
+      "voice": "af_heart",
+      "engine": "kokoro",
+      "lang": "en-us",
+      "speed": 0.94,
+      "style": "tutorial",
+      "start": 82.527,
+      "end": 86.323,
+      "duration": 3.797,
+      "speech_start": 82.557,
+      "speech_end": 85.784,
+      "pause_after": 0.7,
+      "slot": {
+        "start": 82.527,
+        "end": 86.723,
+        "duration": 4.197
+      },
+      "file": "lines/15-outro.wav",
+      "timing": "exact",
+      "wps": 3.719,
+      "words": [
+        {
+          "text": "Your",
+          "start": 82.557,
+          "end": 82.686,
+          "line": "outro"
+        },
+        {
+          "text": "notes",
+          "start": 82.737,
+          "end": 82.997,
+          "line": "outro"
+        },
+        {
+          "text": "stay",
+          "start": 83.044,
+          "end": 83.266,
+          "line": "outro"
+        },
+        {
+          "text": "on",
+          "start": 83.292,
+          "end": 83.372,
+          "line": "outro"
+        },
+        {
+          "text": "your",
+          "start": 83.398,
+          "end": 83.476,
+          "line": "outro"
+        },
+        {
+          "text": "device,",
+          "start": 83.515,
+          "end": 84.097,
+          "line": "outro"
+        },
+        {
+          "text": "and",
+          "start": 84.317,
+          "end": 84.419,
+          "line": "outro"
+        },
+        {
+          "text": "now",
+          "start": 84.471,
+          "end": 84.67,
+          "line": "outro"
+        },
+        {
+          "text": "they're",
+          "start": 84.705,
+          "end": 84.842,
+          "line": "outro"
+        },
+        {
+          "text": "easy",
+          "start": 84.893,
+          "end": 85.15,
+          "line": "outro"
+        },
+        {
+          "text": "to",
+          "start": 85.199,
+          "end": 85.276,
+          "line": "outro"
+        },
+        {
+          "text": "find.",
+          "start": 85.328,
+          "end": 85.784,
+          "line": "outro"
+        }
+      ]
+    }
+  ],
+  "words": [
+    {
+      "text": "Once",
+      "start": 4.33,
+      "end": 4.556,
+      "line": "hello"
+    },
+    {
+      "text": "you",
+      "start": 4.585,
+      "end": 4.663,
+      "line": "hello"
+    },
+    {
+      "text": "have",
+      "start": 4.697,
+      "end": 4.818,
+      "line": "hello"
+    },
+    {
+      "text": "a",
+      "start": 4.844,
+      "end": 4.874,
+      "line": "hello"
+    },
+    {
+      "text": "few",
+      "start": 4.923,
+      "end": 5.07,
+      "line": "hello"
+    },
+    {
+      "text": "notes,",
+      "start": 5.109,
+      "end": 5.6,
+      "line": "hello"
+    },
+    {
+      "text": "finding",
+      "start": 5.71,
+      "end": 6.133,
+      "line": "hello"
+    },
+    {
+      "text": "the",
+      "start": 6.165,
+      "end": 6.223,
+      "line": "hello"
+    },
+    {
+      "text": "right",
+      "start": 6.275,
+      "end": 6.482,
+      "line": "hello"
+    },
+    {
+      "text": "one",
+      "start": 6.509,
+      "end": 6.645,
+      "line": "hello"
+    },
+    {
+      "text": "should",
+      "start": 6.697,
+      "end": 6.805,
+      "line": "hello"
+    },
+    {
+      "text": "take",
+      "start": 6.857,
+      "end": 7.029,
+      "line": "hello"
+    },
+    {
+      "text": "a",
+      "start": 7.055,
+      "end": 7.09,
+      "line": "hello"
+    },
+    {
+      "text": "second.",
+      "start": 7.143,
+      "end": 7.59,
+      "line": "hello"
+    },
+    {
+      "text": "Here's",
+      "start": 8.01,
+      "end": 8.304,
+      "line": "hello"
+    },
+    {
+      "text": "how.",
+      "start": 8.356,
+      "end": 8.751,
+      "line": "hello"
+    },
+    {
+      "text": "Press",
+      "start": 9.901,
+      "end": 10.101,
+      "line": "open"
+    },
+    {
+      "text": "Command",
+      "start": 10.171,
+      "end": 10.529,
+      "line": "open"
+    },
+    {
+      "text": "K,",
+      "start": 10.581,
+      "end": 10.978,
+      "line": "open"
+    },
+    {
+      "text": "or",
+      "start": 11.181,
+      "end": 11.292,
+      "line": "open"
+    },
+    {
+      "text": "click",
+      "start": 11.341,
+      "end": 11.55,
+      "line": "open"
+    },
+    {
+      "text": "Search,",
+      "start": 11.601,
+      "end": 12.031,
+      "line": "open"
+    },
+    {
+      "text": "to",
+      "start": 12.241,
+      "end": 12.326,
+      "line": "open"
+    },
+    {
+      "text": "open",
+      "start": 12.377,
+      "end": 12.636,
+      "line": "open"
+    },
+    {
+      "text": "the",
+      "start": 12.662,
+      "end": 12.714,
+      "line": "open"
+    },
+    {
+      "text": "command",
+      "start": 12.765,
+      "end": 13.103,
+      "line": "open"
+    },
+    {
+      "text": "palette.",
+      "start": 13.154,
+      "end": 13.521,
+      "line": "open"
+    },
+    {
+      "text": "Before",
+      "start": 14.897,
+      "end": 15.143,
+      "line": "recent"
+    },
+    {
+      "text": "you",
+      "start": 15.186,
+      "end": 15.264,
+      "line": "recent"
+    },
+    {
+      "text": "type",
+      "start": 15.316,
+      "end": 15.566,
+      "line": "recent"
+    },
+    {
+      "text": "anything,",
+      "start": 15.616,
+      "end": 16.137,
+      "line": "recent"
+    },
+    {
+      "text": "it",
+      "start": 16.407,
+      "end": 16.489,
+      "line": "recent"
+    },
+    {
+      "text": "lists",
+      "start": 16.539,
+      "end": 16.773,
+      "line": "recent"
+    },
+    {
+      "text": "your",
+      "start": 16.8,
+      "end": 16.877,
+      "line": "recent"
+    },
+    {
+      "text": "most",
+      "start": 16.91,
+      "end": 17.145,
+      "line": "recent"
+    },
+    {
+      "text": "recent",
+      "start": 17.212,
+      "end": 17.547,
+      "line": "recent"
+    },
+    {
+      "text": "notes.",
+      "start": 17.591,
+      "end": 18.018,
+      "line": "recent"
+    },
+    {
+      "text": "Type",
+      "start": 19.098,
+      "end": 19.316,
+      "line": "type"
+    },
+    {
+      "text": "any",
+      "start": 19.342,
+      "end": 19.497,
+      "line": "type"
+    },
+    {
+      "text": "word.",
+      "start": 19.549,
+      "end": 19.918,
+      "line": "type"
+    },
+    {
+      "text": "Tidepool",
+      "start": 20.318,
+      "end": 20.74,
+      "line": "type"
+    },
+    {
+      "text": "searches",
+      "start": 20.792,
+      "end": 21.114,
+      "line": "type"
+    },
+    {
+      "text": "titles,",
+      "start": 21.118,
+      "end": 21.708,
+      "line": "type"
+    },
+    {
+      "text": "text",
+      "start": 21.818,
+      "end": 22.205,
+      "line": "type"
+    },
+    {
+      "text": "and",
+      "start": 22.247,
+      "end": 22.324,
+      "line": "type"
+    },
+    {
+      "text": "tags",
+      "start": 22.38,
+      "end": 22.705,
+      "line": "type"
+    },
+    {
+      "text": "at",
+      "start": 22.736,
+      "end": 22.829,
+      "line": "type"
+    },
+    {
+      "text": "once.",
+      "start": 22.829,
+      "end": 23.225,
+      "line": "type"
+    },
+    {
+      "text": "Matches",
+      "start": 24.705,
+      "end": 25.155,
+      "line": "match"
+    },
+    {
+      "text": "are",
+      "start": 25.193,
+      "end": 25.28,
+      "line": "match"
+    },
+    {
+      "text": "highlighted,",
+      "start": 25.334,
+      "end": 25.975,
+      "line": "match"
+    },
+    {
+      "text": "and",
+      "start": 26.215,
+      "end": 26.315,
+      "line": "match"
+    },
+    {
+      "text": "the",
+      "start": 26.341,
+      "end": 26.394,
+      "line": "match"
+    },
+    {
+      "text": "best",
+      "start": 26.446,
+      "end": 26.674,
+      "line": "match"
+    },
+    {
+      "text": "one",
+      "start": 26.7,
+      "end": 26.835,
+      "line": "match"
+    },
+    {
+      "text": "comes",
+      "start": 26.887,
+      "end": 27.136,
+      "line": "match"
+    },
+    {
+      "text": "first.",
+      "start": 27.189,
+      "end": 27.643,
+      "line": "match"
+    },
+    {
+      "text": "Use",
+      "start": 28.633,
+      "end": 28.885,
+      "line": "pick"
+    },
+    {
+      "text": "the",
+      "start": 28.922,
+      "end": 29.021,
+      "line": "pick"
+    },
+    {
+      "text": "arrow",
+      "start": 29.095,
+      "end": 29.393,
+      "line": "pick"
+    },
+    {
+      "text": "keys",
+      "start": 29.463,
+      "end": 29.721,
+      "line": "pick"
+    },
+    {
+      "text": "to",
+      "start": 29.773,
+      "end": 29.842,
+      "line": "pick"
+    },
+    {
+      "text": "choose",
+      "start": 29.895,
+      "end": 30.145,
+      "line": "pick"
+    },
+    {
+      "text": "a",
+      "start": 30.171,
+      "end": 30.201,
+      "line": "pick"
+    },
+    {
+      "text": "result,",
+      "start": 30.235,
+      "end": 30.753,
+      "line": "pick"
+    },
+    {
+      "text": "then",
+      "start": 31.003,
+      "end": 31.193,
+      "line": "pick"
+    },
+    {
+      "text": "press",
+      "start": 31.248,
+      "end": 31.505,
+      "line": "pick"
+    },
+    {
+      "text": "Enter",
+      "start": 31.553,
+      "end": 31.862,
+      "line": "pick"
+    },
+    {
+      "text": "to",
+      "start": 31.915,
+      "end": 31.998,
+      "line": "pick"
+    },
+    {
+      "text": "open",
+      "start": 32.013,
+      "end": 32.329,
+      "line": "pick"
+    },
+    {
+      "text": "it.",
+      "start": 32.39,
+      "end": 32.585,
+      "line": "pick"
+    },
+    {
+      "text": "Start",
+      "start": 34.965,
+      "end": 35.255,
+      "line": "tags"
+    },
+    {
+      "text": "with",
+      "start": 35.281,
+      "end": 35.365,
+      "line": "tags"
+    },
+    {
+      "text": "a",
+      "start": 35.391,
+      "end": 35.421,
+      "line": "tags"
+    },
+    {
+      "text": "hash",
+      "start": 35.471,
+      "end": 35.725,
+      "line": "tags"
+    },
+    {
+      "text": "sign,",
+      "start": 35.785,
+      "end": 36.215,
+      "line": "tags"
+    },
+    {
+      "text": "and",
+      "start": 36.485,
+      "end": 36.549,
+      "line": "tags"
+    },
+    {
+      "text": "the",
+      "start": 36.575,
+      "end": 36.627,
+      "line": "tags"
+    },
+    {
+      "text": "palette",
+      "start": 36.682,
+      "end": 37.034,
+      "line": "tags"
+    },
+    {
+      "text": "lists",
+      "start": 37.085,
+      "end": 37.272,
+      "line": "tags"
+    },
+    {
+      "text": "your",
+      "start": 37.298,
+      "end": 37.378,
+      "line": "tags"
+    },
+    {
+      "text": "tags",
+      "start": 37.434,
+      "end": 37.809,
+      "line": "tags"
+    },
+    {
+      "text": "instead.",
+      "start": 37.849,
+      "end": 38.384,
+      "line": "tags"
+    },
+    {
+      "text": "Press",
+      "start": 39.844,
+      "end": 40.046,
+      "line": "filter"
+    },
+    {
+      "text": "Enter,",
+      "start": 40.092,
+      "end": 40.544,
+      "line": "filter"
+    },
+    {
+      "text": "and",
+      "start": 40.744,
+      "end": 40.807,
+      "line": "filter"
+    },
+    {
+      "text": "the",
+      "start": 40.833,
+      "end": 40.886,
+      "line": "filter"
+    },
+    {
+      "text": "list",
+      "start": 40.938,
+      "end": 41.175,
+      "line": "filter"
+    },
+    {
+      "text": "shows",
+      "start": 41.232,
+      "end": 41.458,
+      "line": "filter"
+    },
+    {
+      "text": "only",
+      "start": 41.524,
+      "end": 41.766,
+      "line": "filter"
+    },
+    {
+      "text": "the",
+      "start": 41.797,
+      "end": 41.856,
+      "line": "filter"
+    },
+    {
+      "text": "notes",
+      "start": 41.908,
+      "end": 42.196,
+      "line": "filter"
+    },
+    {
+      "text": "with",
+      "start": 42.224,
+      "end": 42.315,
+      "line": "filter"
+    },
+    {
+      "text": "that",
+      "start": 42.344,
+      "end": 42.512,
+      "line": "filter"
+    },
+    {
+      "text": "tag.",
+      "start": 42.534,
+      "end": 42.974,
+      "line": "filter"
+    },
+    {
+      "text": "With",
+      "start": 44.344,
+      "end": 44.464,
+      "line": "jk"
+    },
+    {
+      "text": "the",
+      "start": 44.464,
+      "end": 44.526,
+      "line": "jk"
+    },
+    {
+      "text": "list",
+      "start": 44.578,
+      "end": 44.791,
+      "line": "jk"
+    },
+    {
+      "text": "in",
+      "start": 44.826,
+      "end": 44.92,
+      "line": "jk"
+    },
+    {
+      "text": "focus,",
+      "start": 44.972,
+      "end": 45.554,
+      "line": "jk"
+    },
+    {
+      "text": "J",
+      "start": 45.674,
+      "end": 45.996,
+      "line": "jk"
+    },
+    {
+      "text": "and",
+      "start": 46.024,
+      "end": 46.102,
+      "line": "jk"
+    },
+    {
+      "text": "K",
+      "start": 46.157,
+      "end": 46.408,
+      "line": "jk"
+    },
+    {
+      "text": "step",
+      "start": 46.462,
+      "end": 46.699,
+      "line": "jk"
+    },
+    {
+      "text": "through",
+      "start": 46.714,
+      "end": 46.866,
+      "line": "jk"
+    },
+    {
+      "text": "the",
+      "start": 46.893,
+      "end": 46.945,
+      "line": "jk"
+    },
+    {
+      "text": "notes.",
+      "start": 46.996,
+      "end": 47.434,
+      "line": "jk"
+    },
+    {
+      "text": "No",
+      "start": 47.834,
+      "end": 48.081,
+      "line": "jk"
+    },
+    {
+      "text": "mouse",
+      "start": 48.133,
+      "end": 48.417,
+      "line": "jk"
+    },
+    {
+      "text": "needed.",
+      "start": 48.47,
+      "end": 48.879,
+      "line": "jk"
+    },
+    {
+      "text": "To",
+      "start": 50.849,
+      "end": 50.933,
+      "line": "narrow"
+    },
+    {
+      "text": "narrow",
+      "start": 50.985,
+      "end": 51.275,
+      "line": "narrow"
+    },
+    {
+      "text": "it",
+      "start": 51.317,
+      "end": 51.406,
+      "line": "narrow"
+    },
+    {
+      "text": "further,",
+      "start": 51.469,
+      "end": 51.879,
+      "line": "narrow"
+    },
+    {
+      "text": "type",
+      "start": 52.036,
+      "end": 52.304,
+      "line": "narrow"
+    },
+    {
+      "text": "in",
+      "start": 52.339,
+      "end": 52.441,
+      "line": "narrow"
+    },
+    {
+      "text": "Filter",
+      "start": 52.5,
+      "end": 52.815,
+      "line": "narrow"
+    },
+    {
+      "text": "this",
+      "start": 52.858,
+      "end": 53.002,
+      "line": "narrow"
+    },
+    {
+      "text": "list.",
+      "start": 53.054,
+      "end": 53.479,
+      "line": "narrow"
+    },
+    {
+      "text": "Escape",
+      "start": 53.879,
+      "end": 54.273,
+      "line": "narrow"
+    },
+    {
+      "text": "clears",
+      "start": 54.339,
+      "end": 54.595,
+      "line": "narrow"
+    },
+    {
+      "text": "it",
+      "start": 54.622,
+      "end": 54.676,
+      "line": "narrow"
+    },
+    {
+      "text": "again.",
+      "start": 54.706,
+      "end": 55.107,
+      "line": "narrow"
+    },
+    {
+      "text": "The",
+      "start": 56.797,
+      "end": 56.854,
+      "line": "sidebar"
+    },
+    {
+      "text": "sidebar",
+      "start": 56.928,
+      "end": 57.397,
+      "line": "sidebar"
+    },
+    {
+      "text": "works",
+      "start": 57.449,
+      "end": 57.705,
+      "line": "sidebar"
+    },
+    {
+      "text": "too.",
+      "start": 57.771,
+      "end": 58.147,
+      "line": "sidebar"
+    },
+    {
+      "text": "Click",
+      "start": 58.557,
+      "end": 58.704,
+      "line": "sidebar"
+    },
+    {
+      "text": "any",
+      "start": 58.73,
+      "end": 58.887,
+      "line": "sidebar"
+    },
+    {
+      "text": "notebook",
+      "start": 58.939,
+      "end": 59.421,
+      "line": "sidebar"
+    },
+    {
+      "text": "or",
+      "start": 59.487,
+      "end": 59.591,
+      "line": "sidebar"
+    },
+    {
+      "text": "tag",
+      "start": 59.657,
+      "end": 59.983,
+      "line": "sidebar"
+    },
+    {
+      "text": "to",
+      "start": 60.032,
+      "end": 60.096,
+      "line": "sidebar"
+    },
+    {
+      "text": "filter",
+      "start": 60.148,
+      "end": 60.492,
+      "line": "sidebar"
+    },
+    {
+      "text": "with",
+      "start": 60.532,
+      "end": 60.657,
+      "line": "sidebar"
+    },
+    {
+      "text": "one",
+      "start": 60.71,
+      "end": 60.895,
+      "line": "sidebar"
+    },
+    {
+      "text": "click.",
+      "start": 60.948,
+      "end": 61.315,
+      "line": "sidebar"
+    },
+    {
+      "text": "Finally,",
+      "start": 63.325,
+      "end": 63.887,
+      "line": "commands"
+    },
+    {
+      "text": "a",
+      "start": 64.045,
+      "end": 64.115,
+      "line": "commands"
+    },
+    {
+      "text": "greater-than",
+      "start": 64.181,
+      "end": 64.646,
+      "line": "commands"
+    },
+    {
+      "text": "sign",
+      "start": 64.723,
+      "end": 65.047,
+      "line": "commands"
+    },
+    {
+      "text": "turns",
+      "start": 65.1,
+      "end": 65.39,
+      "line": "commands"
+    },
+    {
+      "text": "search",
+      "start": 65.459,
+      "end": 65.707,
+      "line": "commands"
+    },
+    {
+      "text": "into",
+      "start": 65.733,
+      "end": 65.895,
+      "line": "commands"
+    },
+    {
+      "text": "commands.",
+      "start": 65.945,
+      "end": 66.525,
+      "line": "commands"
+    },
+    {
+      "text": "Let's",
+      "start": 66.955,
+      "end": 67.156,
+      "line": "commands"
+    },
+    {
+      "text": "try",
+      "start": 67.208,
+      "end": 67.444,
+      "line": "commands"
+    },
+    {
+      "text": "dark",
+      "start": 67.497,
+      "end": 67.745,
+      "line": "commands"
+    },
+    {
+      "text": "mode.",
+      "start": 67.797,
+      "end": 68.2,
+      "line": "commands"
+    },
+    {
+      "text": "Every",
+      "start": 70.771,
+      "end": 71.014,
+      "line": "dark"
+    },
+    {
+      "text": "note,",
+      "start": 71.065,
+      "end": 71.451,
+      "line": "dark"
+    },
+    {
+      "text": "tag",
+      "start": 71.601,
+      "end": 71.845,
+      "line": "dark"
+    },
+    {
+      "text": "and",
+      "start": 71.871,
+      "end": 71.949,
+      "line": "dark"
+    },
+    {
+      "text": "command",
+      "start": 72.0,
+      "end": 72.417,
+      "line": "dark"
+    },
+    {
+      "text": "is",
+      "start": 72.464,
+      "end": 72.568,
+      "line": "dark"
+    },
+    {
+      "text": "one",
+      "start": 72.644,
+      "end": 72.843,
+      "line": "dark"
+    },
+    {
+      "text": "shortcut",
+      "start": 72.92,
+      "end": 73.298,
+      "line": "dark"
+    },
+    {
+      "text": "away.",
+      "start": 73.338,
+      "end": 73.72,
+      "line": "dark"
+    },
+    {
+      "text": "So:",
+      "start": 74.92,
+      "end": 75.285,
+      "line": "recap"
+    },
+    {
+      "text": "Command",
+      "start": 75.49,
+      "end": 75.816,
+      "line": "recap"
+    },
+    {
+      "text": "K",
+      "start": 75.868,
+      "end": 76.026,
+      "line": "recap"
+    },
+    {
+      "text": "searches",
+      "start": 76.082,
+      "end": 76.442,
+      "line": "recap"
+    },
+    {
+      "text": "everything,",
+      "start": 76.52,
+      "end": 77.11,
+      "line": "recap"
+    },
+    {
+      "text": "a",
+      "start": 77.42,
+      "end": 77.467,
+      "line": "recap"
+    },
+    {
+      "text": "hash",
+      "start": 77.524,
+      "end": 77.836,
+      "line": "recap"
+    },
+    {
+      "text": "jumps",
+      "start": 77.9,
+      "end": 78.174,
+      "line": "recap"
+    },
+    {
+      "text": "to",
+      "start": 78.23,
+      "end": 78.296,
+      "line": "recap"
+    },
+    {
+      "text": "tags,",
+      "start": 78.349,
+      "end": 78.9,
+      "line": "recap"
+    },
+    {
+      "text": "and",
+      "start": 79.15,
+      "end": 79.224,
+      "line": "recap"
+    },
+    {
+      "text": "greater-than",
+      "start": 79.278,
+      "end": 79.821,
+      "line": "recap"
+    },
+    {
+      "text": "runs",
+      "start": 79.882,
+      "end": 80.153,
+      "line": "recap"
+    },
+    {
+      "text": "commands.",
+      "start": 80.19,
+      "end": 80.757,
+      "line": "recap"
+    },
+    {
+      "text": "Your",
+      "start": 82.557,
+      "end": 82.686,
+      "line": "outro"
+    },
+    {
+      "text": "notes",
+      "start": 82.737,
+      "end": 82.997,
+      "line": "outro"
+    },
+    {
+      "text": "stay",
+      "start": 83.044,
+      "end": 83.266,
+      "line": "outro"
+    },
+    {
+      "text": "on",
+      "start": 83.292,
+      "end": 83.372,
+      "line": "outro"
+    },
+    {
+      "text": "your",
+      "start": 83.398,
+      "end": 83.476,
+      "line": "outro"
+    },
+    {
+      "text": "device,",
+      "start": 83.515,
+      "end": 84.097,
+      "line": "outro"
+    },
+    {
+      "text": "and",
+      "start": 84.317,
+      "end": 84.419,
+      "line": "outro"
+    },
+    {
+      "text": "now",
+      "start": 84.471,
+      "end": 84.67,
+      "line": "outro"
+    },
+    {
+      "text": "they're",
+      "start": 84.705,
+      "end": 84.842,
+      "line": "outro"
+    },
+    {
+      "text": "easy",
+      "start": 84.893,
+      "end": 85.15,
+      "line": "outro"
+    },
+    {
+      "text": "to",
+      "start": 85.199,
+      "end": 85.276,
+      "line": "outro"
+    },
+    {
+      "text": "find.",
+      "start": 85.328,
+      "end": 85.784,
+      "line": "outro"
+    }
+  ],
+  "captions": {
+    "srt": "vo.srt",
+    "transcript": "vo.words.json",
+    "cues": 37
+  },
+  "build_seconds": 17.95,
+  "lexicon": [
+    "skills/showtime/lib/st/voice/lexicon.json"
+  ]
+}

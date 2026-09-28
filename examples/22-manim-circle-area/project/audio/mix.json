@@ -1,0 +1,171 @@
+{
+ "_comment": "Bed very low under the voice; a soft click per ring step (the 8-ring cut at 4.5-5.6 s, the refine steps 16/32/64), a chime in the bed's key on the payoff (A = pi r^2, boxed at the end of the result line, 61.6 s). Times: showtime manim cues + the scene logs.",
+ "tracks": [
+  {
+   "id": "bed",
+   "kind": "music",
+   "compose": {
+    "style": "playful-pizzicato",
+    "seed": 4,
+    "soundfont": "GeneralUser"
+   },
+   "gain_db": -9,
+   "fade_in": 0.8,
+   "fade_out": 2.5,
+   "duck": {
+    "under": "voice",
+    "depth_db": 8,
+    "carve": 0.4
+   }
+  },
+  {
+   "id": "click1",
+   "kind": "sfx",
+   "synth": {
+    "type": "click",
+    "intensity": 0.6,
+    "seed": 0
+   },
+   "at": 4.53,
+   "align": "hit",
+   "gain_db": 6
+  },
+  {
+   "id": "click2",
+   "kind": "sfx",
+   "synth": {
+    "type": "click",
+    "intensity": 0.6,
+    "seed": 1
+   },
+   "at": 4.686,
+   "align": "hit",
+   "gain_db": 6
+  },
+  {
+   "id": "click3",
+   "kind": "sfx",
+   "synth": {
+    "type": "click",
+    "intensity": 0.6,
+    "seed": 2
+   },
+   "at": 4.842,
+   "align": "hit",
+   "gain_db": 6
+  },
+  {
+   "id": "click4",
+   "kind": "sfx",
+   "synth": {
+    "type": "click",
+    "intensity": 0.6,
+    "seed": 3
+   },
+   "at": 4.998,
+   "align": "hit",
+   "gain_db": 6
+  },
+  {
+   "id": "click5",
+   "kind": "sfx",
+   "synth": {
+    "type": "click",
+    "intensity": 0.6,
+    "seed": 4
+   },
+   "at": 5.154,
+   "align": "hit",
+   "gain_db": 6
+  },
+  {
+   "id": "click6",
+   "kind": "sfx",
+   "synth": {
+    "type": "click",
+    "intensity": 0.6,
+    "seed": 5
+   },
+   "at": 5.31,
+   "align": "hit",
+   "gain_db": 6
+  },
+  {
+   "id": "click7",
+   "kind": "sfx",
+   "synth": {
+    "type": "click",
+    "intensity": 0.6,
+    "seed": 6
+   },
+   "at": 5.466,
+   "align": "hit",
+   "gain_db": 6
+  },
+  {
+   "id": "click8",
+   "kind": "sfx",
+   "synth": {
+    "type": "click",
+    "intensity": 0.6,
+    "seed": 7
+   },
+   "at": 5.622,
+   "align": "hit",
+   "gain_db": 6
+  },
+  {
+   "id": "click9",
+   "kind": "sfx",
+   "synth": {
+    "type": "click",
+    "intensity": 0.6,
+    "seed": 8
+   },
+   "at": 29.95,
+   "align": "hit",
+   "gain_db": 6
+  },
+  {
+   "id": "click10",
+   "kind": "sfx",
+   "synth": {
+    "type": "click",
+    "intensity": 0.6,
+    "seed": 9
+   },
+   "at": 31.92,
+   "align": "hit",
+   "gain_db": 6
+  },
+  {
+   "id": "click11",
+   "kind": "sfx",
+   "synth": {
+    "type": "click",
+    "intensity": 0.6,
+    "seed": 10
+   },
+   "at": 34.05,
+   "align": "hit",
+   "gain_db": 6
+  },
+  {
+   "id": "chime",
+   "kind": "sfx",
+   "synth": {
+    "type": "chime",
+    "key": "D",
+    "intensity": 0.5,
+    "seed": 1
+   },
+   "at": 61.6,
+   "align": "hit",
+   "gain_db": 0
+  }
+ ],
+ "master": {
+  "lufs": -14,
+  "true_peak": -1
+ }
+}

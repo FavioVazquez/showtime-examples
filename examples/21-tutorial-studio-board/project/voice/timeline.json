@@ -1,0 +1,2766 @@
+{
+  "version": 1,
+  "file": "vo.wav",
+  "sample_rate": 48000,
+  "duration": 73.0,
+  "lead_in": 0.0,
+  "tail": 0.919,
+  "loudness": -16.03,
+  "script": "../narration.md",
+  "lines": [
+    {
+      "id": "preview",
+      "index": 1,
+      "text": "In one minute, you'll have picked a direction, and left a note.",
+      "source_text": "In one minute, you'll have picked a direction, and left a note.",
+      "voice": "bf_emma",
+      "engine": "kokoro",
+      "lang": "en-gb",
+      "speed": 0.936,
+      "style": "neutral",
+      "start": 0.0,
+      "end": 3.507,
+      "duration": 3.507,
+      "speech_start": 0.03,
+      "speech_end": 3.097,
+      "pause_after": 0.65,
+      "slot": {
+        "start": 0.0,
+        "end": 4.157,
+        "duration": 4.157
+      },
+      "file": "lines/01-preview.wav",
+      "timing": "exact",
+      "wps": 3.913,
+      "words": [
+        {
+          "text": "In",
+          "start": 0.03,
+          "end": 0.133,
+          "line": "preview"
+        },
+        {
+          "text": "one",
+          "start": 0.184,
+          "end": 0.338,
+          "line": "preview"
+        },
+        {
+          "text": "minute,",
+          "start": 0.369,
+          "end": 0.658,
+          "line": "preview"
+        },
+        {
+          "text": "you'll",
+          "start": 0.75,
+          "end": 0.934,
+          "line": "preview"
+        },
+        {
+          "text": "have",
+          "start": 0.959,
+          "end": 1.039,
+          "line": "preview"
+        },
+        {
+          "text": "picked",
+          "start": 1.1,
+          "end": 1.299,
+          "line": "preview"
+        },
+        {
+          "text": "a",
+          "start": 1.325,
+          "end": 1.355,
+          "line": "preview"
+        },
+        {
+          "text": "direction,",
+          "start": 1.401,
+          "end": 2.078,
+          "line": "preview"
+        },
+        {
+          "text": "and",
+          "start": 2.18,
+          "end": 2.312,
+          "line": "preview"
+        },
+        {
+          "text": "left",
+          "start": 2.363,
+          "end": 2.574,
+          "line": "preview"
+        },
+        {
+          "text": "a",
+          "start": 2.601,
+          "end": 2.637,
+          "line": "preview"
+        },
+        {
+          "text": "note.",
+          "start": 2.688,
+          "end": 3.097,
+          "line": "preview"
+        }
+      ]
+    },
+    {
+      "id": "open-cmd",
+      "index": 2,
+      "text": "Step one: open the board. Claude runs showtime studio open, and gives you a private, local link.",
+      "source_text": "Step one: open the board. Claude runs showtime studio open, and gives you a private, local link.",
+      "voice": "bf_emma",
+      "engine": "kokoro",
+      "lang": "en-gb",
+      "speed": 0.936,
+      "style": "neutral",
+      "start": 4.157,
+      "end": 10.534,
+      "duration": 6.377,
+      "speech_start": 4.187,
+      "speech_end": 10.124,
+      "pause_after": 0.4,
+      "slot": {
+        "start": 4.157,
+        "end": 10.934,
+        "duration": 6.777
+      },
+      "file": "lines/02-open-cmd.wav",
+      "timing": "exact",
+      "wps": 2.863,
+      "words": [
+        {
+          "text": "Step",
+          "start": 4.187,
+          "end": 4.462,
+          "line": "open-cmd"
+        },
+        {
+          "text": "one:",
+          "start": 4.487,
+          "end": 4.766,
+          "line": "open-cmd"
+        },
+        {
+          "text": "open",
+          "start": 4.937,
+          "end": 5.233,
+          "line": "open-cmd"
+        },
+        {
+          "text": "the",
+          "start": 5.263,
+          "end": 5.315,
+          "line": "open-cmd"
+        },
+        {
+          "text": "board.",
+          "start": 5.397,
+          "end": 5.817,
+          "line": "open-cmd"
+        },
+        {
+          "text": "Claude",
+          "start": 6.254,
+          "end": 6.526,
+          "line": "open-cmd"
+        },
+        {
+          "text": "runs",
+          "start": 6.576,
+          "end": 6.799,
+          "line": "open-cmd"
+        },
+        {
+          "text": "showtime",
+          "start": 6.868,
+          "end": 7.281,
+          "line": "open-cmd"
+        },
+        {
+          "text": "studio",
+          "start": 7.332,
+          "end": 7.742,
+          "line": "open-cmd"
+        },
+        {
+          "text": "open,",
+          "start": 7.784,
+          "end": 8.178,
+          "line": "open-cmd"
+        },
+        {
+          "text": "and",
+          "start": 8.357,
+          "end": 8.435,
+          "line": "open-cmd"
+        },
+        {
+          "text": "gives",
+          "start": 8.507,
+          "end": 8.656,
+          "line": "open-cmd"
+        },
+        {
+          "text": "you",
+          "start": 8.687,
+          "end": 8.765,
+          "line": "open-cmd"
+        },
+        {
+          "text": "a",
+          "start": 8.791,
+          "end": 8.821,
+          "line": "open-cmd"
+        },
+        {
+          "text": "private,",
+          "start": 8.907,
+          "end": 9.256,
+          "line": "open-cmd"
+        },
+        {
+          "text": "local",
+          "start": 9.377,
+          "end": 9.732,
+          "line": "open-cmd"
+        },
+        {
+          "text": "link.",
+          "start": 9.783,
+          "end": 10.124,
+          "line": "open-cmd"
+        }
+      ]
+    },
+    {
+      "id": "open-board",
+      "index": 3,
+      "text": "The link opens the board in your browser. Each concept is a card, with style frames, a hook, a palette, and a music sketch.",
+      "source_text": "The link opens the board in your browser. Each concept is a card, with style frames, a hook, a palette, and a music sketch.",
+      "voice": "bf_emma",
+      "engine": "kokoro",
+      "lang": "en-gb",
+      "speed": 0.936,
+      "style": "neutral",
+      "start": 10.934,
+      "end": 18.589,
+      "duration": 7.655,
+      "speech_start": 10.964,
+      "speech_end": 18.169,
+      "pause_after": 0.65,
+      "slot": {
+        "start": 10.934,
+        "end": 19.239,
+        "duration": 8.305
+      },
+      "file": "lines/03-open-board.wav",
+      "timing": "exact",
+      "wps": 3.331,
+      "words": [
+        {
+          "text": "The",
+          "start": 10.964,
+          "end": 11.003,
+          "line": "open-board"
+        },
+        {
+          "text": "link",
+          "start": 11.054,
+          "end": 11.273,
+          "line": "open-board"
+        },
+        {
+          "text": "opens",
+          "start": 11.324,
+          "end": 11.693,
+          "line": "open-board"
+        },
+        {
+          "text": "the",
+          "start": 11.728,
+          "end": 11.783,
+          "line": "open-board"
+        },
+        {
+          "text": "board",
+          "start": 11.854,
+          "end": 12.087,
+          "line": "open-board"
+        },
+        {
+          "text": "in",
+          "start": 12.117,
+          "end": 12.173,
+          "line": "open-board"
+        },
+        {
+          "text": "your",
+          "start": 12.202,
+          "end": 12.292,
+          "line": "open-board"
+        },
+        {
+          "text": "browser.",
+          "start": 12.334,
+          "end": 12.884,
+          "line": "open-board"
+        },
+        {
+          "text": "Each",
+          "start": 13.454,
+          "end": 13.693,
+          "line": "open-board"
+        },
+        {
+          "text": "concept",
+          "start": 13.724,
+          "end": 14.214,
+          "line": "open-board"
+        },
+        {
+          "text": "is",
+          "start": 14.246,
+          "end": 14.32,
+          "line": "open-board"
+        },
+        {
+          "text": "a",
+          "start": 14.349,
+          "end": 14.382,
+          "line": "open-board"
+        },
+        {
+          "text": "card,",
+          "start": 14.439,
+          "end": 14.854,
+          "line": "open-board"
+        },
+        {
+          "text": "with",
+          "start": 15.064,
+          "end": 15.209,
+          "line": "open-board"
+        },
+        {
+          "text": "style",
+          "start": 15.259,
+          "end": 15.585,
+          "line": "open-board"
+        },
+        {
+          "text": "frames,",
+          "start": 15.647,
+          "end": 16.07,
+          "line": "open-board"
+        },
+        {
+          "text": "a",
+          "start": 16.143,
+          "end": 16.184,
+          "line": "open-board"
+        },
+        {
+          "text": "hook,",
+          "start": 16.235,
+          "end": 16.504,
+          "line": "open-board"
+        },
+        {
+          "text": "a",
+          "start": 16.694,
+          "end": 16.724,
+          "line": "open-board"
+        },
+        {
+          "text": "palette,",
+          "start": 16.741,
+          "end": 17.024,
+          "line": "open-board"
+        },
+        {
+          "text": "and",
+          "start": 17.227,
+          "end": 17.304,
+          "line": "open-board"
+        },
+        {
+          "text": "a",
+          "start": 17.329,
+          "end": 17.359,
+          "line": "open-board"
+        },
+        {
+          "text": "music",
+          "start": 17.392,
+          "end": 17.694,
+          "line": "open-board"
+        },
+        {
+          "text": "sketch.",
+          "start": 17.784,
+          "end": 18.169,
+          "line": "open-board"
+        }
+      ]
+    },
+    {
+      "id": "compare-frames",
+      "index": 4,
+      "text": "Step two: compare. Click the thumbnails to step through a concept's style frames.",
+      "source_text": "Step two: compare. Click the thumbnails to step through a concept's style frames.",
+      "voice": "bf_emma",
+      "engine": "kokoro",
+      "lang": "en-gb",
+      "speed": 0.936,
+      "style": "neutral",
+      "start": 19.239,
+      "end": 24.425,
+      "duration": 5.186,
+      "speech_start": 19.279,
+      "speech_end": 24.015,
+      "pause_after": 0.4,
+      "slot": {
+        "start": 19.239,
+        "end": 24.825,
+        "duration": 5.586
+      },
+      "file": "lines/04-compare-frames.wav",
+      "timing": "exact",
+      "wps": 2.745,
+      "words": [
+        {
+          "text": "Step",
+          "start": 19.279,
+          "end": 19.551,
+          "line": "compare-frames"
+        },
+        {
+          "text": "two:",
+          "start": 19.599,
+          "end": 19.83,
+          "line": "compare-frames"
+        },
+        {
+          "text": "compare.",
+          "start": 20.019,
+          "end": 20.599,
+          "line": "compare-frames"
+        },
+        {
+          "text": "Click",
+          "start": 20.928,
+          "end": 21.113,
+          "line": "compare-frames"
+        },
+        {
+          "text": "the",
+          "start": 21.148,
+          "end": 21.212,
+          "line": "compare-frames"
+        },
+        {
+          "text": "thumbnails",
+          "start": 21.266,
+          "end": 21.797,
+          "line": "compare-frames"
+        },
+        {
+          "text": "to",
+          "start": 21.869,
+          "end": 21.914,
+          "line": "compare-frames"
+        },
+        {
+          "text": "step",
+          "start": 21.957,
+          "end": 22.202,
+          "line": "compare-frames"
+        },
+        {
+          "text": "through",
+          "start": 22.219,
+          "end": 22.411,
+          "line": "compare-frames"
+        },
+        {
+          "text": "a",
+          "start": 22.442,
+          "end": 22.472,
+          "line": "compare-frames"
+        },
+        {
+          "text": "concept's",
+          "start": 22.549,
+          "end": 23.025,
+          "line": "compare-frames"
+        },
+        {
+          "text": "style",
+          "start": 23.07,
+          "end": 23.404,
+          "line": "compare-frames"
+        },
+        {
+          "text": "frames.",
+          "start": 23.458,
+          "end": 24.015,
+          "line": "compare-frames"
+        }
+      ]
+    },
+    {
+      "id": "compare-bed",
+      "index": 5,
+      "text": "Press play to hear its music sketch: ten seconds of the bed it would use.",
+      "source_text": "Press play to hear its music sketch: ten seconds of the bed it would use.",
+      "voice": "bf_emma",
+      "engine": "kokoro",
+      "lang": "en-gb",
+      "speed": 0.936,
+      "style": "neutral",
+      "start": 24.825,
+      "end": 29.378,
+      "duration": 4.553,
+      "speech_start": 24.865,
+      "speech_end": 28.978,
+      "pause_after": 0.4,
+      "slot": {
+        "start": 24.825,
+        "end": 29.778,
+        "duration": 4.953
+      },
+      "file": "lines/05-compare-bed.wav",
+      "timing": "exact",
+      "wps": 3.647,
+      "words": [
+        {
+          "text": "Press",
+          "start": 24.865,
+          "end": 25.097,
+          "line": "compare-bed"
+        },
+        {
+          "text": "play",
+          "start": 25.165,
+          "end": 25.377,
+          "line": "compare-bed"
+        },
+        {
+          "text": "to",
+          "start": 25.428,
+          "end": 25.496,
+          "line": "compare-bed"
+        },
+        {
+          "text": "hear",
+          "start": 25.548,
+          "end": 25.766,
+          "line": "compare-bed"
+        },
+        {
+          "text": "its",
+          "start": 25.799,
+          "end": 25.924,
+          "line": "compare-bed"
+        },
+        {
+          "text": "music",
+          "start": 25.975,
+          "end": 26.289,
+          "line": "compare-bed"
+        },
+        {
+          "text": "sketch:",
+          "start": 26.34,
+          "end": 26.855,
+          "line": "compare-bed"
+        },
+        {
+          "text": "ten",
+          "start": 27.235,
+          "end": 27.418,
+          "line": "compare-bed"
+        },
+        {
+          "text": "seconds",
+          "start": 27.482,
+          "end": 27.813,
+          "line": "compare-bed"
+        },
+        {
+          "text": "of",
+          "start": 27.839,
+          "end": 27.918,
+          "line": "compare-bed"
+        },
+        {
+          "text": "the",
+          "start": 27.918,
+          "end": 27.972,
+          "line": "compare-bed"
+        },
+        {
+          "text": "bed",
+          "start": 28.024,
+          "end": 28.226,
+          "line": "compare-bed"
+        },
+        {
+          "text": "it",
+          "start": 28.257,
+          "end": 28.316,
+          "line": "compare-bed"
+        },
+        {
+          "text": "would",
+          "start": 28.346,
+          "end": 28.448,
+          "line": "compare-bed"
+        },
+        {
+          "text": "use.",
+          "start": 28.5,
+          "end": 28.978,
+          "line": "compare-bed"
+        }
+      ]
+    },
+    {
+      "id": "compare-wipe",
+      "index": 6,
+      "text": "Further down, Compare puts two concepts side by side. Drag across the frame to wipe from one to the other.",
+      "source_text": "Further down, Compare puts two concepts side by side. Drag across the frame to wipe from one to the other.",
+      "voice": "bf_emma",
+      "engine": "kokoro",
+      "lang": "en-gb",
+      "speed": 0.936,
+      "style": "neutral",
+      "start": 29.778,
+      "end": 36.413,
+      "duration": 6.635,
+      "speech_start": 29.818,
+      "speech_end": 36.003,
+      "pause_after": 0.65,
+      "slot": {
+        "start": 29.778,
+        "end": 37.063,
+        "duration": 7.285
+      },
+      "file": "lines/06-compare-wipe.wav",
+      "timing": "exact",
+      "wps": 3.234,
+      "words": [
+        {
+          "text": "Further",
+          "start": 29.818,
+          "end": 30.125,
+          "line": "compare-wipe"
+        },
+        {
+          "text": "down,",
+          "start": 30.177,
+          "end": 30.531,
+          "line": "compare-wipe"
+        },
+        {
+          "text": "Compare",
+          "start": 30.718,
+          "end": 31.057,
+          "line": "compare-wipe"
+        },
+        {
+          "text": "puts",
+          "start": 31.108,
+          "end": 31.309,
+          "line": "compare-wipe"
+        },
+        {
+          "text": "two",
+          "start": 31.348,
+          "end": 31.493,
+          "line": "compare-wipe"
+        },
+        {
+          "text": "concepts",
+          "start": 31.544,
+          "end": 32.007,
+          "line": "compare-wipe"
+        },
+        {
+          "text": "side",
+          "start": 32.058,
+          "end": 32.325,
+          "line": "compare-wipe"
+        },
+        {
+          "text": "by",
+          "start": 32.348,
+          "end": 32.537,
+          "line": "compare-wipe"
+        },
+        {
+          "text": "side.",
+          "start": 32.605,
+          "end": 33.028,
+          "line": "compare-wipe"
+        },
+        {
+          "text": "Drag",
+          "start": 33.568,
+          "end": 33.814,
+          "line": "compare-wipe"
+        },
+        {
+          "text": "across",
+          "start": 33.845,
+          "end": 34.127,
+          "line": "compare-wipe"
+        },
+        {
+          "text": "the",
+          "start": 34.165,
+          "end": 34.222,
+          "line": "compare-wipe"
+        },
+        {
+          "text": "frame",
+          "start": 34.278,
+          "end": 34.555,
+          "line": "compare-wipe"
+        },
+        {
+          "text": "to",
+          "start": 34.607,
+          "end": 34.683,
+          "line": "compare-wipe"
+        },
+        {
+          "text": "wipe",
+          "start": 34.734,
+          "end": 35.007,
+          "line": "compare-wipe"
+        },
+        {
+          "text": "from",
+          "start": 35.058,
+          "end": 35.202,
+          "line": "compare-wipe"
+        },
+        {
+          "text": "one",
+          "start": 35.253,
+          "end": 35.435,
+          "line": "compare-wipe"
+        },
+        {
+          "text": "to",
+          "start": 35.486,
+          "end": 35.516,
+          "line": "compare-wipe"
+        },
+        {
+          "text": "the",
+          "start": 35.516,
+          "end": 35.656,
+          "line": "compare-wipe"
+        },
+        {
+          "text": "other.",
+          "start": 35.706,
+          "end": 36.003,
+          "line": "compare-wipe"
+        }
+      ]
+    },
+    {
+      "id": "react-like",
+      "index": 7,
+      "text": "Step three: react. Press L to like the concept in focus, or click the heart.",
+      "source_text": "Step three: react. Press L to like the concept in focus, or click the heart.",
+      "voice": "bf_emma",
+      "engine": "kokoro",
+      "lang": "en-gb",
+      "speed": 0.936,
+      "style": "neutral",
+      "start": 37.063,
+      "end": 41.94,
+      "duration": 4.877,
+      "speech_start": 37.093,
+      "speech_end": 41.53,
+      "pause_after": 0.4,
+      "slot": {
+        "start": 37.063,
+        "end": 42.34,
+        "duration": 5.277
+      },
+      "file": "lines/07-react-like.wav",
+      "timing": "exact",
+      "wps": 3.381,
+      "words": [
+        {
+          "text": "Step",
+          "start": 37.093,
+          "end": 37.359,
+          "line": "react-like"
+        },
+        {
+          "text": "three:",
+          "start": 37.414,
+          "end": 37.67,
+          "line": "react-like"
+        },
+        {
+          "text": "react.",
+          "start": 37.746,
+          "end": 38.283,
+          "line": "react-like"
+        },
+        {
+          "text": "Press",
+          "start": 38.521,
+          "end": 38.752,
+          "line": "react-like"
+        },
+        {
+          "text": "L",
+          "start": 38.804,
+          "end": 38.958,
+          "line": "react-like"
+        },
+        {
+          "text": "to",
+          "start": 39.01,
+          "end": 39.066,
+          "line": "react-like"
+        },
+        {
+          "text": "like",
+          "start": 39.101,
+          "end": 39.25,
+          "line": "react-like"
+        },
+        {
+          "text": "the",
+          "start": 39.279,
+          "end": 39.33,
+          "line": "react-like"
+        },
+        {
+          "text": "concept",
+          "start": 39.382,
+          "end": 39.848,
+          "line": "react-like"
+        },
+        {
+          "text": "in",
+          "start": 39.879,
+          "end": 39.975,
+          "line": "react-like"
+        },
+        {
+          "text": "focus,",
+          "start": 40.027,
+          "end": 40.48,
+          "line": "react-like"
+        },
+        {
+          "text": "or",
+          "start": 40.625,
+          "end": 40.702,
+          "line": "react-like"
+        },
+        {
+          "text": "click",
+          "start": 40.723,
+          "end": 40.963,
+          "line": "react-like"
+        },
+        {
+          "text": "the",
+          "start": 41.001,
+          "end": 41.056,
+          "line": "react-like"
+        },
+        {
+          "text": "heart.",
+          "start": 41.108,
+          "end": 41.53,
+          "line": "react-like"
+        }
+      ]
+    },
+    {
+      "id": "react-note",
+      "index": 8,
+      "text": "Press C to leave a note, in your own words. Rough is fine.",
+      "source_text": "Press C to leave a note, in your own words. Rough is fine.",
+      "voice": "bf_emma",
+      "engine": "kokoro",
+      "lang": "en-gb",
+      "speed": 0.936,
+      "style": "neutral",
+      "start": 42.34,
+      "end": 46.108,
+      "duration": 3.768,
+      "speech_start": 42.38,
+      "speech_end": 45.708,
+      "pause_after": 0.4,
+      "slot": {
+        "start": 42.34,
+        "end": 46.508,
+        "duration": 4.168
+      },
+      "file": "lines/08-react-note.wav",
+      "timing": "exact",
+      "wps": 3.906,
+      "words": [
+        {
+          "text": "Press",
+          "start": 42.38,
+          "end": 42.564,
+          "line": "react-note"
+        },
+        {
+          "text": "C",
+          "start": 42.615,
+          "end": 42.764,
+          "line": "react-note"
+        },
+        {
+          "text": "to",
+          "start": 42.815,
+          "end": 42.873,
+          "line": "react-note"
+        },
+        {
+          "text": "leave",
+          "start": 42.921,
+          "end": 43.086,
+          "line": "react-note"
+        },
+        {
+          "text": "a",
+          "start": 43.111,
+          "end": 43.143,
+          "line": "react-note"
+        },
+        {
+          "text": "note,",
+          "start": 43.194,
+          "end": 43.43,
+          "line": "react-note"
+        },
+        {
+          "text": "in",
+          "start": 43.622,
+          "end": 43.679,
+          "line": "react-note"
+        },
+        {
+          "text": "your",
+          "start": 43.709,
+          "end": 43.814,
+          "line": "react-note"
+        },
+        {
+          "text": "own",
+          "start": 43.846,
+          "end": 44.023,
+          "line": "react-note"
+        },
+        {
+          "text": "words.",
+          "start": 44.074,
+          "end": 44.53,
+          "line": "react-note"
+        },
+        {
+          "text": "Rough",
+          "start": 44.83,
+          "end": 45.088,
+          "line": "react-note"
+        },
+        {
+          "text": "is",
+          "start": 45.129,
+          "end": 45.231,
+          "line": "react-note"
+        },
+        {
+          "text": "fine.",
+          "start": 45.283,
+          "end": 45.708,
+          "line": "react-note"
+        }
+      ]
+    },
+    {
+      "id": "react-send",
+      "index": 9,
+      "text": "Control Enter sends it. Every reaction is saved to the job as you go.",
+      "source_text": "Control Enter sends it. Every reaction is saved to the job as you go.",
+      "voice": "bf_emma",
+      "engine": "kokoro",
+      "lang": "en-gb",
+      "speed": 0.936,
+      "style": "neutral",
+      "start": 46.508,
+      "end": 51.253,
+      "duration": 4.745,
+      "speech_start": 46.528,
+      "speech_end": 50.853,
+      "pause_after": 0.65,
+      "slot": {
+        "start": 46.508,
+        "end": 51.903,
+        "duration": 5.395
+      },
+      "file": "lines/09-react-send.wav",
+      "timing": "exact",
+      "wps": 3.237,
+      "words": [
+        {
+          "text": "Control",
+          "start": 46.528,
+          "end": 46.974,
+          "line": "react-send"
+        },
+        {
+          "text": "Enter",
+          "start": 47.016,
+          "end": 47.299,
+          "line": "react-send"
+        },
+        {
+          "text": "sends",
+          "start": 47.376,
+          "end": 47.682,
+          "line": "react-send"
+        },
+        {
+          "text": "it.",
+          "start": 47.758,
+          "end": 47.978,
+          "line": "react-send"
+        },
+        {
+          "text": "Every",
+          "start": 48.378,
+          "end": 48.63,
+          "line": "react-send"
+        },
+        {
+          "text": "reaction",
+          "start": 48.682,
+          "end": 49.138,
+          "line": "react-send"
+        },
+        {
+          "text": "is",
+          "start": 49.175,
+          "end": 49.246,
+          "line": "react-send"
+        },
+        {
+          "text": "saved",
+          "start": 49.322,
+          "end": 49.618,
+          "line": "react-send"
+        },
+        {
+          "text": "to",
+          "start": 49.658,
+          "end": 49.72,
+          "line": "react-send"
+        },
+        {
+          "text": "the",
+          "start": 49.752,
+          "end": 49.81,
+          "line": "react-send"
+        },
+        {
+          "text": "job",
+          "start": 49.868,
+          "end": 50.159,
+          "line": "react-send"
+        },
+        {
+          "text": "as",
+          "start": 50.208,
+          "end": 50.292,
+          "line": "react-send"
+        },
+        {
+          "text": "you",
+          "start": 50.342,
+          "end": 50.421,
+          "line": "react-send"
+        },
+        {
+          "text": "go.",
+          "start": 50.458,
+          "end": 50.853,
+          "line": "react-send"
+        }
+      ]
+    },
+    {
+      "id": "pick-click",
+      "index": 10,
+      "text": "Step four: pick. Click Pick on the direction you want.",
+      "source_text": "Step four: pick. Click Pick on the direction you want.",
+      "voice": "bf_emma",
+      "engine": "kokoro",
+      "lang": "en-gb",
+      "speed": 0.936,
+      "style": "neutral",
+      "start": 51.903,
+      "end": 55.44,
+      "duration": 3.537,
+      "speech_start": 51.943,
+      "speech_end": 55.03,
+      "pause_after": 0.4,
+      "slot": {
+        "start": 51.903,
+        "end": 55.84,
+        "duration": 3.937
+      },
+      "file": "lines/10-pick-click.wav",
+      "timing": "exact",
+      "wps": 3.239,
+      "words": [
+        {
+          "text": "Step",
+          "start": 51.943,
+          "end": 52.226,
+          "line": "pick-click"
+        },
+        {
+          "text": "four:",
+          "start": 52.277,
+          "end": 52.493,
+          "line": "pick-click"
+        },
+        {
+          "text": "pick.",
+          "start": 52.683,
+          "end": 52.963,
+          "line": "pick-click"
+        },
+        {
+          "text": "Click",
+          "start": 53.303,
+          "end": 53.518,
+          "line": "pick-click"
+        },
+        {
+          "text": "Pick",
+          "start": 53.563,
+          "end": 53.729,
+          "line": "pick-click"
+        },
+        {
+          "text": "on",
+          "start": 53.759,
+          "end": 53.846,
+          "line": "pick-click"
+        },
+        {
+          "text": "the",
+          "start": 53.846,
+          "end": 53.897,
+          "line": "pick-click"
+        },
+        {
+          "text": "direction",
+          "start": 53.943,
+          "end": 54.444,
+          "line": "pick-click"
+        },
+        {
+          "text": "you",
+          "start": 54.483,
+          "end": 54.561,
+          "line": "pick-click"
+        },
+        {
+          "text": "want.",
+          "start": 54.613,
+          "end": 55.03,
+          "line": "pick-click"
+        }
+      ]
+    },
+    {
+      "id": "pick-review",
+      "index": 11,
+      "text": "Press the full stop key to review everything you've sent.",
+      "source_text": "Press the full stop key to review everything you've sent.",
+      "voice": "bf_emma",
+      "engine": "kokoro",
+      "lang": "en-gb",
+      "speed": 0.936,
+      "style": "neutral",
+      "start": 55.84,
+      "end": 59.092,
+      "duration": 3.251,
+      "speech_start": 55.88,
+      "speech_end": 58.691,
+      "pause_after": 0.4,
+      "slot": {
+        "start": 55.84,
+        "end": 59.492,
+        "duration": 3.651
+      },
+      "file": "lines/11-pick-review.wav",
+      "timing": "exact",
+      "wps": 3.557,
+      "words": [
+        {
+          "text": "Press",
+          "start": 55.88,
+          "end": 56.101,
+          "line": "pick-review"
+        },
+        {
+          "text": "the",
+          "start": 56.17,
+          "end": 56.214,
+          "line": "pick-review"
+        },
+        {
+          "text": "full",
+          "start": 56.283,
+          "end": 56.484,
+          "line": "pick-review"
+        },
+        {
+          "text": "stop",
+          "start": 56.537,
+          "end": 56.804,
+          "line": "pick-review"
+        },
+        {
+          "text": "key",
+          "start": 56.86,
+          "end": 57.07,
+          "line": "pick-review"
+        },
+        {
+          "text": "to",
+          "start": 57.123,
+          "end": 57.181,
+          "line": "pick-review"
+        },
+        {
+          "text": "review",
+          "start": 57.224,
+          "end": 57.502,
+          "line": "pick-review"
+        },
+        {
+          "text": "everything",
+          "start": 57.52,
+          "end": 58.012,
+          "line": "pick-review"
+        },
+        {
+          "text": "you've",
+          "start": 58.064,
+          "end": 58.204,
+          "line": "pick-review"
+        },
+        {
+          "text": "sent.",
+          "start": 58.264,
+          "end": 58.691,
+          "line": "pick-review"
+        }
+      ]
+    },
+    {
+      "id": "pick-director",
+      "index": 12,
+      "text": "Then tell Claude you're done. It runs studio feedback, reads your pick and your note, and builds from your choice.",
+      "source_text": "Then tell Claude you're done. It runs studio feedback, reads your pick and your note, and builds from your choice.",
+      "voice": "bf_emma",
+      "engine": "kokoro",
+      "lang": "en-gb",
+      "speed": 0.936,
+      "style": "neutral",
+      "start": 59.492,
+      "end": 65.742,
+      "duration": 6.25,
+      "speech_start": 59.522,
+      "speech_end": 65.332,
+      "pause_after": 0.65,
+      "slot": {
+        "start": 59.492,
+        "end": 66.392,
+        "duration": 6.9
+      },
+      "file": "lines/12-pick-director.wav",
+      "timing": "exact",
+      "wps": 3.442,
+      "words": [
+        {
+          "text": "Then",
+          "start": 59.522,
+          "end": 59.69,
+          "line": "pick-director"
+        },
+        {
+          "text": "tell",
+          "start": 59.741,
+          "end": 59.94,
+          "line": "pick-director"
+        },
+        {
+          "text": "Claude",
+          "start": 60.012,
+          "end": 60.239,
+          "line": "pick-director"
+        },
+        {
+          "text": "you're",
+          "start": 60.276,
+          "end": 60.381,
+          "line": "pick-director"
+        },
+        {
+          "text": "done.",
+          "start": 60.431,
+          "end": 60.842,
+          "line": "pick-director"
+        },
+        {
+          "text": "It",
+          "start": 61.25,
+          "end": 61.323,
+          "line": "pick-director"
+        },
+        {
+          "text": "runs",
+          "start": 61.37,
+          "end": 61.58,
+          "line": "pick-director"
+        },
+        {
+          "text": "studio",
+          "start": 61.63,
+          "end": 62.048,
+          "line": "pick-director"
+        },
+        {
+          "text": "feedback,",
+          "start": 62.12,
+          "end": 62.668,
+          "line": "pick-director"
+        },
+        {
+          "text": "reads",
+          "start": 62.822,
+          "end": 63.065,
+          "line": "pick-director"
+        },
+        {
+          "text": "your",
+          "start": 63.094,
+          "end": 63.201,
+          "line": "pick-director"
+        },
+        {
+          "text": "pick",
+          "start": 63.252,
+          "end": 63.476,
+          "line": "pick-director"
+        },
+        {
+          "text": "and",
+          "start": 63.522,
+          "end": 63.588,
+          "line": "pick-director"
+        },
+        {
+          "text": "your",
+          "start": 63.617,
+          "end": 63.705,
+          "line": "pick-director"
+        },
+        {
+          "text": "note,",
+          "start": 63.755,
+          "end": 64.013,
+          "line": "pick-director"
+        },
+        {
+          "text": "and",
+          "start": 64.092,
+          "end": 64.227,
+          "line": "pick-director"
+        },
+        {
+          "text": "builds",
+          "start": 64.312,
+          "end": 64.533,
+          "line": "pick-director"
+        },
+        {
+          "text": "from",
+          "start": 64.573,
+          "end": 64.678,
+          "line": "pick-director"
+        },
+        {
+          "text": "your",
+          "start": 64.709,
+          "end": 64.804,
+          "line": "pick-director"
+        },
+        {
+          "text": "choice.",
+          "start": 64.832,
+          "end": 65.332,
+          "line": "pick-director"
+        }
+      ]
+    },
+    {
+      "id": "recap",
+      "index": 13,
+      "text": "Open, compare, react, pick. The full guide is the studio reference, in the showtime skill.",
+      "source_text": "Open, compare, react, pick. The full guide is the studio reference, in the showtime skill.",
+      "voice": "bf_emma",
+      "engine": "kokoro",
+      "lang": "en-gb",
+      "speed": 0.936,
+      "style": "neutral",
+      "start": 66.392,
+      "end": 72.081,
+      "duration": 5.689,
+      "speech_start": 66.412,
+      "speech_end": 71.671,
+      "pause_after": 0.4,
+      "slot": {
+        "start": 66.392,
+        "end": 73.0,
+        "duration": 6.608
+      },
+      "file": "lines/13-recap.wav",
+      "timing": "exact",
+      "wps": 2.852,
+      "words": [
+        {
+          "text": "Open,",
+          "start": 66.412,
+          "end": 66.787,
+          "line": "recap"
+        },
+        {
+          "text": "compare,",
+          "start": 66.864,
+          "end": 67.312,
+          "line": "recap"
+        },
+        {
+          "text": "react,",
+          "start": 67.387,
+          "end": 67.769,
+          "line": "recap"
+        },
+        {
+          "text": "pick.",
+          "start": 67.909,
+          "end": 68.322,
+          "line": "recap"
+        },
+        {
+          "text": "The",
+          "start": 68.707,
+          "end": 68.765,
+          "line": "recap"
+        },
+        {
+          "text": "full",
+          "start": 68.792,
+          "end": 68.999,
+          "line": "recap"
+        },
+        {
+          "text": "guide",
+          "start": 69.051,
+          "end": 69.342,
+          "line": "recap"
+        },
+        {
+          "text": "is",
+          "start": 69.376,
+          "end": 69.458,
+          "line": "recap"
+        },
+        {
+          "text": "the",
+          "start": 69.49,
+          "end": 69.546,
+          "line": "recap"
+        },
+        {
+          "text": "studio",
+          "start": 69.598,
+          "end": 70.021,
+          "line": "recap"
+        },
+        {
+          "text": "reference,",
+          "start": 70.066,
+          "end": 70.493,
+          "line": "recap"
+        },
+        {
+          "text": "in",
+          "start": 70.547,
+          "end": 70.632,
+          "line": "recap"
+        },
+        {
+          "text": "the",
+          "start": 70.632,
+          "end": 70.691,
+          "line": "recap"
+        },
+        {
+          "text": "showtime",
+          "start": 70.762,
+          "end": 71.229,
+          "line": "recap"
+        },
+        {
+          "text": "skill.",
+          "start": 71.282,
+          "end": 71.671,
+          "line": "recap"
+        }
+      ]
+    }
+  ],
+  "words": [
+    {
+      "text": "In",
+      "start": 0.03,
+      "end": 0.133,
+      "line": "preview"
+    },
+    {
+      "text": "one",
+      "start": 0.184,
+      "end": 0.338,
+      "line": "preview"
+    },
+    {
+      "text": "minute,",
+      "start": 0.369,
+      "end": 0.658,
+      "line": "preview"
+    },
+    {
+      "text": "you'll",
+      "start": 0.75,
+      "end": 0.934,
+      "line": "preview"
+    },
+    {
+      "text": "have",
+      "start": 0.959,
+      "end": 1.039,
+      "line": "preview"
+    },
+    {
+      "text": "picked",
+      "start": 1.1,
+      "end": 1.299,
+      "line": "preview"
+    },
+    {
+      "text": "a",
+      "start": 1.325,
+      "end": 1.355,
+      "line": "preview"
+    },
+    {
+      "text": "direction,",
+      "start": 1.401,
+      "end": 2.078,
+      "line": "preview"
+    },
+    {
+      "text": "and",
+      "start": 2.18,
+      "end": 2.312,
+      "line": "preview"
+    },
+    {
+      "text": "left",
+      "start": 2.363,
+      "end": 2.574,
+      "line": "preview"
+    },
+    {
+      "text": "a",
+      "start": 2.601,
+      "end": 2.637,
+      "line": "preview"
+    },
+    {
+      "text": "note.",
+      "start": 2.688,
+      "end": 3.097,
+      "line": "preview"
+    },
+    {
+      "text": "Step",
+      "start": 4.187,
+      "end": 4.462,
+      "line": "open-cmd"
+    },
+    {
+      "text": "one:",
+      "start": 4.487,
+      "end": 4.766,
+      "line": "open-cmd"
+    },
+    {
+      "text": "open",
+      "start": 4.937,
+      "end": 5.233,
+      "line": "open-cmd"
+    },
+    {
+      "text": "the",
+      "start": 5.263,
+      "end": 5.315,
+      "line": "open-cmd"
+    },
+    {
+      "text": "board.",
+      "start": 5.397,
+      "end": 5.817,
+      "line": "open-cmd"
+    },
+    {
+      "text": "Claude",
+      "start": 6.254,
+      "end": 6.526,
+      "line": "open-cmd"
+    },
+    {
+      "text": "runs",
+      "start": 6.576,
+      "end": 6.799,
+      "line": "open-cmd"
+    },
+    {
+      "text": "showtime",
+      "start": 6.868,
+      "end": 7.281,
+      "line": "open-cmd"
+    },
+    {
+      "text": "studio",
+      "start": 7.332,
+      "end": 7.742,
+      "line": "open-cmd"
+    },
+    {
+      "text": "open,",
+      "start": 7.784,
+      "end": 8.178,
+      "line": "open-cmd"
+    },
+    {
+      "text": "and",
+      "start": 8.357,
+      "end": 8.435,
+      "line": "open-cmd"
+    },
+    {
+      "text": "gives",
+      "start": 8.507,
+      "end": 8.656,
+      "line": "open-cmd"
+    },
+    {
+      "text": "you",
+      "start": 8.687,
+      "end": 8.765,
+      "line": "open-cmd"
+    },
+    {
+      "text": "a",
+      "start": 8.791,
+      "end": 8.821,
+      "line": "open-cmd"
+    },
+    {
+      "text": "private,",
+      "start": 8.907,
+      "end": 9.256,
+      "line": "open-cmd"
+    },
+    {
+      "text": "local",
+      "start": 9.377,
+      "end": 9.732,
+      "line": "open-cmd"
+    },
+    {
+      "text": "link.",
+      "start": 9.783,
+      "end": 10.124,
+      "line": "open-cmd"
+    },
+    {
+      "text": "The",
+      "start": 10.964,
+      "end": 11.003,
+      "line": "open-board"
+    },
+    {
+      "text": "link",
+      "start": 11.054,
+      "end": 11.273,
+      "line": "open-board"
+    },
+    {
+      "text": "opens",
+      "start": 11.324,
+      "end": 11.693,
+      "line": "open-board"
+    },
+    {
+      "text": "the",
+      "start": 11.728,
+      "end": 11.783,
+      "line": "open-board"
+    },
+    {
+      "text": "board",
+      "start": 11.854,
+      "end": 12.087,
+      "line": "open-board"
+    },
+    {
+      "text": "in",
+      "start": 12.117,
+      "end": 12.173,
+      "line": "open-board"
+    },
+    {
+      "text": "your",
+      "start": 12.202,
+      "end": 12.292,
+      "line": "open-board"
+    },
+    {
+      "text": "browser.",
+      "start": 12.334,
+      "end": 12.884,
+      "line": "open-board"
+    },
+    {
+      "text": "Each",
+      "start": 13.454,
+      "end": 13.693,
+      "line": "open-board"
+    },
+    {
+      "text": "concept",
+      "start": 13.724,
+      "end": 14.214,
+      "line": "open-board"
+    },
+    {
+      "text": "is",
+      "start": 14.246,
+      "end": 14.32,
+      "line": "open-board"
+    },
+    {
+      "text": "a",
+      "start": 14.349,
+      "end": 14.382,
+      "line": "open-board"
+    },
+    {
+      "text": "card,",
+      "start": 14.439,
+      "end": 14.854,
+      "line": "open-board"
+    },
+    {
+      "text": "with",
+      "start": 15.064,
+      "end": 15.209,
+      "line": "open-board"
+    },
+    {
+      "text": "style",
+      "start": 15.259,
+      "end": 15.585,
+      "line": "open-board"
+    },
+    {
+      "text": "frames,",
+      "start": 15.647,
+      "end": 16.07,
+      "line": "open-board"
+    },
+    {
+      "text": "a",
+      "start": 16.143,
+      "end": 16.184,
+      "line": "open-board"
+    },
+    {
+      "text": "hook,",
+      "start": 16.235,
+      "end": 16.504,
+      "line": "open-board"
+    },
+    {
+      "text": "a",
+      "start": 16.694,
+      "end": 16.724,
+      "line": "open-board"
+    },
+    {
+      "text": "palette,",
+      "start": 16.741,
+      "end": 17.024,
+      "line": "open-board"
+    },
+    {
+      "text": "and",
+      "start": 17.227,
+      "end": 17.304,
+      "line": "open-board"
+    },
+    {
+      "text": "a",
+      "start": 17.329,
+      "end": 17.359,
+      "line": "open-board"
+    },
+    {
+      "text": "music",
+      "start": 17.392,
+      "end": 17.694,
+      "line": "open-board"
+    },
+    {
+      "text": "sketch.",
+      "start": 17.784,
+      "end": 18.169,
+      "line": "open-board"
+    },
+    {
+      "text": "Step",
+      "start": 19.279,
+      "end": 19.551,
+      "line": "compare-frames"
+    },
+    {
+      "text": "two:",
+      "start": 19.599,
+      "end": 19.83,
+      "line": "compare-frames"
+    },
+    {
+      "text": "compare.",
+      "start": 20.019,
+      "end": 20.599,
+      "line": "compare-frames"
+    },
+    {
+      "text": "Click",
+      "start": 20.928,
+      "end": 21.113,
+      "line": "compare-frames"
+    },
+    {
+      "text": "the",
+      "start": 21.148,
+      "end": 21.212,
+      "line": "compare-frames"
+    },
+    {
+      "text": "thumbnails",
+      "start": 21.266,
+      "end": 21.797,
+      "line": "compare-frames"
+    },
+    {
+      "text": "to",
+      "start": 21.869,
+      "end": 21.914,
+      "line": "compare-frames"
+    },
+    {
+      "text": "step",
+      "start": 21.957,
+      "end": 22.202,
+      "line": "compare-frames"
+    },
+    {
+      "text": "through",
+      "start": 22.219,
+      "end": 22.411,
+      "line": "compare-frames"
+    },
+    {
+      "text": "a",
+      "start": 22.442,
+      "end": 22.472,
+      "line": "compare-frames"
+    },
+    {
+      "text": "concept's",
+      "start": 22.549,
+      "end": 23.025,
+      "line": "compare-frames"
+    },
+    {
+      "text": "style",
+      "start": 23.07,
+      "end": 23.404,
+      "line": "compare-frames"
+    },
+    {
+      "text": "frames.",
+      "start": 23.458,
+      "end": 24.015,
+      "line": "compare-frames"
+    },
+    {
+      "text": "Press",
+      "start": 24.865,
+      "end": 25.097,
+      "line": "compare-bed"
+    },
+    {
+      "text": "play",
+      "start": 25.165,
+      "end": 25.377,
+      "line": "compare-bed"
+    },
+    {
+      "text": "to",
+      "start": 25.428,
+      "end": 25.496,
+      "line": "compare-bed"
+    },
+    {
+      "text": "hear",
+      "start": 25.548,
+      "end": 25.766,
+      "line": "compare-bed"
+    },
+    {
+      "text": "its",
+      "start": 25.799,
+      "end": 25.924,
+      "line": "compare-bed"
+    },
+    {
+      "text": "music",
+      "start": 25.975,
+      "end": 26.289,
+      "line": "compare-bed"
+    },
+    {
+      "text": "sketch:",
+      "start": 26.34,
+      "end": 26.855,
+      "line": "compare-bed"
+    },
+    {
+      "text": "ten",
+      "start": 27.235,
+      "end": 27.418,
+      "line": "compare-bed"
+    },
+    {
+      "text": "seconds",
+      "start": 27.482,
+      "end": 27.813,
+      "line": "compare-bed"
+    },
+    {
+      "text": "of",
+      "start": 27.839,
+      "end": 27.918,
+      "line": "compare-bed"
+    },
+    {
+      "text": "the",
+      "start": 27.918,
+      "end": 27.972,
+      "line": "compare-bed"
+    },
+    {
+      "text": "bed",
+      "start": 28.024,
+      "end": 28.226,
+      "line": "compare-bed"
+    },
+    {
+      "text": "it",
+      "start": 28.257,
+      "end": 28.316,
+      "line": "compare-bed"
+    },
+    {
+      "text": "would",
+      "start": 28.346,
+      "end": 28.448,
+      "line": "compare-bed"
+    },
+    {
+      "text": "use.",
+      "start": 28.5,
+      "end": 28.978,
+      "line": "compare-bed"
+    },
+    {
+      "text": "Further",
+      "start": 29.818,
+      "end": 30.125,
+      "line": "compare-wipe"
+    },
+    {
+      "text": "down,",
+      "start": 30.177,
+      "end": 30.531,
+      "line": "compare-wipe"
+    },
+    {
+      "text": "Compare",
+      "start": 30.718,
+      "end": 31.057,
+      "line": "compare-wipe"
+    },
+    {
+      "text": "puts",
+      "start": 31.108,
+      "end": 31.309,
+      "line": "compare-wipe"
+    },
+    {
+      "text": "two",
+      "start": 31.348,
+      "end": 31.493,
+      "line": "compare-wipe"
+    },
+    {
+      "text": "concepts",
+      "start": 31.544,
+      "end": 32.007,
+      "line": "compare-wipe"
+    },
+    {
+      "text": "side",
+      "start": 32.058,
+      "end": 32.325,
+      "line": "compare-wipe"
+    },
+    {
+      "text": "by",
+      "start": 32.348,
+      "end": 32.537,
+      "line": "compare-wipe"
+    },
+    {
+      "text": "side.",
+      "start": 32.605,
+      "end": 33.028,
+      "line": "compare-wipe"
+    },
+    {
+      "text": "Drag",
+      "start": 33.568,
+      "end": 33.814,
+      "line": "compare-wipe"
+    },
+    {
+      "text": "across",
+      "start": 33.845,
+      "end": 34.127,
+      "line": "compare-wipe"
+    },
+    {
+      "text": "the",
+      "start": 34.165,
+      "end": 34.222,
+      "line": "compare-wipe"
+    },
+    {
+      "text": "frame",
+      "start": 34.278,
+      "end": 34.555,
+      "line": "compare-wipe"
+    },
+    {
+      "text": "to",
+      "start": 34.607,
+      "end": 34.683,
+      "line": "compare-wipe"
+    },
+    {
+      "text": "wipe",
+      "start": 34.734,
+      "end": 35.007,
+      "line": "compare-wipe"
+    },
+    {
+      "text": "from",
+      "start": 35.058,
+      "end": 35.202,
+      "line": "compare-wipe"
+    },
+    {
+      "text": "one",
+      "start": 35.253,
+      "end": 35.435,
+      "line": "compare-wipe"
+    },
+    {
+      "text": "to",
+      "start": 35.486,
+      "end": 35.516,
+      "line": "compare-wipe"
+    },
+    {
+      "text": "the",
+      "start": 35.516,
+      "end": 35.656,
+      "line": "compare-wipe"
+    },
+    {
+      "text": "other.",
+      "start": 35.706,
+      "end": 36.003,
+      "line": "compare-wipe"
+    },
+    {
+      "text": "Step",
+      "start": 37.093,
+      "end": 37.359,
+      "line": "react-like"
+    },
+    {
+      "text": "three:",
+      "start": 37.414,
+      "end": 37.67,
+      "line": "react-like"
+    },
+    {
+      "text": "react.",
+      "start": 37.746,
+      "end": 38.283,
+      "line": "react-like"
+    },
+    {
+      "text": "Press",
+      "start": 38.521,
+      "end": 38.752,
+      "line": "react-like"
+    },
+    {
+      "text": "L",
+      "start": 38.804,
+      "end": 38.958,
+      "line": "react-like"
+    },
+    {
+      "text": "to",
+      "start": 39.01,
+      "end": 39.066,
+      "line": "react-like"
+    },
+    {
+      "text": "like",
+      "start": 39.101,
+      "end": 39.25,
+      "line": "react-like"
+    },
+    {
+      "text": "the",
+      "start": 39.279,
+      "end": 39.33,
+      "line": "react-like"
+    },
+    {
+      "text": "concept",
+      "start": 39.382,
+      "end": 39.848,
+      "line": "react-like"
+    },
+    {
+      "text": "in",
+      "start": 39.879,
+      "end": 39.975,
+      "line": "react-like"
+    },
+    {
+      "text": "focus,",
+      "start": 40.027,
+      "end": 40.48,
+      "line": "react-like"
+    },
+    {
+      "text": "or",
+      "start": 40.625,
+      "end": 40.702,
+      "line": "react-like"
+    },
+    {
+      "text": "click",
+      "start": 40.723,
+      "end": 40.963,
+      "line": "react-like"
+    },
+    {
+      "text": "the",
+      "start": 41.001,
+      "end": 41.056,
+      "line": "react-like"
+    },
+    {
+      "text": "heart.",
+      "start": 41.108,
+      "end": 41.53,
+      "line": "react-like"
+    },
+    {
+      "text": "Press",
+      "start": 42.38,
+      "end": 42.564,
+      "line": "react-note"
+    },
+    {
+      "text": "C",
+      "start": 42.615,
+      "end": 42.764,
+      "line": "react-note"
+    },
+    {
+      "text": "to",
+      "start": 42.815,
+      "end": 42.873,
+      "line": "react-note"
+    },
+    {
+      "text": "leave",
+      "start": 42.921,
+      "end": 43.086,
+      "line": "react-note"
+    },
+    {
+      "text": "a",
+      "start": 43.111,
+      "end": 43.143,
+      "line": "react-note"
+    },
+    {
+      "text": "note,",
+      "start": 43.194,
+      "end": 43.43,
+      "line": "react-note"
+    },
+    {
+      "text": "in",
+      "start": 43.622,
+      "end": 43.679,
+      "line": "react-note"
+    },
+    {
+      "text": "your",
+      "start": 43.709,
+      "end": 43.814,
+      "line": "react-note"
+    },
+    {
+      "text": "own",
+      "start": 43.846,
+      "end": 44.023,
+      "line": "react-note"
+    },
+    {
+      "text": "words.",
+      "start": 44.074,
+      "end": 44.53,
+      "line": "react-note"
+    },
+    {
+      "text": "Rough",
+      "start": 44.83,
+      "end": 45.088,
+      "line": "react-note"
+    },
+    {
+      "text": "is",
+      "start": 45.129,
+      "end": 45.231,
+      "line": "react-note"
+    },
+    {
+      "text": "fine.",
+      "start": 45.283,
+      "end": 45.708,
+      "line": "react-note"
+    },
+    {
+      "text": "Control",
+      "start": 46.528,
+      "end": 46.974,
+      "line": "react-send"
+    },
+    {
+      "text": "Enter",
+      "start": 47.016,
+      "end": 47.299,
+      "line": "react-send"
+    },
+    {
+      "text": "sends",
+      "start": 47.376,
+      "end": 47.682,
+      "line": "react-send"
+    },
+    {
+      "text": "it.",
+      "start": 47.758,
+      "end": 47.978,
+      "line": "react-send"
+    },
+    {
+      "text": "Every",
+      "start": 48.378,
+      "end": 48.63,
+      "line": "react-send"
+    },
+    {
+      "text": "reaction",
+      "start": 48.682,
+      "end": 49.138,
+      "line": "react-send"
+    },
+    {
+      "text": "is",
+      "start": 49.175,
+      "end": 49.246,
+      "line": "react-send"
+    },
+    {
+      "text": "saved",
+      "start": 49.322,
+      "end": 49.618,
+      "line": "react-send"
+    },
+    {
+      "text": "to",
+      "start": 49.658,
+      "end": 49.72,
+      "line": "react-send"
+    },
+    {
+      "text": "the",
+      "start": 49.752,
+      "end": 49.81,
+      "line": "react-send"
+    },
+    {
+      "text": "job",
+      "start": 49.868,
+      "end": 50.159,
+      "line": "react-send"
+    },
+    {
+      "text": "as",
+      "start": 50.208,
+      "end": 50.292,
+      "line": "react-send"
+    },
+    {
+      "text": "you",
+      "start": 50.342,
+      "end": 50.421,
+      "line": "react-send"
+    },
+    {
+      "text": "go.",
+      "start": 50.458,
+      "end": 50.853,
+      "line": "react-send"
+    },
+    {
+      "text": "Step",
+      "start": 51.943,
+      "end": 52.226,
+      "line": "pick-click"
+    },
+    {
+      "text": "four:",
+      "start": 52.277,
+      "end": 52.493,
+      "line": "pick-click"
+    },
+    {
+      "text": "pick.",
+      "start": 52.683,
+      "end": 52.963,
+      "line": "pick-click"
+    },
+    {
+      "text": "Click",
+      "start": 53.303,
+      "end": 53.518,
+      "line": "pick-click"
+    },
+    {
+      "text": "Pick",
+      "start": 53.563,
+      "end": 53.729,
+      "line": "pick-click"
+    },
+    {
+      "text": "on",
+      "start": 53.759,
+      "end": 53.846,
+      "line": "pick-click"
+    },
+    {
+      "text": "the",
+      "start": 53.846,
+      "end": 53.897,
+      "line": "pick-click"
+    },
+    {
+      "text": "direction",
+      "start": 53.943,
+      "end": 54.444,
+      "line": "pick-click"
+    },
+    {
+      "text": "you",
+      "start": 54.483,
+      "end": 54.561,
+      "line": "pick-click"
+    },
+    {
+      "text": "want.",
+      "start": 54.613,
+      "end": 55.03,
+      "line": "pick-click"
+    },
+    {
+      "text": "Press",
+      "start": 55.88,
+      "end": 56.101,
+      "line": "pick-review"
+    },
+    {
+      "text": "the",
+      "start": 56.17,
+      "end": 56.214,
+      "line": "pick-review"
+    },
+    {
+      "text": "full",
+      "start": 56.283,
+      "end": 56.484,
+      "line": "pick-review"
+    },
+    {
+      "text": "stop",
+      "start": 56.537,
+      "end": 56.804,
+      "line": "pick-review"
+    },
+    {
+      "text": "key",
+      "start": 56.86,
+      "end": 57.07,
+      "line": "pick-review"
+    },
+    {
+      "text": "to",
+      "start": 57.123,
+      "end": 57.181,
+      "line": "pick-review"
+    },
+    {
+      "text": "review",
+      "start": 57.224,
+      "end": 57.502,
+      "line": "pick-review"
+    },
+    {
+      "text": "everything",
+      "start": 57.52,
+      "end": 58.012,
+      "line": "pick-review"
+    },
+    {
+      "text": "you've",
+      "start": 58.064,
+      "end": 58.204,
+      "line": "pick-review"
+    },
+    {
+      "text": "sent.",
+      "start": 58.264,
+      "end": 58.691,
+      "line": "pick-review"
+    },
+    {
+      "text": "Then",
+      "start": 59.522,
+      "end": 59.69,
+      "line": "pick-director"
+    },
+    {
+      "text": "tell",
+      "start": 59.741,
+      "end": 59.94,
+      "line": "pick-director"
+    },
+    {
+      "text": "Claude",
+      "start": 60.012,
+      "end": 60.239,
+      "line": "pick-director"
+    },
+    {
+      "text": "you're",
+      "start": 60.276,
+      "end": 60.381,
+      "line": "pick-director"
+    },
+    {
+      "text": "done.",
+      "start": 60.431,
+      "end": 60.842,
+      "line": "pick-director"
+    },
+    {
+      "text": "It",
+      "start": 61.25,
+      "end": 61.323,
+      "line": "pick-director"
+    },
+    {
+      "text": "runs",
+      "start": 61.37,
+      "end": 61.58,
+      "line": "pick-director"
+    },
+    {
+      "text": "studio",
+      "start": 61.63,
+      "end": 62.048,
+      "line": "pick-director"
+    },
+    {
+      "text": "feedback,",
+      "start": 62.12,
+      "end": 62.668,
+      "line": "pick-director"
+    },
+    {
+      "text": "reads",
+      "start": 62.822,
+      "end": 63.065,
+      "line": "pick-director"
+    },
+    {
+      "text": "your",
+      "start": 63.094,
+      "end": 63.201,
+      "line": "pick-director"
+    },
+    {
+      "text": "pick",
+      "start": 63.252,
+      "end": 63.476,
+      "line": "pick-director"
+    },
+    {
+      "text": "and",
+      "start": 63.522,
+      "end": 63.588,
+      "line": "pick-director"
+    },
+    {
+      "text": "your",
+      "start": 63.617,
+      "end": 63.705,
+      "line": "pick-director"
+    },
+    {
+      "text": "note,",
+      "start": 63.755,
+      "end": 64.013,
+      "line": "pick-director"
+    },
+    {
+      "text": "and",
+      "start": 64.092,
+      "end": 64.227,
+      "line": "pick-director"
+    },
+    {
+      "text": "builds",
+      "start": 64.312,
+      "end": 64.533,
+      "line": "pick-director"
+    },
+    {
+      "text": "from",
+      "start": 64.573,
+      "end": 64.678,
+      "line": "pick-director"
+    },
+    {
+      "text": "your",
+      "start": 64.709,
+      "end": 64.804,
+      "line": "pick-director"
+    },
+    {
+      "text": "choice.",
+      "start": 64.832,
+      "end": 65.332,
+      "line": "pick-director"
+    },
+    {
+      "text": "Open,",
+      "start": 66.412,
+      "end": 66.787,
+      "line": "recap"
+    },
+    {
+      "text": "compare,",
+      "start": 66.864,
+      "end": 67.312,
+      "line": "recap"
+    },
+    {
+      "text": "react,",
+      "start": 67.387,
+      "end": 67.769,
+      "line": "recap"
+    },
+    {
+      "text": "pick.",
+      "start": 67.909,
+      "end": 68.322,
+      "line": "recap"
+    },
+    {
+      "text": "The",
+      "start": 68.707,
+      "end": 68.765,
+      "line": "recap"
+    },
+    {
+      "text": "full",
+      "start": 68.792,
+      "end": 68.999,
+      "line": "recap"
+    },
+    {
+      "text": "guide",
+      "start": 69.051,
+      "end": 69.342,
+      "line": "recap"
+    },
+    {
+      "text": "is",
+      "start": 69.376,
+      "end": 69.458,
+      "line": "recap"
+    },
+    {
+      "text": "the",
+      "start": 69.49,
+      "end": 69.546,
+      "line": "recap"
+    },
+    {
+      "text": "studio",
+      "start": 69.598,
+      "end": 70.021,
+      "line": "recap"
+    },
+    {
+      "text": "reference,",
+      "start": 70.066,
+      "end": 70.493,
+      "line": "recap"
+    },
+    {
+      "text": "in",
+      "start": 70.547,
+      "end": 70.632,
+      "line": "recap"
+    },
+    {
+      "text": "the",
+      "start": 70.632,
+      "end": 70.691,
+      "line": "recap"
+    },
+    {
+      "text": "showtime",
+      "start": 70.762,
+      "end": 71.229,
+      "line": "recap"
+    },
+    {
+      "text": "skill.",
+      "start": 71.282,
+      "end": 71.671,
+      "line": "recap"
+    }
+  ],
+  "captions": {
+    "srt": "vo.srt",
+    "transcript": "vo.words.json",
+    "cues": 38
+  },
+  "build_seconds": 156.5,
+  "lexicon": [
+    "showtime:lib/st/voice/lexicon.json"
+  ],
+  "fit": {
+    "target": 73.0,
+    "before": 70.793,
+    "speed_factor": 0.936,
+    "pauses_trimmed": 0.0,
+    "tail_padded": 0.319,
+    "over": 0.0,
+    "under": 0.0,
+    "cut_words": 0,
+    "add_words": 0,
+    "tolerance": 0.73,
+    "words": 198,
+    "wps": 3.28,
+    "max_speed": 0.936,
+    "result": 73.0
+  }
+}

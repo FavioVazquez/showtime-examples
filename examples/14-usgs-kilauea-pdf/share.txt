@@ -1,0 +1,26 @@
+In 2018, Kīlauea's summit collapsed as its magma drained to the lower East Rift Zone, where fissure 8 sent a river of lava to the sea. A 75-second summary of the USGS preliminary report: the dates, the summit, the footage and the numbers.
+
+YouTube
+Title: Kīlauea 2018 in 75 seconds: the summit collapse and fissure 8 (USGS summary)
+Description: Lava covered 13.7 square miles and Hawaiʻi County counted 716 dwellings destroyed. This summary follows the USGS Hawaiian Volcano Observatory's two-page preliminary report (September 2018): the chronology, the summit collapse, fissure 8 and the 2018 statistics. Figures are preliminary, as published in September 2018.
+Chapters:
+0:00 Kīlauea, 2018, and the source
+0:15 How it started
+0:25 The summit collapse
+0:40 Fissure 8
+0:50 The numbers
+1:04 How it ended
+Source: USGS Hawaiian Volcano Observatory, "Preliminary summary of Kīlauea Volcano's 2018 lower East Rift Zone eruption and summit collapse", September 2018 (public domain). Video: USGS Volcano Hazards Program (public domain). Not endorsed by USGS. Summit cross-section redrawn from the USGS figure.
+Narration is a synthetic voice (Kokoro, af_sarah). Spanish version with subtitles available.
+
+LinkedIn
+Kīlauea's 2018 summit collapse and eruption, in 75 seconds, from the USGS preliminary summary.
+13.7 square miles covered by lava. 716 dwellings destroyed (per Hawaiʻi County). 875 acres of new land. About 60,000 earthquakes.
+Source: USGS Hawaiian Volcano Observatory, Sept 2018 (public domain). Not endorsed by USGS.
+
+X (≤280)
+Kīlauea, 2018: the summit sank more than 500 m while fissure 8 sent lava to the sea at Kapoho Bay. 75 seconds from the USGS preliminary summary (public domain).
+
+GitHub README
+Caption: A 75-second narrated summary of a two-page USGS PDF, with stabilised and graded USGS footage, a redrawn cross-section and a Spanish version with burned subtitles, made with showtime.
+Alt text: Aerial footage of a glowing lava channel under the title "Kīlauea, 2018", then a globe turning to Hawaiʻi, the USGS report page, a chronology, a summit cross-section, fissure 8 fountaining, a USGS map of the lava channel reaching the ocean at Kapoho, four statistics and a date ruler ending on Sept 22.

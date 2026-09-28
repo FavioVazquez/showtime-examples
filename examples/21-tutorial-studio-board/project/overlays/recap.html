@@ -1,0 +1,48 @@
+<!doctype html>
+<!-- Recap card (8.2 s): the four steps tick as the voice names them, then where the full guide lives.
+     Cues = output time of each word minus 66.8 s (the card's start). -->
+<html lang="en"><head><meta charset="utf-8">
+<script src="/_st/stage.js"></script>
+<link rel="stylesheet" href="cc.css">
+<link rel="stylesheet" href="/_st/components/components.css">
+<style>
+  .wrap { position: absolute; left: 12cqw; right: 10cqw; top: 15cqh; display: grid; grid-template-columns: 1fr 1fr; gap: 6cqw; align-items: start; }
+  h1 { font: 900 7.2cqmin/1 var(--font-display); letter-spacing: -0.01em; margin: 1.6cqmin 0 4cqmin; color: var(--fg); }
+  .st-steps-list .st-step { font: 600 4.3cqmin var(--font-body); color: var(--fg); margin-bottom: 2.1cqmin; }
+  .st-step-box { border-color: var(--accent) !important; }
+  .guide { margin-top: 7.2cqmin; opacity: 0; }
+  .guide .path { font: 500 3.3cqmin var(--font-mono); color: var(--fg); background: var(--surface); border: var(--stroke) solid var(--border);
+                 border-radius: 1cqmin; padding: 1.4cqmin 2cqmin; display: inline-block; margin-top: 1.8cqmin; }
+  .guide p { font: 400 2.5cqmin/1.45 var(--font-body); color: var(--muted); margin: 2cqmin 0 0; }
+  .logo { position: absolute; left: 50%; bottom: 8cqh; height: 7.5cqh; transform: translateX(-50%); opacity: 0; }
+</style>
+</head><body>
+<section class="scene" data-start="0" data-dur="8.2" style="padding:0">
+  <div class="stage-bg"></div>
+  <div class="wrap">
+    <div>
+      <div class="eyebrow">Recap</div>
+      <h1>four steps</h1>
+      <div data-st="steps" data-variant="list" data-steps='["Open the board","Compare the concepts","React: like, add a note","Pick, then tell Claude"]' data-cues='[0.08,0.55,1.08,1.6]'></div>
+    </div>
+    <div class="guide" id="guide">
+      <div class="eyebrow">The full guide</div>
+      <div class="path">references/studio.md</div>
+      <p>in the showtime skill: phases, board format,<br>and every <span style="font-family:var(--font-mono)">studio</span> command</p>
+    </div>
+  </div>
+  <img class="logo" id="logo" src="assets/lockup-horizontal-on-dark.svg" alt="showtime">
+</section>
+<script type="module">
+import '/_st/components/index.js';
+const E = (x) => 1 - Math.pow(1 - Math.max(0, Math.min(1, x)), 3);
+const g = document.getElementById('guide'), logo = document.getElementById('logo');
+const wrap = document.querySelector('.wrap');
+ST.onSeek((t) => {
+  wrap.style.transform = `scale(${(1 + 0.045 * (t / 8.2)).toFixed(4)})`; wrap.style.transformOrigin = '30% 40%';   // a slow push across the card
+  const a = E((t - 2.25) / 0.5);
+  g.style.opacity = a.toFixed(3); g.style.transform = `translateY(${((1 - a) * 1.5).toFixed(2)}cqh)`;
+  logo.style.opacity = E((t - 4.3) / 0.6).toFixed(3);
+});
+</script>
+</body></html>

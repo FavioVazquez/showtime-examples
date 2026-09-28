@@ -1,0 +1,22 @@
+Tidepool trailer (20 s, 16:9). Tidepool is a fictional app, made as sample material for showtime.
+
+Default
+Everything you write stays on your device. A 20-second trailer for Tidepool, a local-first Markdown notebook. Every app shot is the real app, in macro, until the last few seconds.
+
+X (under 280 characters)
+Everything you write stays on your device.
+Tidepool: a local-first Markdown notebook. Sync: local only. (A fictional demo app.)
+
+LinkedIn
+Everything you write stays on your device.
+Tidepool is a small Markdown notebook that saves everything in your browser: no sign-up, nothing sent anywhere.
+Cmd+K finds any note as you type, and tasks tick right in the live preview.
+(Tidepool is a fictional app made as sample material for showtime.)
+
+YouTube
+Title: Tidepool: everything you write stays on your device (20 s trailer)
+Description: A trailer for a local-first Markdown notebook, shot as macro close-ups of the real app. Tidepool is fictional, built as showtime sample material.
+
+GitHub README
+Caption: A 20-second trailer for Tidepool, a fictional local-first notes app. It was made in showtime's studio mode: four concepts on a board, one picked and mixed with another, then a storyboard, an animatic and the final.
+Alt text: Macro close-ups of a dark teal notes app: "Sync: local only", a command palette finding "export", a task being checked and "Saved on this device", between serif title cards that read "Everything you write" and "stays on your device." The camera pulls back to show the whole app. The app sinks as the tide rises to a white wave line, a peach sun rises, and "Tidepool" appears with "Your notes, kept on your own machine."

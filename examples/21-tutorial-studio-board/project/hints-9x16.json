@@ -1,0 +1,4 @@
+[{"type": "drop", "t": 32.2, "end": 34.8},
+ {"type": "focus", "t": 31.9, "end": 37.6, "x": 720, "y": 457, "zoom": 1.0},
+ {"type": "drop", "t": 45.4, "end": 45.5},
+ {"type": "key", "t": 45.4667, "keys": ".", "label": ". full stop"}]

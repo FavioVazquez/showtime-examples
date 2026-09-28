@@ -1,0 +1,295 @@
+{
+  "source": "vo.wav",
+  "duration": 26.197,
+  "language": "en",
+  "model": "showtime-voice",
+  "words": [
+    {
+      "text": "No",
+      "start": 0.48,
+      "end": 0.714,
+      "type": "word",
+      "line": "watch"
+    },
+    {
+      "text": "one",
+      "start": 0.714,
+      "end": 0.99,
+      "type": "word",
+      "line": "watch"
+    },
+    {
+      "text": "would",
+      "start": 1.052,
+      "end": 1.154,
+      "type": "word",
+      "line": "watch"
+    },
+    {
+      "text": "have",
+      "start": 1.154,
+      "end": 1.25,
+      "type": "word",
+      "line": "watch"
+    },
+    {
+      "text": "believed",
+      "start": 1.303,
+      "end": 1.95,
+      "type": "word",
+      "line": "watch"
+    },
+    {
+      "text": "in",
+      "start": 2.08,
+      "end": 2.153,
+      "type": "word",
+      "line": "watch"
+    },
+    {
+      "text": "the",
+      "start": 2.153,
+      "end": 2.233,
+      "type": "word",
+      "line": "watch"
+    },
+    {
+      "text": "last",
+      "start": 2.304,
+      "end": 2.653,
+      "type": "word",
+      "line": "watch"
+    },
+    {
+      "text": "years",
+      "start": 2.71,
+      "end": 3.043,
+      "type": "word",
+      "line": "watch"
+    },
+    {
+      "text": "of",
+      "start": 3.081,
+      "end": 3.18,
+      "type": "word",
+      "line": "watch"
+    },
+    {
+      "text": "the",
+      "start": 3.18,
+      "end": 3.251,
+      "type": "word",
+      "line": "watch"
+    },
+    {
+      "text": "nineteenth",
+      "start": 3.305,
+      "end": 3.789,
+      "type": "word",
+      "line": "watch"
+    },
+    {
+      "text": "century",
+      "start": 3.853,
+      "end": 4.48,
+      "type": "word",
+      "line": "watch"
+    },
+    {
+      "text": "that",
+      "start": 4.842,
+      "end": 4.971,
+      "type": "word",
+      "line": "watch"
+    },
+    {
+      "text": "this",
+      "start": 5.05,
+      "end": 5.234,
+      "type": "word",
+      "line": "watch"
+    },
+    {
+      "text": "world",
+      "start": 5.313,
+      "end": 5.8,
+      "type": "word",
+      "line": "watch"
+    },
+    {
+      "text": "was",
+      "start": 5.886,
+      "end": 6.021,
+      "type": "word",
+      "line": "watch"
+    },
+    {
+      "text": "being",
+      "start": 6.1,
+      "end": 6.307,
+      "type": "word",
+      "line": "watch"
+    },
+    {
+      "text": "watched",
+      "start": 6.376,
+      "end": 6.685,
+      "type": "word",
+      "line": "watch"
+    },
+    {
+      "text": "keenly",
+      "start": 6.74,
+      "end": 7.34,
+      "type": "word",
+      "line": "watch"
+    },
+    {
+      "text": "and",
+      "start": 7.77,
+      "end": 7.849,
+      "type": "word",
+      "line": "watch"
+    },
+    {
+      "text": "closely",
+      "start": 7.906,
+      "end": 8.373,
+      "type": "word",
+      "line": "watch"
+    },
+    {
+      "text": "by",
+      "start": 8.426,
+      "end": 8.611,
+      "type": "word",
+      "line": "watch"
+    },
+    {
+      "text": "intelligences",
+      "start": 8.659,
+      "end": 9.64,
+      "type": "word",
+      "line": "watch"
+    },
+    {
+      "text": "greater",
+      "start": 9.74,
+      "end": 10.131,
+      "type": "word",
+      "line": "watch"
+    },
+    {
+      "text": "than",
+      "start": 10.184,
+      "end": 10.337,
+      "type": "word",
+      "line": "watch"
+    },
+    {
+      "text": "man’s",
+      "start": 10.391,
+      "end": 11.024,
+      "type": "word",
+      "line": "watch"
+    },
+    {
+      "text": "It",
+      "start": 20.37,
+      "end": 20.422,
+      "type": "word",
+      "line": "cost"
+    },
+    {
+      "text": "was",
+      "start": 20.46,
+      "end": 20.606,
+      "type": "word",
+      "line": "cost"
+    },
+    {
+      "text": "the",
+      "start": 20.606,
+      "end": 20.661,
+      "type": "word",
+      "line": "cost"
+    },
+    {
+      "text": "beginning",
+      "start": 20.706,
+      "end": 21.269,
+      "type": "word",
+      "line": "cost"
+    },
+    {
+      "text": "of",
+      "start": 21.34,
+      "end": 21.445,
+      "type": "word",
+      "line": "cost"
+    },
+    {
+      "text": "the",
+      "start": 21.445,
+      "end": 21.514,
+      "type": "word",
+      "line": "cost"
+    },
+    {
+      "text": "rout",
+      "start": 21.578,
+      "end": 21.842,
+      "type": "word",
+      "line": "cost"
+    },
+    {
+      "text": "of",
+      "start": 21.879,
+      "end": 21.957,
+      "type": "word",
+      "line": "cost"
+    },
+    {
+      "text": "civilisation,",
+      "start": 22.021,
+      "end": 22.98,
+      "type": "word",
+      "line": "cost"
+    },
+    {
+      "text": "of",
+      "start": 23.24,
+      "end": 23.38,
+      "type": "word",
+      "line": "cost"
+    },
+    {
+      "text": "the",
+      "start": 23.38,
+      "end": 23.451,
+      "type": "word",
+      "line": "cost"
+    },
+    {
+      "text": "massacre",
+      "start": 23.518,
+      "end": 24.11,
+      "type": "word",
+      "line": "cost"
+    },
+    {
+      "text": "of",
+      "start": 24.26,
+      "end": 24.372,
+      "type": "word",
+      "line": "cost"
+    },
+    {
+      "text": "mankind.",
+      "start": 24.423,
+      "end": 25.207,
+      "type": "word",
+      "line": "cost"
+    }
+  ]
+}

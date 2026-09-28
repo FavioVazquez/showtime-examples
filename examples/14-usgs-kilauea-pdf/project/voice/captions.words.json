@@ -1,0 +1,1112 @@
+{
+ "source": "timeline.json",
+ "note": "written by `showtime retime --from-voice`: word times in the video",
+ "words": [
+  {
+   "text": "In",
+   "start": 0.34,
+   "end": 0.41,
+   "type": "word",
+   "line": "hook"
+  },
+  {
+   "text": "2018,",
+   "start": 0.458,
+   "end": 1.25,
+   "type": "word",
+   "line": "hook"
+  },
+  {
+   "text": "Kīlauea's",
+   "start": 1.59,
+   "end": 2.196,
+   "type": "word",
+   "line": "hook"
+  },
+  {
+   "text": "summit",
+   "start": 2.269,
+   "end": 2.531,
+   "type": "word",
+   "line": "hook"
+  },
+  {
+   "text": "collapsed",
+   "start": 2.6,
+   "end": 3.16,
+   "type": "word",
+   "line": "hook"
+  },
+  {
+   "text": "as",
+   "start": 3.27,
+   "end": 3.34,
+   "type": "word",
+   "line": "hook"
+  },
+  {
+   "text": "its",
+   "start": 3.371,
+   "end": 3.498,
+   "type": "word",
+   "line": "hook"
+  },
+  {
+   "text": "magma",
+   "start": 3.547,
+   "end": 3.9,
+   "type": "word",
+   "line": "hook"
+  },
+  {
+   "text": "drained",
+   "start": 3.967,
+   "end": 4.206,
+   "type": "word",
+   "line": "hook"
+  },
+  {
+   "text": "away",
+   "start": 4.235,
+   "end": 4.548,
+   "type": "word",
+   "line": "hook"
+  },
+  {
+   "text": "to",
+   "start": 4.58,
+   "end": 4.655,
+   "type": "word",
+   "line": "hook"
+  },
+  {
+   "text": "the",
+   "start": 4.684,
+   "end": 4.754,
+   "type": "word",
+   "line": "hook"
+  },
+  {
+   "text": "lower",
+   "start": 4.812,
+   "end": 5.092,
+   "type": "word",
+   "line": "hook"
+  },
+  {
+   "text": "East",
+   "start": 5.14,
+   "end": 5.383,
+   "type": "word",
+   "line": "hook"
+  },
+  {
+   "text": "Rift",
+   "start": 5.43,
+   "end": 5.609,
+   "type": "word",
+   "line": "hook"
+  },
+  {
+   "text": "Zone.",
+   "start": 5.656,
+   "end": 5.989,
+   "type": "word",
+   "line": "hook"
+  },
+  {
+   "text": "Kīlauea",
+   "start": 7.099,
+   "end": 7.784,
+   "type": "word",
+   "line": "where"
+  },
+  {
+   "text": "is",
+   "start": 7.846,
+   "end": 7.93,
+   "type": "word",
+   "line": "where"
+  },
+  {
+   "text": "on",
+   "start": 7.984,
+   "end": 8.058,
+   "type": "word",
+   "line": "where"
+  },
+  {
+   "text": "the",
+   "start": 8.058,
+   "end": 8.148,
+   "type": "word",
+   "line": "where"
+  },
+  {
+   "text": "Island",
+   "start": 8.179,
+   "end": 8.529,
+   "type": "word",
+   "line": "where"
+  },
+  {
+   "text": "of",
+   "start": 8.555,
+   "end": 8.604,
+   "type": "word",
+   "line": "where"
+  },
+  {
+   "text": "Hawaiʻi.",
+   "start": 8.632,
+   "end": 9.189,
+   "type": "word",
+   "line": "where"
+  },
+  {
+   "text": "This",
+   "start": 9.689,
+   "end": 9.86,
+   "type": "word",
+   "line": "where"
+  },
+  {
+   "text": "summary",
+   "start": 9.932,
+   "end": 10.292,
+   "type": "word",
+   "line": "where"
+  },
+  {
+   "text": "follows",
+   "start": 10.363,
+   "end": 10.695,
+   "type": "word",
+   "line": "where"
+  },
+  {
+   "text": "a",
+   "start": 10.736,
+   "end": 10.781,
+   "type": "word",
+   "line": "where"
+  },
+  {
+   "text": "two-page",
+   "start": 10.819,
+   "end": 11.304,
+   "type": "word",
+   "line": "where"
+  },
+  {
+   "text": "report",
+   "start": 11.341,
+   "end": 11.738,
+   "type": "word",
+   "line": "where"
+  },
+  {
+   "text": "by",
+   "start": 11.779,
+   "end": 11.905,
+   "type": "word",
+   "line": "where"
+  },
+  {
+   "text": "the",
+   "start": 11.933,
+   "end": 11.987,
+   "type": "word",
+   "line": "where"
+  },
+  {
+   "text": "U.S.",
+   "start": 12.054,
+   "end": 12.949,
+   "type": "word",
+   "line": "where"
+  },
+  {
+   "text": "Geological",
+   "start": 13.249,
+   "end": 13.968,
+   "type": "word",
+   "line": "where"
+  },
+  {
+   "text": "Survey.",
+   "start": 14.017,
+   "end": 14.466,
+   "type": "word",
+   "line": "where"
+  },
+  {
+   "text": "On",
+   "start": 15.596,
+   "end": 15.679,
+   "type": "word",
+   "line": "start"
+  },
+  {
+   "text": "April",
+   "start": 15.727,
+   "end": 16.006,
+   "type": "word",
+   "line": "start"
+  },
+  {
+   "text": "30,",
+   "start": 16.066,
+   "end": 16.466,
+   "type": "word",
+   "line": "start"
+  },
+  {
+   "text": "the",
+   "start": 16.586,
+   "end": 16.642,
+   "type": "word",
+   "line": "start"
+  },
+  {
+   "text": "Puʻu",
+   "start": 16.686,
+   "end": 16.982,
+   "type": "word",
+   "line": "start"
+  },
+  {
+   "text": "ʻŌʻō",
+   "start": 17.031,
+   "end": 17.377,
+   "type": "word",
+   "line": "start"
+  },
+  {
+   "text": "vent",
+   "start": 17.426,
+   "end": 17.626,
+   "type": "word",
+   "line": "start"
+  },
+  {
+   "text": "collapsed.",
+   "start": 17.666,
+   "end": 18.226,
+   "type": "word",
+   "line": "start"
+  },
+  {
+   "text": "Fissure",
+   "start": 18.766,
+   "end": 19.061,
+   "type": "word",
+   "line": "start"
+  },
+  {
+   "text": "eruptions",
+   "start": 19.109,
+   "end": 19.601,
+   "type": "word",
+   "line": "start"
+  },
+  {
+   "text": "began",
+   "start": 19.616,
+   "end": 19.951,
+   "type": "word",
+   "line": "start"
+  },
+  {
+   "text": "on",
+   "start": 19.982,
+   "end": 20.067,
+   "type": "word",
+   "line": "start"
+  },
+  {
+   "text": "May",
+   "start": 20.109,
+   "end": 20.273,
+   "type": "word",
+   "line": "start"
+  },
+  {
+   "text": "3,",
+   "start": 20.345,
+   "end": 20.656,
+   "type": "word",
+   "line": "start"
+  },
+  {
+   "text": "and",
+   "start": 20.946,
+   "end": 21.074,
+   "type": "word",
+   "line": "start"
+  },
+  {
+   "text": "the",
+   "start": 21.098,
+   "end": 21.146,
+   "type": "word",
+   "line": "start"
+  },
+  {
+   "text": "next",
+   "start": 21.19,
+   "end": 21.414,
+   "type": "word",
+   "line": "start"
+  },
+  {
+   "text": "day",
+   "start": 21.426,
+   "end": 21.704,
+   "type": "word",
+   "line": "start"
+  },
+  {
+   "text": "a",
+   "start": 21.775,
+   "end": 21.823,
+   "type": "word",
+   "line": "start"
+  },
+  {
+   "text": "magnitude",
+   "start": 21.876,
+   "end": 22.459,
+   "type": "word",
+   "line": "start"
+  },
+  {
+   "text": "6.9",
+   "start": 22.536,
+   "end": 23.318,
+   "type": "word",
+   "line": "start"
+  },
+  {
+   "text": "earthquake",
+   "start": 23.369,
+   "end": 23.771,
+   "type": "word",
+   "line": "start"
+  },
+  {
+   "text": "struck.",
+   "start": 23.82,
+   "end": 24.221,
+   "type": "word",
+   "line": "start"
+  },
+  {
+   "text": "Meanwhile,",
+   "start": 25.331,
+   "end": 25.875,
+   "type": "word",
+   "line": "summit"
+  },
+  {
+   "text": "the",
+   "start": 26.011,
+   "end": 26.102,
+   "type": "word",
+   "line": "summit"
+  },
+  {
+   "text": "summit",
+   "start": 26.172,
+   "end": 26.449,
+   "type": "word",
+   "line": "summit"
+  },
+  {
+   "text": "sank.",
+   "start": 26.521,
+   "end": 26.881,
+   "type": "word",
+   "line": "summit"
+  },
+  {
+   "text": "By",
+   "start": 27.401,
+   "end": 27.554,
+   "type": "word",
+   "line": "summit"
+  },
+  {
+   "text": "mid-May,",
+   "start": 27.604,
+   "end": 28.079,
+   "type": "word",
+   "line": "summit"
+  },
+  {
+   "text": "shaking",
+   "start": 28.301,
+   "end": 28.668,
+   "type": "word",
+   "line": "summit"
+  },
+  {
+   "text": "and",
+   "start": 28.719,
+   "end": 28.792,
+   "type": "word",
+   "line": "summit"
+  },
+  {
+   "text": "ground",
+   "start": 28.841,
+   "end": 29.135,
+   "type": "word",
+   "line": "summit"
+  },
+  {
+   "text": "tilt",
+   "start": 29.195,
+   "end": 29.491,
+   "type": "word",
+   "line": "summit"
+  },
+  {
+   "text": "had",
+   "start": 29.547,
+   "end": 29.676,
+   "type": "word",
+   "line": "summit"
+  },
+  {
+   "text": "forced",
+   "start": 29.74,
+   "end": 30.007,
+   "type": "word",
+   "line": "summit"
+  },
+  {
+   "text": "the",
+   "start": 30.038,
+   "end": 30.088,
+   "type": "word",
+   "line": "summit"
+  },
+  {
+   "text": "Hawaiian",
+   "start": 30.136,
+   "end": 30.548,
+   "type": "word",
+   "line": "summit"
+  },
+  {
+   "text": "Volcano",
+   "start": 30.595,
+   "end": 31.127,
+   "type": "word",
+   "line": "summit"
+  },
+  {
+   "text": "Observatory",
+   "start": 31.177,
+   "end": 31.884,
+   "type": "word",
+   "line": "summit"
+  },
+  {
+   "text": "out",
+   "start": 31.891,
+   "end": 32.092,
+   "type": "word",
+   "line": "summit"
+  },
+  {
+   "text": "of",
+   "start": 32.092,
+   "end": 32.122,
+   "type": "word",
+   "line": "summit"
+  },
+  {
+   "text": "its",
+   "start": 32.142,
+   "end": 32.253,
+   "type": "word",
+   "line": "summit"
+  },
+  {
+   "text": "building.",
+   "start": 32.261,
+   "end": 32.691,
+   "type": "word",
+   "line": "summit"
+  },
+  {
+   "text": "From",
+   "start": 33.261,
+   "end": 33.449,
+   "type": "word",
+   "line": "summit"
+  },
+  {
+   "text": "May",
+   "start": 33.497,
+   "end": 33.676,
+   "type": "word",
+   "line": "summit"
+  },
+  {
+   "text": "29,",
+   "start": 33.724,
+   "end": 34.311,
+   "type": "word",
+   "line": "summit"
+  },
+  {
+   "text": "the",
+   "start": 34.551,
+   "end": 34.68,
+   "type": "word",
+   "line": "summit"
+  },
+  {
+   "text": "summit",
+   "start": 34.753,
+   "end": 35.023,
+   "type": "word",
+   "line": "summit"
+  },
+  {
+   "text": "collapsed",
+   "start": 35.072,
+   "end": 35.494,
+   "type": "word",
+   "line": "summit"
+  },
+  {
+   "text": "almost",
+   "start": 35.511,
+   "end": 35.887,
+   "type": "word",
+   "line": "summit"
+  },
+  {
+   "text": "daily,",
+   "start": 35.891,
+   "end": 36.341,
+   "type": "word",
+   "line": "summit"
+  },
+  {
+   "text": "each",
+   "start": 36.691,
+   "end": 36.984,
+   "type": "word",
+   "line": "summit"
+  },
+  {
+   "text": "with",
+   "start": 37.022,
+   "end": 37.134,
+   "type": "word",
+   "line": "summit"
+  },
+  {
+   "text": "the",
+   "start": 37.134,
+   "end": 37.218,
+   "type": "word",
+   "line": "summit"
+  },
+  {
+   "text": "energy",
+   "start": 37.29,
+   "end": 37.663,
+   "type": "word",
+   "line": "summit"
+  },
+  {
+   "text": "of",
+   "start": 37.713,
+   "end": 37.841,
+   "type": "word",
+   "line": "summit"
+  },
+  {
+   "text": "a",
+   "start": 37.841,
+   "end": 37.891,
+   "type": "word",
+   "line": "summit"
+  },
+  {
+   "text": "magnitude",
+   "start": 37.891,
+   "end": 38.473,
+   "type": "word",
+   "line": "summit"
+  },
+  {
+   "text": "5",
+   "start": 38.541,
+   "end": 38.79,
+   "type": "word",
+   "line": "summit"
+  },
+  {
+   "text": "earthquake.",
+   "start": 38.839,
+   "end": 39.384,
+   "type": "word",
+   "line": "summit"
+  },
+  {
+   "text": "Down",
+   "start": 40.504,
+   "end": 40.655,
+   "type": "word",
+   "line": "fissure8"
+  },
+  {
+   "text": "the",
+   "start": 40.68,
+   "end": 40.728,
+   "type": "word",
+   "line": "fissure8"
+  },
+  {
+   "text": "rift,",
+   "start": 40.777,
+   "end": 41.184,
+   "type": "word",
+   "line": "fissure8"
+  },
+  {
+   "text": "fissure",
+   "start": 41.384,
+   "end": 41.63,
+   "type": "word",
+   "line": "fissure8"
+  },
+  {
+   "text": "8's",
+   "start": 41.678,
+   "end": 41.855,
+   "type": "word",
+   "line": "fissure8"
+  },
+  {
+   "text": "fountains",
+   "start": 41.903,
+   "end": 42.331,
+   "type": "word",
+   "line": "fissure8"
+  },
+  {
+   "text": "rose",
+   "start": 42.398,
+   "end": 42.652,
+   "type": "word",
+   "line": "fissure8"
+  },
+  {
+   "text": "200",
+   "start": 42.724,
+   "end": 43.215,
+   "type": "word",
+   "line": "fissure8"
+  },
+  {
+   "text": "feet",
+   "start": 43.283,
+   "end": 43.456,
+   "type": "word",
+   "line": "fissure8"
+  },
+  {
+   "text": "at",
+   "start": 43.499,
+   "end": 43.552,
+   "type": "word",
+   "line": "fissure8"
+  },
+  {
+   "text": "times.",
+   "start": 43.614,
+   "end": 44.115,
+   "type": "word",
+   "line": "fissure8"
+  },
+  {
+   "text": "Its",
+   "start": 45.345,
+   "end": 45.479,
+   "type": "word",
+   "line": "fissure8"
+  },
+  {
+   "text": "river",
+   "start": 45.528,
+   "end": 45.747,
+   "type": "word",
+   "line": "fissure8"
+  },
+  {
+   "text": "of",
+   "start": 45.774,
+   "end": 45.837,
+   "type": "word",
+   "line": "fissure8"
+  },
+  {
+   "text": "lava",
+   "start": 45.885,
+   "end": 46.335,
+   "type": "word",
+   "line": "fissure8"
+  },
+  {
+   "text": "reached",
+   "start": 46.465,
+   "end": 46.691,
+   "type": "word",
+   "line": "fissure8"
+  },
+  {
+   "text": "the",
+   "start": 46.715,
+   "end": 46.791,
+   "type": "word",
+   "line": "fissure8"
+  },
+  {
+   "text": "ocean",
+   "start": 46.84,
+   "end": 47.184,
+   "type": "word",
+   "line": "fissure8"
+  },
+  {
+   "text": "at",
+   "start": 47.249,
+   "end": 47.305,
+   "type": "word",
+   "line": "fissure8"
+  },
+  {
+   "text": "Kapoho",
+   "start": 47.355,
+   "end": 47.824,
+   "type": "word",
+   "line": "fissure8"
+  },
+  {
+   "text": "Bay",
+   "start": 47.872,
+   "end": 48.216,
+   "type": "word",
+   "line": "fissure8"
+  },
+  {
+   "text": "on",
+   "start": 48.325,
+   "end": 48.421,
+   "type": "word",
+   "line": "fissure8"
+  },
+  {
+   "text": "June",
+   "start": 48.469,
+   "end": 48.687,
+   "type": "word",
+   "line": "fissure8"
+  },
+  {
+   "text": "3.",
+   "start": 48.746,
+   "end": 49.052,
+   "type": "word",
+   "line": "fissure8"
+  },
+  {
+   "text": "Lava",
+   "start": 50.63,
+   "end": 50.92,
+   "type": "word",
+   "line": "numbers"
+  },
+  {
+   "text": "covered",
+   "start": 50.98,
+   "end": 51.248,
+   "type": "word",
+   "line": "numbers"
+  },
+  {
+   "text": "13.7",
+   "start": 51.35,
+   "end": 52.375,
+   "type": "word",
+   "line": "numbers"
+  },
+  {
+   "text": "square",
+   "start": 52.423,
+   "end": 52.686,
+   "type": "word",
+   "line": "numbers"
+  },
+  {
+   "text": "miles.",
+   "start": 52.734,
+   "end": 53.28,
+   "type": "word",
+   "line": "numbers"
+  },
+  {
+   "text": "Hawaiʻi",
+   "start": 53.765,
+   "end": 54.197,
+   "type": "word",
+   "line": "numbers"
+  },
+  {
+   "text": "County",
+   "start": 54.28,
+   "end": 54.658,
+   "type": "word",
+   "line": "numbers"
+  },
+  {
+   "text": "counted",
+   "start": 54.739,
+   "end": 55.093,
+   "type": "word",
+   "line": "numbers"
+  },
+  {
+   "text": "716",
+   "start": 55.165,
+   "end": 56.152,
+   "type": "word",
+   "line": "numbers"
+  },
+  {
+   "text": "homes",
+   "start": 56.2,
+   "end": 56.513,
+   "type": "word",
+   "line": "numbers"
+  },
+  {
+   "text": "destroyed.",
+   "start": 56.563,
+   "end": 57.22,
+   "type": "word",
+   "line": "numbers"
+  },
+  {
+   "text": "Ocean",
+   "start": 57.749,
+   "end": 58.077,
+   "type": "word",
+   "line": "numbers"
+  },
+  {
+   "text": "entries",
+   "start": 58.135,
+   "end": 58.503,
+   "type": "word",
+   "line": "numbers"
+  },
+  {
+   "text": "built",
+   "start": 58.552,
+   "end": 58.777,
+   "type": "word",
+   "line": "numbers"
+  },
+  {
+   "text": "875",
+   "start": 58.854,
+   "end": 60.039,
+   "type": "word",
+   "line": "numbers"
+  },
+  {
+   "text": "acres",
+   "start": 60.088,
+   "end": 60.435,
+   "type": "word",
+   "line": "numbers"
+  },
+  {
+   "text": "of",
+   "start": 60.472,
+   "end": 60.538,
+   "type": "word",
+   "line": "numbers"
+  },
+  {
+   "text": "new",
+   "start": 60.586,
+   "end": 60.699,
+   "type": "word",
+   "line": "numbers"
+  },
+  {
+   "text": "land,",
+   "start": 60.747,
+   "end": 61.16,
+   "type": "word",
+   "line": "numbers"
+  },
+  {
+   "text": "and",
+   "start": 61.53,
+   "end": 61.622,
+   "type": "word",
+   "line": "numbers"
+  },
+  {
+   "text": "about",
+   "start": 61.646,
+   "end": 61.878,
+   "type": "word",
+   "line": "numbers"
+  },
+  {
+   "text": "60,000",
+   "start": 61.968,
+   "end": 62.676,
+   "type": "word",
+   "line": "numbers"
+  },
+  {
+   "text": "earthquakes",
+   "start": 62.725,
+   "end": 63.219,
+   "type": "word",
+   "line": "numbers"
+  },
+  {
+   "text": "shook",
+   "start": 63.302,
+   "end": 63.455,
+   "type": "word",
+   "line": "numbers"
+  },
+  {
+   "text": "the",
+   "start": 63.46,
+   "end": 63.572,
+   "type": "word",
+   "line": "numbers"
+  },
+  {
+   "text": "area.",
+   "start": 63.62,
+   "end": 63.99,
+   "type": "word",
+   "line": "numbers"
+  },
+  {
+   "text": "In",
+   "start": 65.12,
+   "end": 65.223,
+   "type": "word",
+   "line": "end"
+  },
+  {
+   "text": "early",
+   "start": 65.278,
+   "end": 65.5,
+   "type": "word",
+   "line": "end"
+  },
+  {
+   "text": "August,",
+   "start": 65.548,
+   "end": 65.961,
+   "type": "word",
+   "line": "end"
+  },
+  {
+   "text": "the",
+   "start": 66.07,
+   "end": 66.148,
+   "type": "word",
+   "line": "end"
+  },
+  {
+   "text": "eruption",
+   "start": 66.196,
+   "end": 66.617,
+   "type": "word",
+   "line": "end"
+  },
+  {
+   "text": "faded.",
+   "start": 66.681,
+   "end": 67.16,
+   "type": "word",
+   "line": "end"
+  },
+  {
+   "text": "On",
+   "start": 67.71,
+   "end": 67.827,
+   "type": "word",
+   "line": "end"
+  },
+  {
+   "text": "September",
+   "start": 67.875,
+   "end": 68.285,
+   "type": "word",
+   "line": "end"
+  },
+  {
+   "text": "22,",
+   "start": 68.333,
+   "end": 68.981,
+   "type": "word",
+   "line": "end"
+  },
+  {
+   "text": "the",
+   "start": 69.11,
+   "end": 69.148,
+   "type": "word",
+   "line": "end"
+  },
+  {
+   "text": "national",
+   "start": 69.196,
+   "end": 69.549,
+   "type": "word",
+   "line": "end"
+  },
+  {
+   "text": "park",
+   "start": 69.59,
+   "end": 69.891,
+   "type": "word",
+   "line": "end"
+  },
+  {
+   "text": "partly",
+   "start": 69.94,
+   "end": 70.291,
+   "type": "word",
+   "line": "end"
+  },
+  {
+   "text": "reopened.",
+   "start": 70.339,
+   "end": 70.895,
+   "type": "word",
+   "line": "end"
+  }
+ ]
+}

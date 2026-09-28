@@ -1,0 +1,110 @@
+{
+  "source": "01-hook.wav",
+  "duration": 7.475,
+  "language": "en",
+  "model": "kokoro-v1.0-timestamped.onnx",
+  "words": [
+    {
+      "text": "In",
+      "start": 0.04,
+      "end": 0.117,
+      "type": "word"
+    },
+    {
+      "text": "twenty",
+      "start": 0.169,
+      "end": 0.443,
+      "type": "word"
+    },
+    {
+      "text": "twenty-four,",
+      "start": 0.49,
+      "end": 1.21,
+      "type": "word"
+    },
+    {
+      "text": "America's",
+      "start": 1.65,
+      "end": 2.253,
+      "type": "word"
+    },
+    {
+      "text": "wind",
+      "start": 2.353,
+      "end": 2.714,
+      "type": "word"
+    },
+    {
+      "text": "and",
+      "start": 2.762,
+      "end": 2.849,
+      "type": "word"
+    },
+    {
+      "text": "solar",
+      "start": 2.943,
+      "end": 3.28,
+      "type": "word"
+    },
+    {
+      "text": "farms",
+      "start": 3.358,
+      "end": 3.77,
+      "type": "word"
+    },
+    {
+      "text": "made",
+      "start": 3.82,
+      "end": 4.029,
+      "type": "word"
+    },
+    {
+      "text": "more",
+      "start": 4.092,
+      "end": 4.299,
+      "type": "word"
+    },
+    {
+      "text": "electricity",
+      "start": 4.349,
+      "end": 5.064,
+      "type": "word"
+    },
+    {
+      "text": "than",
+      "start": 5.113,
+      "end": 5.245,
+      "type": "word"
+    },
+    {
+      "text": "coal,",
+      "start": 5.28,
+      "end": 5.73,
+      "type": "word"
+    },
+    {
+      "text": "for",
+      "start": 6.09,
+      "end": 6.228,
+      "type": "word"
+    },
+    {
+      "text": "the",
+      "start": 6.228,
+      "end": 6.293,
+      "type": "word"
+    },
+    {
+      "text": "first",
+      "start": 6.37,
+      "end": 6.635,
+      "type": "word"
+    },
+    {
+      "text": "time.",
+      "start": 6.65,
+      "end": 7.09,
+      "type": "word"
+    }
+  ]
+}

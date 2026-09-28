@@ -1,0 +1,23 @@
+{
+  "source": "commons",
+  "source_label": "Wikimedia Commons",
+  "id": "commons:86572139",
+  "title": "Godafoss 3",
+  "author": "Tord Dellsen",
+  "author_url": null,
+  "license": "CC0 1.0",
+  "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+  "landing_url": "https://commons.wikimedia.org/wiki/File:Godafoss_3.jpg",
+  "note": null,
+  "type": "image",
+  "license_notice": null,
+  "file_url": "https://upload.wikimedia.org/wikipedia/commons/3/32/Godafoss_3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "sha256": "4b1b8f6f312157238bf785cd917caf644e8c80e4384c217aabc1ed496c97bab3",
+  "fetched": "2026-09-27T16:42:17",
+  "license_class": "free",
+  "attribution_required": false,
+  "credit": "\"Godafoss 3\" by Tord Dellsen via Wikimedia Commons (CC0 1.0) - https://commons.wikimedia.org/wiki/File:Godafoss_3.jpg",
+  "file": "07-godafoss.jpg",
+  "rendition": "3840px Commons thumbnail (original download rate-limited, HTTP 429)",
+  "derived": "resized to 2880x2160 for the video"
+}

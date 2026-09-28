@@ -1,0 +1,20 @@
+{
+  "type": "riser",
+  "kind": "end",
+  "category": "transition",
+  "duration": 4.0,
+  "hit": 4.0,
+  "hit_frame_30fps": 120,
+  "hit_frame_60fps": 240,
+  "key": "C",
+  "intensity": 0.7,
+  "seed": 0,
+  "level": {
+    "target_lufs": -18.0,
+    "measured_lufs": -18.67,
+    "gain_db": 0.67,
+    "peak_limited": false
+  },
+  "peak_dbfs": -6.92,
+  "file": "riser.wav"
+}

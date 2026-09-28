@@ -1,0 +1,1851 @@
+{
+  "version": 1,
+  "file": "vo.wav",
+  "sample_rate": 48000,
+  "duration": 70.002,
+  "lead_in": 0.0,
+  "tail": 3.095,
+  "loudness": -16.05,
+  "script": "../narration.md",
+  "lines": [
+    {
+      "id": "hook",
+      "index": 1,
+      "text": "Why is the area of a circle pi r squared?",
+      "source_text": "Why is the area of a circle pi r squared?",
+      "voice": "af_nicole",
+      "engine": "kokoro",
+      "lang": "en-us",
+      "speed": 1.091,
+      "style": "neutral",
+      "start": 0.0,
+      "end": 3.901,
+      "duration": 3.901,
+      "speech_start": 0.04,
+      "speech_end": 3.491,
+      "pause_after": 0.586,
+      "slot": {
+        "start": 0.0,
+        "end": 4.487,
+        "duration": 4.487
+      },
+      "file": "lines/01-hook.wav",
+      "timing": "exact",
+      "wps": 2.898,
+      "words": [
+        {
+          "text": "Why",
+          "start": 0.04,
+          "end": 0.352,
+          "line": "hook"
+        },
+        {
+          "text": "is",
+          "start": 0.419,
+          "end": 0.521,
+          "line": "hook"
+        },
+        {
+          "text": "the",
+          "start": 0.57,
+          "end": 0.663,
+          "line": "hook"
+        },
+        {
+          "text": "area",
+          "start": 0.72,
+          "end": 1.24,
+          "line": "hook"
+        },
+        {
+          "text": "of",
+          "start": 1.71,
+          "end": 1.869,
+          "line": "hook"
+        },
+        {
+          "text": "a",
+          "start": 1.869,
+          "end": 1.943,
+          "line": "hook"
+        },
+        {
+          "text": "circle",
+          "start": 1.943,
+          "end": 2.258,
+          "line": "hook"
+        },
+        {
+          "text": "pi",
+          "start": 2.29,
+          "end": 2.604,
+          "line": "hook"
+        },
+        {
+          "text": "r",
+          "start": 2.67,
+          "end": 2.887,
+          "line": "hook"
+        },
+        {
+          "text": "squared?",
+          "start": 2.956,
+          "end": 3.491,
+          "line": "hook"
+        }
+      ]
+    },
+    {
+      "id": "cutting",
+      "index": 2,
+      "text": "Cut the circle into thin rings, like an onion.",
+      "source_text": "Cut the circle into thin rings, like an onion.",
+      "voice": "af_nicole",
+      "engine": "kokoro",
+      "lang": "en-us",
+      "speed": 1.091,
+      "style": "neutral",
+      "start": 4.487,
+      "end": 8.656,
+      "duration": 4.169,
+      "speech_start": 4.537,
+      "speech_end": 8.256,
+      "pause_after": 0.489,
+      "slot": {
+        "start": 4.487,
+        "end": 9.145,
+        "duration": 4.658
+      },
+      "file": "lines/02-cutting.wav",
+      "timing": "exact",
+      "wps": 2.42,
+      "words": [
+        {
+          "text": "Cut",
+          "start": 4.537,
+          "end": 4.737,
+          "line": "cutting"
+        },
+        {
+          "text": "the",
+          "start": 4.784,
+          "end": 4.853,
+          "line": "cutting"
+        },
+        {
+          "text": "circle",
+          "start": 4.928,
+          "end": 5.447,
+          "line": "cutting"
+        },
+        {
+          "text": "into",
+          "start": 5.537,
+          "end": 5.732,
+          "line": "cutting"
+        },
+        {
+          "text": "thin",
+          "start": 5.847,
+          "end": 6.104,
+          "line": "cutting"
+        },
+        {
+          "text": "rings,",
+          "start": 6.166,
+          "end": 6.807,
+          "line": "cutting"
+        },
+        {
+          "text": "like",
+          "start": 7.454,
+          "end": 7.627,
+          "line": "cutting"
+        },
+        {
+          "text": "an",
+          "start": 7.652,
+          "end": 7.717,
+          "line": "cutting"
+        },
+        {
+          "text": "onion.",
+          "start": 7.764,
+          "end": 8.256,
+          "line": "cutting"
+        }
+      ]
+    },
+    {
+      "id": "ringlength",
+      "index": 3,
+      "text": "Each ring is about as long as its circumference, and very thin.",
+      "source_text": "Each ring is about as long as its circumference, and very thin.",
+      "voice": "af_nicole",
+      "engine": "kokoro",
+      "lang": "en-us",
+      "speed": 1.091,
+      "style": "neutral",
+      "start": 9.145,
+      "end": 14.454,
+      "duration": 5.309,
+      "speech_start": 9.165,
+      "speech_end": 14.044,
+      "pause_after": 0.682,
+      "slot": {
+        "start": 9.145,
+        "end": 15.136,
+        "duration": 5.991
+      },
+      "file": "lines/03-ringlength.wav",
+      "timing": "exact",
+      "wps": 2.46,
+      "words": [
+        {
+          "text": "Each",
+          "start": 9.165,
+          "end": 9.485,
+          "line": "ringlength"
+        },
+        {
+          "text": "ring",
+          "start": 9.555,
+          "end": 10.005,
+          "line": "ringlength"
+        },
+        {
+          "text": "is",
+          "start": 10.305,
+          "end": 10.419,
+          "line": "ringlength"
+        },
+        {
+          "text": "about",
+          "start": 10.463,
+          "end": 10.719,
+          "line": "ringlength"
+        },
+        {
+          "text": "as",
+          "start": 10.764,
+          "end": 10.864,
+          "line": "ringlength"
+        },
+        {
+          "text": "long",
+          "start": 10.931,
+          "end": 11.19,
+          "line": "ringlength"
+        },
+        {
+          "text": "as",
+          "start": 11.238,
+          "end": 11.33,
+          "line": "ringlength"
+        },
+        {
+          "text": "its",
+          "start": 11.375,
+          "end": 11.493,
+          "line": "ringlength"
+        },
+        {
+          "text": "circumference,",
+          "start": 11.525,
+          "end": 12.475,
+          "line": "ringlength"
+        },
+        {
+          "text": "and",
+          "start": 13.195,
+          "end": 13.259,
+          "line": "ringlength"
+        },
+        {
+          "text": "very",
+          "start": 13.307,
+          "end": 13.565,
+          "line": "ringlength"
+        },
+        {
+          "text": "thin.",
+          "start": 13.655,
+          "end": 14.044,
+          "line": "ringlength"
+        }
+      ]
+    },
+    {
+      "id": "unrolling",
+      "index": 4,
+      "text": "Straighten each ring into a strip, and stack them: shortest on top, longest at the bottom.",
+      "source_text": "Straighten each ring into a strip, and stack them: shortest on top, longest at the bottom.",
+      "voice": "af_nicole",
+      "engine": "kokoro",
+      "lang": "en-us",
+      "speed": 1.091,
+      "style": "neutral",
+      "start": 15.136,
+      "end": 23.401,
+      "duration": 8.265,
+      "speech_start": 15.166,
+      "speech_end": 23.001,
+      "pause_after": 0.586,
+      "slot": {
+        "start": 15.136,
+        "end": 23.987,
+        "duration": 8.851
+      },
+      "file": "lines/04-unrolling.wav",
+      "timing": "exact",
+      "wps": 2.042,
+      "words": [
+        {
+          "text": "Straighten",
+          "start": 15.166,
+          "end": 15.756,
+          "line": "unrolling"
+        },
+        {
+          "text": "each",
+          "start": 15.866,
+          "end": 16.162,
+          "line": "unrolling"
+        },
+        {
+          "text": "ring",
+          "start": 16.236,
+          "end": 16.51,
+          "line": "unrolling"
+        },
+        {
+          "text": "into",
+          "start": 16.545,
+          "end": 16.746,
+          "line": "unrolling"
+        },
+        {
+          "text": "a",
+          "start": 16.787,
+          "end": 16.83,
+          "line": "unrolling"
+        },
+        {
+          "text": "strip,",
+          "start": 16.893,
+          "end": 17.416,
+          "line": "unrolling"
+        },
+        {
+          "text": "and",
+          "start": 18.106,
+          "end": 18.168,
+          "line": "unrolling"
+        },
+        {
+          "text": "stack",
+          "start": 18.236,
+          "end": 18.533,
+          "line": "unrolling"
+        },
+        {
+          "text": "them:",
+          "start": 18.556,
+          "end": 18.936,
+          "line": "unrolling"
+        },
+        {
+          "text": "shortest",
+          "start": 19.826,
+          "end": 20.36,
+          "line": "unrolling"
+        },
+        {
+          "text": "on",
+          "start": 20.376,
+          "end": 20.544,
+          "line": "unrolling"
+        },
+        {
+          "text": "top,",
+          "start": 20.606,
+          "end": 21.146,
+          "line": "unrolling"
+        },
+        {
+          "text": "longest",
+          "start": 21.576,
+          "end": 22.253,
+          "line": "unrolling"
+        },
+        {
+          "text": "at",
+          "start": 22.325,
+          "end": 22.38,
+          "line": "unrolling"
+        },
+        {
+          "text": "the",
+          "start": 22.414,
+          "end": 22.461,
+          "line": "unrolling"
+        },
+        {
+          "text": "bottom.",
+          "start": 22.508,
+          "end": 23.001,
+          "line": "unrolling"
+        }
+      ]
+    },
+    {
+      "id": "pileup",
+      "index": 5,
+      "text": "They pile up into something close to a triangle.",
+      "source_text": "They pile up into something close to a triangle.",
+      "voice": "af_nicole",
+      "engine": "kokoro",
+      "lang": "en-us",
+      "speed": 1.091,
+      "style": "neutral",
+      "start": 23.987,
+      "end": 27.719,
+      "duration": 3.732,
+      "speech_start": 24.037,
+      "speech_end": 27.329,
+      "pause_after": 1.357,
+      "slot": {
+        "start": 23.987,
+        "end": 29.076,
+        "duration": 5.089
+      },
+      "file": "lines/05-pileup.wav",
+      "timing": "exact",
+      "wps": 2.734,
+      "words": [
+        {
+          "text": "They",
+          "start": 24.037,
+          "end": 24.151,
+          "line": "pileup"
+        },
+        {
+          "text": "pile",
+          "start": 24.222,
+          "end": 24.553,
+          "line": "pileup"
+        },
+        {
+          "text": "up",
+          "start": 24.6,
+          "end": 24.937,
+          "line": "pileup"
+        },
+        {
+          "text": "into",
+          "start": 25.147,
+          "end": 25.296,
+          "line": "pileup"
+        },
+        {
+          "text": "something",
+          "start": 25.356,
+          "end": 25.689,
+          "line": "pileup"
+        },
+        {
+          "text": "close",
+          "start": 25.759,
+          "end": 26.347,
+          "line": "pileup"
+        },
+        {
+          "text": "to",
+          "start": 26.527,
+          "end": 26.588,
+          "line": "pileup"
+        },
+        {
+          "text": "a",
+          "start": 26.622,
+          "end": 26.656,
+          "line": "pileup"
+        },
+        {
+          "text": "triangle.",
+          "start": 26.727,
+          "end": 27.329,
+          "line": "pileup"
+        }
+      ]
+    },
+    {
+      "id": "refining",
+      "index": 6,
+      "text": "Now make the rings thinner. Smaller steps.",
+      "source_text": "Now make the rings thinner. Smaller steps.",
+      "voice": "af_nicole",
+      "engine": "kokoro",
+      "lang": "en-us",
+      "speed": 1.091,
+      "style": "neutral",
+      "start": 29.076,
+      "end": 32.743,
+      "duration": 3.667,
+      "speech_start": 29.106,
+      "speech_end": 32.333,
+      "pause_after": 0.586,
+      "slot": {
+        "start": 29.076,
+        "end": 33.329,
+        "duration": 4.253
+      },
+      "file": "lines/06-refining.wav",
+      "timing": "exact",
+      "wps": 2.169,
+      "words": [
+        {
+          "text": "Now",
+          "start": 29.106,
+          "end": 29.416,
+          "line": "refining"
+        },
+        {
+          "text": "make",
+          "start": 29.469,
+          "end": 29.649,
+          "line": "refining"
+        },
+        {
+          "text": "the",
+          "start": 29.696,
+          "end": 29.751,
+          "line": "refining"
+        },
+        {
+          "text": "rings",
+          "start": 29.797,
+          "end": 30.096,
+          "line": "refining"
+        },
+        {
+          "text": "thinner.",
+          "start": 30.157,
+          "end": 30.586,
+          "line": "refining"
+        },
+        {
+          "text": "Smaller",
+          "start": 31.306,
+          "end": 31.751,
+          "line": "refining"
+        },
+        {
+          "text": "steps.",
+          "start": 31.821,
+          "end": 32.333,
+          "line": "refining"
+        }
+      ]
+    },
+    {
+      "id": "limit",
+      "index": 7,
+      "text": "As the rings get thinner, the steps vanish, and the stack becomes a triangle.",
+      "source_text": "As the rings get thinner, the steps vanish, and the stack becomes a triangle.",
+      "voice": "af_nicole",
+      "engine": "kokoro",
+      "lang": "en-us",
+      "speed": 1.091,
+      "style": "neutral",
+      "start": 33.329,
+      "end": 39.887,
+      "duration": 6.558,
+      "speech_start": 33.349,
+      "speech_end": 39.487,
+      "pause_after": 0.971,
+      "slot": {
+        "start": 33.329,
+        "end": 40.858,
+        "duration": 7.529
+      },
+      "file": "lines/07-limit.wav",
+      "timing": "exact",
+      "wps": 2.281,
+      "words": [
+        {
+          "text": "As",
+          "start": 33.349,
+          "end": 33.495,
+          "line": "limit"
+        },
+        {
+          "text": "the",
+          "start": 33.539,
+          "end": 33.609,
+          "line": "limit"
+        },
+        {
+          "text": "rings",
+          "start": 33.674,
+          "end": 34.056,
+          "line": "limit"
+        },
+        {
+          "text": "get",
+          "start": 34.103,
+          "end": 34.255,
+          "line": "limit"
+        },
+        {
+          "text": "thinner,",
+          "start": 34.339,
+          "end": 34.819,
+          "line": "limit"
+        },
+        {
+          "text": "the",
+          "start": 35.459,
+          "end": 35.521,
+          "line": "limit"
+        },
+        {
+          "text": "steps",
+          "start": 35.586,
+          "end": 35.938,
+          "line": "limit"
+        },
+        {
+          "text": "vanish,",
+          "start": 36.002,
+          "end": 36.579,
+          "line": "limit"
+        },
+        {
+          "text": "and",
+          "start": 37.449,
+          "end": 37.554,
+          "line": "limit"
+        },
+        {
+          "text": "the",
+          "start": 37.578,
+          "end": 37.642,
+          "line": "limit"
+        },
+        {
+          "text": "stack",
+          "start": 37.713,
+          "end": 38.197,
+          "line": "limit"
+        },
+        {
+          "text": "becomes",
+          "start": 38.259,
+          "end": 38.646,
+          "line": "limit"
+        },
+        {
+          "text": "a",
+          "start": 38.683,
+          "end": 38.727,
+          "line": "limit"
+        },
+        {
+          "text": "triangle.",
+          "start": 38.809,
+          "end": 39.487,
+          "line": "limit"
+        }
+      ]
+    },
+    {
+      "id": "heightline",
+      "index": 8,
+      "text": "Its height is the radius, r.",
+      "source_text": "Its height is the radius, r.",
+      "voice": "af_nicole",
+      "engine": "kokoro",
+      "lang": "en-us",
+      "speed": 1.091,
+      "style": "neutral",
+      "start": 40.858,
+      "end": 43.897,
+      "duration": 3.039,
+      "speech_start": 40.888,
+      "speech_end": 43.517,
+      "pause_after": 0.586,
+      "slot": {
+        "start": 40.858,
+        "end": 44.483,
+        "duration": 3.625
+      },
+      "file": "lines/08-heightline.wav",
+      "timing": "exact",
+      "wps": 2.282,
+      "words": [
+        {
+          "text": "Its",
+          "start": 40.888,
+          "end": 41.038,
+          "line": "heightline"
+        },
+        {
+          "text": "height",
+          "start": 41.099,
+          "end": 41.479,
+          "line": "heightline"
+        },
+        {
+          "text": "is",
+          "start": 41.518,
+          "end": 41.663,
+          "line": "heightline"
+        },
+        {
+          "text": "the",
+          "start": 41.708,
+          "end": 41.766,
+          "line": "heightline"
+        },
+        {
+          "text": "radius,",
+          "start": 41.813,
+          "end": 42.488,
+          "line": "heightline"
+        },
+        {
+          "text": "r.",
+          "start": 43.038,
+          "end": 43.517,
+          "line": "heightline"
+        }
+      ]
+    },
+    {
+      "id": "baseline",
+      "index": 9,
+      "text": "Its base is the outermost ring, unrolled: the circumference, two pi r.",
+      "source_text": "Its base is the outermost ring, unrolled: the circumference, two pi r.",
+      "voice": "af_nicole",
+      "engine": "kokoro",
+      "lang": "en-us",
+      "speed": 1.091,
+      "style": "neutral",
+      "start": 44.483,
+      "end": 51.382,
+      "duration": 6.899,
+      "speech_start": 44.503,
+      "speech_end": 50.982,
+      "pause_after": 0.778,
+      "slot": {
+        "start": 44.483,
+        "end": 52.16,
+        "duration": 7.677
+      },
+      "file": "lines/09-baseline.wav",
+      "timing": "exact",
+      "wps": 1.852,
+      "words": [
+        {
+          "text": "Its",
+          "start": 44.503,
+          "end": 44.65,
+          "line": "baseline"
+        },
+        {
+          "text": "base",
+          "start": 44.673,
+          "end": 45.088,
+          "line": "baseline"
+        },
+        {
+          "text": "is",
+          "start": 45.148,
+          "end": 45.239,
+          "line": "baseline"
+        },
+        {
+          "text": "the",
+          "start": 45.263,
+          "end": 45.373,
+          "line": "baseline"
+        },
+        {
+          "text": "outermost",
+          "start": 45.423,
+          "end": 46.001,
+          "line": "baseline"
+        },
+        {
+          "text": "ring,",
+          "start": 46.023,
+          "end": 46.513,
+          "line": "baseline"
+        },
+        {
+          "text": "unrolled:",
+          "start": 47.013,
+          "end": 47.803,
+          "line": "baseline"
+        },
+        {
+          "text": "the",
+          "start": 48.543,
+          "end": 48.622,
+          "line": "baseline"
+        },
+        {
+          "text": "circumference,",
+          "start": 48.682,
+          "end": 49.553,
+          "line": "baseline"
+        },
+        {
+          "text": "two",
+          "start": 49.983,
+          "end": 50.218,
+          "line": "baseline"
+        },
+        {
+          "text": "pi",
+          "start": 50.282,
+          "end": 50.528,
+          "line": "baseline"
+        },
+        {
+          "text": "r.",
+          "start": 50.601,
+          "end": 50.982,
+          "line": "baseline"
+        }
+      ]
+    },
+    {
+      "id": "halfbh",
+      "index": 10,
+      "text": "A triangle's area is half the base times the height.",
+      "source_text": "A triangle's area is half the base times the height.",
+      "voice": "af_nicole",
+      "engine": "kokoro",
+      "lang": "en-us",
+      "speed": 1.091,
+      "style": "neutral",
+      "start": 52.16,
+      "end": 56.585,
+      "duration": 4.425,
+      "speech_start": 52.19,
+      "speech_end": 56.185,
+      "pause_after": 0.586,
+      "slot": {
+        "start": 52.16,
+        "end": 57.171,
+        "duration": 5.011
+      },
+      "file": "lines/10-halfbh.wav",
+      "timing": "exact",
+      "wps": 2.503,
+      "words": [
+        {
+          "text": "A",
+          "start": 52.19,
+          "end": 52.242,
+          "line": "halfbh"
+        },
+        {
+          "text": "triangle's",
+          "start": 52.31,
+          "end": 52.921,
+          "line": "halfbh"
+        },
+        {
+          "text": "area",
+          "start": 52.988,
+          "end": 53.47,
+          "line": "halfbh"
+        },
+        {
+          "text": "is",
+          "start": 54.13,
+          "end": 54.222,
+          "line": "halfbh"
+        },
+        {
+          "text": "half",
+          "start": 54.297,
+          "end": 54.526,
+          "line": "halfbh"
+        },
+        {
+          "text": "the",
+          "start": 54.573,
+          "end": 54.628,
+          "line": "halfbh"
+        },
+        {
+          "text": "base",
+          "start": 54.674,
+          "end": 55.157,
+          "line": "halfbh"
+        },
+        {
+          "text": "times",
+          "start": 55.23,
+          "end": 55.627,
+          "line": "halfbh"
+        },
+        {
+          "text": "the",
+          "start": 55.69,
+          "end": 55.736,
+          "line": "halfbh"
+        },
+        {
+          "text": "height.",
+          "start": 55.784,
+          "end": 56.185,
+          "line": "halfbh"
+        }
+      ]
+    },
+    {
+      "id": "result",
+      "index": 11,
+      "text": "Half of two pi r, times r, is pi r squared.",
+      "source_text": "Half of two pi r, times r, is pi r squared.",
+      "voice": "af_nicole",
+      "engine": "kokoro",
+      "lang": "en-us",
+      "speed": 1.091,
+      "style": "neutral",
+      "start": 57.171,
+      "end": 61.98,
+      "duration": 4.809,
+      "speech_start": 57.211,
+      "speech_end": 61.58,
+      "pause_after": 0.875,
+      "slot": {
+        "start": 57.171,
+        "end": 62.855,
+        "duration": 5.684
+      },
+      "file": "lines/11-result.wav",
+      "timing": "exact",
+      "wps": 2.518,
+      "words": [
+        {
+          "text": "Half",
+          "start": 57.211,
+          "end": 57.429,
+          "line": "result"
+        },
+        {
+          "text": "of",
+          "start": 57.457,
+          "end": 57.547,
+          "line": "result"
+        },
+        {
+          "text": "two",
+          "start": 57.591,
+          "end": 57.848,
+          "line": "result"
+        },
+        {
+          "text": "pi",
+          "start": 57.861,
+          "end": 58.171,
+          "line": "result"
+        },
+        {
+          "text": "r,",
+          "start": 58.242,
+          "end": 58.611,
+          "line": "result"
+        },
+        {
+          "text": "times",
+          "start": 58.731,
+          "end": 59.101,
+          "line": "result"
+        },
+        {
+          "text": "r,",
+          "start": 59.175,
+          "end": 59.511,
+          "line": "result"
+        },
+        {
+          "text": "is",
+          "start": 60.241,
+          "end": 60.376,
+          "line": "result"
+        },
+        {
+          "text": "pi",
+          "start": 60.401,
+          "end": 60.721,
+          "line": "result"
+        },
+        {
+          "text": "r",
+          "start": 60.782,
+          "end": 60.993,
+          "line": "result"
+        },
+        {
+          "text": "squared.",
+          "start": 61.058,
+          "end": 61.58,
+          "line": "result"
+        }
+      ]
+    },
+    {
+      "id": "ending",
+      "index": 12,
+      "text": "Same area as the circle: pi r squared.",
+      "source_text": "Same area as the circle: pi r squared.",
+      "voice": "af_nicole",
+      "engine": "kokoro",
+      "lang": "en-us",
+      "speed": 1.091,
+      "style": "neutral",
+      "start": 62.855,
+      "end": 66.907,
+      "duration": 4.052,
+      "speech_start": 62.895,
+      "speech_end": 66.517,
+      "pause_after": 0.35,
+      "slot": {
+        "start": 62.855,
+        "end": 70.002,
+        "duration": 7.147
+      },
+      "file": "lines/12-ending.wav",
+      "timing": "exact",
+      "wps": 2.209,
+      "words": [
+        {
+          "text": "Same",
+          "start": 62.895,
+          "end": 63.177,
+          "line": "ending"
+        },
+        {
+          "text": "area",
+          "start": 63.243,
+          "end": 63.695,
+          "line": "ending"
+        },
+        {
+          "text": "as",
+          "start": 63.745,
+          "end": 63.874,
+          "line": "ending"
+        },
+        {
+          "text": "the",
+          "start": 63.905,
+          "end": 63.987,
+          "line": "ending"
+        },
+        {
+          "text": "circle:",
+          "start": 64.056,
+          "end": 64.565,
+          "line": "ending"
+        },
+        {
+          "text": "pi",
+          "start": 65.315,
+          "end": 65.63,
+          "line": "ending"
+        },
+        {
+          "text": "r",
+          "start": 65.697,
+          "end": 65.907,
+          "line": "ending"
+        },
+        {
+          "text": "squared.",
+          "start": 65.971,
+          "end": 66.517,
+          "line": "ending"
+        }
+      ]
+    }
+  ],
+  "words": [
+    {
+      "text": "Why",
+      "start": 0.04,
+      "end": 0.352,
+      "line": "hook"
+    },
+    {
+      "text": "is",
+      "start": 0.419,
+      "end": 0.521,
+      "line": "hook"
+    },
+    {
+      "text": "the",
+      "start": 0.57,
+      "end": 0.663,
+      "line": "hook"
+    },
+    {
+      "text": "area",
+      "start": 0.72,
+      "end": 1.24,
+      "line": "hook"
+    },
+    {
+      "text": "of",
+      "start": 1.71,
+      "end": 1.869,
+      "line": "hook"
+    },
+    {
+      "text": "a",
+      "start": 1.869,
+      "end": 1.943,
+      "line": "hook"
+    },
+    {
+      "text": "circle",
+      "start": 1.943,
+      "end": 2.258,
+      "line": "hook"
+    },
+    {
+      "text": "pi",
+      "start": 2.29,
+      "end": 2.604,
+      "line": "hook"
+    },
+    {
+      "text": "r",
+      "start": 2.67,
+      "end": 2.887,
+      "line": "hook"
+    },
+    {
+      "text": "squared?",
+      "start": 2.956,
+      "end": 3.491,
+      "line": "hook"
+    },
+    {
+      "text": "Cut",
+      "start": 4.537,
+      "end": 4.737,
+      "line": "cutting"
+    },
+    {
+      "text": "the",
+      "start": 4.784,
+      "end": 4.853,
+      "line": "cutting"
+    },
+    {
+      "text": "circle",
+      "start": 4.928,
+      "end": 5.447,
+      "line": "cutting"
+    },
+    {
+      "text": "into",
+      "start": 5.537,
+      "end": 5.732,
+      "line": "cutting"
+    },
+    {
+      "text": "thin",
+      "start": 5.847,
+      "end": 6.104,
+      "line": "cutting"
+    },
+    {
+      "text": "rings,",
+      "start": 6.166,
+      "end": 6.807,
+      "line": "cutting"
+    },
+    {
+      "text": "like",
+      "start": 7.454,
+      "end": 7.627,
+      "line": "cutting"
+    },
+    {
+      "text": "an",
+      "start": 7.652,
+      "end": 7.717,
+      "line": "cutting"
+    },
+    {
+      "text": "onion.",
+      "start": 7.764,
+      "end": 8.256,
+      "line": "cutting"
+    },
+    {
+      "text": "Each",
+      "start": 9.165,
+      "end": 9.485,
+      "line": "ringlength"
+    },
+    {
+      "text": "ring",
+      "start": 9.555,
+      "end": 10.005,
+      "line": "ringlength"
+    },
+    {
+      "text": "is",
+      "start": 10.305,
+      "end": 10.419,
+      "line": "ringlength"
+    },
+    {
+      "text": "about",
+      "start": 10.463,
+      "end": 10.719,
+      "line": "ringlength"
+    },
+    {
+      "text": "as",
+      "start": 10.764,
+      "end": 10.864,
+      "line": "ringlength"
+    },
+    {
+      "text": "long",
+      "start": 10.931,
+      "end": 11.19,
+      "line": "ringlength"
+    },
+    {
+      "text": "as",
+      "start": 11.238,
+      "end": 11.33,
+      "line": "ringlength"
+    },
+    {
+      "text": "its",
+      "start": 11.375,
+      "end": 11.493,
+      "line": "ringlength"
+    },
+    {
+      "text": "circumference,",
+      "start": 11.525,
+      "end": 12.475,
+      "line": "ringlength"
+    },
+    {
+      "text": "and",
+      "start": 13.195,
+      "end": 13.259,
+      "line": "ringlength"
+    },
+    {
+      "text": "very",
+      "start": 13.307,
+      "end": 13.565,
+      "line": "ringlength"
+    },
+    {
+      "text": "thin.",
+      "start": 13.655,
+      "end": 14.044,
+      "line": "ringlength"
+    },
+    {
+      "text": "Straighten",
+      "start": 15.166,
+      "end": 15.756,
+      "line": "unrolling"
+    },
+    {
+      "text": "each",
+      "start": 15.866,
+      "end": 16.162,
+      "line": "unrolling"
+    },
+    {
+      "text": "ring",
+      "start": 16.236,
+      "end": 16.51,
+      "line": "unrolling"
+    },
+    {
+      "text": "into",
+      "start": 16.545,
+      "end": 16.746,
+      "line": "unrolling"
+    },
+    {
+      "text": "a",
+      "start": 16.787,
+      "end": 16.83,
+      "line": "unrolling"
+    },
+    {
+      "text": "strip,",
+      "start": 16.893,
+      "end": 17.416,
+      "line": "unrolling"
+    },
+    {
+      "text": "and",
+      "start": 18.106,
+      "end": 18.168,
+      "line": "unrolling"
+    },
+    {
+      "text": "stack",
+      "start": 18.236,
+      "end": 18.533,
+      "line": "unrolling"
+    },
+    {
+      "text": "them:",
+      "start": 18.556,
+      "end": 18.936,
+      "line": "unrolling"
+    },
+    {
+      "text": "shortest",
+      "start": 19.826,
+      "end": 20.36,
+      "line": "unrolling"
+    },
+    {
+      "text": "on",
+      "start": 20.376,
+      "end": 20.544,
+      "line": "unrolling"
+    },
+    {
+      "text": "top,",
+      "start": 20.606,
+      "end": 21.146,
+      "line": "unrolling"
+    },
+    {
+      "text": "longest",
+      "start": 21.576,
+      "end": 22.253,
+      "line": "unrolling"
+    },
+    {
+      "text": "at",
+      "start": 22.325,
+      "end": 22.38,
+      "line": "unrolling"
+    },
+    {
+      "text": "the",
+      "start": 22.414,
+      "end": 22.461,
+      "line": "unrolling"
+    },
+    {
+      "text": "bottom.",
+      "start": 22.508,
+      "end": 23.001,
+      "line": "unrolling"
+    },
+    {
+      "text": "They",
+      "start": 24.037,
+      "end": 24.151,
+      "line": "pileup"
+    },
+    {
+      "text": "pile",
+      "start": 24.222,
+      "end": 24.553,
+      "line": "pileup"
+    },
+    {
+      "text": "up",
+      "start": 24.6,
+      "end": 24.937,
+      "line": "pileup"
+    },
+    {
+      "text": "into",
+      "start": 25.147,
+      "end": 25.296,
+      "line": "pileup"
+    },
+    {
+      "text": "something",
+      "start": 25.356,
+      "end": 25.689,
+      "line": "pileup"
+    },
+    {
+      "text": "close",
+      "start": 25.759,
+      "end": 26.347,
+      "line": "pileup"
+    },
+    {
+      "text": "to",
+      "start": 26.527,
+      "end": 26.588,
+      "line": "pileup"
+    },
+    {
+      "text": "a",
+      "start": 26.622,
+      "end": 26.656,
+      "line": "pileup"
+    },
+    {
+      "text": "triangle.",
+      "start": 26.727,
+      "end": 27.329,
+      "line": "pileup"
+    },
+    {
+      "text": "Now",
+      "start": 29.106,
+      "end": 29.416,
+      "line": "refining"
+    },
+    {
+      "text": "make",
+      "start": 29.469,
+      "end": 29.649,
+      "line": "refining"
+    },
+    {
+      "text": "the",
+      "start": 29.696,
+      "end": 29.751,
+      "line": "refining"
+    },
+    {
+      "text": "rings",
+      "start": 29.797,
+      "end": 30.096,
+      "line": "refining"
+    },
+    {
+      "text": "thinner.",
+      "start": 30.157,
+      "end": 30.586,
+      "line": "refining"
+    },
+    {
+      "text": "Smaller",
+      "start": 31.306,
+      "end": 31.751,
+      "line": "refining"
+    },
+    {
+      "text": "steps.",
+      "start": 31.821,
+      "end": 32.333,
+      "line": "refining"
+    },
+    {
+      "text": "As",
+      "start": 33.349,
+      "end": 33.495,
+      "line": "limit"
+    },
+    {
+      "text": "the",
+      "start": 33.539,
+      "end": 33.609,
+      "line": "limit"
+    },
+    {
+      "text": "rings",
+      "start": 33.674,
+      "end": 34.056,
+      "line": "limit"
+    },
+    {
+      "text": "get",
+      "start": 34.103,
+      "end": 34.255,
+      "line": "limit"
+    },
+    {
+      "text": "thinner,",
+      "start": 34.339,
+      "end": 34.819,
+      "line": "limit"
+    },
+    {
+      "text": "the",
+      "start": 35.459,
+      "end": 35.521,
+      "line": "limit"
+    },
+    {
+      "text": "steps",
+      "start": 35.586,
+      "end": 35.938,
+      "line": "limit"
+    },
+    {
+      "text": "vanish,",
+      "start": 36.002,
+      "end": 36.579,
+      "line": "limit"
+    },
+    {
+      "text": "and",
+      "start": 37.449,
+      "end": 37.554,
+      "line": "limit"
+    },
+    {
+      "text": "the",
+      "start": 37.578,
+      "end": 37.642,
+      "line": "limit"
+    },
+    {
+      "text": "stack",
+      "start": 37.713,
+      "end": 38.197,
+      "line": "limit"
+    },
+    {
+      "text": "becomes",
+      "start": 38.259,
+      "end": 38.646,
+      "line": "limit"
+    },
+    {
+      "text": "a",
+      "start": 38.683,
+      "end": 38.727,
+      "line": "limit"
+    },
+    {
+      "text": "triangle.",
+      "start": 38.809,
+      "end": 39.487,
+      "line": "limit"
+    },
+    {
+      "text": "Its",
+      "start": 40.888,
+      "end": 41.038,
+      "line": "heightline"
+    },
+    {
+      "text": "height",
+      "start": 41.099,
+      "end": 41.479,
+      "line": "heightline"
+    },
+    {
+      "text": "is",
+      "start": 41.518,
+      "end": 41.663,
+      "line": "heightline"
+    },
+    {
+      "text": "the",
+      "start": 41.708,
+      "end": 41.766,
+      "line": "heightline"
+    },
+    {
+      "text": "radius,",
+      "start": 41.813,
+      "end": 42.488,
+      "line": "heightline"
+    },
+    {
+      "text": "r.",
+      "start": 43.038,
+      "end": 43.517,
+      "line": "heightline"
+    },
+    {
+      "text": "Its",
+      "start": 44.503,
+      "end": 44.65,
+      "line": "baseline"
+    },
+    {
+      "text": "base",
+      "start": 44.673,
+      "end": 45.088,
+      "line": "baseline"
+    },
+    {
+      "text": "is",
+      "start": 45.148,
+      "end": 45.239,
+      "line": "baseline"
+    },
+    {
+      "text": "the",
+      "start": 45.263,
+      "end": 45.373,
+      "line": "baseline"
+    },
+    {
+      "text": "outermost",
+      "start": 45.423,
+      "end": 46.001,
+      "line": "baseline"
+    },
+    {
+      "text": "ring,",
+      "start": 46.023,
+      "end": 46.513,
+      "line": "baseline"
+    },
+    {
+      "text": "unrolled:",
+      "start": 47.013,
+      "end": 47.803,
+      "line": "baseline"
+    },
+    {
+      "text": "the",
+      "start": 48.543,
+      "end": 48.622,
+      "line": "baseline"
+    },
+    {
+      "text": "circumference,",
+      "start": 48.682,
+      "end": 49.553,
+      "line": "baseline"
+    },
+    {
+      "text": "two",
+      "start": 49.983,
+      "end": 50.218,
+      "line": "baseline"
+    },
+    {
+      "text": "pi",
+      "start": 50.282,
+      "end": 50.528,
+      "line": "baseline"
+    },
+    {
+      "text": "r.",
+      "start": 50.601,
+      "end": 50.982,
+      "line": "baseline"
+    },
+    {
+      "text": "A",
+      "start": 52.19,
+      "end": 52.242,
+      "line": "halfbh"
+    },
+    {
+      "text": "triangle's",
+      "start": 52.31,
+      "end": 52.921,
+      "line": "halfbh"
+    },
+    {
+      "text": "area",
+      "start": 52.988,
+      "end": 53.47,
+      "line": "halfbh"
+    },
+    {
+      "text": "is",
+      "start": 54.13,
+      "end": 54.222,
+      "line": "halfbh"
+    },
+    {
+      "text": "half",
+      "start": 54.297,
+      "end": 54.526,
+      "line": "halfbh"
+    },
+    {
+      "text": "the",
+      "start": 54.573,
+      "end": 54.628,
+      "line": "halfbh"
+    },
+    {
+      "text": "base",
+      "start": 54.674,
+      "end": 55.157,
+      "line": "halfbh"
+    },
+    {
+      "text": "times",
+      "start": 55.23,
+      "end": 55.627,
+      "line": "halfbh"
+    },
+    {
+      "text": "the",
+      "start": 55.69,
+      "end": 55.736,
+      "line": "halfbh"
+    },
+    {
+      "text": "height.",
+      "start": 55.784,
+      "end": 56.185,
+      "line": "halfbh"
+    },
+    {
+      "text": "Half",
+      "start": 57.211,
+      "end": 57.429,
+      "line": "result"
+    },
+    {
+      "text": "of",
+      "start": 57.457,
+      "end": 57.547,
+      "line": "result"
+    },
+    {
+      "text": "two",
+      "start": 57.591,
+      "end": 57.848,
+      "line": "result"
+    },
+    {
+      "text": "pi",
+      "start": 57.861,
+      "end": 58.171,
+      "line": "result"
+    },
+    {
+      "text": "r,",
+      "start": 58.242,
+      "end": 58.611,
+      "line": "result"
+    },
+    {
+      "text": "times",
+      "start": 58.731,
+      "end": 59.101,
+      "line": "result"
+    },
+    {
+      "text": "r,",
+      "start": 59.175,
+      "end": 59.511,
+      "line": "result"
+    },
+    {
+      "text": "is",
+      "start": 60.241,
+      "end": 60.376,
+      "line": "result"
+    },
+    {
+      "text": "pi",
+      "start": 60.401,
+      "end": 60.721,
+      "line": "result"
+    },
+    {
+      "text": "r",
+      "start": 60.782,
+      "end": 60.993,
+      "line": "result"
+    },
+    {
+      "text": "squared.",
+      "start": 61.058,
+      "end": 61.58,
+      "line": "result"
+    },
+    {
+      "text": "Same",
+      "start": 62.895,
+      "end": 63.177,
+      "line": "ending"
+    },
+    {
+      "text": "area",
+      "start": 63.243,
+      "end": 63.695,
+      "line": "ending"
+    },
+    {
+      "text": "as",
+      "start": 63.745,
+      "end": 63.874,
+      "line": "ending"
+    },
+    {
+      "text": "the",
+      "start": 63.905,
+      "end": 63.987,
+      "line": "ending"
+    },
+    {
+      "text": "circle:",
+      "start": 64.056,
+      "end": 64.565,
+      "line": "ending"
+    },
+    {
+      "text": "pi",
+      "start": 65.315,
+      "end": 65.63,
+      "line": "ending"
+    },
+    {
+      "text": "r",
+      "start": 65.697,
+      "end": 65.907,
+      "line": "ending"
+    },
+    {
+      "text": "squared.",
+      "start": 65.971,
+      "end": 66.517,
+      "line": "ending"
+    }
+  ],
+  "captions": {
+    "srt": "vo.srt",
+    "transcript": "vo.words.json",
+    "cues": 23
+  },
+  "build_seconds": 8.12,
+  "lexicon": [
+    "showtime:lib/st/voice/lexicon.json"
+  ],
+  "fit": {
+    "target": 70.0,
+    "before": 74.101,
+    "speed_factor": 1.091,
+    "pauses_trimmed": 0.323,
+    "tail_padded": 0.0,
+    "over": 0.0,
+    "under": 0.0,
+    "cut_words": 0,
+    "add_words": 0,
+    "tolerance": 0.7,
+    "words": 124,
+    "wps": 2.31,
+    "max_speed": 1.091,
+    "result": 70.002
+  }
+}

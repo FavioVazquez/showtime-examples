@@ -1,0 +1,68 @@
+{
+  "source": "07-source.wav",
+  "duration": 5.253,
+  "language": "en",
+  "model": "kokoro-v1.0-timestamped.onnx",
+  "words": [
+    {
+      "text": "Every",
+      "start": 0.11,
+      "end": 0.337,
+      "type": "word"
+    },
+    {
+      "text": "number",
+      "start": 0.386,
+      "end": 0.623,
+      "type": "word"
+    },
+    {
+      "text": "here",
+      "start": 0.673,
+      "end": 0.862,
+      "type": "word"
+    },
+    {
+      "text": "comes",
+      "start": 0.91,
+      "end": 1.185,
+      "type": "word"
+    },
+    {
+      "text": "from",
+      "start": 1.234,
+      "end": 1.398,
+      "type": "word"
+    },
+    {
+      "text": "the",
+      "start": 1.398,
+      "end": 1.487,
+      "type": "word"
+    },
+    {
+      "text": "U.S.",
+      "start": 1.591,
+      "end": 2.49,
+      "type": "word"
+    },
+    {
+      "text": "Energy",
+      "start": 2.86,
+      "end": 3.24,
+      "type": "word"
+    },
+    {
+      "text": "Information",
+      "start": 3.281,
+      "end": 3.934,
+      "type": "word"
+    },
+    {
+      "text": "Administration.",
+      "start": 3.981,
+      "end": 4.88,
+      "type": "word"
+    }
+  ]
+}

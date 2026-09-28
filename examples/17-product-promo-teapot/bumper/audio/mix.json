@@ -1,0 +1,9 @@
+{
+  "_comment": "6 s bumper: lounge-jazz at 120 bpm, cuts on beats (1.5 s, 3.5 s after retime); shimmer on the sheen of the turn.",
+  "sample_rate": 48000,
+  "tracks": [
+    {"id": "bed", "kind": "music", "compose": {"style": "lounge-jazz", "bpm": 120, "sections": "0:intro,1.5:verse,3.5:outro", "seed": 1}, "gain_db": 0, "fade_out": 0.6, "duck": {"under": ["sfx1"], "depth_db": 4, "attack": 0.1, "release": 0.6}},
+    {"kind": "sfx", "synth": {"type": "shimmer", "key": "F", "intensity": 0.55, "seed": 3}, "at": 2.25, "align": "peak", "gain_db": 0, "id": "sfx1"}
+  ],
+  "master": {"lufs": -14, "true_peak": -1}
+}

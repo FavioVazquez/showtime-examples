@@ -1,0 +1,97 @@
+1
+00:00:00,330 --> 00:00:02,270
+This bee is giving directions.
+
+2
+00:00:02,300 --> 00:00:04,795
+Her dance tells the colony
+where the food is.
+
+3
+00:00:05,412 --> 00:00:07,012
+Inside the hive it's dark,
+
+4
+00:00:07,012 --> 00:00:09,012
+and the comb is a vertical wall.
+
+5
+00:00:09,162 --> 00:00:11,422
+She can't point
+at the flowers from in here.
+
+6
+00:00:11,422 --> 00:00:12,627
+So she dances.
+
+7
+00:00:13,254 --> 00:00:14,194
+On the comb,
+
+8
+00:00:14,194 --> 00:00:15,924
+straight up means toward the sun.
+
+9
+00:00:16,166 --> 00:00:18,604
+Food forty-five degrees right of the sun?
+
+10
+00:00:18,604 --> 00:00:21,954
+Her waggle run leans forty-five
+degrees right of straight up.
+
+11
+00:00:22,233 --> 00:00:23,449
+As the sun moves,
+
+12
+00:00:23,449 --> 00:00:25,307
+she shifts her angle to match.
+
+13
+00:00:25,934 --> 00:00:29,841
+She repeats the loop, turning left,
+then right: a figure-eight.
+
+14
+00:00:29,841 --> 00:00:32,094
+The waggle run carries the distance.
+
+15
+00:00:32,145 --> 00:00:33,264
+The farther the food,
+
+16
+00:00:33,264 --> 00:00:34,691
+the longer she waggles.
+
+17
+00:00:35,338 --> 00:00:37,918
+For very close food, about ten metres,
+
+18
+00:00:37,918 --> 00:00:40,258
+she runs in a small circle instead.
+
+19
+00:00:40,448 --> 00:00:42,058
+Past about forty metres,
+
+20
+00:00:42,058 --> 00:00:44,423
+the circle stretches
+into the waggle dance.
+
+21
+00:00:45,030 --> 00:00:46,536
+Karl von Frisch,
+
+22
+00:00:46,536 --> 00:00:51,040
+the Austrian scientist who
+shared the 1973 Nobel Prize,
+
+23
+00:00:51,090 --> 00:00:52,930
+was one of the first to decode it.

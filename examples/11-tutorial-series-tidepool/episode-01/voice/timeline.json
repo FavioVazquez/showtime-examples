@@ -1,0 +1,2771 @@
+{
+  "version": 1,
+  "file": "vo.wav",
+  "sample_rate": 48000,
+  "duration": 89.494,
+  "lead_in": 0.0,
+  "tail": 0.4,
+  "loudness": -16.22,
+  "script": "../narration.md",
+  "lines": [
+    {
+      "id": "hello",
+      "index": 1,
+      "text": "This is Tidepool, a notes app that keeps everything on your own device. Let's capture a note from start to finish.",
+      "source_text": "This is Tidepool, a notes app that keeps everything on your own device. Let's capture a note from start to finish.",
+      "voice": "af_heart",
+      "engine": "kokoro",
+      "lang": "en-us",
+      "speed": 0.94,
+      "style": "tutorial",
+      "start": 4.3,
+      "end": 11.605,
+      "duration": 7.305,
+      "speech_start": 4.35,
+      "speech_end": 11.055,
+      "pause_after": 0.6,
+      "slot": {
+        "start": 4.3,
+        "end": 12.205,
+        "duration": 7.905
+      },
+      "file": "lines/01-hello.wav",
+      "timing": "exact",
+      "wps": 3.132,
+      "words": [
+        {
+          "text": "This",
+          "start": 4.35,
+          "end": 4.521,
+          "line": "hello"
+        },
+        {
+          "text": "is",
+          "start": 4.582,
+          "end": 4.702,
+          "line": "hello"
+        },
+        {
+          "text": "Tidepool,",
+          "start": 4.8,
+          "end": 5.566,
+          "line": "hello"
+        },
+        {
+          "text": "a",
+          "start": 5.73,
+          "end": 5.76,
+          "line": "hello"
+        },
+        {
+          "text": "notes",
+          "start": 5.819,
+          "end": 6.098,
+          "line": "hello"
+        },
+        {
+          "text": "app",
+          "start": 6.15,
+          "end": 6.342,
+          "line": "hello"
+        },
+        {
+          "text": "that",
+          "start": 6.41,
+          "end": 6.479,
+          "line": "hello"
+        },
+        {
+          "text": "keeps",
+          "start": 6.531,
+          "end": 6.774,
+          "line": "hello"
+        },
+        {
+          "text": "everything",
+          "start": 6.838,
+          "end": 7.316,
+          "line": "hello"
+        },
+        {
+          "text": "on",
+          "start": 7.356,
+          "end": 7.453,
+          "line": "hello"
+        },
+        {
+          "text": "your",
+          "start": 7.483,
+          "end": 7.583,
+          "line": "hello"
+        },
+        {
+          "text": "own",
+          "start": 7.634,
+          "end": 7.825,
+          "line": "hello"
+        },
+        {
+          "text": "device.",
+          "start": 7.867,
+          "end": 8.51,
+          "line": "hello"
+        },
+        {
+          "text": "Let's",
+          "start": 8.951,
+          "end": 9.18,
+          "line": "hello"
+        },
+        {
+          "text": "capture",
+          "start": 9.232,
+          "end": 9.612,
+          "line": "hello"
+        },
+        {
+          "text": "a",
+          "start": 9.639,
+          "end": 9.67,
+          "line": "hello"
+        },
+        {
+          "text": "note",
+          "start": 9.721,
+          "end": 9.962,
+          "line": "hello"
+        },
+        {
+          "text": "from",
+          "start": 10.014,
+          "end": 10.159,
+          "line": "hello"
+        },
+        {
+          "text": "start",
+          "start": 10.21,
+          "end": 10.463,
+          "line": "hello"
+        },
+        {
+          "text": "to",
+          "start": 10.51,
+          "end": 10.575,
+          "line": "hello"
+        },
+        {
+          "text": "finish.",
+          "start": 10.627,
+          "end": 11.055,
+          "line": "hello"
+        }
+      ]
+    },
+    {
+      "id": "new",
+      "index": 2,
+      "text": "To start a note, press N. The New note button does the same thing.",
+      "source_text": "To start a note, press N. The New note button does the same thing.",
+      "voice": "af_heart",
+      "engine": "kokoro",
+      "lang": "en-us",
+      "speed": 0.94,
+      "style": "tutorial",
+      "start": 12.205,
+      "end": 16.432,
+      "duration": 4.227,
+      "speech_start": 12.245,
+      "speech_end": 15.892,
+      "pause_after": 0.9,
+      "slot": {
+        "start": 12.205,
+        "end": 17.332,
+        "duration": 5.127
+      },
+      "file": "lines/02-new.wav",
+      "timing": "exact",
+      "wps": 3.839,
+      "words": [
+        {
+          "text": "To",
+          "start": 12.245,
+          "end": 12.323,
+          "line": "new"
+        },
+        {
+          "text": "start",
+          "start": 12.375,
+          "end": 12.606,
+          "line": "new"
+        },
+        {
+          "text": "a",
+          "start": 12.632,
+          "end": 12.662,
+          "line": "new"
+        },
+        {
+          "text": "note,",
+          "start": 12.693,
+          "end": 12.914,
+          "line": "new"
+        },
+        {
+          "text": "press",
+          "start": 13.035,
+          "end": 13.293,
+          "line": "new"
+        },
+        {
+          "text": "N.",
+          "start": 13.344,
+          "end": 13.605,
+          "line": "new"
+        },
+        {
+          "text": "The",
+          "start": 14.005,
+          "end": 14.088,
+          "line": "new"
+        },
+        {
+          "text": "New",
+          "start": 14.139,
+          "end": 14.262,
+          "line": "new"
+        },
+        {
+          "text": "note",
+          "start": 14.304,
+          "end": 14.529,
+          "line": "new"
+        },
+        {
+          "text": "button",
+          "start": 14.585,
+          "end": 14.865,
+          "line": "new"
+        },
+        {
+          "text": "does",
+          "start": 14.916,
+          "end": 15.078,
+          "line": "new"
+        },
+        {
+          "text": "the",
+          "start": 15.111,
+          "end": 15.175,
+          "line": "new"
+        },
+        {
+          "text": "same",
+          "start": 15.247,
+          "end": 15.501,
+          "line": "new"
+        },
+        {
+          "text": "thing.",
+          "start": 15.558,
+          "end": 15.892,
+          "line": "new"
+        }
+      ]
+    },
+    {
+      "id": "title",
+      "index": 3,
+      "text": "The cursor is already in the title, so just type.",
+      "source_text": "The cursor is already in the title, so just type.",
+      "voice": "af_heart",
+      "engine": "kokoro",
+      "lang": "en-us",
+      "speed": 0.94,
+      "style": "tutorial",
+      "start": 17.332,
+      "end": 20.617,
+      "duration": 3.285,
+      "speech_start": 17.412,
+      "speech_end": 20.077,
+      "pause_after": 1.7,
+      "slot": {
+        "start": 17.332,
+        "end": 22.317,
+        "duration": 4.985
+      },
+      "file": "lines/03-title.wav",
+      "timing": "exact",
+      "wps": 3.752,
+      "words": [
+        {
+          "text": "The",
+          "start": 17.412,
+          "end": 17.453,
+          "line": "title"
+        },
+        {
+          "text": "cursor",
+          "start": 17.504,
+          "end": 17.91,
+          "line": "title"
+        },
+        {
+          "text": "is",
+          "start": 17.959,
+          "end": 18.056,
+          "line": "title"
+        },
+        {
+          "text": "already",
+          "start": 18.111,
+          "end": 18.401,
+          "line": "title"
+        },
+        {
+          "text": "in",
+          "start": 18.429,
+          "end": 18.511,
+          "line": "title"
+        },
+        {
+          "text": "the",
+          "start": 18.511,
+          "end": 18.563,
+          "line": "title"
+        },
+        {
+          "text": "title,",
+          "start": 18.615,
+          "end": 19.072,
+          "line": "title"
+        },
+        {
+          "text": "so",
+          "start": 19.242,
+          "end": 19.401,
+          "line": "title"
+        },
+        {
+          "text": "just",
+          "start": 19.428,
+          "end": 19.618,
+          "line": "title"
+        },
+        {
+          "text": "type.",
+          "start": 19.632,
+          "end": 20.077,
+          "line": "title"
+        }
+      ]
+    },
+    {
+      "id": "enter",
+      "index": 4,
+      "text": "Press Enter to jump down to the body.",
+      "source_text": "Press Enter to jump down to the body.",
+      "voice": "af_heart",
+      "engine": "kokoro",
+      "lang": "en-us",
+      "speed": 0.94,
+      "style": "tutorial",
+      "start": 22.317,
+      "end": 25.123,
+      "duration": 2.807,
+      "speech_start": 22.357,
+      "speech_end": 24.607,
+      "pause_after": 0.5,
+      "slot": {
+        "start": 22.317,
+        "end": 25.623,
+        "duration": 3.307
+      },
+      "file": "lines/04-enter.wav",
+      "timing": "exact",
+      "wps": 3.556,
+      "words": [
+        {
+          "text": "Press",
+          "start": 22.357,
+          "end": 22.591,
+          "line": "enter"
+        },
+        {
+          "text": "Enter",
+          "start": 22.643,
+          "end": 23.087,
+          "line": "enter"
+        },
+        {
+          "text": "to",
+          "start": 23.157,
+          "end": 23.279,
+          "line": "enter"
+        },
+        {
+          "text": "jump",
+          "start": 23.358,
+          "end": 23.645,
+          "line": "enter"
+        },
+        {
+          "text": "down",
+          "start": 23.667,
+          "end": 23.895,
+          "line": "enter"
+        },
+        {
+          "text": "to",
+          "start": 23.938,
+          "end": 23.991,
+          "line": "enter"
+        },
+        {
+          "text": "the",
+          "start": 24.018,
+          "end": 24.07,
+          "line": "enter"
+        },
+        {
+          "text": "body.",
+          "start": 24.114,
+          "end": 24.607,
+          "line": "enter"
+        }
+      ]
+    },
+    {
+      "id": "body",
+      "index": 5,
+      "text": "The body is Markdown. A dash and two brackets make a checklist item.",
+      "source_text": "The body is Markdown. A dash and two brackets make a checklist item.",
+      "voice": "af_heart",
+      "engine": "kokoro",
+      "lang": "en-us",
+      "speed": 0.94,
+      "style": "tutorial",
+      "start": 25.623,
+      "end": 30.356,
+      "duration": 4.733,
+      "speech_start": 25.663,
+      "speech_end": 29.806,
+      "pause_after": 0.9,
+      "slot": {
+        "start": 25.623,
+        "end": 31.256,
+        "duration": 5.633
+      },
+      "file": "lines/05-body.wav",
+      "timing": "exact",
+      "wps": 3.138,
+      "words": [
+        {
+          "text": "The",
+          "start": 25.663,
+          "end": 25.7,
+          "line": "body"
+        },
+        {
+          "text": "body",
+          "start": 25.752,
+          "end": 26.1,
+          "line": "body"
+        },
+        {
+          "text": "is",
+          "start": 26.152,
+          "end": 26.253,
+          "line": "body"
+        },
+        {
+          "text": "Markdown.",
+          "start": 26.304,
+          "end": 26.973,
+          "line": "body"
+        },
+        {
+          "text": "A",
+          "start": 27.363,
+          "end": 27.415,
+          "line": "body"
+        },
+        {
+          "text": "dash",
+          "start": 27.486,
+          "end": 27.795,
+          "line": "body"
+        },
+        {
+          "text": "and",
+          "start": 27.827,
+          "end": 27.904,
+          "line": "body"
+        },
+        {
+          "text": "two",
+          "start": 27.966,
+          "end": 28.101,
+          "line": "body"
+        },
+        {
+          "text": "brackets",
+          "start": 28.145,
+          "end": 28.618,
+          "line": "body"
+        },
+        {
+          "text": "make",
+          "start": 28.661,
+          "end": 28.801,
+          "line": "body"
+        },
+        {
+          "text": "a",
+          "start": 28.827,
+          "end": 28.862,
+          "line": "body"
+        },
+        {
+          "text": "checklist",
+          "start": 28.933,
+          "end": 29.358,
+          "line": "body"
+        },
+        {
+          "text": "item.",
+          "start": 29.409,
+          "end": 29.806,
+          "line": "body"
+        }
+      ]
+    },
+    {
+      "id": "continue",
+      "index": 6,
+      "text": "Press Enter, and the list carries on by itself.",
+      "source_text": "Press Enter, and the list carries on by itself.",
+      "voice": "af_heart",
+      "engine": "kokoro",
+      "lang": "en-us",
+      "speed": 0.94,
+      "style": "tutorial",
+      "start": 31.256,
+      "end": 34.508,
+      "duration": 3.252,
+      "speech_start": 31.276,
+      "speech_end": 33.958,
+      "pause_after": 2.9,
+      "slot": {
+        "start": 31.256,
+        "end": 37.408,
+        "duration": 6.152
+      },
+      "file": "lines/06-continue.wav",
+      "timing": "exact",
+      "wps": 3.356,
+      "words": [
+        {
+          "text": "Press",
+          "start": 31.276,
+          "end": 31.491,
+          "line": "continue"
+        },
+        {
+          "text": "Enter,",
+          "start": 31.536,
+          "end": 31.966,
+          "line": "continue"
+        },
+        {
+          "text": "and",
+          "start": 32.136,
+          "end": 32.212,
+          "line": "continue"
+        },
+        {
+          "text": "the",
+          "start": 32.239,
+          "end": 32.291,
+          "line": "continue"
+        },
+        {
+          "text": "list",
+          "start": 32.343,
+          "end": 32.576,
+          "line": "continue"
+        },
+        {
+          "text": "carries",
+          "start": 32.606,
+          "end": 32.954,
+          "line": "continue"
+        },
+        {
+          "text": "on",
+          "start": 32.993,
+          "end": 33.158,
+          "line": "continue"
+        },
+        {
+          "text": "by",
+          "start": 33.208,
+          "end": 33.381,
+          "line": "continue"
+        },
+        {
+          "text": "itself.",
+          "start": 33.424,
+          "end": 33.958,
+          "line": "continue"
+        }
+      ]
+    },
+    {
+      "id": "preview",
+      "index": 7,
+      "text": "In split view, the preview on the right renders it as you type.",
+      "source_text": "In split view, the preview on the right renders it as you type.",
+      "voice": "af_heart",
+      "engine": "kokoro",
+      "lang": "en-us",
+      "speed": 0.94,
+      "style": "tutorial",
+      "start": 37.408,
+      "end": 41.374,
+      "duration": 3.966,
+      "speech_start": 37.428,
+      "speech_end": 40.814,
+      "pause_after": 0.5,
+      "slot": {
+        "start": 37.408,
+        "end": 41.874,
+        "duration": 4.466
+      },
+      "file": "lines/07-preview.wav",
+      "timing": "exact",
+      "wps": 3.839,
+      "words": [
+        {
+          "text": "In",
+          "start": 37.428,
+          "end": 37.541,
+          "line": "preview"
+        },
+        {
+          "text": "split",
+          "start": 37.618,
+          "end": 37.902,
+          "line": "preview"
+        },
+        {
+          "text": "view,",
+          "start": 37.954,
+          "end": 38.288,
+          "line": "preview"
+        },
+        {
+          "text": "the",
+          "start": 38.468,
+          "end": 38.525,
+          "line": "preview"
+        },
+        {
+          "text": "preview",
+          "start": 38.578,
+          "end": 38.915,
+          "line": "preview"
+        },
+        {
+          "text": "on",
+          "start": 38.972,
+          "end": 39.075,
+          "line": "preview"
+        },
+        {
+          "text": "the",
+          "start": 39.075,
+          "end": 39.144,
+          "line": "preview"
+        },
+        {
+          "text": "right",
+          "start": 39.196,
+          "end": 39.498,
+          "line": "preview"
+        },
+        {
+          "text": "renders",
+          "start": 39.518,
+          "end": 39.967,
+          "line": "preview"
+        },
+        {
+          "text": "it",
+          "start": 40.019,
+          "end": 40.118,
+          "line": "preview"
+        },
+        {
+          "text": "as",
+          "start": 40.118,
+          "end": 40.265,
+          "line": "preview"
+        },
+        {
+          "text": "you",
+          "start": 40.316,
+          "end": 40.399,
+          "line": "preview"
+        },
+        {
+          "text": "type.",
+          "start": 40.452,
+          "end": 40.814,
+          "line": "preview"
+        }
+      ]
+    },
+    {
+      "id": "flip",
+      "index": 8,
+      "text": "Command E flips to the full preview. Press it again to keep writing.",
+      "source_text": "Command E flips to the full preview. Press it again to keep writing.",
+      "voice": "af_heart",
+      "engine": "kokoro",
+      "lang": "en-us",
+      "speed": 0.94,
+      "style": "tutorial",
+      "start": 41.874,
+      "end": 46.295,
+      "duration": 4.421,
+      "speech_start": 41.894,
+      "speech_end": 45.745,
+      "pause_after": 1.2,
+      "slot": {
+        "start": 41.874,
+        "end": 47.495,
+        "duration": 5.621
+      },
+      "file": "lines/08-flip.wav",
+      "timing": "exact",
+      "wps": 3.376,
+      "words": [
+        {
+          "text": "Command",
+          "start": 41.894,
+          "end": 42.304,
+          "line": "flip"
+        },
+        {
+          "text": "E",
+          "start": 42.394,
+          "end": 42.558,
+          "line": "flip"
+        },
+        {
+          "text": "flips",
+          "start": 42.639,
+          "end": 42.898,
+          "line": "flip"
+        },
+        {
+          "text": "to",
+          "start": 42.948,
+          "end": 42.999,
+          "line": "flip"
+        },
+        {
+          "text": "the",
+          "start": 43.025,
+          "end": 43.083,
+          "line": "flip"
+        },
+        {
+          "text": "full",
+          "start": 43.157,
+          "end": 43.342,
+          "line": "flip"
+        },
+        {
+          "text": "preview.",
+          "start": 43.404,
+          "end": 43.874,
+          "line": "flip"
+        },
+        {
+          "text": "Press",
+          "start": 44.274,
+          "end": 44.467,
+          "line": "flip"
+        },
+        {
+          "text": "it",
+          "start": 44.494,
+          "end": 44.546,
+          "line": "flip"
+        },
+        {
+          "text": "again",
+          "start": 44.577,
+          "end": 44.855,
+          "line": "flip"
+        },
+        {
+          "text": "to",
+          "start": 44.906,
+          "end": 44.962,
+          "line": "flip"
+        },
+        {
+          "text": "keep",
+          "start": 45.011,
+          "end": 45.195,
+          "line": "flip"
+        },
+        {
+          "text": "writing.",
+          "start": 45.246,
+          "end": 45.745,
+          "line": "flip"
+        }
+      ]
+    },
+    {
+      "id": "tag",
+      "index": 9,
+      "text": "Tags go under the title. Click Add tag, type planning, and press Enter.",
+      "source_text": "Tags go under the title. Click Add tag, type planning, and press Enter.",
+      "voice": "af_heart",
+      "engine": "kokoro",
+      "lang": "en-us",
+      "speed": 0.94,
+      "style": "tutorial",
+      "start": 47.495,
+      "end": 52.585,
+      "duration": 5.09,
+      "speech_start": 47.525,
+      "speech_end": 52.075,
+      "pause_after": 1.1,
+      "slot": {
+        "start": 47.495,
+        "end": 53.685,
+        "duration": 6.19
+      },
+      "file": "lines/09-tag.wav",
+      "timing": "exact",
+      "wps": 2.857,
+      "words": [
+        {
+          "text": "Tags",
+          "start": 47.525,
+          "end": 47.857,
+          "line": "tag"
+        },
+        {
+          "text": "go",
+          "start": 47.925,
+          "end": 48.012,
+          "line": "tag"
+        },
+        {
+          "text": "under",
+          "start": 48.038,
+          "end": 48.17,
+          "line": "tag"
+        },
+        {
+          "text": "the",
+          "start": 48.199,
+          "end": 48.253,
+          "line": "tag"
+        },
+        {
+          "text": "title.",
+          "start": 48.305,
+          "end": 48.755,
+          "line": "tag"
+        },
+        {
+          "text": "Click",
+          "start": 49.155,
+          "end": 49.376,
+          "line": "tag"
+        },
+        {
+          "text": "Add",
+          "start": 49.435,
+          "end": 49.618,
+          "line": "tag"
+        },
+        {
+          "text": "tag,",
+          "start": 49.693,
+          "end": 50.189,
+          "line": "tag"
+        },
+        {
+          "text": "type",
+          "start": 50.315,
+          "end": 50.588,
+          "line": "tag"
+        },
+        {
+          "text": "planning,",
+          "start": 50.625,
+          "end": 51.023,
+          "line": "tag"
+        },
+        {
+          "text": "and",
+          "start": 51.229,
+          "end": 51.307,
+          "line": "tag"
+        },
+        {
+          "text": "press",
+          "start": 51.325,
+          "end": 51.593,
+          "line": "tag"
+        },
+        {
+          "text": "Enter.",
+          "start": 51.632,
+          "end": 52.075,
+          "line": "tag"
+        }
+      ]
+    },
+    {
+      "id": "notebook",
+      "index": 10,
+      "text": "Then choose a notebook. This one belongs in Work.",
+      "source_text": "Then choose a notebook. This one belongs in Work.",
+      "voice": "af_heart",
+      "engine": "kokoro",
+      "lang": "en-us",
+      "speed": 0.94,
+      "style": "tutorial",
+      "start": 53.685,
+      "end": 57.225,
+      "duration": 3.54,
+      "speech_start": 53.715,
+      "speech_end": 56.675,
+      "pause_after": 1.0,
+      "slot": {
+        "start": 53.685,
+        "end": 58.225,
+        "duration": 4.54
+      },
+      "file": "lines/10-notebook.wav",
+      "timing": "exact",
+      "wps": 3.041,
+      "words": [
+        {
+          "text": "Then",
+          "start": 53.715,
+          "end": 53.918,
+          "line": "notebook"
+        },
+        {
+          "text": "choose",
+          "start": 53.971,
+          "end": 54.209,
+          "line": "notebook"
+        },
+        {
+          "text": "a",
+          "start": 54.237,
+          "end": 54.267,
+          "line": "notebook"
+        },
+        {
+          "text": "notebook.",
+          "start": 54.319,
+          "end": 54.845,
+          "line": "notebook"
+        },
+        {
+          "text": "This",
+          "start": 55.255,
+          "end": 55.474,
+          "line": "notebook"
+        },
+        {
+          "text": "one",
+          "start": 55.474,
+          "end": 55.632,
+          "line": "notebook"
+        },
+        {
+          "text": "belongs",
+          "start": 55.683,
+          "end": 56.131,
+          "line": "notebook"
+        },
+        {
+          "text": "in",
+          "start": 56.173,
+          "end": 56.263,
+          "line": "notebook"
+        },
+        {
+          "text": "Work.",
+          "start": 56.316,
+          "end": 56.675,
+          "line": "notebook"
+        }
+      ]
+    },
+    {
+      "id": "saved",
+      "index": 11,
+      "text": "There's no save button. Tidepool saves as you type, and nothing leaves this device.",
+      "source_text": "There's no save button. Tidepool saves as you type, and nothing leaves this device.",
+      "voice": "af_heart",
+      "engine": "kokoro",
+      "lang": "en-us",
+      "speed": 0.94,
+      "style": "tutorial",
+      "start": 58.225,
+      "end": 63.79,
+      "duration": 5.565,
+      "speech_start": 58.255,
+      "speech_end": 63.23,
+      "pause_after": 0.7,
+      "slot": {
+        "start": 58.225,
+        "end": 64.49,
+        "duration": 6.265
+      },
+      "file": "lines/11-saved.wav",
+      "timing": "exact",
+      "wps": 2.814,
+      "words": [
+        {
+          "text": "There's",
+          "start": 58.255,
+          "end": 58.447,
+          "line": "saved"
+        },
+        {
+          "text": "no",
+          "start": 58.5,
+          "end": 58.689,
+          "line": "saved"
+        },
+        {
+          "text": "save",
+          "start": 58.775,
+          "end": 59.04,
+          "line": "saved"
+        },
+        {
+          "text": "button.",
+          "start": 59.105,
+          "end": 59.545,
+          "line": "saved"
+        },
+        {
+          "text": "Tidepool",
+          "start": 59.945,
+          "end": 60.43,
+          "line": "saved"
+        },
+        {
+          "text": "saves",
+          "start": 60.505,
+          "end": 60.796,
+          "line": "saved"
+        },
+        {
+          "text": "as",
+          "start": 60.84,
+          "end": 60.919,
+          "line": "saved"
+        },
+        {
+          "text": "you",
+          "start": 60.957,
+          "end": 61.037,
+          "line": "saved"
+        },
+        {
+          "text": "type,",
+          "start": 61.09,
+          "end": 61.495,
+          "line": "saved"
+        },
+        {
+          "text": "and",
+          "start": 61.635,
+          "end": 61.738,
+          "line": "saved"
+        },
+        {
+          "text": "nothing",
+          "start": 61.791,
+          "end": 62.115,
+          "line": "saved"
+        },
+        {
+          "text": "leaves",
+          "start": 62.167,
+          "end": 62.446,
+          "line": "saved"
+        },
+        {
+          "text": "this",
+          "start": 62.475,
+          "end": 62.638,
+          "line": "saved"
+        },
+        {
+          "text": "device.",
+          "start": 62.685,
+          "end": 63.23,
+          "line": "saved"
+        }
+      ]
+    },
+    {
+      "id": "sync",
+      "index": 12,
+      "text": "The sidebar says so too: sync is set to local only.",
+      "source_text": "The sidebar says so too: sync is set to local only.",
+      "voice": "af_heart",
+      "engine": "kokoro",
+      "lang": "en-us",
+      "speed": 0.94,
+      "style": "tutorial",
+      "start": 64.49,
+      "end": 68.447,
+      "duration": 3.957,
+      "speech_start": 64.53,
+      "speech_end": 67.917,
+      "pause_after": 0.8,
+      "slot": {
+        "start": 64.49,
+        "end": 69.247,
+        "duration": 4.757
+      },
+      "file": "lines/12-sync.wav",
+      "timing": "exact",
+      "wps": 3.248,
+      "words": [
+        {
+          "text": "The",
+          "start": 64.53,
+          "end": 64.586,
+          "line": "sync"
+        },
+        {
+          "text": "sidebar",
+          "start": 64.66,
+          "end": 65.131,
+          "line": "sync"
+        },
+        {
+          "text": "says",
+          "start": 65.183,
+          "end": 65.353,
+          "line": "sync"
+        },
+        {
+          "text": "so",
+          "start": 65.405,
+          "end": 65.557,
+          "line": "sync"
+        },
+        {
+          "text": "too:",
+          "start": 65.61,
+          "end": 65.97,
+          "line": "sync"
+        },
+        {
+          "text": "sync",
+          "start": 66.342,
+          "end": 66.601,
+          "line": "sync"
+        },
+        {
+          "text": "is",
+          "start": 66.65,
+          "end": 66.728,
+          "line": "sync"
+        },
+        {
+          "text": "set",
+          "start": 66.78,
+          "end": 66.942,
+          "line": "sync"
+        },
+        {
+          "text": "to",
+          "start": 66.95,
+          "end": 67.059,
+          "line": "sync"
+        },
+        {
+          "text": "local",
+          "start": 67.11,
+          "end": 67.42,
+          "line": "sync"
+        },
+        {
+          "text": "only.",
+          "start": 67.472,
+          "end": 67.917,
+          "line": "sync"
+        }
+      ]
+    },
+    {
+      "id": "pin",
+      "index": 13,
+      "text": "Press Escape to leave the editor, then P to pin the note to the top.",
+      "source_text": "Press Escape to leave the editor, then P to pin the note to the top.",
+      "voice": "af_heart",
+      "engine": "kokoro",
+      "lang": "en-us",
+      "speed": 0.94,
+      "style": "tutorial",
+      "start": 69.247,
+      "end": 73.577,
+      "duration": 4.33,
+      "speech_start": 69.287,
+      "speech_end": 73.037,
+      "pause_after": 1.6,
+      "slot": {
+        "start": 69.247,
+        "end": 75.177,
+        "duration": 5.93
+      },
+      "file": "lines/13-pin.wav",
+      "timing": "exact",
+      "wps": 4.0,
+      "words": [
+        {
+          "text": "Press",
+          "start": 69.287,
+          "end": 69.488,
+          "line": "pin"
+        },
+        {
+          "text": "Escape",
+          "start": 69.539,
+          "end": 69.928,
+          "line": "pin"
+        },
+        {
+          "text": "to",
+          "start": 69.947,
+          "end": 70.047,
+          "line": "pin"
+        },
+        {
+          "text": "leave",
+          "start": 70.098,
+          "end": 70.286,
+          "line": "pin"
+        },
+        {
+          "text": "the",
+          "start": 70.312,
+          "end": 70.4,
+          "line": "pin"
+        },
+        {
+          "text": "editor,",
+          "start": 70.451,
+          "end": 70.917,
+          "line": "pin"
+        },
+        {
+          "text": "then",
+          "start": 71.217,
+          "end": 71.37,
+          "line": "pin"
+        },
+        {
+          "text": "P",
+          "start": 71.459,
+          "end": 71.74,
+          "line": "pin"
+        },
+        {
+          "text": "to",
+          "start": 71.791,
+          "end": 71.849,
+          "line": "pin"
+        },
+        {
+          "text": "pin",
+          "start": 71.9,
+          "end": 72.048,
+          "line": "pin"
+        },
+        {
+          "text": "the",
+          "start": 72.074,
+          "end": 72.126,
+          "line": "pin"
+        },
+        {
+          "text": "note",
+          "start": 72.177,
+          "end": 72.398,
+          "line": "pin"
+        },
+        {
+          "text": "to",
+          "start": 72.417,
+          "end": 72.501,
+          "line": "pin"
+        },
+        {
+          "text": "the",
+          "start": 72.529,
+          "end": 72.582,
+          "line": "pin"
+        },
+        {
+          "text": "top.",
+          "start": 72.633,
+          "end": 73.037,
+          "line": "pin"
+        }
+      ]
+    },
+    {
+      "id": "pinned",
+      "index": 14,
+      "text": "Pinned notes stay above everything else, marked with a small pin.",
+      "source_text": "Pinned notes stay above everything else, marked with a small pin.",
+      "voice": "af_heart",
+      "engine": "kokoro",
+      "lang": "en-us",
+      "speed": 0.94,
+      "style": "tutorial",
+      "start": 75.177,
+      "end": 79.315,
+      "duration": 4.138,
+      "speech_start": 75.217,
+      "speech_end": 78.775,
+      "pause_after": 1.2,
+      "slot": {
+        "start": 75.177,
+        "end": 80.515,
+        "duration": 5.338
+      },
+      "file": "lines/14-pinned.wav",
+      "timing": "exact",
+      "wps": 3.092,
+      "words": [
+        {
+          "text": "Pinned",
+          "start": 75.217,
+          "end": 75.437,
+          "line": "pinned"
+        },
+        {
+          "text": "notes",
+          "start": 75.489,
+          "end": 75.746,
+          "line": "pinned"
+        },
+        {
+          "text": "stay",
+          "start": 75.795,
+          "end": 76.032,
+          "line": "pinned"
+        },
+        {
+          "text": "above",
+          "start": 76.073,
+          "end": 76.311,
+          "line": "pinned"
+        },
+        {
+          "text": "everything",
+          "start": 76.337,
+          "end": 76.778,
+          "line": "pinned"
+        },
+        {
+          "text": "else,",
+          "start": 76.825,
+          "end": 77.137,
+          "line": "pinned"
+        },
+        {
+          "text": "marked",
+          "start": 77.407,
+          "end": 77.816,
+          "line": "pinned"
+        },
+        {
+          "text": "with",
+          "start": 77.848,
+          "end": 77.945,
+          "line": "pinned"
+        },
+        {
+          "text": "a",
+          "start": 77.97,
+          "end": 78.006,
+          "line": "pinned"
+        },
+        {
+          "text": "small",
+          "start": 78.082,
+          "end": 78.37,
+          "line": "pinned"
+        },
+        {
+          "text": "pin.",
+          "start": 78.377,
+          "end": 78.775,
+          "line": "pinned"
+        }
+      ]
+    },
+    {
+      "id": "recap",
+      "index": 15,
+      "text": "That's the whole loop. Press N, type, and Tidepool keeps it.",
+      "source_text": "That's the whole loop. Press N, type, and Tidepool keeps it.",
+      "voice": "af_heart",
+      "engine": "kokoro",
+      "lang": "en-us",
+      "speed": 0.94,
+      "style": "tutorial",
+      "start": 80.515,
+      "end": 84.831,
+      "duration": 4.316,
+      "speech_start": 80.565,
+      "speech_end": 84.301,
+      "pause_after": 1.2,
+      "slot": {
+        "start": 80.515,
+        "end": 86.031,
+        "duration": 5.516
+      },
+      "file": "lines/15-recap.wav",
+      "timing": "exact",
+      "wps": 2.944,
+      "words": [
+        {
+          "text": "That's",
+          "start": 80.565,
+          "end": 80.788,
+          "line": "recap"
+        },
+        {
+          "text": "the",
+          "start": 80.823,
+          "end": 80.875,
+          "line": "recap"
+        },
+        {
+          "text": "whole",
+          "start": 80.924,
+          "end": 81.112,
+          "line": "recap"
+        },
+        {
+          "text": "loop.",
+          "start": 81.164,
+          "end": 81.495,
+          "line": "recap"
+        },
+        {
+          "text": "Press",
+          "start": 81.905,
+          "end": 82.12,
+          "line": "recap"
+        },
+        {
+          "text": "N,",
+          "start": 82.171,
+          "end": 82.444,
+          "line": "recap"
+        },
+        {
+          "text": "type,",
+          "start": 82.665,
+          "end": 82.952,
+          "line": "recap"
+        },
+        {
+          "text": "and",
+          "start": 83.085,
+          "end": 83.213,
+          "line": "recap"
+        },
+        {
+          "text": "Tidepool",
+          "start": 83.264,
+          "end": 83.701,
+          "line": "recap"
+        },
+        {
+          "text": "keeps",
+          "start": 83.735,
+          "end": 84.042,
+          "line": "recap"
+        },
+        {
+          "text": "it.",
+          "start": 84.103,
+          "end": 84.301,
+          "line": "recap"
+        }
+      ]
+    },
+    {
+      "id": "outro",
+      "index": 16,
+      "text": "Next time: finding any note in a second.",
+      "source_text": "Next time: finding any note in a second.",
+      "voice": "af_heart",
+      "engine": "kokoro",
+      "lang": "en-us",
+      "speed": 0.94,
+      "style": "tutorial",
+      "start": 86.031,
+      "end": 89.094,
+      "duration": 3.063,
+      "speech_start": 86.071,
+      "speech_end": 88.571,
+      "pause_after": 0.7,
+      "slot": {
+        "start": 86.031,
+        "end": 89.494,
+        "duration": 3.463
+      },
+      "file": "lines/16-outro.wav",
+      "timing": "exact",
+      "wps": 3.2,
+      "words": [
+        {
+          "text": "Next",
+          "start": 86.071,
+          "end": 86.358,
+          "line": "outro"
+        },
+        {
+          "text": "time:",
+          "start": 86.391,
+          "end": 86.801,
+          "line": "outro"
+        },
+        {
+          "text": "finding",
+          "start": 87.011,
+          "end": 87.404,
+          "line": "outro"
+        },
+        {
+          "text": "any",
+          "start": 87.43,
+          "end": 87.586,
+          "line": "outro"
+        },
+        {
+          "text": "note",
+          "start": 87.638,
+          "end": 87.881,
+          "line": "outro"
+        },
+        {
+          "text": "in",
+          "start": 87.926,
+          "end": 87.981,
+          "line": "outro"
+        },
+        {
+          "text": "a",
+          "start": 88.008,
+          "end": 88.042,
+          "line": "outro"
+        },
+        {
+          "text": "second.",
+          "start": 88.098,
+          "end": 88.571,
+          "line": "outro"
+        }
+      ]
+    }
+  ],
+  "words": [
+    {
+      "text": "This",
+      "start": 4.35,
+      "end": 4.521,
+      "line": "hello"
+    },
+    {
+      "text": "is",
+      "start": 4.582,
+      "end": 4.702,
+      "line": "hello"
+    },
+    {
+      "text": "Tidepool,",
+      "start": 4.8,
+      "end": 5.566,
+      "line": "hello"
+    },
+    {
+      "text": "a",
+      "start": 5.73,
+      "end": 5.76,
+      "line": "hello"
+    },
+    {
+      "text": "notes",
+      "start": 5.819,
+      "end": 6.098,
+      "line": "hello"
+    },
+    {
+      "text": "app",
+      "start": 6.15,
+      "end": 6.342,
+      "line": "hello"
+    },
+    {
+      "text": "that",
+      "start": 6.41,
+      "end": 6.479,
+      "line": "hello"
+    },
+    {
+      "text": "keeps",
+      "start": 6.531,
+      "end": 6.774,
+      "line": "hello"
+    },
+    {
+      "text": "everything",
+      "start": 6.838,
+      "end": 7.316,
+      "line": "hello"
+    },
+    {
+      "text": "on",
+      "start": 7.356,
+      "end": 7.453,
+      "line": "hello"
+    },
+    {
+      "text": "your",
+      "start": 7.483,
+      "end": 7.583,
+      "line": "hello"
+    },
+    {
+      "text": "own",
+      "start": 7.634,
+      "end": 7.825,
+      "line": "hello"
+    },
+    {
+      "text": "device.",
+      "start": 7.867,
+      "end": 8.51,
+      "line": "hello"
+    },
+    {
+      "text": "Let's",
+      "start": 8.951,
+      "end": 9.18,
+      "line": "hello"
+    },
+    {
+      "text": "capture",
+      "start": 9.232,
+      "end": 9.612,
+      "line": "hello"
+    },
+    {
+      "text": "a",
+      "start": 9.639,
+      "end": 9.67,
+      "line": "hello"
+    },
+    {
+      "text": "note",
+      "start": 9.721,
+      "end": 9.962,
+      "line": "hello"
+    },
+    {
+      "text": "from",
+      "start": 10.014,
+      "end": 10.159,
+      "line": "hello"
+    },
+    {
+      "text": "start",
+      "start": 10.21,
+      "end": 10.463,
+      "line": "hello"
+    },
+    {
+      "text": "to",
+      "start": 10.51,
+      "end": 10.575,
+      "line": "hello"
+    },
+    {
+      "text": "finish.",
+      "start": 10.627,
+      "end": 11.055,
+      "line": "hello"
+    },
+    {
+      "text": "To",
+      "start": 12.245,
+      "end": 12.323,
+      "line": "new"
+    },
+    {
+      "text": "start",
+      "start": 12.375,
+      "end": 12.606,
+      "line": "new"
+    },
+    {
+      "text": "a",
+      "start": 12.632,
+      "end": 12.662,
+      "line": "new"
+    },
+    {
+      "text": "note,",
+      "start": 12.693,
+      "end": 12.914,
+      "line": "new"
+    },
+    {
+      "text": "press",
+      "start": 13.035,
+      "end": 13.293,
+      "line": "new"
+    },
+    {
+      "text": "N.",
+      "start": 13.344,
+      "end": 13.605,
+      "line": "new"
+    },
+    {
+      "text": "The",
+      "start": 14.005,
+      "end": 14.088,
+      "line": "new"
+    },
+    {
+      "text": "New",
+      "start": 14.139,
+      "end": 14.262,
+      "line": "new"
+    },
+    {
+      "text": "note",
+      "start": 14.304,
+      "end": 14.529,
+      "line": "new"
+    },
+    {
+      "text": "button",
+      "start": 14.585,
+      "end": 14.865,
+      "line": "new"
+    },
+    {
+      "text": "does",
+      "start": 14.916,
+      "end": 15.078,
+      "line": "new"
+    },
+    {
+      "text": "the",
+      "start": 15.111,
+      "end": 15.175,
+      "line": "new"
+    },
+    {
+      "text": "same",
+      "start": 15.247,
+      "end": 15.501,
+      "line": "new"
+    },
+    {
+      "text": "thing.",
+      "start": 15.558,
+      "end": 15.892,
+      "line": "new"
+    },
+    {
+      "text": "The",
+      "start": 17.412,
+      "end": 17.453,
+      "line": "title"
+    },
+    {
+      "text": "cursor",
+      "start": 17.504,
+      "end": 17.91,
+      "line": "title"
+    },
+    {
+      "text": "is",
+      "start": 17.959,
+      "end": 18.056,
+      "line": "title"
+    },
+    {
+      "text": "already",
+      "start": 18.111,
+      "end": 18.401,
+      "line": "title"
+    },
+    {
+      "text": "in",
+      "start": 18.429,
+      "end": 18.511,
+      "line": "title"
+    },
+    {
+      "text": "the",
+      "start": 18.511,
+      "end": 18.563,
+      "line": "title"
+    },
+    {
+      "text": "title,",
+      "start": 18.615,
+      "end": 19.072,
+      "line": "title"
+    },
+    {
+      "text": "so",
+      "start": 19.242,
+      "end": 19.401,
+      "line": "title"
+    },
+    {
+      "text": "just",
+      "start": 19.428,
+      "end": 19.618,
+      "line": "title"
+    },
+    {
+      "text": "type.",
+      "start": 19.632,
+      "end": 20.077,
+      "line": "title"
+    },
+    {
+      "text": "Press",
+      "start": 22.357,
+      "end": 22.591,
+      "line": "enter"
+    },
+    {
+      "text": "Enter",
+      "start": 22.643,
+      "end": 23.087,
+      "line": "enter"
+    },
+    {
+      "text": "to",
+      "start": 23.157,
+      "end": 23.279,
+      "line": "enter"
+    },
+    {
+      "text": "jump",
+      "start": 23.358,
+      "end": 23.645,
+      "line": "enter"
+    },
+    {
+      "text": "down",
+      "start": 23.667,
+      "end": 23.895,
+      "line": "enter"
+    },
+    {
+      "text": "to",
+      "start": 23.938,
+      "end": 23.991,
+      "line": "enter"
+    },
+    {
+      "text": "the",
+      "start": 24.018,
+      "end": 24.07,
+      "line": "enter"
+    },
+    {
+      "text": "body.",
+      "start": 24.114,
+      "end": 24.607,
+      "line": "enter"
+    },
+    {
+      "text": "The",
+      "start": 25.663,
+      "end": 25.7,
+      "line": "body"
+    },
+    {
+      "text": "body",
+      "start": 25.752,
+      "end": 26.1,
+      "line": "body"
+    },
+    {
+      "text": "is",
+      "start": 26.152,
+      "end": 26.253,
+      "line": "body"
+    },
+    {
+      "text": "Markdown.",
+      "start": 26.304,
+      "end": 26.973,
+      "line": "body"
+    },
+    {
+      "text": "A",
+      "start": 27.363,
+      "end": 27.415,
+      "line": "body"
+    },
+    {
+      "text": "dash",
+      "start": 27.486,
+      "end": 27.795,
+      "line": "body"
+    },
+    {
+      "text": "and",
+      "start": 27.827,
+      "end": 27.904,
+      "line": "body"
+    },
+    {
+      "text": "two",
+      "start": 27.966,
+      "end": 28.101,
+      "line": "body"
+    },
+    {
+      "text": "brackets",
+      "start": 28.145,
+      "end": 28.618,
+      "line": "body"
+    },
+    {
+      "text": "make",
+      "start": 28.661,
+      "end": 28.801,
+      "line": "body"
+    },
+    {
+      "text": "a",
+      "start": 28.827,
+      "end": 28.862,
+      "line": "body"
+    },
+    {
+      "text": "checklist",
+      "start": 28.933,
+      "end": 29.358,
+      "line": "body"
+    },
+    {
+      "text": "item.",
+      "start": 29.409,
+      "end": 29.806,
+      "line": "body"
+    },
+    {
+      "text": "Press",
+      "start": 31.276,
+      "end": 31.491,
+      "line": "continue"
+    },
+    {
+      "text": "Enter,",
+      "start": 31.536,
+      "end": 31.966,
+      "line": "continue"
+    },
+    {
+      "text": "and",
+      "start": 32.136,
+      "end": 32.212,
+      "line": "continue"
+    },
+    {
+      "text": "the",
+      "start": 32.239,
+      "end": 32.291,
+      "line": "continue"
+    },
+    {
+      "text": "list",
+      "start": 32.343,
+      "end": 32.576,
+      "line": "continue"
+    },
+    {
+      "text": "carries",
+      "start": 32.606,
+      "end": 32.954,
+      "line": "continue"
+    },
+    {
+      "text": "on",
+      "start": 32.993,
+      "end": 33.158,
+      "line": "continue"
+    },
+    {
+      "text": "by",
+      "start": 33.208,
+      "end": 33.381,
+      "line": "continue"
+    },
+    {
+      "text": "itself.",
+      "start": 33.424,
+      "end": 33.958,
+      "line": "continue"
+    },
+    {
+      "text": "In",
+      "start": 37.428,
+      "end": 37.541,
+      "line": "preview"
+    },
+    {
+      "text": "split",
+      "start": 37.618,
+      "end": 37.902,
+      "line": "preview"
+    },
+    {
+      "text": "view,",
+      "start": 37.954,
+      "end": 38.288,
+      "line": "preview"
+    },
+    {
+      "text": "the",
+      "start": 38.468,
+      "end": 38.525,
+      "line": "preview"
+    },
+    {
+      "text": "preview",
+      "start": 38.578,
+      "end": 38.915,
+      "line": "preview"
+    },
+    {
+      "text": "on",
+      "start": 38.972,
+      "end": 39.075,
+      "line": "preview"
+    },
+    {
+      "text": "the",
+      "start": 39.075,
+      "end": 39.144,
+      "line": "preview"
+    },
+    {
+      "text": "right",
+      "start": 39.196,
+      "end": 39.498,
+      "line": "preview"
+    },
+    {
+      "text": "renders",
+      "start": 39.518,
+      "end": 39.967,
+      "line": "preview"
+    },
+    {
+      "text": "it",
+      "start": 40.019,
+      "end": 40.118,
+      "line": "preview"
+    },
+    {
+      "text": "as",
+      "start": 40.118,
+      "end": 40.265,
+      "line": "preview"
+    },
+    {
+      "text": "you",
+      "start": 40.316,
+      "end": 40.399,
+      "line": "preview"
+    },
+    {
+      "text": "type.",
+      "start": 40.452,
+      "end": 40.814,
+      "line": "preview"
+    },
+    {
+      "text": "Command",
+      "start": 41.894,
+      "end": 42.304,
+      "line": "flip"
+    },
+    {
+      "text": "E",
+      "start": 42.394,
+      "end": 42.558,
+      "line": "flip"
+    },
+    {
+      "text": "flips",
+      "start": 42.639,
+      "end": 42.898,
+      "line": "flip"
+    },
+    {
+      "text": "to",
+      "start": 42.948,
+      "end": 42.999,
+      "line": "flip"
+    },
+    {
+      "text": "the",
+      "start": 43.025,
+      "end": 43.083,
+      "line": "flip"
+    },
+    {
+      "text": "full",
+      "start": 43.157,
+      "end": 43.342,
+      "line": "flip"
+    },
+    {
+      "text": "preview.",
+      "start": 43.404,
+      "end": 43.874,
+      "line": "flip"
+    },
+    {
+      "text": "Press",
+      "start": 44.274,
+      "end": 44.467,
+      "line": "flip"
+    },
+    {
+      "text": "it",
+      "start": 44.494,
+      "end": 44.546,
+      "line": "flip"
+    },
+    {
+      "text": "again",
+      "start": 44.577,
+      "end": 44.855,
+      "line": "flip"
+    },
+    {
+      "text": "to",
+      "start": 44.906,
+      "end": 44.962,
+      "line": "flip"
+    },
+    {
+      "text": "keep",
+      "start": 45.011,
+      "end": 45.195,
+      "line": "flip"
+    },
+    {
+      "text": "writing.",
+      "start": 45.246,
+      "end": 45.745,
+      "line": "flip"
+    },
+    {
+      "text": "Tags",
+      "start": 47.525,
+      "end": 47.857,
+      "line": "tag"
+    },
+    {
+      "text": "go",
+      "start": 47.925,
+      "end": 48.012,
+      "line": "tag"
+    },
+    {
+      "text": "under",
+      "start": 48.038,
+      "end": 48.17,
+      "line": "tag"
+    },
+    {
+      "text": "the",
+      "start": 48.199,
+      "end": 48.253,
+      "line": "tag"
+    },
+    {
+      "text": "title.",
+      "start": 48.305,
+      "end": 48.755,
+      "line": "tag"
+    },
+    {
+      "text": "Click",
+      "start": 49.155,
+      "end": 49.376,
+      "line": "tag"
+    },
+    {
+      "text": "Add",
+      "start": 49.435,
+      "end": 49.618,
+      "line": "tag"
+    },
+    {
+      "text": "tag,",
+      "start": 49.693,
+      "end": 50.189,
+      "line": "tag"
+    },
+    {
+      "text": "type",
+      "start": 50.315,
+      "end": 50.588,
+      "line": "tag"
+    },
+    {
+      "text": "planning,",
+      "start": 50.625,
+      "end": 51.023,
+      "line": "tag"
+    },
+    {
+      "text": "and",
+      "start": 51.229,
+      "end": 51.307,
+      "line": "tag"
+    },
+    {
+      "text": "press",
+      "start": 51.325,
+      "end": 51.593,
+      "line": "tag"
+    },
+    {
+      "text": "Enter.",
+      "start": 51.632,
+      "end": 52.075,
+      "line": "tag"
+    },
+    {
+      "text": "Then",
+      "start": 53.715,
+      "end": 53.918,
+      "line": "notebook"
+    },
+    {
+      "text": "choose",
+      "start": 53.971,
+      "end": 54.209,
+      "line": "notebook"
+    },
+    {
+      "text": "a",
+      "start": 54.237,
+      "end": 54.267,
+      "line": "notebook"
+    },
+    {
+      "text": "notebook.",
+      "start": 54.319,
+      "end": 54.845,
+      "line": "notebook"
+    },
+    {
+      "text": "This",
+      "start": 55.255,
+      "end": 55.474,
+      "line": "notebook"
+    },
+    {
+      "text": "one",
+      "start": 55.474,
+      "end": 55.632,
+      "line": "notebook"
+    },
+    {
+      "text": "belongs",
+      "start": 55.683,
+      "end": 56.131,
+      "line": "notebook"
+    },
+    {
+      "text": "in",
+      "start": 56.173,
+      "end": 56.263,
+      "line": "notebook"
+    },
+    {
+      "text": "Work.",
+      "start": 56.316,
+      "end": 56.675,
+      "line": "notebook"
+    },
+    {
+      "text": "There's",
+      "start": 58.255,
+      "end": 58.447,
+      "line": "saved"
+    },
+    {
+      "text": "no",
+      "start": 58.5,
+      "end": 58.689,
+      "line": "saved"
+    },
+    {
+      "text": "save",
+      "start": 58.775,
+      "end": 59.04,
+      "line": "saved"
+    },
+    {
+      "text": "button.",
+      "start": 59.105,
+      "end": 59.545,
+      "line": "saved"
+    },
+    {
+      "text": "Tidepool",
+      "start": 59.945,
+      "end": 60.43,
+      "line": "saved"
+    },
+    {
+      "text": "saves",
+      "start": 60.505,
+      "end": 60.796,
+      "line": "saved"
+    },
+    {
+      "text": "as",
+      "start": 60.84,
+      "end": 60.919,
+      "line": "saved"
+    },
+    {
+      "text": "you",
+      "start": 60.957,
+      "end": 61.037,
+      "line": "saved"
+    },
+    {
+      "text": "type,",
+      "start": 61.09,
+      "end": 61.495,
+      "line": "saved"
+    },
+    {
+      "text": "and",
+      "start": 61.635,
+      "end": 61.738,
+      "line": "saved"
+    },
+    {
+      "text": "nothing",
+      "start": 61.791,
+      "end": 62.115,
+      "line": "saved"
+    },
+    {
+      "text": "leaves",
+      "start": 62.167,
+      "end": 62.446,
+      "line": "saved"
+    },
+    {
+      "text": "this",
+      "start": 62.475,
+      "end": 62.638,
+      "line": "saved"
+    },
+    {
+      "text": "device.",
+      "start": 62.685,
+      "end": 63.23,
+      "line": "saved"
+    },
+    {
+      "text": "The",
+      "start": 64.53,
+      "end": 64.586,
+      "line": "sync"
+    },
+    {
+      "text": "sidebar",
+      "start": 64.66,
+      "end": 65.131,
+      "line": "sync"
+    },
+    {
+      "text": "says",
+      "start": 65.183,
+      "end": 65.353,
+      "line": "sync"
+    },
+    {
+      "text": "so",
+      "start": 65.405,
+      "end": 65.557,
+      "line": "sync"
+    },
+    {
+      "text": "too:",
+      "start": 65.61,
+      "end": 65.97,
+      "line": "sync"
+    },
+    {
+      "text": "sync",
+      "start": 66.342,
+      "end": 66.601,
+      "line": "sync"
+    },
+    {
+      "text": "is",
+      "start": 66.65,
+      "end": 66.728,
+      "line": "sync"
+    },
+    {
+      "text": "set",
+      "start": 66.78,
+      "end": 66.942,
+      "line": "sync"
+    },
+    {
+      "text": "to",
+      "start": 66.95,
+      "end": 67.059,
+      "line": "sync"
+    },
+    {
+      "text": "local",
+      "start": 67.11,
+      "end": 67.42,
+      "line": "sync"
+    },
+    {
+      "text": "only.",
+      "start": 67.472,
+      "end": 67.917,
+      "line": "sync"
+    },
+    {
+      "text": "Press",
+      "start": 69.287,
+      "end": 69.488,
+      "line": "pin"
+    },
+    {
+      "text": "Escape",
+      "start": 69.539,
+      "end": 69.928,
+      "line": "pin"
+    },
+    {
+      "text": "to",
+      "start": 69.947,
+      "end": 70.047,
+      "line": "pin"
+    },
+    {
+      "text": "leave",
+      "start": 70.098,
+      "end": 70.286,
+      "line": "pin"
+    },
+    {
+      "text": "the",
+      "start": 70.312,
+      "end": 70.4,
+      "line": "pin"
+    },
+    {
+      "text": "editor,",
+      "start": 70.451,
+      "end": 70.917,
+      "line": "pin"
+    },
+    {
+      "text": "then",
+      "start": 71.217,
+      "end": 71.37,
+      "line": "pin"
+    },
+    {
+      "text": "P",
+      "start": 71.459,
+      "end": 71.74,
+      "line": "pin"
+    },
+    {
+      "text": "to",
+      "start": 71.791,
+      "end": 71.849,
+      "line": "pin"
+    },
+    {
+      "text": "pin",
+      "start": 71.9,
+      "end": 72.048,
+      "line": "pin"
+    },
+    {
+      "text": "the",
+      "start": 72.074,
+      "end": 72.126,
+      "line": "pin"
+    },
+    {
+      "text": "note",
+      "start": 72.177,
+      "end": 72.398,
+      "line": "pin"
+    },
+    {
+      "text": "to",
+      "start": 72.417,
+      "end": 72.501,
+      "line": "pin"
+    },
+    {
+      "text": "the",
+      "start": 72.529,
+      "end": 72.582,
+      "line": "pin"
+    },
+    {
+      "text": "top.",
+      "start": 72.633,
+      "end": 73.037,
+      "line": "pin"
+    },
+    {
+      "text": "Pinned",
+      "start": 75.217,
+      "end": 75.437,
+      "line": "pinned"
+    },
+    {
+      "text": "notes",
+      "start": 75.489,
+      "end": 75.746,
+      "line": "pinned"
+    },
+    {
+      "text": "stay",
+      "start": 75.795,
+      "end": 76.032,
+      "line": "pinned"
+    },
+    {
+      "text": "above",
+      "start": 76.073,
+      "end": 76.311,
+      "line": "pinned"
+    },
+    {
+      "text": "everything",
+      "start": 76.337,
+      "end": 76.778,
+      "line": "pinned"
+    },
+    {
+      "text": "else,",
+      "start": 76.825,
+      "end": 77.137,
+      "line": "pinned"
+    },
+    {
+      "text": "marked",
+      "start": 77.407,
+      "end": 77.816,
+      "line": "pinned"
+    },
+    {
+      "text": "with",
+      "start": 77.848,
+      "end": 77.945,
+      "line": "pinned"
+    },
+    {
+      "text": "a",
+      "start": 77.97,
+      "end": 78.006,
+      "line": "pinned"
+    },
+    {
+      "text": "small",
+      "start": 78.082,
+      "end": 78.37,
+      "line": "pinned"
+    },
+    {
+      "text": "pin.",
+      "start": 78.377,
+      "end": 78.775,
+      "line": "pinned"
+    },
+    {
+      "text": "That's",
+      "start": 80.565,
+      "end": 80.788,
+      "line": "recap"
+    },
+    {
+      "text": "the",
+      "start": 80.823,
+      "end": 80.875,
+      "line": "recap"
+    },
+    {
+      "text": "whole",
+      "start": 80.924,
+      "end": 81.112,
+      "line": "recap"
+    },
+    {
+      "text": "loop.",
+      "start": 81.164,
+      "end": 81.495,
+      "line": "recap"
+    },
+    {
+      "text": "Press",
+      "start": 81.905,
+      "end": 82.12,
+      "line": "recap"
+    },
+    {
+      "text": "N,",
+      "start": 82.171,
+      "end": 82.444,
+      "line": "recap"
+    },
+    {
+      "text": "type,",
+      "start": 82.665,
+      "end": 82.952,
+      "line": "recap"
+    },
+    {
+      "text": "and",
+      "start": 83.085,
+      "end": 83.213,
+      "line": "recap"
+    },
+    {
+      "text": "Tidepool",
+      "start": 83.264,
+      "end": 83.701,
+      "line": "recap"
+    },
+    {
+      "text": "keeps",
+      "start": 83.735,
+      "end": 84.042,
+      "line": "recap"
+    },
+    {
+      "text": "it.",
+      "start": 84.103,
+      "end": 84.301,
+      "line": "recap"
+    },
+    {
+      "text": "Next",
+      "start": 86.071,
+      "end": 86.358,
+      "line": "outro"
+    },
+    {
+      "text": "time:",
+      "start": 86.391,
+      "end": 86.801,
+      "line": "outro"
+    },
+    {
+      "text": "finding",
+      "start": 87.011,
+      "end": 87.404,
+      "line": "outro"
+    },
+    {
+      "text": "any",
+      "start": 87.43,
+      "end": 87.586,
+      "line": "outro"
+    },
+    {
+      "text": "note",
+      "start": 87.638,
+      "end": 87.881,
+      "line": "outro"
+    },
+    {
+      "text": "in",
+      "start": 87.926,
+      "end": 87.981,
+      "line": "outro"
+    },
+    {
+      "text": "a",
+      "start": 88.008,
+      "end": 88.042,
+      "line": "outro"
+    },
+    {
+      "text": "second.",
+      "start": 88.098,
+      "end": 88.571,
+      "line": "outro"
+    }
+  ],
+  "captions": {
+    "srt": "vo.srt",
+    "transcript": "vo.words.json",
+    "cues": 34
+  },
+  "build_seconds": 71.17,
+  "lexicon": [
+    "skills/showtime/lib/st/voice/lexicon.json"
+  ]
+}

@@ -1,0 +1,227 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>US power mix 1950-2025</title>
+<script src="/_st/stage.js"></script>
+<link rel="stylesheet" href="/_st/themes/bold.css">
+<script type="module" src="/_st/components/index.js"></script>
+<script type="module">
+  import { MixLines, RowKit, YearTick, Appear } from './power.js';
+  document.querySelectorAll('.lines').forEach((el) => MixLines(el));
+  document.querySelectorAll('.row-kit').forEach((el) => RowKit(el));
+  document.querySelectorAll('.year').forEach((el) => YearTick(el));
+  document.querySelectorAll('.appear').forEach((el) => Appear(el));
+</script>
+<style>
+  /* Every colour lives here. One colour per source, the same in every scene.
+     Data: U.S. EIA, Monthly Energy Review (August 2026), Table 7.2a (data/, via `showtime data import`). */
+  :root {
+    --c-coal: #c4b6a8;     /* ash */
+    --c-gas: #ff5a1f;      /* the theme's ember: gas is the flame */
+    --c-ws: #3ddc97;       /* wind + solar */
+    --c-wind: #3ddc97;
+    --c-solar: #ffc53d;
+    --c-nuclear: #a88bff;
+    --c-hydro: #6f9bff;
+    --c-other: #9a8f86;
+    --chart-muted: #6b625b;
+    --plate: #1c1715;
+  }
+  .scene { padding: 0; background:
+      radial-gradient(60% 70% at 88% 8%, rgb(255 90 31 / 0.10), transparent 70%),
+      radial-gradient(70% 60% at 0% 100%, rgb(111 140 255 / 0.08), transparent 70%),
+      var(--bg); }
+  .kicker { font: 600 30px/1.2 var(--font-mono); letter-spacing: 0.08em; text-transform: uppercase; color: var(--accent); }
+  .foot { position: absolute; left: 6.5cqw; right: 6.5cqw; bottom: 10.5cqh; font: 500 32px/1.3 var(--font-body); color: var(--muted); }
+
+  /* ---------- 1. hook: the two 2024 numbers, side by side */
+  #hook .wrap { position: absolute; inset: 0; transform: scale(calc(1 + 0.025 * var(--p, 0))); transform-origin: 50% 55%; }
+  #hook .kicker { position: absolute; left: 6.5cqw; top: 8.5cqh; }
+  #hook h1 { position: absolute; left: 6.5cqw; right: 6.5cqw; top: 14.5cqh; margin: 0; font: 800 64px/1.05 var(--font-display); letter-spacing: -0.02em; color: var(--fg); }
+  #hook .cards { position: absolute; left: 6.5cqw; right: 6.5cqw; top: 33cqh; display: grid; grid-template-columns: 1fr 1fr; column-gap: 5cqw; animation: cards-in 0.3s ease-out 0.05s both; }
+  @keyframes cards-in { from { opacity: 0; transform: translateY(18px); } to { opacity: 1; transform: none; } }
+  #hook .foot { bottom: 8cqh; }
+  .card { position: relative; padding: 3.2cqh 2.4cqw 3.4cqh; border-radius: 22px; background: var(--surface); border: 2px solid var(--border); }
+  .card .lab { display: flex; align-items: center; gap: 16px; font: 800 52px/1 var(--font-display); color: var(--c); }
+  .card .lab img { width: 56px; height: 56px; }
+  .card .fig { display: flex; align-items: baseline; gap: 18px; margin-top: 2.2cqh; animation: fig-in 0.3s ease-out 0.3s both; }
+  .card [data-st="count-up"] { --cu-size: 190px; color: var(--fg); font-family: var(--font-display); font-weight: 800; letter-spacing: -0.03em; line-height: 1; }
+  .card .unit { font: 700 48px/1 var(--font-display); color: var(--muted); }
+  .card .bar { height: 22px; margin-top: 2.6cqh; border-radius: 11px; background: rgb(255 255 255 / 0.06); overflow: hidden; }
+  .card .bar i { display: block; height: 100%; width: calc(var(--v) / 700 * 100%); border-radius: 11px; background: var(--c); transform-origin: 0 50%; animation: grow 1.5s cubic-bezier(0.16, 1, 0.3, 1) 0.35s both; }
+  .card .scale { margin-top: 1.1cqh; font: 500 29px/1 var(--font-mono); color: var(--muted); }
+  .card.ws { --c: var(--c-ws); animation: pulse 1.1s ease-out 2.55s both; }
+  .card.coal { --c: var(--c-coal); animation: pulse 1.1s ease-out 5.45s both; }
+  #hook .stamp { position: absolute; left: 50%; top: 74.4cqh; transform: translateX(-50%); white-space: nowrap; padding: 14px 30px; border-radius: 999px; background: var(--accent); color: var(--accent-ink); font: 800 38px/1 var(--font-display); animation: stamp 0.5s cubic-bezier(0.34, 1.4, 0.64, 1) 5.75s both; }
+  @keyframes fig-in { from { opacity: 0; } to { opacity: 1; } }
+  @keyframes grow { from { transform: scaleX(0); } to { transform: none; } }
+  @keyframes pulse { 0% { box-shadow: 0 0 0 0 transparent; border-color: var(--border); } 25% { box-shadow: 0 0 60px 0 color-mix(in oklab, var(--c) 45%, transparent); border-color: var(--c); } 100% { box-shadow: 0 0 30px 0 color-mix(in oklab, var(--c) 18%, transparent); border-color: color-mix(in oklab, var(--c) 60%, transparent); } }
+  @keyframes stamp { from { opacity: 0; transform: translateX(-50%) scale(0.7); } to { opacity: 1; transform: translateX(-50%) scale(1); } }
+
+  /* ---------- 2-4. the lines (mix-lines component in power.js) */
+  .lines { position: absolute; inset: 0; }
+  .ml-svg { position: absolute; inset: 0; overflow: visible; }
+  .ml-head { position: absolute; left: 6.5cqw; right: 6.5cqw; top: 8.5cqh; }
+  .ml-kicker { font: 600 30px/1.2 var(--font-mono); letter-spacing: 0.08em; text-transform: uppercase; color: var(--accent); }
+  .ml-title { margin-top: 1.4cqh; font: 800 60px/1.05 var(--font-display); letter-spacing: -0.02em; color: var(--fg); }
+  .ml-note { margin-top: 1.6cqh; font: 500 29px/1.3 var(--font-body); color: var(--muted); }
+  .ml-grid line { stroke: rgb(255 236 220 / 0.10); stroke-width: 1.5; }
+  .ml-grid .ml-base { stroke: rgb(255 236 220 / 0.45); stroke-width: 2.5; }
+  .ml-tick { fill: var(--muted); font: 500 30px var(--font-body); font-variant-numeric: tabular-nums; }
+  .ml-unit { font-weight: 700; }
+  .ml-line { fill: none; stroke-width: 6; stroke-linejoin: round; stroke-linecap: round; }
+  .ml-glow { fill: none; stroke-width: 18; stroke-linejoin: round; stroke-linecap: round; filter: blur(8px); }
+  .ml-end { font: 800 34px var(--font-display); }
+  .ml-end-val { font-weight: 700; fill: var(--fg); font-variant-numeric: tabular-nums; }
+  .ml-cursor line { stroke: rgb(255 246 238 / 0.35); stroke-width: 2; stroke-dasharray: 6 8; }
+  .ml-cursor rect { fill: var(--fg); }
+  .ml-cursor text { fill: var(--accent-ink); font: 800 30px var(--font-body); font-variant-numeric: tabular-nums; }
+  .ml-ring { fill: none; stroke: var(--fg); stroke-width: 4; }
+  .ml-lead { stroke: rgb(255 246 238 / 0.6); stroke-width: 2.5; }
+  .ml-box { fill: var(--plate); stroke: rgb(255 246 238 / 0.28); stroke-width: 2; }
+  .ml-mhead { fill: var(--fg); font: 800 34px var(--font-display); }
+  .ml-msub { fill: var(--muted); font: 600 30px var(--font-body); font-variant-numeric: tabular-nums; }
+
+  /* ---------- 5-6. stock hbar charts, dressed by row-kit */
+  .chart { position: absolute; inset: 8.5cqh 14cqw 9cqh 17cqw; }
+  .st-chart-title { font-family: var(--font-display); font-weight: 800; font-size: 60px; letter-spacing: -0.02em; }
+  .st-chart-sub { font-size: 29px; }
+  .rk-icon { fill: none; stroke: currentColor; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
+  #race .year { position: absolute; right: 6cqw; bottom: 7cqh; font: 800 210px/1 var(--font-display); letter-spacing: -0.04em; color: rgb(255 246 238 / 0.16); font-variant-numeric: tabular-nums; }
+  #mix-2025 .foot { bottom: 10.5cqh; }
+  #mix-chart { bottom: 19cqh; }
+  #mix-chart, #race-chart { transform: scale(calc(1 + 0.03 * var(--p, 0))); transform-origin: 40% 55%; }
+  #race-chart .st-chart-val { display: none; }
+  .rk-bracket path { fill: none; stroke: var(--fg); stroke-width: 3; }
+  .rk-bracket text { fill: var(--fg); font: 700 32px var(--font-body); }
+  #mix-chart .st-chart-callout { translate: 6.6em calc(50% + 1.5em); }
+
+  /* ---------- 7. source card */
+  #source .wrap { position: absolute; inset: 0; transform: scale(calc(1 + 0.02 * var(--p, 0))); transform-origin: 50% 50%; }
+  #source .kicker { position: absolute; left: 6.5cqw; top: 9cqh; }
+  #source .miles { position: absolute; left: 6.5cqw; right: 6.5cqw; top: 18cqh; display: grid; grid-template-columns: repeat(3, 1fr); column-gap: 3cqw; }
+  .mile { border-top: 6px solid var(--c); padding-top: 2.2cqh; }
+  .mile > .yr { font: 800 72px/1 var(--font-display); color: var(--c); letter-spacing: -0.02em; font-variant-numeric: tabular-nums; }
+  .mile > .what { margin-top: 1.4cqh; font: 700 40px/1.2 var(--font-display); color: var(--fg); }
+  .mile.m1 { --c: var(--c-coal); } .mile.m2 { --c: var(--c-gas); } .mile.m3 { --c: var(--c-ws); }
+  #source .cite { position: absolute; left: 6.5cqw; right: 6.5cqw; top: 45cqh; font: 600 38px/1.35 var(--font-body); color: var(--fg); }
+  #source .cite2 { top: calc(45cqh + 52px); }
+  #source .cite .src { color: var(--accent); font-weight: 800; }
+  #source .notes { position: absolute; left: 6.5cqw; right: 6.5cqw; top: 63cqh; font: 500 30px/1.4 var(--font-body); color: var(--muted); }
+</style>
+</head>
+<body>
+<div class="stage">
+
+  <!-- 1. hook: the crossing, stated with both numbers before any context -->
+  <section class="scene" id="hook" data-start="0" data-dur="8.202">
+    <div class="wrap">
+      <div class="kicker">US electricity generation · 2024</div>
+      <h1>Wind + solar made more electricity than coal</h1>
+      <div class="cards">
+        <div class="card ws" style="--v: 672">
+          <div class="lab"><img src="icons/wind-g.svg" alt=""><img src="icons/sun-g.svg" alt="">Wind + solar</div>
+          <div class="fig"><div data-st="count-up" data-value="672" data-at="0.35" data-dur="1.5"></div><span class="unit">TWh</span></div>
+          <div class="bar"><i></i></div>
+        </div>
+        <div class="card coal" style="--v: 652">
+          <div class="lab"><img src="icons/pickaxe-c.svg" alt="">Coal</div>
+          <div class="fig"><div data-st="count-up" data-value="652" data-at="0.35" data-dur="1.5"></div><span class="unit">TWh</span></div>
+          <div class="bar"><i></i></div>
+        </div>
+      </div>
+      <div class="stamp">First time in EIA's annual record</div>
+      <div class="foot">Utility-scale generation, all sectors · annual data since 1949 · U.S. EIA, Monthly Energy Review (August 2026), Table 7.2a</div>
+    </div>
+  </section>
+
+  <!-- 2. coal era: the old normal (coal only, 1950-2007, to its peak) -->
+  <section class="scene" id="coal-era" data-start="#hook" data-dur="6.685">
+    <div class="lines" data-options='{
+      "kicker": "Coal, 1950-2007",
+      "title": "For decades, coal made about half of US electricity",
+      "note": "Net generation, TWh per year, all sectors · before 1989, electric utilities only",
+      "from": 1950, "to": 2007, "end": 2007,
+      "sweep": {"from": 1949, "segs": [{"at": 0.25, "dur": 3.2, "to": 2007}]},
+      "series": [{"key": "Coal", "name": "Coal", "color": "var(--c-coal)", "cursor": true}],
+      "markers": [{"at": 3.4, "key": "Coal", "year": 2007, "anchor": "end", "dx": -1.0, "dy": 8.0,
+                   "out": 6.2, "lines": ["Peak: 2,016 TWh in 2007", "48.5 % of US power"]}],
+      "headOut": 6.2, "drift": [-0.024, -0.01]}'></div>
+  </section>
+
+  <!-- 3. gas: the first turn (a hard cut on the same chart, whose x axis then stretches 2007 -> 2025; gas crosses coal in 2016) -->
+  <section class="scene" id="gas" data-start="#coal-era" data-dur="7.423">
+    <div class="lines" data-options='{
+      "kicker": "Coal and natural gas, 1950-2025",
+      "title": "2016: natural gas passes coal",
+      "note": "Net generation, TWh per year, all sectors · U.S. EIA",
+      "from": 1950, "to": 2007, "domain": [{"at": 0.1, "dur": 1.0, "to": 2025}],
+      "sweep": {"from": 1949, "segs": [{"at": 0.9, "dur": 3.4, "to": 2025}]},
+      "series": [{"key": "Coal", "name": "Coal", "color": "var(--c-coal)", "cursor": true, "floor": 2007},
+                 {"key": "Natural gas", "name": "Natural gas", "color": "var(--c-gas)", "cursor": true}],
+      "markers": [{"at": 3.6, "key": "Natural gas", "year": 2016, "anchor": "middle", "dx": 0, "dy": 7.6,
+                   "lines": ["2016: gas 1,379 · coal 1,239 TWh"]}],
+      "textIn": -1, "headIn": 0.1, "drift": [-0.01, 0.012]}'></div>
+  </section>
+
+  <!-- 4. newcomers: the payoff in context (wind + solar climb past coal in 2024) -->
+  <section class="scene" id="newcomers" data-start="#gas" data-dur="10.71">
+    <div class="lines" data-options='{
+      "kicker": "Coal, natural gas, wind + solar",
+      "title": "2024: wind + solar pass coal",
+      "note": "Net generation, TWh per year, all sectors · solar: utility-scale · U.S. EIA",
+      "domain": [{"at": 0.2, "dur": 1.5, "from": 1995, "to": 2025}],
+      "sweep": {"from": 1949, "segs": [{"at": 0.5, "dur": 1.6, "to": 2007}, {"at": 4.3, "dur": 2.4, "to": 2024}, {"at": 7.8, "dur": 1.0, "to": 2025}]},
+      "series": [{"key": "Coal", "name": "Coal", "color": "var(--c-coal)", "floor": 2025},
+                 {"key": "Natural gas", "name": "Natural gas", "color": "var(--c-gas)", "floor": 2025, "dim": [{"at": 0.3, "dur": 0.6, "to": 0.35}]},
+                 {"key": "Wind solar", "name": "Wind + solar", "color": "var(--c-ws)", "cursor": true}],
+      "markers": [{"at": 1.9, "out": 4.6, "key": "Wind solar", "year": 2007, "anchor": "start", "dx": 0.8, "dy": -2.3,
+                   "lines": ["2007: under 1 % of US power", "35 TWh"]},
+                  {"at": 6.7, "key": "Wind solar", "year": 2024, "anchor": "end", "dx": -1.5, "dy": -11.1,
+                   "lines": ["2024: wind + solar pass coal", "672 vs 652 TWh"]}],
+      "textIn": -1, "drift": [0.012, 0.03]}'></div>
+  </section>
+
+  <!-- 5. race: the re-ordering as a ranking (six sources, 2005-2025) -->
+  <section class="scene" id="race" data-start="#newcomers" data-dur="8.152">
+    <div class="year" data-src="data/race-2005-2025.json" data-chart-at="0" data-lead="0.75"></div>
+    <div class="chart" id="race-chart" data-st="chart" data-type="hbar" data-at="0" data-src="data/race-2005-2025.json" data-options='{"valueLabels": false}'></div>
+    <div class="row-kit" data-for="#race-chart" data-options='{
+      "colors": {"Coal": "var(--c-coal)", "Natural gas": "var(--c-gas)", "Nuclear": "var(--c-nuclear)", "Hydro": "var(--c-hydro)", "Wind": "var(--c-wind)", "Solar": "var(--c-solar)"},
+      "icons": {"Coal": ["icons/pickaxe.svg"], "Natural gas": ["icons/flame.svg"], "Nuclear": ["icons/atom.svg"], "Hydro": ["icons/droplet.svg"], "Wind": ["icons/wind.svg"], "Solar": ["icons/sun.svg"]},
+      "focus": [{"at": 2.3, "labels": ["Natural gas", "Coal"]}, {"at": 4.0, "labels": ["Wind", "Hydro"]}, {"at": 6.0}],
+      "race": {"src": "data/race-2005-2025.json", "delay": 0.75, "tween": 0.16}}'></div>
+  </section>
+
+  <!-- 6. mix 2025: where it stands now (and coal rose in 2025) -->
+  <section class="scene" id="mix-2025" data-start="#race" data-dur="12.2613" data-transition="dip 0.6">
+    <div class="chart" id="mix-chart" data-st="chart" data-type="hbar" data-at="0.45" data-src="data/mix-2025.json" data-count="false"
+         data-options='{"ref": {"value": 15.1, "label": "Coal in 2024: 15.1 %", "at": 8.55}, "annotate": {"label": "Coal", "text": "Coal: +13 % in 2025", "at": 9.4}}'></div>
+    <div class="row-kit" data-for="#mix-chart" data-options='{
+      "colors": {"Natural gas": "var(--c-gas)", "Nuclear": "var(--c-nuclear)", "Wind + solar": "var(--c-ws)", "Coal": "var(--c-coal)", "Hydro": "var(--c-hydro)", "Other": "var(--c-other)"},
+      "icons": {"Natural gas": ["icons/flame.svg"], "Nuclear": ["icons/atom.svg"], "Wind + solar": ["icons/sun.svg", "icons/wind.svg"], "Coal": ["icons/pickaxe.svg"], "Hydro": ["icons/droplet.svg"], "Other": ["icons/ellipsis.svg"]},
+      "focus": [{"at": 1.9, "labels": ["Natural gas"]}, {"at": 4.4, "labels": ["Nuclear", "Wind + solar", "Coal"]}, {"at": 8.9, "labels": ["Coal"]}],
+      "brackets": [{"at": 7.0, "labels": ["Nuclear", "Wind + solar", "Coal"], "text": "about a sixth each"}]}'></div>
+    <div class="foot">Share of total net generation (4,430 TWh). Other: petroleum, wood, waste, geothermal and more. Solar: utility-scale.</div>
+  </section>
+
+  <!-- 7. source: credit and trust -->
+  <section class="scene" id="source" data-start="#mix-2025" data-dur="6.669" data-transition="crossfade 0.762">
+    <div class="wrap">
+      <div class="kicker appear" data-at="0.56">What changed</div>
+      <div class="miles appear" data-at="0.56" data-rise="0">
+        <div class="mile m1"><div class="yr" data-st="kinetic-type" data-style="rise" data-at="0.57">2007</div><div class="what" data-st="kinetic-type" data-style="rise" data-at="0.7">Coal peaks at 2,016 TWh</div></div>
+        <div class="mile m2"><div class="yr" data-st="kinetic-type" data-style="rise" data-at="0.62">2016</div><div class="what" data-st="kinetic-type" data-style="rise" data-at="0.76">Natural gas passes coal</div></div>
+        <div class="mile m3"><div class="yr" data-st="kinetic-type" data-style="rise" data-at="0.67">2024</div><div class="what" data-st="kinetic-type" data-style="rise" data-at="0.82">Wind + solar pass coal</div></div>
+      </div>
+      <p class="cite" data-st="kinetic-type" data-style="fade" data-at="1.80"><span class="src">Source:</span> U.S. Energy Information Administration</p>
+      <p class="cite cite2" data-st="kinetic-type" data-style="fade" data-at="2.05">Monthly Energy Review (August 2026), Table 7.2a. Accessed September 27, 2026.</p>
+      <p class="notes" data-st="kinetic-type" data-style="fade" data-at="2.60">Utility-scale generation, all sectors. 2025 values are preliminary and may be revised. Data through 1988 cover electric utilities only.</p>
+    </div>
+  </section>
+
+  <div data-st="grain" data-opacity="0.03"></div>
+</div>
+</body>
+</html>

@@ -1,0 +1,18 @@
+Why is a circle's area pi r squared? Cut it into thin rings, straighten them, and they stack into a triangle with height r and base 2 pi r. Half base times height: pi r squared. 70 seconds.
+
+YouTube
+Title: Why a Circle's Area Is πr² (a 70-second picture proof)
+Description: Cut a circle into thin rings, like an onion. Straighten each ring into a strip and stack the strips: they pile up into something close to a triangle. As the rings get thinner the steps vanish, and in the limit the stack is a triangle whose height is the radius r and whose base is the circumference 2πr. Half the base times the height is πr², the same area as the circle.
+This is one way to see why, stated as a limit argument; it is not the only proof.
+Narration is a synthetic voice (Kokoro, af_nicole). Animation: Manim Community Edition.
+
+YouTube Shorts (vertical cut)
+Title: Why is a circle's area πr²? #math #geometry
+Description: Rings → strips → a triangle with height r and base 2πr. Half base × height = πr².
+
+X (≤280)
+Why is the area of a circle πr²? Cut it into thin rings, unroll them, stack them: in the limit you get a triangle with height r and base 2πr. ½ · 2πr · r = πr². 70 seconds.
+
+GitHub README
+Caption: A 70-second narrated math explainer made with showtime's Manim workflow: rings unroll into a triangle, and ½ · 2πr · r morphs into πr².
+Alt text: A blue disc with its radius r is cut into eight concentric rings. The rings straighten into strips that stack into a staircase shaped like a right triangle; with 16, 32 and 64 rings the steps disappear. The triangle's side is labelled r, its base 2πr, and the equation A = ½ · 2πr · r becomes A = πr², boxed next to the disc.

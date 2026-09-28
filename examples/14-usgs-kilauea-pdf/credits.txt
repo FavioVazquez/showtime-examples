@@ -1,0 +1,8 @@
+No credit lines are legally required (every asset is public domain, CC0, OFL, Apache-2.0 or generated). Courtesy lines:
+
+Source: USGS Hawaiian Volcano Observatory, "Preliminary summary of Kīlauea Volcano's 2018 lower East Rift Zone eruption and summit collapse", September 2018. https://volcanoes.usgs.gov/vsc/file_mngr/file-192/PrelimSum_LERZ-Summit_2018.pdf (U.S. public domain)
+Video: USGS Volcano Hazards Program, "Kīlauea Volcano — Fissure 8 Overflight" (May 29, 2018) and "Overflight of Lava Channel (June 11, 2018)" (public domain)
+Not endorsed by USGS.
+Map data: Natural Earth (public domain) via world-atlas (ISC)
+Ambience: "Low Rumbling" by Musheran, opengameart.org (CC0)
+Voices: Kokoro-82M af_sarah and em_alex (Apache-2.0); synthetic narration

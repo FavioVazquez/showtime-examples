@@ -1,0 +1,17 @@
+{
+  "title": "US electricity by source, 2025",
+  "subtitle": "Share of 4,430 TWh",
+  "decimals": 1,
+  "ref": {"value": 15.1, "label": "Coal in 2024: 15.1 %"},
+  "data": [
+    {"label": "Natural gas", "value": 40.8},
+    {"label": "Nuclear", "value": 17.7},
+    {"label": "Wind + solar", "value": 17.2},
+    {"label": "Coal", "value": 16.6},
+    {"label": "Hydro", "value": 5.6},
+    {"label": "Other", "value": 2.1}
+  ],
+  "highlight": "Coal",
+  "suffix": " %",
+  "annotate": {"label": "Coal", "text": "Coal: +13 % in 2025"}
+}

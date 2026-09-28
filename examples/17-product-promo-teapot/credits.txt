@@ -1,0 +1,7 @@
+Images: The Metropolitan Museum of Art, New York. Teapot, ca. 1879, designed by Christopher Dresser,
+object 2021.153.2 (Gift of Lawrence A. and Janet Y. Larose, 2021).
+https://www.metmuseum.org/art/collection/search/823191. Open Access, CC0 1.0. Cut-outs and crops are ours.
+Museum object; not affiliated with or endorsed by The Met.
+Steam-curl animation: original Lottie made for this example (project/lottie/steam-curl.json).
+Music and sound effects: generated with showtime (CC0). Instruments: GeneralUser GS (S. Christian Collins).
+Fonts: Bricolage Grotesque, Inter, JetBrains Mono (SIL Open Font License 1.1). Icons: Lucide (ISC).

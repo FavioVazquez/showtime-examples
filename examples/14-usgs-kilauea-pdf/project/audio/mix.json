@@ -1,0 +1,94 @@
+{
+ "_comment": "dark-tension bed composed on this machine, sections on the chronology (scene starts); held well under the narration. One low sub-drop plus a CC0 rumble on the summit-collapse beat only; nothing on the damage numbers.",
+ "sample_rate": 48000,
+ "tracks": [
+  {
+   "id": "bed",
+   "kind": "music",
+   "compose": {
+    "style": "dark-tension",
+    "sections": "0:intro,6.779:verse,15.246:build,25.001:bridge,40.174:chorus,50.3:break,64.79:outro",
+    "seed": 1
+   },
+   "gain_db": -14,
+   "fade_in": 0.4,
+   "fade_out": 2.0,
+   "duck": {
+    "under": [
+     "voice",
+     "sub"
+    ],
+    "depth_db": 12,
+    "carve": 0.35
+   }
+  },
+  {
+   "id": "sub",
+   "kind": "sfx",
+   "synth": {
+    "type": "sub-drop",
+    "intensity": 0.55,
+    "seed": 3
+   },
+   "at": 35.072,
+   "align": "hit",
+   "gain_db": -1
+  },
+  {
+   "id": "rumble",
+   "kind": "ambience",
+   "lib": "oga-low-rumbling",
+   "start": 34.882,
+   "dur": 4.2,
+   "fade_in": 0.15,
+   "fade_out": 2.2,
+   "gain_db": -1
+  },
+  {
+   "id": "vo-hook",
+   "kind": "voice",
+   "file": "voice/lines/01-hook.wav",
+   "start": 0.3
+  },
+  {
+   "id": "vo-where",
+   "kind": "voice",
+   "file": "voice/lines/02-where.wav",
+   "start": 7.079
+  },
+  {
+   "id": "vo-start",
+   "kind": "voice",
+   "file": "voice/lines/03-start.wav",
+   "start": 15.546
+  },
+  {
+   "id": "vo-summit",
+   "kind": "voice",
+   "file": "voice/lines/04-summit.wav",
+   "start": 25.301
+  },
+  {
+   "id": "vo-fissure8",
+   "kind": "voice",
+   "file": "voice/lines/05-fissure8.wav",
+   "start": 40.474
+  },
+  {
+   "id": "vo-numbers",
+   "kind": "voice",
+   "file": "voice/lines/06-numbers.wav",
+   "start": 50.6
+  },
+  {
+   "id": "vo-end",
+   "kind": "voice",
+   "file": "voice/lines/07-end.wav",
+   "start": 65.09
+  }
+ ],
+ "master": {
+  "lufs": -14,
+  "true_peak": -1
+ }
+}

@@ -1,0 +1,56 @@
+{
+ "source": "05-close.wav",
+ "duration": 2.959,
+ "language": "en",
+ "model": "kokoro-v1.0-timestamped.onnx",
+ "words": [
+  {
+   "text": "Tidepool.",
+   "start": 0.03,
+   "end": 0.58,
+   "type": "word"
+  },
+  {
+   "text": "Your",
+   "start": 0.87,
+   "end": 0.959,
+   "type": "word"
+  },
+  {
+   "text": "notes,",
+   "start": 1.004,
+   "end": 1.368,
+   "type": "word"
+  },
+  {
+   "text": "kept",
+   "start": 1.49,
+   "end": 1.715,
+   "type": "word"
+  },
+  {
+   "text": "on",
+   "start": 1.738,
+   "end": 1.808,
+   "type": "word"
+  },
+  {
+   "text": "your",
+   "start": 1.831,
+   "end": 1.9,
+   "type": "word"
+  },
+  {
+   "text": "own",
+   "start": 1.927,
+   "end": 2.029,
+   "type": "word"
+  },
+  {
+   "text": "machine.",
+   "start": 2.052,
+   "end": 2.549,
+   "type": "word"
+  }
+ ]
+}

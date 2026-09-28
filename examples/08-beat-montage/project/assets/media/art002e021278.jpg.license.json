@@ -1,0 +1,21 @@
+{
+  "source": "nasa",
+  "source_label": "NASA Image and Video Library",
+  "id": "nasa:art002e021278",
+  "title": "A Breathtaking Earthset from Orion",
+  "author": "NASA",
+  "author_url": null,
+  "license": "Public domain (NASA media)",
+  "license_url": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+  "landing_url": "https://images.nasa.gov/details/art002e021278",
+  "note": "NASA media: no endorsement implied; do not use NASA logos or insignia. Check the description for third-party copyright notices.",
+  "type": "image",
+  "file_url": "https://images-assets.nasa.gov/image/art002e021278/art002e021278~large.jpg",
+  "captions": [],
+  "sha256": "47c9d6995a07ff5e134a248bf6d5d29d5d0239b40f9c4a2c33380ced0d72467c",
+  "fetched": "2026-09-26T14:26:38",
+  "license_class": "free",
+  "attribution_required": false,
+  "credit": "\"A Breathtaking Earthset from Orion\" by NASA via NASA Image and Video Library (Public domain (NASA media)) - https://images.nasa.gov/details/art002e021278",
+  "file": "art002e021278.jpg"
+}

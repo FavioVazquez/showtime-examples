@@ -1,0 +1,20 @@
+{
+  "type": "braam",
+  "kind": "onset",
+  "category": "impact",
+  "duration": 2.5,
+  "hit": 0.0,
+  "hit_frame_30fps": 0,
+  "hit_frame_60fps": 0,
+  "key": "C",
+  "intensity": 0.55,
+  "seed": 2,
+  "level": {
+    "target_lufs": -14.0,
+    "measured_lufs": -5.13,
+    "gain_db": -8.87,
+    "peak_limited": false
+  },
+  "peak_dbfs": -5.77,
+  "file": "braam-open.wav"
+}

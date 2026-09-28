@@ -1,0 +1,10 @@
+{
+  "title": "Tidepool trailer",
+  "width": 1920,
+  "height": 1080,
+  "fps": 30,
+  "duration": 20.0,
+  "background": "#041317",
+  "poster": 1.0,
+  "audio": "audio/mix.json"
+}

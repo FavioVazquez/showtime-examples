@@ -1,0 +1,98 @@
+{
+  "source": "05-race.wav",
+  "duration": 5.84,
+  "language": "en",
+  "model": "kokoro-v1.0-timestamped.onnx",
+  "words": [
+    {
+      "text": "Rank",
+      "start": 0.05,
+      "end": 0.284,
+      "type": "word"
+    },
+    {
+      "text": "six",
+      "start": 0.359,
+      "end": 0.553,
+      "type": "word"
+    },
+    {
+      "text": "sources",
+      "start": 0.611,
+      "end": 0.984,
+      "type": "word"
+    },
+    {
+      "text": "year",
+      "start": 1.034,
+      "end": 1.209,
+      "type": "word"
+    },
+    {
+      "text": "by",
+      "start": 1.259,
+      "end": 1.443,
+      "type": "word"
+    },
+    {
+      "text": "year:",
+      "start": 1.517,
+      "end": 1.87,
+      "type": "word"
+    },
+    {
+      "text": "gas",
+      "start": 2.28,
+      "end": 2.577,
+      "type": "word"
+    },
+    {
+      "text": "takes",
+      "start": 2.62,
+      "end": 2.877,
+      "type": "word"
+    },
+    {
+      "text": "the",
+      "start": 2.915,
+      "end": 2.967,
+      "type": "word"
+    },
+    {
+      "text": "top",
+      "start": 3.02,
+      "end": 3.298,
+      "type": "word"
+    },
+    {
+      "text": "spot,",
+      "start": 3.35,
+      "end": 3.748,
+      "type": "word"
+    },
+    {
+      "text": "and",
+      "start": 3.87,
+      "end": 3.989,
+      "type": "word"
+    },
+    {
+      "text": "wind",
+      "start": 4.073,
+      "end": 4.368,
+      "type": "word"
+    },
+    {
+      "text": "passes",
+      "start": 4.43,
+      "end": 4.86,
+      "type": "word"
+    },
+    {
+      "text": "hydro.",
+      "start": 4.914,
+      "end": 5.46,
+      "type": "word"
+    }
+  ]
+}

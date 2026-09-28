@@ -1,0 +1,73 @@
+1
+00:00:00,340 --> 00:00:02,480
+Here's how to write a note in Tidepool,
+
+2
+00:00:02,480 --> 00:00:05,051
+tag it, and find it again in seconds.
+
+3
+00:00:06,320 --> 00:00:08,490
+Click New note, and type a title.
+
+4
+00:00:08,680 --> 00:00:10,420
+Press Enter to move to the body,
+
+5
+00:00:10,420 --> 00:00:11,679
+and start writing.
+
+6
+00:00:12,139 --> 00:00:14,994
+Tidepool saves it on
+this device as you type.
+
+7
+00:00:16,273 --> 00:00:19,013
+To tag it, click the tag
+field under the title.
+
+8
+00:00:19,133 --> 00:00:21,314
+Type a tag, and press Enter.
+
+9
+00:00:21,764 --> 00:00:24,358
+The new tag shows up in the sidebar, too.
+
+10
+00:00:25,640 --> 00:00:26,949
+Later, from any note,
+
+11
+00:00:26,949 --> 00:00:28,260
+press Command K,
+
+12
+00:00:28,260 --> 00:00:30,000
+and type a word from the note.
+
+13
+00:00:30,190 --> 00:00:32,173
+Matches light up as you type.
+
+14
+00:00:32,543 --> 00:00:34,803
+Press Enter to jump straight back to it.
+
+15
+00:00:35,963 --> 00:00:37,833
+To list every note with a tag,
+
+16
+00:00:37,833 --> 00:00:39,596
+start the search with a hash.
+
+17
+00:00:42,840 --> 00:00:45,813
+New note. A tag. Command K.
+
+18
+00:00:46,163 --> 00:00:47,503
+That's the whole loop.

@@ -1,0 +1,20 @@
+{
+  "type": "thock",
+  "kind": "onset",
+  "category": "impact",
+  "duration": 0.3,
+  "hit": 0.0,
+  "hit_frame_30fps": 0,
+  "hit_frame_60fps": 0,
+  "key": null,
+  "intensity": 0.5,
+  "seed": 2,
+  "level": {
+    "target_lufs": -14.0,
+    "measured_lufs": -17.36,
+    "gain_db": 3.36,
+    "peak_limited": true
+  },
+  "peak_dbfs": -1.0,
+  "file": "audio/thock.wav"
+}

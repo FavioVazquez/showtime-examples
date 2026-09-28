@@ -1,0 +1,1643 @@
+{
+ "version": 1,
+ "file": "vo.wav",
+ "sample_rate": 48000,
+ "duration": 50.07,
+ "lead_in": 0.35,
+ "tail": 2.2,
+ "loudness": -16.03,
+ "script": "../narration.es.md",
+ "lines": [
+  {
+   "id": "hook",
+   "index": 1,
+   "text": "Afuera está helando. ¿Cómo puede ese aire calentar tu casa?",
+   "source_text": "Afuera está helando. ¿Cómo puede ese aire calentar tu casa?",
+   "voice": "supertonic:F1",
+   "engine": "supertonic",
+   "lang": "es",
+   "speed": 1.0,
+   "style": "neutral",
+   "start": 0.35,
+   "end": 3.96,
+   "duration": 3.61,
+   "speech_start": 0.43,
+   "speech_end": 3.71,
+   "pause_after": 0.4,
+   "slot": {
+    "start": 0.35,
+    "end": 4.36,
+    "duration": 4.01
+   },
+   "file": "lines/01-hook.wav",
+   "timing": "tts",
+   "wps": 3.049,
+   "words": [
+    {
+     "text": "Afuera",
+     "start": 0.43,
+     "end": 0.727,
+     "line": "hook"
+    },
+    {
+     "text": "está",
+     "start": 0.74,
+     "end": 0.938,
+     "line": "hook"
+    },
+    {
+     "text": "helando.",
+     "start": 0.971,
+     "end": 1.44,
+     "line": "hook"
+    },
+    {
+     "text": "¿Cómo",
+     "start": 1.82,
+     "end": 1.993,
+     "line": "hook"
+    },
+    {
+     "text": "puede",
+     "start": 2.06,
+     "end": 2.216,
+     "line": "hook"
+    },
+    {
+     "text": "ese",
+     "start": 2.243,
+     "end": 2.409,
+     "line": "hook"
+    },
+    {
+     "text": "aire",
+     "start": 2.45,
+     "end": 2.643,
+     "line": "hook"
+    },
+    {
+     "text": "calentar",
+     "start": 2.69,
+     "end": 3.098,
+     "line": "hook"
+    },
+    {
+     "text": "tu",
+     "start": 3.18,
+     "end": 3.229,
+     "line": "hook"
+    },
+    {
+     "text": "casa?",
+     "start": 3.31,
+     "end": 3.71,
+     "line": "hook"
+    }
+   ]
+  },
+  {
+   "id": "absolute",
+   "index": 2,
+   "text": "Incluso el aire helado guarda calor. Cero grados Celsius está muy por encima del cero absoluto.",
+   "source_text": "Incluso el aire helado guarda calor. Cero grados Celsius está muy por encima del cero absoluto.",
+   "voice": "supertonic:F1",
+   "engine": "supertonic",
+   "lang": "es",
+   "speed": 1.0,
+   "style": "neutral",
+   "start": 4.36,
+   "end": 11.1,
+   "duration": 6.74,
+   "speech_start": 4.42,
+   "speech_end": 10.647,
+   "pause_after": 0.6,
+   "slot": {
+    "start": 4.36,
+    "end": 11.7,
+    "duration": 7.34
+   },
+   "file": "lines/02-absolute.wav",
+   "timing": "tts",
+   "wps": 2.569,
+   "words": [
+    {
+     "text": "Incluso",
+     "start": 4.42,
+     "end": 4.936,
+     "line": "absolute"
+    },
+    {
+     "text": "el",
+     "start": 4.958,
+     "end": 5.041,
+     "line": "absolute"
+    },
+    {
+     "text": "aire",
+     "start": 5.084,
+     "end": 5.314,
+     "line": "absolute"
+    },
+    {
+     "text": "helado",
+     "start": 5.374,
+     "end": 5.75,
+     "line": "absolute"
+    },
+    {
+     "text": "guarda",
+     "start": 5.781,
+     "end": 6.072,
+     "line": "absolute"
+    },
+    {
+     "text": "calor.",
+     "start": 6.118,
+     "end": 6.64,
+     "line": "absolute"
+    },
+    {
+     "text": "Cero",
+     "start": 7.0,
+     "end": 7.228,
+     "line": "absolute"
+    },
+    {
+     "text": "grados",
+     "start": 7.257,
+     "end": 7.606,
+     "line": "absolute"
+    },
+    {
+     "text": "Celsius",
+     "start": 7.656,
+     "end": 8.123,
+     "line": "absolute"
+    },
+    {
+     "text": "está",
+     "start": 8.24,
+     "end": 8.5,
+     "line": "absolute"
+    },
+    {
+     "text": "muy",
+     "start": 8.551,
+     "end": 8.756,
+     "line": "absolute"
+    },
+    {
+     "text": "por",
+     "start": 8.826,
+     "end": 8.952,
+     "line": "absolute"
+    },
+    {
+     "text": "encima",
+     "start": 8.983,
+     "end": 9.4,
+     "line": "absolute"
+    },
+    {
+     "text": "del",
+     "start": 9.449,
+     "end": 9.611,
+     "line": "absolute"
+    },
+    {
+     "text": "cero",
+     "start": 9.68,
+     "end": 9.886,
+     "line": "absolute"
+    },
+    {
+     "text": "absoluto.",
+     "start": 9.917,
+     "end": 10.647,
+     "line": "absolute"
+    }
+   ]
+  },
+  {
+   "id": "loop",
+   "index": 3,
+   "text": "Una bomba de calor lleva ese calor adentro, con refrigerante que circula en un circuito sellado.",
+   "source_text": "Una bomba de calor lleva ese calor adentro, con refrigerante que circula en un circuito sellado.",
+   "voice": "supertonic:F1",
+   "engine": "supertonic",
+   "lang": "es",
+   "speed": 1.0,
+   "style": "neutral",
+   "start": 11.7,
+   "end": 17.87,
+   "duration": 6.17,
+   "speech_start": 11.77,
+   "speech_end": 17.6,
+   "pause_after": 0.55,
+   "slot": {
+    "start": 11.7,
+    "end": 18.42,
+    "duration": 6.72
+   },
+   "file": "lines/03-loop.wav",
+   "timing": "tts",
+   "wps": 2.744,
+   "words": [
+    {
+     "text": "Una",
+     "start": 11.77,
+     "end": 11.978,
+     "line": "loop"
+    },
+    {
+     "text": "bomba",
+     "start": 12.012,
+     "end": 12.304,
+     "line": "loop"
+    },
+    {
+     "text": "de",
+     "start": 12.329,
+     "end": 12.408,
+     "line": "loop"
+    },
+    {
+     "text": "calor",
+     "start": 12.45,
+     "end": 12.79,
+     "line": "loop"
+    },
+    {
+     "text": "lleva",
+     "start": 12.894,
+     "end": 13.151,
+     "line": "loop"
+    },
+    {
+     "text": "ese",
+     "start": 13.18,
+     "end": 13.372,
+     "line": "loop"
+    },
+    {
+     "text": "calor",
+     "start": 13.39,
+     "end": 13.639,
+     "line": "loop"
+    },
+    {
+     "text": "adentro,",
+     "start": 13.68,
+     "end": 14.27,
+     "line": "loop"
+    },
+    {
+     "text": "con",
+     "start": 14.58,
+     "end": 14.694,
+     "line": "loop"
+    },
+    {
+     "text": "refrigerante",
+     "start": 14.741,
+     "end": 15.46,
+     "line": "loop"
+    },
+    {
+     "text": "que",
+     "start": 15.508,
+     "end": 15.592,
+     "line": "loop"
+    },
+    {
+     "text": "circula",
+     "start": 15.641,
+     "end": 16.144,
+     "line": "loop"
+    },
+    {
+     "text": "en",
+     "start": 16.186,
+     "end": 16.361,
+     "line": "loop"
+    },
+    {
+     "text": "un",
+     "start": 16.385,
+     "end": 16.488,
+     "line": "loop"
+    },
+    {
+     "text": "circuito",
+     "start": 16.537,
+     "end": 17.024,
+     "line": "loop"
+    },
+    {
+     "text": "sellado.",
+     "start": 17.083,
+     "end": 17.6,
+     "line": "loop"
+    }
+   ]
+  },
+  {
+   "id": "evaporator",
+   "index": 4,
+   "text": "Afuera, el refrigerante, más frío que el aire, absorbe su calor, hierve y se convierte en gas.",
+   "source_text": "Afuera, el refrigerante, más frío que el aire, absorbe su calor, hierve y se convierte en gas.",
+   "voice": "supertonic:F1",
+   "engine": "supertonic",
+   "lang": "es",
+   "speed": 1.0,
+   "style": "neutral",
+   "start": 18.42,
+   "end": 24.82,
+   "duration": 6.4,
+   "speech_start": 18.44,
+   "speech_end": 24.56,
+   "pause_after": 0.4,
+   "slot": {
+    "start": 18.42,
+    "end": 25.22,
+    "duration": 6.8
+   },
+   "file": "lines/04-evaporator.wav",
+   "timing": "tts",
+   "wps": 2.778,
+   "words": [
+    {
+     "text": "Afuera,",
+     "start": 18.44,
+     "end": 18.979,
+     "line": "evaporator"
+    },
+    {
+     "text": "el",
+     "start": 19.19,
+     "end": 19.3,
+     "line": "evaporator"
+    },
+    {
+     "text": "refrigerante,",
+     "start": 19.336,
+     "end": 20.15,
+     "line": "evaporator"
+    },
+    {
+     "text": "más",
+     "start": 20.28,
+     "end": 20.511,
+     "line": "evaporator"
+    },
+    {
+     "text": "frío",
+     "start": 20.54,
+     "end": 20.8,
+     "line": "evaporator"
+    },
+    {
+     "text": "que",
+     "start": 20.84,
+     "end": 20.898,
+     "line": "evaporator"
+    },
+    {
+     "text": "el",
+     "start": 20.925,
+     "end": 21.006,
+     "line": "evaporator"
+    },
+    {
+     "text": "aire,",
+     "start": 21.05,
+     "end": 21.43,
+     "line": "evaporator"
+    },
+    {
+     "text": "absorbe",
+     "start": 21.72,
+     "end": 22.059,
+     "line": "evaporator"
+    },
+    {
+     "text": "su",
+     "start": 22.14,
+     "end": 22.208,
+     "line": "evaporator"
+    },
+    {
+     "text": "calor,",
+     "start": 22.24,
+     "end": 22.68,
+     "line": "evaporator"
+    },
+    {
+     "text": "hierve",
+     "start": 22.95,
+     "end": 23.267,
+     "line": "evaporator"
+    },
+    {
+     "text": "y",
+     "start": 23.311,
+     "end": 23.341,
+     "line": "evaporator"
+    },
+    {
+     "text": "se",
+     "start": 23.41,
+     "end": 23.454,
+     "line": "evaporator"
+    },
+    {
+     "text": "convierte",
+     "start": 23.5,
+     "end": 23.992,
+     "line": "evaporator"
+    },
+    {
+     "text": "en",
+     "start": 24.018,
+     "end": 24.088,
+     "line": "evaporator"
+    },
+    {
+     "text": "gas.",
+     "start": 24.127,
+     "end": 24.56,
+     "line": "evaporator"
+    }
+   ]
+  },
+  {
+   "id": "compressor",
+   "index": 5,
+   "text": "Un compresor comprime el gas y su temperatura se dispara.",
+   "source_text": "Un compresor comprime el gas y su temperatura se dispara.",
+   "voice": "supertonic:F1",
+   "engine": "supertonic",
+   "lang": "es",
+   "speed": 1.0,
+   "style": "neutral",
+   "start": 25.22,
+   "end": 29.04,
+   "duration": 3.82,
+   "speech_start": 25.31,
+   "speech_end": 28.717,
+   "pause_after": 0.4,
+   "slot": {
+    "start": 25.22,
+    "end": 29.44,
+    "duration": 4.22
+   },
+   "file": "lines/05-compressor.wav",
+   "timing": "tts",
+   "wps": 2.935,
+   "words": [
+    {
+     "text": "Un",
+     "start": 25.31,
+     "end": 25.416,
+     "line": "compressor"
+    },
+    {
+     "text": "compresor",
+     "start": 25.5,
+     "end": 26.026,
+     "line": "compressor"
+    },
+    {
+     "text": "comprime",
+     "start": 26.09,
+     "end": 26.617,
+     "line": "compressor"
+    },
+    {
+     "text": "el",
+     "start": 26.652,
+     "end": 26.72,
+     "line": "compressor"
+    },
+    {
+     "text": "gas",
+     "start": 26.77,
+     "end": 27.038,
+     "line": "compressor"
+    },
+    {
+     "text": "y",
+     "start": 27.09,
+     "end": 27.127,
+     "line": "compressor"
+    },
+    {
+     "text": "su",
+     "start": 27.162,
+     "end": 27.261,
+     "line": "compressor"
+    },
+    {
+     "text": "temperatura",
+     "start": 27.33,
+     "end": 27.902,
+     "line": "compressor"
+    },
+    {
+     "text": "se",
+     "start": 27.94,
+     "end": 28.036,
+     "line": "compressor"
+    },
+    {
+     "text": "dispara.",
+     "start": 28.04,
+     "end": 28.717,
+     "line": "compressor"
+    }
+   ]
+  },
+  {
+   "id": "condenser",
+   "index": 6,
+   "text": "Adentro, el gas caliente libera ese calor en tu casa y se condensa en líquido.",
+   "source_text": "Adentro, el gas caliente libera ese calor en tu casa y se condensa en líquido.",
+   "voice": "supertonic:F1",
+   "engine": "supertonic",
+   "lang": "es",
+   "speed": 1.0,
+   "style": "neutral",
+   "start": 29.44,
+   "end": 34.39,
+   "duration": 4.95,
+   "speech_start": 29.47,
+   "speech_end": 34.126,
+   "pause_after": 0.4,
+   "slot": {
+    "start": 29.44,
+    "end": 34.79,
+    "duration": 5.35
+   },
+   "file": "lines/06-condenser.wav",
+   "timing": "tts",
+   "wps": 3.222,
+   "words": [
+    {
+     "text": "Adentro,",
+     "start": 29.47,
+     "end": 29.999,
+     "line": "condenser"
+    },
+    {
+     "text": "el",
+     "start": 30.23,
+     "end": 30.306,
+     "line": "condenser"
+    },
+    {
+     "text": "gas",
+     "start": 30.324,
+     "end": 30.508,
+     "line": "condenser"
+    },
+    {
+     "text": "caliente",
+     "start": 30.556,
+     "end": 30.967,
+     "line": "condenser"
+    },
+    {
+     "text": "libera",
+     "start": 31.006,
+     "end": 31.316,
+     "line": "condenser"
+    },
+    {
+     "text": "ese",
+     "start": 31.32,
+     "end": 31.509,
+     "line": "condenser"
+    },
+    {
+     "text": "calor",
+     "start": 31.59,
+     "end": 31.867,
+     "line": "condenser"
+    },
+    {
+     "text": "en",
+     "start": 31.893,
+     "end": 31.964,
+     "line": "condenser"
+    },
+    {
+     "text": "tu",
+     "start": 32.032,
+     "end": 32.13,
+     "line": "condenser"
+    },
+    {
+     "text": "casa",
+     "start": 32.181,
+     "end": 32.68,
+     "line": "condenser"
+    },
+    {
+     "text": "y",
+     "start": 32.88,
+     "end": 32.91,
+     "line": "condenser"
+    },
+    {
+     "text": "se",
+     "start": 32.939,
+     "end": 33.037,
+     "line": "condenser"
+    },
+    {
+     "text": "condensa",
+     "start": 33.11,
+     "end": 33.504,
+     "line": "condenser"
+    },
+    {
+     "text": "en",
+     "start": 33.532,
+     "end": 33.597,
+     "line": "condenser"
+    },
+    {
+     "text": "líquido.",
+     "start": 33.633,
+     "end": 34.126,
+     "line": "condenser"
+    }
+   ]
+  },
+  {
+   "id": "valve",
+   "index": 7,
+   "text": "Una válvula de expansión baja la presión, el líquido se enfría y el ciclo se repite.",
+   "source_text": "Una válvula de expansión baja la presión, el líquido se enfría y el ciclo se repite.",
+   "voice": "supertonic:F1",
+   "engine": "supertonic",
+   "lang": "es",
+   "speed": 1.0,
+   "style": "neutral",
+   "start": 34.79,
+   "end": 40.74,
+   "duration": 5.95,
+   "speech_start": 34.89,
+   "speech_end": 40.275,
+   "pause_after": 0.6,
+   "slot": {
+    "start": 34.79,
+    "end": 41.34,
+    "duration": 6.55
+   },
+   "file": "lines/07-valve.wav",
+   "timing": "tts",
+   "wps": 2.971,
+   "words": [
+    {
+     "text": "Una",
+     "start": 34.89,
+     "end": 35.079,
+     "line": "valve"
+    },
+    {
+     "text": "válvula",
+     "start": 35.112,
+     "end": 35.509,
+     "line": "valve"
+    },
+    {
+     "text": "de",
+     "start": 35.534,
+     "end": 35.574,
+     "line": "valve"
+    },
+    {
+     "text": "expansión",
+     "start": 35.599,
+     "end": 36.224,
+     "line": "valve"
+    },
+    {
+     "text": "baja",
+     "start": 36.27,
+     "end": 36.561,
+     "line": "valve"
+    },
+    {
+     "text": "la",
+     "start": 36.59,
+     "end": 36.69,
+     "line": "valve"
+    },
+    {
+     "text": "presión,",
+     "start": 36.729,
+     "end": 37.34,
+     "line": "valve"
+    },
+    {
+     "text": "el",
+     "start": 37.7,
+     "end": 37.818,
+     "line": "valve"
+    },
+    {
+     "text": "líquido",
+     "start": 37.874,
+     "end": 38.309,
+     "line": "valve"
+    },
+    {
+     "text": "se",
+     "start": 38.354,
+     "end": 38.437,
+     "line": "valve"
+    },
+    {
+     "text": "enfría",
+     "start": 38.465,
+     "end": 38.978,
+     "line": "valve"
+    },
+    {
+     "text": "y",
+     "start": 39.035,
+     "end": 39.07,
+     "line": "valve"
+    },
+    {
+     "text": "el",
+     "start": 39.11,
+     "end": 39.208,
+     "line": "valve"
+    },
+    {
+     "text": "ciclo",
+     "start": 39.29,
+     "end": 39.611,
+     "line": "valve"
+    },
+    {
+     "text": "se",
+     "start": 39.657,
+     "end": 39.743,
+     "line": "valve"
+    },
+    {
+     "text": "repite.",
+     "start": 39.77,
+     "end": 40.275,
+     "line": "valve"
+    }
+   ]
+  },
+  {
+   "id": "payoff",
+   "index": 8,
+   "text": "Mover calor rinde más que producirlo. Por lo general, sale más calor del que entra como electricidad.",
+   "source_text": "Mover calor rinde más que producirlo. Por lo general, sale más calor del que entra como electricidad.",
+   "voice": "supertonic:F1",
+   "engine": "supertonic",
+   "lang": "es",
+   "speed": 1.0,
+   "style": "neutral",
+   "start": 41.34,
+   "end": 47.87,
+   "duration": 6.53,
+   "speech_start": 41.42,
+   "speech_end": 47.61,
+   "pause_after": 0.4,
+   "slot": {
+    "start": 41.34,
+    "end": 50.07,
+    "duration": 8.73
+   },
+   "file": "lines/08-payoff.wav",
+   "timing": "tts",
+   "wps": 2.746,
+   "words": [
+    {
+     "text": "Mover",
+     "start": 41.42,
+     "end": 41.746,
+     "line": "payoff"
+    },
+    {
+     "text": "calor",
+     "start": 41.81,
+     "end": 42.113,
+     "line": "payoff"
+    },
+    {
+     "text": "rinde",
+     "start": 42.16,
+     "end": 42.466,
+     "line": "payoff"
+    },
+    {
+     "text": "más",
+     "start": 42.517,
+     "end": 42.675,
+     "line": "payoff"
+    },
+    {
+     "text": "que",
+     "start": 42.74,
+     "end": 42.781,
+     "line": "payoff"
+    },
+    {
+     "text": "producirlo.",
+     "start": 42.823,
+     "end": 43.66,
+     "line": "payoff"
+    },
+    {
+     "text": "Por",
+     "start": 43.951,
+     "end": 44.085,
+     "line": "payoff"
+    },
+    {
+     "text": "lo",
+     "start": 44.12,
+     "end": 44.221,
+     "line": "payoff"
+    },
+    {
+     "text": "general,",
+     "start": 44.276,
+     "end": 44.86,
+     "line": "payoff"
+    },
+    {
+     "text": "sale",
+     "start": 45.03,
+     "end": 45.342,
+     "line": "payoff"
+    },
+    {
+     "text": "más",
+     "start": 45.391,
+     "end": 45.583,
+     "line": "payoff"
+    },
+    {
+     "text": "calor",
+     "start": 45.64,
+     "end": 45.952,
+     "line": "payoff"
+    },
+    {
+     "text": "del",
+     "start": 45.992,
+     "end": 46.18,
+     "line": "payoff"
+    },
+    {
+     "text": "que",
+     "start": 46.22,
+     "end": 46.311,
+     "line": "payoff"
+    },
+    {
+     "text": "entra",
+     "start": 46.353,
+     "end": 46.603,
+     "line": "payoff"
+    },
+    {
+     "text": "como",
+     "start": 46.68,
+     "end": 46.821,
+     "line": "payoff"
+    },
+    {
+     "text": "electricidad.",
+     "start": 46.849,
+     "end": 47.61,
+     "line": "payoff"
+    }
+   ]
+  }
+ ],
+ "words": [
+  {
+   "text": "Afuera",
+   "start": 0.43,
+   "end": 0.727,
+   "line": "hook"
+  },
+  {
+   "text": "está",
+   "start": 0.74,
+   "end": 0.938,
+   "line": "hook"
+  },
+  {
+   "text": "helando.",
+   "start": 0.971,
+   "end": 1.44,
+   "line": "hook"
+  },
+  {
+   "text": "¿Cómo",
+   "start": 1.82,
+   "end": 1.993,
+   "line": "hook"
+  },
+  {
+   "text": "puede",
+   "start": 2.06,
+   "end": 2.216,
+   "line": "hook"
+  },
+  {
+   "text": "ese",
+   "start": 2.243,
+   "end": 2.409,
+   "line": "hook"
+  },
+  {
+   "text": "aire",
+   "start": 2.45,
+   "end": 2.643,
+   "line": "hook"
+  },
+  {
+   "text": "calentar",
+   "start": 2.69,
+   "end": 3.098,
+   "line": "hook"
+  },
+  {
+   "text": "tu",
+   "start": 3.18,
+   "end": 3.229,
+   "line": "hook"
+  },
+  {
+   "text": "casa?",
+   "start": 3.31,
+   "end": 3.71,
+   "line": "hook"
+  },
+  {
+   "text": "Incluso",
+   "start": 4.42,
+   "end": 4.936,
+   "line": "absolute"
+  },
+  {
+   "text": "el",
+   "start": 4.958,
+   "end": 5.041,
+   "line": "absolute"
+  },
+  {
+   "text": "aire",
+   "start": 5.084,
+   "end": 5.314,
+   "line": "absolute"
+  },
+  {
+   "text": "helado",
+   "start": 5.374,
+   "end": 5.75,
+   "line": "absolute"
+  },
+  {
+   "text": "guarda",
+   "start": 5.781,
+   "end": 6.072,
+   "line": "absolute"
+  },
+  {
+   "text": "calor.",
+   "start": 6.118,
+   "end": 6.64,
+   "line": "absolute"
+  },
+  {
+   "text": "Cero",
+   "start": 7.0,
+   "end": 7.228,
+   "line": "absolute"
+  },
+  {
+   "text": "grados",
+   "start": 7.257,
+   "end": 7.606,
+   "line": "absolute"
+  },
+  {
+   "text": "Celsius",
+   "start": 7.656,
+   "end": 8.123,
+   "line": "absolute"
+  },
+  {
+   "text": "está",
+   "start": 8.24,
+   "end": 8.5,
+   "line": "absolute"
+  },
+  {
+   "text": "muy",
+   "start": 8.551,
+   "end": 8.756,
+   "line": "absolute"
+  },
+  {
+   "text": "por",
+   "start": 8.826,
+   "end": 8.952,
+   "line": "absolute"
+  },
+  {
+   "text": "encima",
+   "start": 8.983,
+   "end": 9.4,
+   "line": "absolute"
+  },
+  {
+   "text": "del",
+   "start": 9.449,
+   "end": 9.611,
+   "line": "absolute"
+  },
+  {
+   "text": "cero",
+   "start": 9.68,
+   "end": 9.886,
+   "line": "absolute"
+  },
+  {
+   "text": "absoluto.",
+   "start": 9.917,
+   "end": 10.647,
+   "line": "absolute"
+  },
+  {
+   "text": "Una",
+   "start": 11.77,
+   "end": 11.978,
+   "line": "loop"
+  },
+  {
+   "text": "bomba",
+   "start": 12.012,
+   "end": 12.304,
+   "line": "loop"
+  },
+  {
+   "text": "de",
+   "start": 12.329,
+   "end": 12.408,
+   "line": "loop"
+  },
+  {
+   "text": "calor",
+   "start": 12.45,
+   "end": 12.79,
+   "line": "loop"
+  },
+  {
+   "text": "lleva",
+   "start": 12.894,
+   "end": 13.151,
+   "line": "loop"
+  },
+  {
+   "text": "ese",
+   "start": 13.18,
+   "end": 13.372,
+   "line": "loop"
+  },
+  {
+   "text": "calor",
+   "start": 13.39,
+   "end": 13.639,
+   "line": "loop"
+  },
+  {
+   "text": "adentro,",
+   "start": 13.68,
+   "end": 14.27,
+   "line": "loop"
+  },
+  {
+   "text": "con",
+   "start": 14.58,
+   "end": 14.694,
+   "line": "loop"
+  },
+  {
+   "text": "refrigerante",
+   "start": 14.741,
+   "end": 15.46,
+   "line": "loop"
+  },
+  {
+   "text": "que",
+   "start": 15.508,
+   "end": 15.592,
+   "line": "loop"
+  },
+  {
+   "text": "circula",
+   "start": 15.641,
+   "end": 16.144,
+   "line": "loop"
+  },
+  {
+   "text": "en",
+   "start": 16.186,
+   "end": 16.361,
+   "line": "loop"
+  },
+  {
+   "text": "un",
+   "start": 16.385,
+   "end": 16.488,
+   "line": "loop"
+  },
+  {
+   "text": "circuito",
+   "start": 16.537,
+   "end": 17.024,
+   "line": "loop"
+  },
+  {
+   "text": "sellado.",
+   "start": 17.083,
+   "end": 17.6,
+   "line": "loop"
+  },
+  {
+   "text": "Afuera,",
+   "start": 18.44,
+   "end": 18.979,
+   "line": "evaporator"
+  },
+  {
+   "text": "el",
+   "start": 19.19,
+   "end": 19.3,
+   "line": "evaporator"
+  },
+  {
+   "text": "refrigerante,",
+   "start": 19.336,
+   "end": 20.15,
+   "line": "evaporator"
+  },
+  {
+   "text": "más",
+   "start": 20.28,
+   "end": 20.511,
+   "line": "evaporator"
+  },
+  {
+   "text": "frío",
+   "start": 20.54,
+   "end": 20.8,
+   "line": "evaporator"
+  },
+  {
+   "text": "que",
+   "start": 20.84,
+   "end": 20.898,
+   "line": "evaporator"
+  },
+  {
+   "text": "el",
+   "start": 20.925,
+   "end": 21.006,
+   "line": "evaporator"
+  },
+  {
+   "text": "aire,",
+   "start": 21.05,
+   "end": 21.43,
+   "line": "evaporator"
+  },
+  {
+   "text": "absorbe",
+   "start": 21.72,
+   "end": 22.059,
+   "line": "evaporator"
+  },
+  {
+   "text": "su",
+   "start": 22.14,
+   "end": 22.208,
+   "line": "evaporator"
+  },
+  {
+   "text": "calor,",
+   "start": 22.24,
+   "end": 22.68,
+   "line": "evaporator"
+  },
+  {
+   "text": "hierve",
+   "start": 22.95,
+   "end": 23.267,
+   "line": "evaporator"
+  },
+  {
+   "text": "y",
+   "start": 23.311,
+   "end": 23.341,
+   "line": "evaporator"
+  },
+  {
+   "text": "se",
+   "start": 23.41,
+   "end": 23.454,
+   "line": "evaporator"
+  },
+  {
+   "text": "convierte",
+   "start": 23.5,
+   "end": 23.992,
+   "line": "evaporator"
+  },
+  {
+   "text": "en",
+   "start": 24.018,
+   "end": 24.088,
+   "line": "evaporator"
+  },
+  {
+   "text": "gas.",
+   "start": 24.127,
+   "end": 24.56,
+   "line": "evaporator"
+  },
+  {
+   "text": "Un",
+   "start": 25.31,
+   "end": 25.416,
+   "line": "compressor"
+  },
+  {
+   "text": "compresor",
+   "start": 25.5,
+   "end": 26.026,
+   "line": "compressor"
+  },
+  {
+   "text": "comprime",
+   "start": 26.09,
+   "end": 26.617,
+   "line": "compressor"
+  },
+  {
+   "text": "el",
+   "start": 26.652,
+   "end": 26.72,
+   "line": "compressor"
+  },
+  {
+   "text": "gas",
+   "start": 26.77,
+   "end": 27.038,
+   "line": "compressor"
+  },
+  {
+   "text": "y",
+   "start": 27.09,
+   "end": 27.127,
+   "line": "compressor"
+  },
+  {
+   "text": "su",
+   "start": 27.162,
+   "end": 27.261,
+   "line": "compressor"
+  },
+  {
+   "text": "temperatura",
+   "start": 27.33,
+   "end": 27.902,
+   "line": "compressor"
+  },
+  {
+   "text": "se",
+   "start": 27.94,
+   "end": 28.036,
+   "line": "compressor"
+  },
+  {
+   "text": "dispara.",
+   "start": 28.04,
+   "end": 28.717,
+   "line": "compressor"
+  },
+  {
+   "text": "Adentro,",
+   "start": 29.47,
+   "end": 29.999,
+   "line": "condenser"
+  },
+  {
+   "text": "el",
+   "start": 30.23,
+   "end": 30.306,
+   "line": "condenser"
+  },
+  {
+   "text": "gas",
+   "start": 30.324,
+   "end": 30.508,
+   "line": "condenser"
+  },
+  {
+   "text": "caliente",
+   "start": 30.556,
+   "end": 30.967,
+   "line": "condenser"
+  },
+  {
+   "text": "libera",
+   "start": 31.006,
+   "end": 31.316,
+   "line": "condenser"
+  },
+  {
+   "text": "ese",
+   "start": 31.32,
+   "end": 31.509,
+   "line": "condenser"
+  },
+  {
+   "text": "calor",
+   "start": 31.59,
+   "end": 31.867,
+   "line": "condenser"
+  },
+  {
+   "text": "en",
+   "start": 31.893,
+   "end": 31.964,
+   "line": "condenser"
+  },
+  {
+   "text": "tu",
+   "start": 32.032,
+   "end": 32.13,
+   "line": "condenser"
+  },
+  {
+   "text": "casa",
+   "start": 32.181,
+   "end": 32.68,
+   "line": "condenser"
+  },
+  {
+   "text": "y",
+   "start": 32.88,
+   "end": 32.91,
+   "line": "condenser"
+  },
+  {
+   "text": "se",
+   "start": 32.939,
+   "end": 33.037,
+   "line": "condenser"
+  },
+  {
+   "text": "condensa",
+   "start": 33.11,
+   "end": 33.504,
+   "line": "condenser"
+  },
+  {
+   "text": "en",
+   "start": 33.532,
+   "end": 33.597,
+   "line": "condenser"
+  },
+  {
+   "text": "líquido.",
+   "start": 33.633,
+   "end": 34.126,
+   "line": "condenser"
+  },
+  {
+   "text": "Una",
+   "start": 34.89,
+   "end": 35.079,
+   "line": "valve"
+  },
+  {
+   "text": "válvula",
+   "start": 35.112,
+   "end": 35.509,
+   "line": "valve"
+  },
+  {
+   "text": "de",
+   "start": 35.534,
+   "end": 35.574,
+   "line": "valve"
+  },
+  {
+   "text": "expansión",
+   "start": 35.599,
+   "end": 36.224,
+   "line": "valve"
+  },
+  {
+   "text": "baja",
+   "start": 36.27,
+   "end": 36.561,
+   "line": "valve"
+  },
+  {
+   "text": "la",
+   "start": 36.59,
+   "end": 36.69,
+   "line": "valve"
+  },
+  {
+   "text": "presión,",
+   "start": 36.729,
+   "end": 37.34,
+   "line": "valve"
+  },
+  {
+   "text": "el",
+   "start": 37.7,
+   "end": 37.818,
+   "line": "valve"
+  },
+  {
+   "text": "líquido",
+   "start": 37.874,
+   "end": 38.309,
+   "line": "valve"
+  },
+  {
+   "text": "se",
+   "start": 38.354,
+   "end": 38.437,
+   "line": "valve"
+  },
+  {
+   "text": "enfría",
+   "start": 38.465,
+   "end": 38.978,
+   "line": "valve"
+  },
+  {
+   "text": "y",
+   "start": 39.035,
+   "end": 39.07,
+   "line": "valve"
+  },
+  {
+   "text": "el",
+   "start": 39.11,
+   "end": 39.208,
+   "line": "valve"
+  },
+  {
+   "text": "ciclo",
+   "start": 39.29,
+   "end": 39.611,
+   "line": "valve"
+  },
+  {
+   "text": "se",
+   "start": 39.657,
+   "end": 39.743,
+   "line": "valve"
+  },
+  {
+   "text": "repite.",
+   "start": 39.77,
+   "end": 40.275,
+   "line": "valve"
+  },
+  {
+   "text": "Mover",
+   "start": 41.42,
+   "end": 41.746,
+   "line": "payoff"
+  },
+  {
+   "text": "calor",
+   "start": 41.81,
+   "end": 42.113,
+   "line": "payoff"
+  },
+  {
+   "text": "rinde",
+   "start": 42.16,
+   "end": 42.466,
+   "line": "payoff"
+  },
+  {
+   "text": "más",
+   "start": 42.517,
+   "end": 42.675,
+   "line": "payoff"
+  },
+  {
+   "text": "que",
+   "start": 42.74,
+   "end": 42.781,
+   "line": "payoff"
+  },
+  {
+   "text": "producirlo.",
+   "start": 42.823,
+   "end": 43.66,
+   "line": "payoff"
+  },
+  {
+   "text": "Por",
+   "start": 43.951,
+   "end": 44.085,
+   "line": "payoff"
+  },
+  {
+   "text": "lo",
+   "start": 44.12,
+   "end": 44.221,
+   "line": "payoff"
+  },
+  {
+   "text": "general,",
+   "start": 44.276,
+   "end": 44.86,
+   "line": "payoff"
+  },
+  {
+   "text": "sale",
+   "start": 45.03,
+   "end": 45.342,
+   "line": "payoff"
+  },
+  {
+   "text": "más",
+   "start": 45.391,
+   "end": 45.583,
+   "line": "payoff"
+  },
+  {
+   "text": "calor",
+   "start": 45.64,
+   "end": 45.952,
+   "line": "payoff"
+  },
+  {
+   "text": "del",
+   "start": 45.992,
+   "end": 46.18,
+   "line": "payoff"
+  },
+  {
+   "text": "que",
+   "start": 46.22,
+   "end": 46.311,
+   "line": "payoff"
+  },
+  {
+   "text": "entra",
+   "start": 46.353,
+   "end": 46.603,
+   "line": "payoff"
+  },
+  {
+   "text": "como",
+   "start": 46.68,
+   "end": 46.821,
+   "line": "payoff"
+  },
+  {
+   "text": "electricidad.",
+   "start": 46.849,
+   "end": 47.61,
+   "line": "payoff"
+  }
+ ],
+ "captions": {
+  "srt": "vo.srt",
+  "transcript": "vo.words.json",
+  "cues": 20
+ },
+ "build_seconds": 12.91,
+ "lexicon": [
+  "skills/showtime/lib/st/voice/lexicon.json"
+ ]
+}

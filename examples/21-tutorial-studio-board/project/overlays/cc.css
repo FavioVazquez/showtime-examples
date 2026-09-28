@@ -1,0 +1,39 @@
+/* Curtain Call on the tutorial's cards and overlays. Colours come from the brand kit
+   (brand.css = `SHOWTIME_BRAND=assets/brand/brand.json showtime brand css`), mapped onto the
+   component token contract. Cream or Programme text on Stage/Wings; velvet is never text on dark. */
+@import url('brand.css');
+@import url('/_st/themes/base.css');
+@import url('/_st/themes/fonts/fraunces.css');
+@import url('/_st/themes/fonts/inter.css');
+@import url('/_st/themes/fonts/jetbrains-mono.css');
+:root {
+  color-scheme: dark;
+  --bg: var(--brand-bg); --fg: var(--brand-ink); --muted: var(--brand-muted);
+  --surface: var(--brand-surface); --surface-2: #2c201c; --border: var(--brand-border);
+  --accent: var(--brand-accent); --accent-2: var(--brand-accent2); --accent-ink: var(--brand-bg);
+  --font-display: 'Fraunces', serif; --font-body: 'Inter', sans-serif; --font-mono: 'JetBrains Mono', monospace;
+  --weight-display: 900; --tracking-display: -0.01em;
+  --radius: 1.1cqmin; --radius-lg: 2cqmin; --stroke: max(1px, 0.14cqmin);
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1); --ease-in: cubic-bezier(0.55, 0, 0.9, 0.3);
+  --grain: 0; --glow: 0;
+}
+html, body { background: transparent; margin: 0; }
+.stage-bg { position: absolute; inset: 0; background:
+  radial-gradient(ellipse 75% 65% at 50% 42%, #3d2a22 0%, #241a16 45%, var(--brand-bg) 85%); }
+/* generic terminal window (no product chrome) */
+.term { position: absolute; background: #100c0a; border: var(--stroke) solid var(--border); border-radius: var(--radius-lg);
+  box-shadow: 0 2.4cqmin 7cqmin rgb(0 0 0 / 0.55); overflow: hidden; font-family: var(--font-mono); color: var(--fg); }
+.term .bar { height: 5.4cqmin; display: flex; align-items: center; gap: 1.1cqmin; padding: 0 2cqmin; background: #1c1411;
+  border-bottom: var(--stroke) solid var(--border); }
+.term .bar i { width: 1.35cqmin; height: 1.35cqmin; border-radius: 50%; background: #3a2c27; display: block; }
+.term .bar b { margin-left: 1.4cqmin; font: 500 1.9cqmin var(--font-body); color: var(--muted); }
+.term .body { padding: 2.6cqmin 3cqmin; font-size: 2.05cqmin; line-height: 1.5; white-space: pre-wrap; }
+.term .ln { display: block; min-height: 1.5em; }
+.term .prompt { color: var(--accent); }
+.term .dim { color: var(--muted); }
+.term .hl { border-radius: 0.25em; box-decoration-break: clone; -webkit-box-decoration-break: clone; }
+.term .caret { display: inline-block; width: 0.6em; height: 1.15em; vertical-align: -0.2em; background: var(--fg); }
+.mask { color: var(--accent); letter-spacing: 0.08em; }
+.tag { display: inline-block; font: 600 1.45cqmin var(--font-body); letter-spacing: 0.1em; text-transform: uppercase;
+  color: var(--accent-ink); background: var(--accent); border-radius: 0.35em; padding: 0.3em 0.6em; vertical-align: 0.25em; margin-left: 0.8em; }
+.eyebrow { font: 600 1.9cqmin var(--font-body); letter-spacing: 0.16em; text-transform: uppercase; color: var(--accent); }

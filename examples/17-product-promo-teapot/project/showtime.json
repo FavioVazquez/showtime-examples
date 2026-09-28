@@ -1,0 +1,16 @@
+{
+  "title": "Teapot, ca. 1879",
+  "width": 1080,
+  "height": 1080,
+  "fps": 30,
+  "duration": 20.0,
+  "background": "#0d0b0a",
+  "poster": 0,
+  "audio": "audio/mix.json",
+  "expect": {
+    "must_show": [
+      "ca. 1879",
+      "500 g"
+    ]
+  }
+}

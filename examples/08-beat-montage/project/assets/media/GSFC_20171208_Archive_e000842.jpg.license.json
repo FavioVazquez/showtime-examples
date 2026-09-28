@@ -1,0 +1,21 @@
+{
+  "source": "nasa",
+  "source_label": "NASA Image and Video Library",
+  "id": "nasa:GSFC_20171208_Archive_e000842",
+  "title": "Hubble Goes High Def to Revisit the Iconic 'Pillars of Creation'",
+  "author": "NASA/GSFC",
+  "author_url": null,
+  "license": "Public domain (NASA media)",
+  "license_url": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+  "landing_url": "https://images.nasa.gov/details/GSFC_20171208_Archive_e000842",
+  "note": "NASA media: no endorsement implied; do not use NASA logos or insignia. Check the description for third-party copyright notices.",
+  "type": "image",
+  "file_url": "https://images-assets.nasa.gov/image/GSFC_20171208_Archive_e000842/GSFC_20171208_Archive_e000842~large.jpg",
+  "captions": [],
+  "sha256": "7a0671ea92d22f19e36ebd63c066a23b3870174ab8e9adb75a3c45080128ca9e",
+  "fetched": "2026-09-26T14:26:52",
+  "license_class": "free",
+  "attribution_required": false,
+  "credit": "\"Hubble Goes High Def to Revisit the Iconic 'Pillars of Creation'\" by NASA/GSFC via NASA Image and Video Library (Public domain (NASA media)) - https://images.nasa.gov/details/GSFC_20171208_Archive_e000842",
+  "file": "GSFC_20171208_Archive_e000842.jpg"
+}

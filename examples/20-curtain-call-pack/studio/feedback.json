@@ -1,0 +1,298 @@
+{
+ "schema": "showtime.studio.feedback/1",
+ "job": "curtain-call-pack-20260927-152547",
+ "created": "2026-09-27T21:25:51.240Z",
+ "updated": "2026-09-27T22:07:43.526Z",
+ "board_rev": 3,
+ "events": [
+  {
+   "id": "sim_r1_01",
+   "ts": "2026-09-27T21:39:52.000Z",
+   "type": "like",
+   "rev": 1,
+   "client": null,
+   "target": "c1-f1",
+   "value": true
+  },
+  {
+   "id": "sim_r1_02",
+   "ts": "2026-09-27T21:39:52.000Z",
+   "type": "comment",
+   "rev": 1,
+   "client": null,
+   "target": "c1-f1",
+   "text": "The slit of gold between the curtains is the hook. Keep frame 0 like this: it reads as us even as a thumbnail.",
+   "at": null
+  },
+  {
+   "id": "sim_r1_03",
+   "ts": "2026-09-27T21:39:52.000Z",
+   "type": "comment",
+   "rev": 1,
+   "client": null,
+   "target": "c1-f3",
+   "text": "The mark has to face us squarely when it lands, and the wordmark needs to sit on the dark floor, not on the gold.",
+   "at": null
+  },
+  {
+   "id": "sim_r1_04",
+   "ts": "2026-09-27T21:39:52.000Z",
+   "type": "pick",
+   "rev": 1,
+   "client": null,
+   "slot": "concept",
+   "target": "c1"
+  },
+  {
+   "id": "sim_r1_05",
+   "ts": "2026-09-27T21:39:52.000Z",
+   "type": "pick",
+   "rev": 1,
+   "client": null,
+   "slot": "beds",
+   "target": "bed-c1"
+  },
+  {
+   "id": "sim_r1_06",
+   "ts": "2026-09-27T21:39:52.000Z",
+   "type": "like",
+   "rev": 1,
+   "client": null,
+   "target": "c2-f2",
+   "value": true
+  },
+  {
+   "id": "sim_r1_07",
+   "ts": "2026-09-27T21:39:52.000Z",
+   "type": "comment",
+   "rev": 1,
+   "client": null,
+   "target": "w1-f2",
+   "text": "Fun, but a pixelated mark breaks our own brand rules. Park it.",
+   "at": null
+  },
+  {
+   "id": "sim_r1_08",
+   "ts": "2026-09-27T21:39:52.000Z",
+   "type": "answer",
+   "rev": 1,
+   "client": null,
+   "target": "lt-type",
+   "value": "fraunces",
+   "text": null
+  },
+  {
+   "id": "sim_r1_09",
+   "ts": "2026-09-27T21:39:52.000Z",
+   "type": "answer",
+   "rev": 1,
+   "client": null,
+   "target": "webgl-stinger",
+   "value": "chromatic-split",
+   "text": null
+  },
+  {
+   "id": "sim_r1_10",
+   "ts": "2026-09-27T21:39:52.000Z",
+   "type": "answer",
+   "rev": 1,
+   "client": null,
+   "target": "sound-logo",
+   "value": "new",
+   "text": null
+  },
+  {
+   "id": "sim_r1_11",
+   "ts": "2026-09-27T21:39:52.000Z",
+   "type": "answer",
+   "rev": 1,
+   "client": null,
+   "target": "adopt",
+   "value": "no",
+   "text": "Ship it as a pack first; we decide on v2 later."
+  },
+  {
+   "id": "sim_r1_12",
+   "ts": "2026-09-27T21:39:52.000Z",
+   "type": "dial",
+   "rev": 1,
+   "client": null,
+   "target": "energy",
+   "value": 45
+  },
+  {
+   "id": "sim_r2_01",
+   "ts": "2026-09-27T21:50:22.000Z",
+   "type": "comment",
+   "rev": 2,
+   "client": null,
+   "target": "c1",
+   "text": "The landing on the logo note is the moment. Keep it exactly here.",
+   "at": 2.8
+  },
+  {
+   "id": "sim_r2_02",
+   "ts": "2026-09-27T21:50:22.000Z",
+   "type": "comment",
+   "rev": 2,
+   "client": null,
+   "target": "lt-f4",
+   "text": "Pill: the gold dot looks small next to the name, make it a bit bigger.",
+   "at": null
+  },
+  {
+   "id": "sim_r2_03",
+   "ts": "2026-09-27T21:50:22.000Z",
+   "type": "like",
+   "rev": 2,
+   "client": null,
+   "target": "tr-f2",
+   "value": true
+  },
+  {
+   "id": "sim_r2_04",
+   "ts": "2026-09-27T21:50:22.000Z",
+   "type": "answer",
+   "rev": 2,
+   "client": null,
+   "target": "signoff",
+   "value": "approve",
+   "text": null
+  },
+  {
+   "id": "sim_r2_05",
+   "ts": "2026-09-27T21:50:22.000Z",
+   "type": "answer",
+   "rev": 2,
+   "client": null,
+   "target": "lt-names",
+   "value": "placeholders",
+   "text": null
+  },
+  {
+   "id": "sim_r2_06",
+   "ts": "2026-09-27T21:50:22.000Z",
+   "type": "approve",
+   "rev": 2,
+   "client": null,
+   "target": "c1",
+   "text": "Go: build all three aspects and the pack."
+  },
+  {
+   "id": "sim_r3_01",
+   "ts": "2026-09-27T22:07:43.000Z",
+   "type": "like",
+   "rev": 3,
+   "client": null,
+   "target": "c1-f4",
+   "value": true
+  },
+  {
+   "id": "sim_r3_02",
+   "ts": "2026-09-27T22:07:43.000Z",
+   "type": "answer",
+   "rev": 3,
+   "client": null,
+   "target": "ship",
+   "value": "ship",
+   "text": "Ship the pack. We decide on replacing sting v1 separately."
+  }
+ ],
+ "state": {
+  "picks": {
+   "concept": "c1",
+   "beds": "bed-c1"
+  },
+  "likes": {
+   "c1-f1": true,
+   "c2-f2": true,
+   "tr-f2": true,
+   "c1-f4": true
+  },
+  "ratings": {},
+  "dials": {
+   "energy": 45
+  },
+  "answers": {
+   "lt-type": {
+    "value": "fraunces",
+    "text": null
+   },
+   "webgl-stinger": {
+    "value": "chromatic-split",
+    "text": null
+   },
+   "sound-logo": {
+    "value": "new",
+    "text": null
+   },
+   "adopt": {
+    "value": "no",
+    "text": "Ship it as a pack first; we decide on v2 later."
+   },
+   "signoff": {
+    "value": "approve",
+    "text": null
+   },
+   "lt-names": {
+    "value": "placeholders",
+    "text": null
+   },
+   "ship": {
+    "value": "ship",
+    "text": "Ship the pack. We decide on replacing sting v1 separately."
+   }
+  },
+  "comments": [
+   {
+    "id": "sim_r1_02",
+    "ts": "2026-09-27T21:39:52.000Z",
+    "rev": 1,
+    "target": "c1-f1",
+    "text": "The slit of gold between the curtains is the hook. Keep frame 0 like this: it reads as us even as a thumbnail.",
+    "at": null
+   },
+   {
+    "id": "sim_r1_03",
+    "ts": "2026-09-27T21:39:52.000Z",
+    "rev": 1,
+    "target": "c1-f3",
+    "text": "The mark has to face us squarely when it lands, and the wordmark needs to sit on the dark floor, not on the gold.",
+    "at": null
+   },
+   {
+    "id": "sim_r1_07",
+    "ts": "2026-09-27T21:39:52.000Z",
+    "rev": 1,
+    "target": "w1-f2",
+    "text": "Fun, but a pixelated mark breaks our own brand rules. Park it.",
+    "at": null
+   },
+   {
+    "id": "sim_r2_01",
+    "ts": "2026-09-27T21:50:22.000Z",
+    "rev": 2,
+    "target": "c1",
+    "text": "The landing on the logo note is the moment. Keep it exactly here.",
+    "at": 2.8
+   },
+   {
+    "id": "sim_r2_02",
+    "ts": "2026-09-27T21:50:22.000Z",
+    "rev": 2,
+    "target": "lt-f4",
+    "text": "Pill: the gold dot looks small next to the name, make it a bit bigger.",
+    "at": null
+   }
+  ],
+  "mixes": [],
+  "approved": {
+   "target": "c1",
+   "text": "Go: build all three aspects and the pack.",
+   "ts": "2026-09-27T21:50:22.000Z",
+   "rev": 2
+  },
+  "count": 20,
+  "last_ts": "2026-09-27T22:07:43.000Z"
+ }
+}

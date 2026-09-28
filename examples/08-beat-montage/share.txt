@@ -1,0 +1,17 @@
+YouTube
+Title: Look Up: from the Moon to the deep field in 20 seconds (NASA images, cut to the beat)
+Description:
+Thirteen images from the NASA Image and Video Library, from Artemis II's Earthset to Webb's Cosmic Cliffs, cut on the beat of Kevin MacLeod's "At Launch".
+Images: NASA, ESA, CSA, STScI (public domain). No endorsement by NASA is implied.
+Music: "At Launch" Kevin MacLeod (incompetech.com). Licensed under Creative Commons: By Attribution 4.0 License. http://creativecommons.org/licenses/by/4.0/
+
+X (≤280)
+Earthset from Artemis II to Webb's Cosmic Cliffs in 20 seconds, every cut on the beat. All images NASA public domain; music "At Launch" by Kevin MacLeod (CC BY 4.0).
+
+GitHub README caption
+Look Up: a 20-second beat-cut montage of NASA public-domain photos (Moon, Earth, Sun, planets, nebulae, Webb deep field).
+Alt text: Title "LOOK UP" over Earth setting behind the Moon's horizon, followed by the Moon, Earth, Sun, Mars, Jupiter, Saturn, the Eagle Nebula, Hubble and Webb images, ending on "Keep looking up." over the Cosmic Cliffs.
+
+Notes for posting:
+- The music is CC BY 4.0: the credit lines in credits.txt must go in the description (they are also on the end card).
+- Do not add NASA logos or imply NASA endorsement.

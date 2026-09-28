@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tidepool: local-first notes</title>
+  <meta name="description" content="Tidepool is a fictional local-first Markdown notes app, made as demo material for showtime examples.">
+  <link rel="icon" href="logo.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="fonts/inter/font.css">
+  <link rel="stylesheet" href="fonts/jetbrains-mono/font.css">
+  <link rel="stylesheet" href="styles.css">
+  <script>
+    (function () {
+      var t = null;
+      try { t = new URLSearchParams(location.search).get('theme'); } catch (e) {}
+      if (t !== 'light' && t !== 'dark') {
+        try { t = localStorage.getItem('tidepool.theme'); } catch (e) {}
+      }
+      if (t !== 'light' && t !== 'dark') {
+        t = window.matchMedia && matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+      }
+      document.documentElement.setAttribute('data-theme', t);
+    })();
+  </script>
+</head>
+<body class="landing">
+  <header class="l-nav">
+    <div class="l-wrap l-nav-inner">
+      <a class="brand" href="landing.html">
+        <img src="logo.svg" alt="" width="30" height="30" class="brand-logo">
+        <span class="brand-name">Tidepool</span>
+      </a>
+      <nav class="l-links" aria-label="Main">
+        <a href="#features">Features</a>
+        <a href="index.html?shortcuts=1">Shortcuts</a>
+        <a class="btn btn-primary l-nav-cta" href="index.html">Open the app</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="l-hero" id="hero">
+      <div class="l-wrap">
+        <p class="l-eyebrow"><span class="sync-dot" aria-hidden="true"></span>Local-first notes</p>
+        <h1 class="l-headline">Your notes, kept on <br>your own machine.</h1>
+        <p class="l-sub">Tidepool is a quick Markdown notebook that saves everything in your browser. No account, no server, no loading spinner between you and your thoughts.</p>
+        <div class="l-actions">
+          <a class="btn btn-primary btn-lg" id="cta-open" href="index.html">Open Tidepool <span class="i" data-icon="arrow-right"></span></a>
+          <a class="btn btn-ghost btn-lg" href="index.html?palette=">Try the <kbd class="kbd" data-mod-key>⌘K</kbd> palette</a>
+        </div>
+        <p class="l-note">A fictional product, built as sample material for showtime demos.</p>
+      </div>
+
+      <div class="l-wrap l-shot-wrap">
+        <div class="l-shot" id="hero-shot">
+          <div class="l-shot-bar" aria-hidden="true">
+            <span></span><span></span><span></span>
+            <div class="l-shot-url">localhost / tidepool</div>
+          </div>
+          <div class="l-shot-frame" id="shot-frame">
+            <iframe id="hero-app" title="Tidepool app preview" src="index.html?ephemeral=1&amp;mode=split&amp;note=welcome&amp;theme=light" tabindex="-1" loading="eager"></iframe>
+          </div>
+        </div>
+      </div>
+      <svg class="l-waves" viewBox="0 0 1440 160" preserveAspectRatio="none" aria-hidden="true">
+        <path d="M0 96c120 0 120-40 240-40s120 40 240 40 120-40 240-40 120 40 240 40 120-40 240-40 120 40 240 40v64H0z" fill="var(--wave-1)"/>
+        <path d="M0 124c120 0 120-32 240-32s120 32 240 32 120-32 240-32 120 32 240 32 120-32 240-32 120 32 240 32v36H0z" fill="var(--wave-2)"/>
+      </svg>
+    </section>
+
+    <section class="l-features" id="features">
+      <div class="l-wrap">
+        <h2 class="l-h2">Small on purpose.</h2>
+        <p class="l-lede">Three things, done well.</p>
+        <div class="l-grid">
+          <article class="l-card" id="feature-local">
+            <div class="l-card-icon"><span class="i" data-icon="hard-drive"></span></div>
+            <h3>Stays on your device</h3>
+            <p>Notes are saved in this browser’s local storage. There is no sign-up, and nothing is sent anywhere.</p>
+          </article>
+          <article class="l-card" id="feature-search">
+            <div class="l-card-icon"><span class="i" data-icon="search"></span></div>
+            <h3>Find anything with <kbd class="kbd" data-mod-key>⌘K</kbd></h3>
+            <p>One palette searches titles, text and #tags as you type, and runs commands too. Your hands stay on the keyboard.</p>
+          </article>
+          <article class="l-card" id="feature-markdown">
+            <div class="l-card-icon"><span class="i" data-icon="columns-2"></span></div>
+            <h3>Markdown, previewed live</h3>
+            <p>Write plain text. Headings, task lists, tables and code render side by side while you type.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="l-cta" id="cta">
+      <div class="l-wrap l-cta-inner">
+        <img src="logo.svg" alt="" width="56" height="56">
+        <h2 class="l-h2">Start writing in a second.</h2>
+        <p class="l-lede">Open the app, press <kbd class="kbd">N</kbd>, and type.</p>
+        <a class="btn btn-primary btn-lg" id="cta-bottom" href="index.html">Open Tidepool <span class="i" data-icon="arrow-right"></span></a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="l-footer">
+    <div class="l-wrap l-footer-inner">
+      <span class="brand"><img src="logo.svg" alt="" width="20" height="20" class="brand-logo"><span class="brand-name">Tidepool</span></span>
+      <span>A fictional app made as sample material for showtime. Not a real product.</span>
+    </div>
+  </footer>
+
+  <script>
+    (function () {
+      var ICON = {
+        'arrow-right': '<path d="M5 12h14"/><path d="m12 5 7 7-7 7"/>',
+        'hard-drive': '<path d="M10 16h.01"/><path d="M2.212 11.577a2 2 0 0 0-.212.896V18a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-5.527a2 2 0 0 0-.212-.896L18.55 5.11A2 2 0 0 0 16.76 4H7.24a2 2 0 0 0-1.79 1.11z"/><path d="M21.946 12.013H2.054"/><path d="M6 16h.01"/>',
+        'search': '<path d="m21 21-4.34-4.34"/><circle cx="11" cy="11" r="8"/>',
+        'columns-2': '<rect width="18" height="18" x="3" y="3" rx="2"/><path d="M12 3v18"/>'
+      };
+      document.querySelectorAll('[data-icon]').forEach(function (el) {
+        el.innerHTML = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">' + (ICON[el.dataset.icon] || '') + '</svg>';
+      });
+      var mac = /Mac|iPhone|iPad/.test(navigator.platform || navigator.userAgent || '');
+      document.querySelectorAll('[data-mod-key]').forEach(function (el) { el.textContent = mac ? '⌘K' : 'Ctrl K'; });
+
+      /* Keep the embedded app in step with the page theme. */
+      var theme = document.documentElement.getAttribute('data-theme');
+      var frame = document.getElementById('hero-app');
+      frame.src = 'index.html?ephemeral=1&mode=split&note=welcome&theme=' + theme;
+
+      /* Render the app at desktop size, scaled to fit the frame. */
+      var box = document.getElementById('shot-frame');
+      function fit() {
+        var s = box.clientWidth / 1440;
+        frame.style.transform = 'scale(' + s + ')';
+        box.style.height = Math.round(860 * s) + 'px';
+      }
+      fit();
+      window.addEventListener('resize', fit);
+    })();
+  </script>
+</body>
+</html>

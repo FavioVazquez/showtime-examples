@@ -1,0 +1,24 @@
+{
+  "type": "whoosh",
+  "kind": "peak",
+  "category": "transition",
+  "duration": 1.1,
+  "hit": 0.452,
+  "hit_frame_30fps": 14,
+  "hit_frame_60fps": 27,
+  "key": null,
+  "intensity": 0.7,
+  "seed": 7,
+  "level": {
+    "target_lufs": -18.0,
+    "measured_lufs": -23.61,
+    "gain_db": 5.61,
+    "peak_limited": false
+  },
+  "peak_dbfs": -9.68,
+  "file": "pack/sfx/stinger-chromatic-whoosh.wav",
+  "made_with": "showtime audio sfx whoosh --dur 0.856 --intensity 0.7 --seed 7, then capped at 1.1 s with a 0.3 s fade-out (project/trimfade.py)",
+  "duration_generated": 1.3518,
+  "cut_point": 0.45,
+  "note": "place the WAV at the stinger in-point: the hit lands on the stinger cut point"
+}

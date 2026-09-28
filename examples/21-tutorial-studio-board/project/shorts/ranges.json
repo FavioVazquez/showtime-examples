@@ -1,0 +1,60 @@
+{
+ "ranges": [
+  {
+   "source": "rec",
+   "start": 5.9,
+   "end": 11.6333,
+   "note": "frames: 'click' lands on the action at rec 9.9 s"
+  },
+  {
+   "source": "rec",
+   "start": 14.108,
+   "end": 16.1414,
+   "note": "bed: 'Play' lands on the action at rec 14.1667 s"
+  },
+  {
+   "source": "rec",
+   "start": 22.458,
+   "end": 25.058,
+   "note": "wipe: 'drag' lands on the action at rec 22.6333 s"
+  },
+  {
+   "source": "rec",
+   "start": 27.1367,
+   "end": 29.6033,
+   "note": "like: 'L' lands on the action at rec 28.1 s"
+  },
+  {
+   "source": "rec",
+   "start": 31.6563,
+   "end": 33.4,
+   "note": "note: 'C' lands on the action at rec 31.7 s"
+  },
+  {
+   "source": "rec",
+   "start": 35.0,
+   "end": 38.1897,
+   "note": "note, resumed after 1.6 s of typing is cut (review round 2): 'Control' lands on Ctrl+Enter at rec 36.033 s"
+  },
+  {
+   "source": "rec",
+   "start": 41.6017,
+   "end": 43.6683,
+   "note": "pick: 'pick' lands on the action at rec 42.3 s"
+  },
+  {
+   "source": "rec",
+   "start": 45.321,
+   "end": 48.3877,
+   "note": "review: 'full' lands on the action at rec 45.4667 s"
+  },
+  {
+   "source": "rec",
+   "start": 57.1,
+   "end": 60.4667,
+   "note": "done: from the Picked card to the digest in Your feedback (end state)"
+  }
+ ],
+ "total": 26.2667,
+ "note": "the voice's pause after 'C leaves a note.' is cut by the same 1.6 s in the EDL (vo-a / vo-b)"
+}

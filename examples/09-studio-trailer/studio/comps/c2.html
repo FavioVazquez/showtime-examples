@@ -1,0 +1,48 @@
+<!doctype html>
+<!-- C2 "Macro": extreme close-ups of the real app (dark theme), withheld until a pull-back reveal.
+   Render: showtime studio frame <job> --concept c2 --html comps/c2.html --shots hook,find,reveal -->
+<html lang="en"><head><meta charset="utf-8">
+<link rel="stylesheet" href="/_st/themes/fonts/inter.css">
+<link rel="stylesheet" href="tp.css">
+<style>
+  .reveal-bg { position: absolute; inset: 0; background: radial-gradient(70% 60% at 50% 42%, #0B3038 0%, #06191E 55%, #030C0E 100%); }
+  .reflect { position: absolute; left: 50%; top: 850px; width: 1500px; height: 180px; transform: translateX(-50%);
+    background: radial-gradient(50% 50% at 50% 0%, rgba(60,197,192,.20), transparent 70%); filter: blur(20px); }
+</style></head>
+<body>
+  <!-- Hook: "Sync: local only", the app's own status line, as the first thing you read -->
+  <section class="shot" data-shot="hook">
+    <div class="cam3d" style="--ax:900px; --ay:600px">
+      <div class="plate" style="--fx:250; --fy:2075; --s:2.35; --rx:32deg; --rz:-7deg; --dofw:620; --dofh:150; --blur:10px">
+        <img class="soft" src="../media/plates/app-welcome.jpg"><img class="sharp" src="../media/plates/app-welcome.jpg">
+      </div>
+    </div>
+    <div class="grade"></div><div class="vignette"></div><div class="grain"></div>
+  </section>
+
+  <!-- Fragment: the palette finds "export" inside a note; the amber match is the app's own highlight -->
+  <section class="shot" data-shot="find">
+    <div class="cam3d" style="--ax:1010px; --ay:560px">
+      <div class="plate" style="--fx:2000; --fy:1120; --s:1.45; --rx:22deg; --rz:5deg; --dofw:1200; --dofh:260; --blur:8px">
+        <img class="soft" src="../media/plates/pal-6.jpg"><img class="sharp" src="../media/plates/pal-6.jpg">
+      </div>
+    </div>
+    <div class="grade"></div><div class="vignette"></div><div class="grain"></div>
+  </section>
+
+  <!-- Reveal: the camera pulls all the way back; the whole app, for the first time -->
+  <section class="shot" data-shot="reveal">
+    <div class="reveal-bg"></div><div class="reflect"></div>
+    <div class="cam3d" style="--ax:960px; --ay:520px">
+      <div class="plate" style="--fx:1920; --fy:1080; --s:.4; --rx:9deg; --rz:0deg; --dofw:4000; --dofh:3000; --blur:0px">
+        <img class="sharp" src="../media/plates/app-welcome.jpg" style="border-radius:40px; box-shadow:0 60px 160px rgba(0,0,0,.6), 0 0 0 3px rgba(60,197,192,.18)">
+      </div>
+    </div>
+    <div class="grade"></div><div class="vignette"></div><div class="grain"></div>
+  </section>
+<script>
+  var want = new URLSearchParams(location.search).get('shot'), hit = false;
+  document.querySelectorAll('[data-shot]').forEach(function (s) { if (s.dataset.shot === want) { s.classList.add('on'); hit = true; } });
+  if (!hit) document.querySelector('[data-shot]').classList.add('on');
+</script>
+</body></html>

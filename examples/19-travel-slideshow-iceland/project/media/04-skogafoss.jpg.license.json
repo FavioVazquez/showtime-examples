@@ -1,0 +1,22 @@
+{
+  "source": "commons",
+  "source_label": "Wikimedia Commons",
+  "id": "commons:61799729",
+  "title": "Skogafoss Waterfall, Iceland (Unsplash)",
+  "author": "Jed Dela Cruz delajed",
+  "author_url": null,
+  "license": "CC0 1.0",
+  "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+  "landing_url": "https://commons.wikimedia.org/wiki/File:Skogafoss_Waterfall,_Iceland_(Unsplash).jpg",
+  "note": null,
+  "type": "image",
+  "license_notice": null,
+  "file_url": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Skogafoss_Waterfall%2C_Iceland_%28Unsplash%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "sha256": "fa0010fe23349f90d542294f5fc6419a48bb29124a7ed9ea52c747cebeb1e85d",
+  "fetched": "2026-09-27T16:26:47",
+  "license_class": "free",
+  "attribution_required": false,
+  "credit": "\"Skogafoss Waterfall, Iceland (Unsplash)\" by Jed Dela Cruz delajed via Wikimedia Commons (CC0 1.0) - https://commons.wikimedia.org/wiki/File:Skogafoss_Waterfall,_Iceland_(Unsplash).jpg",
+  "file": "04-skogafoss.jpg",
+  "derived": "resized to 3240x2160 for the video"
+}

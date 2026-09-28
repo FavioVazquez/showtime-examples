@@ -1,0 +1,21 @@
+{
+  "source": "nasa",
+  "source_label": "NASA Image and Video Library",
+  "id": "nasa:PIA04866",
+  "title": "Cassini Jupiter Portrait",
+  "author": "NASA/JPL/Space Science Institute",
+  "author_url": null,
+  "license": "Public domain (NASA media)",
+  "license_url": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+  "landing_url": "https://images.nasa.gov/details/PIA04866",
+  "note": "NASA media: no endorsement implied; do not use NASA logos or insignia. Check the description for third-party copyright notices.",
+  "type": "image",
+  "file_url": "https://images-assets.nasa.gov/image/PIA04866/PIA04866~large.jpg",
+  "captions": [],
+  "sha256": "6a4bb6bc21471fbc86e87a08b0ececcaea3db95260e6552890fc1b1b5355264a",
+  "fetched": "2026-09-26T14:31:25",
+  "license_class": "free",
+  "attribution_required": false,
+  "credit": "\"Cassini Jupiter Portrait\" by NASA/JPL/Space Science Institute via NASA Image and Video Library (Public domain (NASA media)) - https://images.nasa.gov/details/PIA04866",
+  "file": "PIA04866.jpg"
+}

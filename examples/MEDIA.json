@@ -1,0 +1,278 @@
+{
+  "_comment": "Example media published as GitHub release assets instead of git (scripts/publish_media.py). Policy: any file over 10 MB, every .mov/.prores and the brand videos (examples/_brand/) under examples/. Link: url_pattern with {repo}, {tag} and the entry's asset name.",
+  "policy": {
+    "max_git_bytes": 10000000,
+    "always_release_ext": [
+      ".mov",
+      ".prores"
+    ],
+    "always_release_dirs": [
+      "examples/_brand"
+    ]
+  },
+  "release": {
+    "repo": "FavioVazquez/showtime-examples",
+    "tag": "examples-media-v1",
+    "url_pattern": "https://github.com/{repo}/releases/download/{tag}/{asset}"
+  },
+  "summary": {
+    "release_files": 36,
+    "release_bytes": 699596644,
+    "git_files": 965,
+    "git_bytes": 200966699
+  },
+  "files": [
+    {
+      "path": "examples/01-launch-tidepool/final.mp4",
+      "bytes": 17021713,
+      "sha256": "bba4572bd8b7173c8e66f879ca71d34bcc5de58d1e438673fac7f93a185eb205",
+      "asset": "01-launch-tidepool--final.mp4",
+      "reason": "over 10 MB"
+    },
+    {
+      "path": "examples/02-explainer-heat-pump/final.mp4",
+      "bytes": 16215392,
+      "sha256": "992972ea326b0d589ec2647f312a103d7bdf15c620dce2290ed6e4b77ab29042",
+      "asset": "02-explainer-heat-pump--final.mp4",
+      "reason": "over 10 MB"
+    },
+    {
+      "path": "examples/03-explainer-heat-pump-es/final.mp4",
+      "bytes": 18092656,
+      "sha256": "1901d71efff6db3e1a825cdee33b5418511a7264923609cc5036407abd5dd766",
+      "asset": "03-explainer-heat-pump-es--final.mp4",
+      "reason": "over 10 MB"
+    },
+    {
+      "path": "examples/04-tutorial-tidepool/final.mp4",
+      "bytes": 18329183,
+      "sha256": "9d4e757e15aa1643dda80f3bdbaa56b9ded5115655573db9f57755130d5c1b98",
+      "asset": "04-tutorial-tidepool--final.mp4",
+      "reason": "over 10 MB"
+    },
+    {
+      "path": "examples/06-footage-edit-nasa/final-16x9.mp4",
+      "bytes": 18408002,
+      "sha256": "032db1dd5bc6bbe630b7911e6aabd162a8d26834f23122ad7e121d3f0aa46803",
+      "asset": "06-footage-edit-nasa--final-16x9.mp4",
+      "reason": "over 10 MB"
+    },
+    {
+      "path": "examples/06-footage-edit-nasa/final.mp4",
+      "bytes": 17296032,
+      "sha256": "29c6174c5a532df5102eb725da7c6194e3d5dddf8641dbca1b4703fa0862b0f9",
+      "asset": "06-footage-edit-nasa--final.mp4",
+      "reason": "over 10 MB"
+    },
+    {
+      "path": "examples/07-data-story/final.mp4",
+      "bytes": 15703386,
+      "sha256": "1976ecc095be2fa9b825e8d83449ededebb09e992cff53991407330718433f32",
+      "asset": "07-data-story--final.mp4",
+      "reason": "over 10 MB"
+    },
+    {
+      "path": "examples/08-beat-montage/final.mp4",
+      "bytes": 14212308,
+      "sha256": "3eb1bc51eafa4ba3f495269215af7f66414bfcb8d534b2fa6d1df88f2d0dfcdd",
+      "asset": "08-beat-montage--final.mp4",
+      "reason": "over 10 MB"
+    },
+    {
+      "path": "examples/09-studio-trailer/final.mp4",
+      "bytes": 12234113,
+      "sha256": "e4592c0a7a978f3999755fda1cecda49eccaebfffccbce8cf100f2f3980ebf24",
+      "asset": "09-studio-trailer--final.mp4",
+      "reason": "over 10 MB"
+    },
+    {
+      "path": "examples/10-launch-showtime/final.mp4",
+      "bytes": 16850159,
+      "sha256": "d2c51bc0d95bfcc95945ad0c25551ab42022846ec74a17ab94e826e3d3eff844",
+      "asset": "10-launch-showtime--final.mp4",
+      "reason": "over 10 MB"
+    },
+    {
+      "path": "examples/11-tutorial-series-tidepool/episode-01/final.mp4",
+      "bytes": 19184568,
+      "sha256": "f4ad94016d4fbbe885f553a056613abfeb50d63e8fe47da31a38ec92639e2017",
+      "asset": "11-tutorial-series-tidepool--episode-01--final.mp4",
+      "reason": "over 10 MB"
+    },
+    {
+      "path": "examples/11-tutorial-series-tidepool/episode-02/final.mp4",
+      "bytes": 19190176,
+      "sha256": "63b68938b3f6ae70376e2f691f6aa899181ca66d1dd9026856e48926285f3235",
+      "asset": "11-tutorial-series-tidepool--episode-02--final.mp4",
+      "reason": "over 10 MB"
+    },
+    {
+      "path": "examples/12-energy-report/final.mp4",
+      "bytes": 19165712,
+      "sha256": "66ca6878bb2ad1ba556db269411b219f190a3383c84e37b29ae19b306ea0b26a",
+      "asset": "12-energy-report--final.mp4",
+      "reason": "over 10 MB"
+    },
+    {
+      "path": "examples/13-wikipedia-waggle-dance/danse-fretillante.html",
+      "bytes": 11375659,
+      "sha256": "fa2571eeae211e88b8aa965d36d2942922716fed2ff0bd622151e8fb52bea485",
+      "asset": "13-wikipedia-waggle-dance--danse-fretillante.html",
+      "reason": "over 10 MB"
+    },
+    {
+      "path": "examples/13-wikipedia-waggle-dance/final-fr.mp4",
+      "bytes": 15079702,
+      "sha256": "c681f5e35644277641e0922bf8264e9736680625d0a18712b1f1853c36b3e512",
+      "asset": "13-wikipedia-waggle-dance--final-fr.mp4",
+      "reason": "over 10 MB"
+    },
+    {
+      "path": "examples/13-wikipedia-waggle-dance/final.mp4",
+      "bytes": 15047140,
+      "sha256": "078c93f08db7abe6770d1667436a10c0c35256fc564d1c82627715db3078ccbf",
+      "asset": "13-wikipedia-waggle-dance--final.mp4",
+      "reason": "over 10 MB"
+    },
+    {
+      "path": "examples/13-wikipedia-waggle-dance/waggle-dance.html",
+      "bytes": 11315607,
+      "sha256": "bd1f0cd6e8a4eed7a4523106d5c34501ab4aa9c413dacfc2e113b24e9a8ba9ee",
+      "asset": "13-wikipedia-waggle-dance--waggle-dance.html",
+      "reason": "over 10 MB"
+    },
+    {
+      "path": "examples/14-usgs-kilauea-pdf/final-es.mp4",
+      "bytes": 18714967,
+      "sha256": "e910bbeafff0e307536904152eef2de0a873518eee46032750fffba5ab3d257a",
+      "asset": "14-usgs-kilauea-pdf--final-es.mp4",
+      "reason": "over 10 MB"
+    },
+    {
+      "path": "examples/14-usgs-kilauea-pdf/final.mp4",
+      "bytes": 18643812,
+      "sha256": "4a868cb07a1424ef0f5490724ab52517eb2fecd03b64dc971b43b4d71ab426ec",
+      "asset": "14-usgs-kilauea-pdf--final.mp4",
+      "reason": "over 10 MB"
+    },
+    {
+      "path": "examples/15-oss-release-black/final.mp4",
+      "bytes": 18033275,
+      "sha256": "05877d5ae50b796c9996c58768f8ef34d94b0150b59422bb3cdae51772105783",
+      "asset": "15-oss-release-black--final.mp4",
+      "reason": "over 10 MB"
+    },
+    {
+      "path": "examples/16-podcast-audiogram/final.mp4",
+      "bytes": 19126357,
+      "sha256": "7613e855b41c76b79ca5c61b0284976dc8edf28b3c5a3eb89c936a0fc02d8071",
+      "asset": "16-podcast-audiogram--final.mp4",
+      "reason": "over 10 MB"
+    },
+    {
+      "path": "examples/17-product-promo-teapot/final.mp4",
+      "bytes": 14970954,
+      "sha256": "38c368a6d947276e70314e6403345b6244cca76a7a1126408a5bb55ac9defd84",
+      "asset": "17-product-promo-teapot--final.mp4",
+      "reason": "over 10 MB"
+    },
+    {
+      "path": "examples/18-book-trailer-war-of-the-worlds/final-teaser-9x16.mp4",
+      "bytes": 11444267,
+      "sha256": "a64c687cea16d5ff9c71adee8c0633a688a6b99983ddc4d60e0f0cef43c8147a",
+      "asset": "18-book-trailer-war-of-the-worlds--final-teaser-9x16.mp4",
+      "reason": "over 10 MB"
+    },
+    {
+      "path": "examples/18-book-trailer-war-of-the-worlds/final.mp4",
+      "bytes": 17298767,
+      "sha256": "375ab7cd0a924c82392228f327fc4b6e3e6b7027b4c082fe9b924349529db476",
+      "asset": "18-book-trailer-war-of-the-worlds--final.mp4",
+      "reason": "over 10 MB"
+    },
+    {
+      "path": "examples/19-travel-slideshow-iceland/final-9x16.mp4",
+      "bytes": 18877581,
+      "sha256": "c14f84e862b083ba92d5b1fef551847c628a15077dbbd1111e3dfe33b9bbb0fe",
+      "asset": "19-travel-slideshow-iceland--final-9x16.mp4",
+      "reason": "over 10 MB"
+    },
+    {
+      "path": "examples/19-travel-slideshow-iceland/final.mp4",
+      "bytes": 18945638,
+      "sha256": "80c9d05a135163828095b3c904a1fa00556c4d1b0c2bb17a642f79ca807685e4",
+      "asset": "19-travel-slideshow-iceland--final.mp4",
+      "reason": "over 10 MB"
+    },
+    {
+      "path": "examples/20-curtain-call-pack/pack/lower-thirds/lt-bar.mov",
+      "bytes": 16024998,
+      "sha256": "240dea2e386efc2068426fb83f7ace1beacb58a70661d3b53f449546bcd25c22",
+      "asset": "20-curtain-call-pack--pack--lower-thirds--lt-bar.mov",
+      "reason": "ProRes/.mov master"
+    },
+    {
+      "path": "examples/20-curtain-call-pack/pack/lower-thirds/lt-card.mov",
+      "bytes": 15085599,
+      "sha256": "ba37503065214d0ad832bd0af67ea0c5a0362e889d66cf7d3f4b702d57168299",
+      "asset": "20-curtain-call-pack--pack--lower-thirds--lt-card.mov",
+      "reason": "ProRes/.mov master"
+    },
+    {
+      "path": "examples/20-curtain-call-pack/pack/lower-thirds/lt-pill.mov",
+      "bytes": 17673436,
+      "sha256": "487f5bb9ed2edeeedeb7e07753e13c52bc01aac8275bdef97a9d4da87749ad2c",
+      "asset": "20-curtain-call-pack--pack--lower-thirds--lt-pill.mov",
+      "reason": "ProRes/.mov master"
+    },
+    {
+      "path": "examples/21-tutorial-studio-board/final.mp4",
+      "bytes": 17964097,
+      "sha256": "1749517b5658427eabee135c57df633309ef8a20ed3f2fbb8edb9b628d41c2da",
+      "asset": "21-tutorial-studio-board--final.mp4",
+      "reason": "over 10 MB"
+    },
+    {
+      "path": "examples/_brand/sting-square.mp4",
+      "bytes": 4265168,
+      "sha256": "d6e4cadf9ca2b4dcd8d88c4eb048aa75a49b2c04209f1a7a368a1d47e097a59d",
+      "asset": "_brand--sting-square.mp4",
+      "reason": "brand media"
+    },
+    {
+      "path": "examples/_brand/sting.mp4",
+      "bytes": 8225359,
+      "sha256": "6e706c368ad5a402aa9cd5e5e22585bb9488e4c34cc83e8cc660125b5ae304ea",
+      "asset": "_brand--sting.mp4",
+      "reason": "brand media"
+    },
+    {
+      "path": "examples/_launch/launch-16x9.html",
+      "bytes": 11775192,
+      "sha256": "eace49801e73d47cc54d8ecfd50dbd553bdd44bf9478328c4cdc4357e86fbde0",
+      "asset": "_launch--launch-16x9.html",
+      "reason": "over 10 MB"
+    },
+    {
+      "path": "examples/_launch/launch-16x9.mp4",
+      "bytes": 68254130,
+      "sha256": "ecc01eb87e97ea853420ca683186ec3c8c21b844adda43e303ec2a7e37e9b423",
+      "asset": "_launch--launch-16x9.mp4",
+      "reason": "over 10 MB"
+    },
+    {
+      "path": "examples/_launch/launch-1x1.mp4",
+      "bytes": 44781864,
+      "sha256": "01775a697f5b8cd8bbaff2525e8e967e35e418d15fdda7136de7873093c480df",
+      "asset": "_launch--launch-1x1.mp4",
+      "reason": "over 10 MB"
+    },
+    {
+      "path": "examples/_launch/launch-9x16.mp4",
+      "bytes": 64769675,
+      "sha256": "6638e70fdf4073100a217a1a3fffd50b0d0a6d6bf39df59581a0740739a4feab",
+      "asset": "_launch--launch-9x16.mp4",
+      "reason": "over 10 MB"
+    }
+  ]
+}

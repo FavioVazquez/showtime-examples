@@ -1,0 +1,8 @@
+Unofficial summary of Black 26.1.0 (https://github.com/psf/black/releases/tag/26.1.0).
+Black is MIT-licensed (Copyright (c) 2018 Łukasz Langa). Not affiliated with the Black project or the Python Software Foundation.
+Changes shown were proposed by (GitHub PR authors): @Nikhil172913832 (#4865), @MeGaGiGaGon (#4764), @ranjodhsingh1729 (#4645), @kastkeepitjumpinlikekangaroos (#4489), @aneeshusa (#1879), @Exgene (#4777); 2026 stable style release: @cobaltt7 (#4892).
+Release-notes excerpt (scene 5): screenshot of the 26.1.0 release notes body on github.com, project text (MIT repo), cropped to the notes; no logos or site chrome.
+Code and terminal output: sample code written for this video, formatted by Black 25.12.0 and 26.1.0 (real output, captured 2026-09-27, CPython 3.12.9).
+Emoji in the terminal output: Noto Emoji by Google, Apache-2.0 (https://github.com/googlefonts/noto-emoji).
+Fonts: Geist and Geist Mono via Fontsource, SIL Open Font License 1.1.
+Music and sound effects: generated with showtime (procedural deep-house bed, keyclick, glitch, thock; original).

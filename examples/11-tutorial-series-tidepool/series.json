@@ -1,0 +1,5 @@
+{
+  "name": "Tidepool Basics",
+  "kit": "kit.js",
+  "episodes": ["episode-01", "episode-02"]
+}

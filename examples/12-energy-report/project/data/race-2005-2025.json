@@ -1,0 +1,665 @@
+{
+ "title": "Six sources, ranked by generation",
+ "subtitle": "TWh per year \u00b7 wind and solar shown separately",
+ "states": [
+  {
+   "at": 0.0,
+   "data": [
+    {
+     "label": "Coal",
+     "value": 2013
+    },
+    {
+     "label": "Natural gas",
+     "value": 761
+    },
+    {
+     "label": "Nuclear",
+     "value": 782
+    },
+    {
+     "label": "Hydro",
+     "value": 270
+    },
+    {
+     "label": "Wind",
+     "value": 18
+    },
+    {
+     "label": "Solar",
+     "value": 1
+    }
+   ],
+   "year": "2005"
+  },
+  {
+   "at": 0.25,
+   "data": [
+    {
+     "label": "Coal",
+     "value": 1991
+    },
+    {
+     "label": "Natural gas",
+     "value": 816
+    },
+    {
+     "label": "Nuclear",
+     "value": 787
+    },
+    {
+     "label": "Hydro",
+     "value": 289
+    },
+    {
+     "label": "Wind",
+     "value": 27
+    },
+    {
+     "label": "Solar",
+     "value": 1
+    }
+   ],
+   "year": "2006"
+  },
+  {
+   "at": 0.5,
+   "data": [
+    {
+     "label": "Coal",
+     "value": 2016
+    },
+    {
+     "label": "Natural gas",
+     "value": 897
+    },
+    {
+     "label": "Nuclear",
+     "value": 806
+    },
+    {
+     "label": "Hydro",
+     "value": 248
+    },
+    {
+     "label": "Wind",
+     "value": 34
+    },
+    {
+     "label": "Solar",
+     "value": 1
+    }
+   ],
+   "year": "2007"
+  },
+  {
+   "at": 0.75,
+   "data": [
+    {
+     "label": "Coal",
+     "value": 1986
+    },
+    {
+     "label": "Natural gas",
+     "value": 883
+    },
+    {
+     "label": "Nuclear",
+     "value": 806
+    },
+    {
+     "label": "Hydro",
+     "value": 255
+    },
+    {
+     "label": "Wind",
+     "value": 55
+    },
+    {
+     "label": "Solar",
+     "value": 1
+    }
+   ],
+   "year": "2008"
+  },
+  {
+   "at": 1.0,
+   "data": [
+    {
+     "label": "Coal",
+     "value": 1756
+    },
+    {
+     "label": "Natural gas",
+     "value": 921
+    },
+    {
+     "label": "Nuclear",
+     "value": 799
+    },
+    {
+     "label": "Hydro",
+     "value": 273
+    },
+    {
+     "label": "Wind",
+     "value": 74
+    },
+    {
+     "label": "Solar",
+     "value": 1
+    }
+   ],
+   "year": "2009"
+  },
+  {
+   "at": 1.25,
+   "data": [
+    {
+     "label": "Coal",
+     "value": 1847
+    },
+    {
+     "label": "Natural gas",
+     "value": 988
+    },
+    {
+     "label": "Nuclear",
+     "value": 807
+    },
+    {
+     "label": "Hydro",
+     "value": 260
+    },
+    {
+     "label": "Wind",
+     "value": 95
+    },
+    {
+     "label": "Solar",
+     "value": 1
+    }
+   ],
+   "year": "2010"
+  },
+  {
+   "at": 1.5,
+   "data": [
+    {
+     "label": "Coal",
+     "value": 1733
+    },
+    {
+     "label": "Natural gas",
+     "value": 1014
+    },
+    {
+     "label": "Nuclear",
+     "value": 790
+    },
+    {
+     "label": "Hydro",
+     "value": 319
+    },
+    {
+     "label": "Wind",
+     "value": 120
+    },
+    {
+     "label": "Solar",
+     "value": 2
+    }
+   ],
+   "year": "2011"
+  },
+  {
+   "at": 1.75,
+   "data": [
+    {
+     "label": "Coal",
+     "value": 1514
+    },
+    {
+     "label": "Natural gas",
+     "value": 1226
+    },
+    {
+     "label": "Nuclear",
+     "value": 769
+    },
+    {
+     "label": "Hydro",
+     "value": 276
+    },
+    {
+     "label": "Wind",
+     "value": 141
+    },
+    {
+     "label": "Solar",
+     "value": 4
+    }
+   ],
+   "year": "2012"
+  },
+  {
+   "at": 2.0,
+   "data": [
+    {
+     "label": "Coal",
+     "value": 1581
+    },
+    {
+     "label": "Natural gas",
+     "value": 1125
+    },
+    {
+     "label": "Nuclear",
+     "value": 789
+    },
+    {
+     "label": "Hydro",
+     "value": 269
+    },
+    {
+     "label": "Wind",
+     "value": 168
+    },
+    {
+     "label": "Solar",
+     "value": 9
+    }
+   ],
+   "year": "2013"
+  },
+  {
+   "at": 2.25,
+   "data": [
+    {
+     "label": "Coal",
+     "value": 1582
+    },
+    {
+     "label": "Natural gas",
+     "value": 1127
+    },
+    {
+     "label": "Nuclear",
+     "value": 797
+    },
+    {
+     "label": "Hydro",
+     "value": 259
+    },
+    {
+     "label": "Wind",
+     "value": 182
+    },
+    {
+     "label": "Solar",
+     "value": 18
+    }
+   ],
+   "year": "2014"
+  },
+  {
+   "at": 2.5,
+   "data": [
+    {
+     "label": "Coal",
+     "value": 1352
+    },
+    {
+     "label": "Natural gas",
+     "value": 1335
+    },
+    {
+     "label": "Nuclear",
+     "value": 797
+    },
+    {
+     "label": "Hydro",
+     "value": 249
+    },
+    {
+     "label": "Wind",
+     "value": 191
+    },
+    {
+     "label": "Solar",
+     "value": 25
+    }
+   ],
+   "year": "2015"
+  },
+  {
+   "at": 2.75,
+   "data": [
+    {
+     "label": "Coal",
+     "value": 1239
+    },
+    {
+     "label": "Natural gas",
+     "value": 1379
+    },
+    {
+     "label": "Nuclear",
+     "value": 806
+    },
+    {
+     "label": "Hydro",
+     "value": 268
+    },
+    {
+     "label": "Wind",
+     "value": 227
+    },
+    {
+     "label": "Solar",
+     "value": 36
+    }
+   ],
+   "year": "2016"
+  },
+  {
+   "at": 3.0,
+   "data": [
+    {
+     "label": "Coal",
+     "value": 1206
+    },
+    {
+     "label": "Natural gas",
+     "value": 1298
+    },
+    {
+     "label": "Nuclear",
+     "value": 805
+    },
+    {
+     "label": "Hydro",
+     "value": 300
+    },
+    {
+     "label": "Wind",
+     "value": 254
+    },
+    {
+     "label": "Solar",
+     "value": 53
+    }
+   ],
+   "year": "2017"
+  },
+  {
+   "at": 3.25,
+   "data": [
+    {
+     "label": "Coal",
+     "value": 1149
+    },
+    {
+     "label": "Natural gas",
+     "value": 1472
+    },
+    {
+     "label": "Nuclear",
+     "value": 807
+    },
+    {
+     "label": "Hydro",
+     "value": 293
+    },
+    {
+     "label": "Wind",
+     "value": 273
+    },
+    {
+     "label": "Solar",
+     "value": 64
+    }
+   ],
+   "year": "2018"
+  },
+  {
+   "at": 3.5,
+   "data": [
+    {
+     "label": "Coal",
+     "value": 965
+    },
+    {
+     "label": "Natural gas",
+     "value": 1589
+    },
+    {
+     "label": "Nuclear",
+     "value": 809
+    },
+    {
+     "label": "Hydro",
+     "value": 288
+    },
+    {
+     "label": "Wind",
+     "value": 296
+    },
+    {
+     "label": "Solar",
+     "value": 72
+    }
+   ],
+   "year": "2019"
+  },
+  {
+   "at": 3.75,
+   "data": [
+    {
+     "label": "Coal",
+     "value": 773
+    },
+    {
+     "label": "Natural gas",
+     "value": 1627
+    },
+    {
+     "label": "Nuclear",
+     "value": 790
+    },
+    {
+     "label": "Hydro",
+     "value": 285
+    },
+    {
+     "label": "Wind",
+     "value": 338
+    },
+    {
+     "label": "Solar",
+     "value": 89
+    }
+   ],
+   "year": "2020"
+  },
+  {
+   "at": 4.0,
+   "data": [
+    {
+     "label": "Coal",
+     "value": 898
+    },
+    {
+     "label": "Natural gas",
+     "value": 1579
+    },
+    {
+     "label": "Nuclear",
+     "value": 780
+    },
+    {
+     "label": "Hydro",
+     "value": 252
+    },
+    {
+     "label": "Wind",
+     "value": 378
+    },
+    {
+     "label": "Solar",
+     "value": 115
+    }
+   ],
+   "year": "2021"
+  },
+  {
+   "at": 4.25,
+   "data": [
+    {
+     "label": "Coal",
+     "value": 832
+    },
+    {
+     "label": "Natural gas",
+     "value": 1687
+    },
+    {
+     "label": "Nuclear",
+     "value": 772
+    },
+    {
+     "label": "Hydro",
+     "value": 255
+    },
+    {
+     "label": "Wind",
+     "value": 434
+    },
+    {
+     "label": "Solar",
+     "value": 144
+    }
+   ],
+   "year": "2022"
+  },
+  {
+   "at": 4.5,
+   "data": [
+    {
+     "label": "Coal",
+     "value": 675
+    },
+    {
+     "label": "Natural gas",
+     "value": 1806
+    },
+    {
+     "label": "Nuclear",
+     "value": 775
+    },
+    {
+     "label": "Hydro",
+     "value": 245
+    },
+    {
+     "label": "Wind",
+     "value": 421
+    },
+    {
+     "label": "Solar",
+     "value": 166
+    }
+   ],
+   "year": "2023"
+  },
+  {
+   "at": 4.75,
+   "data": [
+    {
+     "label": "Coal",
+     "value": 652
+    },
+    {
+     "label": "Natural gas",
+     "value": 1870
+    },
+    {
+     "label": "Nuclear",
+     "value": 782
+    },
+    {
+     "label": "Hydro",
+     "value": 243
+    },
+    {
+     "label": "Wind",
+     "value": 452
+    },
+    {
+     "label": "Solar",
+     "value": 220
+    }
+   ],
+   "year": "2024"
+  },
+  {
+   "at": 5.0,
+   "data": [
+    {
+     "label": "Coal",
+     "value": 737
+    },
+    {
+     "label": "Natural gas",
+     "value": 1807
+    },
+    {
+     "label": "Nuclear",
+     "value": 785
+    },
+    {
+     "label": "Hydro",
+     "value": 247
+    },
+    {
+     "label": "Wind",
+     "value": 464
+    },
+    {
+     "label": "Solar",
+     "value": 296
+    }
+   ],
+   "year": "2025"
+  }
+ ],
+ "data": [
+  {
+   "label": "Coal",
+   "value": 2013
+  },
+  {
+   "label": "Natural gas",
+   "value": 761
+  },
+  {
+   "label": "Nuclear",
+   "value": 782
+  },
+  {
+   "label": "Hydro",
+   "value": 270
+  },
+  {
+   "label": "Wind",
+   "value": 18
+  },
+  {
+   "label": "Solar",
+   "value": 1
+  }
+ ],
+ "highlight": "Natural gas",
+ "suffix": " TWh",
+ "decimals": 0
+}

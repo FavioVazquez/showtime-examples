@@ -1,0 +1,115 @@
+{
+  "id": "space-grotesk",
+  "family": "Space Grotesk",
+  "category": "sans-serif",
+  "version": "5.3.0",
+  "license": "OFL-1.1",
+  "type": "google",
+  "source": "https://github.com/google/fonts",
+  "axes": {
+    "wght": {
+      "default": "400",
+      "min": "300",
+      "max": "700",
+      "step": "1"
+    }
+  },
+  "subsets": [
+    "latin"
+  ],
+  "weights": [
+    400,
+    500,
+    700
+  ],
+  "styles": [
+    "normal"
+  ],
+  "files": [
+    {
+      "file": "space-grotesk-latin-400-normal.ttf",
+      "weight": 400,
+      "style": "normal",
+      "subset": "latin",
+      "format": "ttf",
+      "variable": false,
+      "url": "https://cdn.jsdelivr.net/fontsource/fonts/space-grotesk@5.3.0/latin-400-normal.ttf",
+      "sha256": "50827dd9d82fe22746f14e5aa146b2310fc691d8e5e73597abce47518c161b80",
+      "bytes": 32248,
+      "renamed": true
+    },
+    {
+      "file": "space-grotesk-latin-400-normal.woff2",
+      "weight": 400,
+      "style": "normal",
+      "subset": "latin",
+      "format": "woff2",
+      "variable": false,
+      "url": "https://cdn.jsdelivr.net/fontsource/fonts/space-grotesk@5.3.0/latin-400-normal.woff2",
+      "sha256": "65fd17fcbd2e2f522940b5f67ead3d23329e02891aa5495e74d11a499c0b0673",
+      "bytes": 13388
+    },
+    {
+      "file": "space-grotesk-latin-500-normal.ttf",
+      "weight": 500,
+      "style": "normal",
+      "subset": "latin",
+      "format": "ttf",
+      "variable": false,
+      "url": "https://cdn.jsdelivr.net/fontsource/fonts/space-grotesk@5.3.0/latin-500-normal.ttf",
+      "sha256": "b53baa9795f4c1ca4c6a510e3ad1ef5464fd8ec7d7ee02a138296ac4e2db554e",
+      "bytes": 32304,
+      "renamed": true
+    },
+    {
+      "file": "space-grotesk-latin-500-normal.woff2",
+      "weight": 500,
+      "style": "normal",
+      "subset": "latin",
+      "format": "woff2",
+      "variable": false,
+      "url": "https://cdn.jsdelivr.net/fontsource/fonts/space-grotesk@5.3.0/latin-500-normal.woff2",
+      "sha256": "1b1a8131d9edf975d9decee81e2f2bf504812f7a4f498e5500f28a613e22e64c",
+      "bytes": 13312
+    },
+    {
+      "file": "space-grotesk-latin-700-normal.ttf",
+      "weight": 700,
+      "style": "normal",
+      "subset": "latin",
+      "format": "ttf",
+      "variable": false,
+      "url": "https://cdn.jsdelivr.net/fontsource/fonts/space-grotesk@5.3.0/latin-700-normal.ttf",
+      "sha256": "e25f0bc04978bc25efd0958505a642cbe7922989139c6b622646e75a622adf0c",
+      "bytes": 32204,
+      "renamed": true
+    },
+    {
+      "file": "space-grotesk-latin-700-normal.woff2",
+      "weight": 700,
+      "style": "normal",
+      "subset": "latin",
+      "format": "woff2",
+      "variable": false,
+      "url": "https://cdn.jsdelivr.net/fontsource/fonts/space-grotesk@5.3.0/latin-700-normal.woff2",
+      "sha256": "35f8aec56cfd5cbfdb03cc68733a54a0b05bb3617ffcd5fd332badc0b045ca55",
+      "bytes": 12840
+    },
+    {
+      "file": "space-grotesk-latin-wght-normal.woff2",
+      "weight": [
+        300,
+        700
+      ],
+      "style": "normal",
+      "subset": "latin",
+      "format": "woff2",
+      "variable": true,
+      "url": "https://cdn.jsdelivr.net/fontsource/fonts/space-grotesk:vf@5.3.0/latin-wght-normal.woff2",
+      "sha256": "0640890476fc1198ab4de571fb658de443c4d85b66466ec09534a8737ab1ce9d",
+      "bytes": 22288
+    }
+  ],
+  "names_fixed": 1,
+  "installed": "2026-09-26T14:32:41"
+}

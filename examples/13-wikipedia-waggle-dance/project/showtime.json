@@ -1,0 +1,12 @@
+{
+  "title": "The waggle dance",
+  "subtitle": "How a honey bee gives directions: a 60-second explainer adapted from Wikipedia (CC BY-SA 4.0)",
+  "width": 1920,
+  "height": 1080,
+  "fps": 30,
+  "duration": 60,
+  "background": "#15100a",
+  "score": true,
+  "audio": "audio/mix.json",
+  "poster": 4.6
+}

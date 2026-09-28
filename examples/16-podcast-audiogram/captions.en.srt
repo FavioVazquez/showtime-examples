@@ -1,0 +1,91 @@
+1
+00:00:00,280 --> 00:00:01,930
+the exact scenarios we train,
+
+2
+00:00:01,930 --> 00:00:03,410
+I hope they never use it.
+
+3
+00:00:03,700 --> 00:00:06,490
+What is something that the
+public might be surprised
+
+4
+00:00:06,490 --> 00:00:09,040
+to learn about from astronaut
+training for Artemis
+
+5
+00:00:09,040 --> 00:00:09,940
+missions?
+
+6
+00:00:10,700 --> 00:00:14,050
+I think the most surprising
+thing is how little of
+
+7
+00:00:14,050 --> 00:00:16,970
+our training I want
+them to use in flight.
+
+8
+00:00:16,970 --> 00:00:18,010
+That’s a good point.
+
+9
+00:00:18,010 --> 00:00:20,890
+Like we spend most of our time
+training worst case
+
+10
+00:00:20,890 --> 00:00:22,390
+scenarios,
+
+11
+00:00:22,390 --> 00:00:23,600
+different failure things
+
+12
+00:00:23,600 --> 00:00:24,620
+that could go wrong,
+
+13
+00:00:24,620 --> 00:00:26,290
+and ideally nothing— Yeah.
+
+14
+00:00:26,290 --> 00:00:29,020
+Nothing off nominal
+happens during the mission.
+
+15
+00:00:29,830 --> 00:00:32,150
+But by practicing all
+of those failures,
+
+16
+00:00:32,150 --> 00:00:33,670
+they’re learning the process.
+
+17
+00:00:33,670 --> 00:00:35,290
+They’re working as a team.
+
+18
+00:00:35,290 --> 00:00:36,250
+There’s a lot of skills
+
+19
+00:00:36,250 --> 00:00:37,230
+that are applicable,
+
+20
+00:00:37,230 --> 00:00:39,110
+but the exact
+scenarios we train,
+
+21
+00:00:39,110 --> 00:00:40,590
+I hope they never use it.

@@ -1,0 +1,47 @@
+<!doctype html>
+<!-- C2 "Marquee": a theatre marquee board; bulbs chase around the frame, then the official mark and
+     wordmark light up inside it. Shots: hook (bulbs chasing, board empty), end (mark + wordmark lit). -->
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="/_st/themes/fonts/inter.css">
+<style>
+  :root { --stage: #15100E; --wings: #231916; --cream: #F5EBDC; --gold: #E9B949; --velvet: #B3121F; --deep: #6E0B16; --prog: #B6A795; }
+  html, body { margin: 0; width: 1920px; height: 1080px; overflow: hidden; background: var(--stage); font-family: 'Inter', sans-serif; }
+  .shot { position: absolute; inset: 0; display: none; }
+  .shot.on { display: block; }
+  .glow { position: absolute; inset: 0; background: radial-gradient(60% 55% at 50% 50%, rgba(233,185,73,.16), transparent 70%); }
+  .board { position: absolute; left: 260px; top: 190px; width: 1400px; height: 700px; border-radius: 36px; background: linear-gradient(180deg, #2a1e1a, var(--wings)); box-shadow: inset 0 0 0 10px #3A2C27, 0 40px 120px rgba(0,0,0,.6); }
+  .inner { position: absolute; inset: 70px; border-radius: 18px; background: #120d0b; box-shadow: inset 0 0 0 3px #3A2C27; }
+  .bulb { position: absolute; width: 26px; height: 26px; margin: -13px 0 0 -13px; border-radius: 50%; }
+  .bulb.on { background: radial-gradient(circle at 40% 38%, #fff6d8, var(--gold) 55%, #a27a22); box-shadow: 0 0 18px 6px rgba(233,185,73,.55), 0 0 50px 14px rgba(233,185,73,.18); }
+  .bulb.off { background: radial-gradient(circle at 40% 38%, #6a5a3a, #3b2f1c 70%); }
+  .lock { position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); display: flex; align-items: center; gap: 56px; }
+  .lock img.mark { width: 300px; height: 300px; }
+  .lock img.word { width: 620px; }
+  .tag { position: absolute; left: 0; right: 0; top: 930px; text-align: center; color: var(--prog); font-size: 30px; letter-spacing: .28em; text-transform: uppercase; }
+</style>
+</head>
+<body>
+  <section class="shot" data-shot="hook"><div class="glow" style="opacity:.5"></div><div class="board"><div class="inner"></div></div><div class="bulbs" data-phase="0"></div>
+    <div class="tag">tonight</div></section>
+  <section class="shot" data-shot="end"><div class="glow"></div><div class="board"><div class="inner"></div></div><div class="bulbs" data-phase="1"></div>
+    <div class="lock"><img class="mark" src="../media/brand/mark-hero.svg" alt=""><img class="word" src="../media/brand/wordmark-on-dark.svg" alt="showtime"></div></section>
+<script>
+  var want = new URLSearchParams(location.search).get('shot');
+  var shots = document.querySelectorAll('[data-shot]'), hit = false;
+  shots.forEach(function (s) { if (s.dataset.shot === want) { s.classList.add('on'); hit = true; } });
+  if (!hit && shots[0]) shots[0].classList.add('on');
+  // bulbs around the board, every third one lit (a chase frozen mid-step); all lit on the end frame
+  document.querySelectorAll('.bulbs').forEach(function (host) {
+    var all = host.dataset.phase === '1';
+    var x0 = 260 + 35, y0 = 190 + 35, w = 1400 - 70, h = 700 - 70, step = 58, pts = [];
+    for (var x = 0; x <= w; x += step) { pts.push([x0 + x, y0]); }
+    for (var y = step; y <= h; y += step) { pts.push([x0 + w, y0 + y]); }
+    for (var x2 = w - step; x2 >= 0; x2 -= step) { pts.push([x0 + x2, y0 + h]); }
+    for (var y2 = h - step; y2 > 0; y2 -= step) { pts.push([x0, y0 + y2]); }
+    pts.forEach(function (p, i) { var b = document.createElement('div'); b.className = 'bulb ' + (all || i % 3 === 0 ? 'on' : 'off'); b.style.left = p[0] + 'px'; b.style.top = p[1] + 'px'; host.appendChild(b); });
+  });
+</script>
+</body>
+</html>

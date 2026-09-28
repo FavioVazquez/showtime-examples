@@ -1,0 +1,185 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Tidepool tutorial: create, tag, find</title>
+<script src="/_st/stage.js"></script>
+<link rel="stylesheet" href="fonts/inter/font.css">
+<script type="module" src="/_st/components/index.js"></script>
+<!--
+  Tidepool (a fictional demo app) tutorial, 16:9.
+  Timeline (seconds), all derived from voice/timeline.json and media/walkthrough.mp4 (= rec/events.json):
+    hook   0.00 - 6.15   result first: the palette search with its "jacket" match, recording 24.1 s onwards
+    main   5.80 - 43.00  the recorded walkthrough from its first chapter (recording 0.9 s -> video 5.8 s, so +4.9 s)
+    close  42.50 - 50.50 logo + the three moves, on the recap line
+  Step cards sit on the recording's chapter markers (+4.9 s); keycaps sit on the recording's key events (+4.9 s).
+  Frame 0 is the poster (showtime.json "poster": 0): the hook is fully composed at t = 0, so the frame baked
+  into frame 0 and frame 1 are the same picture (no pop on autoplay or loop). The voice then underlines each verb.
+-->
+<style>
+  :root {
+    --teal-950: #052a31; --teal-900: #073f48; --teal-700: #0b6f78; --teal-600: #0e8a8c; --teal-500: #14a3a0;
+    --teal-300: #6fd0c8; --teal-100: #cdefec; --ink: #0f1e22; --sun: #ffb38a;
+  }
+  html, body { margin: 0; background: var(--teal-900); }
+  body { font-family: 'Inter', sans-serif; color: #fff; -webkit-font-smoothing: antialiased; }
+  .scene { position: absolute; inset: 0; overflow: hidden; }
+  .ground { background: radial-gradient(110% 100% at 12% 8%, var(--teal-600) 0%, var(--teal-900) 52%, var(--teal-950) 100%); }
+
+  /* ---------- hook: composed from frame 0; the voice underlines each verb as it is said ---------- */
+  .hook .copy { position: absolute; left: 118px; top: 0; bottom: 0; width: 640px; display: flex; flex-direction: column; justify-content: center; }
+  .brand { display: flex; align-items: center; gap: 18px; margin-bottom: 44px; }
+  .brand img { width: 56px; height: 56px; }
+  .brand span { font-weight: 600; font-size: 26px; letter-spacing: .14em; text-transform: uppercase; color: var(--teal-100); }
+  .hook h1 { margin: 0; font-weight: 700; font-size: 104px; line-height: 1.04; letter-spacing: -.035em; }
+  .hook h1 span { display: block; }
+  .hook h1 em { font-style: normal; color: #8fdcd5; }   /* a lighter teal-300: 5.1:1 on the lit corner of the ground (teal-300 was 4.4:1) */
+  .hook h1 u { text-decoration: none; position: relative; }
+  .hook h1 u::after { content: ''; position: absolute; left: 2px; right: 4px; bottom: -2px; height: 9px; border-radius: 5px;
+    background: var(--teal-300); transform-origin: 0 50%; }
+  .hook h1 .l1 u::after { animation: sweep .5s cubic-bezier(.16,1,.3,1) .88s both; }    /* "write" @ 0.92 */
+  .hook h1 .l2 u::after { animation: sweep .5s cubic-bezier(.16,1,.3,1) 2.44s both; }   /* "tag"   @ 2.48 */
+  .hook h1 .l3 u::after { animation: sweep .5s cubic-bezier(.16,1,.3,1) 3.35s both; }   /* "find"  @ 3.39 */
+  @keyframes sweep { from { transform: scaleX(0); } }
+  .hook .sub { margin: 40px 0 0; font-size: 30px; line-height: 1.4; color: var(--teal-100); max-width: 560px; }
+  .hook .card { position: absolute; left: 812px; top: 240px; width: 1030px; height: 580px; border-radius: 22px; overflow: hidden;
+    box-shadow: 0 40px 90px rgb(2 20 24 / .55), 0 0 0 1px rgb(255 255 255 / .14);
+    animation: drift 6.2s linear 0s both; }
+  .hook .card video { width: 100%; height: 100%; object-fit: cover; display: block; transform: scale(1.38); transform-origin: 50% 22%; }   /* frame the palette */
+  @keyframes drift { from { scale: 1; } to { scale: 1.035; } }
+  @keyframes rise { from { opacity: 0; transform: translateY(28px); } }
+  @keyframes fade-in { from { opacity: 0; } }
+
+  /* ---------- main: the recorded walkthrough ---------- */
+  /* the hook's card grows into the full frame: starts on the card's rect (centre 1327,530; 1064 px wide at 5.8 s) */
+  /* and at the end it shrinks back into a card and clears (36.55 s into this scene = 42.35 s; fully gone by 42.69 s,
+     before the wordmark starts at 42.72 s, so the two never double-expose), mirroring the hook,
+     over the end card's ground, which is already there underneath (no full-frame dissolve) */
+  .main { overflow: hidden; z-index: 2;
+    animation: grow .7s cubic-bezier(.65,0,.35,1) 0s both, shrink .34s cubic-bezier(.55,0,.45,1) 36.55s forwards; }
+  @keyframes grow { from { transform: translate(367px, -10px) scale(.554); border-radius: 40px; } }
+  @keyframes shrink { 25% { opacity: 1; } to { transform: translateY(40px) scale(.6); border-radius: 44px; opacity: 0;
+    box-shadow: 0 40px 90px rgb(2 20 24 / .55); } }
+  .main video { position: absolute; inset: 0; width: 100%; height: 100%; display: block; }
+  /* the palette holds still while the voice explains the matches: a slow push-in (23.2 s into this clip
+     = 29.0 s), released as the note opens and the recording's own camera moves */
+  .main video { transform-origin: 50% 28%; animation: push 4.9s cubic-bezier(.45,0,.55,1) 23.2s both; }
+  @keyframes push { 0% { scale: 1; } 80% { scale: 1.075; } 100% { scale: 1; } }
+
+  /* step cards: bottom-left; keycaps: bottom-right (outside the open palette); --out = when the card leaves.
+     Both sit 96 px in and 100 px up: inside a 5% graphics-safe margin and above the player-controls band */
+  .step { position: absolute; left: 96px; bottom: 100px; display: flex; align-items: center; gap: 22px;
+    padding: 20px 34px 20px 20px; border-radius: 22px; background: rgb(255 255 255 / .97); color: var(--ink);
+    box-shadow: 0 22px 60px rgb(3 34 40 / .38), 0 0 0 1px rgb(7 63 72 / .08);
+    animation: step-in .55s cubic-bezier(.16,1,.3,1) 0s both, step-out .35s cubic-bezier(.3,0,.8,.15) var(--out, 3.25s) both; }
+  .step .n { width: 64px; height: 64px; border-radius: 18px; background: var(--teal-700); color: #fff; display: grid; place-items: center; font-weight: 700; font-size: 32px; }
+  .step .n svg { width: 32px; height: 32px; }
+  .step .k { font-weight: 600; font-size: 26px; letter-spacing: .12em; text-transform: uppercase; color: #0a5961; }
+  .step .t { font-weight: 700; font-size: 40px; letter-spacing: -.02em; margin-top: 4px; }
+  @keyframes step-in { from { opacity: 0; transform: translateY(36px) scale(.96); } }
+  @keyframes step-out { to { opacity: 0; transform: translateY(18px); } }
+  /* keycaps, on the recording's key events: the same notation as the app and the end card (the ⌘ glyph) */
+  .keys { position: absolute; right: 96px; bottom: 100px; display: flex; gap: 12px;
+    animation: key-in .15s ease-out 0s both, key-out .3s ease-in 1.5s both; }
+  .keys .cap { height: 76px; min-width: 76px; padding: 0 22px; border-radius: 16px; font-size: 34px; gap: 8px;
+    background: var(--ink); color: #fff; box-shadow: 0 6px 0 var(--teal-700), 0 14px 30px rgb(2 20 24 / .35), inset 0 0 0 1.5px rgb(255 255 255 / .14); }
+  .keys .cap svg { width: 32px; height: 32px; }
+  @keyframes key-in { from { opacity: 0; transform: translateY(10px) scale(.94); } }
+  @keyframes key-out { to { opacity: 0; transform: translateY(6px); } }
+  /* callout on the save status: the app shows it small in its bottom-right corner */
+  .saved { position: absolute; right: 196px; bottom: 138px; display: flex; align-items: center; gap: 14px;
+    padding: 16px 26px 16px 18px; border-radius: 18px; background: var(--teal-700); color: #fff; font-weight: 600; font-size: 32px;
+    box-shadow: 0 18px 44px rgb(3 34 40 / .35);
+    animation: step-in .5s cubic-bezier(.16,1,.3,1) 0s both, step-out .3s cubic-bezier(.3,0,.8,.15) 1.95s both; }
+  .saved svg { width: 34px; height: 34px; }
+  .saved::after { content: ''; position: absolute; right: 72px; bottom: -12px; width: 24px; height: 24px; background: var(--teal-700);
+    transform: rotate(45deg); border-radius: 4px; }
+
+  /* ---------- close ---------- */
+  .close { z-index: 1; }   /* under the shrinking walkthrough card, so the ground is simply there as it clears */
+  .close .inner { position: absolute; inset: 0; display: flex; flex-direction: column; align-items: center; justify-content: center; animation: drift-close 8s linear 0s both; }
+  @keyframes drift-close { from { scale: 1; } to { scale: 1.03; } }
+  .lockup { display: flex; align-items: center; gap: 30px; animation: rise .7s cubic-bezier(.16,1,.3,1) .22s both; }
+  .lockup img { width: 128px; height: 128px; }
+  .lockup span { font-weight: 700; font-size: 104px; letter-spacing: -.035em; }
+  .moves { display: flex; gap: 28px; margin-top: 76px; }
+  .move { display: flex; align-items: center; gap: 20px; padding: 18px 30px 18px 18px; border-radius: 20px;
+    background: rgb(255 255 255 / .09); box-shadow: inset 0 0 0 1.5px rgb(255 255 255 / .16); }
+  .move:nth-child(1) { animation: rise .55s cubic-bezier(.16,1,.3,1) .26s both; }    /* "New note"  @ 0.34 */
+  .move:nth-child(2) { animation: rise .55s cubic-bezier(.16,1,.3,1) 1.29s both; }  /* "A tag"     @ 1.33 */
+  .move:nth-child(3) { animation: rise .55s cubic-bezier(.16,1,.3,1) 2.21s both; }  /* "Command K" @ 2.25 */
+  .cap { min-width: 60px; height: 60px; padding: 0 14px; box-sizing: border-box; border-radius: 14px; background: #fff; color: var(--ink);
+    display: flex; align-items: center; justify-content: center; gap: 6px; font-weight: 700; font-size: 28px;
+    box-shadow: 0 5px 0 var(--teal-100), 0 10px 22px rgb(2 20 24 / .3); }
+  .cap svg { width: 28px; height: 28px; }
+  .move b { font-weight: 600; font-size: 34px; }
+  /* tide lines drifting along the bottom of the end card (the logo's own wave) */
+  .waves { position: absolute; left: -10%; right: -10%; bottom: 0; height: 240px; }
+  .waves svg { position: absolute; left: 0; bottom: 0; width: 200%; height: 100%; }
+  .waves .w1 { opacity: .16; animation: tide 9s linear 0s infinite; }
+  .waves .w2 { opacity: .10; bottom: -30px; animation: tide 13s linear 0s infinite reverse; }
+  @keyframes tide { from { transform: translateX(0); } to { transform: translateX(-50%); } }
+  .note { position: absolute; bottom: 100px; left: 0; right: 0; text-align: center; font-size: 27px; color: var(--teal-100); opacity: .85; animation: fade-in .8s ease-out 3.6s both; }
+</style>
+</head>
+<body>
+<div class="stage">
+
+  <!-- 1. Hook: the end result first (the search), and the three moves by name -->
+  <section class="scene ground hook" id="hook" data-name="hook" data-start="0" data-dur="6.5">
+    <div class="copy">
+      <div class="brand"><img src="media/logo.svg" alt=""><span>Tidepool tutorial</span></div>
+      <h1><span class="l1"><u>Write</u> <em>it.</em></span><span class="l2"><u>Tag</u> <em>it.</em></span><span class="l3"><u>Find</u> <em>it.</em></span></h1>
+      <p class="sub">A note, a tag and a search.</p>
+    </div>
+    <div class="card"><video src="media/walkthrough.mp4" data-offset="24.1" muted playsinline preload="auto"></video></div>
+    <div data-st="grain"></div>
+  </section>
+
+  <!-- 2. The recorded walkthrough (autozoom and cursor are in the video; step cards, keycaps and the save callout are here) -->
+  <section class="scene main" id="walkthrough" data-name="walkthrough" data-start="5.8" data-dur="37.2">
+    <video src="media/walkthrough.mp4" data-offset="0.9" muted playsinline preload="auto"></video>
+
+    <div class="step" data-start="+0.7" data-dur="3.6">
+      <div class="n">1</div><div><div class="k">Step 1 of 3</div><div class="t">Create a note</div></div>
+    </div>
+    <div class="step" data-start="+9.93" data-dur="3.6">
+      <div class="n">2</div><div><div class="k">Step 2 of 3</div><div class="t">Tag it</div></div>
+    </div>
+    <div class="step" data-start="+19.3" data-dur="2.35" style="--out: 2s">
+      <div class="n">3</div><div><div class="k">Step 3 of 3</div><div class="t">Find it with search</div></div>
+    </div>
+    <div class="step" data-start="+29.73" data-dur="2.1" style="--out: 1.75s">
+      <div class="n"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><line x1="4" x2="20" y1="9" y2="9"/><line x1="4" x2="20" y1="15" y2="15"/><line x1="10" x2="8" y1="3" y2="21"/><line x1="16" x2="14" y1="3" y2="21"/></svg></div>
+      <div><div class="k">Tip</div><div class="t">Search by tag</div></div>
+    </div>
+    <!-- "Tidepool saves it on this device" (device @ 13.39): the camera is wide here; point at the app's own save label -->
+    <div class="saved" data-start="+7.5" data-dur="2.25"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>Saved on this device</div>
+
+    <!-- keycaps on the recording's key events (recording time - 0.9 s) -->
+    <div class="keys" data-start="+3.2333" data-dur="1.8"><div class="cap">Enter</div></div>
+    <div class="keys" data-start="+14.8" data-dur="1.8"><div class="cap">Enter</div></div>
+    <div class="keys" data-start="+21.6667" data-dur="1.8"><div class="cap"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M15 6v12a3 3 0 1 0 3-3H6a3 3 0 1 0 3 3V6a3 3 0 1 0-3 3h12a3 3 0 1 0-3-3"/></svg>K</div></div>
+    <div class="keys" data-start="+27.0667" data-dur="1.8"><div class="cap">Enter</div></div>
+    <div class="keys" data-start="+31.8333" data-dur="1.8"><div class="cap"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M15 6v12a3 3 0 1 0 3-3H6a3 3 0 1 0 3 3V6a3 3 0 1 0-3 3h12a3 3 0 1 0-3-3"/></svg>K</div></div>
+    <div class="keys" data-start="+34.4" data-dur="1.8"><div class="cap">Enter</div></div>
+  </section>
+
+  <!-- 3. Close: the three moves, on the recap line -->
+  <section class="scene ground close" id="close" data-name="close" data-start="42.5" data-dur="8">
+    <div class="inner">
+      <div class="lockup"><img src="media/logo.svg" alt=""><span>Tidepool</span></div>
+      <div class="moves">
+        <div class="move"><div class="cap"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round"><path d="M5 12h14"/><path d="M12 5v14"/></svg></div><b>New note</b></div>
+        <div class="move"><div class="cap"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round"><line x1="4" x2="20" y1="9" y2="9"/><line x1="4" x2="20" y1="15" y2="15"/><line x1="10" x2="8" y1="3" y2="21"/><line x1="16" x2="14" y1="3" y2="21"/></svg></div><b>Add a tag</b></div>
+        <div class="move"><div class="cap"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M15 6v12a3 3 0 1 0 3-3H6a3 3 0 1 0 3 3V6a3 3 0 1 0-3 3h12a3 3 0 1 0-3-3"/></svg>K</div><b>Find it</b></div>
+      </div>
+    </div>
+    <div class="waves"><svg viewBox="0 0 2400 240" preserveAspectRatio="none" class="w1"><path d="M0,240 L0,120.0 L20,125.7 L40,130.4 L60,133.3 L80,133.9 L100,132.1 L120,128.2 L140,122.9 L160,117.1 L180,111.8 L200,107.9 L220,106.1 L240,106.7 L260,109.6 L280,114.3 L300,120.0 L320,125.7 L340,130.4 L360,133.3 L380,133.9 L400,132.1 L420,128.2 L440,122.9 L460,117.1 L480,111.8 L500,107.9 L520,106.1 L540,106.7 L560,109.6 L580,114.3 L600,120.0 L620,125.7 L640,130.4 L660,133.3 L680,133.9 L700,132.1 L720,128.2 L740,122.9 L760,117.1 L780,111.8 L800,107.9 L820,106.1 L840,106.7 L860,109.6 L880,114.3 L900,120.0 L920,125.7 L940,130.4 L960,133.3 L980,133.9 L1000,132.1 L1020,128.2 L1040,122.9 L1060,117.1 L1080,111.8 L1100,107.9 L1120,106.1 L1140,106.7 L1160,109.6 L1180,114.3 L1200,120.0 L1220,125.7 L1240,130.4 L1260,133.3 L1280,133.9 L1300,132.1 L1320,128.2 L1340,122.9 L1360,117.1 L1380,111.8 L1400,107.9 L1420,106.1 L1440,106.7 L1460,109.6 L1480,114.3 L1500,120.0 L1520,125.7 L1540,130.4 L1560,133.3 L1580,133.9 L1600,132.1 L1620,128.2 L1640,122.9 L1660,117.1 L1680,111.8 L1700,107.9 L1720,106.1 L1740,106.7 L1760,109.6 L1780,114.3 L1800,120.0 L1820,125.7 L1840,130.4 L1860,133.3 L1880,133.9 L1900,132.1 L1920,128.2 L1940,122.9 L1960,117.1 L1980,111.8 L2000,107.9 L2020,106.1 L2040,106.7 L2060,109.6 L2080,114.3 L2100,120.0 L2120,125.7 L2140,130.4 L2160,133.3 L2180,133.9 L2200,132.1 L2220,128.2 L2240,122.9 L2260,117.1 L2280,111.8 L2300,107.9 L2320,106.1 L2340,106.7 L2360,109.6 L2380,114.3 L2400,120.0 L2400,240 Z" fill="#6fd0c8"/></svg><svg viewBox="0 0 2400 240" preserveAspectRatio="none" class="w2"><path d="M0,240 L0,150.0 L20,155.6 L40,160.6 L60,164.6 L80,167.1 L100,168.0 L120,167.1 L140,164.6 L160,160.6 L180,155.6 L200,150.0 L220,144.4 L240,139.4 L260,135.4 L280,132.9 L300,132.0 L320,132.9 L340,135.4 L360,139.4 L380,144.4 L400,150.0 L420,155.6 L440,160.6 L460,164.6 L480,167.1 L500,168.0 L520,167.1 L540,164.6 L560,160.6 L580,155.6 L600,150.0 L620,144.4 L640,139.4 L660,135.4 L680,132.9 L700,132.0 L720,132.9 L740,135.4 L760,139.4 L780,144.4 L800,150.0 L820,155.6 L840,160.6 L860,164.6 L880,167.1 L900,168.0 L920,167.1 L940,164.6 L960,160.6 L980,155.6 L1000,150.0 L1020,144.4 L1040,139.4 L1060,135.4 L1080,132.9 L1100,132.0 L1120,132.9 L1140,135.4 L1160,139.4 L1180,144.4 L1200,150.0 L1220,155.6 L1240,160.6 L1260,164.6 L1280,167.1 L1300,168.0 L1320,167.1 L1340,164.6 L1360,160.6 L1380,155.6 L1400,150.0 L1420,144.4 L1440,139.4 L1460,135.4 L1480,132.9 L1500,132.0 L1520,132.9 L1540,135.4 L1560,139.4 L1580,144.4 L1600,150.0 L1620,155.6 L1640,160.6 L1660,164.6 L1680,167.1 L1700,168.0 L1720,167.1 L1740,164.6 L1760,160.6 L1780,155.6 L1800,150.0 L1820,144.4 L1840,139.4 L1860,135.4 L1880,132.9 L1900,132.0 L1920,132.9 L1940,135.4 L1960,139.4 L1980,144.4 L2000,150.0 L2020,155.6 L2040,160.6 L2060,164.6 L2080,167.1 L2100,168.0 L2120,167.1 L2140,164.6 L2160,160.6 L2180,155.6 L2200,150.0 L2220,144.4 L2240,139.4 L2260,135.4 L2280,132.9 L2300,132.0 L2320,132.9 L2340,135.4 L2360,139.4 L2380,144.4 L2400,150.0 L2400,240 Z" fill="#6fd0c8"/></svg></div>
+    <p class="note">Tidepool is a fictional app, made for this demo.</p>
+    <div data-st="grain"></div>
+  </section>
+
+</div>
+</body>
+</html>

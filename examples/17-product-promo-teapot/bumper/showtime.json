@@ -1,0 +1,15 @@
+{
+  "title": "Teapot, ca. 1879 (bumper)",
+  "width": 1080,
+  "height": 1080,
+  "fps": 30,
+  "duration": 6,
+  "background": "#0d0b0a",
+  "poster": 0.0,
+  "audio": "audio/mix.json",
+  "expect": {
+    "must_show": [
+      "ca. 1879"
+    ]
+  }
+}

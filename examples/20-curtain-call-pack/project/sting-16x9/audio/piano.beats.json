@@ -1,0 +1,85 @@
+{
+  "schema": "showtime.beats/1",
+  "source": "composed",
+  "file": "piano.wav",
+  "style": "piano-emotional",
+  "key": "D",
+  "bpm": 85.727,
+  "requested_bpm": 86.0,
+  "time_signature": 4,
+  "duration": 8.0,
+  "end_hit": 6.9987,
+  "rhythmic": false,
+  "pacing": "phrase_flow",
+  "sections": [
+    {
+      "name": "intro",
+      "kind": "intro",
+      "start": 0.0,
+      "end": 2.8,
+      "bars": 1,
+      "beats": 4,
+      "bpm": 85.714,
+      "energy": 0.35
+    },
+    {
+      "name": "chorus",
+      "kind": "chorus",
+      "start": 2.8,
+      "end": 6.9987,
+      "bars": 2,
+      "beats": 6,
+      "bpm": 85.74,
+      "energy": 1.0
+    }
+  ],
+  "beats": [
+    0.0,
+    0.7,
+    1.4,
+    2.1,
+    2.8,
+    3.49979,
+    4.19958,
+    4.89937,
+    5.59916,
+    6.29895
+  ],
+  "downbeats": [
+    0.0,
+    2.8,
+    5.59916
+  ],
+  "bars": [
+    {
+      "t": 0.0,
+      "bar": 0,
+      "section": "intro"
+    },
+    {
+      "t": 2.8,
+      "bar": 1,
+      "section": "chorus"
+    },
+    {
+      "t": 5.59916,
+      "bar": 2,
+      "section": "chorus"
+    },
+    {
+      "t": 6.99874,
+      "bar": 3,
+      "section": "END_HIT"
+    }
+  ],
+  "events": [
+    {
+      "t": 6.9987,
+      "type": "end_hit"
+    }
+  ],
+  "cues": {
+    "intro": 0.0,
+    "chorus": 2.8
+  }
+}

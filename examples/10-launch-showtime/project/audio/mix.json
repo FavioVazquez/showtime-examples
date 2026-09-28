@@ -1,0 +1,343 @@
+{
+  "_comment": "showtime launch: composed upbeat-tech bed (C, 124 bpm) with sections on the scene cuts (hook 0, result 2.217, terminal 6.41, wall 12.514, studio 17.548, local 21.273, close 26.743), one soft UI family (keys, thocks, pops) and a logo sting on the close. Voice tracks and ducking are added by `showtime retime --from-voice`. Review round: close moved 0.7 s earlier.",
+  "sample_rate": 48000,
+  "duration": 30.0,
+  "tracks": [
+    {
+      "id": "bed",
+      "kind": "music",
+      "compose": {
+        "style": "upbeat-tech",
+        "key": "C",
+        "sections": "0:intro,2.217:verse,6.41:build,12.514:drop,17.548:verse,21.273:break,26.743:outro",
+        "seed": 3
+      },
+      "gain_db": -1,
+      "fade_out": 0.8,
+      "duck": {
+        "under": "voice"
+      }
+    },
+    {
+      "kind": "sfx",
+      "synth": {
+        "type": "typing",
+        "dur": 1.0,
+        "seed": 11
+      },
+      "at": 0.0,
+      "align": "start",
+      "gain_db": -6
+    },
+    {
+      "kind": "sfx",
+      "synth": {
+        "type": "keyclick",
+        "seed": 12
+      },
+      "at": 1.2,
+      "align": "hit",
+      "gain_db": 0
+    },
+    {
+      "kind": "sfx",
+      "synth": {
+        "type": "swoosh-in",
+        "intensity": 0.55,
+        "seed": 13
+      },
+      "at": 2.3,
+      "align": "hit",
+      "gain_db": -3
+    },
+    {
+      "kind": "sfx",
+      "synth": {
+        "type": "pop",
+        "key": "C",
+        "seed": 14
+      },
+      "at": 3.58,
+      "align": "hit",
+      "gain_db": -4
+    },
+    {
+      "kind": "sfx",
+      "synth": {
+        "type": "swoosh-in",
+        "intensity": 0.45,
+        "seed": 21
+      },
+      "at": 6.5,
+      "align": "hit",
+      "gain_db": -5
+    },
+    {
+      "kind": "sfx",
+      "synth": {
+        "type": "typing",
+        "dur": 0.55,
+        "seed": 22
+      },
+      "at": 6.53,
+      "align": "start",
+      "gain_db": -7
+    },
+    {
+      "kind": "sfx",
+      "synth": {
+        "type": "keyclick",
+        "seed": 23
+      },
+      "at": 7.1,
+      "align": "hit",
+      "gain_db": -3
+    },
+    {
+      "kind": "sfx",
+      "synth": {
+        "type": "typing",
+        "dur": 0.5,
+        "seed": 24
+      },
+      "at": 8.13,
+      "align": "start",
+      "gain_db": -7
+    },
+    {
+      "kind": "sfx",
+      "synth": {
+        "type": "keyclick",
+        "seed": 25
+      },
+      "at": 8.6,
+      "align": "hit",
+      "gain_db": -3
+    },
+    {
+      "kind": "sfx",
+      "synth": {
+        "type": "typing",
+        "dur": 0.33,
+        "seed": 26
+      },
+      "at": 9.39,
+      "align": "start",
+      "gain_db": -7
+    },
+    {
+      "kind": "sfx",
+      "synth": {
+        "type": "keyclick",
+        "seed": 27
+      },
+      "at": 9.72,
+      "align": "hit",
+      "gain_db": -3
+    },
+    {
+      "kind": "sfx",
+      "synth": {
+        "type": "success",
+        "key": "C",
+        "seed": 28
+      },
+      "at": 10.02,
+      "align": "hit",
+      "gain_db": -6
+    },
+    {
+      "kind": "sfx",
+      "synth": {
+        "type": "swoosh-in",
+        "intensity": 0.5,
+        "seed": 31
+      },
+      "at": 12.599,
+      "align": "hit",
+      "gain_db": -4
+    },
+    {
+      "kind": "sfx",
+      "synth": {
+        "type": "thock",
+        "intensity": 0.5,
+        "seed": 32
+      },
+      "at": 12.828,
+      "align": "hit",
+      "gain_db": -6
+    },
+    {
+      "kind": "sfx",
+      "synth": {
+        "type": "thock",
+        "intensity": 0.5,
+        "seed": 33
+      },
+      "at": 13.723,
+      "align": "hit",
+      "gain_db": -6
+    },
+    {
+      "kind": "sfx",
+      "synth": {
+        "type": "thock",
+        "intensity": 0.5,
+        "seed": 34
+      },
+      "at": 14.398,
+      "align": "hit",
+      "gain_db": -6
+    },
+    {
+      "kind": "sfx",
+      "synth": {
+        "type": "thock",
+        "intensity": 0.5,
+        "seed": 35
+      },
+      "at": 15.293,
+      "align": "hit",
+      "gain_db": -6
+    },
+    {
+      "kind": "sfx",
+      "synth": {
+        "type": "thock",
+        "intensity": 0.5,
+        "seed": 36
+      },
+      "at": 16.028,
+      "align": "hit",
+      "gain_db": -6
+    },
+    {
+      "kind": "sfx",
+      "synth": {
+        "type": "thock",
+        "intensity": 0.5,
+        "seed": 37
+      },
+      "at": 16.287,
+      "align": "hit",
+      "gain_db": -7
+    },
+    {
+      "kind": "sfx",
+      "synth": {
+        "type": "swoosh-in",
+        "intensity": 0.45,
+        "seed": 41
+      },
+      "at": 17.639,
+      "align": "hit",
+      "gain_db": -5
+    },
+    {
+      "kind": "sfx",
+      "synth": {
+        "type": "click",
+        "seed": 42
+      },
+      "at": 19.329,
+      "align": "hit",
+      "gain_db": -1
+    },
+    {
+      "kind": "sfx",
+      "synth": {
+        "type": "thock",
+        "intensity": 0.7,
+        "seed": 51
+      },
+      "at": 21.569,
+      "align": "hit",
+      "gain_db": -3
+    },
+    {
+      "kind": "sfx",
+      "synth": {
+        "type": "thock",
+        "intensity": 0.7,
+        "seed": 52
+      },
+      "at": 22.319,
+      "align": "hit",
+      "gain_db": -3
+    },
+    {
+      "kind": "sfx",
+      "synth": {
+        "type": "punch",
+        "intensity": 0.5,
+        "seed": 53
+      },
+      "at": 23.689,
+      "align": "hit",
+      "gain_db": -7
+    },
+    {
+      "kind": "sfx",
+      "synth": {
+        "type": "shimmer",
+        "key": "C",
+        "seed": 54
+      },
+      "at": 25.019,
+      "align": "hit",
+      "gain_db": -9
+    },
+    {
+      "kind": "sfx",
+      "synth": {
+        "type": "logo-sting",
+        "key": "C",
+        "seed": 61
+      },
+      "at": 26.819,
+      "align": "hit",
+      "gain_db": -3
+    },
+    {
+      "id": "vo-hook",
+      "kind": "voice",
+      "file": "voice/lines/01-hook.wav",
+      "start": 0.3
+    },
+    {
+      "id": "vo-result",
+      "kind": "voice",
+      "file": "voice/lines/02-result.wav",
+      "start": 2.517
+    },
+    {
+      "id": "vo-terminal",
+      "kind": "voice",
+      "file": "voice/lines/03-terminal.wav",
+      "start": 6.71
+    },
+    {
+      "id": "vo-wall",
+      "kind": "voice",
+      "file": "voice/lines/04-wall.wav",
+      "start": 12.814
+    },
+    {
+      "id": "vo-studio",
+      "kind": "voice",
+      "file": "voice/lines/05-studio.wav",
+      "start": 17.848
+    },
+    {
+      "id": "vo-local",
+      "kind": "voice",
+      "file": "voice/lines/06-local.wav",
+      "start": 21.573
+    }
+  ],
+  "master": {
+    "lufs": -14,
+    "true_peak": -1
+  }
+}
