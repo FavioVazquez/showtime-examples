@@ -36,6 +36,9 @@ See *Sources and license* below.
   forced. The pause pass removed the lead-in, the tail and five pauses of 0.6-1.3 s. The clip went
   from **81.0 s to 72.3 s (-11 %)**. A Parakeet re-transcription of the final still has all 262
   words, so no word was clipped at a cut.
+  *Made with showtime 0.1.0. showtime 0.2.0's default transcription (Parakeet v3 plus a filler scan)
+  finds two "uh" in this clip that 0.1.0's tools missed ("more raw uh technical", "great, and uh I
+  hope"); this example was not re-made.*
 - **Hidden jump cuts.** Alternate ranges punch in to 1.2x, so each of the 5 real cuts reads as a
   change of framing. The last 35 s (one unbroken answer) also changes framing 4 times without a
   cut: the range is split into contiguous, frame-aligned source ranges that alternate between 1.0x
