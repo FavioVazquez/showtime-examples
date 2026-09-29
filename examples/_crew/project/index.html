@@ -1,0 +1,487 @@
+<!doctype html>
+<html><head>
+<meta charset="utf-8">
+<script src="/_st/stage.js"></script>
+<link rel="stylesheet" href="/_st/themes/fonts/fraunces.css">
+<link rel="stylesheet" href="/_st/themes/fonts/geist.css">
+<link rel="stylesheet" href="/_st/themes/fonts/geist-mono.css">
+<style>
+  :root { --stage:#15100E; --wings:#231916; --gold:#E9B949; --cream:#F5EBDC; --prog:#B6A795; --velvet:#B3121F; }
+  html, body { margin:0; background:var(--stage); overflow:hidden; }
+  body { width:100vw; height:100vh; position:relative; color:var(--cream); font-family:'Fraunces'; }
+  .abs { position:absolute; }
+  #glow { position:absolute; inset:-20%; background:
+      radial-gradient(42% 46% at var(--gx,38%) var(--gy,42%), rgba(233,185,73,var(--ga,.10)), rgba(233,185,73,0) 70%),
+      radial-gradient(60% 60% at 72% 82%, rgba(179,18,31,.07), rgba(179,18,31,0) 70%); }
+  #grain { position:absolute; inset:0; opacity:.05; mix-blend-mode:overlay; pointer-events:none;
+      background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='200' height='200'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2' stitchTiles='stitch'/></filter><rect width='100%' height='100%' filter='url(%23n)'/></svg>"); }
+  #vig { position:absolute; inset:0; pointer-events:none;
+      background:radial-gradient(120% 90% at 50% 50%, rgba(0,0,0,0) 55%, rgba(0,0,0,.42) 100%); }
+  .disp { text-wrap:balance; font-weight:700; font-variation-settings:'opsz' 144, 'SOFT' 50; letter-spacing:-.022em; line-height:1.04; }
+  .w { display:inline-block; opacity:0; }
+  .gold { color:var(--gold); }
+  .head { position:absolute; opacity:0; }
+  /* file cards */
+  .card { z-index:2; position:absolute; background:#1d1613; border-radius:18px; transform-origin:0 0; opacity:0;
+      box-shadow:0 40px 80px rgba(0,0,0,.5), inset 0 0 0 1px rgba(245,235,220,.08); overflow:hidden; }
+  .card .bar { font-family:'Geist Mono'; font-weight:500; color:var(--gold); letter-spacing:.02em;
+      background:#271d19; border-bottom:1px solid rgba(245,235,220,.07); white-space:nowrap; }
+  .card .ln { position:relative; font-family:'Geist Mono'; font-weight:400; white-space:pre; color:var(--cream); opacity:0; }
+  .card .ln .k { color:var(--prog); }
+  .card .ln.t { font-weight:600; }
+  .card .ln .mk { position:absolute; top:12%; bottom:12%; width:5px; border-radius:3px; background:var(--gold); opacity:0; }
+  .beat { text-wrap:balance; position:absolute; font-weight:600; font-variation-settings:'opsz' 144, 'SOFT' 50; letter-spacing:-.015em;
+      line-height:1.08; color:var(--gold); opacity:0; }
+  /* crew tiles */
+  .tile { z-index:1; position:absolute; transform-origin:0 0; border-radius:18px; background:var(--wings); opacity:0;
+      box-shadow:0 24px 50px rgba(0,0,0,.40), inset 0 0 0 1px rgba(245,235,220,.07);
+      display:flex; flex-direction:column; align-items:center; justify-content:center; text-align:center; }
+  .tile .nm { font-weight:600; font-variation-settings:'opsz' 144, 'SOFT' 50; letter-spacing:-.012em; line-height:1.0; }
+  .tile .sub { font-family:'Geist Mono'; font-weight:500; letter-spacing:.12em; text-transform:uppercase; color:var(--gold); }
+  .tile .work { position:absolute; left:10%; right:10%; top:7%; height:4px; border-radius:2px; background:rgba(245,235,220,.10); overflow:hidden; opacity:0; }
+  .tile .work i { position:absolute; left:0; top:0; bottom:0; width:100%; background:var(--gold); transform-origin:0 50%; transform:scaleX(0); }
+  .tile .ring { position:absolute; inset:0; border-radius:18px; box-shadow:inset 0 0 0 3px var(--gold); opacity:0; }
+  /* the catch */
+  #pic { position:absolute; overflow:hidden; border-radius:16px; opacity:0; background:#0c0908;
+      box-shadow:0 40px 80px rgba(0,0,0,.5), inset 0 0 0 1px rgba(245,235,220,.08); }
+  #pic img { position:absolute; left:0; top:0; width:100%; height:100%; object-fit:cover; display:block; }
+  #pic .cr { position:absolute; left:0; right:0; bottom:0; font-family:'Geist'; font-weight:500; color:rgba(245,235,220,.86);
+      background:linear-gradient(rgba(0,0,0,0), rgba(0,0,0,.62)); white-space:nowrap; }
+  .blk { position:absolute; display:flex; flex-direction:column; align-items:flex-start; }
+  .blk .lab { font-family:'Geist Mono'; font-weight:500; letter-spacing:.14em; text-transform:uppercase; color:var(--gold); white-space:nowrap; }
+  .blk .cap { text-wrap:balance; font-weight:600; font-variation-settings:'opsz' 144, 'SOFT' 50; letter-spacing:-.015em; line-height:1.1; }
+  .blk .cap span { background-image:linear-gradient(var(--cream), var(--cream)); background-repeat:no-repeat;
+      background-position:0 58%; background-size:var(--strike, 0%) 4px; -webkit-box-decoration-break:clone; box-decoration-break:clone; }
+  .blk .sub { font-family:'Geist'; font-weight:400; color:var(--cream); line-height:1.3; }
+  .blk .row { display:flex; align-items:flex-start; }
+  .badge { font-family:'Geist Mono'; font-weight:600; letter-spacing:.12em; text-transform:uppercase; border-radius:8px; white-space:nowrap; flex:none; }
+  .badge.red { background:var(--velvet); color:var(--cream); }
+  .badge.ok { background:var(--gold); color:var(--stage); }
+  .blk .find { text-wrap:balance; font-family:'Geist'; font-weight:400; color:var(--cream); line-height:1.3; }
+  .blk > * { opacity:0; }
+  /* end card */
+  #end { position:absolute; left:0; top:0; width:100vw; height:100vh; display:flex; align-items:center; justify-content:center; }
+  #end .in { display:flex; flex-direction:column; align-items:center; text-align:center; }
+  #end img { display:block; opacity:0; }
+  #end .wm { font-weight:900; letter-spacing:-.01em; line-height:.9; opacity:0; }
+  #end .tag { font-weight:400; font-variation-settings:'opsz' 144; color:var(--cream); opacity:0; line-height:1.2; }
+  #end .url { font-family:'Geist Mono'; font-weight:500; color:var(--gold); letter-spacing:.02em; opacity:0; }
+  #credit { position:absolute; left:0; width:100vw; text-align:center; font-family:'Geist'; font-weight:400; color:var(--prog); opacity:0; line-height:1.45; }
+</style></head>
+<body>
+<div id="glow"></div>
+<div id="world" class="abs" style="left:0;top:0;width:100vw;height:100vh"></div>
+<div id="vig"></div>
+<div id="grain"></div>
+<script>
+// ------------------------------------------------------------------ frame and layout per aspect
+const W = window.innerWidth, H = window.innerHeight, AR = W / H;
+const LAY = AR > 1.3 ? 'wide' : AR < 0.8 ? 'tall' : 'square';
+const P = ST.progress, Lr = ST.lerp, C = ST.clamp;
+const io3 = x => x < .5 ? 4*x*x*x : 1 - Math.pow(-2*x + 2, 3)/2;
+const oE = x => x >= 1 ? 1 : 1 - Math.pow(2, -10*x);
+const world = document.getElementById('world');
+const el = (tag, cls, parent, html) => { const e = document.createElement(tag); if (cls) e.className = cls; if (html != null) e.innerHTML = html; (parent || world).appendChild(e); return e; };
+const px = (e, o) => { for (const k in o) e.style[k] = typeof o[k] === 'number' ? o[k] + 'px' : o[k]; };
+
+const G = {
+  wide: {
+    tfs: 156, tx: 140, tw: 1400,
+    hx: 140, hy: 118, hfs: 82, hw: 1640,
+    card: { x: 700, y: 300, w: 1080 }, mfs: 40, bfs: 58, beat: { x: 140, w: 500, mode: 'side' },
+    grid: { cols: 5, tw: 300, th: 170, gx: 34, gy: 34, x0: 142, y0: 440 }, nfs: 42,
+    kN: 1.6, dir: { x: 140, y: 424 }, mem: { x: 1300, y: 424 },
+    res: { x: 140, y: 300, w: 820 },
+    pic: { x: 140, y: 290, w: 880, h: 660 }, blk: { x: 1100, w: 680, cy: 620 }, capfs: 60, labfs: 26, findfs: 38, crfs: 24,
+    sfs: 112, sw: 1500,
+    mark: 180, wm: 160, descfs: 36, tagfs: 50, urlfs: 36, credfs: 30, credBottom: 118,
+  },
+  square: {
+    tfs: 128, tx: 70, tw: 940,
+    hx: 70, hy: 78, hfs: 64, hw: 940,
+    card: { x: 70, y: 330, w: 940 }, mfs: 33, bfs: 46, beat: { x: 70, y: 232, w: 940, mode: 'top' },
+    grid: { cols: 2, tw: 455, th: 118, gx: 30, gy: 26, x0: 70, y0: 300 }, nfs: 40,
+    kN: 1.25, dir: { x: 256, y: 330 }, mem: { x: 256, y: 720 },
+    res: { x: 70, y: 300, w: 940 },
+    pic: { x: 200, y: 266, w: 680, h: 510 }, blk: { x: 70, w: 940, top: 800 }, capfs: 46, labfs: 24, findfs: 32, crfs: 24,
+    sfs: 92, sw: 940,
+    mark: 150, wm: 140, descfs: 32, tagfs: 42, urlfs: 31, credfs: 28, credBottom: 96,
+  },
+  tall: {
+    tfs: 132, tx: 72, tw: 830,
+    hx: 72, hy: 250, hfs: 74, hw: 830,
+    card: { x: 72, y: 452, w: 830 }, mfs: 43, lh: 1.45, bfs: 54, beat: { x: 72, y: 356, w: 830, mode: 'top' },
+    grid: { cols: 2, tw: 400, th: 136, gx: 30, gy: 28, x0: 72, y0: 520 }, nfs: 46,
+    kN: 1.35, dir: { x: 217, y: 560 }, mem: { x: 217, y: 1150 },
+    res: { x: 72, y: 540, w: 830 },
+    pic: { x: 72, y: 440, w: 830, h: 622 }, blk: { x: 72, w: 830, top: 1100 }, capfs: 56, labfs: 36, findfs: 44, crfs: 26,
+    sfs: 104, sw: 830,
+    mark: 170, wm: 150, descfs: 43, tagfs: 50, urlfs: 36, credfs: 30, credBottom: 500,
+  },
+}[LAY];
+
+// ------------------------------------------------------------------ timeline (s). Music: "Artemis" from 35.5 s; its big entry (73.5 s) lands at T_END.
+const T_S2 = 3.7, T_S3 = 11.8, T_RES = 15.0, T_S4 = 18.2, T_CR = 23.6, T_S5 = 25.3, T_S6 = 35.0, T_END = 38.0, T_OUT = 44.0, DUR = 45;
+
+// ------------------------------------------------------------------ S1: the title
+const title = el('div', 'abs disp', world);
+px(title, { left: G.tx, width: G.tw, fontSize: G.tfs });
+const TW = ['Your', 'agent', 'is', '|', 'the', '<span class="gold">director.</span>'];
+TW.forEach((w, i) => { if (w === '|') { title.appendChild(document.createElement('br')); return; } el('span', 'w', title, w); if (i < TW.length - 1 && TW[i + 1] !== '|') title.appendChild(document.createTextNode(' ')); });
+
+// ------------------------------------------------------------------ headlines (top-left; one at a time)
+const HEADS = [
+  ['It writes a brief.', T_S2, T_S3],
+  ['One member works alone.', T_S3, T_RES],
+  ['It hands back RESULT.md and its files.', T_RES, T_S4],
+  ['Ten roles.', T_S4 + 0.5, 20.4],
+  ['They never talk to each other, or to you.', 20.4, T_CR],
+  ['The critic didn’t build it.', T_CR, T_S5 + 0.4],
+  ['It reviews the video, frame by frame.', T_S5 + 0.4, T_S6],
+  ['Fixes go back to the same member.', T_S6, T_END - 0.05],
+].map(([txt, a, b]) => { const e = el('div', 'head disp', world, txt); px(e, { left: G.hx, top: G.hy, width: G.hw, fontSize: G.hfs }); return { e, a, b }; });
+
+// ------------------------------------------------------------------ S2: TASK.md (the skeleton in references/crew.md, example values)
+function makeCard(file, lines, box) {
+  const c = el('div', 'card', world);
+  px(c, { left: box.x, top: box.y, width: box.w });
+  const bar = el('div', 'bar', c, file + '<span style="color:var(--prog)"> \u00b7 example</span>');
+  px(bar, { fontSize: G.mfs * 0.78, padding: `${G.mfs * 0.5}px ${G.mfs * 1.0}px` });
+  const body = el('div', '', c); px(body, { padding: `${G.mfs * 0.75}px ${G.mfs * 1.0}px ${G.mfs * 0.9}px` });
+  const L = lines.map(s => {
+    const ln = el('div', 'ln', body);
+    px(ln, { fontSize: G.mfs, lineHeight: G.mfs * (G.lh || 1.6) });
+    const m = s.match(/^([A-Za-z ()-]+:)([\s\S]*)$/);
+    if (s.startsWith('#')) { ln.classList.add('t'); ln.textContent = s; }
+    else if (m && !s.startsWith(' ')) { const k = el('span', 'k', ln); k.textContent = m[1]; ln.appendChild(document.createTextNode(m[2])); }
+    else ln.textContent = s;
+    const mk = el('i', 'mk', ln); px(mk, { left: -G.mfs * 0.62 });
+    return { ln, mk };
+  });
+  return { c, L, box };
+}
+const TASK = makeCard('crew/motion-s3/TASK.md', LAY !== 'tall' ? [
+  '# motion-designer: build scene s3',
+  'Read: crew/motion-designer.md',
+  'Inputs (read-only): storyboard.json',
+  'You own: crew/motion-s3/',
+  'Deliver: section.html, s-s3.css, s-s3.js',
+  'Done when: showtime check -> 0 errors',
+  'Heavy commands allowed: snap --at',
+] : [   // the vertical card: the same rows, wrapped by hand
+  '# motion-designer:\n  build scene s3',
+  'Read:\n  crew/motion-designer.md',
+  'Inputs (read-only):\n  storyboard.json',
+  'You own: crew/motion-s3/',
+  'Deliver: section.html,\n  s-s3.css, s-s3.js',
+  'Done when:\n  showtime check -> 0 errors',
+  'Heavy commands allowed:\n  snap --at',
+], G.card);
+const BEATS = [
+  { txt: 'What to deliver.', rows: [0, 4, 5], a: 6.9, b: 8.5 },
+  { txt: 'What to read.', rows: [1, 2], a: 8.5, b: 10.1 },
+  { txt: 'What it may touch.', rows: [3, 6], a: 10.1, b: T_S3 },
+].map(B => { const e = el('div', 'beat', world, B.txt); px(e, { left: G.beat.x, width: G.beat.w, fontSize: G.bfs }); return Object.assign(B, { e }); });
+
+// ------------------------------------------------------------------ S3/S4: the director, the member and the ten roles
+const ROLES = ['creative director', 'brand designer', 'scriptwriter', 'storyboard artist', 'motion designer',
+               'sound designer', 'voice director', 'editor', 'researcher', 'critic'];
+const GR = G.grid;
+function makeTile(name, sub) {
+  const t = el('div', 'tile', world);
+  px(t, { width: GR.tw, height: GR.th, left: 0, top: 0 });
+  const nm = el('div', 'nm', t, name); px(nm, { fontSize: G.nfs, padding: '0 8%' });
+  let sb = null;
+  if (sub) { sb = el('div', 'sub', t, sub); px(sb, { fontSize: Math.max(G.nfs * 0.5, 28 / G.kN), marginTop: G.nfs * 0.34 }); }
+  const work = el('div', 'work', t); el('i', '', work);
+  const ring = el('div', 'ring', t);
+  return { t, nm, sb, work, bar: work.firstChild, ring };
+}
+const tiles = ROLES.map((r, i) => {
+  const T = makeTile(r, i === 4 ? 'crew/motion-s3/' : null);
+  const col = i % GR.cols, row = Math.floor(i / GR.cols);
+  T.gx = GR.x0 + col * (GR.tw + GR.gx); T.gy = GR.y0 + row * (GR.th + GR.gy);
+  return T;
+});
+const MEM = tiles[4], CRIT = tiles[9];
+const DIR = makeTile('your agent', 'director');
+DIR.sb.style.letterSpacing = '.14em';
+
+// the line a brief travels along
+const wire = el('div', 'abs', world);
+{ const ax = G.dir.x + GR.tw * G.kN / 2, ay = G.dir.y + GR.th * G.kN / 2, bx = G.mem.x + GR.tw * G.kN / 2, by = G.mem.y + GR.th * G.kN / 2;
+  const d = Math.hypot(bx - ax, by - ay), ang = Math.atan2(by - ay, bx - ax);
+  px(wire, { left: ax, top: ay - 1.5, width: d, height: 3, transformOrigin: '0 50%', opacity: 0,
+    background: 'repeating-linear-gradient(90deg, rgba(233,185,73,.55) 0 14px, rgba(233,185,73,0) 14px 26px)' });
+  wire.style.transform = `rotate(${ang}rad)`; wire.dataset.ang = ang; }
+// RESULT.md (the return contract in references/crew/rules.md, example values)
+const RES = makeCard('crew/motion-s3/RESULT.md', [
+  'STATUS: DONE',
+  'OUTPUTS:',
+  '  fragment/section.html',
+  '  fragment/s-s3.css',
+  '  fragment/s-s3.js',
+  'EVIDENCE:',
+  '  showtime check -> 0 errors',
+], G.res);
+
+// ------------------------------------------------------------------ S5: the catch (example 13, before/after frames at 0:04.60)
+const pic = el('div', '', world); pic.id = 'pic';
+px(pic, { left: G.pic.x, top: G.pic.y, width: G.pic.w, height: G.pic.h });
+const imB = el('img', '', pic); imB.src = 'media/before-card.jpg';
+const imA = el('img', '', pic); imA.src = 'media/after-card.jpg'; imA.style.opacity = 0;
+const cr = el('div', 'cr', pic, 'Bee footage: Su et al. 2008, PLOS ONE · CC BY 3.0');
+cr.setAttribute('data-st-decor', ''); px(cr, { fontSize: G.crfs, padding: `${G.crfs * 2.2}px ${G.crfs * 0.9}px ${G.crfs * 0.7}px` });
+
+function block(parts) {
+  const b = el('div', 'blk', world); px(b, { left: G.blk.x, width: G.blk.w });
+  const out = {};
+  parts.forEach(([key, cls, html, gap]) => { const e = el('div', cls, b, html); if (gap) e.style.marginTop = gap + 'px'; out[key] = e; });
+  out.b = b; return out;
+}
+const lf = G.labfs, cf = G.capfs, ff = G.findfs;
+const BA = block([
+  ['lab', 'lab', 'A real catch · example 13'],
+  ['cap', 'cap', '<span>“Her path, traced frame by frame”</span>', lf * 0.7],
+  ['row', 'row', `<div class="badge red">blocker</div><div class="find">The gold line is mostly camera motion, not her path.</div>`, cf * 0.55],
+]);
+const BC = block([
+  ['lab', 'lab', 'Example 13 · after the fix'],
+  ['cap', 'cap', 'Her red paint mark, tracked', lf * 0.7],
+  ['sub', 'sub', '(the camera moves with her)', cf * 0.12],
+  ['row', 'row', `<div class="badge ok">fixed</div>`, cf * 0.55],
+]);
+[BA, BC].forEach(B => {
+  B.lab.style.fontSize = lf + 'px'; B.cap.style.fontSize = cf + 'px';
+  if (B.sub) B.sub.style.fontSize = ff + 'px';
+  B.row.querySelectorAll('.badge').forEach(x => px(x, { fontSize: ff * 0.62, padding: `${ff * 0.28}px ${ff * 0.42}px`, marginRight: ff * 0.5, marginTop: ff * 0.12 }));
+  B.row.querySelectorAll('.find').forEach(x => px(x, { fontSize: ff }));
+});
+
+// ------------------------------------------------------------------ S6: the rule
+const fixNote = el('div', 'badge ok', world, 'fix note'); fixNote.style.position = 'absolute'; fixNote.style.zIndex = 3; fixNote.style.opacity = 0;
+px(fixNote, { fontSize: Math.max(G.findfs * 0.7, LAY === 'tall' ? 30 : 24), padding: `${G.findfs * 0.3}px ${G.findfs * 0.45}px`, left: 0, top: 0 });
+
+// ------------------------------------------------------------------ S7: the name
+const end = el('div', '', world); end.id = 'end';
+const ein = el('div', 'in', end);
+const eImg = el('img', '', ein); eImg.src = 'media/mark.svg'; px(eImg, { width: G.mark, height: G.mark, marginBottom: G.mark * 0.2 });
+const eWm = el('div', 'wm', ein, 'showtime'); px(eWm, { fontSize: G.wm });
+const eTag = el('div', 'tag', ein, LAY === 'wide' ? 'Your agent directs. Your machine renders.' : 'Your agent directs.<br>Your machine renders.');
+px(eTag, { fontSize: G.tagfs, marginTop: G.wm * 0.26 });
+const eDesc = el('div', 'desc', ein, 'A local video studio for your coding agent.');
+ein.insertBefore(eDesc, eTag);
+px(eDesc, { fontFamily: 'Geist', fontWeight: 400, color: 'var(--prog)', fontSize: G.descfs, marginTop: G.wm * 0.2, maxWidth: LAY === 'wide' ? 'none' : (LAY === 'tall' ? 760 : 900) + 'px', lineHeight: '1.3', textWrap: 'balance', opacity: '0' });
+eTag.style.marginTop = G.tagfs * 0.5 + 'px';
+const eUrl = el('div', 'url', ein, 'github.com/FavioVazquez/showtime'); px(eUrl, { fontSize: G.urlfs, marginTop: G.tagfs * 0.9 });
+const credit = el('div', '', world, 'Music: “Artemis” by Scott Buckley (CC BY 4.0) · bee footage: Su et al. 2008 (CC BY 3.0)');
+credit.id = 'credit';
+px(credit, { fontSize: G.credfs, bottom: G.credBottom, padding: LAY === 'wide' ? '0' : LAY === 'tall' ? '0 164px 0 72px' : '0 72px', boxSizing: 'border-box' });
+if (LAY === 'tall') end.style.paddingRight = '100px', end.style.boxSizing = 'border-box';
+
+// ------------------------------------------------------------------ measure once the fonts are in
+let ready = false;
+ST.waitFor(document.fonts.ready.then(() => Promise.all([
+  document.fonts.load('700 100px Fraunces'), document.fonts.load('600 100px Fraunces'), document.fonts.load('900 100px Fraunces'),
+  document.fonts.load('400 40px Fraunces'), document.fonts.load('400 30px Geist'), document.fonts.load('500 30px Geist'),
+  document.fonts.load('400 30px "Geist Mono"'), document.fonts.load('500 30px "Geist Mono"'), document.fonts.load('600 30px "Geist Mono"')]))
+  .then(() => {
+    title.style.top = (LAY === 'tall' ? 0.42 * H : 0.5 * H) - title.offsetHeight / 2 + 'px';
+    TASK.h = TASK.c.offsetHeight; RES.h = RES.c.offsetHeight;
+    // beat words: beside their rows (wide) or above the card
+    BEATS.forEach(B => {
+      if (G.beat.mode === 'side') {
+        const ys = B.rows.map(r => TASK.L[r].ln.offsetTop + TASK.L[r].ln.offsetHeight / 2 + TASK.L[r].ln.parentElement.offsetTop);
+        const cy = G.card.y + ys.reduce((a, b) => a + b, 0) / ys.length;
+        B.e.style.top = cy - B.e.offsetHeight / 2 + 'px';
+      } else B.e.style.top = G.beat.y + 'px';
+    });
+    [BA, BC].forEach(B => { B.h = B.b.offsetHeight; B.b.style.top = (G.blk.top != null ? G.blk.top : G.blk.cy - B.h / 2) + 'px'; });
+    ready = true;
+  }), 'layout');
+
+// ------------------------------------------------------------------ drivers
+function fadeIO(e, t, a, b, rise) {   // enter over [a, a+0.6], leave over [b-0.25, b+0.05]
+  const i = oE(P(t, a + 0.05, a + 0.65)), o = io3(P(t, b - 0.25, b + 0.05));
+  const v = i * (1 - o);
+  e.style.opacity = v;
+  e.style.transform = `translateY(${(1 - i) * (rise || 18) - o * 10}px)`;
+  e.style.filter = i < 1 ? `blur(${((1 - i) * 6).toFixed(2)}px)` : 'none';
+  e.style.visibility = v > 0.001 ? 'visible' : 'hidden';
+}
+function place(T, x, y, k, op) { T.t.style.transform = `translate(${x}px, ${y}px) scale(${k})`; T.t.style.opacity = op; T.t.style.visibility = op > 0.001 ? 'visible' : 'hidden'; }
+
+function driveTitle(t) {
+  title.style.transformOrigin = '0 50%'; title.style.transform = `scale(${1 + 0.035 * io3(P(t, 0, T_S2))})`;
+  const out = io3(P(t, T_S2 - 0.45, T_S2 + 0.1));
+  [...title.children].forEach((w, i) => {
+    const p = 1;   // complete at frame 0 (feeds show frame 0)
+    w.style.opacity = p * (1 - out);
+    w.style.transform = `translateY(${((1 - p) * 0.22 - out * 0.12)}em)`;
+    w.style.filter = p < 1 || out > 0 ? `blur(${((1 - p) * 8 + out * 6).toFixed(2)}px)` : 'none';
+  });
+}
+function driveTask(t) {
+  const c = TASK.c;
+  const inP = oE(P(t, T_S2 + 0.3, T_S2 + 1.1));
+  // handoff: the card shrinks into the member, who is waiting at its place
+  const fly = io3(P(t, T_S3 + 0.05, T_S3 + 1.15));
+  const k = Lr(1, 0.16, oE(P(t, T_S3 + 0.05, T_S3 + 1.0)));   // shrinks first, then travels
+  const mx = G.mem.x + GR.tw * G.kN / 2, my = G.mem.y + GR.th * G.kN / 2;
+  const cx = G.card.x + G.card.w / 2, cy = G.card.y + TASK.h / 2;
+  const x = Lr(0, mx - cx, fly) - (G.card.w * k - G.card.w) / 2 * 0 , y = Lr(0, my - cy, fly);
+  // keep the scale about the card's centre
+  const ox = (G.card.w * (1 - k)) / 2, oy = (TASK.h * (1 - k)) / 2;
+  c.style.transform = `translate(${x + ox}px, ${y + oy + (1 - inP) * 30}px) scale(${k})`;
+  const op = inP * (1 - P(t, T_S3 + 0.8, T_S3 + 1.05));
+  c.style.opacity = op; c.style.visibility = op > 0.001 ? 'visible' : 'hidden';
+  // lines type in, one per 0.14 s
+  TASK.L.forEach((L, i) => {
+    const a = T_S2 + 0.75 + i * 0.14, p = oE(P(t, a, a + 0.35));
+    let hi = 1;
+    const B = BEATS.find(B => t >= B.a && t < B.b);
+    if (B && t < T_S3) hi = B.rows.includes(i) ? 1 : 0.3;
+    const blend = P(t, 6.9, 7.3) * (1 - P(t, T_S3 - 0.3, T_S3));
+    const lvl = Lr(1, hi, blend);
+    L.ln.style.opacity = p * lvl;
+    L.mk.style.opacity = (B && B.rows.includes(i) ? 1 : 0) * oE(P(t, B ? B.a : 0, (B ? B.a : 0) + 0.35)) * blend;
+  });
+  BEATS.forEach(B => fadeIO(B.e, t, B.a, B.b, 14));
+}
+const GCX = GR.x0 + (GR.cols * GR.tw + (GR.cols - 1) * GR.gx) / 2, GCY = GR.y0 + (Math.ceil(10 / GR.cols) * GR.th + (Math.ceil(10 / GR.cols) - 1) * GR.gy) / 2;
+const SPREAD = LAY === 'wide' ? 0.07 : 0.035;   // isolation: the ten drift apart while 'they never talk' is on
+const spread = t => 1 + SPREAD * io3(P(t, 20.5, T_CR + 0.3));
+function driveNodes(t) {
+  const wIn = io3(P(t, T_S3 + 0.2, T_S3 + 0.9)), wOut = io3(P(t, T_S4 + 0.2, T_S4 + 0.6));
+  wire.style.opacity = (0.9 * wIn * (1 - wOut)).toFixed(3);
+  wire.style.clipPath = `inset(0 ${(100 * (1 - wIn)).toFixed(2)}% 0 0)`;
+  // the director and the member (the member is the grid's "motion designer" tile, shown larger)
+  const kN = G.kN;
+  const inN = oE(P(t, T_S3 + 0.3, T_S3 + 0.9)), inM = oE(P(t, T_S3 + 0.9, T_S3 + 1.4));   // the member lights up as the brief lands
+  // director: steps back while RESULT.md is read, takes it at T_S4, then leaves
+  const dirOut = io3(P(t, T_S4 + 0.55, T_S4 + 0.95));
+  const dirDim = 1 - 0.75 * io3(P(t, T_RES + 0.3, T_RES + 0.9)) * (1 - io3(P(t, T_S4, T_S4 + 0.45)));
+  place(DIR, G.dir.x, G.dir.y + (1 - inN) * 20, kN, inN * dirDim * (1 - dirOut));
+  // member: working bar while it works alone
+  const work = P(t, T_S3 + 1.35, T_RES - 0.2);
+  MEM.work.style.opacity = (t > T_S3 + 1.2 ? 1 : 0) * (1 - io3(P(t, T_RES + 0.2, T_RES + 0.6)));
+  MEM.bar.style.transform = `scaleX(${io3(work).toFixed(4)})`;
+  // receive pulse when the brief lands
+  MEM.ring.style.opacity = 0.9 * Math.sin(Math.PI * P(t, T_S3 + 1.05, T_S3 + 1.9));
+  // member moves into its place among the ten
+  const toGrid = io3(P(t, T_S4 + 0.35, T_S4 + 1.45));
+  const k = Lr(kN, 1, toGrid);
+  const x = Lr(G.mem.x, MEM.gx, toGrid), y = Lr(G.mem.y + (1 - inM) * 20, MEM.gy, toGrid);
+  const dimR = 1 - (LAY === 'wide' ? 0.45 : 1) * io3(P(t, T_RES + 0.3, T_RES + 0.9)) * (1 - io3(P(t, T_S4 - 0.1, T_S4 + 0.4)));
+  const crOut = io3(P(t, T_CR, T_CR + 0.5));
+  let mx2 = x, my2 = y;
+  if (toGrid >= 1) { const sp = spread(t); mx2 = GCX + (MEM.gx + GR.tw / 2 - GCX) * sp - GR.tw / 2; my2 = GCY + (MEM.gy + GR.th / 2 - GCY) * sp - GR.th / 2; }
+  if (t < T_S3) place(MEM, x, y, k, 0);
+  else place(MEM, mx2, my2, k, inM * dimR * (1 - 0.78 * crOut) * (1 - io3(P(t, T_S5, T_S5 + 0.5))));
+  if (MEM.sb) MEM.sb.style.opacity = 1 - io3(P(t, T_RES + 0.1, T_RES + 0.4));
+  MEM.sb.style.display = t > T_RES + 0.4 ? 'none' : '';
+}
+function driveResult(t) {
+  const c = RES.c;
+  const a = io3(P(t, T_RES + 0.1, T_RES + 1.0));
+  // grows out of the member, travels back towards the director
+  const k0 = 0.16, k = Lr(k0, 1, a);
+  const mx = G.mem.x + GR.tw * G.kN / 2, my = G.mem.y + GR.th * G.kN / 2;
+  const rx = G.res.x + G.res.w / 2, ry = G.res.y + RES.h / 2;
+  // hand back: into the director at T_S4
+  const back = io3(P(t, T_S4, T_S4 + 0.75));
+  const dx = G.dir.x + GR.tw * G.kN / 2, dy = G.dir.y + GR.th * G.kN / 2;
+  const kk = Lr(k, 0.16, back);
+  const cx = Lr(Lr(mx, rx, a), dx, back), cy = Lr(Lr(my, ry, a), dy, back);
+  c.style.transform = `translate(${cx - G.res.w * kk / 2 - G.res.x}px, ${cy - RES.h * kk / 2 - G.res.y}px) scale(${kk})`;
+  const op = P(t, T_RES + 0.1, T_RES + 0.35) * (1 - P(t, T_S4 + 0.5, T_S4 + 0.75));
+  c.style.opacity = op; c.style.visibility = op > 0.001 ? 'visible' : 'hidden';
+  RES.L.forEach((L, i) => { const s = T_RES + 0.75 + i * 0.1; L.ln.style.opacity = oE(P(t, s, s + 0.35)); });
+}
+function driveGrid(t) {
+  // (GCX, GCY, spread: see below)
+  const gone = io3(P(t, T_S5, T_S5 + 0.55));
+  let j = 0;
+  tiles.forEach((T, i) => {
+    if (i === 4) return;
+    const a = T_S4 + 0.8 + Math.min(j++ * 0.06, 0.5), p = oE(P(t, a, a + 0.7));
+    const isC = i === 9;
+    const dim = isC ? 1 : 1 - 0.78 * io3(P(t, T_CR, T_CR + 0.5));
+    const sp = spread(t), gx = GCX + (T.gx + GR.tw / 2 - GCX) * sp - GR.tw / 2, gy = GCY + (T.gy + GR.th / 2 - GCY) * sp - GR.th / 2;
+    place(T, gx, gy + (1 - p) * 18, 1, p * dim * (1 - gone));
+  });
+  CRIT.ring.style.opacity = io3(P(t, T_CR, T_CR + 0.5));
+  CRIT.nm.style.color = t > T_CR + 0.25 ? 'var(--gold)' : 'var(--cream)';
+}
+function driveCatch(t) {
+  const inP = oE(P(t, T_S5 + 0.45, T_S5 + 1.25));
+  const out = io3(P(t, T_S6 - 0.45, T_S6 + 0.05));
+  pic.style.opacity = inP * (1 - out);
+  pic.style.transform = `translateY(${(1 - inP) * 24}px) scale(${1 + 0.012 * P(t, T_S5, T_S6)})`;
+  pic.style.filter = inP < 1 ? `blur(${((1 - inP) * 8).toFixed(2)}px)` : (out > 0 ? `blur(${(out * 6).toFixed(2)}px)` : 'none');
+  pic.style.visibility = pic.style.opacity > 0.001 ? 'visible' : 'hidden';
+  const T_A = T_S5 + 1.2, T_B = T_S5 + 3.0, T_C = T_S5 + 6.5;
+  imA.style.opacity = io3(P(t, T_C, T_C + 0.8));
+  const look = io3(P(t, T_B - 0.2, T_C - 0.2)) * (1 - io3(P(t, T_C - 0.1, T_C + 0.9)));
+  [imB, imA].forEach(im => { im.style.transformOrigin = '44% 40%'; im.style.transform = `scale(${1 + 0.09 * look})`; });
+  // before: the caption, then the finding (strike)
+  const vA = (a) => oE(P(t, a, a + 0.6)) * (1 - io3(P(t, T_C - 0.1, T_C + 0.25)));
+  const rise = (e, a) => { e.style.transform = `translateY(${(1 - oE(P(t, a, a + 0.6))) * 14}px)`; };
+  BA.lab.style.opacity = vA(T_A); rise(BA.lab, T_A);
+  BA.cap.style.opacity = vA(T_A + 0.15) * Lr(1, 0.5, io3(P(t, T_B, T_B + 0.5))); rise(BA.cap, T_A + 0.15);
+  BA.cap.style.setProperty('--strike', (100 * io3(P(t, T_B, T_B + 0.55))).toFixed(2) + '%');
+  BA.row.style.opacity = vA(T_B + 0.35); rise(BA.row, T_B + 0.35);
+  BA.b.style.visibility = t > T_A && t < T_C + 0.3 ? 'visible' : 'hidden';
+  // after: the fixed caption
+  const vC = (a) => oE(P(t, a, a + 0.6)) * (1 - out);
+  BC.lab.style.opacity = vC(T_C + 0.3); rise(BC.lab, T_C + 0.3);
+  BC.cap.style.opacity = vC(T_C + 0.45); rise(BC.cap, T_C + 0.45);
+  BC.sub.style.opacity = vC(T_C + 0.55); rise(BC.sub, T_C + 0.55);
+  BC.row.style.opacity = vC(T_C + 0.9); rise(BC.row, T_C + 0.9);
+  BC.b.style.visibility = t > T_C + 0.25 && t < T_S6 + 0.1 ? 'visible' : 'hidden';
+}
+function driveFix(t) {
+  // the rule, on the same two nodes as the brief: a fix note travels from the director back to the member
+  if (t < T_S6 - 0.1) { fixNote.style.opacity = 0; return; }
+  const i = oE(P(t, T_S6 + 0.1, T_S6 + 0.7)), o = io3(P(t, T_END - 0.45, T_END - 0.05)), v = i * (1 - o);
+  place(DIR, G.dir.x, G.dir.y + (1 - i) * 20, G.kN, v);
+  place(MEM, G.mem.x, G.mem.y + (1 - i) * 20, G.kN, v);
+  MEM.work.style.opacity = 0; MEM.sb.style.display = 'none';
+  const wIn = io3(P(t, T_S6 + 0.3, T_S6 + 0.9));
+  wire.style.opacity = (0.9 * wIn * (1 - o)).toFixed(3); wire.style.clipPath = `inset(0 ${(100 * (1 - wIn)).toFixed(2)}% 0 0)`;
+  const f = io3(P(t, T_S6 + 0.9, T_S6 + 1.9));
+  const ax = G.dir.x + GR.tw * G.kN / 2, ay = G.dir.y + GR.th * G.kN / 2, bx = G.mem.x + GR.tw * G.kN / 2, by = G.mem.y + GR.th * G.kN / 2;
+  const fw = fixNote.offsetWidth, fh = fixNote.offsetHeight;
+  const u = Lr(0.25, 0.75, f);   // along the wire, clear of both tiles
+  fixNote.style.transform = `translate(${Lr(ax, bx, u) - fw / 2}px, ${Lr(ay, by, u) - fh / 2}px)`;
+  fixNote.style.opacity = (P(t, T_S6 + 0.8, T_S6 + 1.0) * (1 - P(t, T_S6 + 1.75, T_S6 + 1.95))).toFixed(3);
+  MEM.ring.style.opacity = 0.9 * Math.sin(Math.PI * P(t, T_S6 + 1.8, T_S6 + 2.7));
+}
+function driveEnd(t) {
+  const on = t >= T_END - 0.1;
+  end.style.display = on ? 'flex' : 'none'; credit.style.display = on ? 'block' : 'none'; if (!on) return;
+  const a = (x, d) => oE(P(t, T_END + x, T_END + x + (d || .9)));
+  eImg.style.opacity = a(-0.04); eImg.style.transform = `translateY(${(1 - a(-0.04)) * 16}px) scale(${Lr(0.96, 1, a(-0.04))})`;
+  eWm.style.opacity = a(0.18); eWm.style.transform = `translateY(${(1 - a(0.18)) * 22}px)`;
+  eDesc.style.opacity = a(0.45); eDesc.style.transform = `translateY(${(1 - a(0.45)) * 12}px)`;
+  eTag.style.opacity = a(0.75); eTag.style.transform = `translateY(${(1 - a(0.75)) * 14}px)`;
+  eUrl.style.opacity = a(1.05);
+  const fo = io3(P(t, T_OUT, DUR));
+  credit.style.opacity = a(0.7) * 0.95 * (1 - fo);
+  ein.style.transform = `scale(${1 + 0.022 * P(t, T_END, DUR)})`;
+  end.style.opacity = 1 - fo;
+}
+const glow = document.getElementById('glow');
+ST.onSeek((t) => {
+  if (!ready) return;
+  glow.style.setProperty('--gx', (38 + 6 * ST.noise(t * .15, 3)) + '%');
+  glow.style.setProperty('--gy', (42 + 5 * ST.noise(t * .12, 7)) + '%');
+  // the light lifts with the music's entry on the name
+  glow.style.setProperty('--ga', (0.10 + 0.07 * io3(P(t, T_END - 0.1, T_END + 1.6))).toFixed(4));
+  glow.style.opacity = 1 - 0.7 * io3(P(t, T_OUT, DUR));
+  driveTitle(t);
+  HEADS.forEach(Hd => fadeIO(Hd.e, t, Hd.a, Hd.b));
+  driveTask(t); driveNodes(t); driveResult(t); driveGrid(t); driveCatch(t); driveFix(t); driveEnd(t);
+});
+</script>
+</body></html>

@@ -1,0 +1,16 @@
+showtime crew film - credits (keep them in the video description)
+
+Music: 'Artemis' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
+  (excerpt 0:35.5-1:20.5 of the original; Smart Content ID: keep this credit in the description on YouTube,
+   see https://www.scottbuckley.com.au/library/copyright-claims-release/)
+
+Bee footage inside the example 13 frames: Movie S2 from Su S, Cai F, Si A, Zhang S, Tautz J, Chen S (2008)
+  "East Learns from West: Asiatic Honeybees Can Understand Dance Language of European Honeybees", PLOS ONE 3(6):
+  e2365, https://doi.org/10.1371/journal.pone.0002365 - via Wikimedia Commons, CC BY 3.0
+  (https://creativecommons.org/licenses/by/3.0/). Changes: cropped, overlay drawn. Credited on screen too.
+The two frames are from showtime's example 13 ("The waggle dance"; that video is CC BY-SA 4.0 because it adapts
+  the English Wikipedia article "Waggle dance", rev 1371912261): before = the earlier render final-2 at 0:04.60, after = the
+  shipped final at 0:04.60. https://github.com/FavioVazquez/showtime-examples (examples/13-wikipedia-waggle-dance)
+
+Type: Fraunces, Geist, Geist Mono (SIL Open Font License 1.1). Mark: showtime brand (assets/brand).
+Made with showtime 0.2.0 (HTML page rendered with `showtime render`, 1920x1080, 1080x1080 and 1080x1920 from one page).

@@ -16,10 +16,10 @@
     "url_pattern": "https://github.com/{repo}/releases/download/{tag}/{asset}"
   },
   "summary": {
-    "release_files": 36,
-    "release_bytes": 699596644,
-    "git_files": 965,
-    "git_bytes": 200966699
+    "release_files": 39,
+    "release_bytes": 750441446,
+    "git_files": 976,
+    "git_bytes": 201439418
   },
   "files": [
     {
@@ -247,30 +247,51 @@
       "reason": "brand media"
     },
     {
+      "path": "examples/_crew/crew-16x9.mp4",
+      "bytes": 19289016,
+      "sha256": "74b5646282cda6e311e3d4f805f17f78e4f742e909c801cf78551c48da70fa5c",
+      "asset": "_crew--crew-16x9.mp4",
+      "reason": "over 10 MB"
+    },
+    {
+      "path": "examples/_crew/crew-1x1.mp4",
+      "bytes": 13472625,
+      "sha256": "327ca8c54815c007bd8f5f136b942aa103aab88b15131d08c6ed71d6ccde3613",
+      "asset": "_crew--crew-1x1.mp4",
+      "reason": "over 10 MB"
+    },
+    {
+      "path": "examples/_crew/crew-9x16.mp4",
+      "bytes": 18005549,
+      "sha256": "d629e2d22109e284b703b267a2eb5be7b9a959a8589eb369405c6fcd5a3b9391",
+      "asset": "_crew--crew-9x16.mp4",
+      "reason": "over 10 MB"
+    },
+    {
       "path": "examples/_launch/launch-16x9.html",
-      "bytes": 11775192,
-      "sha256": "eace49801e73d47cc54d8ecfd50dbd553bdd44bf9478328c4cdc4357e86fbde0",
+      "bytes": 11775208,
+      "sha256": "66bbd52882a2d024af5c6d4206d461fda3f7013a6b446bd20bd373b3644030fe",
       "asset": "_launch--launch-16x9.html",
       "reason": "over 10 MB"
     },
     {
       "path": "examples/_launch/launch-16x9.mp4",
-      "bytes": 68254130,
-      "sha256": "ecc01eb87e97ea853420ca683186ec3c8c21b844adda43e303ec2a7e37e9b423",
+      "bytes": 68301667,
+      "sha256": "b51c40e2dacfc26fa92df9f95d2fa6424acf4250b36a68a7132f753191b09eaa",
       "asset": "_launch--launch-16x9.mp4",
       "reason": "over 10 MB"
     },
     {
       "path": "examples/_launch/launch-1x1.mp4",
-      "bytes": 44781864,
-      "sha256": "01775a697f5b8cd8bbaff2525e8e967e35e418d15fdda7136de7873093c480df",
+      "bytes": 44757431,
+      "sha256": "af826bbabe6372790688f02321a5eb7c24c8834654970eeeebd97b71a35dd276",
       "asset": "_launch--launch-1x1.mp4",
       "reason": "over 10 MB"
     },
     {
       "path": "examples/_launch/launch-9x16.mp4",
-      "bytes": 64769675,
-      "sha256": "6638e70fdf4073100a217a1a3fffd50b0d0a6d6bf39df59581a0740739a4feab",
+      "bytes": 64824167,
+      "sha256": "f149b1cc78238e3532ae425d1f750f9692b05d5be6395fec981412198a114357",
       "asset": "_launch--launch-9x16.mp4",
       "reason": "over 10 MB"
     }

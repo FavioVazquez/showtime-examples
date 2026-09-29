@@ -1,0 +1,9 @@
+{
+  "_comment": "One track: 'Artemis' by Scott Buckley (CC BY 4.0), original 35.5-80.5 s. Its phrases start at 49.5, 61.5, 73.5 (film 14.0, 26.0, 38.0); the big entry at 73.5 s lands on the name (film 38.0).",
+  "duration": 45.0,
+  "sample_rate": 48000,
+  "tracks": [
+    { "id": "music", "kind": "music", "catalog": "buckley-artemis", "level": "raw",
+      "start": 0.0, "offset": 35.5, "dur": 45.0, "fade_in": 0.6, "fade_out": 2.4, "gain_db": 0 }
+  ]
+}

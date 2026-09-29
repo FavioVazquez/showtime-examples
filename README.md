@@ -9,13 +9,15 @@
 # showtime examples
 
 Twenty-two finished videos made with [showtime](https://github.com/FavioVazquez/showtime), the local video
-studio for Claude Code, plus its launch film. Each one was made by an agent acting as a user, from a single
+studio for your coding agent, plus its launch film and a film about its crew. Each one was made by an agent acting as a user, from a single
 request. Every folder keeps the project sources, the share copy and a README that tells the story: the
 request, the assumptions, the commands, what the critic found and what changed.
 
 **[Open the gallery](examples/README.md)** to browse them by use case, or watch them all play on the
-[showtime site](https://faviovazquez.github.io/showtime/gallery.html). To make your own, install the plugin:
-the [quick start](https://github.com/FavioVazquez/showtime#quick-start) takes two commands in Claude Code.
+[showtime site](https://faviovazquez.github.io/showtime/gallery.html). To make your own, install showtime in
+your agent: the [quick start](https://github.com/FavioVazquez/showtime#quick-start) covers Claude Code, and
+[the agents guide](https://github.com/FavioVazquez/showtime/blob/main/docs/agents.md) covers Codex, Cursor,
+Devin, OpenCode and more.
 
 ## What is here
 
@@ -23,6 +25,7 @@ the [quick start](https://github.com/FavioVazquez/showtime#quick-start) takes tw
 |---|---|
 | [`examples/`](examples/README.md) | the 22 examples, one folder each (`01-launch-tidepool` to `22-manim-circle-area`), and the gallery |
 | [`examples/_launch/`](examples/_launch/README.md) | the 40-second launch film: its teaser loop, poster and credits |
+| [`examples/_crew/`](examples/_crew/README.md) | the 45-second crew film: how the director, the briefs and the critic work, with its project and credits |
 | [`examples/_apps/tidepool/`](examples/_apps/tidepool/README.md) | Tidepool, the fictional notes app several examples record |
 | [`examples/_html/`](examples/_html/README.md) | two templates exported as self-contained HTML videos |
 | [`examples/MEDIA.json`](examples/MEDIA.json) | the videos that are release assets instead of files in git |
@@ -57,7 +60,9 @@ Third-party material keeps its own license: each example credits its sources in 
 (`credits.txt`, and its README), and example 13 is CC BY-SA 4.0 like the Wikipedia article it adapts
 ([its license](examples/13-wikipedia-waggle-dance/LICENSE.txt)). The launch film's music is "With These
 Hands" by Scott Buckley, CC BY 4.0; under the composer's terms it ships only inside the film, never as a
-separate audio file ([credits](examples/_launch/credits.txt)).
+separate audio file ([credits](examples/_launch/credits.txt)). The crew film's music is "Artemis" by Scott
+Buckley, CC BY 4.0, on the same terms; it shows two frames of example 13, whose bee footage is CC BY 3.0
+([credits](examples/_crew/credits.txt)).
 
 Changes and issues about showtime itself belong in the
 [showtime repository](https://github.com/FavioVazquez/showtime/issues).

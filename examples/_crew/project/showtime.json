@@ -1,0 +1,3 @@
+{ "width": 1920, "height": 1080, "fps": 60, "duration": 45, "background": "#15100E",
+  "title": "showtime: the crew", "poster": 31.4, "audio": "audio/mix.json",
+  "chapters": [[0, "The director"], [3.7, "A brief"], [11.8, "One member, alone"], [18.2, "Ten roles"], [25.3, "The critic's catch"], [38.0, "showtime"]] }
