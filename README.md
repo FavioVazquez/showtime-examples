@@ -9,7 +9,7 @@
 # showtime examples
 
 Twenty-two finished videos made with [showtime](https://github.com/FavioVazquez/showtime), the local video
-studio for your coding agent, plus its launch film and a film about its crew. Each one was made by an agent acting as a user, from a single
+studio for your coding agent, plus its 0.3.0 showreel, its launch film and a film about its crew. Each example was made by an agent acting as a user, from a single
 request. Every folder keeps the project sources, the share copy and a README that tells the story: the
 request, the assumptions, the commands, what the critic found and what changed.
 
@@ -24,7 +24,8 @@ Devin, OpenCode and more.
 | Path | What it is |
 |---|---|
 | [`examples/`](examples/README.md) | the 22 examples, one folder each (`01-launch-tidepool` to `22-manim-circle-area`), and the gallery |
-| [`examples/_launch/`](examples/_launch/README.md) | the 40-second launch film: its teaser loop, poster and credits |
+| [`examples/_showreel/`](examples/_showreel/README.md) | the 50-second 0.3.0 showreel: what showtime renders, with its project, teaser loop, poster and credits |
+| [`examples/_launch/`](examples/_launch/README.md) | the 40-second 0.2.0 launch film: its teaser loop, poster and credits |
 | [`examples/_crew/`](examples/_crew/README.md) | the 45-second crew film: how the director, the briefs and the critic work, with its project and credits |
 | [`examples/_apps/tidepool/`](examples/_apps/tidepool/README.md) | Tidepool, the fictional notes app several examples record |
 | [`examples/_html/`](examples/_html/README.md) | two templates exported as self-contained HTML videos |
@@ -58,7 +59,9 @@ commands are documented in its [guides](https://github.com/FavioVazquez/showtime
 The code and text written for these examples are MIT licensed ([LICENSE](LICENSE)), like showtime itself.
 Third-party material keeps its own license: each example credits its sources in its folder
 (`credits.txt`, and its README), and example 13 is CC BY-SA 4.0 like the Wikipedia article it adapts
-([its license](examples/13-wikipedia-waggle-dance/LICENSE.txt)). The launch film's music is "With These
+([its license](examples/13-wikipedia-waggle-dance/LICENSE.txt)). The showreel's music is "Born Of The Sky"
+by Scott Buckley, CC BY 4.0, and its CO2 data is NOAA GML / Scripps (public domain)
+([credits](examples/_showreel/credits.txt)). The launch film's music is "With These
 Hands" by Scott Buckley, CC BY 4.0; under the composer's terms it ships only inside the film, never as a
 separate audio file ([credits](examples/_launch/credits.txt)). The crew film's music is "Artemis" by Scott
 Buckley, CC BY 4.0, on the same terms; it shows two frames of example 13, whose bee footage is CC BY 3.0

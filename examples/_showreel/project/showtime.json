@@ -1,0 +1,14 @@
+{
+  "title": "showtime 0.3.0 showreel",
+  "width": 1920,
+  "height": 1080,
+  "fps": 30,
+  "duration": 50.5,
+  "background": "#0A1224",
+  "poster": 0,
+  "audio": "audio/mix.json",
+  "subtitle": "One sentence in, a finished film out.",
+  "kicker": "showtime 0.3.0",
+  "startTitle": false,
+  "template": "dom"
+}

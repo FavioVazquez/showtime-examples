@@ -1,0 +1,158 @@
+{
+  "version": 1,
+  "file": "vo.wav",
+  "sample_rate": 48000,
+  "duration": 3.429,
+  "lead_in": 0.0,
+  "tail": 0.6,
+  "loudness": -16.4,
+  "script": "narration.md",
+  "lines": [
+    {
+      "id": "voice",
+      "index": 1,
+      "text": "Even this voice was made on the same machine.",
+      "source_text": "Even this voice was made on the same machine.",
+      "voice": "af_heart",
+      "engine": "kokoro",
+      "lang": "en-us",
+      "speed": 0.9,
+      "style": "neutral",
+      "start": 0.0,
+      "end": 2.829,
+      "duration": 2.829,
+      "speech_start": 0.03,
+      "speech_end": 2.46,
+      "pause_after": 0.35,
+      "slot": {
+        "start": 0.0,
+        "end": 3.429,
+        "duration": 3.429
+      },
+      "file": "lines/01-voice.wav",
+      "timing": "exact",
+      "wps": 3.704,
+      "words": [
+        {
+          "text": "Even",
+          "start": 0.03,
+          "end": 0.285,
+          "line": "voice"
+        },
+        {
+          "text": "this",
+          "start": 0.329,
+          "end": 0.491,
+          "line": "voice"
+        },
+        {
+          "text": "voice",
+          "start": 0.55,
+          "end": 0.905,
+          "line": "voice"
+        },
+        {
+          "text": "was",
+          "start": 0.97,
+          "end": 1.086,
+          "line": "voice"
+        },
+        {
+          "text": "made",
+          "start": 1.138,
+          "end": 1.369,
+          "line": "voice"
+        },
+        {
+          "text": "on",
+          "start": 1.426,
+          "end": 1.52,
+          "line": "voice"
+        },
+        {
+          "text": "the",
+          "start": 1.52,
+          "end": 1.591,
+          "line": "voice"
+        },
+        {
+          "text": "same",
+          "start": 1.667,
+          "end": 1.906,
+          "line": "voice"
+        },
+        {
+          "text": "machine.",
+          "start": 1.936,
+          "end": 2.46,
+          "line": "voice"
+        }
+      ]
+    }
+  ],
+  "words": [
+    {
+      "text": "Even",
+      "start": 0.03,
+      "end": 0.285,
+      "line": "voice"
+    },
+    {
+      "text": "this",
+      "start": 0.329,
+      "end": 0.491,
+      "line": "voice"
+    },
+    {
+      "text": "voice",
+      "start": 0.55,
+      "end": 0.905,
+      "line": "voice"
+    },
+    {
+      "text": "was",
+      "start": 0.97,
+      "end": 1.086,
+      "line": "voice"
+    },
+    {
+      "text": "made",
+      "start": 1.138,
+      "end": 1.369,
+      "line": "voice"
+    },
+    {
+      "text": "on",
+      "start": 1.426,
+      "end": 1.52,
+      "line": "voice"
+    },
+    {
+      "text": "the",
+      "start": 1.52,
+      "end": 1.591,
+      "line": "voice"
+    },
+    {
+      "text": "same",
+      "start": 1.667,
+      "end": 1.906,
+      "line": "voice"
+    },
+    {
+      "text": "machine.",
+      "start": 1.936,
+      "end": 2.46,
+      "line": "voice"
+    }
+  ],
+  "captions": {
+    "srt": "vo.srt",
+    "transcript": "vo.words.json",
+    "cues": 2
+  },
+  "build_seconds": 2.79,
+  "lexicon": [
+    "showtime:lib/st/voice/lexicon.json"
+  ]
+}

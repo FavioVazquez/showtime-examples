@@ -1,0 +1,30 @@
+showtime 0.3.0 showreel - credits (keep them in the video description)
+
+MUSIC (attribution required, CC BY 4.0)
+'Born Of The Sky' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
+  License: https://creativecommons.org/licenses/by/4.0/
+  Used: 1:58.49-2:48.99 of the original, faded out over the last 2.6 s, ducked 10 dB under the voice line,
+  mastered with the film to -14 LUFS. No other changes.
+  The composer's own terms (in addition to CC BY 4.0): his music is used only synchronised with other media, as here.
+  It is never distributed as a separate audio file, and it must not be registered with Content ID or any
+  fingerprinting service. It is protected by Smart Content ID: keep this credit in the description on YouTube
+  (see https://www.scottbuckley.com.au/library/copyright-claims-release/).
+
+DATA
+Mauna Loa CO2 annual means, NOAA Global Monitoring Laboratory (Scripps Institution of Oceanography before 1974),
+  https://gml.noaa.gov/ccgg/trends/ (co2_annmean_mlo.csv; US government data, public domain).
+  On screen: 1959 315.98 ppm -> 2025 427.35 ppm, +111.37 ppm. NOAA did not make or endorse this film.
+Globe: Natural Earth (public domain), drawn with d3-geo.
+
+VOICE AND SOUND
+The one voice line ("Even this voice was made on the same machine.") is Kokoro TTS (voice af_heart, Apache 2.0),
+  made on the rendering machine. The four sound effects (a sonar ping, two stamps, a reverse hit) were synthesised
+  by showtime for this film.
+
+TYPE AND BRAND
+Fonts: Bricolage Grotesque and Martian Mono (SIL Open Font License 1.1; Martian Mono ships in project/fonts/ with
+  its license). The wordmark: the showtime brand SVG (assets/brand/LICENSE.md), recoloured for this film.
+
+Every picture in the film was made by showtime for this film: kinetic type, a three.js scene, a chart, a Manim
+clip (project/manim/), a phone mock-up with a live chart, and frames of the film itself in the checks and closing
+shots. Made with showtime 0.3.0.

@@ -1,0 +1,28 @@
+{
+ "rows": [
+  {
+   "k": "showtime check",
+   "v": "0 errors"
+  },
+  {
+   "k": "phone check",
+   "v": "PASS"
+  },
+  {
+   "k": "reading time",
+   "v": "every line"
+  },
+  {
+   "k": "loudness",
+   "v": "-14.0 LUFS"
+  },
+  {
+   "k": "true peak",
+   "v": "-1.5 dBTP"
+  },
+  {
+   "k": "critic round 1",
+   "v": "notes fixed"
+  }
+ ]
+}

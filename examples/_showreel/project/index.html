@@ -1,0 +1,331 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>showtime 0.3.0 showreel</title>
+<script src="/_st/stage.js"></script>
+<link rel="stylesheet" href="/_st/themes/base.css">
+<link rel="stylesheet" href="/_lib/@fontsource-variable/bricolage-grotesque/standard.css">
+<link rel="stylesheet" href="fonts/martian-mono/font.css">
+<script type="module" src="/_st/components/index.js"></script>
+<style>
+  /* ============================================================================================
+     showtime 0.3.0 showreel. One palette: deep ink + ice + acid mint (see ../README.md).
+     Grammar (from the style reference, grammar only): beat-cut shots on a 119.7 BPM grid, one
+     beat run, 3-5 s showcase holds, a persistent HUD naming what each shot uses.
+     ============================================================================================ */
+  :root {
+    --ground: #0A1224; --ink: #E6EEF8; --mint: #7BF5C0; --muted: #8C9AB3; --surface: #111C35;
+    --ice: #E6EEF8; --ice-muted: #4A5872;
+    /* theme contract for the components */
+    --bg: var(--ground); --fg: var(--ink); --accent: var(--mint); --accent-2: var(--mint); --accent-ink: var(--ground);
+    --surface-2: #18264A; --border: rgb(230 238 248 / 0.12); --stroke: 2px; --radius: 1cqmin; --radius-lg: 1.6cqmin;
+    --font-display: 'Bricolage Grotesque Variable', sans-serif; --font-body: 'Bricolage Grotesque Variable', sans-serif;
+    --font-mono: 'Martian Mono', monospace; --weight-display: 700; --weight-body: 420;
+    --tracking-display: -0.03em; --leading-display: 1.0; --safe-x: 5cqw; --safe-y: 5cqh;
+    --cap-font: 'Bricolage Grotesque Variable', sans-serif; --cap-weight: 700; --cap-ink: #E6EEF8;
+    --cap-accent: #7BF5C0; --cap-outline: #0A1224; --cap-active-ink: #0A1224; --cap-plate: rgb(10 18 36 / 0.8);
+    --chart-muted: color-mix(in oklab, #E6EEF8 30%, transparent);
+    --map-water: #12203D; --map-land: #4E6696;
+    color-scheme: dark;
+  }
+  .stage { background: var(--ground); }
+  .scene { background: var(--ground); padding: 0; }
+  .scene:not(.tone-ice):not(.tone-mint)::before { content: ''; position: absolute; inset: 0; pointer-events: none;
+    background: radial-gradient(60% 70% at 88% 12%, rgb(123 245 192 / 0.07), transparent 70%),
+                radial-gradient(70% 80% at 6% 100%, rgb(96 132 210 / 0.13), transparent 70%); }
+  .tone-ice { background: var(--ice); color: var(--ground); }
+  .tone-mint { background: var(--mint); color: var(--ground); }
+  .cam { position: absolute; inset: 0; }
+  .mono { font-family: var(--font-mono); }
+  .display { font-family: var(--font-display); }
+  .kicker { font: 500 2.4cqh/1.2 var(--font-mono); letter-spacing: 0.08em; text-transform: uppercase; margin: 0; }
+  .tone-ice .kicker { color: var(--ice-muted); }
+
+  /* ---------- 01 the brief */
+  .brief { position: absolute; left: 8cqw; right: 8cqw; top: 16.5cqh; }
+  .brief .kicker { margin-bottom: 8.6cqh; }
+  .brief-line { font: 660 12cqh/1.02 var(--font-display); letter-spacing: -0.035em; margin: 0; color: var(--ground); max-width: 17em; }
+  .brief-line .tagged { position: relative; display: inline-block; }
+  .chips { position: absolute; left: 0; top: 0; width: 0; height: 0; }
+  .chip { position: absolute; left: 0; top: 0; white-space: nowrap;
+    font: 500 3.3cqh/1 var(--font-mono); letter-spacing: 0; padding: 1.1cqh 1.3cqh; border-radius: 0.7cqh;
+    background: var(--ground); color: var(--ice); opacity: 0; }
+  .chip i { font-style: normal; color: var(--mint); }
+  .brief-line .hl { background: linear-gradient(var(--mint), var(--mint)) no-repeat 0 88% / 0% 34%; }
+
+  /* ---------- 01b the plan, drawn under the brief */
+  .plan { position: absolute; left: 8cqw; right: 8cqw; top: 60cqh; }
+  .plan-row { display: flex; justify-content: space-between; margin: 0 0 2.2cqh; }
+  .plan-lab { margin: 0; font: 500 2.7cqh/1.2 var(--font-mono); color: var(--ice-muted); }
+  .plan-lab b { color: var(--ground); font-weight: 600; }
+  .timeline { position: relative; height: 8.5cqh; }
+  .timeline .blk { position: absolute; top: 0; bottom: 0; border-radius: 0.4cqh; background: color-mix(in oklab, var(--ground) 88%, var(--ice)); transform-origin: 0 50%; }
+  .timeline .blk.hold { background: var(--mint); box-shadow: inset 0 0 0 2px color-mix(in oklab, var(--ground) 35%, transparent); }
+  .timeline .bars { position: absolute; left: 0; right: 0; top: 10cqh; height: 2cqh; }
+  .timeline .bars i { position: absolute; top: 0; width: 2px; height: 1.1cqh; background: var(--ground); opacity: 0.45; }
+  .timeline .bars i.phrase { height: 2cqh; opacity: 0.9; }
+  .timeline .head { position: absolute; top: -2.4cqh; bottom: -3.6cqh; width: 4px; margin-left: -2px; background: var(--ground); }
+
+  /* ---------- 03-08 the run: one word per beat */
+  .word { position: absolute; inset: 0; display: grid; place-items: center; }
+  .big { font-family: var(--font-display); font-size: 31cqh; line-height: 0.9; letter-spacing: -0.04em; margin: 0; white-space: nowrap; }
+  #w-type .big { color: var(--ink); }
+  .depth { position: relative; font-weight: 800; color: var(--ground); }
+  .bars-word { display: flex; align-items: flex-end; position: relative; }
+  .bars-word span { position: relative; display: inline-block; font-weight: 800; color: var(--ink); --bar: 0; }
+  .bars-word span::before { content: ''; position: absolute; left: 12%; right: 12%; bottom: 3.8cqh; height: 34cqh; background: color-mix(in oklab, var(--mint) 30%, var(--ground)); transform-origin: 50% 100%; transform: scaleY(var(--bar)); z-index: -1; border-radius: 0.6cqh 0.6cqh 0 0; }
+  .bars-word { isolation: isolate; }
+  .bars-word .base { position: absolute; left: -2cqw; right: -2cqw; bottom: 3.2cqh; height: 0.6cqh; background: var(--mint); transform-origin: 0 50%; }
+  .metric { position: relative; font-family: var(--font-mono); font-weight: 800; font-size: 25cqh; letter-spacing: -0.02em; color: var(--ground); }
+  .guides { position: absolute; left: 0; right: 0; top: 0; bottom: 0; pointer-events: none; }
+  .guides i { position: absolute; left: 0; right: 0; height: 2px; background: var(--ground); opacity: 0.5; transform-origin: 0 50%; }
+    .wave-word span { display: inline-block; font-weight: 760; color: var(--ink); }
+  .wave-line { position: absolute; left: 20cqw; right: 20cqw; top: 70cqh; height: 10cqh; overflow: visible; }
+  .proof { display: flex; align-items: center; gap: 4cqh; color: var(--ground); }
+  .proof svg { width: 24cqh; height: 24cqh; overflow: visible; }
+
+  /* ---------- 09 type showcase */
+  .show { position: absolute; left: 8cqw; right: 8cqw; top: 25cqh; }
+  .show-line { font: 700 13.5cqh/1.02 var(--font-display); letter-spacing: -0.035em; margin: 0; color: var(--ink); }
+  .show-line span { display: inline-block; white-space: pre; }
+  .show-line .m { color: var(--mint); }
+  .show-sub { margin: 4.6cqh 0 0; font: 450 2.6cqh/1.3 var(--font-mono); color: var(--muted); }
+  .show-sub b { color: var(--ink); font-weight: 500; }
+  .scrub { position: absolute; left: 8cqw; right: 8cqw; top: 76cqh; height: 2px; background: color-mix(in oklab, var(--ink) 18%, transparent); }
+  .scrub i { position: absolute; top: -1.1cqh; width: 3px; height: 2.4cqh; background: var(--mint); }
+  .scrub b { position: absolute; top: 2.2cqh; font: 500 2.4cqh/1 var(--font-mono); color: var(--muted); transform: translateX(-50%); white-space: nowrap; }
+
+  /* ---------- 10-11 three.js */
+  #gl { position: absolute; inset: 0; width: 100%; height: 100%; display: block; }
+
+  /* ---------- 12 data */
+  .chart-box { position: absolute; left: 9cqw; right: 11cqw; top: 15cqh; bottom: 17cqh; }
+  .chart-box .st-chart-title { font-size: 6.4cqh; }
+
+  /* ---------- 13 globe */
+  .globe { position: absolute; left: 50%; top: 50%; width: 80cqh; height: 80cqh; translate: -50% -52%; }
+  .globe .st-map-label { font: 600 28px var(--font-mono); fill: var(--ink); stroke: var(--ground); stroke-width: 6px; }
+  .globe .st-map-graticule { stroke: color-mix(in oklab, var(--mint) 30%, transparent); stroke-width: 1; }
+  .globe .st-map-sphere { stroke: color-mix(in oklab, var(--mint) 55%, transparent); stroke-width: 2; }
+  .globe .st-map-dot { r: 9; }
+
+  /* ---------- 14 code */
+  .code { position: absolute; left: 50%; top: 50%; width: 74cqw; height: 58cqh; translate: -50% -50%; --code-size: 2.6cqh; }
+
+  /* ---------- 15 phone */
+  .phone { position: absolute; left: 50%; top: 14cqh; height: 70cqh; translate: -50% 0; width: 42cqh; }
+  .mini { position: absolute; inset: 0; background: var(--ground); display: flex; flex-direction: column; justify-content: flex-end; padding: 0 9cqw 16cqw; gap: 6cqw; }
+  .mini h3 { margin: 0; font: 760 34cqw/0.9 var(--font-display); letter-spacing: -0.04em; color: var(--ink); }
+  .mini-bars { display: flex; align-items: flex-end; gap: 3cqw; height: 70cqw; }
+  .mini-bars i { flex: 1; height: 100%; background: var(--mint); border-radius: 1.2cqw; transform-origin: 50% 100%; }
+
+  /* ---------- 16 sfx */
+  .sfx-svg { position: absolute; left: 8cqw; right: 8cqw; top: 22cqh; height: 56cqh; overflow: visible; }
+
+  /* ---------- 18 voice */
+  .vwave { position: absolute; left: 10cqw; right: 10cqw; top: 22cqh; height: 30cqh; overflow: visible; }
+  .voice-cap { --cap-font: 'Bricolage Grotesque Variable', sans-serif; }
+
+  /* ---------- 19 checks */
+  .chk-head { position: absolute; left: 8cqw; top: 15.5cqh; font: 700 7cqh/1 var(--font-display); letter-spacing: -0.035em; margin: 0; }
+  .thumbs { position: absolute; left: 8cqw; top: 29cqh; width: 47cqw; display: grid; grid-template-columns: repeat(6, 1fr); gap: 0.8cqh; }
+  .thumbs .th { position: relative; aspect-ratio: 16/9; background: var(--surface); border-radius: 0.4cqh; overflow: hidden; }
+  .thumbs .th img { width: 100%; height: 100%; object-fit: cover; display: block; }
+  .thumbs .th b { position: absolute; right: 0.5cqh; top: 0.5cqh; width: 1.6cqh; height: 1.6cqh; border-radius: 50%; background: var(--mint); box-shadow: 0 0 0 0.35cqh var(--ground); }
+  .scan { position: absolute; top: 27.5cqh; height: 45cqh; width: 3px; background: var(--mint); box-shadow: 0 0 3cqh var(--mint); }
+  .rows { position: absolute; left: 59cqw; right: 6cqw; top: 29cqh; display: flex; flex-direction: column; gap: 2.3cqh; }
+  .row { display: flex; align-items: baseline; gap: 1.6cqh; font: 450 3cqh/1.1 var(--font-mono); color: var(--muted); }
+  .row .k { flex: none; }
+  .row .dots { flex: 1; border-bottom: 2px dotted color-mix(in oklab, var(--muted) 55%, transparent); transform: translateY(-0.35em); }
+  .row .v { color: var(--ink); font-weight: 600; }
+  .row .ok { width: 2.6cqh; height: 2.6cqh; flex: none; align-self: center; }
+
+  /* ---------- 20 receipt */
+  .rc-head { position: absolute; left: 8cqw; top: 30cqh; width: 36cqw; font: 700 8.6cqh/1.0 var(--font-display); letter-spacing: -0.035em; margin: 0; }
+  .rc-head em { font-style: normal; color: var(--mint); }
+  .rc-sub { position: absolute; left: 8cqw; top: 62cqh; font: 450 2.5cqh/1.35 var(--font-mono); color: var(--muted); margin: 0; }
+  .slot { position: absolute; left: 50cqw; width: 42cqw; top: 15cqh; height: 1.6cqh; border-radius: 0.8cqh; background: #050A15; box-shadow: inset 0 0.4cqh 0.8cqh rgb(0 0 0 / 0.6); }
+  .paper-clip { position: absolute; left: 51.5cqw; width: 39cqw; top: 16cqh; bottom: 0; overflow: hidden; }
+  .paper { position: absolute; left: 0; right: 0; top: 0; background: var(--ice); color: var(--ground); padding: 3.6cqh 3.2cqh 5cqh;
+    font: 450 2.8cqh/1 var(--font-mono);
+    -webkit-mask: linear-gradient(#000, #000) top / 100% calc(100% - 1.6cqh) no-repeat, conic-gradient(from -45deg at bottom, #0000, #000 1deg 89deg, #0000 90deg) bottom / 3.2cqh 1.6cqh repeat-x; }
+  .paper h4 { margin: 0 0 0.8cqh; font: 700 3cqh/1 var(--font-mono); letter-spacing: 0.12em; }
+  .paper .meta { color: var(--ice-muted); margin: 0 0 1.8cqh; font-size: 2.4cqh; }
+  .paper .rule { border-top: 2px dashed color-mix(in oklab, var(--ground) 45%, transparent); margin: 1.4cqh 0; }
+  .paper .ln { display: flex; gap: 1cqh; padding: 1.05cqh 0; }
+  .paper .ln .k { flex: none; }
+  .paper .ln .d { flex: 1; border-bottom: 2px dotted color-mix(in oklab, var(--ground) 35%, transparent); transform: translateY(-0.3em); }
+  .paper .ln .v { font-weight: 650; }
+  .paper .ln.zero .v { background: var(--mint); padding: 0.2cqh 0.7cqh; margin: -0.2cqh -0.7cqh; }
+  .paper .foot { margin-top: 1.4cqh; color: var(--ice-muted); font-size: 2.4cqh; line-height: 1.35; }
+
+  /* ---------- 21 closure */
+  .close-head { position: absolute; left: 8cqw; top: 14cqh; font: 700 10cqh/1.02 var(--font-display); letter-spacing: -0.035em; margin: 0; color: var(--ground); }
+  .close-head .l2 { display: block; }
+  .close-head em { font-style: normal; background: linear-gradient(var(--mint), var(--mint)) no-repeat 0 90% / 0% 36%; }
+  .strip { position: absolute; left: 0; top: 55cqh; height: 30cqh; width: 400cqw; background: var(--ground); }
+  .strip .rowdots { position: absolute; left: 0; right: 0; height: 2cqh; background: radial-gradient(circle, var(--ice) 0.55cqh, transparent 0.6cqh) 0 50% / 3.2cqh 2cqh repeat-x; opacity: 0.85; }
+  .strip .rowdots.t { top: 0.8cqh; } .strip .rowdots.b { bottom: 0.8cqh; }
+  .strip .frames { position: absolute; left: 0; top: 4cqh; bottom: 4cqh; display: flex; gap: 1cqh; }
+  .strip .frames img { height: 100%; aspect-ratio: 16/9; object-fit: cover; border-radius: 0.3cqh; display: block; }
+
+  /* ---------- 22 end card */
+  .end { position: absolute; inset: 0; }
+  .wm { position: absolute; left: 50%; top: 31cqh; width: 60cqw; translate: -50% 0; overflow: visible; }
+  .wm path { fill: var(--ink); stroke: var(--mint); stroke-width: 4; stroke-linejoin: round; }
+  .wm-push { position: absolute; inset: 0; transform-origin: 50% 42%; }
+  .wm-bar { position: absolute; left: 20cqw; top: 55.5cqh; width: 60cqw; height: 0.9cqh; background: var(--mint); transform-origin: 0 50%; }
+  .promise { position: absolute; left: 0; right: 0; top: 62cqh; text-align: center; font: 560 4.4cqh/1.2 var(--font-display); letter-spacing: -0.02em; margin: 0; color: var(--ink); }
+  .promise em { font-style: normal; color: var(--mint); }
+  .url { position: absolute; left: 0; right: 0; top: 72cqh; text-align: center; font: 500 2.9cqh/1 var(--font-mono); color: var(--ink); margin: 0; }
+  .url span { color: var(--muted); }
+  .credit { position: absolute; left: 0; right: 0; top: 79.5cqh; text-align: center; font: 450 2.45cqh/1.3 var(--font-mono); color: color-mix(in oklab, var(--ink) 78%, var(--ground)); margin: 0; }
+
+  /* ---------- HUD: persistent frame + mono labels, coloured per ground */
+  .hud { position: absolute; inset: 0; z-index: 100; pointer-events: none; --h: var(--ink); --hm: var(--muted); color: var(--h); }
+  .hud.on-light { --h: var(--ground); --hm: var(--ice-muted); }
+  .hud::before, .hud::after { content: ''; position: absolute; left: 0; right: 0; pointer-events: none; }
+  .hud::before { top: 0; height: 15cqh; background: linear-gradient(var(--scrim), transparent); }
+  .hud::after { bottom: 0; height: 19cqh; background: linear-gradient(transparent, var(--scrim)); }
+  .hud { --scrim: rgb(10 18 36 / 0.85); }
+  .hud.on-light { --scrim: rgb(230 238 248 / 0); }
+  .hud .fr { position: absolute; inset: 4.2cqh 2.4cqw; border: 1.5px solid color-mix(in oklab, var(--h) 16%, transparent); }
+  .hud .c { position: absolute; width: 2.6cqh; height: 2.6cqh; border: 0 solid var(--h); }
+  .hud .c.tl { left: 2.4cqw; top: 4.2cqh; border-width: 3px 0 0 3px; } .hud .c.tr { right: 2.4cqw; top: 4.2cqh; border-width: 3px 3px 0 0; }
+  .hud .c.bl { left: 2.4cqw; bottom: 4.2cqh; border-width: 0 0 3px 3px; } .hud .c.br { right: 2.4cqw; bottom: 4.2cqh; border-width: 0 3px 3px 0; }
+  .hud .lab { position: absolute; font: 500 2.4cqh/1 var(--font-mono); letter-spacing: 0.06em; color: var(--hm); white-space: nowrap; }
+  .hud .lab b { color: var(--h); font-weight: 600; }
+  .hud .tl-l { left: 5.2cqw; top: 6.6cqh; }
+  .hud .tr-l { right: 5.2cqw; top: 6.6cqh; text-align: right; font-variant-numeric: tabular-nums; }
+  .hud .bl-l { left: 5.2cqw; bottom: 8.6cqh; font-size: 2.8cqh; letter-spacing: 0.02em; color: var(--h); display: flex; align-items: baseline; gap: 1.4cqh; }
+  .hud .bl-l .dot { align-self: center; }
+  .hud .bl-l .n { color: var(--hm); font-variant-numeric: tabular-nums; }
+  .hud .bl-l .dot { width: 1.3cqh; height: 1.3cqh; border-radius: 50%; background: var(--mint); box-shadow: 0 0 0 0.3cqh color-mix(in oklab, var(--h) 18%, transparent); }
+  .hud.on-mint .bl-l .dot { background: var(--ground); }
+  .hud .br-l { right: 5.2cqw; bottom: 8.6cqh; text-align: right; font-size: 2.8cqh; letter-spacing: 0.02em; }
+  .hud .pips { position: absolute; left: 50%; top: 6.6cqh; translate: -50% 0; display: flex; gap: 0.9cqh; align-items: center; }
+  .hud .pips i { width: 1.1cqh; height: 1.1cqh; border-radius: 50%; border: 2px solid var(--hm); }
+  .hud .pips i.on { background: var(--h); border-color: var(--h); }
+  .hud .pips span { font: 500 2.4cqh/1 var(--font-mono); color: var(--hm); margin-left: 0.8cqh; letter-spacing: 0.06em; font-variant-numeric: tabular-nums; }
+</style>
+</head>
+<body>
+<div class="stage">
+
+  <!-- 01 THE BRIEF: complete at frame 0 (the poster); tags land on the beats; the plan draws on under it -->
+  <section class="scene tone-ice" id="s01" data-start="0" data-dur="4">
+    <div class="cam" data-st="camera" data-path='[{"at":0,"zoom":1},{"at":0.2,"dur":3.8,"zoom":1.035,"focus":[42,50],"to":"stay","ease":"sine.inOut"}]'>
+      <div class="brief">
+        <p class="kicker">a brief for showtime</p>
+        <h1 class="brief-line">Make a <span class="tagged" data-tag="c1">fifty-second</span> <span class="tagged" data-tag="c2">film</span> of <span class="hl">everything you can <span class="tagged" data-tag="c3">render</span></span>.</h1>
+        <div class="chips"><span class="chip" id="c1" data-at="0.5">50.5 s <i>·</i> 1,515 frames</span><span class="chip" id="c2" data-at="1.0">20 shots</span><span class="chip" id="c3" data-at="2.0">one machine <i>·</i> 0 uploads</span></div>
+      </div>
+      <div class="plan"><div class="plan-row"><p class="plan-lab"><b>the plan</b></p><p class="plan-lab bpm">119.7 bpm</p></div>
+        <div class="timeline" id="timeline"><div class="bars"></div><div class="head"></div></div></div>
+    </div>
+  </section>
+
+  <!-- 03-08 THE RUN: six words, six treatments, one per beat -->
+  <section class="scene" id="s03" data-start="4" data-dur="0.5"><div class="word" id="w-type"><p class="big">Type</p></div></section>
+  <section class="scene tone-ice" id="s04" data-start="4.5" data-dur="0.5"><div class="word" id="w-depth"><p class="big depth">Depth</p></div></section>
+  <section class="scene" id="s05" data-start="5" data-dur="0.5"><div class="word" id="w-data"><p class="big bars-word"><i class="base"></i></p></div></section>
+  <section class="scene tone-mint" id="s06" data-start="5.5" data-dur="0.5"><div class="word" id="w-math"><p class="metric">Math<span class="guides" data-st-decor></span></p></div></section>
+  <section class="scene" id="s07" data-start="6" data-dur="0.5"><div class="word" id="w-voice"><p class="big wave-word"></p><svg class="wave-line" viewBox="0 0 1000 100" preserveAspectRatio="none"><path fill="none" stroke="#7BF5C0" stroke-width="4" stroke-linecap="round"/></svg></div></section>
+  <section class="scene tone-ice" id="s08" data-start="6.5" data-dur="0.5"><div class="word" id="w-proof"><div class="proof"><svg viewBox="0 0 100 100"><rect x="6" y="6" width="88" height="88" rx="16" fill="#7BF5C0" stroke="#0A1224" stroke-width="6"/><path class="tick" d="M26 52 L44 69 L76 32" fill="none" stroke="#0A1224" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/></svg><p class="big" style="font-weight:800">Proof</p></div></div></section>
+
+  <!-- 09 TYPE SHOWCASE: weight wave, pure function of t -->
+  <section class="scene" id="s09" data-start="7" data-dur="3">
+    <div class="show">
+      <h2 class="show-line" id="showline"></h2>
+      <p class="show-sub" id="showsub">ST.seek(t): same t, same frame.</p>
+    </div>
+    <div class="scrub" id="scrub"><i></i><b></b></div>
+  </section>
+
+  <!-- 10-11 THREE.JS: points assemble into a Möbius film strip; a second camera at 14.0 -->
+  <section class="scene" id="s10" data-start="10" data-dur="5.5">
+    <canvas id="gl" width="1920" height="1080"></canvas>
+  </section>
+
+  <!-- 12 DATA: the Keeling curve, labels stay lit, the callout carries its year -->
+  <section class="scene" id="s12" data-start="15.5" data-dur="4.5" data-transition="domain-warp 0.75">
+    <div class="cam" data-st="camera" data-path='[{"at":0,"zoom":1},{"at":2.4,"dur":2.1,"zoom":1.04,"focus":[80,40],"to":"stay","ease":"sine.inOut"}]'>
+      <div class="chart-box" data-st="chart" data-type="line" data-src="data/co2.json" data-at="0.55" data-draw="1.3"></div>
+    </div>
+  </section>
+
+  <!-- 13-15 BREADTH RUN: short-short-long -->
+  <section class="scene" id="s13" data-start="20" data-dur="1">
+    <div class="globe" data-st="world-map" data-projection="orthographic" data-graticule="true" data-spin="36"
+         data-camera='[{"at":0,"center":[-176,16],"zoom":1}]'
+         data-markers='[{"at":0.15,"lon":-155.58,"lat":19.54}]'></div>
+  </section>
+  <section class="scene tone-ice" id="s15" data-start="21" data-dur="1.5">
+    <div class="phone" data-st="device-frame" data-model="phone" data-enter="none" data-drift="none">
+      <div class="mini"><div class="mini-bars"><i></i><i></i><i></i><i></i><i></i></div></div>
+    </div>
+  </section>
+  <section class="scene" id="s16" data-start="22.5" data-dur="1.5">
+    <svg class="sfx-svg" id="sfx" viewBox="0 0 1000 400" preserveAspectRatio="none"></svg>
+  </section>
+
+  <!-- 17 MANIM: halves, one tile per beat (rendered by showtime manim, shown as its 120 frames) -->
+  <section class="scene" id="s17" data-start="24" data-dur="4">
+    <img id="halves" src="media/halves/f000.jpg" alt="" style="position:absolute;inset:0;width:100%;height:100%;display:block">
+  </section>
+
+  <!-- 18 VOICE: Kokoro line, waveform + word-synced captions -->
+  <section class="scene" id="s18" data-start="28" data-dur="4">
+    <svg class="vwave" id="vwave" viewBox="0 0 1000 300" preserveAspectRatio="none"></svg>
+    <div class="voice-cap" data-st="caption-karaoke" data-src="voice/vo.words.json" data-at="0.25" data-style="clean-pop" data-position="lower" data-size="1.25" data-hold-last="1.2" data-emphasis="machine"></div>
+  </section>
+
+  <!-- 19 CHECKS: this film's frames, inspected; values from its own check/qa/critic -->
+  <section class="scene" id="s19" data-start="32" data-dur="4" data-transition="blur-dissolve 0.5">
+    <h2 class="chk-head">Checked before you see it.</h2>
+    <div class="thumbs" id="thumbs"></div>
+    <i class="scan" id="scan"></i>
+    <div class="rows" id="rows"></div>
+  </section>
+
+  <!-- 20 RECEIPT: the film's own receipt prints -->
+  <section class="scene" id="s20" data-start="36" data-dur="4">
+    <h2 class="rc-head">Every film comes with a <em>receipt</em>.</h2>
+    <p class="rc-sub">showtime receipt &lt;job&gt;</p>
+    <div class="slot"></div>
+    <div class="paper-clip"><div class="paper" id="paper"></div></div>
+  </section>
+
+  <!-- 21 CLOSURE: one sentence in, this film out -->
+  <section class="scene tone-ice" id="s21" data-start="40" data-dur="4">
+    <h2 class="close-head"><span class="l1">One sentence in.</span><span class="l2">A finished <em>film</em> out.</span></h2>
+    <div class="strip" id="strip"><i class="rowdots t"></i><div class="frames" id="stripframes"></div><i class="rowdots b"></i></div>
+  </section>
+
+  <!-- 22 END CARD: the wordmark lands on the last drum hit (46.0) -->
+  <section class="scene" id="s22" data-start="44" data-dur="6.5">
+    <div class="end">
+      <div class="wm-push" id="wmpush"><svg class="wm" id="wm" viewBox="-14.10 -171.00 1030.30 193.80"></svg>
+      <i class="wm-bar" id="wmbar"></i></div>
+      <p class="promise" id="promise">Describe a video. Your agent directs. <em>Your machine renders.</em></p>
+      <p class="url" id="url">github.com/FavioVazquez/showtime <span>· open source, MIT</span></p>
+      <p class="credit" id="credit" data-credit>Music: “Born Of The Sky”, Scott Buckley (CC BY 4.0) · Data: NOAA GML / Scripps</p>
+    </div>
+  </section>
+
+  <!-- HUD: after every scene so no transition touches it -->
+  <div class="hud" id="hud">
+    <i class="fr"></i><i class="c tl"></i><i class="c tr"></i><i class="c bl"></i><i class="c br"></i>
+    <p class="lab tl-l"><b>SHOWTIME 0.3.0</b> · SHOWREEL</p>
+    <div class="pips" id="pips"><i></i><i></i><i></i><i></i><span></span></div>
+    <p class="lab tr-l" id="tc"></p>
+    <p class="lab bl-l"><span class="n" id="shotn"></span><i class="dot"></i><span id="uses"></span></p>
+    <p class="lab br-l">1080p30 · <b>rendered locally</b></p>
+  </div>
+</div>
+
+<script type="module" src="app.js"></script>
+<script type="module" src="three-strip.js"></script>
+</body>
+</html>

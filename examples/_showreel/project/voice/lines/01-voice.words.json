@@ -1,0 +1,62 @@
+{
+  "source": "01-voice.wav",
+  "duration": 2.829,
+  "language": "en",
+  "model": "kokoro-v1.0-timestamped-fp16.onnx",
+  "words": [
+    {
+      "text": "Even",
+      "start": 0.03,
+      "end": 0.285,
+      "type": "word"
+    },
+    {
+      "text": "this",
+      "start": 0.329,
+      "end": 0.491,
+      "type": "word"
+    },
+    {
+      "text": "voice",
+      "start": 0.55,
+      "end": 0.905,
+      "type": "word"
+    },
+    {
+      "text": "was",
+      "start": 0.97,
+      "end": 1.086,
+      "type": "word"
+    },
+    {
+      "text": "made",
+      "start": 1.138,
+      "end": 1.369,
+      "type": "word"
+    },
+    {
+      "text": "on",
+      "start": 1.426,
+      "end": 1.52,
+      "type": "word"
+    },
+    {
+      "text": "the",
+      "start": 1.52,
+      "end": 1.591,
+      "type": "word"
+    },
+    {
+      "text": "same",
+      "start": 1.667,
+      "end": 1.906,
+      "type": "word"
+    },
+    {
+      "text": "machine.",
+      "start": 1.936,
+      "end": 2.46,
+      "type": "word"
+    }
+  ]
+}

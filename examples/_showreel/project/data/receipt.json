@@ -1,0 +1,36 @@
+{
+ "title": "SHOWTIME RECEIPT",
+ "meta": "showreel-030 · showtime 0.3.0",
+ "lines": [
+  {
+   "k": "frames",
+   "v": "1,515"
+  },
+  {
+   "k": "shots",
+   "v": "20"
+  },
+  {
+   "k": "length",
+   "v": "0:50.5"
+  },
+  {
+   "k": "full render",
+   "v": "about 1 min"
+  },
+  {
+   "k": "cores",
+   "v": "64"
+  },
+  {
+   "k": "voice",
+   "v": "kokoro, local"
+  },
+  {
+   "k": "uploads",
+   "v": "0",
+   "zero": true
+  }
+ ],
+ "foot": "Music: Scott Buckley, CC BY 4.0 · data: NOAA GML"
+}

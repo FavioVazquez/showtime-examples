@@ -16,10 +16,10 @@
     "url_pattern": "https://github.com/{repo}/releases/download/{tag}/{asset}"
   },
   "summary": {
-    "release_files": 39,
-    "release_bytes": 750441446,
-    "git_files": 976,
-    "git_bytes": 201439418
+    "release_files": 41,
+    "release_bytes": 803505104,
+    "git_files": 1178,
+    "git_bytes": 216919407
   },
   "files": [
     {
@@ -293,6 +293,20 @@
       "bytes": 64824167,
       "sha256": "f149b1cc78238e3532ae425d1f750f9692b05d5be6395fec981412198a114357",
       "asset": "_launch--launch-9x16.mp4",
+      "reason": "over 10 MB"
+    },
+    {
+      "path": "examples/_showreel/showreel-16x9.html",
+      "bytes": 11703950,
+      "sha256": "d1463dac8867642615185c87ad5c63cc35de4d206134adc8579b9cba6f50d222",
+      "asset": "_showreel--showreel-16x9.html",
+      "reason": "over 10 MB"
+    },
+    {
+      "path": "examples/_showreel/showreel-16x9.mp4",
+      "bytes": 41359708,
+      "sha256": "9ca41d63a004e6b6f0273ce74cd2aeb0b76cb94b0530ba47d0787fc9ee0c3458",
+      "asset": "_showreel--showreel-16x9.mp4",
       "reason": "over 10 MB"
     }
   ]

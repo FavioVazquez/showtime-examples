@@ -1,0 +1,241 @@
+{
+  "id": "martian-mono",
+  "family": "Martian Mono",
+  "category": "monospace",
+  "version": "5.3.0",
+  "license": "OFL-1.1",
+  "type": "google",
+  "source": "https://github.com/google/fonts",
+  "axes": {
+    "wdth": {
+      "default": "100",
+      "min": "75",
+      "max": "112.5",
+      "step": "0.1"
+    },
+    "wght": {
+      "default": "400",
+      "min": "100",
+      "max": "800",
+      "step": "1"
+    }
+  },
+  "subsets": [
+    "latin"
+  ],
+  "weights": [
+    100,
+    200,
+    300,
+    400,
+    500,
+    600,
+    700,
+    800
+  ],
+  "styles": [
+    "normal"
+  ],
+  "files": [
+    {
+      "file": "martian-mono-latin-100-normal.ttf",
+      "weight": 100,
+      "style": "normal",
+      "subset": "latin",
+      "format": "ttf",
+      "variable": false,
+      "url": "https://cdn.jsdelivr.net/fontsource/fonts/martian-mono@5.3.0/latin-100-normal.ttf",
+      "sha256": "0f1666aa071824f1cfae76074cef3774e028c67347e15fbdc21d8b61ad312160",
+      "bytes": 24244,
+      "renamed": true
+    },
+    {
+      "file": "martian-mono-latin-100-normal.woff2",
+      "weight": 100,
+      "style": "normal",
+      "subset": "latin",
+      "format": "woff2",
+      "variable": false,
+      "url": "https://cdn.jsdelivr.net/fontsource/fonts/martian-mono@5.3.0/latin-100-normal.woff2",
+      "sha256": "ee7f485959992304f0cd538d509ab777c5955ed933eacc1a54731376377d7aed",
+      "bytes": 10412
+    },
+    {
+      "file": "martian-mono-latin-200-normal.ttf",
+      "weight": 200,
+      "style": "normal",
+      "subset": "latin",
+      "format": "ttf",
+      "variable": false,
+      "url": "https://cdn.jsdelivr.net/fontsource/fonts/martian-mono@5.3.0/latin-200-normal.ttf",
+      "sha256": "f399ea435b19253d048911885ad30055a23c48a2212960477d4721d91ca1ae00",
+      "bytes": 24292,
+      "renamed": true
+    },
+    {
+      "file": "martian-mono-latin-200-normal.woff2",
+      "weight": 200,
+      "style": "normal",
+      "subset": "latin",
+      "format": "woff2",
+      "variable": false,
+      "url": "https://cdn.jsdelivr.net/fontsource/fonts/martian-mono@5.3.0/latin-200-normal.woff2",
+      "sha256": "5bea39c5a210d270cda963776da3217bc33135a0c8445e6ee3eeedf6bcd50d67",
+      "bytes": 10492
+    },
+    {
+      "file": "martian-mono-latin-300-normal.ttf",
+      "weight": 300,
+      "style": "normal",
+      "subset": "latin",
+      "format": "ttf",
+      "variable": false,
+      "url": "https://cdn.jsdelivr.net/fontsource/fonts/martian-mono@5.3.0/latin-300-normal.ttf",
+      "sha256": "3d415384a6890e5908c213268cfe31763e5d9d971273603cd5d3487df9185fd7",
+      "bytes": 24252,
+      "renamed": true
+    },
+    {
+      "file": "martian-mono-latin-300-normal.woff2",
+      "weight": 300,
+      "style": "normal",
+      "subset": "latin",
+      "format": "woff2",
+      "variable": false,
+      "url": "https://cdn.jsdelivr.net/fontsource/fonts/martian-mono@5.3.0/latin-300-normal.woff2",
+      "sha256": "140adfe4b63951ba44a9aed18211a05f669ba237677e32b939ae92a69f6f9f1c",
+      "bytes": 10444
+    },
+    {
+      "file": "martian-mono-latin-400-normal.ttf",
+      "weight": 400,
+      "style": "normal",
+      "subset": "latin",
+      "format": "ttf",
+      "variable": false,
+      "url": "https://cdn.jsdelivr.net/fontsource/fonts/martian-mono@5.3.0/latin-400-normal.ttf",
+      "sha256": "1d7b9aa1dae874b8e930f2aa539b4436107ab340034e31ec141c49f1cd4b730d",
+      "bytes": 24228,
+      "renamed": true
+    },
+    {
+      "file": "martian-mono-latin-400-normal.woff2",
+      "weight": 400,
+      "style": "normal",
+      "subset": "latin",
+      "format": "woff2",
+      "variable": false,
+      "url": "https://cdn.jsdelivr.net/fontsource/fonts/martian-mono@5.3.0/latin-400-normal.woff2",
+      "sha256": "bb677c9c5cf5b384b5e4a1fd86755a47e0cbafe6bc70a9ba458b5e13e1d7a5c0",
+      "bytes": 10352
+    },
+    {
+      "file": "martian-mono-latin-500-normal.ttf",
+      "weight": 500,
+      "style": "normal",
+      "subset": "latin",
+      "format": "ttf",
+      "variable": false,
+      "url": "https://cdn.jsdelivr.net/fontsource/fonts/martian-mono@5.3.0/latin-500-normal.ttf",
+      "sha256": "c801eeaf7d16eeebe8ab56360b56ae2f2f0a44e8aea587b2518467dcba6e0395",
+      "bytes": 24628,
+      "renamed": true
+    },
+    {
+      "file": "martian-mono-latin-500-normal.woff2",
+      "weight": 500,
+      "style": "normal",
+      "subset": "latin",
+      "format": "woff2",
+      "variable": false,
+      "url": "https://cdn.jsdelivr.net/fontsource/fonts/martian-mono@5.3.0/latin-500-normal.woff2",
+      "sha256": "98f9af6b1f769d57e58f6fd4e53d813be82106c7d24d84213a74836548e44071",
+      "bytes": 10644
+    },
+    {
+      "file": "martian-mono-latin-600-normal.ttf",
+      "weight": 600,
+      "style": "normal",
+      "subset": "latin",
+      "format": "ttf",
+      "variable": false,
+      "url": "https://cdn.jsdelivr.net/fontsource/fonts/martian-mono@5.3.0/latin-600-normal.ttf",
+      "sha256": "8867a73c37643ceadf0694e59cb95d94504300a5880cfbc44a17e634a1a6838f",
+      "bytes": 24644,
+      "renamed": true
+    },
+    {
+      "file": "martian-mono-latin-600-normal.woff2",
+      "weight": 600,
+      "style": "normal",
+      "subset": "latin",
+      "format": "woff2",
+      "variable": false,
+      "url": "https://cdn.jsdelivr.net/fontsource/fonts/martian-mono@5.3.0/latin-600-normal.woff2",
+      "sha256": "e6d4bb7a1594d254b4fba34cb85ec6e5e570971dc12a52fe9f4c2777f515e5d6",
+      "bytes": 10628
+    },
+    {
+      "file": "martian-mono-latin-700-normal.ttf",
+      "weight": 700,
+      "style": "normal",
+      "subset": "latin",
+      "format": "ttf",
+      "variable": false,
+      "url": "https://cdn.jsdelivr.net/fontsource/fonts/martian-mono@5.3.0/latin-700-normal.ttf",
+      "sha256": "7e2eb99f6aac709cdb8c318508aa1467c9a503e6d2e95b844c31c36886dd8cfd",
+      "bytes": 24596,
+      "renamed": true
+    },
+    {
+      "file": "martian-mono-latin-700-normal.woff2",
+      "weight": 700,
+      "style": "normal",
+      "subset": "latin",
+      "format": "woff2",
+      "variable": false,
+      "url": "https://cdn.jsdelivr.net/fontsource/fonts/martian-mono@5.3.0/latin-700-normal.woff2",
+      "sha256": "51d46132d1f75155b6dea2d8fc6221365cbdfb41b3eac52ebc17eda7c53c6575",
+      "bytes": 10600
+    },
+    {
+      "file": "martian-mono-latin-800-normal.ttf",
+      "weight": 800,
+      "style": "normal",
+      "subset": "latin",
+      "format": "ttf",
+      "variable": false,
+      "url": "https://cdn.jsdelivr.net/fontsource/fonts/martian-mono@5.3.0/latin-800-normal.ttf",
+      "sha256": "6db5310ab310898e1715cab110e85482ff068df6abb6751ca3ef93f56cc7a305",
+      "bytes": 24636,
+      "renamed": true
+    },
+    {
+      "file": "martian-mono-latin-800-normal.woff2",
+      "weight": 800,
+      "style": "normal",
+      "subset": "latin",
+      "format": "woff2",
+      "variable": false,
+      "url": "https://cdn.jsdelivr.net/fontsource/fonts/martian-mono@5.3.0/latin-800-normal.woff2",
+      "sha256": "c404d22a57f91261cb864f832b15bafa2ada0a61c85aeef6f7f4311dbfe5f784",
+      "bytes": 10608
+    },
+    {
+      "file": "martian-mono-latin-wght-normal.woff2",
+      "weight": [
+        100,
+        800
+      ],
+      "style": "normal",
+      "subset": "latin",
+      "format": "woff2",
+      "variable": true,
+      "url": "https://cdn.jsdelivr.net/fontsource/fonts/martian-mono:vf@5.3.0/latin-wght-normal.woff2",
+      "sha256": "d0be3a78a854bcea53a9dc26b6620ba322eaa515ccbd92bb4b6ec20a3c91b291",
+      "bytes": 23556
+    }
+  ],
+  "names_fixed": 1,
+  "installed": "2026-09-30T05:33:30"
+}

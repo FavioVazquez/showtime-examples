@@ -1,0 +1,15 @@
+{
+  "_comment": "Born of the Sky (Scott Buckley, CC BY 4.0) from 118.49 s of the track: film 0 is a downbeat, bars every 2.0 s, the last drum hit at film 46.0 (end card). Voice at 28.25. Four effects on key hits only.",
+  "sample_rate": 48000,
+  "tracks": [
+    {"id": "music", "kind": "music", "catalog": "buckley-born-of-the-sky", "offset": 118.49, "dur": 50.5, "fade_in": 0.05, "fade_out": 2.6,
+     "duck": {"under": "voice", "depth_db": 10, "carve": 0.4}},
+    {"id": "voice", "kind": "voice", "file": "voice/vo.wav", "start": 28.25},
+    {"id": "ping", "kind": "sfx", "file": "audio/sfx/ping.wav", "at": 22.5, "align": "hit", "gain_db": 5},
+    {"id": "stamp-1", "kind": "sfx", "file": "audio/sfx/thock-1.wav", "at": 32.65, "align": "hit", "gain_db": -3},
+    {"id": "stamp-2", "kind": "sfx", "file": "audio/sfx/thock-2.wav", "at": 34.65, "align": "hit", "gain_db": -3},
+    {"id": "land", "kind": "sfx", "file": "audio/sfx/revhit.wav", "at": 46.0, "align": "hit", "gain_db": -2}
+  ],
+  "sections": {"hook": 0, "run": 4, "depth": 10, "data": 15.5, "breadth": 20, "math": 24, "voice": 28, "checks": 32, "receipt": 36, "close": 40, "end": 44},
+  "master": {"lufs": -14, "true_peak": -1}
+}

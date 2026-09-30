@@ -1,0 +1,8 @@
+{
+  "title": "halves",
+  "file": "scenes.py",
+  "aspect": "16:9",
+  "fps": 30,
+  "brand": "brand.json",
+  "scenes": ["Halves"]
+}

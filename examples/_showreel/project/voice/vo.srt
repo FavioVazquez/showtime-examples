@@ -1,0 +1,7 @@
+1
+00:00:00,030 --> 00:00:01,369
+Even this voice was made
+
+2
+00:00:01,426 --> 00:00:02,460
+on the same machine.

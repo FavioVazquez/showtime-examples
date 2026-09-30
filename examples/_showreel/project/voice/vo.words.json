@@ -1,0 +1,71 @@
+{
+  "source": "vo.wav",
+  "duration": 3.429,
+  "language": "en",
+  "model": "showtime-voice",
+  "words": [
+    {
+      "text": "Even",
+      "start": 0.03,
+      "end": 0.285,
+      "type": "word",
+      "line": "voice"
+    },
+    {
+      "text": "this",
+      "start": 0.329,
+      "end": 0.491,
+      "type": "word",
+      "line": "voice"
+    },
+    {
+      "text": "voice",
+      "start": 0.55,
+      "end": 0.905,
+      "type": "word",
+      "line": "voice"
+    },
+    {
+      "text": "was",
+      "start": 0.97,
+      "end": 1.086,
+      "type": "word",
+      "line": "voice"
+    },
+    {
+      "text": "made",
+      "start": 1.138,
+      "end": 1.369,
+      "type": "word",
+      "line": "voice"
+    },
+    {
+      "text": "on",
+      "start": 1.426,
+      "end": 1.52,
+      "type": "word",
+      "line": "voice"
+    },
+    {
+      "text": "the",
+      "start": 1.52,
+      "end": 1.591,
+      "type": "word",
+      "line": "voice"
+    },
+    {
+      "text": "same",
+      "start": 1.667,
+      "end": 1.906,
+      "type": "word",
+      "line": "voice"
+    },
+    {
+      "text": "machine.",
+      "start": 1.936,
+      "end": 2.46,
+      "type": "word",
+      "line": "voice"
+    }
+  ]
+}

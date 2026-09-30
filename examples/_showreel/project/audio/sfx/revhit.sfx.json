@@ -1,0 +1,20 @@
+{
+  "type": "reverse-hit",
+  "kind": "end",
+  "category": "transition",
+  "duration": 1.5,
+  "hit": 1.5,
+  "hit_frame_30fps": 45,
+  "hit_frame_60fps": 90,
+  "key": null,
+  "intensity": 0.6,
+  "seed": 0,
+  "level": {
+    "target_lufs": -18.0,
+    "measured_lufs": -12.73,
+    "gain_db": -5.27,
+    "peak_limited": false
+  },
+  "peak_dbfs": -6.5,
+  "file": "revhit.wav"
+}

@@ -1,0 +1,14 @@
+{
+  "name": "showreel-030 film palette",
+  "colors": [
+    {"role": "bg", "hex": "#0A1224", "name": "deep ink", "source": "plan"},
+    {"role": "surface", "hex": "#111C35", "name": "surface", "source": "plan"},
+    {"role": "ink", "hex": "#E6EEF8", "name": "ice", "source": "plan"},
+    {"role": "muted", "hex": "#8C9AB3", "name": "muted", "source": "plan"},
+    {"role": "accent", "hex": "#7BF5C0", "name": "acid mint", "source": "plan"}
+  ],
+  "fonts": {
+    "display": {"family": "Bricolage Grotesque", "fontsource": "bricolage-grotesque", "license": "OFL-1.1"},
+    "body": {"family": "Martian Mono", "fontsource": "martian-mono", "license": "OFL-1.1"}
+  }
+}
