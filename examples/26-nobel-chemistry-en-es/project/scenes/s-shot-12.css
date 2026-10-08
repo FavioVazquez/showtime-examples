@@ -1,0 +1,65 @@
+/* shot-12 end card (motion-A, full video). Every selector starts with .s-shot-12; times are scene-relative
+   (cues-shot-12.txt). Enters with data-transition="dip 0.5": everything is on the card at t = 0 and the
+   thumbnails finish inking by 0.5 s. Later beats: "Nobel 2026 lab" 2.42 the lab URL is underlined; "showtime"
+   5.99 the brand word is underlined; a slow push keeps the card alive. */
+.s-shot-12 { background: #f6f0e4; color: #1c1a17; }
+.s-shot-12 .s-shot-12__grid {
+  position: absolute; inset: 0; pointer-events: none;
+  background-image:
+    linear-gradient(rgb(28 26 23 / 0.07) 1.5px, transparent 1.5px),
+    linear-gradient(90deg, rgb(28 26 23 / 0.07) 1.5px, transparent 1.5px),
+    linear-gradient(rgb(28 26 23 / 0.035) 1px, transparent 1px),
+    linear-gradient(90deg, rgb(28 26 23 / 0.035) 1px, transparent 1px);
+  background-size: 240px 240px, 240px 240px, 48px 48px, 48px 48px;
+}
+.s-shot-12 .s-shot-12__cam { position: absolute; inset: 0; transform-origin: 50% 45%; animation: s-shot-12-push 10.624s linear 0s both; }
+@keyframes s-shot-12-push { from { transform: scale(1); } to { transform: scale(1.035); } }
+
+.s-shot-12 .s-shot-12__cards { position: absolute; left: 0; right: 0; top: 56px; display: flex; justify-content: center; gap: 44px; }
+.s-shot-12 .s-shot-12__card {
+  margin: 0; width: 380px; box-sizing: border-box; padding: 20px 20px 16px; text-align: center;
+  background: #fbf7ee; border: 2.5px solid #1c1a17; border-radius: 6px;
+  box-shadow: 0 6px 14px rgb(28 26 23 / 0.10);
+}
+.s-shot-12 .s-shot-12__card--a { rotate: -1.4deg; }
+.s-shot-12 .s-shot-12__card--b { rotate: 0.8deg; }
+.s-shot-12 .s-shot-12__card--c { rotate: -0.6deg; }
+.s-shot-12 .s-shot-12__thumb { display: block; width: 340px; height: 150px; overflow: visible; }
+.s-shot-12 .s-shot-12__card figcaption { margin-top: 10px; font: 500 34px/1.15 'IBM Plex Sans', sans-serif; color: #1c1a17; }
+.s-shot-12 .s-shot-12__draw { stroke-dasharray: 1 2; stroke-dashoffset: 1; animation: s-shot-12-ink 0.45s cubic-bezier(0.37, 0, 0.63, 1) 0.02s both; }
+.s-shot-12 .s-shot-12__bar { transform-box: fill-box; transform-origin: 50% 100%; animation: s-shot-12-grow 0.45s cubic-bezier(0.2, 0, 0, 1) 0.02s both; }
+@keyframes s-shot-12-ink { from { stroke-dashoffset: 1; } to { stroke-dashoffset: 0; } }
+@keyframes s-shot-12-grow { from { transform: scaleY(0.2); } to { transform: none; } }
+
+.s-shot-12 .s-shot-12__url {
+  position: absolute; left: 0; right: 0; top: 340px; margin: 0; text-align: center; white-space: nowrap;
+  font: 500 46px/1.2 'IBM Plex Sans', sans-serif; color: #1c1a17;
+}
+.s-shot-12 .s-shot-12__link { position: relative; display: inline-block; font: 600 44px/1.2 'IBM Plex Mono', monospace; color: #b13d0b; }
+.s-shot-12 .s-shot-12__uline { position: absolute; left: -1%; width: 102%; bottom: -0.28em; height: 0.34em; overflow: visible; }
+.s-shot-12 .s-shot-12__uline path { stroke-dasharray: 1 2; stroke-dashoffset: 1; }
+.s-shot-12 .s-shot-12__link .s-shot-12__uline path { animation: s-shot-12-ink 0.8s cubic-bezier(0.37, 0, 0.63, 1) 2.40s both; }
+.s-shot-12 .s-shot-12__brand .s-shot-12__uline path { animation: s-shot-12-ink 0.7s cubic-bezier(0.37, 0, 0.63, 1) 5.97s both; }
+.s-shot-12 .s-shot-12__uline--big { bottom: -0.16em; height: 0.2em; }
+
+.s-shot-12 .s-shot-12__motif { position: absolute; left: 0; right: 0; top: 448px; height: 64px; display: flex; align-items: center; justify-content: center; gap: 30px; }
+.s-shot-12 .s-shot-12__ico { display: block; width: 44px; height: 54px; }
+.s-shot-12 .s-shot-12__ico svg { display: block; width: 100%; height: 100%; }
+.s-shot-12 .s-shot-12__line { display: block; width: 4px; height: 64px; border-radius: 2px; background: repeating-linear-gradient(180deg, rgb(28 26 23 / 0.62) 0 12px, transparent 12px 21px); }
+
+.s-shot-12 .s-shot-12__title {
+  position: absolute; left: 0; right: 0; top: 530px; margin: 0; text-align: center;
+  font: 700 128px/1 'Fraunces', Georgia, serif; letter-spacing: -0.03em; color: #1c1a17;
+}
+.s-shot-12 .s-shot-12__brand { position: relative; display: inline-block; color: #b13d0b; }
+.s-shot-12 .s-shot-12__sub {
+  position: absolute; left: 0; right: 0; top: 692px; margin: 0; text-align: center; white-space: nowrap;
+  font: 400 40px/1.2 'IBM Plex Sans', sans-serif; color: #1c1a17;
+}
+.s-shot-12 .s-shot-12__sep { color: #59534a; }
+.s-shot-12 .s-shot-12__mono { font: 500 38px/1.2 'IBM Plex Mono', monospace; }
+.s-shot-12 .s-shot-12__rule { position: absolute; left: 760px; width: 400px; top: 776px; height: 2px; background: rgb(28 26 23 / 0.28); }
+.s-shot-12 .s-shot-12__src {
+  position: absolute; left: 160px; right: 160px; top: 800px; margin: 0; text-align: center;
+  font: 400 30px/1.3 'IBM Plex Sans', sans-serif; color: #3d3831;
+}

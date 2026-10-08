@@ -1,0 +1,190 @@
+{
+  "generator": "showtime pr-video",
+  "pr": {
+    "number": 7,
+    "title": "showtime 0.3.5",
+    "body": "Fixes found by running showtime in a locked-down agent sandbox (no writable HOME, no local `listen()`, egress only\nthrough an HTTP proxy, `.env` files unreadable), plus a Windows race the push CI caught.\n\n- **onnxruntime's telemetry was on, while PRIVACY.md says showtime has none.** The onnxruntime that Kokoro,\n  alignment, stem separation, rembg and faster-whisper load on Linux (1.30) carries Microsoft's telemetry client and\n  starts it at import; where HOME is read-only it logged \"Failed to persist telemetry device ID\" and wrote a\n  `:memory:.ses` session file into the current folder. Every showtime process and its children now get\n  `ORT_DISABLE_TELEMETRY=1` (set by `st` itself and by the launcher, unless already set), and\n  `onnxruntime.disable_telemetry_events()` is called before each model loads. PRIVACY.md says which libraries'\n  telemetry showtime turns off and how.\n- **Site capture turned its private-address guard off for a site whose name did not resolve.** 0.3.3 made\n  `hostIsPrivate` fail closed, but `site capture` still used it to decide whether a page's assets may come from\n  private addresses, so a public site that does not resolve locally (the normal case on a proxy-only network) let\n  them. Only a `file:` page or a page on a known private host allows that now (`privateAssetsAllowed` in `capture.mjs`).\n- **Node downloads ignored HTTPS_PROXY.** Node's `fetch` and `http(s).request` use the proxy variables only with\n  `NODE_USE_ENV_PROXY=1`, so on a proxy-only network the Python side downloaded and the Node side (icon fetches, site\n  capture's assets) did not. When a proxy variable is set, the launcher gives Node children `NODE_USE_ENV_PROXY=1` and\n  adds `localhost,127.0.0.1,::1` to `NO_PROXY`/`no_proxy` (keeping your entries), so the preview and studio servers'\n  local requests stay local. Node reads the flag from 22.21 (24.5 for `http.request`); `showtime doctor` warns when a\n  proxy is set and Node is older.\n- **Voice could not start when both the showtime home and `$TMPDIR` had long paths, and setup still said it was\n  done.** espeak-ng cannot read a data folder whose path is over about 140 bytes, so showtime copies its data to a\n  short folder first; in sandboxes where the home and `$TMPDIR` are both long (seen at 175-185 bytes) there was none.\n  The copy now falls back to `/tmp/showtime-espeak-<uid>` on macOS and Linux (0700, used only when it is the current\n  user's own); when even that fails, the hint names the path length and the fix. `showtime setup` now runs doctor's\n  espeak-ng self-test, so it fails instead of reporting success with voice broken.\n- **`retime --from-voice` left catalog music at full level under the voice.** Placing the voice ducks music that\n  has no duck, but only `file`, `lib` and `compose` tracks; a `catalog` track (what `audio cut-plan` writes) was\n  skipped. Catalog music now ducks too.\n- **`voice ipa`'s \"no lexicon.json\" hint read as a flag `voice script` does not have.** It now says that `--project`\n  is `voice ipa`'s flag and that `voice script` reads the `lexicon.json` next to its script, plus any `--lexicon FILE`.\n- **Setup and doctor said \"`showtime` is not on PATH yet\" when it was.** A skill's own `bin/showtime` on PATH (a\n  plugin's or a checkout's) now counts, not only the `~/.showtime/bin` command.\n- **`brand capture` took the wrong lines from a README that starts with HTML.** On showtime's own README (no H1) the\n  title was a shell comment in a code block and the tagline a bare video URL. The title is now the first H1 outside\n  code (markdown, setext or a multi-line HTML `<h1>`) and the tagline its lead paragraph, skipping URL-only lines,\n  images, badges, comments and captions; prompts to type are no longer listed as install commands, and brand.md for an\n  adopted kit never prints `None`.\n- **`check` reported caption words at their karaoke state.** A caption word sampled while its card faded in, or\n  dimmed before it was spoken, was measured at that opacity (#e9b949 on #17120e came out at 2.98:1 instead of\n  10.18:1). Caption words are judged at the caption's own opacity, and any text measured at partial opacity is named\n  with it (`#e9b949 at 45% opacity (shows as #765d29) on #17120e`). Real low contrast still fails.\n- **A finished background run on Windows could show as \"lost\", with no id or command.** Windows refuses to open a\n  file another process is replacing, so `status` and the run's supervisor could collide on `run.json`; the\n  supervisor's failed read then rewrote the file with only its new fields. Reads and replaces now retry for up to 2 s,\n  and a failed read never rewrites the file.\n- **Tests in a sandbox that refuses `listen()` skip instead of failing.** `tests/_listen.py` (`LISTEN_BLOCKED`,\n  `needs_listen`, `skip_if_listen_refused()`, `SHOWTIME_TEST_NO_LISTEN=1` to simulate) is used by every test that\n  serves something; the keelson fixture tests skip when `.env` files are unreadable; test_delight runs alone under `-j`\n  (pty devices).\n\n## Checks\n- Every fix has a test that failed on 0.3.4 and passes now.\n- Fast suite on the Linux build box: 54/54.\n- The sandbox guards were checked under `sandbox-exec (deny network-bind)` on macOS: the eight affected test files go from errors to clean skips.\n- The Node proxy fix was checked with a real local proxy (Node 22.23): remote requests go through the proxy, and loopback stays direct.\n",
+    "author": "FavioVazquez",
+    "url": "https://github.com/FavioVazquez/showtime/pull/7",
+    "repo": "FavioVazquez/showtime",
+    "head": "release/v0.3.5",
+    "base": "main",
+    "additions": 1138,
+    "deletions": 159,
+    "changed_files": null,
+    "commits": 4
+  },
+  "plan": {
+    "name": "FavioVazquez/showtime",
+    "version": "#7",
+    "kind": "pr",
+    "title": "showtime 0.3.5",
+    "author": "FavioVazquez",
+    "url": "https://github.com/FavioVazquez/showtime/pull/7",
+    "refs": [],
+    "aspect": "16:9",
+    "budget": 45.0,
+    "additions": 1138,
+    "deletions": 159,
+    "files": 68,
+    "shown": 3,
+    "total": 11,
+    "more": 8,
+    "hunks": 2
+  },
+  "scenes": [
+    {
+      "id": "hook",
+      "dur": 2.8
+    },
+    {
+      "id": "sum1",
+      "dur": 5.24,
+      "text": "onnxruntime's telemetry was on, while PRIVACY.md says showtime has none.",
+      "cont": false,
+      "more": 0
+    },
+    {
+      "id": "sum2",
+      "dur": 6.18,
+      "text": "Site capture turned its private-address guard off for a site whose name did not resolve.",
+      "cont": false,
+      "more": 0
+    },
+    {
+      "id": "sum3",
+      "dur": 3.06,
+      "text": "Node downloads ignored HTTPS_PROXY.",
+      "cont": false,
+      "more": 8
+    },
+    {
+      "id": "files",
+      "dur": 4.92,
+      "rows": [
+        {
+          "dir": "skills/showtime/lib/st/brand/"
+        },
+        {
+          "name": "capture.py",
+          "additions": 68,
+          "deletions": 34,
+          "test": false,
+          "nested": true,
+          "path": "skills/showtime/lib/st/brand/capture.py"
+        },
+        {
+          "dir": "skills/showtime/tests/"
+        },
+        {
+          "name": "test_brand_first.py",
+          "additions": 84,
+          "deletions": 0,
+          "test": true,
+          "nested": true,
+          "path": "skills/showtime/tests/test_brand_first.py"
+        },
+        {
+          "name": "test_portable.py",
+          "additions": 140,
+          "deletions": 0,
+          "test": true,
+          "nested": true,
+          "path": "skills/showtime/tests/test_portable.py"
+        },
+        {
+          "name": "test_voice.py",
+          "additions": 90,
+          "deletions": 0,
+          "test": true,
+          "nested": true,
+          "path": "skills/showtime/tests/test_voice.py"
+        }
+      ],
+      "files_more": 64,
+      "tests": [
+        "_listen.py",
+        "run_all.py",
+        "test_adopt.py",
+        "test_audio.py",
+        "test_bench_round.py",
+        "test_brand_first.py",
+        "test_capture.py",
+        "test_downloads.py",
+        "test_export.py",
+        "test_foundation.py",
+        "test_launch.py",
+        "test_motion.py",
+        "test_music.py",
+        "test_portable.py",
+        "test_preview_server.py",
+        "test_render.py",
+        "test_run_all.py",
+        "test_variety.py",
+        "test_voice.py"
+      ],
+      "tests_line": "Tests _listen.py, run_all.py, test_adopt.py + 16 more"
+    },
+    {
+      "id": "diff1",
+      "dur": 8.0,
+      "hunk": {
+        "path": "skills/showtime/lib/st/brand/draft.py",
+        "context": "def brand_md(kit: Dict[str, Any], json_name\u2026",
+        "lines": [
+          [
+            "-",
+            "L.append(\"- %s: **%s** (%s; %s) %s\" % (slot, f.get(\"family\"), f.get(\"how\"), f.get(\"license\") or \"license unknown\", st))"
+          ],
+          [
+            "+",
+            "L.append((\"- %s: **%s** (%s) %s\" % (slot, f.get(\"family\"), \"; \".join("
+          ],
+          [
+            "+",
+            "    x for x in (f.get(\"how\"), f.get(\"license\") or \"license unknown\") if x), st)).rstrip())"
+          ]
+        ],
+        "hidden": 7,
+        "line": 623,
+        "score": 7.12
+      }
+    },
+    {
+      "id": "diff2",
+      "dur": 6.59,
+      "hunk": {
+        "path": "skills/showtime/lib/st/cli_motion.py",
+        "context": "def parse_names(specs: Optional[List[str]])\u2026",
+        "lines": [
+          [
+            "-",
+            "_WHERE_RE = re.compile(r\"^\\s*(?P<col>[^=!~<>]+?)\\s*(?P<op>!=|!~|=|~|>=|<=|>|<)\\s*(?P<val>.*)$\")"
+          ],
+          [
+            "+",
+            "_WHERE_OPS = (\"!=\", \"!~\", \">=\", \"<=\", \"=\", \"~\", \">\", \"<\")"
+          ],
+          [
+            "+",
+            ""
+          ],
+          [
+            "+",
+            ""
+          ]
+        ],
+        "hidden": 7,
+        "line": 300,
+        "score": 7.12
+      }
+    },
+    {
+      "id": "end",
+      "dur": 2.8,
+      "impact": null
+    }
+  ],
+  "masked": [],
+  "notes": []
+}

@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en"><head>
+<meta charset="utf-8">
+<script src="/_st/stage.js"></script>
+<link rel="stylesheet" href="/_st/themes/neutral.css">
+<!-- look signature: Tidewater (tidewater) -->
+<link rel="stylesheet" href="/_st/themes/fonts/space-grotesk.css">
+<link rel="stylesheet" href="/_st/themes/fonts/inter.css">
+<link rel="stylesheet" href="/_st/themes/fonts/geist-mono.css">
+<style id="st-look">
+  :root {
+    --bg: #0b1a1c; --fg: #eaf4f1; --muted: #9fbab4; --surface: #13272a; --surface-2: #1b3337;
+    --accent: #ff7f61; --accent-2: #6fd3c1; --accent-ink: #1a0d08; color-scheme: dark;
+    --font-display: 'Space Grotesk', 'Inter', sans-serif; --font-body: 'Inter', sans-serif;
+    --font-mono: 'Geist Mono', ui-monospace, monospace; --weight-display: 700; --tracking-display: -0.03em;
+  }
+</style>
+<script type="module" src="/_st/components/index.js"></script>
+<style>
+  body { background: var(--bg); }
+  .scene { position: absolute; inset: 0; padding: 0; background: var(--bg); overflow: hidden; }
+  /* the name of each look, on a plate so it reads over any picture */
+  .tag { position: absolute; left: 6cqw; bottom: 8cqh; display: flex; flex-direction: column; gap: 1.4cqh;
+         padding: 2.2cqh 2.4cqw 2.6cqh; border-radius: 1.6cqmin; background: rgb(11 26 28 / 0.78); }
+  .tag code { font: 500 2.6cqh/1 var(--font-mono); color: var(--accent-2); letter-spacing: 0.02em; }
+  .tag h1 { margin: 0; font: var(--weight-display) 8.4cqh/1 var(--font-display); letter-spacing: var(--tracking-display); color: var(--fg); }
+  #metal .tag { background: none; padding: 0; left: 8cqw; bottom: auto; top: 50%; transform: translateY(-50%); }
+  #metal .tag h1 { font-size: 11cqh; }
+  #metal .tag p { margin: 0; max-width: 30cqw; font: 400 3cqh/1.35 var(--font-body); color: var(--muted); }
+  #metal .glow { position: absolute; inset: 0; background: radial-gradient(48% 70% at 66% 52%, rgb(111 211 193 / 0.13), transparent 70%); }
+  /* the light scenes: Tidewater's colours on a pale ground (the looks follow the tokens of their scene) */
+  .light { --bg: #f2eee6; --fg: #10292b; --muted: #4d6463; --accent: #d9583a; --accent-2: #2c8279; color-scheme: light; }
+  .light .tag { background: rgb(242 238 230 / 0.84); }
+  .light .tag code { color: #17524c; }
+  #mesh .tag, #goo .tag { background: none; padding: 0; left: 8cqw; bottom: auto; top: 50%; transform: translateY(-50%); }
+  #mesh .tag h1, #goo .tag h1 { font-size: 11cqh; }
+  #mesh .tag p, #goo .tag p { margin: 0; max-width: 34cqw; font: 400 3cqh/1.35 var(--font-body); color: var(--muted); }
+  #wipe { z-index: 10; }
+</style>
+</head>
+<body>
+  <!-- 1. fluted glass over a photo: the pane forms in the first second, then the picture drifts behind it -->
+  <section class="scene" id="glass" data-start="0" data-dur="2.8">
+    <div data-st="fluted-glass" data-src="media/jokulsarlon.jpg" data-focus="[55,55]"
+         data-keys='[{"at":0,"depth":0,"light":0.25},{"at":0.1,"dur":1.1,"depth":0.62,"light":0.7,"ease":"premium"}]'></div>
+    <div class="tag"><code>data-st="fluted-glass"</code><h1>Fluted glass</h1></div>
+  </section>
+
+  <!-- 2. tilt-shift on a photo: the sharp band travels from the street up to the church door -->
+  <section class="scene" id="tilt" data-start="2.8" data-dur="2.6">
+    <div data-st="tilt-shift" data-src="media/reykjavik.jpg" data-preset="miniature" data-y="0.86" data-focus="[50,60]"
+         data-keys='[{"at":0.25,"dur":1.6,"y":0.66,"ease":"sine.inOut"}]'></div>
+    <div class="tag"><code>data-st="tilt-shift"</code><h1>Tilt-shift</h1></div>
+  </section>
+
+  <!-- 3. liquid metal: a chrome blob that reflects the word on a sign behind the viewer -->
+  <section class="scene" id="metal" data-start="5.4" data-dur="2.6">
+    <div class="glow"></div>
+    <div data-st="liquid-metal" data-shape="blob" data-text="showtime" data-x="0.67" data-size="0.66" data-liquid="0.45" data-in="0.7"></div>
+    <div class="tag"><code>data-st="liquid-metal"</code><h1>Liquid metal</h1><p>Rendered in WebGL, with or without a GPU.</p></div>
+  </section>
+
+  <!-- 4. god rays: the light comes up behind the word and its beams sweep a little as the light moves -->
+  <section class="scene" id="rays" data-start="8" data-dur="2.6">
+    <div data-st="god-rays" data-text="Northlight" data-size="0.2" data-cy="0.44" data-in="1"
+         data-keys='[{"at":0,"x":0.44},{"at":0.2,"dur":2.4,"x":0.56,"ease":"sine.inOut"}]'></div>
+    <div class="tag"><code>data-st="god-rays"</code><h1>God rays</h1></div>
+  </section>
+
+  <!-- 5. a mesh gradient, the quiet ground for words, on a pale ground -->
+  <section class="scene light" id="mesh" data-start="10.6" data-dur="2.6">
+    <div data-st="mesh-gradient" data-speed="5"></div>
+    <div class="tag"><code>data-st="mesh-gradient"</code><h1>Mesh gradient</h1><p>The quiet ground for words.</p></div>
+  </section>
+
+  <!-- 6. white marble whose veins flow slowly -->
+  <section class="scene light" id="stone" data-start="13.2" data-dur="2.6">
+    <div data-st="marble" data-speed="1.4"></div>
+    <div class="tag"><code>data-st="marble"</code><h1>Marble</h1></div>
+  </section>
+
+  <!-- the cut from the marble to the metaballs, under a gooey wipe (it covers the frame at 15.8 s) -->
+  <div class="layer" id="wipe" data-start="15.2" data-dur="1.2">
+    <div data-st="metaballs" data-preset="wipe" data-dur="1.2" data-from="left"></div>
+  </div>
+
+  <!-- 7. metaballs: they grow in, drift apart and gather into one blob -->
+  <section class="scene" id="goo" data-start="15.8" data-dur="2.6">
+    <div data-st="metaballs" data-x="0.7" data-size="0.13" data-in="0.5"
+         data-keys='[{"at":1.2,"dur":1.1,"spread":0.1,"ease":"power2.inOut"}]'></div>
+    <div class="tag"><code>data-st="metaballs"</code><h1>Metaballs</h1><p>Blobs that merge and split.</p></div>
+  </section>
+</body></html>

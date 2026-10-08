@@ -1,0 +1,13 @@
+{
+  "title": "One hand wins: the 2026 Nobel Prize in Chemistry",
+  "width": 1920,
+  "height": 1080,
+  "fps": 30,
+  "duration": 149.592,
+  "background": "#f6f0e4",
+  "poster": 0.0,
+  "audio": "audio/mix.json",
+  "startTitle": false,
+  "template": "dom",
+  "look": "paperback"
+}

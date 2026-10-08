@@ -1,0 +1,68 @@
+{
+  "source": "14-shot-14.wav",
+  "duration": 4.681,
+  "language": "en",
+  "model": "kokoro-v1.0-timestamped.onnx",
+  "words": [
+    {
+      "text": "Made",
+      "start": 0.04,
+      "end": 0.289,
+      "type": "word"
+    },
+    {
+      "text": "with",
+      "start": 0.327,
+      "end": 0.45,
+      "type": "word"
+    },
+    {
+      "text": "showtime,",
+      "start": 0.533,
+      "end": 1.12,
+      "type": "word"
+    },
+    {
+      "text": "an",
+      "start": 1.45,
+      "end": 1.602,
+      "type": "word"
+    },
+    {
+      "text": "open-source",
+      "start": 1.65,
+      "end": 2.335,
+      "type": "word"
+    },
+    {
+      "text": "video",
+      "start": 2.382,
+      "end": 2.664,
+      "type": "word"
+    },
+    {
+      "text": "studio",
+      "start": 2.711,
+      "end": 3.148,
+      "type": "word"
+    },
+    {
+      "text": "for",
+      "start": 3.195,
+      "end": 3.302,
+      "type": "word"
+    },
+    {
+      "text": "coding",
+      "start": 3.34,
+      "end": 3.681,
+      "type": "word"
+    },
+    {
+      "text": "agents.",
+      "start": 3.723,
+      "end": 4.281,
+      "type": "word"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "title": "A telescope made of ice: the 2026 Nobel Prize in Physics",
+  "questions": [
+    {
+      "id": "q1",
+      "pause": 37.2,
+      "resume": 40.2,
+      "prompt": "A high-energy neutrino (100 TeV) crosses a whole kilometre of ice. What are the odds it hits anything on the way?",
+      "choices": [
+        "About 1 in 1,000",
+        "About 1 in 100,000",
+        "About 1 in 10 million"
+      ],
+      "answer": 1,
+      "feedback": [
+        "Far rarer than that: in our toy model, about one in 65,000 at 100 TeV.",
+        "Closest: in our toy model, about one in 65,000 at 100 TeV.",
+        "Not that rare: in our toy model, about one in 65,000."
+      ]
+    },
+    {
+      "id": "q2",
+      "pause": 88.6333,
+      "resume": 91.6333,
+      "prompt": "Same patch of ice (1 km²), strings twice as far apart, so a quarter as many. How much worse does our toy telescope aim? (1 TeV muons)",
+      "choices": [
+        "Barely worse (under 1.5x)",
+        "A few times worse (1.5x to 20x)",
+        "Over 20 times worse"
+      ],
+      "answer": 1,
+      "feedback": [
+        "Worse than that: in our toy model, more than five times worse (5.6x) with a quarter of the strings.",
+        "Yes: in our toy model, more than five times worse (5.6x) with a quarter of the strings. Trend only, not IceCube's real aim.",
+        "Not that much: in our toy model, about 5.6 times worse."
+      ]
+    },
+    {
+      "id": "q3",
+      "pause": 122.3,
+      "resume": 125.3,
+      "prompt": "IceCube records about 100,000 neutrinos a year. How many come from outer space?",
+      "choices": [
+        "About half",
+        "About 1 in 10",
+        "About 1 in 1,000"
+      ],
+      "answer": 2,
+      "feedback": [
+        "Far fewer: about a hundred a year, the Nobel Committee says.",
+        "Fewer still: about a hundred a year, the Nobel Committee says.",
+        "Yes: about a hundred a year, the Nobel Committee says. Most of the rest are made in our own atmosphere."
+      ]
+    }
+  ]
+}

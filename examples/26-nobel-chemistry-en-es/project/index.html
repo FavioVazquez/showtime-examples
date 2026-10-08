@@ -1,0 +1,521 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Project</title>
+<script src="/_st/stage.js"></script>
+<link rel="stylesheet" href="/_st/themes/bold.css">
+<script type="module" src="/_st/components/index.js"></script>
+<!-- Written by `showtime new --from-storyboard` (12 shots, 145 s planned). Each <section> is one shot of
+     storyboard.json, timed from its length. The dashed .brief is the storyboard's Visual as written: build
+     that shot's picture in its section and delete the brief (check warns while one is left). Words in
+     .copy are the storyboard's own card or on-screen text. data-silent marks a shot without narration.
+     After the voice (narration.md): showtime retime . --from-voice voice/timeline.json -->
+<style>
+  /* storyboard scaffold: every colour and face is the theme's, so a brand kit or another theme restyles it */
+  .stage { background: var(--bg); }
+  .scene { --s-label: 2.4cqh; --s-copy: 8.6cqh; --s-copy-sm: 6cqh; --s-brief: 5cqh; --s-brief-sm: 3.1cqh;
+           --s-note: 2.6cqh; font-family: var(--font-body, var(--font-display)); }
+  .world { position: absolute; inset: 0; overflow: hidden; pointer-events: none;
+           background: radial-gradient(70% 80% at 30% 35%, color-mix(in oklab, var(--accent) 9%, transparent), transparent 70%); }
+  .cam { position: absolute; inset: 0; }
+  .board { position: absolute; left: 8cqw; right: 8cqw; top: 50%; translate: 0 -50%; display: flex;
+           flex-direction: column; gap: 3cqh; }
+  .label { font: 500 var(--s-label)/1.3 var(--font-mono); letter-spacing: 0.12em; text-transform: uppercase;
+           color: var(--muted); margin: 0; }
+  .label b { color: var(--accent); font-weight: 600; }
+  .copy { font: var(--weight-display, 700) var(--s-copy)/1.05 var(--font-display); letter-spacing: var(--tracking-display, -0.03em);
+          color: var(--fg); margin: 0; max-width: 24em; text-wrap: balance; overflow-wrap: anywhere; }
+  .copy.many { font-size: var(--s-copy-sm); }
+  .brief { margin: 0; padding: 2.6cqh 3cqh; border-radius: 1.4cqh; max-width: 30em; align-self: flex-start;
+           border: max(2px, 0.25cqh) dashed color-mix(in oklab, var(--fg) 45%, transparent);
+           font: 450 var(--s-brief)/1.3 var(--font-body, var(--font-display)); color: var(--fg); overflow-wrap: anywhere; }
+  .copy + .brief, .copy ~ .brief { font-size: var(--s-brief-sm); color: var(--muted); }
+  .note { font: 450 var(--s-note)/1.35 var(--font-mono); color: var(--muted); margin: 0; max-width: 60em; }
+  :lang(zh) .copy, :lang(zh) .brief, :lang(ja) .copy, :lang(ja) .brief, :lang(ko) .copy, :lang(ko) .brief {
+    font-family: 'Noto Sans SC', 'Noto Sans KR', 'Noto Sans JP', sans-serif; letter-spacing: 0; }
+  @keyframes rise { from { opacity: 0; transform: translateY(0.4em); } to { opacity: 1; transform: none; } }
+  .board > * { animation: rise 0.6s cubic-bezier(0.16, 1, 0.3, 1) calc(0.1s + var(--i, 0) * 0.12s) both; }
+  .scene:first-of-type .board > * { animation: none; }   /* the first frame is the poster: complete at t=0 */
+  @container (max-aspect-ratio: 5/4) {
+    .scene { --s-label: 2.6cqw; --s-copy: 9cqw; --s-copy-sm: 6.4cqw; --s-brief: 4.6cqw; --s-brief-sm: 3.6cqw; --s-note: 3cqw; }
+    .board { left: 7cqw; right: 7cqw; }
+  }
+  @container (max-aspect-ratio: 3/4) {
+    .scene { --s-label: 4.2cqw; --s-copy: 10cqw; --s-copy-sm: 7.4cqw; --s-brief: 5.4cqw; --s-brief-sm: 4.6cqw; --s-note: 4.2cqw; }
+    .board { left: 9cqw; right: 16cqw; top: 42%; }
+  }
+</style>
+<!-- look signature: Paperback (paperback), picked by `showtime new`; another: showtime signature apply <project> <id> -->
+<link rel="stylesheet" href="/_st/themes/fonts/fraunces.css" data-st-look>
+<link rel="stylesheet" href="/_st/themes/fonts/ibm-plex-sans.css" data-st-look>
+<link rel="stylesheet" href="/_st/themes/fonts/ibm-plex-mono.css" data-st-look>
+<style id="st-look">
+  :root {
+    --bg: #f6f0e4;
+    --fg: #1c1a17;
+    --muted: #59534a;
+    --accent: #b13d0b;
+    --accent-ink: #fff8f0;
+    --surface: #ece4d4;
+    --win-bg: #1c1a17;
+    --win-fg: #f6f0e4;
+    --win-muted: #a8a39a;
+    --win-line: rgb(246 240 228 / 0.1);
+    --chip-bg: #1c1a17;
+    --chip-fg: #f6f0e4;
+    --win-accent: #d08a6b;
+    --chip-accent: #d08a6b;
+    --line: rgb(28 26 23 / 0.1);
+    --key-light: rgb(177 61 11 / 0.02);
+    --rim-a: rgb(177 61 11 / 0.01);
+    --rim-b: transparent;
+    --vignette: rgb(28 26 23 / 0.1);
+    --win-shadow: 0 3cqh 8cqh rgb(28 26 23 / 0.2), 0 0.5cqh 1.4cqh rgb(28 26 23 / 0.08);
+    --win-shadow-tall: 0 1.2cqh 3cqh rgb(28 26 23 / 0.16);
+    color-scheme: light;
+    --surface-2: #e2d8c4;
+    --border: rgb(28 26 23 / 0.14);
+    --accent-2: #1f5f8b;
+    --font-display: 'Fraunces', Georgia, serif;
+    --font-body: 'IBM Plex Sans', 'Inter', sans-serif;
+    --font-mono: 'IBM Plex Mono', ui-monospace, monospace;
+    --weight-display: 700;
+    --tracking-display: -0.025em;
+    --leading-display: 0.98;
+    --case-display: none;
+    --cap-font: 'Fraunces', Georgia, serif;
+    --cap-weight: 700;
+    --cap-case: none;
+    --cap-ink: #1c1a17;
+    --cap-outline: #f6f0e4;
+    --cap-accent: #b13d0b;
+    --cap-active-ink: #fff8f0;
+    --cap-plate: rgb(246 240 228 / 0.94);
+    --ground-glow: 0.15;
+    --ground-grid: 0;
+    --ground-vignette: 0.165;
+    --grain: 0.03;
+    --motion-energy: low;
+    --dur-in: 0.8s;
+    --dur-out: 0.45s;
+    --dur-beat: 0.5s;
+    --stagger: 0.07s;
+    --ease-out: cubic-bezier(0.2, 0, 0, 1);
+    --ease-move: cubic-bezier(0.37, 0, 0.63, 1);
+    --ease-emph: cubic-bezier(0.2, 0, 0, 1);
+    --shadow: 0 3cqmin 9cqmin rgb(28 26 23 / 0.18);
+  }
+</style>
+<!--st-merged--><link rel="stylesheet" href="scenes/s-shot-1.css"><link rel="stylesheet" href="scenes/s-shot-2.css"><link rel="stylesheet" href="scenes/s-shot-3.css"><link rel="stylesheet" href="scenes/s-shot-4.css"><link rel="stylesheet" href="scenes/s-shot-5.css"><link rel="stylesheet" href="scenes/s-shot-6.css"><link rel="stylesheet" href="scenes/s-shot-7.css"><link rel="stylesheet" href="scenes/s-shot-8.css"><link rel="stylesheet" href="scenes/s-shot-9.css"><link rel="stylesheet" href="scenes/s-shot-10.css"><link rel="stylesheet" href="scenes/s-shot-11.css"><link rel="stylesheet" href="scenes/s-shot-12.css"><link rel="stylesheet" href="scenes/brandmark.css"><style>[data-st="caption-karaoke"]{--cap-plate: rgb(247 241 228 / 0.9);}</style><!--/st-merged-->
+</head>
+<body>
+<div class="stage">
+  <div class="world" data-st-decor></div>
+  <section class="scene s-shot-1" id="shot-1" data-start="0" data-dur="7.617" data-storyboard-shot="1 cold open">
+    <svg width="0" height="0" style="position:absolute" aria-hidden="true"><defs><path id="s1-hp" d="M19.5 -393.1C20.8 -393.1 24.2 -393.6 26.5 -393.3C28.8 -393 31.2 -392.3 33.5 -391.2C35.8 -390 38.5 -388.4 40.4 -386.4C42.4 -384.5 44.1 -381.8 45.2 -379.5C46.3 -377.2 46.7 -374.8 47.1 -372.5C47.5 -370.2 47.4 -367.8 47.5 -365.5C47.6 -363.2 47.6 -360.8 47.4 -358.5C47.3 -356.2 46.7 -353.8 46.6 -351.5C46.4 -349.2 46.5 -346.8 46.5 -344.5C46.5 -342.2 46.5 -339.8 46.5 -337.5C46.5 -335.2 46.5 -332.8 46.5 -330.5C46.5 -328.2 46.5 -325.8 46.5 -323.5C46.5 -321.2 46.5 -318.8 46.5 -316.5C46.5 -314.2 46.5 -311.8 46.5 -309.5C46.5 -307.2 46.6 -304.8 46.5 -302.5C46.3 -300.2 45.8 -297.8 45.7 -295.5C45.5 -293.2 45.5 -290.8 45.5 -288.5C45.5 -286.2 45.5 -283.8 45.5 -281.5C45.5 -279.2 45.5 -276.8 45.5 -274.5C45.5 -272.2 45.5 -269.8 45.5 -267.5C45.5 -265.2 45.5 -262.8 45.5 -260.5C45.5 -258.2 45.5 -255.8 45.5 -253.5C45.5 -251.2 45.6 -248.8 45.5 -246.5C45.4 -244.2 44.8 -241.2 44.9 -239.5C45.1 -237.8 46.2 -235.8 46.6 -236.3C47.1 -236.8 47.5 -240.3 47.8 -242.5C48.1 -244.7 48.3 -247.2 48.5 -249.5C48.8 -251.8 49.1 -254.2 49.3 -256.5C49.6 -258.8 49.9 -261.2 50.1 -263.5C50.3 -265.8 50.4 -268.2 50.7 -270.5C50.9 -272.8 51.2 -275.2 51.5 -277.5C51.8 -279.8 52.1 -282.2 52.3 -284.5C52.6 -286.8 52.7 -289.2 52.9 -291.5C53.1 -293.8 53.4 -296.2 53.7 -298.5C53.9 -300.8 54.2 -303.2 54.5 -305.5C54.7 -307.8 55 -310.2 55.2 -312.5C55.5 -314.8 55.7 -317.2 55.9 -319.5C56.1 -321.8 56.3 -324.2 56.6 -326.5C56.8 -328.8 57.1 -331.2 57.4 -333.5C57.7 -335.8 57.8 -338.2 58.3 -340.5C58.7 -342.8 58.9 -345.2 60 -347.5C61.1 -349.8 62.7 -352.3 64.7 -354.2C66.6 -356 69.2 -357.6 71.5 -358.6C73.8 -359.6 76.2 -360.2 78.5 -360.4C80.8 -360.6 83.2 -360.5 85.5 -360C87.8 -359.5 90.3 -358.6 92.5 -357.2C94.7 -355.8 97.1 -353.6 98.7 -351.5C100.3 -349.4 101.3 -346.8 102 -344.5C102.7 -342.2 102.7 -339.8 102.8 -337.5C102.9 -335.2 102.6 -332.8 102.4 -330.5C102.2 -328.2 101.9 -325.8 101.6 -323.5C101.3 -321.2 101 -318.8 100.8 -316.5C100.6 -314.2 100.4 -311.8 100.2 -309.5C100 -307.2 99.7 -304.8 99.4 -302.5C99.1 -300.2 98.8 -297.8 98.6 -295.5C98.3 -293.2 98.1 -290.8 97.9 -288.5C97.7 -286.2 97.5 -283.8 97.2 -281.5C97 -279.2 96.7 -276.8 96.5 -274.5C96.2 -272.2 95.9 -269.8 95.7 -267.5C95.4 -265.2 95.1 -262.8 94.9 -260.5C94.7 -258.2 94.6 -255.8 94.3 -253.5C94.1 -251.2 93.8 -248.8 93.5 -246.5C93.2 -244.2 92.9 -241.8 92.7 -239.5C92.4 -237.2 92.3 -234.8 92.1 -232.5C91.9 -230.2 91.6 -227.8 91.3 -225.5C91.1 -223.2 90.8 -220.8 90.5 -218.5C90.3 -216.2 89.6 -213.8 90 -211.5C90.3 -209.2 91.7 -206.8 92.6 -204.5C93.6 -202.2 94.8 -199.8 95.7 -197.5C96.6 -195.2 97.2 -192.8 97.8 -190.5C98.4 -188.2 98.9 -185.8 99.2 -183.5C99.5 -181.2 99.5 -178.8 99.5 -176.5C99.5 -174.2 99.5 -171.8 99.5 -169.5C99.5 -167.2 99.5 -164.8 99.5 -162.5C99.5 -160.2 99.5 -157.8 99.5 -155.5C99.5 -153.2 99.1 -150.3 99.5 -148.5C99.9 -146.7 100.3 -144.3 101.8 -144.4C103.3 -144.6 106.2 -147.6 108.5 -149.4C110.8 -151.2 113.2 -153.3 115.5 -155.3C117.8 -157.2 120.2 -159.1 122.5 -161.1C124.8 -163 127.2 -164.9 129.5 -166.9C131.8 -168.9 134.2 -170.9 136.5 -172.9C138.8 -174.9 141.2 -176.9 143.5 -178.8C145.8 -180.6 148.2 -182.8 150.5 -184.3C152.8 -185.8 155.2 -187.1 157.5 -188C159.8 -188.8 162.2 -189.3 164.5 -189.4C166.8 -189.5 169.2 -189.3 171.5 -188.8C173.8 -188.2 176.2 -187.4 178.5 -186C180.8 -184.6 183.4 -182.6 185.2 -180.5C187 -178.4 188.4 -175.8 189.4 -173.5C190.4 -171.2 191 -168.8 191.2 -166.5C191.5 -164.2 191.3 -161.8 190.8 -159.5C190.4 -157.2 189.8 -154.8 188.5 -152.5C187.3 -150.2 185.4 -147.7 183.4 -145.6C181.4 -143.4 178.8 -141.6 176.5 -139.6C174.2 -137.6 171.8 -135.6 169.5 -133.6C167.2 -131.7 164.8 -129.7 162.5 -127.8C160.2 -125.8 157.8 -123.9 155.5 -121.9C153.2 -120 150.8 -118 148.5 -116.1C146.2 -114.1 143.8 -112.2 141.5 -110.2C139.2 -108.3 136.8 -106.2 134.5 -104.3C132.2 -102.3 129.8 -100.4 127.5 -98.4C125.2 -96.5 122.8 -94.5 120.5 -92.6C118.2 -90.6 115.8 -88.6 113.5 -86.6C111.2 -84.7 108.7 -82.8 106.5 -80.8C104.3 -78.7 101.6 -76.7 100.5 -74.5C99.3 -72.3 99.7 -69.8 99.5 -67.5C99.3 -65.2 99.6 -62.8 99.4 -60.5C99.2 -58.2 98.8 -55.8 98.3 -53.5C97.8 -51.2 97.2 -48.8 96.4 -46.5C95.6 -44.2 94.8 -41.8 93.6 -39.5C92.5 -37.2 91.1 -34.8 89.5 -32.5C87.9 -30.2 85.9 -27.8 83.9 -25.7C82 -23.5 79.2 -21.7 77.8 -19.5C76.4 -17.3 75.9 -14.8 75.5 -12.5C75.1 -10.2 75.8 -7.8 75.4 -5.5C75.1 -3.2 74.8 -0.7 73.4 1.5C72.1 3.7 69.7 6.1 67.5 7.4C65.3 8.8 62.8 9.1 60.5 9.4C58.2 9.8 55.8 9.5 53.5 9.5C51.2 9.5 48.8 9.5 46.5 9.5C44.2 9.5 41.8 9.5 39.5 9.5C37.2 9.5 34.8 9.5 32.5 9.5C30.2 9.5 27.8 9.5 25.5 9.5C23.2 9.5 20.8 9.5 18.5 9.5C16.2 9.5 13.8 9.5 11.5 9.5C9.2 9.5 6.8 9.5 4.5 9.5C2.2 9.5 -0.2 9.5 -2.5 9.5C-4.8 9.5 -7.2 9.5 -9.5 9.5C-11.8 9.5 -14.2 9.5 -16.5 9.5C-18.8 9.5 -21.2 9.5 -23.5 9.5C-25.8 9.5 -28.2 9.5 -30.5 9.5C-32.8 9.5 -35.2 9.5 -37.5 9.5C-39.8 9.5 -42.2 9.5 -44.5 9.5C-46.8 9.5 -49.2 9.5 -51.5 9.5C-53.8 9.5 -56.2 9.7 -58.5 9.5C-60.8 9.3 -63.2 9.4 -65.5 8.4C-67.8 7.4 -70.5 5.5 -72.1 3.5C-73.7 1.5 -74.6 -1.2 -75.2 -3.5C-75.8 -5.8 -75.3 -8.2 -75.5 -10.5C-75.7 -12.8 -75.4 -15.3 -76.5 -17.5C-77.6 -19.7 -80.3 -21.8 -82.2 -23.9C-84.1 -26.1 -86.3 -28.2 -88 -30.5C-89.7 -32.8 -91.3 -35.2 -92.6 -37.5C-93.9 -39.8 -94.8 -42.2 -95.7 -44.5C-96.6 -46.8 -97.2 -49.2 -97.8 -51.5C-98.4 -53.8 -98.9 -56.2 -99.2 -58.5C-99.5 -60.8 -99.5 -63.2 -99.5 -65.5C-99.5 -67.8 -99.5 -70.2 -99.5 -72.5C-99.5 -74.8 -99.5 -77.2 -99.5 -79.5C-99.5 -81.8 -99.5 -84.2 -99.5 -86.5C-99.5 -88.8 -99.5 -91.2 -99.5 -93.5C-99.5 -95.8 -99.5 -98.2 -99.5 -100.5C-99.5 -102.8 -99.5 -105.2 -99.5 -107.5C-99.5 -109.8 -99.5 -112.2 -99.5 -114.5C-99.5 -116.8 -99.5 -119.2 -99.5 -121.5C-99.5 -123.8 -99.5 -126.2 -99.5 -128.5C-99.5 -130.8 -99.5 -133.2 -99.5 -135.5C-99.5 -137.8 -99.5 -140.2 -99.5 -142.5C-99.5 -144.8 -99.5 -147.2 -99.5 -149.5C-99.5 -151.8 -99.5 -154.2 -99.5 -156.5C-99.5 -158.8 -99.5 -161.2 -99.5 -163.5C-99.5 -165.8 -99.5 -168.2 -99.5 -170.5C-99.5 -172.8 -99.6 -175.2 -99.5 -177.5C-99.4 -179.8 -99.4 -182.2 -99.1 -184.5C-98.8 -186.8 -98.2 -189.2 -97.6 -191.5C-97 -193.8 -95.8 -196.2 -95.4 -198.5C-95 -200.8 -94.9 -203.2 -95.1 -205.5C-95.3 -207.8 -96.1 -210.2 -96.6 -212.5C-97.1 -214.8 -97.6 -217.2 -98.1 -219.5C-98.6 -221.8 -99.1 -224.2 -99.6 -226.5C-100.1 -228.8 -100.6 -231.2 -101.1 -233.5C-101.6 -235.8 -102 -238.2 -102.5 -240.5C-103 -242.8 -103.6 -245.2 -104.1 -247.5C-104.6 -249.8 -105 -252.2 -105.5 -254.5C-106 -256.8 -106.6 -259.2 -107.1 -261.5C-107.6 -263.8 -108 -266.2 -108.5 -268.5C-109 -270.8 -109.4 -273.2 -109.9 -275.5C-110.4 -277.8 -111.1 -280.2 -111.3 -282.5C-111.6 -284.8 -111.8 -287.2 -111.4 -289.5C-111.1 -291.8 -110.6 -294.2 -109.3 -296.5C-108 -298.8 -105.6 -301.5 -103.5 -303.1C-101.4 -304.8 -98.8 -305.9 -96.5 -306.6C-94.2 -307.3 -91.8 -307.5 -89.5 -307.2C-87.2 -307 -84.7 -306.3 -82.5 -305.1C-80.3 -303.9 -77.9 -302.2 -76.2 -300.2C-74.5 -298.3 -73.2 -295.8 -72.3 -293.5C-71.3 -291.2 -70.9 -288.8 -70.4 -286.5C-69.8 -284.2 -69.4 -281.8 -68.9 -279.5C-68.4 -277.2 -67.9 -274.8 -67.4 -272.5C-66.9 -270.2 -66.4 -267.8 -65.9 -265.5C-65.4 -263.2 -65 -260.8 -64.5 -258.5C-64 -256.2 -63.4 -253.8 -62.9 -251.5C-62.4 -249.2 -62 -246.8 -61.5 -244.5C-61 -242.2 -60.8 -239.4 -59.9 -237.5C-59.1 -235.6 -57.9 -233.3 -56.4 -233.1C-54.9 -232.8 -52 -234.2 -51.1 -235.8C-50.1 -237.4 -50.6 -240.2 -50.7 -242.5C-50.7 -244.8 -51.2 -247.2 -51.5 -249.5C-51.7 -251.8 -51.9 -254.2 -52.1 -256.5C-52.3 -258.8 -52.3 -261.2 -52.5 -263.5C-52.7 -265.8 -53.1 -268.2 -53.3 -270.5C-53.5 -272.8 -53.6 -275.2 -53.8 -277.5C-54 -279.8 -54.3 -282.2 -54.5 -284.5C-54.7 -286.8 -54.9 -289.2 -55.1 -291.5C-55.3 -293.8 -55.4 -296.2 -55.6 -298.5C-55.8 -300.8 -56.2 -303.2 -56.4 -305.5C-56.6 -307.8 -56.6 -310.2 -56.8 -312.5C-57 -314.8 -57.3 -317.2 -57.5 -319.5C-57.7 -321.8 -58 -324.2 -58.2 -326.5C-58.4 -328.8 -58.5 -331.2 -58.7 -333.5C-58.9 -335.8 -59.3 -338.2 -59.5 -340.5C-59.6 -342.8 -59.6 -345.2 -59.5 -347.5C-59.4 -349.8 -59.6 -352.2 -59 -354.5C-58.4 -356.8 -57.3 -359.4 -55.7 -361.5C-54.1 -363.6 -51.7 -365.9 -49.5 -367.4C-47.3 -368.8 -44.8 -369.7 -42.5 -370.2C-40.2 -370.7 -37.8 -370.7 -35.5 -370.5C-33.2 -370.3 -30.8 -370 -28.5 -369C-26.2 -368 -23.6 -366.3 -21.7 -364.3C-19.8 -362.4 -18.1 -359.8 -17 -357.5C-15.9 -355.2 -15.5 -352.8 -15.1 -350.5C-14.7 -348.2 -14.7 -345.8 -14.5 -343.5C-14.3 -341.2 -14 -338.8 -13.8 -336.5C-13.6 -334.2 -13.5 -331.8 -13.3 -329.5C-13.1 -327.2 -12.8 -324.8 -12.5 -322.5C-12.3 -320.2 -12.1 -317.8 -11.9 -315.5C-11.7 -313.2 -11.7 -310.8 -11.5 -308.5C-11.3 -306.2 -10.9 -303.8 -10.7 -301.5C-10.5 -299.2 -10.4 -296.8 -10.2 -294.5C-10 -292.2 -9.7 -289.8 -9.5 -287.5C-9.3 -285.2 -9.1 -282.8 -8.9 -280.5C-8.7 -278.2 -8.6 -275.8 -8.4 -273.5C-8.2 -271.2 -7.8 -268.8 -7.6 -266.5C-7.4 -264.2 -7.4 -261.8 -7.2 -259.5C-7 -257.2 -6.7 -254.8 -6.5 -252.5C-6.3 -250.2 -6 -247.8 -5.8 -245.5C-5.6 -243.2 -5.7 -239.9 -5.2 -238.6C-4.7 -237.3 -3.3 -236.7 -2.7 -237.7C-2.1 -238.7 -1.8 -242.2 -1.6 -244.5C-1.4 -246.8 -1.5 -249.2 -1.5 -251.5C-1.5 -253.8 -1.5 -256.2 -1.5 -258.5C-1.5 -260.8 -1.5 -263.2 -1.5 -265.5C-1.5 -267.8 -1.5 -270.2 -1.5 -272.5C-1.5 -274.8 -1.5 -277.2 -1.5 -279.5C-1.5 -281.8 -1.5 -284.2 -1.5 -286.5C-1.5 -288.8 -1.6 -291.2 -1.5 -293.5C-1.3 -295.8 -0.8 -298.2 -0.7 -300.5C-0.5 -302.8 -0.5 -305.2 -0.5 -307.5C-0.5 -309.8 -0.5 -312.2 -0.5 -314.5C-0.5 -316.8 -0.5 -319.2 -0.5 -321.5C-0.5 -323.8 -0.5 -326.2 -0.5 -328.5C-0.5 -330.8 -0.5 -333.2 -0.5 -335.5C-0.5 -337.8 -0.5 -340.2 -0.5 -342.5C-0.5 -344.8 -0.6 -347.2 -0.5 -349.5C-0.4 -351.8 0.1 -354.2 0.2 -356.5C0.4 -358.8 0.5 -361.2 0.5 -363.5C0.5 -365.8 0.3 -368.2 0.5 -370.5C0.7 -372.8 0.8 -375.2 1.6 -377.5C2.4 -379.8 3.6 -382.4 5.3 -384.5C6.9 -386.6 9.3 -388.7 11.5 -390.1C13.7 -391.4 17.2 -392.3 18.5 -392.8C19.8 -393.3 18.2 -393 19.5 -393.1Z"/></defs></svg>
+    <div class="s-shot-1__grid" aria-hidden="true"></div>
+    <div class="s-shot-1__cam">
+      <h1 class="s-shot-1__title">One hand wins.</h1>
+      <p class="s-shot-1__sub">a lead of 5 in 10 million <svg class="s-shot-1__arrow" viewBox="0 0 64 28" aria-hidden="true"><path d="M3 14.5 C 20 13, 38 15, 56 14" fill="none" stroke="currentColor" stroke-width="5" stroke-linecap="round"/><path d="M44 4 L 59 14 L 44 24.5" fill="none" stroke="currentColor" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/></svg> <span class="s-shot-1__win">over 99.5% one hand<svg class="s-shot-1__uline" viewBox="0 0 600 24" preserveAspectRatio="none" aria-hidden="true"><path pathLength="1" d="M6 14 C 140 7, 300 18, 460 10 S 560 9, 594 12" fill="none" stroke="#b13d0b" stroke-width="6" stroke-linecap="round"/></svg></span></p>
+      <p class="s-shot-1__credit"><span class="s-shot-1__prize">Nobel Prize in Chemistry 2026<svg class="s-shot-1__uline s-shot-1__uline--ink" viewBox="0 0 600 24" preserveAspectRatio="none" aria-hidden="true"><path pathLength="1" d="M4 12 C 150 16, 320 7, 470 13 S 570 12, 596 10" fill="none" stroke="#1c1a17" stroke-width="5" stroke-linecap="round"/></svg></span> &middot; Henri B. Kagan &middot; Kenso Soai</p>
+      <div class="s-shot-1__mirror" aria-hidden="true"></div>
+      <div class="s-shot-1__hand s-shot-1__hand--l"><svg class="" viewBox="-125 -405 350 425" aria-hidden="true"><use href="#s1-hp" fill="#b13d0b" stroke="#7a2906" stroke-width="11" stroke-linejoin="round"/><path d="M-62 -150 C -20 -128, 30 -126, 70 -150" fill="none" stroke="#7a2906" stroke-width="4" stroke-linecap="round" opacity="0.5"/><path d="M-40 -110 C 0 -96, 40 -100, 64 -118" fill="none" stroke="#7a2906" stroke-width="3" stroke-linecap="round" opacity="0.5"/></svg></div>
+      <div class="s-shot-1__hand s-shot-1__hand--r"><svg class="" viewBox="-225 -405 350 425" aria-hidden="true"><defs><pattern id="s1-hr-h" width="17" height="17" patternUnits="userSpaceOnUse" patternTransform="rotate(-45)"><rect width="17" height="17" fill="#f6f0e4"/><rect width="6" height="17" fill="#2b8a8f"/></pattern></defs><g transform="scale(-1 1)"><use href="#s1-hp" fill="url(#s1-hr-h)" stroke="#1d5f63" stroke-width="11" stroke-linejoin="round"/><path d="M-62 -150 C -20 -128, 30 -126, 70 -150" fill="none" stroke="#1d5f63" stroke-width="5" stroke-linecap="round" opacity="0.7"/><path d="M-40 -110 C 0 -96, 40 -100, 64 -118" fill="none" stroke="#1d5f63" stroke-width="4" stroke-linecap="round" opacity="0.7"/></g></svg></div>
+      <div class="s-shot-1__ghost" aria-hidden="true"><svg class="" viewBox="-125 -405 350 425" aria-hidden="true"><use href="#s1-hp" fill="#b13d0b" fill-opacity=".16" stroke="#7a2906" stroke-width="7" stroke-dasharray="22 14" stroke-linejoin="round"/></svg></div>
+      <div class="s-shot-1__leg s-shot-1__leg--l"><span class="s-shot-1__ico"><svg class="" viewBox="-125 -405 350 425" aria-hidden="true"><use href="#s1-hp" fill="#b13d0b" stroke="#7a2906" stroke-width="22" stroke-linejoin="round"/></svg></span><span>one hand</span></div>
+      <div class="s-shot-1__leg s-shot-1__leg--r"><span class="s-shot-1__ico"><svg class="" viewBox="-225 -405 350 425" aria-hidden="true"><defs><pattern id="s1-ir-h" width="60" height="60" patternUnits="userSpaceOnUse" patternTransform="rotate(-45)"><rect width="60" height="60" fill="#f6f0e4"/><rect width="22" height="60" fill="#2b8a8f"/></pattern></defs><g transform="scale(-1 1)"><use href="#s1-hp" fill="url(#s1-ir-h)" stroke="#1d5f63" stroke-width="22" stroke-linejoin="round"/></g></svg></span><span>mirror hand</span></div>
+    </div>
+  </section>
+  <section class="scene s-shot-2" id="shot-2" data-start="#shot-1" data-dur="8.087" data-storyboard-shot="2 life picks one" data-transition="blur-dissolve 0.6">
+    <svg width="0" height="0" style="position:absolute" aria-hidden="true"><defs><path id="s2-hp" d="M19.5 -393.1C20.8 -393.1 24.2 -393.6 26.5 -393.3C28.8 -393 31.2 -392.3 33.5 -391.2C35.8 -390 38.5 -388.4 40.4 -386.4C42.4 -384.5 44.1 -381.8 45.2 -379.5C46.3 -377.2 46.7 -374.8 47.1 -372.5C47.5 -370.2 47.4 -367.8 47.5 -365.5C47.6 -363.2 47.6 -360.8 47.4 -358.5C47.3 -356.2 46.7 -353.8 46.6 -351.5C46.4 -349.2 46.5 -346.8 46.5 -344.5C46.5 -342.2 46.5 -339.8 46.5 -337.5C46.5 -335.2 46.5 -332.8 46.5 -330.5C46.5 -328.2 46.5 -325.8 46.5 -323.5C46.5 -321.2 46.5 -318.8 46.5 -316.5C46.5 -314.2 46.5 -311.8 46.5 -309.5C46.5 -307.2 46.6 -304.8 46.5 -302.5C46.3 -300.2 45.8 -297.8 45.7 -295.5C45.5 -293.2 45.5 -290.8 45.5 -288.5C45.5 -286.2 45.5 -283.8 45.5 -281.5C45.5 -279.2 45.5 -276.8 45.5 -274.5C45.5 -272.2 45.5 -269.8 45.5 -267.5C45.5 -265.2 45.5 -262.8 45.5 -260.5C45.5 -258.2 45.5 -255.8 45.5 -253.5C45.5 -251.2 45.6 -248.8 45.5 -246.5C45.4 -244.2 44.8 -241.2 44.9 -239.5C45.1 -237.8 46.2 -235.8 46.6 -236.3C47.1 -236.8 47.5 -240.3 47.8 -242.5C48.1 -244.7 48.3 -247.2 48.5 -249.5C48.8 -251.8 49.1 -254.2 49.3 -256.5C49.6 -258.8 49.9 -261.2 50.1 -263.5C50.3 -265.8 50.4 -268.2 50.7 -270.5C50.9 -272.8 51.2 -275.2 51.5 -277.5C51.8 -279.8 52.1 -282.2 52.3 -284.5C52.6 -286.8 52.7 -289.2 52.9 -291.5C53.1 -293.8 53.4 -296.2 53.7 -298.5C53.9 -300.8 54.2 -303.2 54.5 -305.5C54.7 -307.8 55 -310.2 55.2 -312.5C55.5 -314.8 55.7 -317.2 55.9 -319.5C56.1 -321.8 56.3 -324.2 56.6 -326.5C56.8 -328.8 57.1 -331.2 57.4 -333.5C57.7 -335.8 57.8 -338.2 58.3 -340.5C58.7 -342.8 58.9 -345.2 60 -347.5C61.1 -349.8 62.7 -352.3 64.7 -354.2C66.6 -356 69.2 -357.6 71.5 -358.6C73.8 -359.6 76.2 -360.2 78.5 -360.4C80.8 -360.6 83.2 -360.5 85.5 -360C87.8 -359.5 90.3 -358.6 92.5 -357.2C94.7 -355.8 97.1 -353.6 98.7 -351.5C100.3 -349.4 101.3 -346.8 102 -344.5C102.7 -342.2 102.7 -339.8 102.8 -337.5C102.9 -335.2 102.6 -332.8 102.4 -330.5C102.2 -328.2 101.9 -325.8 101.6 -323.5C101.3 -321.2 101 -318.8 100.8 -316.5C100.6 -314.2 100.4 -311.8 100.2 -309.5C100 -307.2 99.7 -304.8 99.4 -302.5C99.1 -300.2 98.8 -297.8 98.6 -295.5C98.3 -293.2 98.1 -290.8 97.9 -288.5C97.7 -286.2 97.5 -283.8 97.2 -281.5C97 -279.2 96.7 -276.8 96.5 -274.5C96.2 -272.2 95.9 -269.8 95.7 -267.5C95.4 -265.2 95.1 -262.8 94.9 -260.5C94.7 -258.2 94.6 -255.8 94.3 -253.5C94.1 -251.2 93.8 -248.8 93.5 -246.5C93.2 -244.2 92.9 -241.8 92.7 -239.5C92.4 -237.2 92.3 -234.8 92.1 -232.5C91.9 -230.2 91.6 -227.8 91.3 -225.5C91.1 -223.2 90.8 -220.8 90.5 -218.5C90.3 -216.2 89.6 -213.8 90 -211.5C90.3 -209.2 91.7 -206.8 92.6 -204.5C93.6 -202.2 94.8 -199.8 95.7 -197.5C96.6 -195.2 97.2 -192.8 97.8 -190.5C98.4 -188.2 98.9 -185.8 99.2 -183.5C99.5 -181.2 99.5 -178.8 99.5 -176.5C99.5 -174.2 99.5 -171.8 99.5 -169.5C99.5 -167.2 99.5 -164.8 99.5 -162.5C99.5 -160.2 99.5 -157.8 99.5 -155.5C99.5 -153.2 99.1 -150.3 99.5 -148.5C99.9 -146.7 100.3 -144.3 101.8 -144.4C103.3 -144.6 106.2 -147.6 108.5 -149.4C110.8 -151.2 113.2 -153.3 115.5 -155.3C117.8 -157.2 120.2 -159.1 122.5 -161.1C124.8 -163 127.2 -164.9 129.5 -166.9C131.8 -168.9 134.2 -170.9 136.5 -172.9C138.8 -174.9 141.2 -176.9 143.5 -178.8C145.8 -180.6 148.2 -182.8 150.5 -184.3C152.8 -185.8 155.2 -187.1 157.5 -188C159.8 -188.8 162.2 -189.3 164.5 -189.4C166.8 -189.5 169.2 -189.3 171.5 -188.8C173.8 -188.2 176.2 -187.4 178.5 -186C180.8 -184.6 183.4 -182.6 185.2 -180.5C187 -178.4 188.4 -175.8 189.4 -173.5C190.4 -171.2 191 -168.8 191.2 -166.5C191.5 -164.2 191.3 -161.8 190.8 -159.5C190.4 -157.2 189.8 -154.8 188.5 -152.5C187.3 -150.2 185.4 -147.7 183.4 -145.6C181.4 -143.4 178.8 -141.6 176.5 -139.6C174.2 -137.6 171.8 -135.6 169.5 -133.6C167.2 -131.7 164.8 -129.7 162.5 -127.8C160.2 -125.8 157.8 -123.9 155.5 -121.9C153.2 -120 150.8 -118 148.5 -116.1C146.2 -114.1 143.8 -112.2 141.5 -110.2C139.2 -108.3 136.8 -106.2 134.5 -104.3C132.2 -102.3 129.8 -100.4 127.5 -98.4C125.2 -96.5 122.8 -94.5 120.5 -92.6C118.2 -90.6 115.8 -88.6 113.5 -86.6C111.2 -84.7 108.7 -82.8 106.5 -80.8C104.3 -78.7 101.6 -76.7 100.5 -74.5C99.3 -72.3 99.7 -69.8 99.5 -67.5C99.3 -65.2 99.6 -62.8 99.4 -60.5C99.2 -58.2 98.8 -55.8 98.3 -53.5C97.8 -51.2 97.2 -48.8 96.4 -46.5C95.6 -44.2 94.8 -41.8 93.6 -39.5C92.5 -37.2 91.1 -34.8 89.5 -32.5C87.9 -30.2 85.9 -27.8 83.9 -25.7C82 -23.5 79.2 -21.7 77.8 -19.5C76.4 -17.3 75.9 -14.8 75.5 -12.5C75.1 -10.2 75.8 -7.8 75.4 -5.5C75.1 -3.2 74.8 -0.7 73.4 1.5C72.1 3.7 69.7 6.1 67.5 7.4C65.3 8.8 62.8 9.1 60.5 9.4C58.2 9.8 55.8 9.5 53.5 9.5C51.2 9.5 48.8 9.5 46.5 9.5C44.2 9.5 41.8 9.5 39.5 9.5C37.2 9.5 34.8 9.5 32.5 9.5C30.2 9.5 27.8 9.5 25.5 9.5C23.2 9.5 20.8 9.5 18.5 9.5C16.2 9.5 13.8 9.5 11.5 9.5C9.2 9.5 6.8 9.5 4.5 9.5C2.2 9.5 -0.2 9.5 -2.5 9.5C-4.8 9.5 -7.2 9.5 -9.5 9.5C-11.8 9.5 -14.2 9.5 -16.5 9.5C-18.8 9.5 -21.2 9.5 -23.5 9.5C-25.8 9.5 -28.2 9.5 -30.5 9.5C-32.8 9.5 -35.2 9.5 -37.5 9.5C-39.8 9.5 -42.2 9.5 -44.5 9.5C-46.8 9.5 -49.2 9.5 -51.5 9.5C-53.8 9.5 -56.2 9.7 -58.5 9.5C-60.8 9.3 -63.2 9.4 -65.5 8.4C-67.8 7.4 -70.5 5.5 -72.1 3.5C-73.7 1.5 -74.6 -1.2 -75.2 -3.5C-75.8 -5.8 -75.3 -8.2 -75.5 -10.5C-75.7 -12.8 -75.4 -15.3 -76.5 -17.5C-77.6 -19.7 -80.3 -21.8 -82.2 -23.9C-84.1 -26.1 -86.3 -28.2 -88 -30.5C-89.7 -32.8 -91.3 -35.2 -92.6 -37.5C-93.9 -39.8 -94.8 -42.2 -95.7 -44.5C-96.6 -46.8 -97.2 -49.2 -97.8 -51.5C-98.4 -53.8 -98.9 -56.2 -99.2 -58.5C-99.5 -60.8 -99.5 -63.2 -99.5 -65.5C-99.5 -67.8 -99.5 -70.2 -99.5 -72.5C-99.5 -74.8 -99.5 -77.2 -99.5 -79.5C-99.5 -81.8 -99.5 -84.2 -99.5 -86.5C-99.5 -88.8 -99.5 -91.2 -99.5 -93.5C-99.5 -95.8 -99.5 -98.2 -99.5 -100.5C-99.5 -102.8 -99.5 -105.2 -99.5 -107.5C-99.5 -109.8 -99.5 -112.2 -99.5 -114.5C-99.5 -116.8 -99.5 -119.2 -99.5 -121.5C-99.5 -123.8 -99.5 -126.2 -99.5 -128.5C-99.5 -130.8 -99.5 -133.2 -99.5 -135.5C-99.5 -137.8 -99.5 -140.2 -99.5 -142.5C-99.5 -144.8 -99.5 -147.2 -99.5 -149.5C-99.5 -151.8 -99.5 -154.2 -99.5 -156.5C-99.5 -158.8 -99.5 -161.2 -99.5 -163.5C-99.5 -165.8 -99.5 -168.2 -99.5 -170.5C-99.5 -172.8 -99.6 -175.2 -99.5 -177.5C-99.4 -179.8 -99.4 -182.2 -99.1 -184.5C-98.8 -186.8 -98.2 -189.2 -97.6 -191.5C-97 -193.8 -95.8 -196.2 -95.4 -198.5C-95 -200.8 -94.9 -203.2 -95.1 -205.5C-95.3 -207.8 -96.1 -210.2 -96.6 -212.5C-97.1 -214.8 -97.6 -217.2 -98.1 -219.5C-98.6 -221.8 -99.1 -224.2 -99.6 -226.5C-100.1 -228.8 -100.6 -231.2 -101.1 -233.5C-101.6 -235.8 -102 -238.2 -102.5 -240.5C-103 -242.8 -103.6 -245.2 -104.1 -247.5C-104.6 -249.8 -105 -252.2 -105.5 -254.5C-106 -256.8 -106.6 -259.2 -107.1 -261.5C-107.6 -263.8 -108 -266.2 -108.5 -268.5C-109 -270.8 -109.4 -273.2 -109.9 -275.5C-110.4 -277.8 -111.1 -280.2 -111.3 -282.5C-111.6 -284.8 -111.8 -287.2 -111.4 -289.5C-111.1 -291.8 -110.6 -294.2 -109.3 -296.5C-108 -298.8 -105.6 -301.5 -103.5 -303.1C-101.4 -304.8 -98.8 -305.9 -96.5 -306.6C-94.2 -307.3 -91.8 -307.5 -89.5 -307.2C-87.2 -307 -84.7 -306.3 -82.5 -305.1C-80.3 -303.9 -77.9 -302.2 -76.2 -300.2C-74.5 -298.3 -73.2 -295.8 -72.3 -293.5C-71.3 -291.2 -70.9 -288.8 -70.4 -286.5C-69.8 -284.2 -69.4 -281.8 -68.9 -279.5C-68.4 -277.2 -67.9 -274.8 -67.4 -272.5C-66.9 -270.2 -66.4 -267.8 -65.9 -265.5C-65.4 -263.2 -65 -260.8 -64.5 -258.5C-64 -256.2 -63.4 -253.8 -62.9 -251.5C-62.4 -249.2 -62 -246.8 -61.5 -244.5C-61 -242.2 -60.8 -239.4 -59.9 -237.5C-59.1 -235.6 -57.9 -233.3 -56.4 -233.1C-54.9 -232.8 -52 -234.2 -51.1 -235.8C-50.1 -237.4 -50.6 -240.2 -50.7 -242.5C-50.7 -244.8 -51.2 -247.2 -51.5 -249.5C-51.7 -251.8 -51.9 -254.2 -52.1 -256.5C-52.3 -258.8 -52.3 -261.2 -52.5 -263.5C-52.7 -265.8 -53.1 -268.2 -53.3 -270.5C-53.5 -272.8 -53.6 -275.2 -53.8 -277.5C-54 -279.8 -54.3 -282.2 -54.5 -284.5C-54.7 -286.8 -54.9 -289.2 -55.1 -291.5C-55.3 -293.8 -55.4 -296.2 -55.6 -298.5C-55.8 -300.8 -56.2 -303.2 -56.4 -305.5C-56.6 -307.8 -56.6 -310.2 -56.8 -312.5C-57 -314.8 -57.3 -317.2 -57.5 -319.5C-57.7 -321.8 -58 -324.2 -58.2 -326.5C-58.4 -328.8 -58.5 -331.2 -58.7 -333.5C-58.9 -335.8 -59.3 -338.2 -59.5 -340.5C-59.6 -342.8 -59.6 -345.2 -59.5 -347.5C-59.4 -349.8 -59.6 -352.2 -59 -354.5C-58.4 -356.8 -57.3 -359.4 -55.7 -361.5C-54.1 -363.6 -51.7 -365.9 -49.5 -367.4C-47.3 -368.8 -44.8 -369.7 -42.5 -370.2C-40.2 -370.7 -37.8 -370.7 -35.5 -370.5C-33.2 -370.3 -30.8 -370 -28.5 -369C-26.2 -368 -23.6 -366.3 -21.7 -364.3C-19.8 -362.4 -18.1 -359.8 -17 -357.5C-15.9 -355.2 -15.5 -352.8 -15.1 -350.5C-14.7 -348.2 -14.7 -345.8 -14.5 -343.5C-14.3 -341.2 -14 -338.8 -13.8 -336.5C-13.6 -334.2 -13.5 -331.8 -13.3 -329.5C-13.1 -327.2 -12.8 -324.8 -12.5 -322.5C-12.3 -320.2 -12.1 -317.8 -11.9 -315.5C-11.7 -313.2 -11.7 -310.8 -11.5 -308.5C-11.3 -306.2 -10.9 -303.8 -10.7 -301.5C-10.5 -299.2 -10.4 -296.8 -10.2 -294.5C-10 -292.2 -9.7 -289.8 -9.5 -287.5C-9.3 -285.2 -9.1 -282.8 -8.9 -280.5C-8.7 -278.2 -8.6 -275.8 -8.4 -273.5C-8.2 -271.2 -7.8 -268.8 -7.6 -266.5C-7.4 -264.2 -7.4 -261.8 -7.2 -259.5C-7 -257.2 -6.7 -254.8 -6.5 -252.5C-6.3 -250.2 -6 -247.8 -5.8 -245.5C-5.6 -243.2 -5.7 -239.9 -5.2 -238.6C-4.7 -237.3 -3.3 -236.7 -2.7 -237.7C-2.1 -238.7 -1.8 -242.2 -1.6 -244.5C-1.4 -246.8 -1.5 -249.2 -1.5 -251.5C-1.5 -253.8 -1.5 -256.2 -1.5 -258.5C-1.5 -260.8 -1.5 -263.2 -1.5 -265.5C-1.5 -267.8 -1.5 -270.2 -1.5 -272.5C-1.5 -274.8 -1.5 -277.2 -1.5 -279.5C-1.5 -281.8 -1.5 -284.2 -1.5 -286.5C-1.5 -288.8 -1.6 -291.2 -1.5 -293.5C-1.3 -295.8 -0.8 -298.2 -0.7 -300.5C-0.5 -302.8 -0.5 -305.2 -0.5 -307.5C-0.5 -309.8 -0.5 -312.2 -0.5 -314.5C-0.5 -316.8 -0.5 -319.2 -0.5 -321.5C-0.5 -323.8 -0.5 -326.2 -0.5 -328.5C-0.5 -330.8 -0.5 -333.2 -0.5 -335.5C-0.5 -337.8 -0.5 -340.2 -0.5 -342.5C-0.5 -344.8 -0.6 -347.2 -0.5 -349.5C-0.4 -351.8 0.1 -354.2 0.2 -356.5C0.4 -358.8 0.5 -361.2 0.5 -363.5C0.5 -365.8 0.3 -368.2 0.5 -370.5C0.7 -372.8 0.8 -375.2 1.6 -377.5C2.4 -379.8 3.6 -382.4 5.3 -384.5C6.9 -386.6 9.3 -388.7 11.5 -390.1C13.7 -391.4 17.2 -392.3 18.5 -392.8C19.8 -393.3 18.2 -393 19.5 -393.1Z"/></defs></svg>
+    <div class="s-shot-2__grid" aria-hidden="true"></div>
+    <div class="s-shot-2__cam">
+      <p class="s-shot-2__label">a molecule and its mirror image</p>
+      <div class="s-shot-2__mirror" aria-hidden="true"></div>
+      <div class="s-shot-2__mol s-shot-2__mol--l"><svg class="" viewBox="-304.4 -270.7 608.8 442.1" aria-hidden="true"><line x1="-60.7" y1="-103.1" x2="-45.1" y2="-146.3" stroke="#7a2906" stroke-width="8.9" stroke-linecap="round"/><line x1="-60.7" y1="-103.1" x2="19.1" y2="-126.5" stroke="#7a2906" stroke-width="10" stroke-linecap="round"/><g stroke="#7a2906" stroke-width="6.5" stroke-linecap="round"><line x1="102.8" y1="-228.5" x2="12.9" y2="-132.3"/><line x1="115.2" y1="-216.9" x2="25.3" y2="-120.7"/></g><line x1="0" y1="0" x2="14.3" y2="96.2" stroke="#7a2906" stroke-width="11.6" stroke-linecap="round"/><line x1="-182.1" y1="-0.9" x2="-256.4" y2="6.6" stroke="#7a2906" stroke-width="12.4" stroke-linecap="round"/><line x1="0" y1="0" x2="-182.1" y2="-0.9" stroke="#7a2906" stroke-width="12.5" stroke-linecap="round"/><line x1="-182.1" y1="-0.9" x2="-221.3" y2="-132.8" stroke="#7a2906" stroke-width="13.4" stroke-linecap="round"/><line x1="-182.1" y1="-0.9" x2="-217.2" y2="123.4" stroke="#7a2906" stroke-width="13.4" stroke-linecap="round"/><line x1="145.3" y1="-1.6" x2="142.8" y2="123.2" stroke="#7a2906" stroke-width="13.9" stroke-linecap="round"/><line x1="145.3" y1="-1.6" x2="137.4" y2="-122.8" stroke="#7a2906" stroke-width="13.9" stroke-linecap="round"/><g stroke="#7a2906" stroke-width="4.5" stroke-linecap="round"><line x1="8.7" y1="-33.6" x2="1.7" y2="-34.7"/><line x1="12.4" y1="-44.8" x2="1.4" y2="-46.5"/><line x1="16.2" y1="-56" x2="1" y2="-58.3"/><line x1="20" y1="-67.3" x2="0.7" y2="-70.2"/><line x1="23.8" y1="-78.5" x2="0.4" y2="-82"/><line x1="27.6" y1="-89.7" x2="0.1" y2="-93.8"/><line x1="31.4" y1="-100.9" x2="-0.2" y2="-105.7"/></g><circle cx="-45.1" cy="-146.3" r="17.6" fill="#e3a585" stroke="#7a2906" stroke-width="4"/><circle cx="-45.1" cy="-146.3" r="17.6" fill="#f6f0e4" opacity="0.42"/><text x="-45.1" y="-134.3" class="atom atom--h">H</text><circle cx="-60.7" cy="-103.1" r="27.3" fill="#b13d0b" stroke="#7a2906" stroke-width="5.5"/><path d="M-77.6 -108 A 18 18 0 0 1 -64 -120.5" fill="none" stroke="#fff8f0" stroke-width="3.3" stroke-linecap="round" opacity=".5"/><circle cx="-60.7" cy="-103.1" r="27.3" fill="#f6f0e4" opacity="0.42"/><text x="-60.7" y="-89.6" class="atom atom--back">O</text><circle cx="19.1" cy="-126.5" r="35.3" fill="#b13d0b" stroke="#7a2906" stroke-width="5.5"/><path d="M-2.8 -132.9 A 23.3 23.3 0 0 1 14.9 -149.1" fill="none" stroke="#fff8f0" stroke-width="4.2" stroke-linecap="round" opacity=".5"/><circle cx="19.1" cy="-126.5" r="35.3" fill="#f6f0e4" opacity="0.35"/><text x="19.1" y="-113" class="atom atom--back">C</text><circle cx="109" cy="-222.7" r="34.5" fill="#b13d0b" stroke="#7a2906" stroke-width="5.5"/><path d="M87.6 -229 A 22.8 22.8 0 0 1 104.8 -244.8" fill="none" stroke="#fff8f0" stroke-width="4.1" stroke-linecap="round" opacity=".5"/><circle cx="109" cy="-222.7" r="34.5" fill="#f6f0e4" opacity="0.29"/><text x="109" y="-209.2" class="atom atom--back">O</text><circle cx="14.3" cy="96.2" r="26.1" fill="#e3a585" stroke="#7a2906" stroke-width="4"/><circle cx="14.3" cy="96.2" r="26.1" fill="#f6f0e4" opacity="0.25"/><text x="14.3" y="108.2" class="atom atom--h">H</text><circle cx="-256.4" cy="6.6" r="28.6" fill="#e3a585" stroke="#7a2906" stroke-width="4"/><text x="-256.4" y="18.6" class="atom atom--h">H</text><circle cx="0" cy="0" r="41" fill="#b13d0b" stroke="#7a2906" stroke-width="5.5"/><path d="M-25.4 -7.4 A 27.1 27.1 0 0 1 -4.9 -26.2" fill="none" stroke="#fff8f0" stroke-width="4.9" stroke-linecap="round" opacity=".5"/><text x="0" y="13.5" class="atom atom--solid">C</text><circle cx="-182.1" cy="-0.9" r="45.3" fill="#b13d0b" stroke="#7a2906" stroke-width="5.5"/><path d="M-210.2 -9 A 29.9 29.9 0 0 1 -187.5 -29.9" fill="none" stroke="#fff8f0" stroke-width="5.4" stroke-linecap="round" opacity=".5"/><text x="-182.1" y="12.6" class="atom atom--solid">C</text><circle cx="145.3" cy="-1.6" r="47.7" fill="#b13d0b" stroke="#7a2906" stroke-width="5.5"/><path d="M115.7 -10.2 A 31.5 31.5 0 0 1 139.6 -32.2" fill="none" stroke="#fff8f0" stroke-width="5.7" stroke-linecap="round" opacity=".5"/><text x="145.3" y="11.9" class="atom atom--solid">N</text><circle cx="-221.3" cy="-132.8" r="34.7" fill="#e3a585" stroke="#7a2906" stroke-width="4"/><text x="-221.3" y="-120.8" class="atom atom--h">H</text><circle cx="-217.2" cy="123.4" r="35.2" fill="#e3a585" stroke="#7a2906" stroke-width="4"/><text x="-217.2" y="135.4" class="atom atom--h">H</text><circle cx="142.8" cy="123.2" r="36.5" fill="#e3a585" stroke="#7a2906" stroke-width="4"/><text x="142.8" y="135.2" class="atom atom--h">H</text><circle cx="137.4" cy="-122.8" r="36.6" fill="#e3a585" stroke="#7a2906" stroke-width="4"/><text x="137.4" y="-110.8" class="atom atom--h">H</text><path d="M28.7 2.2 L121.6 15.6 L121.2 -18.3 L28.7 -2.8Z" fill="#7a2906"/></svg></div>
+      <div class="s-shot-2__mol s-shot-2__mol--r"><svg class="" viewBox="-304.4 -270.7 608.8 442.1" aria-hidden="true"><defs><pattern id="s2-mr-h" width="13" height="13" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="13" height="13" fill="#f6f0e4"/><rect width="4.6" height="13" fill="#2b8a8f"/></pattern></defs><line x1="60.7" y1="-103.1" x2="45.1" y2="-146.3" stroke="#1d5f63" stroke-width="8.9" stroke-linecap="round"/><line x1="60.7" y1="-103.1" x2="-19.1" y2="-126.5" stroke="#1d5f63" stroke-width="10" stroke-linecap="round"/><g stroke="#1d5f63" stroke-width="6.5" stroke-linecap="round"><line x1="-115.2" y1="-216.9" x2="-25.3" y2="-120.7"/><line x1="-102.8" y1="-228.5" x2="-12.9" y2="-132.3"/></g><line x1="0" y1="0" x2="-14.3" y2="96.2" stroke="#1d5f63" stroke-width="11.6" stroke-linecap="round"/><line x1="182.1" y1="-0.9" x2="256.4" y2="6.6" stroke="#1d5f63" stroke-width="12.4" stroke-linecap="round"/><line x1="0" y1="0" x2="182.1" y2="-0.9" stroke="#1d5f63" stroke-width="12.5" stroke-linecap="round"/><line x1="182.1" y1="-0.9" x2="221.3" y2="-132.8" stroke="#1d5f63" stroke-width="13.4" stroke-linecap="round"/><line x1="182.1" y1="-0.9" x2="217.2" y2="123.4" stroke="#1d5f63" stroke-width="13.4" stroke-linecap="round"/><line x1="-145.3" y1="-1.6" x2="-142.8" y2="123.2" stroke="#1d5f63" stroke-width="13.9" stroke-linecap="round"/><line x1="-145.3" y1="-1.6" x2="-137.4" y2="-122.8" stroke="#1d5f63" stroke-width="13.9" stroke-linecap="round"/><g stroke="#1d5f63" stroke-width="4.5" stroke-linecap="round"><line x1="-1.7" y1="-34.7" x2="-8.7" y2="-33.6"/><line x1="-1.4" y1="-46.5" x2="-12.4" y2="-44.8"/><line x1="-1" y1="-58.3" x2="-16.2" y2="-56"/><line x1="-0.7" y1="-70.2" x2="-20" y2="-67.3"/><line x1="-0.4" y1="-82" x2="-23.8" y2="-78.5"/><line x1="-0.1" y1="-93.8" x2="-27.6" y2="-89.7"/><line x1="0.2" y1="-105.7" x2="-31.4" y2="-100.9"/></g><circle cx="45.1" cy="-146.3" r="17.6" fill="url(#s2-mr-h)" stroke="#1d5f63" stroke-width="4"/><circle cx="45.1" cy="-146.3" r="17.6" fill="#f6f0e4" opacity="0.42"/><circle cx="45.1" cy="-146.3" r="10.6" fill="#f6f0e4"/><text x="45.1" y="-134.3" class="atom atom--hatch atom--hh">H</text><circle cx="60.7" cy="-103.1" r="27.3" fill="url(#s2-mr-h)" stroke="#1d5f63" stroke-width="5.5"/><circle cx="60.7" cy="-103.1" r="27.3" fill="#f6f0e4" opacity="0.42"/><circle cx="60.7" cy="-103.1" r="20.3" fill="#f6f0e4"/><text x="60.7" y="-89.6" class="atom atom--hatch">O</text><circle cx="-19.1" cy="-126.5" r="35.3" fill="url(#s2-mr-h)" stroke="#1d5f63" stroke-width="5.5"/><circle cx="-19.1" cy="-126.5" r="35.3" fill="#f6f0e4" opacity="0.35"/><circle cx="-19.1" cy="-126.5" r="26" fill="#f6f0e4"/><text x="-19.1" y="-113" class="atom atom--hatch">C</text><circle cx="-109" cy="-222.7" r="34.5" fill="url(#s2-mr-h)" stroke="#1d5f63" stroke-width="5.5"/><circle cx="-109" cy="-222.7" r="34.5" fill="#f6f0e4" opacity="0.29"/><circle cx="-109" cy="-222.7" r="26" fill="#f6f0e4"/><text x="-109" y="-209.2" class="atom atom--hatch">O</text><circle cx="-14.3" cy="96.2" r="26.1" fill="url(#s2-mr-h)" stroke="#1d5f63" stroke-width="4"/><circle cx="-14.3" cy="96.2" r="26.1" fill="#f6f0e4" opacity="0.25"/><circle cx="-14.3" cy="96.2" r="19.1" fill="#f6f0e4"/><text x="-14.3" y="108.2" class="atom atom--hatch atom--hh">H</text><circle cx="256.4" cy="6.6" r="28.6" fill="url(#s2-mr-h)" stroke="#1d5f63" stroke-width="4"/><circle cx="256.4" cy="6.6" r="21" fill="#f6f0e4"/><text x="256.4" y="18.6" class="atom atom--hatch atom--hh">H</text><circle cx="0" cy="0" r="41" fill="url(#s2-mr-h)" stroke="#1d5f63" stroke-width="5.5"/><circle cx="0" cy="0" r="26" fill="#f6f0e4"/><text x="0" y="13.5" class="atom atom--hatch">C</text><circle cx="182.1" cy="-0.9" r="45.3" fill="url(#s2-mr-h)" stroke="#1d5f63" stroke-width="5.5"/><circle cx="182.1" cy="-0.9" r="26" fill="#f6f0e4"/><text x="182.1" y="12.6" class="atom atom--hatch">C</text><circle cx="-145.3" cy="-1.6" r="47.7" fill="url(#s2-mr-h)" stroke="#1d5f63" stroke-width="5.5"/><circle cx="-145.3" cy="-1.6" r="26" fill="#f6f0e4"/><text x="-145.3" y="11.9" class="atom atom--hatch">N</text><circle cx="221.3" cy="-132.8" r="34.7" fill="url(#s2-mr-h)" stroke="#1d5f63" stroke-width="4"/><circle cx="221.3" cy="-132.8" r="21" fill="#f6f0e4"/><text x="221.3" y="-120.8" class="atom atom--hatch atom--hh">H</text><circle cx="217.2" cy="123.4" r="35.2" fill="url(#s2-mr-h)" stroke="#1d5f63" stroke-width="4"/><circle cx="217.2" cy="123.4" r="21" fill="#f6f0e4"/><text x="217.2" y="135.4" class="atom atom--hatch atom--hh">H</text><circle cx="-142.8" cy="123.2" r="36.5" fill="url(#s2-mr-h)" stroke="#1d5f63" stroke-width="4"/><circle cx="-142.8" cy="123.2" r="21" fill="#f6f0e4"/><text x="-142.8" y="135.2" class="atom atom--hatch atom--hh">H</text><circle cx="-137.4" cy="-122.8" r="36.6" fill="url(#s2-mr-h)" stroke="#1d5f63" stroke-width="4"/><circle cx="-137.4" cy="-122.8" r="21" fill="#f6f0e4"/><text x="-137.4" y="-110.8" class="atom atom--hatch atom--hh">H</text><path d="M-28.7 -2.8 L-121.2 -18.3 L-121.6 15.6 L-28.7 2.2Z" fill="#1d5f63"/></svg></div>
+      <div class="s-shot-2__leg s-shot-2__leg--l">
+        <svg class="s-shot-2__box" viewBox="0 0 48 48" aria-hidden="true"><rect x="4" y="6" width="38" height="38" rx="5" fill="#fbf7ee" stroke="#1c1a17" stroke-width="3.5"/><path pathLength="1" d="M10 26 C 14 29, 17 33, 20 37 C 26 25, 34 13, 46 3" fill="none" stroke="#b13d0b" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        <span class="s-shot-2__ico"><svg class="" viewBox="-125 -405 350 425" aria-hidden="true"><use href="#s2-hp" fill="#b13d0b" stroke="#7a2906" stroke-width="22" stroke-linejoin="round"/></svg></span><span>one hand</span>
+      </div>
+      <div class="s-shot-2__leg s-shot-2__leg--r">
+        <svg class="s-shot-2__box" viewBox="0 0 48 48" aria-hidden="true"><rect x="4" y="6" width="38" height="38" rx="5" fill="#fbf7ee" stroke="#1c1a17" stroke-width="3.5"/></svg>
+        <span class="s-shot-2__ico"><svg class="" viewBox="-225 -405 350 425" aria-hidden="true"><defs><pattern id="s2-ir-h" width="60" height="60" patternUnits="userSpaceOnUse" patternTransform="rotate(-45)"><rect width="60" height="60" fill="#f6f0e4"/><rect width="22" height="60" fill="#2b8a8f"/></pattern></defs><g transform="scale(-1 1)"><use href="#s2-hp" fill="url(#s2-ir-h)" stroke="#1d5f63" stroke-width="22" stroke-linejoin="round"/></g></svg></span><span>mirror hand</span>
+      </div>
+    </div>
+    <p class="s-shot-2__note"><span class="s-shot-2__dot" aria-hidden="true"></span>your proteins: one hand only</p>
+  </section>
+  <section class="scene s-shot-3" id="shot-3" data-start="#shot-2" data-dur="9.483" data-storyboard-shot="3 fifty-fifty" data-transition="push up 0.55">
+    <svg width="0" height="0" style="position:absolute" aria-hidden="true"><defs><path id="s3-hp" d="M19.5 -393.1C20.8 -393.1 24.2 -393.6 26.5 -393.3C28.8 -393 31.2 -392.3 33.5 -391.2C35.8 -390 38.5 -388.4 40.4 -386.4C42.4 -384.5 44.1 -381.8 45.2 -379.5C46.3 -377.2 46.7 -374.8 47.1 -372.5C47.5 -370.2 47.4 -367.8 47.5 -365.5C47.6 -363.2 47.6 -360.8 47.4 -358.5C47.3 -356.2 46.7 -353.8 46.6 -351.5C46.4 -349.2 46.5 -346.8 46.5 -344.5C46.5 -342.2 46.5 -339.8 46.5 -337.5C46.5 -335.2 46.5 -332.8 46.5 -330.5C46.5 -328.2 46.5 -325.8 46.5 -323.5C46.5 -321.2 46.5 -318.8 46.5 -316.5C46.5 -314.2 46.5 -311.8 46.5 -309.5C46.5 -307.2 46.6 -304.8 46.5 -302.5C46.3 -300.2 45.8 -297.8 45.7 -295.5C45.5 -293.2 45.5 -290.8 45.5 -288.5C45.5 -286.2 45.5 -283.8 45.5 -281.5C45.5 -279.2 45.5 -276.8 45.5 -274.5C45.5 -272.2 45.5 -269.8 45.5 -267.5C45.5 -265.2 45.5 -262.8 45.5 -260.5C45.5 -258.2 45.5 -255.8 45.5 -253.5C45.5 -251.2 45.6 -248.8 45.5 -246.5C45.4 -244.2 44.8 -241.2 44.9 -239.5C45.1 -237.8 46.2 -235.8 46.6 -236.3C47.1 -236.8 47.5 -240.3 47.8 -242.5C48.1 -244.7 48.3 -247.2 48.5 -249.5C48.8 -251.8 49.1 -254.2 49.3 -256.5C49.6 -258.8 49.9 -261.2 50.1 -263.5C50.3 -265.8 50.4 -268.2 50.7 -270.5C50.9 -272.8 51.2 -275.2 51.5 -277.5C51.8 -279.8 52.1 -282.2 52.3 -284.5C52.6 -286.8 52.7 -289.2 52.9 -291.5C53.1 -293.8 53.4 -296.2 53.7 -298.5C53.9 -300.8 54.2 -303.2 54.5 -305.5C54.7 -307.8 55 -310.2 55.2 -312.5C55.5 -314.8 55.7 -317.2 55.9 -319.5C56.1 -321.8 56.3 -324.2 56.6 -326.5C56.8 -328.8 57.1 -331.2 57.4 -333.5C57.7 -335.8 57.8 -338.2 58.3 -340.5C58.7 -342.8 58.9 -345.2 60 -347.5C61.1 -349.8 62.7 -352.3 64.7 -354.2C66.6 -356 69.2 -357.6 71.5 -358.6C73.8 -359.6 76.2 -360.2 78.5 -360.4C80.8 -360.6 83.2 -360.5 85.5 -360C87.8 -359.5 90.3 -358.6 92.5 -357.2C94.7 -355.8 97.1 -353.6 98.7 -351.5C100.3 -349.4 101.3 -346.8 102 -344.5C102.7 -342.2 102.7 -339.8 102.8 -337.5C102.9 -335.2 102.6 -332.8 102.4 -330.5C102.2 -328.2 101.9 -325.8 101.6 -323.5C101.3 -321.2 101 -318.8 100.8 -316.5C100.6 -314.2 100.4 -311.8 100.2 -309.5C100 -307.2 99.7 -304.8 99.4 -302.5C99.1 -300.2 98.8 -297.8 98.6 -295.5C98.3 -293.2 98.1 -290.8 97.9 -288.5C97.7 -286.2 97.5 -283.8 97.2 -281.5C97 -279.2 96.7 -276.8 96.5 -274.5C96.2 -272.2 95.9 -269.8 95.7 -267.5C95.4 -265.2 95.1 -262.8 94.9 -260.5C94.7 -258.2 94.6 -255.8 94.3 -253.5C94.1 -251.2 93.8 -248.8 93.5 -246.5C93.2 -244.2 92.9 -241.8 92.7 -239.5C92.4 -237.2 92.3 -234.8 92.1 -232.5C91.9 -230.2 91.6 -227.8 91.3 -225.5C91.1 -223.2 90.8 -220.8 90.5 -218.5C90.3 -216.2 89.6 -213.8 90 -211.5C90.3 -209.2 91.7 -206.8 92.6 -204.5C93.6 -202.2 94.8 -199.8 95.7 -197.5C96.6 -195.2 97.2 -192.8 97.8 -190.5C98.4 -188.2 98.9 -185.8 99.2 -183.5C99.5 -181.2 99.5 -178.8 99.5 -176.5C99.5 -174.2 99.5 -171.8 99.5 -169.5C99.5 -167.2 99.5 -164.8 99.5 -162.5C99.5 -160.2 99.5 -157.8 99.5 -155.5C99.5 -153.2 99.1 -150.3 99.5 -148.5C99.9 -146.7 100.3 -144.3 101.8 -144.4C103.3 -144.6 106.2 -147.6 108.5 -149.4C110.8 -151.2 113.2 -153.3 115.5 -155.3C117.8 -157.2 120.2 -159.1 122.5 -161.1C124.8 -163 127.2 -164.9 129.5 -166.9C131.8 -168.9 134.2 -170.9 136.5 -172.9C138.8 -174.9 141.2 -176.9 143.5 -178.8C145.8 -180.6 148.2 -182.8 150.5 -184.3C152.8 -185.8 155.2 -187.1 157.5 -188C159.8 -188.8 162.2 -189.3 164.5 -189.4C166.8 -189.5 169.2 -189.3 171.5 -188.8C173.8 -188.2 176.2 -187.4 178.5 -186C180.8 -184.6 183.4 -182.6 185.2 -180.5C187 -178.4 188.4 -175.8 189.4 -173.5C190.4 -171.2 191 -168.8 191.2 -166.5C191.5 -164.2 191.3 -161.8 190.8 -159.5C190.4 -157.2 189.8 -154.8 188.5 -152.5C187.3 -150.2 185.4 -147.7 183.4 -145.6C181.4 -143.4 178.8 -141.6 176.5 -139.6C174.2 -137.6 171.8 -135.6 169.5 -133.6C167.2 -131.7 164.8 -129.7 162.5 -127.8C160.2 -125.8 157.8 -123.9 155.5 -121.9C153.2 -120 150.8 -118 148.5 -116.1C146.2 -114.1 143.8 -112.2 141.5 -110.2C139.2 -108.3 136.8 -106.2 134.5 -104.3C132.2 -102.3 129.8 -100.4 127.5 -98.4C125.2 -96.5 122.8 -94.5 120.5 -92.6C118.2 -90.6 115.8 -88.6 113.5 -86.6C111.2 -84.7 108.7 -82.8 106.5 -80.8C104.3 -78.7 101.6 -76.7 100.5 -74.5C99.3 -72.3 99.7 -69.8 99.5 -67.5C99.3 -65.2 99.6 -62.8 99.4 -60.5C99.2 -58.2 98.8 -55.8 98.3 -53.5C97.8 -51.2 97.2 -48.8 96.4 -46.5C95.6 -44.2 94.8 -41.8 93.6 -39.5C92.5 -37.2 91.1 -34.8 89.5 -32.5C87.9 -30.2 85.9 -27.8 83.9 -25.7C82 -23.5 79.2 -21.7 77.8 -19.5C76.4 -17.3 75.9 -14.8 75.5 -12.5C75.1 -10.2 75.8 -7.8 75.4 -5.5C75.1 -3.2 74.8 -0.7 73.4 1.5C72.1 3.7 69.7 6.1 67.5 7.4C65.3 8.8 62.8 9.1 60.5 9.4C58.2 9.8 55.8 9.5 53.5 9.5C51.2 9.5 48.8 9.5 46.5 9.5C44.2 9.5 41.8 9.5 39.5 9.5C37.2 9.5 34.8 9.5 32.5 9.5C30.2 9.5 27.8 9.5 25.5 9.5C23.2 9.5 20.8 9.5 18.5 9.5C16.2 9.5 13.8 9.5 11.5 9.5C9.2 9.5 6.8 9.5 4.5 9.5C2.2 9.5 -0.2 9.5 -2.5 9.5C-4.8 9.5 -7.2 9.5 -9.5 9.5C-11.8 9.5 -14.2 9.5 -16.5 9.5C-18.8 9.5 -21.2 9.5 -23.5 9.5C-25.8 9.5 -28.2 9.5 -30.5 9.5C-32.8 9.5 -35.2 9.5 -37.5 9.5C-39.8 9.5 -42.2 9.5 -44.5 9.5C-46.8 9.5 -49.2 9.5 -51.5 9.5C-53.8 9.5 -56.2 9.7 -58.5 9.5C-60.8 9.3 -63.2 9.4 -65.5 8.4C-67.8 7.4 -70.5 5.5 -72.1 3.5C-73.7 1.5 -74.6 -1.2 -75.2 -3.5C-75.8 -5.8 -75.3 -8.2 -75.5 -10.5C-75.7 -12.8 -75.4 -15.3 -76.5 -17.5C-77.6 -19.7 -80.3 -21.8 -82.2 -23.9C-84.1 -26.1 -86.3 -28.2 -88 -30.5C-89.7 -32.8 -91.3 -35.2 -92.6 -37.5C-93.9 -39.8 -94.8 -42.2 -95.7 -44.5C-96.6 -46.8 -97.2 -49.2 -97.8 -51.5C-98.4 -53.8 -98.9 -56.2 -99.2 -58.5C-99.5 -60.8 -99.5 -63.2 -99.5 -65.5C-99.5 -67.8 -99.5 -70.2 -99.5 -72.5C-99.5 -74.8 -99.5 -77.2 -99.5 -79.5C-99.5 -81.8 -99.5 -84.2 -99.5 -86.5C-99.5 -88.8 -99.5 -91.2 -99.5 -93.5C-99.5 -95.8 -99.5 -98.2 -99.5 -100.5C-99.5 -102.8 -99.5 -105.2 -99.5 -107.5C-99.5 -109.8 -99.5 -112.2 -99.5 -114.5C-99.5 -116.8 -99.5 -119.2 -99.5 -121.5C-99.5 -123.8 -99.5 -126.2 -99.5 -128.5C-99.5 -130.8 -99.5 -133.2 -99.5 -135.5C-99.5 -137.8 -99.5 -140.2 -99.5 -142.5C-99.5 -144.8 -99.5 -147.2 -99.5 -149.5C-99.5 -151.8 -99.5 -154.2 -99.5 -156.5C-99.5 -158.8 -99.5 -161.2 -99.5 -163.5C-99.5 -165.8 -99.5 -168.2 -99.5 -170.5C-99.5 -172.8 -99.6 -175.2 -99.5 -177.5C-99.4 -179.8 -99.4 -182.2 -99.1 -184.5C-98.8 -186.8 -98.2 -189.2 -97.6 -191.5C-97 -193.8 -95.8 -196.2 -95.4 -198.5C-95 -200.8 -94.9 -203.2 -95.1 -205.5C-95.3 -207.8 -96.1 -210.2 -96.6 -212.5C-97.1 -214.8 -97.6 -217.2 -98.1 -219.5C-98.6 -221.8 -99.1 -224.2 -99.6 -226.5C-100.1 -228.8 -100.6 -231.2 -101.1 -233.5C-101.6 -235.8 -102 -238.2 -102.5 -240.5C-103 -242.8 -103.6 -245.2 -104.1 -247.5C-104.6 -249.8 -105 -252.2 -105.5 -254.5C-106 -256.8 -106.6 -259.2 -107.1 -261.5C-107.6 -263.8 -108 -266.2 -108.5 -268.5C-109 -270.8 -109.4 -273.2 -109.9 -275.5C-110.4 -277.8 -111.1 -280.2 -111.3 -282.5C-111.6 -284.8 -111.8 -287.2 -111.4 -289.5C-111.1 -291.8 -110.6 -294.2 -109.3 -296.5C-108 -298.8 -105.6 -301.5 -103.5 -303.1C-101.4 -304.8 -98.8 -305.9 -96.5 -306.6C-94.2 -307.3 -91.8 -307.5 -89.5 -307.2C-87.2 -307 -84.7 -306.3 -82.5 -305.1C-80.3 -303.9 -77.9 -302.2 -76.2 -300.2C-74.5 -298.3 -73.2 -295.8 -72.3 -293.5C-71.3 -291.2 -70.9 -288.8 -70.4 -286.5C-69.8 -284.2 -69.4 -281.8 -68.9 -279.5C-68.4 -277.2 -67.9 -274.8 -67.4 -272.5C-66.9 -270.2 -66.4 -267.8 -65.9 -265.5C-65.4 -263.2 -65 -260.8 -64.5 -258.5C-64 -256.2 -63.4 -253.8 -62.9 -251.5C-62.4 -249.2 -62 -246.8 -61.5 -244.5C-61 -242.2 -60.8 -239.4 -59.9 -237.5C-59.1 -235.6 -57.9 -233.3 -56.4 -233.1C-54.9 -232.8 -52 -234.2 -51.1 -235.8C-50.1 -237.4 -50.6 -240.2 -50.7 -242.5C-50.7 -244.8 -51.2 -247.2 -51.5 -249.5C-51.7 -251.8 -51.9 -254.2 -52.1 -256.5C-52.3 -258.8 -52.3 -261.2 -52.5 -263.5C-52.7 -265.8 -53.1 -268.2 -53.3 -270.5C-53.5 -272.8 -53.6 -275.2 -53.8 -277.5C-54 -279.8 -54.3 -282.2 -54.5 -284.5C-54.7 -286.8 -54.9 -289.2 -55.1 -291.5C-55.3 -293.8 -55.4 -296.2 -55.6 -298.5C-55.8 -300.8 -56.2 -303.2 -56.4 -305.5C-56.6 -307.8 -56.6 -310.2 -56.8 -312.5C-57 -314.8 -57.3 -317.2 -57.5 -319.5C-57.7 -321.8 -58 -324.2 -58.2 -326.5C-58.4 -328.8 -58.5 -331.2 -58.7 -333.5C-58.9 -335.8 -59.3 -338.2 -59.5 -340.5C-59.6 -342.8 -59.6 -345.2 -59.5 -347.5C-59.4 -349.8 -59.6 -352.2 -59 -354.5C-58.4 -356.8 -57.3 -359.4 -55.7 -361.5C-54.1 -363.6 -51.7 -365.9 -49.5 -367.4C-47.3 -368.8 -44.8 -369.7 -42.5 -370.2C-40.2 -370.7 -37.8 -370.7 -35.5 -370.5C-33.2 -370.3 -30.8 -370 -28.5 -369C-26.2 -368 -23.6 -366.3 -21.7 -364.3C-19.8 -362.4 -18.1 -359.8 -17 -357.5C-15.9 -355.2 -15.5 -352.8 -15.1 -350.5C-14.7 -348.2 -14.7 -345.8 -14.5 -343.5C-14.3 -341.2 -14 -338.8 -13.8 -336.5C-13.6 -334.2 -13.5 -331.8 -13.3 -329.5C-13.1 -327.2 -12.8 -324.8 -12.5 -322.5C-12.3 -320.2 -12.1 -317.8 -11.9 -315.5C-11.7 -313.2 -11.7 -310.8 -11.5 -308.5C-11.3 -306.2 -10.9 -303.8 -10.7 -301.5C-10.5 -299.2 -10.4 -296.8 -10.2 -294.5C-10 -292.2 -9.7 -289.8 -9.5 -287.5C-9.3 -285.2 -9.1 -282.8 -8.9 -280.5C-8.7 -278.2 -8.6 -275.8 -8.4 -273.5C-8.2 -271.2 -7.8 -268.8 -7.6 -266.5C-7.4 -264.2 -7.4 -261.8 -7.2 -259.5C-7 -257.2 -6.7 -254.8 -6.5 -252.5C-6.3 -250.2 -6 -247.8 -5.8 -245.5C-5.6 -243.2 -5.7 -239.9 -5.2 -238.6C-4.7 -237.3 -3.3 -236.7 -2.7 -237.7C-2.1 -238.7 -1.8 -242.2 -1.6 -244.5C-1.4 -246.8 -1.5 -249.2 -1.5 -251.5C-1.5 -253.8 -1.5 -256.2 -1.5 -258.5C-1.5 -260.8 -1.5 -263.2 -1.5 -265.5C-1.5 -267.8 -1.5 -270.2 -1.5 -272.5C-1.5 -274.8 -1.5 -277.2 -1.5 -279.5C-1.5 -281.8 -1.5 -284.2 -1.5 -286.5C-1.5 -288.8 -1.6 -291.2 -1.5 -293.5C-1.3 -295.8 -0.8 -298.2 -0.7 -300.5C-0.5 -302.8 -0.5 -305.2 -0.5 -307.5C-0.5 -309.8 -0.5 -312.2 -0.5 -314.5C-0.5 -316.8 -0.5 -319.2 -0.5 -321.5C-0.5 -323.8 -0.5 -326.2 -0.5 -328.5C-0.5 -330.8 -0.5 -333.2 -0.5 -335.5C-0.5 -337.8 -0.5 -340.2 -0.5 -342.5C-0.5 -344.8 -0.6 -347.2 -0.5 -349.5C-0.4 -351.8 0.1 -354.2 0.2 -356.5C0.4 -358.8 0.5 -361.2 0.5 -363.5C0.5 -365.8 0.3 -368.2 0.5 -370.5C0.7 -372.8 0.8 -375.2 1.6 -377.5C2.4 -379.8 3.6 -382.4 5.3 -384.5C6.9 -386.6 9.3 -388.7 11.5 -390.1C13.7 -391.4 17.2 -392.3 18.5 -392.8C19.8 -393.3 18.2 -393 19.5 -393.1Z"/></defs></svg>
+    <div class="s-shot-3__grid" aria-hidden="true"></div>
+    <div class="s-shot-3__cam">
+      <svg class="s-shot-3__svg" viewBox="0 0 1920 1080" aria-hidden="true">
+        <defs>
+          <pattern id="s3-hatch" patternUnits="userSpaceOnUse" width="7" height="7" patternTransform="rotate(45)">
+            <rect width="7" height="7" fill="#f6f0e4"/><rect x="0" y="0" width="2.6" height="7" fill="#2b8a8f"/>
+          </pattern>
+        </defs>
+        <path class="s-shot-3__flask" fill="#1c1a17"/>
+        <g class="s-shot-3__dots"></g>
+        <g class="s-shot-3__bar">
+          <rect class="s-shot-3__bar-o" x="1180" y="512" width="0" height="46" fill="#b13d0b"/>
+          <rect class="s-shot-3__bar-t" x="1180" y="512" width="0" height="46" fill="url(#s3-hatch)"/>
+          <rect x="1180" y="512" width="600" height="46" fill="none" stroke="#1c1a17" stroke-width="2.5" rx="3"/>
+          <line x1="1480" y1="494" x2="1480" y2="576" stroke="#1c1a17" stroke-width="2.5" stroke-dasharray="8 7"/>
+        </g>
+        <path class="s-shot-3__leader" fill="#1c1a17" opacity="0"/>
+      </svg>
+      <div class="s-shot-3__stamp"><span class="s-shot-3__stamp-ico"><svg class="" viewBox="-125 -405 350 425" aria-hidden="true"><use href="#s3-hp" fill="#b13d0b" stroke="#7a2906" stroke-width="22" stroke-linejoin="round"/></svg></span>catalyst</div>
+      <p class="s-shot-3__def">catalyst: a helper<br>that isn&rsquo;t used up</p>
+      <p class="s-shot-3__kicker">tally</p>
+      <div class="s-shot-3__count">
+        <svg class="s-shot-3__cdot" viewBox="0 0 40 40" aria-hidden="true"><circle cx="20" cy="20" r="16" fill="#b13d0b" stroke="#7a2906" stroke-width="2"/></svg>
+        <span class="s-shot-3__n s-shot-3__n--o">0</span><span class="s-shot-3__colon">:</span><span class="s-shot-3__n s-shot-3__n--t">0</span>
+        <svg class="s-shot-3__cdot" viewBox="0 0 40 40" aria-hidden="true"><circle cx="20" cy="20" r="16" fill="url(#s3-hatch)" stroke="#2b8a8f" stroke-width="3.5"/></svg>
+      </div>
+      <p class="s-shot-3__ratio" aria-label="about 50 : 50"><svg class="s-shot-3__approx" viewBox="0 0 64 64" aria-hidden="true"><path d="M 6 25 C 16 13, 26 13, 32 21 S 48 29, 58 17"/><path d="M 6 45 C 16 33, 26 33, 32 41 S 48 49, 58 37"/></svg>50 : 50</p>
+      <p class="s-shot-3__tipped">tipped</p>
+      <div class="s-shot-3__leg"><span class="s-shot-3__ico"><svg class="" viewBox="-125 -405 350 425" aria-hidden="true"><use href="#s3-hp" fill="#b13d0b" stroke="#7a2906" stroke-width="22" stroke-linejoin="round"/></svg></span><span>one hand</span></div>
+      <div class="s-shot-3__leg s-shot-3__leg--r"><span class="s-shot-3__ico"><svg class="" viewBox="-225 -405 350 425" aria-hidden="true"><defs><pattern id="s3-ir-h" width="60" height="60" patternUnits="userSpaceOnUse" patternTransform="rotate(-45)"><rect width="60" height="60" fill="#f6f0e4"/><rect width="22" height="60" fill="#2b8a8f"/></pattern></defs><g transform="scale(-1 1)"><use href="#s3-hp" fill="url(#s3-ir-h)" stroke="#1d5f63" stroke-width="22" stroke-linejoin="round"/></g></svg></span><span>mirror hand</span></div>
+    </div>
+    <p class="s-shot-3__note s-shot-3__note--a">left to itself</p>
+    <p class="s-shot-3__note s-shot-3__note--b">+ a one-handed catalyst</p>
+  </section>
+  <section class="scene s-shot-4" id="shot-4" data-start="#shot-3" data-dur="17.918" data-storyboard-shot="4 Frank&#x27;s recipe" data-transition="blur-dissolve 0.6">
+  <div class="nb-grid" aria-hidden="true"></div>
+  <div class="cam" data-st="camera" data-path='[{"at": 0, "zoom": 1}, {"at": 0.15, "dur": 17.6, "zoom": 1.03, "focus": [50, 50], "to": "stay", "ease": "linear"}]'>
+    <!-- the recipe page (shared by shot-4 and shot-5: same layout, same classes, ids prefixed s4-) -->
+    <div class="pg">
+      <svg class="pg-svg" viewBox="0 0 1920 1080" aria-hidden="true">
+        <defs>
+          <pattern id="s4-hatch" patternUnits="userSpaceOnUse" width="7" height="7" patternTransform="rotate(45)">
+            <rect width="7" height="7" fill="#f6f0e4"/><rect x="0" y="0" width="2.6" height="7" fill="#2b8a8f"/>
+          </pattern>
+          <g id="s4-handshape">
+            <rect x="6" y="22" width="22" height="24" rx="7"/>
+            <rect x="6.2" y="9" width="5.2" height="18" rx="2.6"/>
+            <rect x="11.8" y="4.5" width="5.2" height="22" rx="2.6"/>
+            <rect x="17.4" y="5.5" width="5.2" height="21" rx="2.6"/>
+            <rect x="23" y="10.5" width="5" height="16" rx="2.5"/>
+            <rect x="25.5" y="20" width="6" height="16" rx="3" transform="rotate(42 28.5 35)"/>
+          </g>
+          <!-- one hand: solid burnt orange (outline under the fill, so only the outer edge shows) -->
+          <symbol id="s4-lhand" viewBox="-2 -2 44 52">
+            <use href="#s4-handshape" fill="none" stroke="#7d2a06" stroke-width="2.4" stroke-linejoin="round"/>
+            <use href="#s4-handshape" fill="#b13d0b"/>
+          </symbol>
+          <!-- mirror hand: the same outline mirrored, teal hatched at 45 degrees -->
+          <symbol id="s4-rhand" viewBox="-2 -2 44 52">
+            <g transform="translate(40 0) scale(-1 1)">
+              <use href="#s4-handshape" fill="none" stroke="#2b8a8f" stroke-width="3.2" stroke-linejoin="round"/>
+              <use href="#s4-handshape" fill="url(#s4-hatch)"/>
+            </g>
+          </symbol>
+          <symbol id="s4-lhand-paper" viewBox="-2 -2 44 52"><use href="#s4-handshape" fill="#f6f0e4"/></symbol>
+        </defs>
+        <path class="pg-margin" fill="#1c1a17" opacity="0.16"/>
+        <rect class="pg-hl" x="236" y="527" width="0" height="74" rx="6" fill="#e2d8c4"/>
+        <path class="pg-rules" fill="#1c1a17" opacity="0.2"/>
+        <path class="pg-box pg-box1" fill="#1c1a17"/><path class="pg-box pg-box2" fill="#1c1a17"/><path class="pg-box pg-box3" fill="#1c1a17"/>
+        <path class="pg-tick pg-tick1" fill="#1c1a17"/><path class="pg-tick pg-tick2" fill="#1c1a17"/><path class="pg-tick pg-tick3" fill="#1c1a17"/>
+        <path class="pg-lead pg-lead1" fill="#1c1a17"/><path class="pg-lead pg-lead2" fill="#1c1a17"/><path class="pg-lead pg-lead3" fill="#1c1a17"/>
+      </svg>
+      <div class="t pg-head"><span class="pg-htxt">Frank&rsquo;s recipe &middot; 1953<span class="pg-uline"><svg viewBox="0 0 1000 24" preserveAspectRatio="none" aria-hidden="true"><path d="M 2 13 C 180 9, 420 15, 640 11 S 900 9, 998 12 L 997 15 C 880 14, 700 17, 520 16 S 160 15, 3 16 Z" fill="#1c1a17"/></svg></span></span><span class="pg-picto" aria-hidden="true"><svg viewBox="0 0 230 120"><use href="#s4-lhand" x="0" y="8" width="88" height="104"/><line x1="115" y1="0" x2="115" y2="120" stroke="#1c1a17" stroke-width="3.5" stroke-dasharray="10 8" stroke-linecap="round"/><use class="pg-picto-m" href="#s4-rhand" x="142" y="8" width="88" height="104"/></svg></span></div>
+      <p class="t pg-num pg-num1">1</p><p class="t pg-txt pg-txt1">a one-handed catalyst</p>
+      <p class="t pg-num pg-num2">2</p><p class="t pg-txt pg-txt2">boost one hand, hold back the other</p>
+      <p class="t pg-num pg-num3">3</p><p class="t pg-txt pg-txt3">a reaction that makes its own catalyst</p>
+      <p class="t pg-lab pg-lab1">early 1900s</p>
+      <p class="t pg-lab pg-lab2">Kagan, 1986</p>
+      <p class="t pg-lab pg-lab3">Soai, 1995</p>
+      <p class="t pg-src">numbered as in the Nobel popular background</p>
+    </div>
+    <p class="t note note-frank-a">Charles Frank,</p>
+    <p class="t note note-frank-b">theoretical physicist</p>
+  </div>
+</section>
+  <section class="scene s-shot-5" id="shot-5" data-start="#shot-4" data-dur="20.947" data-storyboard-shot="5 Kagan&#x27;s bend">
+  <div class="nb-grid" aria-hidden="true"></div>
+  <div class="cam" data-st="camera" data-path='[{"at": 0, "dur": 0, "zoom": 1.03, "focus": [50, 50], "to": "stay"}, {"at": 0.05, "dur": 3.3, "zoom": 1.045, "focus": [50, 50], "to": "stay", "ease": "linear"}, {"at": 3.4, "dur": 0.6, "zoom": 1, "focus": [50, 50], "to": "stay"}, {"at": 4.0, "dur": 16.8, "zoom": 1.035, "focus": [50, 50], "to": "stay", "ease": "linear"}]'>
+    <!-- the recipe page (shared by shot-4 and shot-5: same layout, same classes, ids prefixed s5-) -->
+    <div class="pg">
+      <svg class="pg-svg" viewBox="0 0 1920 1080" aria-hidden="true">
+        <defs>
+          <pattern id="s5-hatch" patternUnits="userSpaceOnUse" width="7" height="7" patternTransform="rotate(45)">
+            <rect width="7" height="7" fill="#f6f0e4"/><rect x="0" y="0" width="2.6" height="7" fill="#2b8a8f"/>
+          </pattern>
+          <g id="s5-handshape">
+            <rect x="6" y="22" width="22" height="24" rx="7"/>
+            <rect x="6.2" y="9" width="5.2" height="18" rx="2.6"/>
+            <rect x="11.8" y="4.5" width="5.2" height="22" rx="2.6"/>
+            <rect x="17.4" y="5.5" width="5.2" height="21" rx="2.6"/>
+            <rect x="23" y="10.5" width="5" height="16" rx="2.5"/>
+            <rect x="25.5" y="20" width="6" height="16" rx="3" transform="rotate(42 28.5 35)"/>
+          </g>
+          <!-- one hand: solid burnt orange (outline under the fill, so only the outer edge shows) -->
+          <symbol id="s5-lhand" viewBox="-2 -2 44 52">
+            <use href="#s5-handshape" fill="none" stroke="#7d2a06" stroke-width="2.4" stroke-linejoin="round"/>
+            <use href="#s5-handshape" fill="#b13d0b"/>
+          </symbol>
+          <!-- mirror hand: the same outline mirrored, teal hatched at 45 degrees -->
+          <symbol id="s5-rhand" viewBox="-2 -2 44 52">
+            <g transform="translate(40 0) scale(-1 1)">
+              <use href="#s5-handshape" fill="none" stroke="#2b8a8f" stroke-width="3.2" stroke-linejoin="round"/>
+              <use href="#s5-handshape" fill="url(#s5-hatch)"/>
+            </g>
+          </symbol>
+          <symbol id="s5-lhand-paper" viewBox="-2 -2 44 52"><use href="#s5-handshape" fill="#f6f0e4"/></symbol>
+        </defs>
+        <path class="pg-margin" fill="#1c1a17" opacity="0.16"/>
+        <rect class="pg-hl" x="236" y="527" width="0" height="74" rx="6" fill="#e2d8c4"/>
+        <path class="pg-rules" fill="#1c1a17" opacity="0.2"/>
+        <path class="pg-box pg-box1" fill="#1c1a17"/><path class="pg-box pg-box2" fill="#1c1a17"/><path class="pg-box pg-box3" fill="#1c1a17"/>
+        <path class="pg-tick pg-tick1" fill="#1c1a17"/><path class="pg-tick pg-tick2" fill="#1c1a17"/><path class="pg-tick pg-tick3" fill="#1c1a17"/>
+        <path class="pg-lead pg-lead1" fill="#1c1a17"/><path class="pg-lead pg-lead2" fill="#1c1a17"/><path class="pg-lead pg-lead3" fill="#1c1a17"/>
+      </svg>
+      <div class="t pg-head"><span class="pg-htxt">Frank&rsquo;s recipe &middot; 1953<span class="pg-uline"><svg viewBox="0 0 1000 24" preserveAspectRatio="none" aria-hidden="true"><path d="M 2 13 C 180 9, 420 15, 640 11 S 900 9, 998 12 L 997 15 C 880 14, 700 17, 520 16 S 160 15, 3 16 Z" fill="#1c1a17"/></svg></span></span><span class="pg-picto" aria-hidden="true"><svg viewBox="0 0 230 120"><use href="#s5-lhand" x="0" y="8" width="88" height="104"/><line x1="115" y1="0" x2="115" y2="120" stroke="#1c1a17" stroke-width="3.5" stroke-dasharray="10 8" stroke-linecap="round"/><use class="pg-picto-m" href="#s5-rhand" x="142" y="8" width="88" height="104"/></svg></span></div>
+      <p class="t pg-num pg-num1">1</p><p class="t pg-txt pg-txt1">a one-handed catalyst</p>
+      <p class="t pg-num pg-num2">2</p><p class="t pg-txt pg-txt2">boost one hand, hold back the other</p>
+      <p class="t pg-num pg-num3">3</p><p class="t pg-txt pg-txt3">a reaction that makes its own catalyst</p>
+      <p class="t pg-lab pg-lab1">early 1900s</p>
+      <p class="t pg-lab pg-lab2">Kagan, 1986</p>
+      <p class="t pg-lab pg-lab3">Soai, 1995</p>
+      <p class="t pg-src">numbered as in the Nobel popular background</p>
+    </div>
+    <p class="t note note-frank-a">Charles Frank,</p>
+    <p class="t note note-frank-b">theoretical physicist</p>
+    <!-- recap strip after the page turn: Frank's three boxes, 1 and 2 ticked -->
+    <div class="rc">
+      <svg class="rc-svg" viewBox="0 0 1920 1080" aria-hidden="true"><path class="rc-boxes" fill="#1c1a17"/><path class="rc-ticks" fill="#1c1a17"/></svg>
+      <p class="t rc-lab">Frank&rsquo;s recipe</p>
+      <p class="t rc-n rc-n1">1</p><p class="t rc-n rc-n2">2</p><p class="t rc-n rc-n3">3</p>
+    </div>
+    <!-- 5a: the metal holds two pieces; three kinds of pairs; the mixed one barely works; 75:25 -> working 90:10 -->
+    <div class="kp">
+      <svg class="kp-svg" viewBox="0 0 1920 1080" aria-hidden="true">
+        <path class="kp-sticks" fill="#1c1a17"/>
+        <circle class="kp-disc-fill" cx="400" cy="410" r="76" fill="#ece4d4"/>
+        <path class="kp-disc" fill="#1c1a17"/>
+        <path class="kp-slots" fill="#1c1a17" opacity="0.8"/>
+        <text class="kp-m" x="400" y="440" text-anchor="middle" font-family="Fraunces, serif" font-weight="700" font-size="86" fill="#1c1a17">M</text>
+        <!-- the pie: wedges drawn per frame -->
+        <g class="kp-pie">
+          <path class="kp-rim" fill="#1c1a17"/>
+          <path class="kp-w kp-w-o" fill="#b13d0b" stroke="#f6f0e4" stroke-width="4" stroke-linejoin="round"/>
+          <path class="kp-w kp-w-g" fill="#8a8580" stroke="#f6f0e4" stroke-width="4" stroke-linejoin="round"/>
+          <path class="kp-w kp-w-t" fill="url(#s5-hatch)" stroke="#2b8a8f" stroke-width="3.5" stroke-linejoin="round"/>
+          <use class="kp-ph-o" href="#s5-lhand-paper" width="46" height="54"/>
+          <use class="kp-ph-t" href="#s5-rhand" width="46" height="54"/>
+          <path class="kp-strike-pie" fill="#1c1a17"/>
+        </g>
+        <!-- the three kinds of pairs (legend rows) -->
+        <g class="kp-pairs">
+          <g class="kp-pair kp-pair1">
+            <path class="kp-pst" fill="#1c1a17"/>
+            <circle cx="1340" cy="330" r="32" fill="#ece4d4" stroke="#1c1a17" stroke-width="3.5"/>
+            <text x="1340" y="342" text-anchor="middle" font-family="Fraunces, serif" font-weight="700" font-size="34" fill="#1c1a17">M</text>
+            <use href="#s5-lhand" x="1236" y="300" width="50" height="59"/><use href="#s5-lhand" x="1394" y="300" width="50" height="59"/>
+          </g>
+          <g class="kp-pair kp-pair2">
+            <path class="kp-pst" fill="#1c1a17"/>
+            <circle cx="1340" cy="520" r="32" fill="#8a8580" stroke="#1c1a17" stroke-width="3.5"/>
+            <text x="1340" y="532" text-anchor="middle" font-family="Fraunces, serif" font-weight="700" font-size="34" fill="#1c1a17">M</text>
+            <use href="#s5-lhand" x="1236" y="490" width="50" height="59"/><use href="#s5-rhand" x="1394" y="490" width="50" height="59"/>
+          </g>
+          <g class="kp-pair kp-pair3">
+            <path class="kp-pst" fill="#1c1a17"/>
+            <circle cx="1340" cy="710" r="32" fill="#ece4d4" stroke="#1c1a17" stroke-width="3.5"/>
+            <text x="1340" y="722" text-anchor="middle" font-family="Fraunces, serif" font-weight="700" font-size="34" fill="#1c1a17">M</text>
+            <use href="#s5-rhand" x="1236" y="680" width="50" height="59"/><use href="#s5-rhand" x="1394" y="680" width="50" height="59"/>
+          </g>
+          <path class="kp-strike-row" fill="#1c1a17"/>
+        </g>
+        <!-- pieces 75 : 25 -->
+        <g class="kp-bar">
+          <rect class="kp-bar-o" x="172" y="690" width="0" height="46" fill="#b13d0b"/>
+          <rect class="kp-bar-t" x="517" y="690" width="0" height="46" fill="url(#s5-hatch)"/>
+          <path class="kp-bar-box" fill="#1c1a17"/>
+        </g>
+      </svg>
+      <p class="t kp-dlab">metal holds two pieces</p>
+      <p class="t kp-pct kp-pct1">56%</p><p class="t kp-pct kp-pct2">38%</p><p class="t kp-pct kp-pct3">6%</p>
+      <p class="t kp-barely">barely works</p>
+      <p class="t kp-plab">pieces 75 : 25</p>
+      <p class="t kp-credit">numbers from Nobel figure 4 &middot; our drawing</p>
+    </div>
+    <!-- carried across the page turn: the working catalysts -->
+    <p class="t kp-chip"><span class="kp-chip-a">working catalysts</span> <span class="kp-chip-b">90 : 10</span></p>
+    <!-- 5b: the hand-ruled chart (a toy shape, labelled) -->
+    <div class="cp">
+      <svg class="cp-svg" viewBox="0 0 1920 1080" aria-hidden="true">
+        <defs><clipPath id="s5-reveal"><rect class="cp-reveal-r" x="340" y="150" width="0" height="720"/></clipPath></defs>
+        <path class="cp-axes" fill="#1c1a17"/>
+        <path class="cp-ticks" fill="#1c1a17" opacity="0.7"/>
+        <line class="cp-line" x1="360" y1="820" x2="1300" y2="240" stroke="#59534a" stroke-width="5"
+              stroke-dasharray="20 14" stroke-linecap="round" clip-path="url(#s5-reveal)"/>
+        <path class="cp-curve" fill="#b13d0b"/>
+        <circle class="cp-pt-line" r="9" fill="#f6f0e4" stroke="#59534a" stroke-width="3.5" opacity="0"/>
+        <path class="cp-arrow" fill="#b13d0b"/>
+        <circle class="cp-pt-curve" r="11" fill="#b13d0b" stroke="#7d2a06" stroke-width="2" opacity="0"/>
+      </svg>
+      <p class="t cp-ylab">product: lead</p>
+      <p class="t cp-xlab">catalyst pieces: lead</p>
+      <p class="t cp-exp">what a straight line predicts</p>
+      <p class="t cp-purer">purer product</p>
+      <p class="t cp-stamp">shape only,<br>not Kagan&rsquo;s data</p>
+    </div>
+    <p class="t note note-kagan">Henri B. Kagan &middot; 1986<br>2026 Nobel laureate</p>
+  </div>
+</section>
+  <section id="shot-6" class="scene s-shot-6" data-start="#shot-5" data-dur="9.736" data-name="6 Soai's copier" data-transition="blur-dissolve 0.6">
+  <div class="s6-cam">
+    <svg class="s6-svg" viewBox="0 0 1920 1080" aria-hidden="true"></svg>
+    <p class="s6-t s6-n" style="left:96px">1</p>
+    <p class="s6-t s6-n" style="left:206px">2</p>
+    <p class="s6-t s6-n" style="left:316px">3</p>
+    <p class="s6-t s6-recipe">Frank's recipe</p>
+    <div class="s6-t s6-note">Kenso Soai · 1995 · 2026 Nobel laureate<br>a lab molecule, not one of life&#39;s</div>
+    <p class="s6-t s6-same">all the same hand</p>
+    <p class="s6-t s6-count"><span class="s6-c0">1</span><span class="s6-c s6-c1"><svg class="s6-ar" viewBox="0 0 64 32" aria-hidden="true"><path d="M4 16.5H52M40 6L55 16.5L40 27" fill="none" stroke="#59534a" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"/></svg>2</span><span class="s6-c s6-c2"><svg class="s6-ar" viewBox="0 0 64 32" aria-hidden="true"><path d="M4 16.5H52M40 6L55 16.5L40 27" fill="none" stroke="#59534a" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"/></svg>4</span><span class="s6-c s6-c3"><svg class="s6-ar" viewBox="0 0 64 32" aria-hidden="true"><path d="M4 16.5H52M40 6L55 16.5L40 27" fill="none" stroke="#59534a" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"/></svg>8</span></p>
+    <p class="s6-t s6-simple">simple ingredient</p>
+  </div>
+</section>
+  <section id="shot-7" class="scene s-shot-7" data-start="#shot-6" data-dur="15.333" data-name="7 the staircase" data-transition="push up 0.55">
+  <div class="s7-cam">
+    <svg class="s7-svg" viewBox="0 0 1920 1080" aria-hidden="true"></svg>
+    <p class="s7-t s7-note">Soai and colleagues, 2003</p>
+    <p class="s7-t s7-ylab"><b>lead</b> of one hand</p>
+    <p class="s7-t s7-ydef">(% of one hand − % of the other; chemists call it ee)</p>
+    <p class="s7-t s7-tick" style="top:326px">100%</p>
+    <p class="s7-t s7-tick" style="top:535px">50%</p>
+    <p class="s7-t s7-tick" style="top:744px">0</p>
+    <p class="s7-t s7-lab s7-lab0" style="left:436px">start</p>
+    <p class="s7-t s7-lab" style="left:776px">run 1</p>
+    <p class="s7-t s7-lab" style="left:1116px">run 2</p>
+    <p class="s7-t s7-lab" style="left:1456px">run 3</p>
+    <div class="s7-t s7-callout"><span class="s7-num">5 in 10,000,000:</span><br>too small to draw</div>
+    <p class="s7-t s7-seeds">product <svg class="s7-ar" viewBox="0 0 56 28" aria-hidden="true"><path d="M3 14.5H45M34 5L48 14.5L34 24" fill="none" stroke="#2e2a25" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/></svg> seeds the next run</p>
+    <p class="s7-t s7-v s7-v1" style="left:776px;top:430px">57%</p>
+    <p class="s7-t s7-v s7-v2" style="left:1116px;top:262px">99%</p>
+    <p class="s7-t s7-v s7-v3" style="left:1456px;top:262px">&gt;99.5%</p>
+  </div>
+</section>
+  <section id="shot-8" class="scene s-shot-8" data-start="#shot-7" data-dur="10.751" data-name="8 the coin flip" data-transition="blur-dissolve 0.6">
+  <div class="s8-cam">
+    <svg class="s8-svg" viewBox="0 0 1920 1080" aria-hidden="true"></svg>
+    <p class="s8-t s8-note">37 runs · tints illustrative</p>
+    <p class="s8-t s8-head">no one-handed ingredient added</p>
+    <p class="s8-t s8-num s8-n1" style="left:806px">19</p>
+    <p class="s8-t s8-num s8-n2" style="left:1164px">18</p>
+    <p class="s8-t s8-small">each run only partly one-handed: lead 15–91 points (Nobel scientific background)</p>
+  </div>
+</section>
+  <section id="shot-9" class="scene s-shot-9" data-start="#shot-8" data-dur="17.499" data-name="9 our mirror race" data-transition="dip 0.5">
+  <div class="s9-cam">
+    <svg class="s9-svg" viewBox="0 0 1920 1080" aria-hidden="true"></svg>
+    <p class="s9-t s9-runlab">one run · copying only</p>
+    <p class="s9-t s9-switch">+ box 2: mixed pairs stop working</p>
+    <p class="s9-t s9-pairlab">mixed pair: stops working</p>
+    <p class="s9-t s9-cond s9-cond-a">copying only</p>
+    <p class="s9-t s9-cond s9-cond-b">copying + box 2</p>
+    <p class="s9-t s9-runs"><span class="s9-runs-n">0</span> runs</p>
+    <p class="s9-t s9-flat">a flat spread</p>
+    <p class="s9-t s9-pct">99.7% of runs: lead past 90%</p>
+    <p class="s9-t s9-axis">final lead: <svg class="s9-arr" viewBox="0 0 44 24" aria-hidden="true"><path d="M41 12H5M14 4L4 12L14 20"/></svg> all mirror hand · all one hand <svg class="s9-arr" viewBox="0 0 44 24" aria-hidden="true"><path d="M3 12H39M30 4L40 12L30 20"/></svg></p>
+    <p class="s9-t s9-cnt s9-cnt-l"><b>5,049</b> runs<br><span>mirror hand won</span></p>
+    <p class="s9-t s9-cnt s9-cnt-r"><b>4,951</b> runs<br><span>one hand won</span></p>
+  </div>
+  <p class="s9-t s9-note">our toy model · trend only</p>
+  <p class="s9-t s9-note2">Frank-type model, 10,000 runs</p>
+  <p class="s9-t s9-note2 s9-note3">our chosen rates: background as fast as copying, strong pairing</p>
+</section>
+  <section id="shot-10" class="scene s-shot-10" data-start="#shot-9" data-dur="11.188" data-name="10 the caveat">
+  <div class="s10-cam">
+    <svg class="s10-svg" viewBox="0 0 1920 1080" aria-hidden="true"></svg>
+    <div class="s10-chart">
+      <svg class="s10-csvg" viewBox="0 0 1920 1080" aria-hidden="true"></svg>
+    </div>
+    <p class="s10-t s10-q s10-q1">“not an answer to the origin</p>
+    <p class="s10-t s10-q s10-q2">of biological homochirality<span style="font-style:normal">”</span></p>
+    <p class="s10-t s10-attr">Nobel Committee, on Frank's model</p>
+    <p class="s10-t s10-h">How Soai's reaction works:</p>
+    <p class="s10-t s10-h2">two competing explanations (Nobel background)</p>
+  </div>
+  <p class="s10-t s10-note">our toy model · trend only</p>
+  <p class="s10-t s10-note2">Frank-type model, 10,000 runs</p>
+  <p class="s10-t s10-note2 s10-note3">our chosen rates: background as fast as copying, strong pairing</p>
+</section>
+  <section id="shot-11" class="scene s-shot-11" data-start="#shot-10" data-dur="10.409" data-name="11 why it matters" data-transition="blur-dissolve 0.6">
+  <div class="s11-cam">
+    <svg class="s11-svg" viewBox="0 0 1920 1080" aria-hidden="true"></svg>
+    <p class="s11-t s11-pay" aria-label="Chemistry learned to choose a hand."></p>
+    <p class="s11-t s11-job">does the job</p>
+    <p class="s11-t s11-side s11-side1">can cause unnecessary, sometimes</p>
+    <p class="s11-t s11-side s11-side2">harmful, side effects (Nobel)</p>
+    <p class="s11-t s11-foot">“decisive for chemists who design reactions for the manufacture of pharmaceuticals” (Nobel Committee)</p>
+  </div>
+  <p class="s11-t s11-note">our drawing · the Nobel lock-and-key idea</p>
+</section>
+  <section class="scene s-shot-12" id="shot-12" data-start="#shot-11" data-dur="10.624" data-storyboard-shot="12 end card" data-transition="dip 0.5">
+    <svg width="0" height="0" style="position:absolute" aria-hidden="true"><defs><path id="s12-hp" d="M19.5 -393.1C20.8 -393.1 24.2 -393.6 26.5 -393.3C28.8 -393 31.2 -392.3 33.5 -391.2C35.8 -390 38.5 -388.4 40.4 -386.4C42.4 -384.5 44.1 -381.8 45.2 -379.5C46.3 -377.2 46.7 -374.8 47.1 -372.5C47.5 -370.2 47.4 -367.8 47.5 -365.5C47.6 -363.2 47.6 -360.8 47.4 -358.5C47.3 -356.2 46.7 -353.8 46.6 -351.5C46.4 -349.2 46.5 -346.8 46.5 -344.5C46.5 -342.2 46.5 -339.8 46.5 -337.5C46.5 -335.2 46.5 -332.8 46.5 -330.5C46.5 -328.2 46.5 -325.8 46.5 -323.5C46.5 -321.2 46.5 -318.8 46.5 -316.5C46.5 -314.2 46.5 -311.8 46.5 -309.5C46.5 -307.2 46.6 -304.8 46.5 -302.5C46.3 -300.2 45.8 -297.8 45.7 -295.5C45.5 -293.2 45.5 -290.8 45.5 -288.5C45.5 -286.2 45.5 -283.8 45.5 -281.5C45.5 -279.2 45.5 -276.8 45.5 -274.5C45.5 -272.2 45.5 -269.8 45.5 -267.5C45.5 -265.2 45.5 -262.8 45.5 -260.5C45.5 -258.2 45.5 -255.8 45.5 -253.5C45.5 -251.2 45.6 -248.8 45.5 -246.5C45.4 -244.2 44.8 -241.2 44.9 -239.5C45.1 -237.8 46.2 -235.8 46.6 -236.3C47.1 -236.8 47.5 -240.3 47.8 -242.5C48.1 -244.7 48.3 -247.2 48.5 -249.5C48.8 -251.8 49.1 -254.2 49.3 -256.5C49.6 -258.8 49.9 -261.2 50.1 -263.5C50.3 -265.8 50.4 -268.2 50.7 -270.5C50.9 -272.8 51.2 -275.2 51.5 -277.5C51.8 -279.8 52.1 -282.2 52.3 -284.5C52.6 -286.8 52.7 -289.2 52.9 -291.5C53.1 -293.8 53.4 -296.2 53.7 -298.5C53.9 -300.8 54.2 -303.2 54.5 -305.5C54.7 -307.8 55 -310.2 55.2 -312.5C55.5 -314.8 55.7 -317.2 55.9 -319.5C56.1 -321.8 56.3 -324.2 56.6 -326.5C56.8 -328.8 57.1 -331.2 57.4 -333.5C57.7 -335.8 57.8 -338.2 58.3 -340.5C58.7 -342.8 58.9 -345.2 60 -347.5C61.1 -349.8 62.7 -352.3 64.7 -354.2C66.6 -356 69.2 -357.6 71.5 -358.6C73.8 -359.6 76.2 -360.2 78.5 -360.4C80.8 -360.6 83.2 -360.5 85.5 -360C87.8 -359.5 90.3 -358.6 92.5 -357.2C94.7 -355.8 97.1 -353.6 98.7 -351.5C100.3 -349.4 101.3 -346.8 102 -344.5C102.7 -342.2 102.7 -339.8 102.8 -337.5C102.9 -335.2 102.6 -332.8 102.4 -330.5C102.2 -328.2 101.9 -325.8 101.6 -323.5C101.3 -321.2 101 -318.8 100.8 -316.5C100.6 -314.2 100.4 -311.8 100.2 -309.5C100 -307.2 99.7 -304.8 99.4 -302.5C99.1 -300.2 98.8 -297.8 98.6 -295.5C98.3 -293.2 98.1 -290.8 97.9 -288.5C97.7 -286.2 97.5 -283.8 97.2 -281.5C97 -279.2 96.7 -276.8 96.5 -274.5C96.2 -272.2 95.9 -269.8 95.7 -267.5C95.4 -265.2 95.1 -262.8 94.9 -260.5C94.7 -258.2 94.6 -255.8 94.3 -253.5C94.1 -251.2 93.8 -248.8 93.5 -246.5C93.2 -244.2 92.9 -241.8 92.7 -239.5C92.4 -237.2 92.3 -234.8 92.1 -232.5C91.9 -230.2 91.6 -227.8 91.3 -225.5C91.1 -223.2 90.8 -220.8 90.5 -218.5C90.3 -216.2 89.6 -213.8 90 -211.5C90.3 -209.2 91.7 -206.8 92.6 -204.5C93.6 -202.2 94.8 -199.8 95.7 -197.5C96.6 -195.2 97.2 -192.8 97.8 -190.5C98.4 -188.2 98.9 -185.8 99.2 -183.5C99.5 -181.2 99.5 -178.8 99.5 -176.5C99.5 -174.2 99.5 -171.8 99.5 -169.5C99.5 -167.2 99.5 -164.8 99.5 -162.5C99.5 -160.2 99.5 -157.8 99.5 -155.5C99.5 -153.2 99.1 -150.3 99.5 -148.5C99.9 -146.7 100.3 -144.3 101.8 -144.4C103.3 -144.6 106.2 -147.6 108.5 -149.4C110.8 -151.2 113.2 -153.3 115.5 -155.3C117.8 -157.2 120.2 -159.1 122.5 -161.1C124.8 -163 127.2 -164.9 129.5 -166.9C131.8 -168.9 134.2 -170.9 136.5 -172.9C138.8 -174.9 141.2 -176.9 143.5 -178.8C145.8 -180.6 148.2 -182.8 150.5 -184.3C152.8 -185.8 155.2 -187.1 157.5 -188C159.8 -188.8 162.2 -189.3 164.5 -189.4C166.8 -189.5 169.2 -189.3 171.5 -188.8C173.8 -188.2 176.2 -187.4 178.5 -186C180.8 -184.6 183.4 -182.6 185.2 -180.5C187 -178.4 188.4 -175.8 189.4 -173.5C190.4 -171.2 191 -168.8 191.2 -166.5C191.5 -164.2 191.3 -161.8 190.8 -159.5C190.4 -157.2 189.8 -154.8 188.5 -152.5C187.3 -150.2 185.4 -147.7 183.4 -145.6C181.4 -143.4 178.8 -141.6 176.5 -139.6C174.2 -137.6 171.8 -135.6 169.5 -133.6C167.2 -131.7 164.8 -129.7 162.5 -127.8C160.2 -125.8 157.8 -123.9 155.5 -121.9C153.2 -120 150.8 -118 148.5 -116.1C146.2 -114.1 143.8 -112.2 141.5 -110.2C139.2 -108.3 136.8 -106.2 134.5 -104.3C132.2 -102.3 129.8 -100.4 127.5 -98.4C125.2 -96.5 122.8 -94.5 120.5 -92.6C118.2 -90.6 115.8 -88.6 113.5 -86.6C111.2 -84.7 108.7 -82.8 106.5 -80.8C104.3 -78.7 101.6 -76.7 100.5 -74.5C99.3 -72.3 99.7 -69.8 99.5 -67.5C99.3 -65.2 99.6 -62.8 99.4 -60.5C99.2 -58.2 98.8 -55.8 98.3 -53.5C97.8 -51.2 97.2 -48.8 96.4 -46.5C95.6 -44.2 94.8 -41.8 93.6 -39.5C92.5 -37.2 91.1 -34.8 89.5 -32.5C87.9 -30.2 85.9 -27.8 83.9 -25.7C82 -23.5 79.2 -21.7 77.8 -19.5C76.4 -17.3 75.9 -14.8 75.5 -12.5C75.1 -10.2 75.8 -7.8 75.4 -5.5C75.1 -3.2 74.8 -0.7 73.4 1.5C72.1 3.7 69.7 6.1 67.5 7.4C65.3 8.8 62.8 9.1 60.5 9.4C58.2 9.8 55.8 9.5 53.5 9.5C51.2 9.5 48.8 9.5 46.5 9.5C44.2 9.5 41.8 9.5 39.5 9.5C37.2 9.5 34.8 9.5 32.5 9.5C30.2 9.5 27.8 9.5 25.5 9.5C23.2 9.5 20.8 9.5 18.5 9.5C16.2 9.5 13.8 9.5 11.5 9.5C9.2 9.5 6.8 9.5 4.5 9.5C2.2 9.5 -0.2 9.5 -2.5 9.5C-4.8 9.5 -7.2 9.5 -9.5 9.5C-11.8 9.5 -14.2 9.5 -16.5 9.5C-18.8 9.5 -21.2 9.5 -23.5 9.5C-25.8 9.5 -28.2 9.5 -30.5 9.5C-32.8 9.5 -35.2 9.5 -37.5 9.5C-39.8 9.5 -42.2 9.5 -44.5 9.5C-46.8 9.5 -49.2 9.5 -51.5 9.5C-53.8 9.5 -56.2 9.7 -58.5 9.5C-60.8 9.3 -63.2 9.4 -65.5 8.4C-67.8 7.4 -70.5 5.5 -72.1 3.5C-73.7 1.5 -74.6 -1.2 -75.2 -3.5C-75.8 -5.8 -75.3 -8.2 -75.5 -10.5C-75.7 -12.8 -75.4 -15.3 -76.5 -17.5C-77.6 -19.7 -80.3 -21.8 -82.2 -23.9C-84.1 -26.1 -86.3 -28.2 -88 -30.5C-89.7 -32.8 -91.3 -35.2 -92.6 -37.5C-93.9 -39.8 -94.8 -42.2 -95.7 -44.5C-96.6 -46.8 -97.2 -49.2 -97.8 -51.5C-98.4 -53.8 -98.9 -56.2 -99.2 -58.5C-99.5 -60.8 -99.5 -63.2 -99.5 -65.5C-99.5 -67.8 -99.5 -70.2 -99.5 -72.5C-99.5 -74.8 -99.5 -77.2 -99.5 -79.5C-99.5 -81.8 -99.5 -84.2 -99.5 -86.5C-99.5 -88.8 -99.5 -91.2 -99.5 -93.5C-99.5 -95.8 -99.5 -98.2 -99.5 -100.5C-99.5 -102.8 -99.5 -105.2 -99.5 -107.5C-99.5 -109.8 -99.5 -112.2 -99.5 -114.5C-99.5 -116.8 -99.5 -119.2 -99.5 -121.5C-99.5 -123.8 -99.5 -126.2 -99.5 -128.5C-99.5 -130.8 -99.5 -133.2 -99.5 -135.5C-99.5 -137.8 -99.5 -140.2 -99.5 -142.5C-99.5 -144.8 -99.5 -147.2 -99.5 -149.5C-99.5 -151.8 -99.5 -154.2 -99.5 -156.5C-99.5 -158.8 -99.5 -161.2 -99.5 -163.5C-99.5 -165.8 -99.5 -168.2 -99.5 -170.5C-99.5 -172.8 -99.6 -175.2 -99.5 -177.5C-99.4 -179.8 -99.4 -182.2 -99.1 -184.5C-98.8 -186.8 -98.2 -189.2 -97.6 -191.5C-97 -193.8 -95.8 -196.2 -95.4 -198.5C-95 -200.8 -94.9 -203.2 -95.1 -205.5C-95.3 -207.8 -96.1 -210.2 -96.6 -212.5C-97.1 -214.8 -97.6 -217.2 -98.1 -219.5C-98.6 -221.8 -99.1 -224.2 -99.6 -226.5C-100.1 -228.8 -100.6 -231.2 -101.1 -233.5C-101.6 -235.8 -102 -238.2 -102.5 -240.5C-103 -242.8 -103.6 -245.2 -104.1 -247.5C-104.6 -249.8 -105 -252.2 -105.5 -254.5C-106 -256.8 -106.6 -259.2 -107.1 -261.5C-107.6 -263.8 -108 -266.2 -108.5 -268.5C-109 -270.8 -109.4 -273.2 -109.9 -275.5C-110.4 -277.8 -111.1 -280.2 -111.3 -282.5C-111.6 -284.8 -111.8 -287.2 -111.4 -289.5C-111.1 -291.8 -110.6 -294.2 -109.3 -296.5C-108 -298.8 -105.6 -301.5 -103.5 -303.1C-101.4 -304.8 -98.8 -305.9 -96.5 -306.6C-94.2 -307.3 -91.8 -307.5 -89.5 -307.2C-87.2 -307 -84.7 -306.3 -82.5 -305.1C-80.3 -303.9 -77.9 -302.2 -76.2 -300.2C-74.5 -298.3 -73.2 -295.8 -72.3 -293.5C-71.3 -291.2 -70.9 -288.8 -70.4 -286.5C-69.8 -284.2 -69.4 -281.8 -68.9 -279.5C-68.4 -277.2 -67.9 -274.8 -67.4 -272.5C-66.9 -270.2 -66.4 -267.8 -65.9 -265.5C-65.4 -263.2 -65 -260.8 -64.5 -258.5C-64 -256.2 -63.4 -253.8 -62.9 -251.5C-62.4 -249.2 -62 -246.8 -61.5 -244.5C-61 -242.2 -60.8 -239.4 -59.9 -237.5C-59.1 -235.6 -57.9 -233.3 -56.4 -233.1C-54.9 -232.8 -52 -234.2 -51.1 -235.8C-50.1 -237.4 -50.6 -240.2 -50.7 -242.5C-50.7 -244.8 -51.2 -247.2 -51.5 -249.5C-51.7 -251.8 -51.9 -254.2 -52.1 -256.5C-52.3 -258.8 -52.3 -261.2 -52.5 -263.5C-52.7 -265.8 -53.1 -268.2 -53.3 -270.5C-53.5 -272.8 -53.6 -275.2 -53.8 -277.5C-54 -279.8 -54.3 -282.2 -54.5 -284.5C-54.7 -286.8 -54.9 -289.2 -55.1 -291.5C-55.3 -293.8 -55.4 -296.2 -55.6 -298.5C-55.8 -300.8 -56.2 -303.2 -56.4 -305.5C-56.6 -307.8 -56.6 -310.2 -56.8 -312.5C-57 -314.8 -57.3 -317.2 -57.5 -319.5C-57.7 -321.8 -58 -324.2 -58.2 -326.5C-58.4 -328.8 -58.5 -331.2 -58.7 -333.5C-58.9 -335.8 -59.3 -338.2 -59.5 -340.5C-59.6 -342.8 -59.6 -345.2 -59.5 -347.5C-59.4 -349.8 -59.6 -352.2 -59 -354.5C-58.4 -356.8 -57.3 -359.4 -55.7 -361.5C-54.1 -363.6 -51.7 -365.9 -49.5 -367.4C-47.3 -368.8 -44.8 -369.7 -42.5 -370.2C-40.2 -370.7 -37.8 -370.7 -35.5 -370.5C-33.2 -370.3 -30.8 -370 -28.5 -369C-26.2 -368 -23.6 -366.3 -21.7 -364.3C-19.8 -362.4 -18.1 -359.8 -17 -357.5C-15.9 -355.2 -15.5 -352.8 -15.1 -350.5C-14.7 -348.2 -14.7 -345.8 -14.5 -343.5C-14.3 -341.2 -14 -338.8 -13.8 -336.5C-13.6 -334.2 -13.5 -331.8 -13.3 -329.5C-13.1 -327.2 -12.8 -324.8 -12.5 -322.5C-12.3 -320.2 -12.1 -317.8 -11.9 -315.5C-11.7 -313.2 -11.7 -310.8 -11.5 -308.5C-11.3 -306.2 -10.9 -303.8 -10.7 -301.5C-10.5 -299.2 -10.4 -296.8 -10.2 -294.5C-10 -292.2 -9.7 -289.8 -9.5 -287.5C-9.3 -285.2 -9.1 -282.8 -8.9 -280.5C-8.7 -278.2 -8.6 -275.8 -8.4 -273.5C-8.2 -271.2 -7.8 -268.8 -7.6 -266.5C-7.4 -264.2 -7.4 -261.8 -7.2 -259.5C-7 -257.2 -6.7 -254.8 -6.5 -252.5C-6.3 -250.2 -6 -247.8 -5.8 -245.5C-5.6 -243.2 -5.7 -239.9 -5.2 -238.6C-4.7 -237.3 -3.3 -236.7 -2.7 -237.7C-2.1 -238.7 -1.8 -242.2 -1.6 -244.5C-1.4 -246.8 -1.5 -249.2 -1.5 -251.5C-1.5 -253.8 -1.5 -256.2 -1.5 -258.5C-1.5 -260.8 -1.5 -263.2 -1.5 -265.5C-1.5 -267.8 -1.5 -270.2 -1.5 -272.5C-1.5 -274.8 -1.5 -277.2 -1.5 -279.5C-1.5 -281.8 -1.5 -284.2 -1.5 -286.5C-1.5 -288.8 -1.6 -291.2 -1.5 -293.5C-1.3 -295.8 -0.8 -298.2 -0.7 -300.5C-0.5 -302.8 -0.5 -305.2 -0.5 -307.5C-0.5 -309.8 -0.5 -312.2 -0.5 -314.5C-0.5 -316.8 -0.5 -319.2 -0.5 -321.5C-0.5 -323.8 -0.5 -326.2 -0.5 -328.5C-0.5 -330.8 -0.5 -333.2 -0.5 -335.5C-0.5 -337.8 -0.5 -340.2 -0.5 -342.5C-0.5 -344.8 -0.6 -347.2 -0.5 -349.5C-0.4 -351.8 0.1 -354.2 0.2 -356.5C0.4 -358.8 0.5 -361.2 0.5 -363.5C0.5 -365.8 0.3 -368.2 0.5 -370.5C0.7 -372.8 0.8 -375.2 1.6 -377.5C2.4 -379.8 3.6 -382.4 5.3 -384.5C6.9 -386.6 9.3 -388.7 11.5 -390.1C13.7 -391.4 17.2 -392.3 18.5 -392.8C19.8 -393.3 18.2 -393 19.5 -393.1Z"/></defs></svg>
+    <div class="s-shot-12__grid" aria-hidden="true"></div>
+    <div class="s-shot-12__cam">
+      <div class="s-shot-12__cards">
+        <figure class="s-shot-12__card s-shot-12__card--a">
+          <svg class="s-shot-12__thumb" viewBox="0 0 340 150" aria-hidden="true">
+            <path d="M40 10 L 40 132 L 322 132" fill="none" stroke="#1c1a17" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M40 132 L 318 16" fill="none" stroke="#1c1a17" stroke-width="3" stroke-dasharray="9 8" stroke-linecap="round"/>
+            <path pathLength="1" class="s-shot-12__draw" d="M40 132 C 92 54, 180 24, 318 16" fill="none" stroke="#b13d0b" stroke-width="7" stroke-linecap="round"/>
+          </svg>
+          <figcaption>Kagan&rsquo;s curve</figcaption>
+        </figure>
+        <figure class="s-shot-12__card s-shot-12__card--b">
+          <svg class="s-shot-12__thumb" viewBox="0 0 340 150" aria-hidden="true">
+            <path d="M24 132 L 322 132" fill="none" stroke="#1c1a17" stroke-width="3.5" stroke-linecap="round"/>
+            <rect x="44" y="129" width="48" height="3" fill="#b13d0b"/>
+            <rect class="s-shot-12__bar" x="114" y="64" width="48" height="68" fill="#b13d0b" stroke="#7a2906" stroke-width="2"/>
+            <rect class="s-shot-12__bar" x="184" y="18" width="48" height="114" fill="#b13d0b" stroke="#7a2906" stroke-width="2"/>
+            <rect class="s-shot-12__bar" x="254" y="16" width="48" height="116" fill="#b13d0b" stroke="#7a2906" stroke-width="2"/>
+          </svg>
+          <figcaption>Soai&rsquo;s amplifier</figcaption>
+        </figure>
+        <figure class="s-shot-12__card s-shot-12__card--c">
+          <svg class="s-shot-12__thumb" viewBox="0 0 340 150" aria-hidden="true">
+            <defs><pattern id="s12-hatch" patternUnits="userSpaceOnUse" width="8" height="8" patternTransform="rotate(45)"><rect width="8" height="8" fill="#f6f0e4"/><rect width="3" height="8" fill="#2b8a8f"/></pattern></defs>
+            <path d="M18 132 L 322 132" fill="none" stroke="#1c1a17" stroke-width="3.5" stroke-linecap="round"/>
+            <line x1="170" y1="6" x2="170" y2="132" stroke="#1c1a17" stroke-width="2.5" stroke-dasharray="7 7" opacity="0.6"/>
+            <rect class="s-shot-12__bar" x="26" y="14" width="34" height="118" fill="url(#s12-hatch)" stroke="#2b8a8f" stroke-width="3"/>
+            <rect x="70" y="124" width="22" height="8" fill="#8a8580"/><rect x="102" y="126" width="22" height="6" fill="#8a8580"/><rect x="134" y="127" width="22" height="5" fill="#8a8580"/>
+            <rect x="184" y="127" width="22" height="5" fill="#8a8580"/><rect x="216" y="126" width="22" height="6" fill="#8a8580"/><rect x="248" y="124" width="22" height="8" fill="#8a8580"/>
+            <rect class="s-shot-12__bar" x="280" y="12" width="34" height="120" fill="#b13d0b" stroke="#7a2906" stroke-width="2"/>
+          </svg>
+          <figcaption>the mirror race</figcaption>
+        </figure>
+      </div>
+      <p class="s-shot-12__url">Run the toys yourself: <span class="s-shot-12__link">faviovazquez.github.io/nobel-2026-lab<svg class="s-shot-12__uline" viewBox="0 0 600 24" preserveAspectRatio="none" aria-hidden="true"><path pathLength="1" d="M4 12 C 150 16, 320 7, 470 13 S 570 12, 596 10" fill="none" stroke="#b13d0b" stroke-width="5" stroke-linecap="round"/></svg></span></p>
+      <div class="s-shot-12__motif" aria-hidden="true"><span class="s-shot-12__ico"><svg class="" viewBox="-125 -405 350 425" aria-hidden="true"><use href="#s12-hp" fill="#b13d0b" stroke="#7a2906" stroke-width="22" stroke-linejoin="round"/></svg></span><span class="s-shot-12__line"></span><span class="s-shot-12__ico"><svg class="" viewBox="-225 -405 350 425" aria-hidden="true"><defs><pattern id="s12-ir-h" width="60" height="60" patternUnits="userSpaceOnUse" patternTransform="rotate(-45)"><rect width="60" height="60" fill="#f6f0e4"/><rect width="22" height="60" fill="#2b8a8f"/></pattern></defs><g transform="scale(-1 1)"><use href="#s12-hp" fill="url(#s12-ir-h)" stroke="#1d5f63" stroke-width="22" stroke-linejoin="round"/></g></svg></span></div>
+      <h2 class="s-shot-12__title">Made with <span class="s-shot-12__brand">showtime<svg class="s-shot-12__uline s-shot-12__uline--big" viewBox="0 0 600 24" preserveAspectRatio="none" aria-hidden="true"><path pathLength="1" d="M6 14 C 140 7, 300 18, 460 10 S 560 9, 594 12" fill="none" stroke="#b13d0b" stroke-width="6" stroke-linecap="round"/></svg></span></h2>
+      <p class="s-shot-12__sub">an open-source video studio for coding agents <span class="s-shot-12__sep">&middot;</span> <span class="s-shot-12__mono">github.com/FavioVazquez/showtime</span></p>
+      <div class="s-shot-12__rule" aria-hidden="true"></div>
+      <p class="s-shot-12__src">Sources: nobelprize.org (press release, popular and scientific background) &middot; Toy models: nobel-2026-lab</p>
+    </div>
+  </section>
+<!--st-overlays-->
+<div data-st="caption-karaoke" data-src="voice/captions.words.json" data-style="boxed-pill" data-position="bottom" data-skip-lines="shot-12"></div>
+<div class="st-brandmark" data-from-scene="shot-2" data-to-scene="shot-12" data-from-s="7.617" data-to-s="138.968" aria-label="showtime"><span class="st-brandmark__dot" aria-hidden="true"></span><span class="st-brandmark__word">showtime</span></div>
+<!--/st-overlays-->
+</div>
+<!--st-tail-->
+<script src="scenes/s-shot-3.js"></script>
+<script src="scenes/s-shot-4.js"></script>
+<script src="scenes/s-shot-5.js"></script>
+<script src="scenes/s-shot-6.js"></script>
+<script src="scenes/s-shot-7.js"></script>
+<script src="scenes/s-shot-8.js"></script>
+<script src="scenes/s-shot-9.js"></script>
+<script src="scenes/s-shot-10.js"></script>
+<script src="scenes/s-shot-11.js"></script>
+<script src="scenes/brandmark.js"></script>
+<!--/st-tail-->
+</body>
+</html>

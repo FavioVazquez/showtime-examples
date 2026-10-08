@@ -86,7 +86,7 @@ showtime assets media fetch nasa:jsc2025e004086 --quality orig -o <job>/work/pho
 showtime assets media fetch nasa:jsc2025e004075 --quality orig -o <job>/work/photos/jsc2025e004075-orig.jpg
 
 # project
-showtime new short <p> --duration 44           # later 45 (end card lengthened for reading time)
+showtime new short <p> --duration 44 --look template   # later 45 (end card lengthened for reading time)
 ~/.showtime/venv/bin/python <p>/tools/build_data.py   # words per speaker, quote timings, speaker turns, envelope
 showtime audio mix <p>/audio/mix.json -o <job>/work/mix-test.wav   # composes hip-hop-beat; voice 21.8 dB above the bed
 showtime check <p>                              # 7 rounds: contrast, safe zone, text sizes, one determinism error (fixed)

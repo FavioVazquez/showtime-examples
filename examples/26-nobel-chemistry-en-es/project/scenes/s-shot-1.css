@@ -1,0 +1,80 @@
+/* shot-1 cold open (motion-A, full video). Every selector starts with .s-shot-1; all times are scene-relative
+   (cues-shot-1.txt). Frame 0 is the poster: title, lead line, names line, both hands, mirror line and legend
+   are complete at t = 0. Beats: "mirror" 1.09 the hands tilt as mirror
+   images; "Nobel" 3.02 the prize is underlined in ink; "about" 5.00-6.20 a see-through copy of the orange hand
+   slides onto the teal one and fails to stack (thumbs on opposite sides); "one hand" 5.47 the orange hand
+   steps forward, "take over" 6.20 the lead's result is underlined in orange. */
+.s-shot-1 { background: #f6f0e4; color: #1c1a17; }
+.s-shot-1 .s-shot-1__grid {
+  position: absolute; inset: 0; pointer-events: none;
+  background-image:
+    linear-gradient(rgb(28 26 23 / 0.07) 1.5px, transparent 1.5px),
+    linear-gradient(90deg, rgb(28 26 23 / 0.07) 1.5px, transparent 1.5px),
+    linear-gradient(rgb(28 26 23 / 0.035) 1px, transparent 1px),
+    linear-gradient(90deg, rgb(28 26 23 / 0.035) 1px, transparent 1px);
+  background-size: 240px 240px, 240px 240px, 48px 48px, 48px 48px;
+}
+.s-shot-1 .s-shot-1__cam { position: absolute; inset: 0; transform-origin: 50% 56%; animation: s-shot-1-push 7.617s linear 0s both; }
+@keyframes s-shot-1-push { from { transform: scale(1); } to { transform: scale(1.03); } }
+
+.s-shot-1 .s-shot-1__title {
+  position: absolute; left: 0; right: 0; top: 64px; margin: 0; text-align: center;
+  font: 700 150px/1 'Fraunces', Georgia, serif; letter-spacing: -0.03em; color: #1c1a17;
+}
+.s-shot-1 .s-shot-1__sub {
+  position: absolute; left: 0; right: 0; top: 248px; margin: 0; text-align: center; white-space: nowrap;
+  font: 600 58px/1.1 'IBM Plex Sans', sans-serif; letter-spacing: -0.005em; color: #b13d0b;
+}
+.s-shot-1 .s-shot-1__arrow { display: inline-block; width: 1.1em; height: 0.5em; vertical-align: 0.06em; margin: 0 0.06em; }
+.s-shot-1 .s-shot-1__win, .s-shot-1 .s-shot-1__prize { position: relative; display: inline-block; }
+.s-shot-1 .s-shot-1__uline { position: absolute; left: -2%; width: 104%; bottom: -0.32em; height: 0.36em; overflow: visible; }
+.s-shot-1 .s-shot-1__uline path { stroke-dasharray: 1 2; stroke-dashoffset: 1; }
+.s-shot-1 .s-shot-1__win .s-shot-1__uline path { animation: s-shot-1-ink 0.6s cubic-bezier(0.37, 0, 0.63, 1) 6.18s both; }
+.s-shot-1 .s-shot-1__prize .s-shot-1__uline path { animation: s-shot-1-ink 0.7s cubic-bezier(0.37, 0, 0.63, 1) 3.00s both; }
+@keyframes s-shot-1-ink { from { stroke-dashoffset: 1; } to { stroke-dashoffset: 0; } }
+.s-shot-1 .s-shot-1__credit {
+  position: absolute; left: 0; right: 0; top: 342px; margin: 0; text-align: center; white-space: nowrap;
+  font: 500 42px/1.2 'IBM Plex Sans', sans-serif; letter-spacing: 0.01em; color: #3d3831;
+}
+
+/* the dashed mirror line (plain ink: no orange on it before the ghost's slide) */
+.s-shot-1 .s-shot-1__mirror {
+  position: absolute; left: 958px; top: 414px; width: 4px; height: 440px; overflow: hidden;
+  background: repeating-linear-gradient(180deg, rgb(28 26 23 / 0.62) 0 18px, transparent 18px 32px);
+  border-radius: 2px;
+}
+
+.s-shot-1 .s-shot-1__hand { position: absolute; top: 420px; width: 362px; height: 440px; }
+.s-shot-1 .s-shot-1__hand svg, .s-shot-1 .s-shot-1__ghost svg { display: block; width: 100%; height: 100%; overflow: visible; }
+.s-shot-1 .s-shot-1__hand--l { left: 568px; transform-origin: 34% 98%; animation: s-shot-1-tiltl 1.5s cubic-bezier(0.37, 0, 0.63, 1) 1.06s both, s-shot-1-win 0.8s cubic-bezier(0.37, 0, 0.63, 1) 5.45s both; }
+.s-shot-1 .s-shot-1__hand--r { left: 990px; transform-origin: 66% 98%; animation: s-shot-1-tiltr 1.5s cubic-bezier(0.37, 0, 0.63, 1) 1.06s both, s-shot-1-dim 0.8s cubic-bezier(0.37, 0, 0.63, 1) 5.45s both; }
+/* "mirror images": each hand leans the same way toward the line, a mirror pair in motion */
+@keyframes s-shot-1-tiltl { 0%, 100% { rotate: 0deg; } 45%, 60% { rotate: 4deg; } }
+@keyframes s-shot-1-tiltr { 0%, 100% { rotate: 0deg; } 45%, 60% { rotate: -4deg; } }
+@keyframes s-shot-1-win { from { transform: none; } to { transform: scale(1.045); } }
+@keyframes s-shot-1-dim { from { opacity: 1; } to { opacity: 0.6; } }
+
+/* the see-through copy of the orange hand: slides over the line onto the teal hand, thumbs end on opposite sides */
+.s-shot-1 .s-shot-1__ghost {
+  position: absolute; left: 568px; top: 420px; width: 362px; height: 440px; opacity: 0;
+  animation: s-shot-1-ghost 2.2s linear 3.95s both;
+}
+@keyframes s-shot-1-ghost {
+  0%   { opacity: 0;   transform: translateX(0); }
+  9%   { opacity: 1;   transform: translateX(0); animation-timing-function: cubic-bezier(0.37, 0, 0.63, 1); }
+  45%  { opacity: 1;   transform: translateX(422px); animation-timing-function: cubic-bezier(0.37, 0, 0.63, 1); }
+  53%  { opacity: 1;   transform: translateX(408px); animation-timing-function: cubic-bezier(0.37, 0, 0.63, 1); }
+  61%  { opacity: 1;   transform: translateX(422px); }
+  82%  { opacity: 1;   transform: translateX(422px); }
+  100% { opacity: 0;   transform: translateX(422px); }
+}
+
+.s-shot-1 .s-shot-1__leg {
+  position: absolute; top: 826px; display: flex; align-items: center; gap: 16px;
+  font: 500 38px/1 'IBM Plex Sans', sans-serif; color: #1c1a17; white-space: nowrap;
+}
+.s-shot-1 .s-shot-1__leg--l { left: 120px; width: 400px; justify-content: flex-end; }
+.s-shot-1 .s-shot-1__leg--r { left: 1400px; width: 400px; justify-content: flex-start; }
+.s-shot-1 .s-shot-1__ico { display: block; width: 42px; height: 51px; }
+.s-shot-1 .s-shot-1__ico svg { display: block; width: 100%; height: 100%; }
+.s-shot-1 .s-shot-1__uline path { stroke-linecap: butt; }

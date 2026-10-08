@@ -1,0 +1,515 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>A telescope made of ice: the 2026 Nobel Prize in Physics</title>
+<script src="/_st/stage.js"></script>
+<link rel="stylesheet" href="/_st/themes/bold.css">
+<script type="module" src="/_st/components/index.js"></script>
+<!-- Written by `showtime new --from-storyboard` (14 shots, 150 s planned). Each <section> is one shot of
+     storyboard.json, timed from its length. The dashed .brief is the storyboard's Visual as written: build
+     that shot's picture in its section and delete the brief (check warns while one is left). Words in
+     .copy are the storyboard's own card or on-screen text. data-silent marks a shot without narration.
+     After the voice (narration.md): showtime retime . --from-voice voice/timeline.json -->
+<style>
+  /* storyboard scaffold: every colour and face is the theme's, so a brand kit or another theme restyles it */
+  .stage { background: var(--bg); }
+  .scene { --s-label: 2.4cqh; --s-copy: 8.6cqh; --s-copy-sm: 6cqh; --s-brief: 5cqh; --s-brief-sm: 3.1cqh;
+           --s-note: 2.6cqh; font-family: var(--font-body, var(--font-display)); }
+  .world { position: absolute; inset: 0; overflow: hidden; pointer-events: none;
+           background: radial-gradient(70% 80% at 30% 35%, color-mix(in oklab, var(--accent) 9%, transparent), transparent 70%); }
+  .cam { position: absolute; inset: 0; }
+  .board { position: absolute; left: 8cqw; right: 8cqw; top: 50%; translate: 0 -50%; display: flex;
+           flex-direction: column; gap: 3cqh; }
+  .label { font: 500 var(--s-label)/1.3 var(--font-mono); letter-spacing: 0.12em; text-transform: uppercase;
+           color: var(--muted); margin: 0; }
+  .label b { color: var(--accent); font-weight: 600; }
+  .copy { font: var(--weight-display, 700) var(--s-copy)/1.05 var(--font-display); letter-spacing: var(--tracking-display, -0.03em);
+          color: var(--fg); margin: 0; max-width: 24em; text-wrap: balance; overflow-wrap: anywhere; }
+  .copy.many { font-size: var(--s-copy-sm); }
+  .brief { margin: 0; padding: 2.6cqh 3cqh; border-radius: 1.4cqh; max-width: 30em; align-self: flex-start;
+           border: max(2px, 0.25cqh) dashed color-mix(in oklab, var(--fg) 45%, transparent);
+           font: 450 var(--s-brief)/1.3 var(--font-body, var(--font-display)); color: var(--fg); overflow-wrap: anywhere; }
+  .copy + .brief, .copy ~ .brief { font-size: var(--s-brief-sm); color: var(--muted); }
+  .note { font: 450 var(--s-note)/1.35 var(--font-mono); color: var(--muted); margin: 0; max-width: 60em; }
+  :lang(zh) .copy, :lang(zh) .brief, :lang(ja) .copy, :lang(ja) .brief, :lang(ko) .copy, :lang(ko) .brief {
+    font-family: 'Noto Sans SC', 'Noto Sans KR', 'Noto Sans JP', sans-serif; letter-spacing: 0; }
+  @keyframes rise { from { opacity: 0; transform: translateY(0.4em); } to { opacity: 1; transform: none; } }
+  .board > * { animation: rise 0.6s cubic-bezier(0.16, 1, 0.3, 1) calc(0.1s + var(--i, 0) * 0.12s) both; }
+  .scene:first-of-type .board > * { animation: none; }   /* the first frame is the poster: complete at t=0 */
+  @container (max-aspect-ratio: 5/4) {
+    .scene { --s-label: 2.6cqw; --s-copy: 9cqw; --s-copy-sm: 6.4cqw; --s-brief: 4.6cqw; --s-brief-sm: 3.6cqw; --s-note: 3cqw; }
+    .board { left: 7cqw; right: 7cqw; }
+  }
+  @container (max-aspect-ratio: 3/4) {
+    .scene { --s-label: 4.2cqw; --s-copy: 10cqw; --s-copy-sm: 7.4cqw; --s-brief: 5.4cqw; --s-brief-sm: 4.6cqw; --s-note: 4.2cqw; }
+    .board { left: 9cqw; right: 16cqw; top: 42%; }
+  }
+</style>
+<!-- look signature: Tidewater (tidewater), picked by `showtime new`; another: showtime signature apply <project> <id> -->
+<link rel="stylesheet" href="/_st/themes/fonts/space-grotesk.css" data-st-look>
+<link rel="stylesheet" href="/_st/themes/fonts/inter.css" data-st-look>
+<link rel="stylesheet" href="/_st/themes/fonts/geist-mono.css" data-st-look>
+<style id="st-look">
+  :root {
+    --bg: #0b1a1c;
+    --fg: #eaf4f1;
+    --muted: #9fbab4;
+    --accent: #ff7f61;
+    --accent-ink: #1a0d08;
+    --surface: #13272a;
+    --win-bg: #13272a;
+    --win-fg: #eaf4f1;
+    --win-muted: #9daaa9;
+    --win-line: rgb(234 244 241 / 0.1);
+    --chip-bg: #13272a;
+    --chip-fg: #eaf4f1;
+    --win-accent: #ff7f61;
+    --chip-accent: #ff7f61;
+    --line: rgb(234 244 241 / 0.09);
+    color-scheme: dark;
+    --surface-2: #1b3337;
+    --border: rgb(234 244 241 / 0.14);
+    --accent-2: #6fd3c1;
+    --font-display: 'Space Grotesk', 'Inter', sans-serif;
+    --font-body: 'Inter', 'Inter', sans-serif;
+    --font-mono: 'Geist Mono', ui-monospace, monospace;
+    --weight-display: 700;
+    --tracking-display: -0.03em;
+    --leading-display: 0.98;
+    --case-display: none;
+    --cap-font: 'Space Grotesk', 'Inter', sans-serif;
+    --cap-weight: 700;
+    --cap-case: none;
+    --cap-ink: #eaf4f1;
+    --cap-outline: #000000;
+    --cap-accent: #ff7f61;
+    --cap-active-ink: #1a0d08;
+    --cap-plate: rgb(11 26 28 / 0.8);
+    --ground-glow: 1;
+    --ground-grid: 1;
+    --ground-vignette: 1;
+    --grain: 0.04;
+    --motion-energy: high;
+    --dur-in: 0.45s;
+    --dur-out: 0.28s;
+    --dur-beat: 0.3s;
+    --stagger: 0.04s;
+    --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+    --ease-move: cubic-bezier(0.65, 0, 0.35, 1);
+    --ease-emph: cubic-bezier(0.34, 1.4, 0.64, 1);
+    --rim-b: rgb(111 211 193 / 0.07);
+  }
+</style>
+<!--st-merged--><link rel="stylesheet" href="scenes/s-shot-1.css"><link rel="stylesheet" href="scenes/s-shot-2.css"><link rel="stylesheet" href="scenes/s-shot-3.css"><link rel="stylesheet" href="scenes/s-shot-4.css"><link rel="stylesheet" href="scenes/s-shot-5.css"><link rel="stylesheet" href="scenes/s-shot-6.css"><link rel="stylesheet" href="scenes/s-shot-7.css"><link rel="stylesheet" href="scenes/s-shot-8.css"><link rel="stylesheet" href="scenes/s-shot-9.css"><link rel="stylesheet" href="scenes/s-shot-10.css"><link rel="stylesheet" href="scenes/s-shot-11.css"><link rel="stylesheet" href="scenes/s-shot-12.css"><link rel="stylesheet" href="scenes/s-shot-13.css"><link rel="stylesheet" href="scenes/s-shot-14.css"><link rel="stylesheet" href="scenes/roadmap.css"><link rel="stylesheet" href="scenes/brandmark.css"><style>[data-st="caption-karaoke"]{translate:0 -5.4cqh}</style><!--/st-merged-->
+</head>
+<body>
+<div class="stage">
+  <div class="world" data-st-decor></div>
+  <section class="scene s-shot-1" id="shot-1" data-start="0" data-dur="11.0" data-storyboard-shot="1 cold open">
+  <div class="s1-cam">
+    <svg class="s1-finger" viewBox="0 0 1920 1080" aria-hidden="true">
+      <path class="s1-skin" d="M -40 432 C 300 428, 700 440, 960 452 C 1080 458, 1160 470, 1196 520 C 1222 556, 1214 610, 1178 640 C 1140 670, 1060 680, 960 682 C 700 690, 300 700, -40 704 Z"/>
+      <path class="s1-nail" d="M 968 462 C 1060 466, 1130 476, 1170 506 C 1182 520, 1180 536, 1166 540 C 1120 530, 1050 522, 974 518 C 958 506, 956 474, 968 462 Z"/>
+      <path class="s1-line s1-thin" d="M 992 470 C 1004 486, 1004 502, 990 514"/>
+      <path class="s1-line s1-thin" d="M 740 447 C 752 453, 770 453, 782 448 M 734 455 C 752 463, 772 463, 788 456 M 730 688 C 748 679, 770 679, 788 688"/>
+      <path class="s1-line s1-thin" d="M 358 437 C 372 445, 396 445, 410 438 M 350 446 C 370 456, 400 456, 418 447 M 360 699 C 380 689, 404 689, 424 699"/>
+      <path class="s1-line s1-thin" d="M 1120 660 C 1150 650, 1176 630, 1190 600"/>
+    </svg>
+    <canvas class="s1-stream" width="1920" height="1080"></canvas>
+    <svg class="s1-leader" viewBox="0 0 1920 1080" aria-hidden="true"><path d="M 1068 404 L 1068 462"/></svg>
+    <div class="s1-type">
+      <h1 class="s1-head">65 billion neutrinos per second</h1>
+      <p class="s1-kicker">Nobel Prize in Physics 2026</p>
+    </div>
+    <p class="s1-nail-label">your little fingernail</p>
+    <p class="s1-touch">almost none<br>touch anything</p>
+    <div class="s1-count">
+      <p class="s1-count-n"><span class="s1-num">0</span> neutrinos</p>
+      <p class="s1-count-l">through your little fingernail since this video began</p>
+    </div>
+  </div>
+</section>
+  <section class="scene s-shot-2" id="shot-2" data-start="#shot-1" data-dur="16.95" data-storyboard-shot="2 the prize and the roadmap" data-transition="slide left 0.5">
+  <script src="assets/shot-2/icecube-geometry.js"></script>
+  <div class="s2-world">
+  <canvas class="s2-ice" width="1920" height="1080"></canvas>
+  <svg class="s2-pole" width="24" height="140" viewBox="-12 -130 24 140" aria-hidden="true"><path class="s2-pole-line" d="M 0 0 L 0 -118"/><circle class="s2-pole-dot" cx="0" cy="-118" r="7"/></svg>
+  <p class="s2-pole-label">South Pole</p>
+  </div>
+  <div class="s2-col">
+    <p class="s2-kicker">Nobel Prize in Physics 2026</p>
+    <h2 class="s2-name">Francis Halzen</h2>
+    <p class="s2-cite">&ldquo;for decisive contributions to the IceCube Neutrino Observatory and the discovery of <span class="s2-hi">high-energy neutrinos of astrophysical origin</span>&rdquo;</p>
+    <p class="s2-collab">IceCube Collaboration: about 450 people, 58&nbsp;institutions, 14&nbsp;countries</p>
+  </div>
+</section>
+  <section id="shot-3" class="scene s-shot-3" data-start="#shot-2" data-dur="13.25" data-name="shot-3 the ghost particle" data-transition="slide left 0.5">
+  <div class="s3-ground" data-st-decor></div>
+  <div class="s3-cam">
+    <div class="s3-title">
+      <p class="s3-kicker">Step 1</p>
+      <h2 class="s3-head">The ghost particle</h2>
+    </div>
+    <div class="s3-rig">
+      <svg class="s3-svg s3-back" viewBox="0 0 1920 1080" aria-hidden="true">
+        <defs>
+          <linearGradient id="s3-top" x1="0" y1="1" x2="0.4" y2="0">
+            <stop offset="0" stop-color="#58a9ff" stop-opacity="0.22"/><stop offset="1" stop-color="#58e1ff" stop-opacity="0.10"/>
+          </linearGradient>
+          <linearGradient id="s3-side" x1="0" y1="0" x2="1" y2="0">
+            <stop offset="0" stop-color="#58a9ff" stop-opacity="0.13"/><stop offset="1" stop-color="#58a9ff" stop-opacity="0.05"/>
+          </linearGradient>
+        </defs>
+        <!-- back faces of the block: hidden edges, faint -->
+        <path class="s3-hidden" d="M900 740 L1130 590 L1610 590 M1130 590 L1130 110"/>
+        <polygon points="900,260 1130,110 1610,110 1380,260" fill="url(#s3-top)"/>
+        <polygon points="1380,260 1610,110 1610,590 1380,740" fill="url(#s3-side)"/>
+      </svg>
+      <canvas class="s3-canvas" width="1920" height="1080"></canvas>
+      <svg class="s3-svg s3-front" viewBox="0 0 1920 1080" aria-hidden="true">
+        <defs>
+          <linearGradient id="s3-face" x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0" stop-color="#9fd4ff" stop-opacity="0.13"/><stop offset="1" stop-color="#58a9ff" stop-opacity="0.07"/>
+          </linearGradient>
+        </defs>
+        <rect x="900" y="260" width="480" height="480" fill="url(#s3-face)"/>
+        <g class="s3-strata">
+          <path d="M915 360 C1020 352 1140 368 1365 356"/>
+          <path d="M915 470 C1060 478 1200 462 1365 472"/>
+          <path d="M915 590 C1030 584 1180 598 1365 588"/>
+          <path d="M915 690 C1080 696 1220 684 1365 692"/>
+        </g>
+        <path class="s3-edge" d="M900 260 L1380 260 L1380 740 L900 740 Z M900 260 L1130 110 L1610 110 L1380 260 M1610 110 L1610 590 L1380 740"/>
+        <g class="s3-dim">
+          <path class="s3-dim-line" pathLength="100" d="M900 778 L1380 778"/>
+          <path class="s3-dim-tick" d="M900 762 L900 794 M1380 762 L1380 794"/>
+        </g>
+      </svg>
+      <p class="s3-km">1 km of ice</p>
+      <p class="s3-nu">neutrino</p>
+    </div>
+  </div>
+  <p class="s3-toy">our toy model</p>
+  <div class="s3-qb" data-st="question-beat" data-id="q1" data-at="9.26" data-reply="false" data-caption></div>
+</section>
+  <section id="shot-4" class="scene s-shot-4" data-start="#shot-3" data-dur="6.8" data-name="shot-4 the answer" data-transition="crossfade 0.4">
+  <div class="s4-ground" data-st-decor></div>
+  <div class="s4-cam">
+    <p class="s4-ytitle">Chance it hits anything in 1 km of ice</p>
+    <svg class="s4-chart" viewBox="0 0 1920 1080" aria-hidden="true">
+      <g class="s4-grid"></g>
+      <path class="s4-area"/>
+      <path class="s4-curve" pathLength="100"/>
+      <line class="s4-mark"/>
+      <circle class="s4-halo" r="34"/>
+      <circle class="s4-dot" r="13"/>
+    </svg>
+    <div class="s4-ticks"></div>
+    <p class="s4-xtitle">neutrino energy</p>
+    <div class="s4-answer">
+      <p class="s4-about">about</p>
+      <p class="s4-num"><span class="s4-k1"></span></p>
+      <p class="s4-at">at 100 TeV, across 1 km of ice</p>
+      <p class="s4-so">So IceCube is a cubic kilometre.</p>
+    </div>
+  </div>
+  <p class="s4-toy">our toy model</p>
+</section>
+  <!-- shot-5 "4 a telescope of ice" (12.000 s). Claims: P41 (1988, Halzen and John G. Learned), P39 (holes melted
+       with hot water), P13 (86 strings, 5,160 sensors, 1,450-2,450 m). Hexagon = real IceCube string positions
+       (IceCube ppc geometry, Zenodo CC-BY-4.0, via the 6 PeV replay's data.js), top view. All times scene-relative. -->
+  <!-- shot-5 "4 a telescope of ice" (12.000 s). Claims: P41 (1988, Halzen and John G. Learned), P39 (holes melted
+       with hot water), P13 (86 strings, 5,160 sensors, 1,450-2,450 m). Hexagon = real IceCube string positions
+       (IceCube ppc geometry, Zenodo CC-BY-4.0, via the 6 PeV replay's data.js), top view. All times scene-relative. -->
+  <!-- shot-5 "4 a telescope of ice" (12.000 s). Claims: P41 (1988, Halzen and John G. Learned), P39 (holes melted
+       with hot water), P13 (86 strings, 5,160 sensors, 1,450-2,450 m). Hexagon = real IceCube string positions
+       (IceCube ppc geometry, Zenodo CC-BY-4.0, via the 6 PeV replay's data.js), top view. All times scene-relative. -->
+  <!-- shot-5 "4 a telescope of ice" (11.900 s). Claims: P41 (1988, Halzen and John G. Learned), P39 (holes melted
+       with hot water), P13 (86 strings, 5,160 sensors, 1,450-2,450 m). Hexagon = real IceCube string positions
+       (IceCube ppc geometry, Zenodo CC-BY-4.0, via the 6 PeV replay's data.js), top view. All times scene-relative. -->
+  <!-- shot-5 "4 a telescope of ice" (11.900 s). Claims: P41 (1988, Halzen and John G. Learned), P39 (holes melted
+       with hot water), P13 (86 strings, 5,160 sensors, 1,450-2,450 m). Hexagon = real IceCube string positions
+       (IceCube ppc geometry, Zenodo CC-BY-4.0, via the 6 PeV replay's data.js), top view. All times scene-relative. -->
+  <!-- shot-5 "4 a telescope of ice" (11.900 s). Claims: P41 (1988, Halzen and John G. Learned), P39 (holes melted
+       with hot water), P13 (86 strings, 5,160 sensors, 1,450-2,450 m). Hexagon = real IceCube string positions
+       (IceCube ppc geometry, Zenodo CC-BY-4.0, via the 6 PeV replay's data.js), top view. All times scene-relative. -->
+  <!-- shot-5 "4 a telescope of ice" (11.900 s). Claims: P41 (1988, Halzen and John G. Learned), P39 (holes melted
+       with hot water), P13 (86 strings, 5,160 sensors, 1,450-2,450 m). Hexagon = real IceCube string positions
+       (IceCube ppc geometry, Zenodo CC-BY-4.0, via the 6 PeV replay's data.js), top view. All times scene-relative. -->
+  <!-- shot-5 "4 a telescope of ice" (11.900 s). Claims: P41 (1988, Halzen and John G. Learned), P39 (holes melted
+       with hot water), P13 (86 strings, 5,160 sensors, 1,450-2,450 m). Hexagon = real IceCube string positions
+       (IceCube ppc geometry, Zenodo CC-BY-4.0, via the 6 PeV replay's data.js), top view. All times scene-relative. -->
+  <!-- shot-5 "4 a telescope of ice" (11.900 s). Claims: P41 (1988, Halzen and John G. Learned), P39 (holes melted
+       with hot water), P13 (86 strings, 5,160 sensors, 1,450-2,450 m). Hexagon = real IceCube string positions
+       (IceCube ppc geometry, Zenodo CC-BY-4.0, via the 6 PeV replay's data.js), top view. All times scene-relative. -->
+  <section id="shot-5" class="scene s-shot-5" data-start="#shot-4" data-dur="11.9" data-transition="slide left 0.5">
+    <div class="s5-push">
+      <canvas class="s5-cv" width="1920" height="1080"></canvas>
+      <p class="s5-kicker">Step 2</p>
+      <h2 class="s5-title">A telescope of ice</h2>
+      <p class="s5-surf">ice surface</p>
+      <p class="s5-melt">holes melted<br>with hot water</p>
+      <p class="s5-d s5-d1">1,450 m</p>
+      <p class="s5-d s5-d2">2,450 m</p>
+      <div class="s5-card">
+        <p class="s5-yr">1988</p>
+        <p class="s5-who">Halzen and John G. Learned</p>
+        <p class="s5-what">propose the ice itself as the detector</p>
+      </div>
+      <p class="s5-top">top view</p>
+      <p class="s5-count"><span class="s5-n">86</span> strings &middot; 5,160 sensors</p>
+    </div>
+  </section>
+  <!-- shot-6 "5 the blue cone" (11.500 s). Claims: P15 (charged particle faster than light in ice, blue Cherenkov
+       light, sensors record it), P09 (nucleus), P40 (Halzen: "a lightbulb in reverse"). A schematic, not data.
+       All times scene-relative. -->
+  <!-- shot-6 "5 the blue cone" (11.500 s). Claims: P15 (charged particle faster than light in ice, blue Cherenkov
+       light, sensors record it), P09 (nucleus), P40 (Halzen: "a lightbulb in reverse"). A schematic, not data.
+       All times scene-relative. -->
+  <!-- shot-6 "5 the blue cone" (11.500 s). Claims: P15 (charged particle faster than light in ice, blue Cherenkov
+       light, sensors record it), P09 (nucleus), P40 (Halzen: "a lightbulb in reverse"). A schematic, not data.
+       All times scene-relative. -->
+  <!-- shot-6 "5 the blue cone" (11.500 s). Claims: P15 (charged particle faster than light in ice, blue Cherenkov
+       light, sensors record it), P09 (nucleus), P40 (Halzen: "a lightbulb in reverse"). A schematic, not data.
+       All times scene-relative. -->
+  <!-- shot-6 "5 the blue cone" (11.500 s). Claims: P15 (charged particle faster than light in ice, blue Cherenkov
+       light, sensors record it), P09 (nucleus), P40 (Halzen: "a lightbulb in reverse"). A schematic, not data.
+       All times scene-relative. -->
+  <!-- shot-6 "5 the blue cone" (11.500 s). Claims: P15 (charged particle faster than light in ice, blue Cherenkov
+       light, sensors record it), P09 (nucleus), P40 (Halzen: "a lightbulb in reverse"). A schematic, not data.
+       All times scene-relative. -->
+  <!-- shot-6 "5 the blue cone" (11.500 s). Claims: P15 (charged particle faster than light in ice, blue Cherenkov
+       light, sensors record it), P09 (nucleus), P40 (Halzen: "a lightbulb in reverse"). A schematic, not data.
+       All times scene-relative. -->
+  <!-- shot-6 "5 the blue cone" (11.500 s). Claims: P15 (charged particle faster than light in ice, blue Cherenkov
+       light, sensors record it), P09 (nucleus), P40 (Halzen: "a lightbulb in reverse"). A schematic, not data.
+       All times scene-relative. -->
+  <!-- shot-6 "5 the blue cone" (11.500 s). Claims: P15 (charged particle faster than light in ice, blue Cherenkov
+       light, sensors record it), P09 (nucleus), P40 (Halzen: "a lightbulb in reverse"). A schematic, not data.
+       All times scene-relative. -->
+  <section id="shot-6" class="scene s-shot-6" data-start="#shot-5" data-dur="11.5" data-transition="slide left 0.5">
+    <div class="s6-push">
+      <canvas class="s6-cv" width="1920" height="1080"></canvas>
+      <p class="s6-kicker">Inside the ice</p>
+      <p class="s6-lab s6-nu">neutrino</p>
+      <p class="s6-lab s6-nuc">hits a nucleus</p>
+      <p class="s6-lab s6-cp">charged particle</p>
+      <p class="s6-ck">Cherenkov light</p>
+      <div class="s6-legend"><span>first light</span><i class="s6-bar"></i><span>last light</span></div>
+      <div class="s6-quote">
+        <p class="s6-q">Halzen calls the sensors <em>&ldquo;a lightbulb in reverse&rdquo;</em></p>
+      </div>
+    </div>
+  </section>
+  <section id="shot-7" class="scene s-shot-7" data-start="#shot-6" data-dur="21.23" data-name="6 our toy telescope" data-transition="slide left 0.5">
+  <script src="assets/shot-7/geometry.js"></script>
+  <div class="s7-ground" data-st-decor></div>
+  <canvas class="s7-cv" width="1920" height="1080" data-st-decor></canvas>
+  <div class="s7-toy">our toy model</div>
+  <div class="s7-head">
+    <p class="s7-kick">Step 3</p>
+    <h2 class="s7-title">Our toy telescope</h2>
+  </div>
+  <div class="s7-legend">
+    <div class="s7-time">
+      <p class="s7-cap">Colour: when the light arrived</p>
+      <div class="s7-ramp"><i></i><span>early</span><span>late</span></div>
+    </div>
+    <p class="s7-key s7-key-true"><i></i>True path</p>
+    <p class="s7-key s7-key-fit"><i></i>Our fit, from the times alone</p>
+  </div>
+  <p class="s7-src">source?</p>
+  <p class="s7-spread">Same ice, a quarter as many strings</p>
+  <div class="s7-qb" data-st="question-beat" data-id="q2" data-at="17.23" data-reply="false" data-caption></div>
+</section>
+  <section id="shot-8" class="scene s-shot-8" data-start="#shot-7" data-dur="8.48" data-name="6b the answer" data-transition="crossfade 0.4">
+  <div class="s8-ground" data-st-decor></div>
+  <div class="s8-toy">our toy model</div>
+  <p class="s8-caveat">tuned constants: trend only, not IceCube's real aim</p>
+  <div class="s8-push">
+    <div class="s8-head">
+      <h2 class="s8-title">How far off the aim is, by string spacing</h2>
+      <p class="s8-sub">Median aiming error (our toy fit)</p>
+      <p class="s8-cond">same 1 km<sup>2</sup> of ice · 1 TeV muons · our toy model</p>
+    </div>
+    <svg class="s8-chart" viewBox="0 0 1200 560" width="1200" height="560" aria-label="Aim error versus string spacing, our toy model"></svg>
+    <div class="s8-side">
+      <p class="s8-ratio-k">Twice the spacing</p>
+      <p class="s8-ratio"></p>
+      <div class="s8-hits">
+        <p class="s8-hits-k">Sensors that see the light (median per event)</p>
+        <p class="s8-hits-v"><span class="s8-h1"></span><span class="s8-h2"></span></p>
+      </div>
+    </div>
+  </div>
+</section>
+  <section id="shot-9" class="scene s-shot-9" data-start="#shot-8" data-dur="14.03" data-name="7 what it found" data-transition="slide left 0.5">
+  <script src="assets/shot-9/event.js"></script>
+  <div class="s9-ground" data-st-decor></div>
+  <canvas class="s9-cv" width="1920" height="1080" data-st-decor></canvas>
+  <div class="s9-head">
+    <p class="s9-kick">Step 4</p>
+    <h2 class="s9-title">What it found</h2>
+  </div>
+  <div class="s9-cards">
+    <div class="s9-card s9-c1"><p class="s9-year">2013</p><p class="s9-text">First evidence of high-energy neutrinos from outer space <span class="s9-sig">(4 sigma)</span></p></div>
+    <div class="s9-card s9-c2"><p class="s9-year">2014</p><p class="s9-text"><span class="s9-sig">5.7 sigma</span>, atmosphere alone ruled out</p></div>
+  </div>
+  <div class="s9-real">
+    <p class="s9-date">Real event, 8 December 2016</p>
+    <div class="s9-energy"><p class="s9-pev">about 6 PeV</p><p class="s9-lhc">almost 1,000 times what the LHC can produce (IceCube)</p></div>
+    <p class="s9-shower">Each dot: a sensor that saw its light</p>
+  </div>
+  <p class="s9-slow">time slowed down</p>
+</section>
+  <section id="shot-10" class="scene s-shot-10" data-start="#shot-9" data-dur="11.17" data-name="shot-10 how many from space" data-transition="slide left 0.5">
+  <div class="s10-ground" data-st-decor></div>
+  <div class="s10-cam">
+    <div class="s10-left">
+      <p class="s10-kicker">IceCube, each year</p>
+      <p class="s10-about">about</p>
+      <p class="s10-num"><span class="s10-count">100,000</span></p>
+      <p class="s10-label">neutrinos a year</p>
+    </div>
+    <p class="s10-legend"><i></i>one dot = 100 neutrinos</p>
+    <div class="s10-rig">
+      <svg class="s10-jar" viewBox="0 0 1920 1080" aria-hidden="true">
+        <path class="s10-glass" d="M1262 128 L1538 128 L1538 158 C1538 182 1556 196 1590 214 C1650 246 1680 282 1680 340 L1680 742 C1680 778 1652 806 1616 806 L1184 806 C1148 806 1120 778 1120 742 L1120 340 C1120 282 1150 246 1210 214 C1244 196 1262 182 1262 158 Z"/>
+        <path class="s10-rim" d="M1250 128 L1550 128"/>
+        <path class="s10-shine" d="M1150 360 L1150 700"/>
+      </svg>
+      <canvas class="s10-dots" width="1920" height="1080"></canvas>
+    </div>
+  </div>
+  <div class="s10-qb" data-st="question-beat" data-id="q3" data-at="7.16" data-reply="false" data-caption></div>
+</section>
+  <section id="shot-11" class="scene s-shot-11" data-start="#shot-10" data-dur="6.66" data-name="shot-11 the answer" data-transition="crossfade 0.4">
+  <div class="s11-ground" data-st-decor></div>
+  <div class="s11-cam">
+    <div class="s11-left">
+      <p class="s11-of">Of about 100,000 a year</p>
+      <p class="s11-num">about 100</p>
+      <p class="s11-what">come from outer space</p>
+      <p class="s11-src">Nobel Committee</p>
+      <p class="s11-rest">Most of the rest are made in our own atmosphere.</p>
+    </div>
+    <div class="s11-rig">
+      <svg class="s11-jar" viewBox="0 0 1920 1080" aria-hidden="true">
+        <path class="s11-glass" d="M1262 128 L1538 128 L1538 158 C1538 182 1556 196 1590 214 C1650 246 1680 282 1680 340 L1680 742 C1680 778 1652 806 1616 806 L1184 806 C1148 806 1120 778 1120 742 L1120 340 C1120 282 1150 246 1210 214 C1244 196 1262 182 1262 158 Z"/>
+        <path class="s11-rim" d="M1250 128 L1550 128"/>
+        <path class="s11-shine" d="M1150 360 L1150 700"/>
+      </svg>
+      <canvas class="s11-dots" width="1920" height="1080"></canvas>
+    </div>
+    <p class="s11-legend"><i></i>one dot = 100 neutrinos</p>
+  </div>
+</section>
+  <!-- shot-12 "9a the open question" (11.860 s). An ILLUSTRATED sky, labelled so (not IceCube's sky map).
+       Claims: P01 + P20 (discovery: high-energy neutrinos from space, as a diffuse flux), P31 (galactic plane),
+       P23 (NGC 1068, 4.2 sigma, evidence), P25 (not robust enough to identify it as a source). Scene-relative times. -->
+  <!-- shot-12 "9a the open question" (11.860 s). An ILLUSTRATED sky, labelled so (not IceCube's sky map).
+       Claims: P01 + P20 (discovery: high-energy neutrinos from space, as a diffuse flux), P31 (galactic plane),
+       P23 (NGC 1068, 4.2 sigma, evidence), P25 (not robust enough to identify it as a source). Scene-relative times. -->
+  <!-- shot-12 "9a the open question" (11.860 s). An ILLUSTRATED sky, labelled so (not IceCube's sky map).
+       Claims: P01 + P20 (discovery: high-energy neutrinos from space, as a diffuse flux), P31 (galactic plane),
+       P23 (NGC 1068, 4.2 sigma, evidence), P25 (not robust enough to identify it as a source). Scene-relative times. -->
+  <!-- shot-12 "9a the open question" (11.860 s). An ILLUSTRATED sky, labelled so (not IceCube's sky map).
+       Claims: P01 + P20 (discovery: high-energy neutrinos from space, as a diffuse flux), P31 (galactic plane),
+       P23 (NGC 1068, 4.2 sigma, evidence), P25 (not robust enough to identify it as a source). Scene-relative times. -->
+  <!-- shot-12 "9a the open question" (11.860 s). An ILLUSTRATED sky, labelled so (not IceCube's sky map).
+       Claims: P01 + P20 (discovery: high-energy neutrinos from space, as a diffuse flux), P31 (galactic plane),
+       P23 (NGC 1068, 4.2 sigma, evidence), P25 (not robust enough to identify it as a source). Scene-relative times. -->
+  <!-- shot-12 "9a the open question" (11.860 s). An ILLUSTRATED sky, labelled so (not IceCube's sky map).
+       Claims: P01 + P20 (discovery: high-energy neutrinos from space, as a diffuse flux), P31 (galactic plane),
+       P23 (NGC 1068, 4.2 sigma, evidence), P25 (not robust enough to identify it as a source). Scene-relative times. -->
+  <!-- shot-12 "9a the open question" (11.860 s). An ILLUSTRATED sky, labelled so (not IceCube's sky map).
+       Claims: P01 + P20 (discovery: high-energy neutrinos from space, as a diffuse flux), P31 (galactic plane),
+       P23 (NGC 1068, 4.2 sigma, evidence), P25 (not robust enough to identify it as a source). Scene-relative times. -->
+  <!-- shot-12 "9a the open question" (11.860 s). An ILLUSTRATED sky, labelled so (not IceCube's sky map).
+       Claims: P01 + P20 (discovery: high-energy neutrinos from space, as a diffuse flux), P31 (galactic plane),
+       P23 (NGC 1068, 4.2 sigma, evidence), P25 (not robust enough to identify it as a source). Scene-relative times. -->
+  <!-- shot-12 "9a the open question" (11.860 s). An ILLUSTRATED sky, labelled so (not IceCube's sky map).
+       Claims: P01 + P20 (discovery: high-energy neutrinos from space, as a diffuse flux), P31 (galactic plane),
+       P23 (NGC 1068, 4.2 sigma, evidence), P25 (not robust enough to identify it as a source). Scene-relative times. -->
+  <section id="shot-12" class="scene s-shot-12" data-start="#shot-11" data-dur="11.86" data-transition="slide left 0.5">
+    <div class="s12-push">
+      <canvas class="s12-cv" width="1920" height="1080"></canvas>
+      <p class="s12-chip">illustration</p>
+      <p class="s12-kicker">What it found</p>
+      <div class="s12-heads">
+        <p class="s12-h1"><b>Discovered:</b> high-energy neutrinos from space</p>
+        <p class="s12-h2"><b>Still open:</b> which objects make them?</p>
+      </div>
+      <p class="s12-band">our galaxy shines in neutrinos too</p>
+      <div class="s12-ngc">
+        <p class="s12-name">NGC 1068</p>
+        <p class="s12-ev">evidence (4.2 sigma), <span class="s12-np">not yet proof</span></p>
+      </div>
+    </div>
+  </section>
+  <section class="scene s-shot-13" id="shot-13" data-start="#shot-12" data-dur="5.61" data-storyboard-shot="9b the tie-back" data-transition="crossfade 0.6">
+  <script src="assets/shot-13/icecube-geometry.js"></script>
+  <div class="s13-a">
+    <svg class="s13-finger" viewBox="0 0 1920 1080" aria-hidden="true">
+      <path class="s13-skin" d="M -40 432 C 300 428, 700 440, 960 452 C 1080 458, 1160 470, 1196 520 C 1222 556, 1214 610, 1178 640 C 1140 670, 1060 680, 960 682 C 700 690, 300 700, -40 704 Z"/>
+      <path class="s13-nail" d="M 968 462 C 1060 466, 1130 476, 1170 506 C 1182 520, 1180 536, 1166 540 C 1120 530, 1050 522, 974 518 C 958 506, 956 474, 968 462 Z"/>
+      <path class="s13-line" d="M 992 470 C 1004 486, 1004 502, 990 514"/>
+      <path class="s13-line" d="M 740 447 C 752 453, 770 453, 782 448 M 734 455 C 752 463, 772 463, 788 456 M 730 688 C 748 679, 770 679, 788 688"/>
+      <path class="s13-line" d="M 358 437 C 372 445, 396 445, 410 438 M 350 446 C 370 456, 400 456, 418 447 M 360 699 C 380 689, 404 689, 424 699"/>
+      <path class="s13-line" d="M 1120 660 C 1150 650, 1176 630, 1190 600"/>
+    </svg>
+    <canvas class="s13-stream" width="1920" height="1080"></canvas>
+  </div>
+  <div class="s13-b">
+    <canvas class="s13-ice" width="1920" height="1080"></canvas>
+    <p class="s13-km">1 km</p>
+    <p class="s13-from">from space</p>
+  </div>
+</section>
+  <section class="scene s-shot-14" id="shot-14" data-start="#shot-13" data-dur="7.06" data-storyboard-shot="10 end card" data-transition="dip 0.7">
+  <div class="s14-cam">
+    <div class="s14-card">
+      <h2 class="s14-made">Made with <span>showtime</span></h2>
+      <p class="s14-what">An open-source video studio for coding agents</p>
+      <p class="s14-repo">github.com/FavioVazquez/showtime</p>
+      <div class="s14-small">
+        <p class="s14-lab"><b>nobel-2026-lab</b> &middot; faviovazquez.github.io/nobel-2026-lab</p>
+        <p>Educational demos of this year&rsquo;s Nobel Prizes. Not research.</p>
+        <p>Unofficial. Not affiliated with the Nobel Foundation or the IceCube Collaboration.</p>
+        <p>Event data: IceCube Collaboration, DOI 10.21234/gr2021</p>
+        <p>Sensor positions: IceCube ppc geometry (Zenodo, CC-BY-4.0)</p>
+        <p>Sources: nobelprize.org; claims ledger in the repo</p>
+      </div>
+    </div>
+  </div>
+</section>
+<!--st-tail-->
+<div data-st="caption-karaoke" data-src="voice/captions.words.json"></div>
+<div class="st-roadmap" id="roadmap" data-start="0" data-end="150.44" data-enter="24.68" data-steps="27.95,48.00,71.40,101.11">
+  <ol class="st-roadmap-list">
+    <li class="st-roadmap-step"><b>1</b>The ghost particle</li>
+    <li class="st-roadmap-step"><b>2</b>A telescope of ice</li>
+    <li class="st-roadmap-step"><b>3</b>Our toy telescope</li>
+    <li class="st-roadmap-step"><b>4</b>What it found</li>
+  </ol>
+</div>
+<div class="st-brandmark" id="brandmark" data-start="0" data-end="150.44"><span class="st-brandmark-made">made with</span> showtime</div>
+<script src="scenes/s-shot-1.js"></script>
+<script src="scenes/s-shot-2.js"></script>
+<script src="scenes/s-shot-3.js"></script>
+<script src="scenes/s-shot-4.js"></script>
+<script src="scenes/s-shot-5.js"></script>
+<script src="scenes/s-shot-6.js"></script>
+<script src="scenes/s-shot-7.js"></script>
+<script src="scenes/s-shot-8.js"></script>
+<script src="scenes/s-shot-9.js"></script>
+<script src="scenes/s-shot-10.js"></script>
+<script src="scenes/s-shot-11.js"></script>
+<script src="scenes/s-shot-12.js"></script>
+<script src="scenes/s-shot-13.js"></script>
+<script src="scenes/roadmap.js"></script>
+<!--/st-tail-->
+</div>
+</body>
+</html>

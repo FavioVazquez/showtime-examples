@@ -1,0 +1,110 @@
+{
+  "source": "11-shot-11.wav",
+  "duration": 5.909,
+  "language": "en",
+  "model": "kokoro-v1.0-timestamped.onnx",
+  "words": [
+    {
+      "text": "About",
+      "start": 0.08,
+      "end": 0.29,
+      "type": "word"
+    },
+    {
+      "text": "a",
+      "start": 0.319,
+      "end": 0.358,
+      "type": "word"
+    },
+    {
+      "text": "hundred,",
+      "start": 0.429,
+      "end": 0.97,
+      "type": "word"
+    },
+    {
+      "text": "the",
+      "start": 1.19,
+      "end": 1.228,
+      "type": "word"
+    },
+    {
+      "text": "Nobel",
+      "start": 1.294,
+      "end": 1.685,
+      "type": "word"
+    },
+    {
+      "text": "Committee",
+      "start": 1.735,
+      "end": 2.16,
+      "type": "word"
+    },
+    {
+      "text": "says.",
+      "start": 2.234,
+      "end": 2.7,
+      "type": "word"
+    },
+    {
+      "text": "Most",
+      "start": 3.09,
+      "end": 3.327,
+      "type": "word"
+    },
+    {
+      "text": "of",
+      "start": 3.35,
+      "end": 3.403,
+      "type": "word"
+    },
+    {
+      "text": "the",
+      "start": 3.431,
+      "end": 3.496,
+      "type": "word"
+    },
+    {
+      "text": "rest",
+      "start": 3.565,
+      "end": 3.846,
+      "type": "word"
+    },
+    {
+      "text": "are",
+      "start": 3.86,
+      "end": 3.968,
+      "type": "word"
+    },
+    {
+      "text": "made",
+      "start": 4.019,
+      "end": 4.269,
+      "type": "word"
+    },
+    {
+      "text": "in",
+      "start": 4.305,
+      "end": 4.357,
+      "type": "word"
+    },
+    {
+      "text": "our",
+      "start": 4.381,
+      "end": 4.511,
+      "type": "word"
+    },
+    {
+      "text": "own",
+      "start": 4.58,
+      "end": 4.782,
+      "type": "word"
+    },
+    {
+      "text": "atmosphere.",
+      "start": 4.84,
+      "end": 5.52,
+      "type": "word"
+    }
+  ]
+}

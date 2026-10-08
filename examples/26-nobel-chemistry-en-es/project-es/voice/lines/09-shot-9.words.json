@@ -1,0 +1,314 @@
+{
+  "source": "09-shot-9.wav",
+  "duration": 15.712,
+  "language": "es",
+  "model": "kokoro-v1.0-timestamped.onnx",
+  "words": [
+    {
+      "text": "En",
+      "start": 0.03,
+      "end": 0.06,
+      "type": "word"
+    },
+    {
+      "text": "nuestro",
+      "start": 0.075,
+      "end": 0.344,
+      "type": "word"
+    },
+    {
+      "text": "modelo",
+      "start": 0.378,
+      "end": 0.674,
+      "type": "word"
+    },
+    {
+      "text": "de",
+      "start": 0.701,
+      "end": 0.753,
+      "type": "word"
+    },
+    {
+      "text": "juguete,",
+      "start": 0.801,
+      "end": 1.253,
+      "type": "word"
+    },
+    {
+      "text": "copiar",
+      "start": 1.39,
+      "end": 1.714,
+      "type": "word"
+    },
+    {
+      "text": "no",
+      "start": 1.76,
+      "end": 1.841,
+      "type": "word"
+    },
+    {
+      "text": "basta:",
+      "start": 1.866,
+      "end": 2.31,
+      "type": "word"
+    },
+    {
+      "text": "diez",
+      "start": 2.58,
+      "end": 2.796,
+      "type": "word"
+    },
+    {
+      "text": "mil",
+      "start": 2.843,
+      "end": 2.987,
+      "type": "word"
+    },
+    {
+      "text": "simulaciones",
+      "start": 3.033,
+      "end": 3.645,
+      "type": "word"
+    },
+    {
+      "text": "terminan",
+      "start": 3.72,
+      "end": 4.125,
+      "type": "word"
+    },
+    {
+      "text": "en",
+      "start": 4.156,
+      "end": 4.216,
+      "type": "word"
+    },
+    {
+      "text": "cualquier",
+      "start": 4.27,
+      "end": 4.621,
+      "type": "word"
+    },
+    {
+      "text": "parte.",
+      "start": 4.7,
+      "end": 5.08,
+      "type": "word"
+    },
+    {
+      "text": "Agrega",
+      "start": 5.46,
+      "end": 5.787,
+      "type": "word"
+    },
+    {
+      "text": "la",
+      "start": 5.813,
+      "end": 5.881,
+      "type": "word"
+    },
+    {
+      "text": "casilla",
+      "start": 5.916,
+      "end": 6.302,
+      "type": "word"
+    },
+    {
+      "text": "dos,",
+      "start": 6.335,
+      "end": 6.62,
+      "type": "word"
+    },
+    {
+      "text": "donde",
+      "start": 6.7,
+      "end": 6.984,
+      "type": "word"
+    },
+    {
+      "text": "una",
+      "start": 7.008,
+      "end": 7.134,
+      "type": "word"
+    },
+    {
+      "text": "molécula",
+      "start": 7.165,
+      "end": 7.559,
+      "type": "word"
+    },
+    {
+      "text": "de",
+      "start": 7.583,
+      "end": 7.63,
+      "type": "word"
+    },
+    {
+      "text": "una",
+      "start": 7.654,
+      "end": 7.788,
+      "type": "word"
+    },
+    {
+      "text": "mano",
+      "start": 7.834,
+      "end": 8.129,
+      "type": "word"
+    },
+    {
+      "text": "y",
+      "start": 8.191,
+      "end": 8.226,
+      "type": "word"
+    },
+    {
+      "text": "una",
+      "start": 8.255,
+      "end": 8.415,
+      "type": "word"
+    },
+    {
+      "text": "de",
+      "start": 8.439,
+      "end": 8.487,
+      "type": "word"
+    },
+    {
+      "text": "la",
+      "start": 8.511,
+      "end": 8.581,
+      "type": "word"
+    },
+    {
+      "text": "mano",
+      "start": 8.612,
+      "end": 8.789,
+      "type": "word"
+    },
+    {
+      "text": "espejo",
+      "start": 8.813,
+      "end": 9.209,
+      "type": "word"
+    },
+    {
+      "text": "se",
+      "start": 9.252,
+      "end": 9.301,
+      "type": "word"
+    },
+    {
+      "text": "emparejan",
+      "start": 9.325,
+      "end": 9.881,
+      "type": "word"
+    },
+    {
+      "text": "y",
+      "start": 9.929,
+      "end": 9.961,
+      "type": "word"
+    },
+    {
+      "text": "dejan",
+      "start": 10.005,
+      "end": 10.279,
+      "type": "word"
+    },
+    {
+      "text": "de",
+      "start": 10.304,
+      "end": 10.358,
+      "type": "word"
+    },
+    {
+      "text": "funcionar,",
+      "start": 10.399,
+      "end": 11.14,
+      "type": "word"
+    },
+    {
+      "text": "y",
+      "start": 11.26,
+      "end": 11.302,
+      "type": "word"
+    },
+    {
+      "text": "casi",
+      "start": 11.35,
+      "end": 11.597,
+      "type": "word"
+    },
+    {
+      "text": "todas",
+      "start": 11.645,
+      "end": 11.903,
+      "type": "word"
+    },
+    {
+      "text": "terminan",
+      "start": 11.947,
+      "end": 12.413,
+      "type": "word"
+    },
+    {
+      "text": "con",
+      "start": 12.461,
+      "end": 12.58,
+      "type": "word"
+    },
+    {
+      "text": "una",
+      "start": 12.603,
+      "end": 12.757,
+      "type": "word"
+    },
+    {
+      "text": "mano",
+      "start": 12.803,
+      "end": 13.005,
+      "type": "word"
+    },
+    {
+      "text": "dominando.",
+      "start": 13.03,
+      "end": 13.71,
+      "type": "word"
+    },
+    {
+      "text": "Qué",
+      "start": 14.024,
+      "end": 14.112,
+      "type": "word"
+    },
+    {
+      "text": "mano",
+      "start": 14.15,
+      "end": 14.355,
+      "type": "word"
+    },
+    {
+      "text": "gana",
+      "start": 14.393,
+      "end": 14.606,
+      "type": "word"
+    },
+    {
+      "text": "es",
+      "start": 14.631,
+      "end": 14.734,
+      "type": "word"
+    },
+    {
+      "text": "un",
+      "start": 14.758,
+      "end": 14.851,
+      "type": "word"
+    },
+    {
+      "text": "volado.",
+      "start": 14.885,
+      "end": 15.302,
+      "type": "word"
+    }
+  ]
+}

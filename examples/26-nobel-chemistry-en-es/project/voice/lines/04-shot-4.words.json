@@ -1,0 +1,272 @@
+{
+  "source": "04-shot-4.wav",
+  "duration": 16.818,
+  "language": "en",
+  "model": "kokoro-v1.0-timestamped.onnx",
+  "words": [
+    {
+      "text": "In",
+      "start": 0.03,
+      "end": 0.102,
+      "type": "word"
+    },
+    {
+      "text": "nineteen",
+      "start": 0.148,
+      "end": 0.506,
+      "type": "word"
+    },
+    {
+      "text": "fifty-three,",
+      "start": 0.557,
+      "end": 1.288,
+      "type": "word"
+    },
+    {
+      "text": "Charles",
+      "start": 1.39,
+      "end": 1.766,
+      "type": "word"
+    },
+    {
+      "text": "Frank",
+      "start": 1.821,
+      "end": 2.101,
+      "type": "word"
+    },
+    {
+      "text": "wrote",
+      "start": 2.16,
+      "end": 2.289,
+      "type": "word"
+    },
+    {
+      "text": "a",
+      "start": 2.315,
+      "end": 2.348,
+      "type": "word"
+    },
+    {
+      "text": "recipe",
+      "start": 2.395,
+      "end": 2.852,
+      "type": "word"
+    },
+    {
+      "text": "for",
+      "start": 2.9,
+      "end": 3.003,
+      "type": "word"
+    },
+    {
+      "text": "one",
+      "start": 3.064,
+      "end": 3.235,
+      "type": "word"
+    },
+    {
+      "text": "hand",
+      "start": 3.282,
+      "end": 3.537,
+      "type": "word"
+    },
+    {
+      "text": "to",
+      "start": 3.579,
+      "end": 3.63,
+      "type": "word"
+    },
+    {
+      "text": "take",
+      "start": 3.63,
+      "end": 3.863,
+      "type": "word"
+    },
+    {
+      "text": "over",
+      "start": 3.886,
+      "end": 4.051,
+      "type": "word"
+    },
+    {
+      "text": "completely.",
+      "start": 4.06,
+      "end": 4.73,
+      "type": "word"
+    },
+    {
+      "text": "One:",
+      "start": 5.19,
+      "end": 5.66,
+      "type": "word"
+    },
+    {
+      "text": "a",
+      "start": 5.88,
+      "end": 5.979,
+      "type": "word"
+    },
+    {
+      "text": "one-handed",
+      "start": 6.054,
+      "end": 6.645,
+      "type": "word"
+    },
+    {
+      "text": "catalyst;",
+      "start": 6.66,
+      "end": 7.36,
+      "type": "word"
+    },
+    {
+      "text": "chemists",
+      "start": 7.61,
+      "end": 8.017,
+      "type": "word"
+    },
+    {
+      "text": "had",
+      "start": 8.065,
+      "end": 8.222,
+      "type": "word"
+    },
+    {
+      "text": "that",
+      "start": 8.267,
+      "end": 8.422,
+      "type": "word"
+    },
+    {
+      "text": "by",
+      "start": 8.459,
+      "end": 8.542,
+      "type": "word"
+    },
+    {
+      "text": "the",
+      "start": 8.568,
+      "end": 8.641,
+      "type": "word"
+    },
+    {
+      "text": "early",
+      "start": 8.703,
+      "end": 8.952,
+      "type": "word"
+    },
+    {
+      "text": "nineteen",
+      "start": 8.999,
+      "end": 9.394,
+      "type": "word"
+    },
+    {
+      "text": "hundreds.",
+      "start": 9.441,
+      "end": 10.04,
+      "type": "word"
+    },
+    {
+      "text": "Two:",
+      "start": 10.49,
+      "end": 10.9,
+      "type": "word"
+    },
+    {
+      "text": "boost",
+      "start": 11.12,
+      "end": 11.443,
+      "type": "word"
+    },
+    {
+      "text": "one",
+      "start": 11.497,
+      "end": 11.671,
+      "type": "word"
+    },
+    {
+      "text": "hand",
+      "start": 11.719,
+      "end": 12.016,
+      "type": "word"
+    },
+    {
+      "text": "and",
+      "start": 12.051,
+      "end": 12.123,
+      "type": "word"
+    },
+    {
+      "text": "hold",
+      "start": 12.17,
+      "end": 12.399,
+      "type": "word"
+    },
+    {
+      "text": "back",
+      "start": 12.46,
+      "end": 12.655,
+      "type": "word"
+    },
+    {
+      "text": "the",
+      "start": 12.7,
+      "end": 12.775,
+      "type": "word"
+    },
+    {
+      "text": "other.",
+      "start": 12.822,
+      "end": 13.18,
+      "type": "word"
+    },
+    {
+      "text": "Three:",
+      "start": 13.61,
+      "end": 14.12,
+      "type": "word"
+    },
+    {
+      "text": "a",
+      "start": 14.43,
+      "end": 14.477,
+      "type": "word"
+    },
+    {
+      "text": "reaction",
+      "start": 14.524,
+      "end": 15.023,
+      "type": "word"
+    },
+    {
+      "text": "that",
+      "start": 15.065,
+      "end": 15.155,
+      "type": "word"
+    },
+    {
+      "text": "makes",
+      "start": 15.188,
+      "end": 15.38,
+      "type": "word"
+    },
+    {
+      "text": "its",
+      "start": 15.407,
+      "end": 15.5,
+      "type": "word"
+    },
+    {
+      "text": "own",
+      "start": 15.532,
+      "end": 15.733,
+      "type": "word"
+    },
+    {
+      "text": "catalyst.",
+      "start": 15.76,
+      "end": 16.398,
+      "type": "word"
+    }
+  ]
+}

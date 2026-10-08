@@ -1,0 +1,308 @@
+{
+  "source": "05-shot-5.wav",
+  "duration": 19.447,
+  "language": "en",
+  "model": "kokoro-v1.0-timestamped.onnx",
+  "words": [
+    {
+      "text": "In",
+      "start": 0.04,
+      "end": 0.11,
+      "type": "word"
+    },
+    {
+      "text": "nineteen",
+      "start": 0.157,
+      "end": 0.54,
+      "type": "word"
+    },
+    {
+      "text": "eighty-six,",
+      "start": 0.582,
+      "end": 1.26,
+      "type": "word"
+    },
+    {
+      "text": "Henri",
+      "start": 1.45,
+      "end": 1.695,
+      "type": "word"
+    },
+    {
+      "text": "Kagan",
+      "start": 1.764,
+      "end": 2.126,
+      "type": "word"
+    },
+    {
+      "text": "ticked",
+      "start": 2.15,
+      "end": 2.428,
+      "type": "word"
+    },
+    {
+      "text": "box",
+      "start": 2.49,
+      "end": 2.838,
+      "type": "word"
+    },
+    {
+      "text": "two.",
+      "start": 2.87,
+      "end": 3.26,
+      "type": "word"
+    },
+    {
+      "text": "His",
+      "start": 3.72,
+      "end": 3.892,
+      "type": "word"
+    },
+    {
+      "text": "insight:",
+      "start": 3.941,
+      "end": 4.41,
+      "type": "word"
+    },
+    {
+      "text": "the",
+      "start": 4.9,
+      "end": 4.958,
+      "type": "word"
+    },
+    {
+      "text": "catalyst's",
+      "start": 5.012,
+      "end": 5.557,
+      "type": "word"
+    },
+    {
+      "text": "metal",
+      "start": 5.607,
+      "end": 5.876,
+      "type": "word"
+    },
+    {
+      "text": "holds",
+      "start": 5.923,
+      "end": 6.239,
+      "type": "word"
+    },
+    {
+      "text": "two",
+      "start": 6.31,
+      "end": 6.468,
+      "type": "word"
+    },
+    {
+      "text": "pieces,",
+      "start": 6.47,
+      "end": 7.03,
+      "type": "word"
+    },
+    {
+      "text": "so",
+      "start": 7.24,
+      "end": 7.438,
+      "type": "word"
+    },
+    {
+      "text": "mixed",
+      "start": 7.504,
+      "end": 7.745,
+      "type": "word"
+    },
+    {
+      "text": "hands",
+      "start": 7.793,
+      "end": 8.145,
+      "type": "word"
+    },
+    {
+      "text": "make",
+      "start": 8.189,
+      "end": 8.362,
+      "type": "word"
+    },
+    {
+      "text": "three",
+      "start": 8.44,
+      "end": 8.642,
+      "type": "word"
+    },
+    {
+      "text": "kinds",
+      "start": 8.69,
+      "end": 8.931,
+      "type": "word"
+    },
+    {
+      "text": "of",
+      "start": 8.955,
+      "end": 9.011,
+      "type": "word"
+    },
+    {
+      "text": "pairs,",
+      "start": 9.05,
+      "end": 9.586,
+      "type": "word"
+    },
+    {
+      "text": "and",
+      "start": 9.73,
+      "end": 9.834,
+      "type": "word"
+    },
+    {
+      "text": "the",
+      "start": 9.858,
+      "end": 9.913,
+      "type": "word"
+    },
+    {
+      "text": "mixed",
+      "start": 9.982,
+      "end": 10.248,
+      "type": "word"
+    },
+    {
+      "text": "pair",
+      "start": 10.3,
+      "end": 10.558,
+      "type": "word"
+    },
+    {
+      "text": "barely",
+      "start": 10.61,
+      "end": 10.928,
+      "type": "word"
+    },
+    {
+      "text": "works.",
+      "start": 10.978,
+      "end": 11.4,
+      "type": "word"
+    },
+    {
+      "text": "Start",
+      "start": 11.91,
+      "end": 12.234,
+      "type": "word"
+    },
+    {
+      "text": "seventy-five",
+      "start": 12.299,
+      "end": 12.985,
+      "type": "word"
+    },
+    {
+      "text": "to",
+      "start": 13.03,
+      "end": 13.085,
+      "type": "word"
+    },
+    {
+      "text": "twenty-five,",
+      "start": 13.14,
+      "end": 13.88,
+      "type": "word"
+    },
+    {
+      "text": "and",
+      "start": 14.12,
+      "end": 14.193,
+      "type": "word"
+    },
+    {
+      "text": "the",
+      "start": 14.217,
+      "end": 14.267,
+      "type": "word"
+    },
+    {
+      "text": "working",
+      "start": 14.315,
+      "end": 14.626,
+      "type": "word"
+    },
+    {
+      "text": "catalysts",
+      "start": 14.674,
+      "end": 15.19,
+      "type": "word"
+    },
+    {
+      "text": "are",
+      "start": 15.227,
+      "end": 15.317,
+      "type": "word"
+    },
+    {
+      "text": "ninety",
+      "start": 15.38,
+      "end": 15.697,
+      "type": "word"
+    },
+    {
+      "text": "to",
+      "start": 15.745,
+      "end": 15.817,
+      "type": "word"
+    },
+    {
+      "text": "ten:",
+      "start": 15.86,
+      "end": 16.27,
+      "type": "word"
+    },
+    {
+      "text": "a",
+      "start": 16.58,
+      "end": 16.647,
+      "type": "word"
+    },
+    {
+      "text": "purer",
+      "start": 16.7,
+      "end": 17.017,
+      "type": "word"
+    },
+    {
+      "text": "product",
+      "start": 17.08,
+      "end": 17.478,
+      "type": "word"
+    },
+    {
+      "text": "than",
+      "start": 17.53,
+      "end": 17.677,
+      "type": "word"
+    },
+    {
+      "text": "a",
+      "start": 17.677,
+      "end": 17.767,
+      "type": "word"
+    },
+    {
+      "text": "straight",
+      "start": 17.767,
+      "end": 18.09,
+      "type": "word"
+    },
+    {
+      "text": "line",
+      "start": 18.12,
+      "end": 18.438,
+      "type": "word"
+    },
+    {
+      "text": "predicts.",
+      "start": 18.5,
+      "end": 19.037,
+      "type": "word"
+    }
+  ]
+}

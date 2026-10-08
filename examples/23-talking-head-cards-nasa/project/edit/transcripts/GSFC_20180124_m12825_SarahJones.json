@@ -1,0 +1,1484 @@
+{
+ "source": "raw/GSFC_20180124_m12825_SarahJones.mp4",
+ "duration": 68.971,
+ "language": "en",
+ "language_probability": null,
+ "model": "sherpa-onnx-nemo-parakeet-tdt-0.6b-v3-int8",
+ "engine": "sherpa-onnx",
+ "audio_track": 0,
+ "text": "Gold measures the upper atmosphere, which is directly affected by the sun and what we call space weather. Scientists are working to better be able to predict space weather because it directly affects the safety of our satellites, the health of our astronauts, and the technologies that we use every day in our life like GPS navigation. Gold will be sitting twenty two thousand miles above Earth, which means that it can see a whole half of the Earth, all of the Western Hemisphere. And it will be hovering over one particular point on Earth, watching the dynamics of the atmosphere play out below. I am excited about this mission because Gold will be getting information about the upper atmosphere much faster than ever before, and we'll be able to look at effects that are more like the weather that we experience down here on Earth. The golden icon missions will give scientists the most comprehensive view we've ever had of the upper atmosphere.",
+ "version": 1,
+ "cache_key": "13213c2fcd42e6260bc84e44",
+ "source_hash": "ea6a00aea0202659aa51",
+ "created": "2026-10-07T11:39:32",
+ "asr_seconds": 14.02,
+ "stats": {
+  "separation": {
+   "snr_db": 60.0,
+   "separate": false,
+   "method": "pauses",
+   "why": "speech is 60.0 dB over the background",
+   "applied": false
+  },
+  "gap_scan": {
+   "candidates": 2,
+   "elongated": 1,
+   "added": 0,
+   "widened": 0,
+   "added_acoustic": 0,
+   "missed_words": 1,
+   "skipped": 0,
+   "seconds": 1.74
+  },
+  "refine": {
+   "moved": 74,
+   "words": 164,
+   "mean_shift_ms": 18.6,
+   "threshold_db": -49.4
+  },
+  "words": 164,
+  "fillers": 0,
+  "events": 0,
+  "low_confidence": 0,
+  "respread": 0,
+  "levels": {
+   "peak_db": -3.6,
+   "mean_db": -23.5,
+   "floor_db": -180.0,
+   "active_ratio": 0.754
+  }
+ },
+ "guards": {
+  "dropped": [],
+  "warnings": []
+ },
+ "filler_scan": [
+  {
+   "start": 11.42,
+   "end": 11.65,
+   "from": "gap",
+   "decoded": "Yeah",
+   "missed": "Yeah",
+   "kind": "missed-word"
+  },
+  {
+   "start": 37.82,
+   "end": 37.97,
+   "from": "gap",
+   "decoded": "And",
+   "kind": "empty",
+   "acoustic": {
+    "voiced": 0.0,
+    "steady": 0.506,
+    "f0_cv": 1.0,
+    "score": 0.0
+   }
+  },
+  {
+   "start": 25.72,
+   "end": 26.44,
+   "from": "long-word",
+   "decoded": "",
+   "kind": "nothing"
+  }
+ ],
+ "audio_from": "source",
+ "words": [
+  {
+   "text": "GOLD",
+   "start": 7.39,
+   "end": 7.96,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w0"
+  },
+  {
+   "text": "measures",
+   "start": 7.96,
+   "end": 8.36,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w1"
+  },
+  {
+   "text": "the",
+   "start": 8.36,
+   "end": 8.44,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w2"
+  },
+  {
+   "text": "upper",
+   "start": 8.44,
+   "end": 8.76,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w3"
+  },
+  {
+   "text": "atmosphere,",
+   "start": 8.76,
+   "end": 9.32,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w4"
+  },
+  {
+   "text": "which",
+   "start": 9.32,
+   "end": 9.56,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w5"
+  },
+  {
+   "text": "is",
+   "start": 9.56,
+   "end": 9.72,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w6"
+  },
+  {
+   "text": "directly",
+   "start": 9.72,
+   "end": 10.28,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w7"
+  },
+  {
+   "text": "affected",
+   "start": 10.28,
+   "end": 10.84,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w8"
+  },
+  {
+   "text": "by",
+   "start": 10.84,
+   "end": 11.0,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w9"
+  },
+  {
+   "text": "the",
+   "start": 11.0,
+   "end": 11.16,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w10"
+  },
+  {
+   "text": "sun",
+   "start": 11.17,
+   "end": 11.62,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w11"
+  },
+  {
+   "text": " ",
+   "start": 11.62,
+   "end": 11.77,
+   "type": "spacing"
+  },
+  {
+   "text": "and",
+   "start": 11.77,
+   "end": 12.04,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w12"
+  },
+  {
+   "text": "what",
+   "start": 12.04,
+   "end": 12.28,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w13"
+  },
+  {
+   "text": "we",
+   "start": 12.28,
+   "end": 12.44,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w14"
+  },
+  {
+   "text": "call",
+   "start": 12.44,
+   "end": 12.88,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w15"
+  },
+  {
+   "text": " ",
+   "start": 12.88,
+   "end": 12.92,
+   "type": "spacing"
+  },
+  {
+   "text": "space",
+   "start": 12.92,
+   "end": 13.48,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w16"
+  },
+  {
+   "text": "weather.",
+   "start": 13.48,
+   "end": 13.97,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w17"
+  },
+  {
+   "text": " ",
+   "start": 13.97,
+   "end": 14.3,
+   "type": "spacing"
+  },
+  {
+   "text": "Scientists",
+   "start": 14.3,
+   "end": 15.12,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w18"
+  },
+  {
+   "text": " ",
+   "start": 15.12,
+   "end": 15.16,
+   "type": "spacing"
+  },
+  {
+   "text": "are",
+   "start": 15.16,
+   "end": 15.4,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w19"
+  },
+  {
+   "text": "working",
+   "start": 15.4,
+   "end": 15.8,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w20"
+  },
+  {
+   "text": "to",
+   "start": 15.8,
+   "end": 15.96,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w21"
+  },
+  {
+   "text": "better",
+   "start": 15.96,
+   "end": 16.28,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w22"
+  },
+  {
+   "text": "be",
+   "start": 16.28,
+   "end": 16.44,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w23"
+  },
+  {
+   "text": "able",
+   "start": 16.44,
+   "end": 16.6,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w24"
+  },
+  {
+   "text": "to",
+   "start": 16.6,
+   "end": 16.75,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w25"
+  },
+  {
+   "text": "predict",
+   "start": 16.76,
+   "end": 17.24,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w26"
+  },
+  {
+   "text": "space",
+   "start": 17.24,
+   "end": 17.64,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w27"
+  },
+  {
+   "text": "weather",
+   "start": 17.64,
+   "end": 17.96,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w28"
+  },
+  {
+   "text": "because",
+   "start": 17.96,
+   "end": 18.28,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w29"
+  },
+  {
+   "text": "it",
+   "start": 18.28,
+   "end": 18.52,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w30"
+  },
+  {
+   "text": "directly",
+   "start": 18.52,
+   "end": 19.08,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w31"
+  },
+  {
+   "text": "affects",
+   "start": 19.08,
+   "end": 19.64,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w32"
+  },
+  {
+   "text": "the",
+   "start": 19.64,
+   "end": 19.8,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w33"
+  },
+  {
+   "text": "safety",
+   "start": 19.8,
+   "end": 20.2,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w34"
+  },
+  {
+   "text": "of",
+   "start": 20.2,
+   "end": 20.36,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w35"
+  },
+  {
+   "text": "our",
+   "start": 20.36,
+   "end": 20.52,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w36"
+  },
+  {
+   "text": "satellites,",
+   "start": 20.52,
+   "end": 21.24,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w37"
+  },
+  {
+   "text": " ",
+   "start": 21.24,
+   "end": 21.34,
+   "type": "spacing"
+  },
+  {
+   "text": "the",
+   "start": 21.34,
+   "end": 21.48,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w38"
+  },
+  {
+   "text": "health",
+   "start": 21.48,
+   "end": 21.8,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w39"
+  },
+  {
+   "text": "of",
+   "start": 21.8,
+   "end": 21.88,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w40"
+  },
+  {
+   "text": "our",
+   "start": 21.88,
+   "end": 22.04,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w41"
+  },
+  {
+   "text": "astronauts,",
+   "start": 22.04,
+   "end": 22.82,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w42"
+  },
+  {
+   "text": "and",
+   "start": 22.84,
+   "end": 23.0,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w43"
+  },
+  {
+   "text": "the",
+   "start": 23.0,
+   "end": 23.16,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w44"
+  },
+  {
+   "text": "technologies",
+   "start": 23.16,
+   "end": 23.72,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w45"
+  },
+  {
+   "text": "that",
+   "start": 23.72,
+   "end": 23.88,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w46"
+  },
+  {
+   "text": "we",
+   "start": 23.88,
+   "end": 24.04,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w47"
+  },
+  {
+   "text": "use",
+   "start": 24.04,
+   "end": 24.28,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w48"
+  },
+  {
+   "text": "every",
+   "start": 24.28,
+   "end": 24.52,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w49"
+  },
+  {
+   "text": "day",
+   "start": 24.52,
+   "end": 24.76,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w50"
+  },
+  {
+   "text": "in",
+   "start": 24.76,
+   "end": 24.92,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w51"
+  },
+  {
+   "text": "our",
+   "start": 24.92,
+   "end": 25.08,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w52"
+  },
+  {
+   "text": "life",
+   "start": 25.08,
+   "end": 25.32,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w53"
+  },
+  {
+   "text": "like",
+   "start": 25.32,
+   "end": 25.68,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w54"
+  },
+  {
+   "text": " ",
+   "start": 25.68,
+   "end": 25.72,
+   "type": "spacing"
+  },
+  {
+   "text": "GPS",
+   "start": 25.72,
+   "end": 26.44,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w55"
+  },
+  {
+   "text": "navigation.",
+   "start": 26.44,
+   "end": 27.18,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w56"
+  },
+  {
+   "text": " ",
+   "start": 27.18,
+   "end": 30.05,
+   "type": "spacing"
+  },
+  {
+   "text": "GOLD",
+   "start": 30.05,
+   "end": 30.41,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w57"
+  },
+  {
+   "text": "will",
+   "start": 30.41,
+   "end": 30.57,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w58"
+  },
+  {
+   "text": "be",
+   "start": 30.57,
+   "end": 30.73,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w59"
+  },
+  {
+   "text": "sitting",
+   "start": 30.73,
+   "end": 31.05,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w60"
+  },
+  {
+   "text": "twenty",
+   "start": 31.05,
+   "end": 31.45,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w61"
+  },
+  {
+   "text": "two",
+   "start": 31.45,
+   "end": 31.61,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w62"
+  },
+  {
+   "text": "thousand",
+   "start": 31.61,
+   "end": 32.01,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w63"
+  },
+  {
+   "text": "miles",
+   "start": 32.01,
+   "end": 32.33,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w64"
+  },
+  {
+   "text": "above",
+   "start": 32.33,
+   "end": 32.73,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w65"
+  },
+  {
+   "text": "Earth,",
+   "start": 32.73,
+   "end": 33.06,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w66"
+  },
+  {
+   "text": "which",
+   "start": 33.06,
+   "end": 33.37,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w67"
+  },
+  {
+   "text": "means",
+   "start": 33.37,
+   "end": 33.61,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w68"
+  },
+  {
+   "text": "that",
+   "start": 33.61,
+   "end": 33.77,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w69"
+  },
+  {
+   "text": "it",
+   "start": 33.77,
+   "end": 33.93,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w70"
+  },
+  {
+   "text": "can",
+   "start": 33.93,
+   "end": 34.09,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w71"
+  },
+  {
+   "text": "see",
+   "start": 34.09,
+   "end": 34.33,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w72"
+  },
+  {
+   "text": "a",
+   "start": 34.33,
+   "end": 34.49,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w73"
+  },
+  {
+   "text": "whole",
+   "start": 34.49,
+   "end": 34.81,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w74"
+  },
+  {
+   "text": "half",
+   "start": 34.81,
+   "end": 35.05,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w75"
+  },
+  {
+   "text": "of",
+   "start": 35.05,
+   "end": 35.21,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w76"
+  },
+  {
+   "text": "the",
+   "start": 35.21,
+   "end": 35.29,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w77"
+  },
+  {
+   "text": "Earth,",
+   "start": 35.29,
+   "end": 35.74,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w78"
+  },
+  {
+   "text": " ",
+   "start": 35.74,
+   "end": 35.84,
+   "type": "spacing"
+  },
+  {
+   "text": "all",
+   "start": 35.84,
+   "end": 36.01,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w79"
+  },
+  {
+   "text": "of",
+   "start": 36.01,
+   "end": 36.17,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w80"
+  },
+  {
+   "text": "the",
+   "start": 36.17,
+   "end": 36.33,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w81"
+  },
+  {
+   "text": "Western",
+   "start": 36.33,
+   "end": 36.81,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w82"
+  },
+  {
+   "text": "Hemisphere.",
+   "start": 36.81,
+   "end": 37.78,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w83"
+  },
+  {
+   "text": " ",
+   "start": 37.78,
+   "end": 37.99,
+   "type": "spacing"
+  },
+  {
+   "text": "And",
+   "start": 37.99,
+   "end": 38.17,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w84"
+  },
+  {
+   "text": "it",
+   "start": 38.17,
+   "end": 38.41,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w85"
+  },
+  {
+   "text": "will",
+   "start": 38.41,
+   "end": 38.57,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w86"
+  },
+  {
+   "text": "be",
+   "start": 38.57,
+   "end": 38.73,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w87"
+  },
+  {
+   "text": "hovering",
+   "start": 38.73,
+   "end": 39.29,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w88"
+  },
+  {
+   "text": "over",
+   "start": 39.29,
+   "end": 39.53,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w89"
+  },
+  {
+   "text": "one",
+   "start": 39.53,
+   "end": 39.85,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w90"
+  },
+  {
+   "text": "particular",
+   "start": 39.85,
+   "end": 40.33,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w91"
+  },
+  {
+   "text": "point",
+   "start": 40.33,
+   "end": 40.57,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w92"
+  },
+  {
+   "text": "on",
+   "start": 40.57,
+   "end": 40.81,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w93"
+  },
+  {
+   "text": "Earth,",
+   "start": 40.81,
+   "end": 41.14,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w94"
+  },
+  {
+   "text": "watching",
+   "start": 41.14,
+   "end": 41.85,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w95"
+  },
+  {
+   "text": "the",
+   "start": 41.86,
+   "end": 42.09,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w96"
+  },
+  {
+   "text": "dynamics",
+   "start": 42.09,
+   "end": 42.65,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w97"
+  },
+  {
+   "text": "of",
+   "start": 42.65,
+   "end": 42.81,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w98"
+  },
+  {
+   "text": "the",
+   "start": 42.81,
+   "end": 42.89,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w99"
+  },
+  {
+   "text": "atmosphere",
+   "start": 42.89,
+   "end": 43.61,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w100"
+  },
+  {
+   "text": "play",
+   "start": 43.61,
+   "end": 43.93,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w101"
+  },
+  {
+   "text": "out",
+   "start": 43.93,
+   "end": 44.17,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w102"
+  },
+  {
+   "text": "below.",
+   "start": 44.17,
+   "end": 44.64,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w103"
+  },
+  {
+   "text": " ",
+   "start": 44.64,
+   "end": 47.92,
+   "type": "spacing"
+  },
+  {
+   "text": "I",
+   "start": 47.92,
+   "end": 48.22,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w104"
+  },
+  {
+   "text": "am",
+   "start": 48.22,
+   "end": 48.38,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w105"
+  },
+  {
+   "text": "excited",
+   "start": 48.38,
+   "end": 48.86,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w106"
+  },
+  {
+   "text": "about",
+   "start": 48.86,
+   "end": 49.02,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w107"
+  },
+  {
+   "text": "this",
+   "start": 49.02,
+   "end": 49.18,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w108"
+  },
+  {
+   "text": "mission",
+   "start": 49.18,
+   "end": 49.66,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w109"
+  },
+  {
+   "text": "because",
+   "start": 49.66,
+   "end": 49.91,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w110"
+  },
+  {
+   "text": "GOLD",
+   "start": 49.91,
+   "end": 50.62,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w111"
+  },
+  {
+   "text": "will",
+   "start": 50.62,
+   "end": 50.71,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w112"
+  },
+  {
+   "text": "be",
+   "start": 50.71,
+   "end": 50.94,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w113"
+  },
+  {
+   "text": "getting",
+   "start": 50.94,
+   "end": 51.34,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w114"
+  },
+  {
+   "text": "information",
+   "start": 51.34,
+   "end": 51.82,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w115"
+  },
+  {
+   "text": "about",
+   "start": 51.82,
+   "end": 52.06,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w116"
+  },
+  {
+   "text": "the",
+   "start": 52.06,
+   "end": 52.14,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w117"
+  },
+  {
+   "text": "upper",
+   "start": 52.14,
+   "end": 52.46,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w118"
+  },
+  {
+   "text": "atmosphere",
+   "start": 52.46,
+   "end": 53.18,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w119"
+  },
+  {
+   "text": "much",
+   "start": 53.18,
+   "end": 53.34,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w120"
+  },
+  {
+   "text": "faster",
+   "start": 53.34,
+   "end": 53.74,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w121"
+  },
+  {
+   "text": "than",
+   "start": 53.74,
+   "end": 53.98,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w122"
+  },
+  {
+   "text": "ever",
+   "start": 53.98,
+   "end": 54.22,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w123"
+  },
+  {
+   "text": "before,",
+   "start": 54.22,
+   "end": 54.75,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w124"
+  },
+  {
+   "text": " ",
+   "start": 54.75,
+   "end": 54.79,
+   "type": "spacing"
+  },
+  {
+   "text": "and",
+   "start": 54.79,
+   "end": 55.02,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w125"
+  },
+  {
+   "text": "we'll",
+   "start": 55.02,
+   "end": 55.26,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w126"
+  },
+  {
+   "text": "be",
+   "start": 55.26,
+   "end": 55.42,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w127"
+  },
+  {
+   "text": "able",
+   "start": 55.42,
+   "end": 55.58,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w128"
+  },
+  {
+   "text": "to",
+   "start": 55.58,
+   "end": 55.66,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w129"
+  },
+  {
+   "text": "look",
+   "start": 55.66,
+   "end": 55.82,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w130"
+  },
+  {
+   "text": "at",
+   "start": 55.82,
+   "end": 55.98,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w131"
+  },
+  {
+   "text": "effects",
+   "start": 55.98,
+   "end": 56.46,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w132"
+  },
+  {
+   "text": "that",
+   "start": 56.46,
+   "end": 56.62,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w133"
+  },
+  {
+   "text": "are",
+   "start": 56.62,
+   "end": 56.78,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w134"
+  },
+  {
+   "text": "more",
+   "start": 56.78,
+   "end": 57.02,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w135"
+  },
+  {
+   "text": "like",
+   "start": 57.02,
+   "end": 57.26,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w136"
+  },
+  {
+   "text": "the",
+   "start": 57.26,
+   "end": 57.42,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w137"
+  },
+  {
+   "text": "weather",
+   "start": 57.42,
+   "end": 57.74,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w138"
+  },
+  {
+   "text": "that",
+   "start": 57.74,
+   "end": 57.9,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w139"
+  },
+  {
+   "text": "we",
+   "start": 57.9,
+   "end": 58.06,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w140"
+  },
+  {
+   "text": "experience",
+   "start": 58.06,
+   "end": 58.62,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w141"
+  },
+  {
+   "text": "down",
+   "start": 58.62,
+   "end": 58.86,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w142"
+  },
+  {
+   "text": "here",
+   "start": 58.86,
+   "end": 59.02,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w143"
+  },
+  {
+   "text": "on",
+   "start": 59.02,
+   "end": 59.18,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w144"
+  },
+  {
+   "text": "Earth.",
+   "start": 59.18,
+   "end": 59.55,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w145"
+  },
+  {
+   "text": " ",
+   "start": 59.55,
+   "end": 62.4,
+   "type": "spacing"
+  },
+  {
+   "text": "The",
+   "start": 62.4,
+   "end": 62.45,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w146"
+  },
+  {
+   "text": " ",
+   "start": 62.45,
+   "end": 62.58,
+   "type": "spacing"
+  },
+  {
+   "text": "GOLD and",
+   "start": 62.58,
+   "end": 62.92,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w147"
+  },
+  {
+   "text": "ICON",
+   "start": 62.92,
+   "end": 63.41,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w148"
+  },
+  {
+   "text": "missions",
+   "start": 63.41,
+   "end": 63.96,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w149"
+  },
+  {
+   "text": "will",
+   "start": 63.96,
+   "end": 64.12,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w150"
+  },
+  {
+   "text": "give",
+   "start": 64.12,
+   "end": 64.36,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w151"
+  },
+  {
+   "text": "scientists",
+   "start": 64.36,
+   "end": 65.0,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w152"
+  },
+  {
+   "text": "the",
+   "start": 65.0,
+   "end": 65.08,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w153"
+  },
+  {
+   "text": "most",
+   "start": 65.08,
+   "end": 65.3,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w154"
+  },
+  {
+   "text": " ",
+   "start": 65.3,
+   "end": 65.33,
+   "type": "spacing"
+  },
+  {
+   "text": "comprehensive",
+   "start": 65.33,
+   "end": 66.12,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w155"
+  },
+  {
+   "text": "view",
+   "start": 66.12,
+   "end": 66.44,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w156"
+  },
+  {
+   "text": "we've",
+   "start": 66.44,
+   "end": 66.76,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w157"
+  },
+  {
+   "text": "ever",
+   "start": 66.76,
+   "end": 67.0,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w158"
+  },
+  {
+   "text": "had",
+   "start": 67.0,
+   "end": 67.24,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w159"
+  },
+  {
+   "text": "of",
+   "start": 67.24,
+   "end": 67.4,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w160"
+  },
+  {
+   "text": "the",
+   "start": 67.4,
+   "end": 67.56,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w161"
+  },
+  {
+   "text": "upper",
+   "start": 67.56,
+   "end": 67.88,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w162"
+  },
+  {
+   "text": "atmosphere.",
+   "start": 67.88,
+   "end": 68.68,
+   "type": "word",
+   "speaker": "S0",
+   "id": "w163"
+  }
+ ]
+}

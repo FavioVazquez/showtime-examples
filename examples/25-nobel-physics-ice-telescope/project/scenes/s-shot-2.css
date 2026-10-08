@@ -1,0 +1,28 @@
+/* shot-2 the prize: name card + exact citation (P01), the collaboration (P18), the ice sheet with the real string layout. */
+.s-shot-2 { background: radial-gradient(55% 70% at 74% 55%, rgb(88 169 255 / 0.10), transparent 70%), var(--bg); color: var(--fg); }
+.s-shot-2 .s2-ice { position: absolute; inset: 0; width: 1920px; height: 1080px; }
+.s-shot-2 .s2-world { position: absolute; inset: 0; transform-origin: 74% 45%;
+  animation: s2-push 16.95s cubic-bezier(0.2, 0, 0.6, 1) 0s both; }
+@keyframes s2-push { from { transform: scale(0.97); } to { transform: scale(1.05); } }
+.s-shot-2 .s2-col { position: absolute; left: 120px; top: 128px; width: 860px; }
+.s-shot-2 .s2-kicker { margin: 0; font: 650 36px/1.1 var(--font-body); letter-spacing: 0.08em; text-transform: uppercase; color: var(--accent); }   /* on screen from frame 0: the scene opens complete */
+.s-shot-2 .s2-name { margin: 22px 0 0; font: 700 112px/1 var(--font-display); letter-spacing: -0.025em; color: var(--fg);
+  animation: s2-mask 0.6s cubic-bezier(0.16, 1, 0.3, 1) 2.80s both; }
+.s-shot-2 .s2-cite { margin: 34px 0 0; font: 450 42px/1.32 var(--font-body); color: color-mix(in srgb, var(--fg) 85%, var(--muted)); text-wrap: pretty;
+  animation: s2-rise 0.6s cubic-bezier(0.22, 1, 0.36, 1) 4.17s both; }
+.s-shot-2 .s2-hi { animation: s2-hi 0.5s cubic-bezier(0.22, 1, 0.36, 1) 10.88s both; }
+.s-shot-2 .s2-collab { margin: 40px 0 0; padding-top: 26px; border-top: 2px solid color-mix(in srgb, var(--fg) 18%, transparent);
+  font: 500 36px/1.25 var(--font-body); color: var(--muted);
+  animation: s2-rise 0.5s cubic-bezier(0.22, 1, 0.36, 1) 6.0s both; }
+.s-shot-2 .s2-pole { position: absolute; overflow: visible; }
+.s-shot-2 .s2-pole-line { stroke: var(--fg); stroke-width: 3; stroke-linecap: round; stroke-dasharray: 120; stroke-dashoffset: 120;
+  animation: s2-draw 0.45s cubic-bezier(0.22, 1, 0.36, 1) 8.36s both; }
+.s-shot-2 .s2-pole-dot { fill: var(--accent); animation: s2-fade 0.3s ease-out 8.66s both; }
+.s-shot-2 .s2-pole-label { position: absolute; margin: 0; white-space: nowrap; font: 600 40px/1 var(--font-body); color: var(--fg);
+  text-shadow: 0 0 18px var(--bg), 0 0 6px var(--bg);
+  animation: s2-rise 0.5s cubic-bezier(0.22, 1, 0.36, 1) 8.42s both; }
+@keyframes s2-rise { from { opacity: 0; transform: translateY(24px); filter: blur(8px); } to { opacity: 1; transform: none; filter: none; } }
+@keyframes s2-mask { from { opacity: 0; clip-path: inset(0 0 100% 0); transform: translateY(30px); } to { opacity: 1; clip-path: inset(0 0 -20% 0); transform: none; } }
+@keyframes s2-hi { from { color: color-mix(in srgb, var(--fg) 85%, var(--muted)); } to { color: var(--accent); } }
+@keyframes s2-draw { to { stroke-dashoffset: 0; } }
+@keyframes s2-fade { from { opacity: 0; } to { opacity: 1; } }

@@ -1,0 +1,140 @@
+{
+  "source": "11-shot-11.wav",
+  "duration": 9.309,
+  "language": "en",
+  "model": "kokoro-v1.0-timestamped.onnx",
+  "words": [
+    {
+      "text": "Choosing",
+      "start": 0.04,
+      "end": 0.391,
+      "type": "word"
+    },
+    {
+      "text": "the",
+      "start": 0.423,
+      "end": 0.47,
+      "type": "word"
+    },
+    {
+      "text": "hand",
+      "start": 0.518,
+      "end": 0.78,
+      "type": "word"
+    },
+    {
+      "text": "matters",
+      "start": 0.827,
+      "end": 1.173,
+      "type": "word"
+    },
+    {
+      "text": "for",
+      "start": 1.218,
+      "end": 1.313,
+      "type": "word"
+    },
+    {
+      "text": "medicines:",
+      "start": 1.359,
+      "end": 2.04,
+      "type": "word"
+    },
+    {
+      "text": "one",
+      "start": 2.47,
+      "end": 2.643,
+      "type": "word"
+    },
+    {
+      "text": "form",
+      "start": 2.716,
+      "end": 2.99,
+      "type": "word"
+    },
+    {
+      "text": "does",
+      "start": 3.036,
+      "end": 3.19,
+      "type": "word"
+    },
+    {
+      "text": "the",
+      "start": 3.228,
+      "end": 3.281,
+      "type": "word"
+    },
+    {
+      "text": "job,",
+      "start": 3.344,
+      "end": 3.84,
+      "type": "word"
+    },
+    {
+      "text": "and",
+      "start": 4.14,
+      "end": 4.19,
+      "type": "word"
+    },
+    {
+      "text": "its",
+      "start": 4.214,
+      "end": 4.341,
+      "type": "word"
+    },
+    {
+      "text": "mirror",
+      "start": 4.412,
+      "end": 4.683,
+      "type": "word"
+    },
+    {
+      "text": "image",
+      "start": 4.76,
+      "end": 5.074,
+      "type": "word"
+    },
+    {
+      "text": "can",
+      "start": 5.16,
+      "end": 5.252,
+      "type": "word"
+    },
+    {
+      "text": "cause",
+      "start": 5.315,
+      "end": 5.641,
+      "type": "word"
+    },
+    {
+      "text": "unnecessary,",
+      "start": 5.71,
+      "end": 6.61,
+      "type": "word"
+    },
+    {
+      "text": "sometimes",
+      "start": 6.87,
+      "end": 7.376,
+      "type": "word"
+    },
+    {
+      "text": "harmful,",
+      "start": 7.449,
+      "end": 7.987,
+      "type": "word"
+    },
+    {
+      "text": "side",
+      "start": 8.12,
+      "end": 8.398,
+      "type": "word"
+    },
+    {
+      "text": "effects.",
+      "start": 8.43,
+      "end": 8.889,
+      "type": "word"
+    }
+  ]
+}

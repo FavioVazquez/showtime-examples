@@ -1,0 +1,25 @@
+{
+  "source": "nasa",
+  "source_label": "NASA Image and Video Library",
+  "id": "nasa:jsc2022m000291-Apollo_Legends_and_Artemis_Leaders_Event",
+  "title": "Apollo 17 Legends and Artemis Leaders Event",
+  "author": "NASA/JSC",
+  "author_url": null,
+  "license": "Public domain (NASA media)",
+  "license_url": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+  "landing_url": "https://images.nasa.gov/details/jsc2022m000291-Apollo_Legends_and_Artemis_Leaders_Event",
+  "note": "NASA media: no endorsement implied; do not use NASA logos or insignia. Check the description for third-party copyright notices.",
+  "type": "video",
+  "license_notice": null,
+  "quality": "orig",
+  "file_url": "https://images-assets.nasa.gov/video/jsc2022m000291-Apollo_Legends_and_Artemis_Leaders_Event/jsc2022m000291-Apollo_Legends_and_Artemis_Leaders_Event~orig.mp4",
+  "captions": [
+    "https://images-assets.nasa.gov/video/jsc2022m000291-Apollo_Legends_and_Artemis_Leaders_Event/jsc2022m000291-Apollo_Legends_and_Artemis_Leaders_Event.srt"
+  ],
+  "sha256": "747d4355a9e108b5b8f484d3258fda863c99b8438ac1118715539ee185551741",
+  "fetched": "2026-10-07T21:44:06",
+  "license_class": "free",
+  "attribution_required": false,
+  "credit": "\"Apollo 17 Legends and Artemis Leaders Event\" by NASA/JSC via NASA Image and Video Library (Public domain (NASA media)) - https://images.nasa.gov/details/jsc2022m000291-Apollo_Legends_and_Artemis_Leaders_Event",
+  "file": "jsc2022m000291-Apollo_Legends_and_Artemis_Leaders_Event~orig.mp4"
+}

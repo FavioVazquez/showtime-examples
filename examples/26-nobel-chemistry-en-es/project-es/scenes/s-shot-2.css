@@ -1,0 +1,66 @@
+/* shot-2 life picks one (motion-A, full video). Every selector starts with .s-shot-2; times are scene-relative
+   (cues-shot-2.txt). Enters with data-transition="blur-dissolve 0.6": the two molecules sit where the two hands
+   were (same centres either side of the same dashed line), so the dissolve reads as a match cut.
+   L-alanine from PubChem CID 5950 3D coordinates (orange, left); its mirror image by negating x (teal, right).
+   Beats: "two hands" 1.43 label; "picky" 3.47 the mirror molecule fades to faint hatched teal; "proteins" 4.41
+   margin note; "one hand" 5.49 the notebook box next to "one hand" is ticked. */
+.s-shot-2 { background: #f6f0e4; color: #1c1a17; }
+.s-shot-2 .s-shot-2__grid {
+  position: absolute; inset: 0; pointer-events: none;
+  background-image:
+    linear-gradient(rgb(28 26 23 / 0.07) 1.5px, transparent 1.5px),
+    linear-gradient(90deg, rgb(28 26 23 / 0.07) 1.5px, transparent 1.5px),
+    linear-gradient(rgb(28 26 23 / 0.035) 1px, transparent 1px),
+    linear-gradient(90deg, rgb(28 26 23 / 0.035) 1px, transparent 1px);
+  background-size: 240px 240px, 240px 240px, 48px 48px, 48px 48px;
+}
+.s-shot-2 .s-shot-2__cam { position: absolute; inset: 0; transform-origin: 50% 52%; animation: s-shot-2-push 7.777s linear 0s both; }
+@keyframes s-shot-2-push { from { transform: scale(1); } to { transform: scale(1.035); } }
+
+.s-shot-2 .s-shot-2__mirror {
+  position: absolute; left: 958px; top: 236px; width: 4px; height: 580px;
+  background: repeating-linear-gradient(180deg, rgb(28 26 23 / 0.62) 0 18px, transparent 18px 32px);
+  border-radius: 2px;
+}
+.s-shot-2 .s-shot-2__mol { position: absolute; top: 318px; width: 560px; }
+.s-shot-2 .s-shot-2__mol svg { display: block; width: 100%; height: auto; overflow: visible; }
+.s-shot-2 .s-shot-2__mol--l { left: 380px; transform-origin: 50% 60%; animation: s-shot-2-lift 0.7s cubic-bezier(0.37, 0, 0.63, 1) 5.45s both; }
+.s-shot-2 .s-shot-2__mol--r { left: 980px; animation: s-shot-2-fade 1.0s cubic-bezier(0.37, 0, 0.63, 1) 3.40s both; }
+@keyframes s-shot-2-fade { from { opacity: 1; } to { opacity: 0.32; } }
+@keyframes s-shot-2-lift { from { transform: none; } to { transform: scale(1.04); } }
+.s-shot-2 .atom { font: 600 38px 'IBM Plex Sans', sans-serif; text-anchor: middle; }
+.s-shot-2 .atom--solid { fill: #fff8f0; }
+.s-shot-2 .atom--h { fill: #4a1a04; font-size: 34px; }
+.s-shot-2 .atom--back { fill: #1c1a17; }
+.s-shot-2 .atom--hatch { fill: #143f42; }
+.s-shot-2 .atom--hh { font-size: 34px; }
+
+.s-shot-2 .s-shot-2__label {
+  position: absolute; left: 0; right: 0; top: 150px; margin: 0; text-align: center;
+  font: 400 42px/1.1 'IBM Plex Sans', sans-serif; color: #3d3831;
+  animation: s-shot-2-in 0.5s cubic-bezier(0.2, 0, 0, 1) 1.40s both;
+}
+
+.s-shot-2 .s-shot-2__leg {
+  position: absolute; top: 800px; display: flex; align-items: center; gap: 14px; justify-content: center; width: 560px;
+  font: 500 38px/1 'IBM Plex Sans', sans-serif; color: #1c1a17; white-space: nowrap;
+}
+.s-shot-2 .s-shot-2__leg--l { left: 380px; }
+.s-shot-2 .s-shot-2__leg--r { left: 980px; }
+.s-shot-2 .s-shot-2__leg--r > span:last-child { animation: s-shot-2-dim 1.0s cubic-bezier(0.37, 0, 0.63, 1) 3.40s both; }
+@keyframes s-shot-2-dim { from { color: #1c1a17; } to { color: #59534a; } }
+.s-shot-2 .s-shot-2__box { display: block; width: 46px; height: 46px; overflow: visible; }
+.s-shot-2 .s-shot-2__box path { stroke-dasharray: 1 2; stroke-dashoffset: 1; animation: s-shot-2-ink 0.45s cubic-bezier(0.37, 0, 0.63, 1) 5.47s both; }
+@keyframes s-shot-2-ink { from { stroke-dashoffset: 1; } to { stroke-dashoffset: 0; } }
+.s-shot-2 .s-shot-2__ico { display: block; width: 40px; height: 48px; }
+.s-shot-2 .s-shot-2__ico svg { display: block; width: 100%; height: 100%; }
+
+/* margin note, top-left notebook margin (x 60-700, y 40-160) */
+.s-shot-2 .s-shot-2__note {
+  position: absolute; left: 100px; top: 52px; margin: 0; white-space: nowrap; display: flex; align-items: center; gap: 14px;
+  font: 500 34px/1.25 'IBM Plex Mono', monospace; color: #1c1a17;
+  animation: s-shot-2-note 0.5s cubic-bezier(0.2, 0, 0, 1) 4.38s both;
+}
+.s-shot-2 .s-shot-2__dot { display: block; width: 16px; height: 16px; border-radius: 50%; background: #b13d0b; flex: none; }
+@keyframes s-shot-2-note { from { opacity: 0; transform: translateX(-14px); } to { opacity: 1; transform: none; } }
+@keyframes s-shot-2-in { from { opacity: 0; transform: translateY(12px); } to { opacity: 1; transform: none; } }

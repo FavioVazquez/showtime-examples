@@ -1,0 +1,36 @@
+/* shot-11 the answer: one dot in the thousand turns gold, "about 100" (Nobel Committee, claim P17).
+   Opens on shot-10's last pose of the jar (lifted) and settles it back. Times are scene-relative. */
+.s-shot-11 { padding: 0; background: var(--bg); overflow: hidden; }
+.s-shot-11 .s11-ground { position: absolute; inset: 0; pointer-events: none;
+  background: radial-gradient(34% 50% at 73% 45%, rgb(88 169 255 / 0.11), transparent 70%),
+              radial-gradient(36% 46% at 18% 38%, color-mix(in oklab, var(--accent) 7%, transparent), transparent 70%), var(--bg); }
+.s-shot-11 .s11-cam { position: absolute; inset: 0; transform-origin: 70% 45%;
+  animation: s11-push 6.66s cubic-bezier(0.37, 0, 0.63, 1) 0s both; }
+@keyframes s11-push { from { transform: scale(1); } to { transform: scale(1.04); } }
+.s-shot-11 .s11-left { position: absolute; left: 6.25cqw; top: 12cqh; width: 44cqw; }
+.s-shot-11 .s11-left p { margin: 0; }
+.s-shot-11 .s11-of { font: 500 4.2cqh/1 var(--font-body); color: var(--muted); }
+.s-shot-11 .s11-num { margin-top: 3cqh !important; font: 700 13.5cqh/1 var(--font-body); letter-spacing: -0.02em; color: var(--accent);
+  font-variant-numeric: lining-nums; white-space: nowrap;
+  animation: s11-land 0.6s cubic-bezier(0.16, 1, 0.3, 1) 0.38s both; }
+@keyframes s11-land { from { opacity: 0; transform: translateY(2cqh) scale(0.97); filter: blur(8px); } to { opacity: 1; transform: none; filter: none; } }
+.s-shot-11 .s11-what { margin-top: 1.6cqh !important; font: 500 4.6cqh/1.15 var(--font-body); color: var(--fg);
+  animation: s11-rise 0.5s cubic-bezier(0.16, 1, 0.3, 1) 0.88s both; }
+.s-shot-11 .s11-src { margin-top: 1.6cqh !important; font: 500 3.4cqh/1 var(--font-mono); color: var(--accent);
+  animation: s11-rise 0.5s cubic-bezier(0.16, 1, 0.3, 1) 1.55s both; }
+.s-shot-11 .s11-rest { margin-top: 7cqh !important; max-width: 34cqw; font: 500 4.4cqh/1.25 var(--font-body); color: var(--fg); text-wrap: balance;
+  animation: s11-rise 0.55s cubic-bezier(0.16, 1, 0.3, 1) 3.36s both; }
+@keyframes s11-rise { from { opacity: 0; transform: translateY(1.6cqh); } to { opacity: 1; transform: none; } }
+
+/* the jar starts where shot-10 left it (scale 0.64 about its top) and settles back to full size */
+.s-shot-11 .s11-rig { position: absolute; inset: 0; transform-origin: 72.92cqw 10.19cqh;
+  animation: s11-return 0.7s cubic-bezier(0.65, 0, 0.35, 1) 0s both; }
+@keyframes s11-return { from { transform: scale(0.64); } to { transform: none; } }
+.s-shot-11 .s11-jar, .s-shot-11 .s11-dots { position: absolute; inset: 0; width: 100%; height: 100%; }
+.s-shot-11 .s11-glass { fill: rgb(159 212 255 / 0.05); stroke: rgb(190 226 255 / 0.7); stroke-width: 4; stroke-linejoin: round; }
+.s-shot-11 .s11-rim { stroke: rgb(190 226 255 / 0.85); stroke-width: 8; stroke-linecap: round; }
+.s-shot-11 .s11-shine { stroke: rgb(234 248 255 / 0.16); stroke-width: 10; stroke-linecap: round; }
+.s-shot-11 .s11-legend { position: absolute; left: 58.33cqw; width: 29.17cqw; top: 7.2cqh; margin: 0; display: flex; justify-content: center; align-items: center; gap: 1cqw;
+  font: 500 3.4cqh/1 var(--font-body); color: var(--muted); }   /* on screen from frame 0: it continues shot-10's legend in the same place */
+.s-shot-11 .s11-legend i { width: 1.6cqh; height: 1.6cqh; border-radius: 50%; background: #58a9ff; box-shadow: 0 0 1cqh rgb(88 169 255 / 0.7); }
+@keyframes s11-fade { from { opacity: 0; } to { opacity: 1; } }

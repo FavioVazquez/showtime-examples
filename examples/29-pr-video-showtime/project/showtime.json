@@ -1,0 +1,23 @@
+{
+  "title": "FavioVazquez/showtime #7",
+  "width": 1920,
+  "height": 1080,
+  "fps": 30,
+  "duration": 39.59,
+  "background": "#0e1013",
+  "poster": 0,
+  "audio": "audio/mix.json",
+  "subtitle": "What this pull request changes.",
+  "kicker": "Pull request",
+  "startTitle": false,
+  "expect": {
+    "duration": 39.59,
+    "audio": true,
+    "must_show": [
+      "FavioVazquez/showtime"
+    ]
+  },
+  "render": {
+    "crf": 22
+  }
+}

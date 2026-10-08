@@ -1,0 +1,9 @@
+.s-shot-8 { position: absolute; inset: 0; overflow: hidden; background: #f6f0e4; }
+.s-shot-8 .s8-cam { position: absolute; inset: 0; transform-origin: 50% 45%; animation: s8-push 10.751s cubic-bezier(0.37, 0, 0.63, 1) both; }
+@keyframes s8-push { from { transform: scale(1); } to { transform: scale(1.03); } }
+.s-shot-8 .s8-svg { position: absolute; left: 0; top: 0; width: 1920px; height: 1080px; }
+.s-shot-8 .s8-t { position: absolute; margin: 0; color: #1c1a17; white-space: nowrap; font-family: 'IBM Plex Sans', sans-serif; }
+.s-shot-8 .s8-note { left: 96px; top: 56px; font: 500 34px/44px 'IBM Plex Mono', monospace; opacity: 0; }
+.s-shot-8 .s8-head { left: 612px; top: 122px; font: 600 58px/72px 'Fraunces', serif; letter-spacing: -0.02em; }
+.s-shot-8 .s8-num { top: 774px; font: 600 72px/80px 'Fraunces', serif; letter-spacing: -0.01em; font-variant-numeric: tabular-nums; opacity: 0; }
+.s-shot-8 .s8-small { left: 0; width: 1920px; text-align: center; top: 204px; font-size: 30px; line-height: 40px; font-weight: 500; color: #2e2a25; opacity: 0; }

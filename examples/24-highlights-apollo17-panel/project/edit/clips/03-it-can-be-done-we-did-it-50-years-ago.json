@@ -1,0 +1,186 @@
+{
+  "version": 1,
+  "title": "It can be done. We did it 50 years ago",
+  "moment": {
+    "id": "m4",
+    "rank": 4,
+    "score": 0.591,
+    "start": 1781.26,
+    "end": 1840.41,
+    "title": "It can be done. We did it 50 years ago"
+  },
+  "sources": {
+    "apollo17-legends": "../../raw/apollo17-legends.mp4"
+  },
+  "transcripts": {
+    "apollo17-legends": "../transcripts/apollo17-legends.json"
+  },
+  "ranges": [
+    {
+      "source": "apollo17-legends",
+      "start": 1781.11,
+      "end": 1785.715,
+      "note": "What do you think Apollo did that will ..."
+    },
+    {
+      "source": "apollo17-legends",
+      "start": 1790.5,
+      "end": 1796.855,
+      "note": "I've thought a lot about that more in ..."
+    },
+    {
+      "source": "apollo17-legends",
+      "start": 1797.38,
+      "end": 1800.45,
+      "note": "I think the thing that we probably provided"
+    },
+    {
+      "source": "apollo17-legends",
+      "start": 1800.77,
+      "end": 1801.835,
+      "note": "that they'll"
+    },
+    {
+      "source": "apollo17-legends",
+      "start": 1802.385,
+      "end": 1806.205,
+      "note": "that will help them the most is the ..."
+    },
+    {
+      "source": "apollo17-legends",
+      "start": 1806.475,
+      "end": 1810.595,
+      "note": "When we started Apollo, it had never been ..."
+    },
+    {
+      "source": "apollo17-legends",
+      "start": 1810.955,
+      "end": 1811.725,
+      "note": "and"
+    },
+    {
+      "source": "apollo17-legends",
+      "start": 1813.255,
+      "end": 1816.995,
+      "note": "we thought we could do it, and we ..."
+    },
+    {
+      "source": "apollo17-legends",
+      "start": 1818.275,
+      "end": 1819.825,
+      "note": "had great leadership"
+    },
+    {
+      "source": "apollo17-legends",
+      "start": 1820.475,
+      "end": 1822.885,
+      "note": "and and we pulled it off. And"
+    },
+    {
+      "source": "apollo17-legends",
+      "start": 1823.005,
+      "end": 1825.185,
+      "note": "when I say we, I'm not just talking ..."
+    },
+    {
+      "source": "apollo17-legends",
+      "start": 1825.495,
+      "end": 1828.815,
+      "note": "Mission Control Center, I'm talking the whole system."
+    },
+    {
+      "source": "apollo17-legends",
+      "start": 1829.855,
+      "end": 1831.015,
+      "note": "We pulled it off."
+    },
+    {
+      "source": "apollo17-legends",
+      "start": 1831.66,
+      "end": 1837.22,
+      "note": "Now that takes that element out for Artemis. ..."
+    },
+    {
+      "source": "apollo17-legends",
+      "start": 1837.885,
+      "end": 1839.025,
+      "note": "We did it"
+    },
+    {
+      "source": "apollo17-legends",
+      "start": 1839.585,
+      "end": 1840.76,
+      "note": "50 years ago."
+    }
+  ],
+  "output": {
+    "aspect": "9:16",
+    "allow_upscale": true
+  },
+  "captions": {
+    "style": "bold-pop",
+    "avoid_face": true,
+    "size": 0.08
+  },
+  "cut_summary": {
+    "source_span": [
+      1781.11,
+      1840.76
+    ],
+    "after_s": 46.04,
+    "segments": 16,
+    "edge_words_dropped": [],
+    "removed": [
+      {
+        "id": "w4125",
+        "text": "It's",
+        "at": 1788.49,
+        "why": "word range"
+      },
+      {
+        "id": "w4126",
+        "text": "kind",
+        "at": 1788.49,
+        "why": "word range"
+      },
+      {
+        "id": "w4127",
+        "text": "of",
+        "at": 1788.52,
+        "why": "word range"
+      },
+      {
+        "id": "w4128",
+        "text": "hard",
+        "at": 1788.6,
+        "why": "word range"
+      },
+      {
+        "id": "w4129",
+        "text": "one.",
+        "at": 1788.93,
+        "why": "word range"
+      },
+      {
+        "id": "w4195",
+        "text": "uh",
+        "at": 1817.0,
+        "why": "filler"
+      },
+      {
+        "id": "w4206",
+        "text": "uh",
+        "at": 1822.87,
+        "why": "filler"
+      },
+      {
+        "id": "w4243",
+        "text": "uh",
+        "at": 1839.33,
+        "why": "filler"
+      }
+    ],
+    "kept_event": null
+  },
+  "generated": "89ef85f515f6918e"
+}

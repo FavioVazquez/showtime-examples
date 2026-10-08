@@ -1,0 +1,134 @@
+{
+  "source": "06-shot-6.wav",
+  "duration": 8.986,
+  "language": "en",
+  "model": "kokoro-v1.0-timestamped.onnx",
+  "words": [
+    {
+      "text": "In",
+      "start": 0.04,
+      "end": 0.101,
+      "type": "word"
+    },
+    {
+      "text": "nineteen",
+      "start": 0.146,
+      "end": 0.471,
+      "type": "word"
+    },
+    {
+      "text": "ninety-five,",
+      "start": 0.506,
+      "end": 1.2,
+      "type": "word"
+    },
+    {
+      "text": "Kenso",
+      "start": 1.47,
+      "end": 1.898,
+      "type": "word"
+    },
+    {
+      "text": "Soai",
+      "start": 1.992,
+      "end": 2.3,
+      "type": "word"
+    },
+    {
+      "text": "ticked",
+      "start": 2.3,
+      "end": 2.606,
+      "type": "word"
+    },
+    {
+      "text": "box",
+      "start": 2.64,
+      "end": 2.995,
+      "type": "word"
+    },
+    {
+      "text": "three:",
+      "start": 3.04,
+      "end": 3.45,
+      "type": "word"
+    },
+    {
+      "text": "a",
+      "start": 3.91,
+      "end": 3.987,
+      "type": "word"
+    },
+    {
+      "text": "molecule",
+      "start": 4.036,
+      "end": 4.557,
+      "type": "word"
+    },
+    {
+      "text": "that",
+      "start": 4.591,
+      "end": 4.681,
+      "type": "word"
+    },
+    {
+      "text": "helps",
+      "start": 4.728,
+      "end": 4.989,
+      "type": "word"
+    },
+    {
+      "text": "build",
+      "start": 5.03,
+      "end": 5.318,
+      "type": "word"
+    },
+    {
+      "text": "more",
+      "start": 5.366,
+      "end": 5.524,
+      "type": "word"
+    },
+    {
+      "text": "of",
+      "start": 5.548,
+      "end": 5.599,
+      "type": "word"
+    },
+    {
+      "text": "itself,",
+      "start": 5.67,
+      "end": 6.1,
+      "type": "word"
+    },
+    {
+      "text": "same",
+      "start": 6.282,
+      "end": 6.531,
+      "type": "word"
+    },
+    {
+      "text": "hand,",
+      "start": 6.579,
+      "end": 6.98,
+      "type": "word"
+    },
+    {
+      "text": "from",
+      "start": 7.23,
+      "end": 7.398,
+      "type": "word"
+    },
+    {
+      "text": "simple",
+      "start": 7.489,
+      "end": 7.797,
+      "type": "word"
+    },
+    {
+      "text": "ingredients.",
+      "start": 7.845,
+      "end": 8.566,
+      "type": "word"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+/* shot-8: the answer to q2, our toy model's aim error vs string spacing (Pandel fit) */
+.s-shot-8 { --s8-accent: var(--accent, #ff7f61); --s8-cyan: #58e1ff; --s8-blue: #58a9ff; --s8-ink: var(--fg, #eaf4f1);
+  overflow: hidden; padding: 0; font-family: var(--font-body); color: var(--s8-ink); }
+.s-shot-8 .s8-ground { position: absolute; inset: 0;
+  background: radial-gradient(55% 65% at 40% 55%, rgb(88 169 255 / 0.08), transparent 70%),
+              linear-gradient(180deg, var(--bg) 0%, color-mix(in oklab, var(--bg) 82%, #0b2a3a) 100%); }
+.s-shot-8 .s8-toy { position: absolute; left: 60px; top: 40px; height: 60px; padding: 0 22px; display: flex; align-items: center; z-index: 2;
+  font: 500 30px/1 var(--font-mono); letter-spacing: 0.04em; color: var(--s8-accent);
+  border: 2px solid color-mix(in oklab, var(--accent) 55%, transparent); border-radius: 30px; background: color-mix(in oklab, var(--bg) 70%, transparent); }
+.s-shot-8 .s8-caveat { position: absolute; right: 60px; top: 204px; height: 60px; margin: 0; padding: 0 24px; display: flex; align-items: center; z-index: 2;
+  font: 600 30px/1 var(--font-body); color: var(--s8-ink); border-radius: 30px;
+  background: color-mix(in oklab, var(--accent) 14%, transparent); border: 2px solid color-mix(in oklab, var(--accent) 60%, transparent); }
+.s-shot-8 .s8-push { position: absolute; inset: 0; transform-origin: 40% 50%; animation: s8-push 8.48s linear both; }
+@keyframes s8-push { from { transform: scale(1); } to { transform: scale(1.035); } }
+.s-shot-8 .s8-head { position: absolute; left: 96px; top: 128px; }
+.s-shot-8 .s8-title { margin: 0; font: var(--weight-display, 700) 56px/1.05 var(--font-display); letter-spacing: var(--tracking-display, -0.03em); color: var(--s8-ink); }
+.s-shot-8 .s8-cond { margin: 6px 0 0; font: 500 30px/1.2 var(--font-body); color: var(--muted); }
+.s-shot-8 .s8-sub { margin: 10px 0 0; font: 500 32px/1.2 var(--font-body); color: var(--muted); }
+.s-shot-8 .s8-chart { position: absolute; left: 96px; top: 280px; width: 1200px; height: 560px; overflow: visible; }
+.s-shot-8 .s8-chart text { font-family: var(--font-body); fill: var(--s8-ink); }
+.s-shot-8 .s8-chart .tick { font-size: 30px; font-weight: 500; fill: var(--muted); font-variant-numeric: tabular-nums; }
+.s-shot-8 .s8-chart .axis-t { font-size: 32px; font-weight: 500; fill: var(--muted); }
+.s-shot-8 .s8-chart .grid { stroke: rgb(234 244 241 / 0.10); stroke-width: 2; }
+.s-shot-8 .s8-chart .axis { stroke: rgb(234 244 241 / 0.45); stroke-width: 2; }
+.s-shot-8 .s8-chart .curve { fill: none; stroke: var(--s8-cyan); stroke-width: 6; stroke-linecap: round; stroke-linejoin: round;
+  filter: drop-shadow(0 0 10px rgb(88 225 255 / 0.55)); }
+.s-shot-8 .s8-chart .dot { fill: var(--s8-ink); }
+.s-shot-8 .s8-chart .mk-guide { stroke: var(--s8-accent); stroke-width: 3; stroke-dasharray: 10 10; opacity: 0.7; }
+.s-shot-8 .s8-chart .mk-dot { fill: var(--s8-accent); stroke: var(--bg); stroke-width: 4; }
+.s-shot-8 .s8-chart .mk-val { font-size: 40px; font-weight: 700; fill: var(--s8-accent); font-variant-numeric: tabular-nums; }
+.s-shot-8 .s8-chart .mk-n { font-size: 32px; font-weight: 600; fill: var(--s8-ink); }
+.s-shot-8 .s8-chart .mk-x { font-size: 32px; font-weight: 700; fill: var(--s8-accent); }
+.s-shot-8 .s8-chart .bracket { fill: none; stroke: var(--s8-accent); stroke-width: 4; stroke-linecap: round; }
+.s-shot-8 .s8-side { position: absolute; left: 1340px; top: 300px; width: 470px; }
+.s-shot-8 .s8-side p { margin: 0; }
+.s-shot-8 .s8-ratio-k { font: 500 36px/1.2 var(--font-body); color: var(--muted); text-wrap: balance; }
+.s-shot-8 .s8-ratio { margin-top: 6px !important; font: 600 104px/1 var(--font-display); letter-spacing: var(--tracking-display, -0.03em); color: var(--s8-accent); }
+.s-shot-8 .s8-ratio small { display: block; margin-top: 8px; font-size: 64px; color: var(--s8-ink); }
+.s-shot-8 .s8-hits { margin-top: 56px; padding-top: 28px; border-top: 2px solid rgb(234 244 241 / 0.16); }
+.s-shot-8 .s8-hits-k { font: 500 32px/1.25 var(--font-body); color: var(--muted); }
+.s-shot-8 .s8-hits-v { margin-top: 14px !important; display: flex; flex-direction: column; gap: 6px; font: 600 44px/1.15 var(--font-body); font-variant-numeric: tabular-nums; }
+.s-shot-8 .s8-hits-v span { display: block; }
+.s-shot-8 .s8-h2 { color: var(--s8-accent); }
+.s-shot-8 .s8-cond sup { font-size: 0.65em; line-height: 0; vertical-align: 0.5em; }

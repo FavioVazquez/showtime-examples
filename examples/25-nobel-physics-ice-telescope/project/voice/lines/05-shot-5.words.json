@@ -1,0 +1,152 @@
+{
+  "source": "05-shot-5.wav",
+  "duration": 9.851,
+  "language": "en",
+  "model": "kokoro-v1.0-timestamped.onnx",
+  "words": [
+    {
+      "text": "Step",
+      "start": 0.04,
+      "end": 0.317,
+      "type": "word"
+    },
+    {
+      "text": "two:",
+      "start": 0.32,
+      "end": 0.727,
+      "type": "word"
+    },
+    {
+      "text": "the",
+      "start": 0.889,
+      "end": 0.945,
+      "type": "word"
+    },
+    {
+      "text": "telescope.",
+      "start": 0.98,
+      "end": 1.75,
+      "type": "word"
+    },
+    {
+      "text": "In",
+      "start": 2.15,
+      "end": 2.249,
+      "type": "word"
+    },
+    {
+      "text": "nineteen",
+      "start": 2.296,
+      "end": 2.746,
+      "type": "word"
+    },
+    {
+      "text": "eighty-eight,",
+      "start": 2.82,
+      "end": 3.43,
+      "type": "word"
+    },
+    {
+      "text": "Halzen",
+      "start": 3.69,
+      "end": 4.096,
+      "type": "word"
+    },
+    {
+      "text": "and",
+      "start": 4.131,
+      "end": 4.203,
+      "type": "word"
+    },
+    {
+      "text": "John",
+      "start": 4.251,
+      "end": 4.612,
+      "type": "word"
+    },
+    {
+      "text": "Learned",
+      "start": 4.668,
+      "end": 4.975,
+      "type": "word"
+    },
+    {
+      "text": "proposed",
+      "start": 5.05,
+      "end": 5.589,
+      "type": "word"
+    },
+    {
+      "text": "using",
+      "start": 5.6,
+      "end": 5.938,
+      "type": "word"
+    },
+    {
+      "text": "the",
+      "start": 5.969,
+      "end": 6.058,
+      "type": "word"
+    },
+    {
+      "text": "ice",
+      "start": 6.17,
+      "end": 6.366,
+      "type": "word"
+    },
+    {
+      "text": "itself.",
+      "start": 6.412,
+      "end": 7.09,
+      "type": "word"
+    },
+    {
+      "text": "Halzen",
+      "start": 7.445,
+      "end": 7.869,
+      "type": "word"
+    },
+    {
+      "text": "then",
+      "start": 7.917,
+      "end": 8.092,
+      "type": "word"
+    },
+    {
+      "text": "led",
+      "start": 8.139,
+      "end": 8.299,
+      "type": "word"
+    },
+    {
+      "text": "the",
+      "start": 8.33,
+      "end": 8.391,
+      "type": "word"
+    },
+    {
+      "text": "team",
+      "start": 8.467,
+      "end": 8.8,
+      "type": "word"
+    },
+    {
+      "text": "that",
+      "start": 8.843,
+      "end": 8.968,
+      "type": "word"
+    },
+    {
+      "text": "built",
+      "start": 9.031,
+      "end": 9.291,
+      "type": "word"
+    },
+    {
+      "text": "it.",
+      "start": 9.34,
+      "end": 9.47,
+      "type": "word"
+    }
+  ]
+}

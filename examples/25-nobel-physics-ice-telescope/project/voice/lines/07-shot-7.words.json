@@ -1,0 +1,284 @@
+{
+  "source": "07-shot-7.wav",
+  "duration": 17.328,
+  "language": "en",
+  "model": "kokoro-v1.0-timestamped.onnx",
+  "words": [
+    {
+      "text": "Step",
+      "start": 0.03,
+      "end": 0.282,
+      "type": "word"
+    },
+    {
+      "text": "three:",
+      "start": 0.29,
+      "end": 0.678,
+      "type": "word"
+    },
+    {
+      "text": "our",
+      "start": 0.86,
+      "end": 0.978,
+      "type": "word"
+    },
+    {
+      "text": "toy",
+      "start": 1.08,
+      "end": 1.336,
+      "type": "word"
+    },
+    {
+      "text": "telescope.",
+      "start": 1.4,
+      "end": 2.383,
+      "type": "word"
+    },
+    {
+      "text": "From",
+      "start": 2.52,
+      "end": 2.68,
+      "type": "word"
+    },
+    {
+      "text": "the",
+      "start": 2.68,
+      "end": 2.736,
+      "type": "word"
+    },
+    {
+      "text": "light's",
+      "start": 2.783,
+      "end": 3.05,
+      "type": "word"
+    },
+    {
+      "text": "timing",
+      "start": 3.1,
+      "end": 3.456,
+      "type": "word"
+    },
+    {
+      "text": "alone,",
+      "start": 3.504,
+      "end": 3.918,
+      "type": "word"
+    },
+    {
+      "text": "it",
+      "start": 3.986,
+      "end": 4.076,
+      "type": "word"
+    },
+    {
+      "text": "finds",
+      "start": 4.136,
+      "end": 4.435,
+      "type": "word"
+    },
+    {
+      "text": "the",
+      "start": 4.467,
+      "end": 4.517,
+      "type": "word"
+    },
+    {
+      "text": "particle's",
+      "start": 4.61,
+      "end": 5.045,
+      "type": "word"
+    },
+    {
+      "text": "direction.",
+      "start": 5.093,
+      "end": 5.75,
+      "type": "word"
+    },
+    {
+      "text": "Neutrinos",
+      "start": 6.31,
+      "end": 6.927,
+      "type": "word"
+    },
+    {
+      "text": "fly",
+      "start": 6.995,
+      "end": 7.257,
+      "type": "word"
+    },
+    {
+      "text": "straight,",
+      "start": 7.34,
+      "end": 7.726,
+      "type": "word"
+    },
+    {
+      "text": "so",
+      "start": 7.92,
+      "end": 7.986,
+      "type": "word"
+    },
+    {
+      "text": "that",
+      "start": 8.021,
+      "end": 8.173,
+      "type": "word"
+    },
+    {
+      "text": "points",
+      "start": 8.228,
+      "end": 8.533,
+      "type": "word"
+    },
+    {
+      "text": "back",
+      "start": 8.584,
+      "end": 8.815,
+      "type": "word"
+    },
+    {
+      "text": "to",
+      "start": 8.863,
+      "end": 8.93,
+      "type": "word"
+    },
+    {
+      "text": "where",
+      "start": 8.977,
+      "end": 9.103,
+      "type": "word"
+    },
+    {
+      "text": "they",
+      "start": 9.142,
+      "end": 9.258,
+      "type": "word"
+    },
+    {
+      "text": "came",
+      "start": 9.31,
+      "end": 9.563,
+      "type": "word"
+    },
+    {
+      "text": "from.",
+      "start": 9.616,
+      "end": 9.96,
+      "type": "word"
+    },
+    {
+      "text": "Guess:",
+      "start": 10.4,
+      "end": 10.88,
+      "type": "word"
+    },
+    {
+      "text": "same",
+      "start": 11.18,
+      "end": 11.54,
+      "type": "word"
+    },
+    {
+      "text": "ice,",
+      "start": 11.62,
+      "end": 12.043,
+      "type": "word"
+    },
+    {
+      "text": "strings",
+      "start": 12.11,
+      "end": 12.542,
+      "type": "word"
+    },
+    {
+      "text": "twice",
+      "start": 12.59,
+      "end": 12.914,
+      "type": "word"
+    },
+    {
+      "text": "as",
+      "start": 12.959,
+      "end": 13.055,
+      "type": "word"
+    },
+    {
+      "text": "far",
+      "start": 13.127,
+      "end": 13.355,
+      "type": "word"
+    },
+    {
+      "text": "apart,",
+      "start": 13.401,
+      "end": 13.838,
+      "type": "word"
+    },
+    {
+      "text": "so",
+      "start": 13.94,
+      "end": 14.104,
+      "type": "word"
+    },
+    {
+      "text": "a",
+      "start": 14.132,
+      "end": 14.169,
+      "type": "word"
+    },
+    {
+      "text": "quarter",
+      "start": 14.24,
+      "end": 14.588,
+      "type": "word"
+    },
+    {
+      "text": "as",
+      "start": 14.634,
+      "end": 14.729,
+      "type": "word"
+    },
+    {
+      "text": "many.",
+      "start": 14.778,
+      "end": 15.12,
+      "type": "word"
+    },
+    {
+      "text": "How",
+      "start": 15.49,
+      "end": 15.651,
+      "type": "word"
+    },
+    {
+      "text": "much",
+      "start": 15.697,
+      "end": 15.905,
+      "type": "word"
+    },
+    {
+      "text": "worse",
+      "start": 15.976,
+      "end": 16.214,
+      "type": "word"
+    },
+    {
+      "text": "does",
+      "start": 16.261,
+      "end": 16.386,
+      "type": "word"
+    },
+    {
+      "text": "it",
+      "start": 16.424,
+      "end": 16.486,
+      "type": "word"
+    },
+    {
+      "text": "aim?",
+      "start": 16.538,
+      "end": 16.928,
+      "type": "word"
+    }
+  ]
+}

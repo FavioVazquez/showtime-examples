@@ -1,0 +1,194 @@
+{
+  "source": "09-shot-9.wav",
+  "duration": 13.278,
+  "language": "en",
+  "model": "kokoro-v1.0-timestamped.onnx",
+  "words": [
+    {
+      "text": "Step",
+      "start": 0.03,
+      "end": 0.288,
+      "type": "word"
+    },
+    {
+      "text": "four:",
+      "start": 0.36,
+      "end": 0.69,
+      "type": "word"
+    },
+    {
+      "text": "what",
+      "start": 0.761,
+      "end": 0.858,
+      "type": "word"
+    },
+    {
+      "text": "it",
+      "start": 0.888,
+      "end": 0.976,
+      "type": "word"
+    },
+    {
+      "text": "found.",
+      "start": 1.05,
+      "end": 1.57,
+      "type": "word"
+    },
+    {
+      "text": "In",
+      "start": 2.02,
+      "end": 2.091,
+      "type": "word"
+    },
+    {
+      "text": "twenty",
+      "start": 2.139,
+      "end": 2.387,
+      "type": "word"
+    },
+    {
+      "text": "thirteen,",
+      "start": 2.465,
+      "end": 3.02,
+      "type": "word"
+    },
+    {
+      "text": "IceCube",
+      "start": 3.26,
+      "end": 3.839,
+      "type": "word"
+    },
+    {
+      "text": "reported",
+      "start": 3.887,
+      "end": 4.314,
+      "type": "word"
+    },
+    {
+      "text": "the",
+      "start": 4.35,
+      "end": 4.419,
+      "type": "word"
+    },
+    {
+      "text": "first",
+      "start": 4.529,
+      "end": 4.826,
+      "type": "word"
+    },
+    {
+      "text": "evidence",
+      "start": 4.93,
+      "end": 5.308,
+      "type": "word"
+    },
+    {
+      "text": "of",
+      "start": 5.353,
+      "end": 5.435,
+      "type": "word"
+    },
+    {
+      "text": "high-energy",
+      "start": 5.516,
+      "end": 6.193,
+      "type": "word"
+    },
+    {
+      "text": "neutrinos",
+      "start": 6.241,
+      "end": 6.894,
+      "type": "word"
+    },
+    {
+      "text": "from",
+      "start": 6.942,
+      "end": 7.093,
+      "type": "word"
+    },
+    {
+      "text": "outer",
+      "start": 7.2,
+      "end": 7.428,
+      "type": "word"
+    },
+    {
+      "text": "space.",
+      "start": 7.499,
+      "end": 8.08,
+      "type": "word"
+    },
+    {
+      "text": "In",
+      "start": 8.54,
+      "end": 8.592,
+      "type": "word"
+    },
+    {
+      "text": "twenty",
+      "start": 8.64,
+      "end": 8.899,
+      "type": "word"
+    },
+    {
+      "text": "sixteen,",
+      "start": 8.98,
+      "end": 9.58,
+      "type": "word"
+    },
+    {
+      "text": "it",
+      "start": 9.74,
+      "end": 9.828,
+      "type": "word"
+    },
+    {
+      "text": "caught",
+      "start": 9.88,
+      "end": 10.123,
+      "type": "word"
+    },
+    {
+      "text": "this",
+      "start": 10.18,
+      "end": 10.303,
+      "type": "word"
+    },
+    {
+      "text": "shower,",
+      "start": 10.397,
+      "end": 10.88,
+      "type": "word"
+    },
+    {
+      "text": "replayed",
+      "start": 11.17,
+      "end": 11.713,
+      "type": "word"
+    },
+    {
+      "text": "from",
+      "start": 11.76,
+      "end": 11.924,
+      "type": "word"
+    },
+    {
+      "text": "the",
+      "start": 11.924,
+      "end": 12.036,
+      "type": "word"
+    },
+    {
+      "text": "real",
+      "start": 12.132,
+      "end": 12.443,
+      "type": "word"
+    },
+    {
+      "text": "data.",
+      "start": 12.511,
+      "end": 12.89,
+      "type": "word"
+    }
+  ]
+}

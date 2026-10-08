@@ -1,0 +1,5 @@
+/* "made with showtime": stage-level corner mark, video 0-150.44 s (gone on the end card).
+   Box at 1920x1080: right edge at x 1856 (64 px in: 48 px fails the 3% edge and phone checks), top y 48, 26 px Inter on a 1.2 line: y 48-79. No JS. */
+.st-brandmark { position: absolute; right: 64px; top: 48px; z-index: 31; pointer-events: none; white-space: nowrap;
+  font: 600 26px/1.2 var(--font-body); letter-spacing: 0.01em; color: var(--fg); opacity: 0.92; }
+.st-brandmark-made { font-weight: 450; color: var(--fg); opacity: 0.85; }

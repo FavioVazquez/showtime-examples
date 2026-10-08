@@ -1,0 +1,128 @@
+{
+  "source": "12-shot-12.wav",
+  "duration": 9.724,
+  "language": "en",
+  "model": "kokoro-v1.0-timestamped.onnx",
+  "words": [
+    {
+      "text": "Race",
+      "start": 0.02,
+      "end": 0.282,
+      "type": "word"
+    },
+    {
+      "text": "the",
+      "start": 0.35,
+      "end": 0.39,
+      "type": "word"
+    },
+    {
+      "text": "mirrors",
+      "start": 0.441,
+      "end": 0.772,
+      "type": "word"
+    },
+    {
+      "text": "yourself",
+      "start": 0.819,
+      "end": 1.358,
+      "type": "word"
+    },
+    {
+      "text": "in",
+      "start": 1.406,
+      "end": 1.457,
+      "type": "word"
+    },
+    {
+      "text": "our",
+      "start": 1.48,
+      "end": 1.607,
+      "type": "word"
+    },
+    {
+      "text": "open",
+      "start": 1.65,
+      "end": 2.046,
+      "type": "word"
+    },
+    {
+      "text": "Nobel",
+      "start": 2.122,
+      "end": 2.594,
+      "type": "word"
+    },
+    {
+      "text": "2026",
+      "start": 2.63,
+      "end": 3.869,
+      "type": "word"
+    },
+    {
+      "text": "lab.",
+      "start": 3.919,
+      "end": 4.25,
+      "type": "word"
+    },
+    {
+      "text": "Explained",
+      "start": 4.84,
+      "end": 5.464,
+      "type": "word"
+    },
+    {
+      "text": "with",
+      "start": 5.499,
+      "end": 5.618,
+      "type": "word"
+    },
+    {
+      "text": "showtime,",
+      "start": 5.693,
+      "end": 6.31,
+      "type": "word"
+    },
+    {
+      "text": "an",
+      "start": 6.62,
+      "end": 6.688,
+      "type": "word"
+    },
+    {
+      "text": "open-source",
+      "start": 6.78,
+      "end": 7.396,
+      "type": "word"
+    },
+    {
+      "text": "video",
+      "start": 7.48,
+      "end": 7.731,
+      "type": "word"
+    },
+    {
+      "text": "studio",
+      "start": 7.778,
+      "end": 8.203,
+      "type": "word"
+    },
+    {
+      "text": "for",
+      "start": 8.251,
+      "end": 8.353,
+      "type": "word"
+    },
+    {
+      "text": "coding",
+      "start": 8.4,
+      "end": 8.715,
+      "type": "word"
+    },
+    {
+      "text": "agents.",
+      "start": 8.755,
+      "end": 9.294,
+      "type": "word"
+    }
+  ]
+}

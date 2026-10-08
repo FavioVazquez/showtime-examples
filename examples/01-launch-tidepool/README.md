@@ -78,7 +78,7 @@ showtime footage scenes <job>/work/demo/demo.mp4 --every 1 --job <job>          
 showtime job note <job> --stage plan --verified "contract: ..." --verified "storyboard: ..." --assumed "..."
 
 # project
-showtime new dom <job>/project --title "Tidepool" --duration 20
+showtime new dom <job>/project --title "Tidepool" --duration 20 --look template
 showtime assets font "Inter" --copy-to <job>/project/fonts
 showtime assets font "JetBrains Mono" --copy-to <job>/project/fonts
 #   (wrote index.html, showtime.json, audio/mix.json; copied the landing capture, logo.svg and demo.mp4 into the project)

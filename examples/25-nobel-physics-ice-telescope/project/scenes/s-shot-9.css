@@ -1,0 +1,30 @@
+/* shot-9: what it found (2013 and 2014 cards, then the real 6 PeV shower replayed from the public data) */
+.s-shot-9 { --s9-accent: var(--accent, #ff7f61); --s9-cyan: #58e1ff; --s9-blue: #58a9ff; --s9-ink: var(--fg, #eaf4f1);
+  overflow: hidden; padding: 0; font-family: var(--font-body); color: var(--s9-ink); }
+.s-shot-9 .s9-ground { position: absolute; inset: 0;
+  background: radial-gradient(55% 70% at 70% 46%, rgb(88 169 255 / 0.09), transparent 70%),
+              linear-gradient(180deg, var(--bg) 0%, color-mix(in oklab, var(--bg) 82%, #0b2a3a) 100%); }
+.s-shot-9 .s9-cv { position: absolute; inset: 0; width: 100%; height: 100%; }
+.s-shot-9 p { margin: 0; }
+.s-shot-9 .s9-head { position: absolute; left: 96px; top: 128px; }
+.s-shot-9 .s9-kick { margin: 0 0 10px; font: 600 30px/1 var(--font-mono); letter-spacing: 0.16em; text-transform: uppercase; color: var(--s9-accent); }
+.s-shot-9 .s9-title { margin: 0; font: var(--weight-display, 700) 76px/1.02 var(--font-display); letter-spacing: var(--tracking-display, -0.03em); color: var(--s9-ink); }
+.s-shot-9 .s9-cards { position: absolute; left: 96px; top: 300px; width: 800px; display: flex; flex-direction: column; gap: 24px;
+  transform-origin: 0 0; animation: s9-drift 8.8s linear both; }
+@keyframes s9-drift { from { transform: scale(1); } to { transform: scale(1.04); } }
+.s-shot-9 .s9-card { padding: 24px 32px 28px; border-radius: 18px; background: color-mix(in oklab, var(--surface) 82%, transparent);
+  border: 2px solid rgb(234 244 241 / 0.10); border-left: 6px solid var(--s9-accent); }
+.s-shot-9 .s9-year { font: 600 60px/1 var(--font-display); color: var(--s9-accent); font-variant-numeric: tabular-nums; }
+.s-shot-9 .s9-text { margin-top: 12px; font: 600 42px/1.2 var(--font-body); color: var(--s9-ink); text-wrap: balance; }
+.s-shot-9 .s9-sig { color: var(--s9-accent); white-space: nowrap; }
+.s-shot-9 .s9-big { font: 600 64px/1.05 var(--font-display); }
+.s-shot-9 .s9-real { position: absolute; left: 96px; top: 300px; width: 820px; }
+.s-shot-9 .s9-date { font: 600 40px/1.2 var(--font-body); color: var(--s9-accent); }
+.s-shot-9 .s9-energy { margin-top: 30px; }
+.s-shot-9 .s9-pev { font: 600 104px/1 var(--font-display); letter-spacing: var(--tracking-display, -0.03em); color: var(--fg); }
+.s-shot-9 .s9-lhc { margin-top: 12px; font: 500 38px/1.25 var(--font-body); color: color-mix(in oklab, var(--fg) 85%, var(--muted)); text-wrap: balance; }
+.s-shot-9 .s9-shower { margin-top: 40px; font: 600 42px/1.2 var(--font-body); color: var(--s9-ink); text-wrap: balance;
+  padding-left: 24px; border-left: 5px solid var(--s9-cyan); }
+.s-shot-9 .s9-slow { position: absolute; right: 60px; top: 786px; height: 60px; padding: 0 24px; display: flex; align-items: center;
+  font: 500 30px/1 var(--font-mono); letter-spacing: 0.06em; color: var(--s9-ink); border-radius: 30px;
+  background: rgb(88 169 255 / 0.14); border: 2px solid rgb(88 169 255 / 0.5); }

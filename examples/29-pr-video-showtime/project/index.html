@@ -1,0 +1,265 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>FavioVazquez/showtime #7</title>
+<script src="/_st/stage.js"></script>
+<link rel="stylesheet" href="/_st/themes/neutral.css">
+<script type="module" src="/_st/components/index.js"></script>
+<!-- Written by `showtime pr-video` from a pull request: every line on screen is from its title, description or diff, or from a flag; secret-looking values are masked. Edit freely; `showtime retime . -d <s>` changes the length. -->
+<style>
+  :root {
+    --bg: #0e1013; --fg: #f3f1ec; --muted: #aab0ba; --accent: #7fb2ff; --surface: #171a20;
+    --line: rgb(243 241 236 / 0.10);
+    --font-display: 'Geist', 'Inter', sans-serif; --font-mono: 'Geist Mono', 'JetBrains Mono', monospace;
+    --scene-bg: transparent; color-scheme: dark;
+  }
+  .stage { background: var(--bg); }
+  .scene { --s-label: 2.6cqh; --s-name: 13cqh; --s-ver: 6.4cqh; --s-sum: 3.6cqh; --s-head: 8.4cqh;
+           --s-item: 4.6cqh; --s-ref: 2.7cqh; --s-cta: 3.8cqh; --s-url: 3cqh; --s-thanks: 2.8cqh; }
+  .world { position: absolute; inset: 0; overflow: hidden; pointer-events: none; }
+  .world .key { position: absolute; inset: -30%;
+    background: radial-gradient(34% 40% at 50% 50%, color-mix(in oklab, var(--accent) 15%, transparent), transparent 72%);
+    animation: keyDrift 40s linear both; }
+  @keyframes keyDrift { from { transform: translate(-16%, 8%); } to { transform: translate(18%, -10%); } }
+  .world .vig { position: absolute; inset: 0; background: radial-gradient(120% 95% at 50% 45%, transparent 55%, rgb(0 0 0 / 0.5)); }
+  .cam { position: absolute; inset: 0; }
+  .label { font: 500 var(--s-label)/1.3 var(--font-mono); letter-spacing: 0.14em; text-transform: uppercase;
+           color: var(--muted); margin: 0; }
+  .label b { color: var(--accent); font-weight: 500; }
+  @keyframes rise { from { opacity: 0; transform: translateY(0.4em); } to { opacity: 1; transform: none; } }
+  @keyframes grow { from { transform: scaleY(0); } to { transform: scaleY(1); } }
+
+  /* hook: complete at frame 0 (the poster) */
+  .hook { position: absolute; left: 8cqw; right: 8cqw; top: 50%; translate: 0 -50%; display: flex;
+          flex-direction: column; gap: 2.6cqh; }
+  .hook .name { font: 700 var(--s-name)/0.98 var(--font-display); letter-spacing: -0.04em; color: var(--fg); margin: 0;
+                overflow-wrap: anywhere; }
+  .hook .ver { font: 600 var(--s-ver)/1 var(--font-mono); color: var(--accent); margin: 0; letter-spacing: -0.01em; }
+  .hook .sum { font: 400 var(--s-sum)/1.35 var(--font-display); color: var(--muted); margin: 0; max-width: 38em; }
+  .hook .sum { animation: rise 0.8s cubic-bezier(0.16, 1, 0.3, 1) calc(0.9s + var(--i, 0) * 0.25s) both; }
+
+  /* change scenes: the notes' heading and its lines, one after another */
+  .list { position: absolute; left: 9cqw; right: 9cqw; top: 50%; translate: 0 -50%; display: flex;
+          flex-direction: column; gap: 3.2cqh; }
+  .list .head { font: 650 var(--s-head)/1.04 var(--font-display); letter-spacing: -0.03em; color: var(--fg); margin: 0; }
+  .list .head em { font-style: normal; color: var(--accent); }
+  .items { display: flex; flex-direction: column; gap: 2.6cqh; margin: 0.6cqh 0 0; padding: 0; list-style: none; }
+  .item { position: relative; padding-left: 3cqh; opacity: 0;
+          animation: rise 0.55s cubic-bezier(0.16, 1, 0.3, 1) var(--at) both; }
+  .item::before { content: ""; position: absolute; left: 0; top: 0.2em; bottom: 0.2em; width: 0.5cqh; border-radius: 1cqh;
+                  background: var(--accent); transform-origin: top; animation: grow 0.6s cubic-bezier(0.16, 1, 0.3, 1) var(--at) both; }
+  .item .t { font: 450 var(--s-item)/1.32 var(--font-display); color: var(--fg); margin: 0; }
+  .item .t code { font: 450 0.92em/1 var(--font-mono); color: var(--accent); }
+  code.nw { white-space: nowrap; }
+  .item .r { font: 500 var(--s-ref)/1.3 var(--font-mono); color: var(--muted); margin: 0.6cqh 0 0; letter-spacing: 0.02em; }
+  .more { font: 500 var(--s-ref)/1.3 var(--font-mono); color: var(--muted); margin: 0.4cqh 0 0 3cqh;
+          animation: rise 0.6s ease var(--at) both; }
+
+  /* end card */
+  .end { position: absolute; inset: 0; display: flex; flex-direction: column; align-items: center;
+         justify-content: center; gap: 2.8cqh; text-align: center; padding: 0 8cqw; }
+  .end .name { font: 700 calc(var(--s-name) * 0.85)/0.95 var(--font-display); letter-spacing: -0.04em; color: var(--fg); margin: 0;
+               overflow-wrap: anywhere; }
+  .end .name em { font-style: normal; color: var(--accent); font-size: 0.5em; letter-spacing: -0.01em; margin-left: 0.25em; }
+  .end .cta { padding: 1.5cqh 3cqh; border-radius: 1.2cqh; font: 500 var(--s-cta)/1.2 var(--font-mono); color: var(--fg);
+              background: color-mix(in oklab, var(--surface) 90%, var(--fg)); max-width: 84cqw;
+              box-shadow: 0 0 0 max(1px, 0.14cqh) color-mix(in oklab, var(--accent) 55%, transparent); }
+  .end .cta .ps { color: var(--accent); }
+  .end .url { font: 500 var(--s-url)/1.2 var(--font-mono); color: var(--muted); margin: 0; max-width: 100%; white-space: nowrap; }
+  .end .thanks { font: 400 var(--s-thanks)/1.4 var(--font-display); color: var(--muted); margin: 1cqh 0 0; max-width: 60em; }
+  .end > * { animation: rise 0.8s cubic-bezier(0.16, 1, 0.3, 1) calc(0.3s + var(--i, 0) * 0.16s) both; }
+
+  /* square and tall frames: the same page re-laid (showtime render --size 9:16) */
+  @container (max-aspect-ratio: 5/4) {
+    .scene { --s-label: 2.7cqw; --s-name: 12cqw; --s-ver: 6cqw; --s-sum: 3.9cqw; --s-head: 7cqw; --s-item: 4.2cqw;
+             --s-ref: 2.9cqw; --s-cta: 3.6cqw; --s-url: 3cqw; --s-thanks: 3cqw; }
+    .hook, .list { left: 7cqw; right: 7cqw; }
+  }
+  @container (max-aspect-ratio: 3/4) {
+    .scene { --s-label: 4.2cqw; --s-name: 12cqw; --s-ver: 7cqw; --s-sum: 4.8cqw; --s-head: 8.4cqw; --s-item: 5.2cqw;
+             --s-ref: 4.2cqw; --s-cta: 4.4cqw; --s-url: 4.2cqw; --s-thanks: 4.2cqw; }
+    .hook, .list { left: 10cqw; right: 19cqw; top: 43%; }
+    .end { justify-content: flex-start; padding: 26cqh 19cqw 0 10cqw; }
+  }
+
+  .scene { --s-title: 10.5cqh; --s-line: 7.6cqh; --s-code: 4.8cqh; --s-tree: 5.4cqh; --s-impact: 6cqh;
+           --s-label: 3.2cqh; --s-ref: 3.8cqh; --s-url: 4.4cqh; --s-thanks: 4cqh; --s-ver: 6.8cqh; --s-head: 9cqh; }
+  .hook .title { font: 700 var(--s-title)/1.04 var(--font-display); letter-spacing: -0.03em; color: var(--fg); margin: 0;
+                 max-width: 22em; overflow-wrap: anywhere; }
+  .hook .title code { font: 600 0.88em/1 var(--font-mono); color: var(--accent); }
+  .lines { gap: 3.6cqh; }
+  .lines .item { padding-left: 4.2cqh; }
+  .lines .item::before { width: 0.8cqh; }
+  .lines .item .t { font-size: var(--s-line); line-height: 1.22; font-weight: 500; letter-spacing: -0.01em;
+                    max-width: 24em; }
+  .lines .more { font-size: var(--s-ref); margin-left: 4.2cqh; }
+  .lines .item, .lines .more { animation-duration: 0.35s; }
+  .end > * { animation-duration: 0.45s; animation-delay: calc(0.1s + var(--i, 0) * 0.1s); }
+
+  /* files: a small tree with +/- counts */
+  .files .head { font-size: calc(var(--s-head) * 0.8); }
+  .files .head em { font-family: var(--font-mono); font-size: 0.72em; letter-spacing: 0; margin-left: 0.4em; }
+  .tree { list-style: none; margin: 0.4cqh 0 0; padding: 0; display: flex; flex-direction: column; gap: 1cqh;
+          font: 500 var(--s-tree)/1.2 var(--font-mono); }
+  .tree li { display: flex; align-items: baseline; gap: 0.8em; opacity: 0;
+             animation: rise 0.35s cubic-bezier(0.16, 1, 0.3, 1) var(--at) both; }
+  .tree .dir { color: var(--muted); }
+  .tree .f.nested { padding-left: 1.4em; }
+  .tree .n { color: var(--fg); white-space: nowrap; min-width: 0; overflow: hidden; text-overflow: ellipsis; }
+  .tree .tag { font-size: var(--s-label); letter-spacing: 0.12em; text-transform: uppercase; color: var(--accent);
+               border: max(1px, 0.12cqh) solid color-mix(in oklab, var(--accent) 60%, transparent); border-radius: 0.5em;
+               padding: 0.1em 0.5em; }
+  .tree .c { margin-left: auto; white-space: nowrap; display: flex; gap: 0.6em; }
+  .tree .bar { display: inline-flex; width: 5em; height: 0.5em; align-self: center; }
+  .tree .bar i { display: block; height: 100%; transform-origin: left; animation: growx 0.7s cubic-bezier(0.16, 1, 0.3, 1) var(--at) both; }
+  .a { color: #6fdc8c; } .d { color: #ff8a80; }
+  .tree .bar .a { background: #6fdc8c; } .tree .bar .d { background: #ff8a80; }
+  @keyframes growx { from { transform: scaleX(0); } to { transform: scaleX(1); } }
+  .tests { font: 500 max(var(--s-ref), calc(var(--s-tree) * 0.82))/1.3 var(--font-mono); color: var(--muted); margin: 1.2cqh 0 0;
+           animation: rise 0.35s ease var(--at) both; }
+  .tests b { color: var(--accent); font-weight: 500; }
+
+  /* one hunk, readable on a phone */
+  .diffs { position: absolute; left: 7cqw; right: 7cqw; top: 50%; translate: 0 -50%; display: flex;
+           flex-direction: column; gap: 1.6cqh; }
+  .diffs .path { font: 500 var(--s-ref)/1.3 var(--font-mono); color: var(--muted); margin: 0; overflow-wrap: anywhere; }
+  .diffs .path b { color: var(--fg); font-weight: 600; }
+  .diffs .ctx { font: 500 var(--s-ref)/1.3 var(--font-mono); color: var(--muted); margin: 0; opacity: 0.85; }
+  .code { background: var(--surface); border-radius: 0.4em; padding: 0.6em 0.7em; margin: 0.4cqh 0 0;
+          box-shadow: 0 0 0 max(1px, 0.12cqh) var(--line); font: 450 var(--s-code)/1.42 var(--font-mono); }
+  .ln { position: relative; padding: 0 0.6em 0 1.6em; white-space: pre-wrap; overflow-wrap: anywhere; color: var(--muted);
+        border-radius: 0.3em; opacity: 0; animation: rise 0.35s cubic-bezier(0.16, 1, 0.3, 1) var(--at) both; }
+  .ln::before { content: attr(data-s); position: absolute; left: 0.4em; top: 0; }
+  .ln.add { color: var(--fg); background: color-mix(in oklab, #2ea043 22%, transparent); }
+  .ln.add::before { color: #6fdc8c; }
+  .ln.del { color: color-mix(in oklab, var(--fg) 80%, transparent); background: color-mix(in oklab, #f85149 18%, transparent); }
+  .ln.del::before { color: #ff8a80; }
+  .diffs .more { margin-left: 0; }
+
+  .end .impact-label { margin: 0; }
+  .end .impact { font: 500 var(--s-impact)/1.3 var(--font-display); color: var(--fg); margin: 0; max-width: 100%; }
+  span.nw { white-space: nowrap; }
+  .end .refs { font: 500 var(--s-thanks)/1.3 var(--font-mono); color: var(--muted); margin: 0; }
+
+  @container (max-aspect-ratio: 5/4) {
+    .scene { --s-title: 8.6cqw; --s-line: 6cqw; --s-code: 4.2cqw; --s-tree: 4.6cqw; --s-impact: 5.4cqw;
+             --s-label: 3.2cqw; --s-ref: 3.8cqw; --s-url: 4cqw; --s-thanks: 3.8cqw; --s-ver: 6cqw; --s-head: 8cqw; }
+    .lines .item { padding-left: 3.6cqw; }
+    .diffs { left: 6cqw; right: 6cqw; }
+    .tree .bar { display: none; }
+  }
+  @container (max-aspect-ratio: 3/4) {
+    .scene { --s-title: 10cqw; --s-line: 7.4cqw; --s-code: 4.6cqw; --s-tree: 4.6cqw; --s-impact: 5.2cqw;
+             --s-label: 4.2cqw; --s-ref: 4.6cqw; --s-url: 4.6cqw; --s-thanks: 4.6cqw; --s-ver: 7cqw; --s-head: 9cqw; }
+    .lines .item { padding-left: 4cqw; }
+    .lines .more { margin-left: 4cqw; }
+    .diffs { left: 11cqw; right: 11cqw; top: 48%; }
+    .files { left: 9cqw; right: 18cqw; top: 47%; }
+    .tree .tag { display: none; }
+    .tree .f.nested { padding-left: 1em; }
+  }
+</style>
+</head>
+<body>
+<div class="stage">
+  <div class="world" data-st-decor><div class="key"></div><div class="vig"></div></div>
+  <section class="scene" id="hook" data-start="0" data-dur="2.80">
+    <div class="cam" data-st="camera" data-path='[{"at": 0, "zoom": 1}, {"at": 0.15, "dur": 2.5, "zoom": 1.06, "focus": [50, 50], "to": "stay", "ease": "linear"}]'>
+      <div class="hook">
+        <p class="label">Pull request <b>&middot;</b> FavioVazquez/showtime</p>
+        <h1 class="title">showtime 0.3.5</h1>
+        <p class="ver">#7 · @FavioVazquez</p>
+      </div>
+    </div>
+  </section>
+  <section class="scene" id="sum1" data-start="#hook" data-dur="5.24" data-transition="dip 0.5">
+    <div class="cam" data-st="camera" data-path='[{"at": 0, "zoom": 1}, {"at": 0.15, "dur": 4.94, "zoom": 1.06, "focus": [30, 50], "to": "stay", "ease": "linear"}]'>
+      <div class="list lines">
+        <p class="label">FavioVazquez/showtime · #7</p>
+        <ul class="items">
+          <li class="item" style="--at:0.15s"><p class="t">onnxruntime&#x27;s telemetry was on, while PRIVACY.md says showtime has none.</p></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+  <section class="scene" id="sum2" data-start="#sum1" data-dur="6.18" data-transition="dip 0.5">
+    <div class="cam" data-st="camera" data-path='[{"at": 0, "zoom": 1}, {"at": 0.15, "dur": 5.88, "zoom": 1.06, "focus": [30, 50], "to": "stay", "ease": "linear"}]'>
+      <div class="list lines">
+        <p class="label">FavioVazquez/showtime · #7</p>
+        <ul class="items">
+          <li class="item" style="--at:0.15s"><p class="t">Site capture turned its private-address guard off for a site whose name did not resolve.</p></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+  <section class="scene" id="sum3" data-start="#sum2" data-dur="3.06" data-transition="dip 0.5">
+    <div class="cam" data-st="camera" data-path='[{"at": 0, "zoom": 1}, {"at": 0.15, "dur": 2.76, "zoom": 1.06, "focus": [30, 50], "to": "stay", "ease": "linear"}]'>
+      <div class="list lines">
+        <p class="label">FavioVazquez/showtime · #7</p>
+        <ul class="items">
+          <li class="item" style="--at:0.15s"><p class="t">Node downloads ignored HTTPS_PROXY.</p></li>
+        </ul>
+        <p class="more" style="--at:0.15s">+ 8 more in the description</p>
+      </div>
+    </div>
+  </section>
+  <section class="scene" id="files" data-start="#sum3" data-dur="4.92" data-transition="dip 0.5">
+    <div class="cam" data-st="camera" data-path='[{"at": 0, "zoom": 1}, {"at": 0.15, "dur": 4.62, "zoom": 1.06, "focus": [30, 50], "to": "stay", "ease": "linear"}]'>
+      <div class="list files">
+        <p class="label">FavioVazquez/showtime · #7</p>
+        <h2 class="head">68 files changed<em><span class="a">+1138</span> <span class="d">−159</span></em></h2>
+        <ul class="tree">
+          <li class="dir" style="--at:0.15s">skills/showtime/lib/st/brand/</li>
+          <li class="f nested" style="--at:0.25s"><span class="n">capture.py</span><span class="c"><span class="a">+68</span><span class="d">−34</span><span class="bar"><i class="a" style="width:48.6%"></i><i class="d" style="width:24.3%"></i></span></span></li>
+          <li class="dir" style="--at:0.35s">skills/showtime/tests/</li>
+          <li class="f nested" style="--at:0.45s"><span class="n">test_brand_first.py</span> <span class="tag">test</span><span class="c"><span class="a">+84</span><span class="d">−0</span><span class="bar"><i class="a" style="width:60.0%"></i><i class="d" style="width:0.0%"></i></span></span></li>
+          <li class="f nested" style="--at:0.55s"><span class="n">test_portable.py</span> <span class="tag">test</span><span class="c"><span class="a">+140</span><span class="d">−0</span><span class="bar"><i class="a" style="width:100.0%"></i><i class="d" style="width:0.0%"></i></span></span></li>
+          <li class="f nested" style="--at:0.65s"><span class="n">test_voice.py</span> <span class="tag">test</span><span class="c"><span class="a">+90</span><span class="d">−0</span><span class="bar"><i class="a" style="width:64.3%"></i><i class="d" style="width:0.0%"></i></span></span></li>
+        </ul>
+        <p class="more" style="--at:0.75s">+ 64 more files</p>
+        <p class="tests" style="--at:0.85s"><b>Tests</b> _listen.py, run_all.py, test_adopt.py + 16 more</p>
+      </div>
+    </div>
+  </section>
+  <section class="scene" id="diff1" data-start="#files" data-dur="8.00" data-transition="dip 0.5">
+    <div class="cam" data-st="camera" data-path='[{"at": 0, "zoom": 1}, {"at": 0.15, "dur": 7.7, "zoom": 1.06, "focus": [30, 50], "to": "stay", "ease": "linear"}]'>
+      <div class="diffs">
+        <p class="path">skills/showtime/lib/st/brand/<b>draft.py</b></p>
+        <p class="ctx">def brand_md(kit: Dict[str, Any], json_name…</p>
+        <div class="code">
+          <div class="ln del" data-s="−" style="--at:0.15s">L.append(&quot;- %s: **%s** (%s; %s) %s&quot; % (slot, f.get(&quot;family&quot;), f.get(&quot;how&quot;), f.get(&quot;license&quot;) or &quot;license unknown&quot;, st))</div>
+          <div class="ln add" data-s="+" style="--at:0.20s">L.append((&quot;- %s: **%s** (%s) %s&quot; % (slot, f.get(&quot;family&quot;), &quot;; &quot;.join(</div>
+          <div class="ln add" data-s="+" style="--at:0.25s">    x for x in (f.get(&quot;how&quot;), f.get(&quot;license&quot;) or &quot;license unknown&quot;) if x), st)).rstrip())</div>
+        </div>
+        <p class="more" style="--at:0.30s">+ 7 more changed lines</p>
+      </div>
+    </div>
+  </section>
+  <section class="scene" id="diff2" data-start="#diff1" data-dur="6.59" data-transition="dip 0.5">
+    <div class="cam" data-st="camera" data-path='[{"at": 0, "zoom": 1}, {"at": 0.15, "dur": 6.29, "zoom": 1.06, "focus": [30, 50], "to": "stay", "ease": "linear"}]'>
+      <div class="diffs">
+        <p class="path">skills/showtime/lib/st/<b>cli_motion.py</b></p>
+        <p class="ctx">def parse_names(specs: Optional[List[str]])…</p>
+        <div class="code">
+          <div class="ln del" data-s="−" style="--at:0.15s">_WHERE_RE = re.compile(r&quot;^\s*(?P&lt;col&gt;[^=!~&lt;&gt;]+?)\s*(?P&lt;op&gt;!=|!~|=|~|&gt;=|&lt;=|&gt;|&lt;)\s*(?P&lt;val&gt;.*)$&quot;)</div>
+          <div class="ln add" data-s="+" style="--at:0.20s">_WHERE_OPS = (&quot;!=&quot;, &quot;!~&quot;, &quot;&gt;=&quot;, &quot;&lt;=&quot;, &quot;=&quot;, &quot;~&quot;, &quot;&gt;&quot;, &quot;&lt;&quot;)</div>
+          <div class="ln add" data-s="+" style="--at:0.25s">&#8203;</div>
+          <div class="ln add" data-s="+" style="--at:0.30s">&#8203;</div>
+        </div>
+        <p class="more" style="--at:0.35s">+ 7 more changed lines</p>
+      </div>
+    </div>
+  </section>
+  <section class="scene" id="end" data-start="#diff2" data-dur="2.80" data-transition="dip 0.5">
+    <div class="cam" data-st="camera" data-path='[{"at": 0, "zoom": 1}, {"at": 0.15, "dur": 2.5, "zoom": 1.06, "focus": [50, 50], "to": "stay", "ease": "linear"}]'>
+      <div class="end">
+        <h2 class="name" style="--i:0">FavioVazquez/showtime<em>#7</em></h2>
+        <p class="url" data-st="fit" style="--i:1">github.com/FavioVazquez/showtime/pull/7</p>
+        <p class="thanks" style="--i:2">Thanks to @FavioVazquez</p>
+      </div>
+    </div>
+  </section>
+</div>
+</body>
+</html>

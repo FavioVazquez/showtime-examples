@@ -1,0 +1,2484 @@
+{
+ "source": "timeline.json",
+ "note": "written by `showtime retime --from-voice`: word times in the video",
+ "words": [
+  {
+   "text": "Your",
+   "start": 0.33,
+   "end": 0.439,
+   "type": "word",
+   "line": "shot-1"
+  },
+  {
+   "text": "hands",
+   "start": 0.491,
+   "end": 0.88,
+   "type": "word",
+   "line": "shot-1"
+  },
+  {
+   "text": "are",
+   "start": 0.925,
+   "end": 1.018,
+   "type": "word",
+   "line": "shot-1"
+  },
+  {
+   "text": "mirror",
+   "start": 1.093,
+   "end": 1.361,
+   "type": "word",
+   "line": "shot-1"
+  },
+  {
+   "text": "images.",
+   "start": 1.44,
+   "end": 2.05,
+   "type": "word",
+   "line": "shot-1"
+  },
+  {
+   "text": "This",
+   "start": 2.49,
+   "end": 2.622,
+   "type": "word",
+   "line": "shot-1"
+  },
+  {
+   "text": "year's",
+   "start": 2.674,
+   "end": 2.948,
+   "type": "word",
+   "line": "shot-1"
+  },
+  {
+   "text": "Nobel",
+   "start": 3.023,
+   "end": 3.412,
+   "type": "word",
+   "line": "shot-1"
+  },
+  {
+   "text": "Prize",
+   "start": 3.482,
+   "end": 3.883,
+   "type": "word",
+   "line": "shot-1"
+  },
+  {
+   "text": "in",
+   "start": 3.919,
+   "end": 4.011,
+   "type": "word",
+   "line": "shot-1"
+  },
+  {
+   "text": "Chemistry",
+   "start": 4.065,
+   "end": 4.75,
+   "type": "word",
+   "line": "shot-1"
+  },
+  {
+   "text": "is",
+   "start": 4.913,
+   "end": 4.987,
+   "type": "word",
+   "line": "shot-1"
+  },
+  {
+   "text": "about",
+   "start": 5.0,
+   "end": 5.2,
+   "type": "word",
+   "line": "shot-1"
+  },
+  {
+   "text": "how",
+   "start": 5.244,
+   "end": 5.398,
+   "type": "word",
+   "line": "shot-1"
+  },
+  {
+   "text": "one",
+   "start": 5.471,
+   "end": 5.647,
+   "type": "word",
+   "line": "shot-1"
+  },
+  {
+   "text": "hand",
+   "start": 5.709,
+   "end": 6.005,
+   "type": "word",
+   "line": "shot-1"
+  },
+  {
+   "text": "can",
+   "start": 6.09,
+   "end": 6.149,
+   "type": "word",
+   "line": "shot-1"
+  },
+  {
+   "text": "take",
+   "start": 6.196,
+   "end": 6.376,
+   "type": "word",
+   "line": "shot-1"
+  },
+  {
+   "text": "over.",
+   "start": 6.39,
+   "end": 6.757,
+   "type": "word",
+   "line": "shot-1"
+  },
+  {
+   "text": "Many",
+   "start": 7.947,
+   "end": 8.126,
+   "type": "word",
+   "line": "shot-2"
+  },
+  {
+   "text": "molecules",
+   "start": 8.173,
+   "end": 8.723,
+   "type": "word",
+   "line": "shot-2"
+  },
+  {
+   "text": "come",
+   "start": 8.737,
+   "end": 8.906,
+   "type": "word",
+   "line": "shot-2"
+  },
+  {
+   "text": "in",
+   "start": 8.933,
+   "end": 9.019,
+   "type": "word",
+   "line": "shot-2"
+  },
+  {
+   "text": "two",
+   "start": 9.047,
+   "end": 9.236,
+   "type": "word",
+   "line": "shot-2"
+  },
+  {
+   "text": "hands",
+   "start": 9.283,
+   "end": 9.548,
+   "type": "word",
+   "line": "shot-2"
+  },
+  {
+   "text": "like",
+   "start": 9.572,
+   "end": 9.708,
+   "type": "word",
+   "line": "shot-2"
+  },
+  {
+   "text": "that.",
+   "start": 9.767,
+   "end": 10.087,
+   "type": "word",
+   "line": "shot-2"
+  },
+  {
+   "text": "Life",
+   "start": 10.507,
+   "end": 10.868,
+   "type": "word",
+   "line": "shot-2"
+  },
+  {
+   "text": "is",
+   "start": 10.918,
+   "end": 11.021,
+   "type": "word",
+   "line": "shot-2"
+  },
+  {
+   "text": "picky:",
+   "start": 11.087,
+   "end": 11.547,
+   "type": "word",
+   "line": "shot-2"
+  },
+  {
+   "text": "your",
+   "start": 11.867,
+   "end": 11.978,
+   "type": "word",
+   "line": "shot-2"
+  },
+  {
+   "text": "proteins",
+   "start": 12.025,
+   "end": 12.525,
+   "type": "word",
+   "line": "shot-2"
+  },
+  {
+   "text": "use",
+   "start": 12.572,
+   "end": 12.733,
+   "type": "word",
+   "line": "shot-2"
+  },
+  {
+   "text": "only",
+   "start": 12.779,
+   "end": 13.027,
+   "type": "word",
+   "line": "shot-2"
+  },
+  {
+   "text": "one",
+   "start": 13.102,
+   "end": 13.277,
+   "type": "word",
+   "line": "shot-2"
+  },
+  {
+   "text": "hand",
+   "start": 13.332,
+   "end": 13.608,
+   "type": "word",
+   "line": "shot-2"
+  },
+  {
+   "text": "of",
+   "start": 13.632,
+   "end": 13.691,
+   "type": "word",
+   "line": "shot-2"
+  },
+  {
+   "text": "each",
+   "start": 13.739,
+   "end": 13.943,
+   "type": "word",
+   "line": "shot-2"
+  },
+  {
+   "text": "amino",
+   "start": 13.947,
+   "end": 14.357,
+   "type": "word",
+   "line": "shot-2"
+  },
+  {
+   "text": "acid.",
+   "start": 14.43,
+   "end": 14.864,
+   "type": "word",
+   "line": "shot-2"
+  },
+  {
+   "text": "Yet",
+   "start": 16.024,
+   "end": 16.139,
+   "type": "word",
+   "line": "shot-3"
+  },
+  {
+   "text": "a",
+   "start": 16.166,
+   "end": 16.196,
+   "type": "word",
+   "line": "shot-3"
+  },
+  {
+   "text": "reaction",
+   "start": 16.239,
+   "end": 16.727,
+   "type": "word",
+   "line": "shot-3"
+  },
+  {
+   "text": "left",
+   "start": 16.774,
+   "end": 16.966,
+   "type": "word",
+   "line": "shot-3"
+  },
+  {
+   "text": "to",
+   "start": 17.014,
+   "end": 17.1,
+   "type": "word",
+   "line": "shot-3"
+  },
+  {
+   "text": "itself",
+   "start": 17.147,
+   "end": 17.543,
+   "type": "word",
+   "line": "shot-3"
+  },
+  {
+   "text": "makes",
+   "start": 17.604,
+   "end": 17.801,
+   "type": "word",
+   "line": "shot-3"
+  },
+  {
+   "text": "both",
+   "start": 17.849,
+   "end": 18.085,
+   "type": "word",
+   "line": "shot-3"
+  },
+  {
+   "text": "hands,",
+   "start": 18.135,
+   "end": 18.704,
+   "type": "word",
+   "line": "shot-3"
+  },
+  {
+   "text": "fifty-fifty.",
+   "start": 18.894,
+   "end": 19.734,
+   "type": "word",
+   "line": "shot-3"
+  },
+  {
+   "text": "A",
+   "start": 20.244,
+   "end": 20.295,
+   "type": "word",
+   "line": "shot-3"
+  },
+  {
+   "text": "one-handed",
+   "start": 20.37,
+   "end": 20.958,
+   "type": "word",
+   "line": "shot-3"
+  },
+  {
+   "text": "catalyst,",
+   "start": 21.014,
+   "end": 21.694,
+   "type": "word",
+   "line": "shot-3"
+  },
+  {
+   "text": "a",
+   "start": 21.804,
+   "end": 21.846,
+   "type": "word",
+   "line": "shot-3"
+  },
+  {
+   "text": "helper",
+   "start": 21.896,
+   "end": 22.202,
+   "type": "word",
+   "line": "shot-3"
+  },
+  {
+   "text": "that",
+   "start": 22.243,
+   "end": 22.324,
+   "type": "word",
+   "line": "shot-3"
+  },
+  {
+   "text": "isn't",
+   "start": 22.348,
+   "end": 22.527,
+   "type": "word",
+   "line": "shot-3"
+  },
+  {
+   "text": "used",
+   "start": 22.58,
+   "end": 22.795,
+   "type": "word",
+   "line": "shot-3"
+  },
+  {
+   "text": "up,",
+   "start": 22.854,
+   "end": 23.154,
+   "type": "word",
+   "line": "shot-3"
+  },
+  {
+   "text": "can",
+   "start": 23.279,
+   "end": 23.411,
+   "type": "word",
+   "line": "shot-3"
+  },
+  {
+   "text": "tip",
+   "start": 23.47,
+   "end": 23.644,
+   "type": "word",
+   "line": "shot-3"
+  },
+  {
+   "text": "the",
+   "start": 23.679,
+   "end": 23.728,
+   "type": "word",
+   "line": "shot-3"
+  },
+  {
+   "text": "balance.",
+   "start": 23.734,
+   "end": 24.317,
+   "type": "word",
+   "line": "shot-3"
+  },
+  {
+   "text": "In",
+   "start": 25.517,
+   "end": 25.589,
+   "type": "word",
+   "line": "shot-4"
+  },
+  {
+   "text": "nineteen",
+   "start": 25.635,
+   "end": 25.993,
+   "type": "word",
+   "line": "shot-4"
+  },
+  {
+   "text": "fifty-three,",
+   "start": 26.044,
+   "end": 26.775,
+   "type": "word",
+   "line": "shot-4"
+  },
+  {
+   "text": "Charles",
+   "start": 26.877,
+   "end": 27.253,
+   "type": "word",
+   "line": "shot-4"
+  },
+  {
+   "text": "Frank",
+   "start": 27.308,
+   "end": 27.588,
+   "type": "word",
+   "line": "shot-4"
+  },
+  {
+   "text": "wrote",
+   "start": 27.647,
+   "end": 27.776,
+   "type": "word",
+   "line": "shot-4"
+  },
+  {
+   "text": "a",
+   "start": 27.802,
+   "end": 27.835,
+   "type": "word",
+   "line": "shot-4"
+  },
+  {
+   "text": "recipe",
+   "start": 27.882,
+   "end": 28.339,
+   "type": "word",
+   "line": "shot-4"
+  },
+  {
+   "text": "for",
+   "start": 28.387,
+   "end": 28.49,
+   "type": "word",
+   "line": "shot-4"
+  },
+  {
+   "text": "one",
+   "start": 28.551,
+   "end": 28.722,
+   "type": "word",
+   "line": "shot-4"
+  },
+  {
+   "text": "hand",
+   "start": 28.769,
+   "end": 29.024,
+   "type": "word",
+   "line": "shot-4"
+  },
+  {
+   "text": "to",
+   "start": 29.066,
+   "end": 29.117,
+   "type": "word",
+   "line": "shot-4"
+  },
+  {
+   "text": "take",
+   "start": 29.117,
+   "end": 29.35,
+   "type": "word",
+   "line": "shot-4"
+  },
+  {
+   "text": "over",
+   "start": 29.373,
+   "end": 29.538,
+   "type": "word",
+   "line": "shot-4"
+  },
+  {
+   "text": "completely.",
+   "start": 29.547,
+   "end": 30.217,
+   "type": "word",
+   "line": "shot-4"
+  },
+  {
+   "text": "One:",
+   "start": 30.677,
+   "end": 31.147,
+   "type": "word",
+   "line": "shot-4"
+  },
+  {
+   "text": "a",
+   "start": 31.367,
+   "end": 31.466,
+   "type": "word",
+   "line": "shot-4"
+  },
+  {
+   "text": "one-handed",
+   "start": 31.541,
+   "end": 32.132,
+   "type": "word",
+   "line": "shot-4"
+  },
+  {
+   "text": "catalyst;",
+   "start": 32.147,
+   "end": 32.847,
+   "type": "word",
+   "line": "shot-4"
+  },
+  {
+   "text": "chemists",
+   "start": 33.097,
+   "end": 33.504,
+   "type": "word",
+   "line": "shot-4"
+  },
+  {
+   "text": "had",
+   "start": 33.552,
+   "end": 33.709,
+   "type": "word",
+   "line": "shot-4"
+  },
+  {
+   "text": "that",
+   "start": 33.754,
+   "end": 33.909,
+   "type": "word",
+   "line": "shot-4"
+  },
+  {
+   "text": "by",
+   "start": 33.946,
+   "end": 34.029,
+   "type": "word",
+   "line": "shot-4"
+  },
+  {
+   "text": "the",
+   "start": 34.055,
+   "end": 34.128,
+   "type": "word",
+   "line": "shot-4"
+  },
+  {
+   "text": "early",
+   "start": 34.19,
+   "end": 34.439,
+   "type": "word",
+   "line": "shot-4"
+  },
+  {
+   "text": "nineteen",
+   "start": 34.486,
+   "end": 34.881,
+   "type": "word",
+   "line": "shot-4"
+  },
+  {
+   "text": "hundreds.",
+   "start": 34.928,
+   "end": 35.527,
+   "type": "word",
+   "line": "shot-4"
+  },
+  {
+   "text": "Two:",
+   "start": 35.977,
+   "end": 36.387,
+   "type": "word",
+   "line": "shot-4"
+  },
+  {
+   "text": "boost",
+   "start": 36.607,
+   "end": 36.93,
+   "type": "word",
+   "line": "shot-4"
+  },
+  {
+   "text": "one",
+   "start": 36.984,
+   "end": 37.158,
+   "type": "word",
+   "line": "shot-4"
+  },
+  {
+   "text": "hand",
+   "start": 37.206,
+   "end": 37.503,
+   "type": "word",
+   "line": "shot-4"
+  },
+  {
+   "text": "and",
+   "start": 37.538,
+   "end": 37.61,
+   "type": "word",
+   "line": "shot-4"
+  },
+  {
+   "text": "hold",
+   "start": 37.657,
+   "end": 37.886,
+   "type": "word",
+   "line": "shot-4"
+  },
+  {
+   "text": "back",
+   "start": 37.947,
+   "end": 38.142,
+   "type": "word",
+   "line": "shot-4"
+  },
+  {
+   "text": "the",
+   "start": 38.187,
+   "end": 38.262,
+   "type": "word",
+   "line": "shot-4"
+  },
+  {
+   "text": "other.",
+   "start": 38.309,
+   "end": 38.667,
+   "type": "word",
+   "line": "shot-4"
+  },
+  {
+   "text": "Three:",
+   "start": 39.097,
+   "end": 39.607,
+   "type": "word",
+   "line": "shot-4"
+  },
+  {
+   "text": "a",
+   "start": 39.917,
+   "end": 39.964,
+   "type": "word",
+   "line": "shot-4"
+  },
+  {
+   "text": "reaction",
+   "start": 40.011,
+   "end": 40.51,
+   "type": "word",
+   "line": "shot-4"
+  },
+  {
+   "text": "that",
+   "start": 40.552,
+   "end": 40.642,
+   "type": "word",
+   "line": "shot-4"
+  },
+  {
+   "text": "makes",
+   "start": 40.675,
+   "end": 40.867,
+   "type": "word",
+   "line": "shot-4"
+  },
+  {
+   "text": "its",
+   "start": 40.894,
+   "end": 40.987,
+   "type": "word",
+   "line": "shot-4"
+  },
+  {
+   "text": "own",
+   "start": 41.019,
+   "end": 41.22,
+   "type": "word",
+   "line": "shot-4"
+  },
+  {
+   "text": "catalyst.",
+   "start": 41.247,
+   "end": 41.885,
+   "type": "word",
+   "line": "shot-4"
+  },
+  {
+   "text": "In",
+   "start": 43.445,
+   "end": 43.515,
+   "type": "word",
+   "line": "shot-5"
+  },
+  {
+   "text": "nineteen",
+   "start": 43.562,
+   "end": 43.945,
+   "type": "word",
+   "line": "shot-5"
+  },
+  {
+   "text": "eighty-six,",
+   "start": 43.987,
+   "end": 44.665,
+   "type": "word",
+   "line": "shot-5"
+  },
+  {
+   "text": "Henri",
+   "start": 44.855,
+   "end": 45.1,
+   "type": "word",
+   "line": "shot-5"
+  },
+  {
+   "text": "Kagan",
+   "start": 45.169,
+   "end": 45.531,
+   "type": "word",
+   "line": "shot-5"
+  },
+  {
+   "text": "ticked",
+   "start": 45.555,
+   "end": 45.833,
+   "type": "word",
+   "line": "shot-5"
+  },
+  {
+   "text": "box",
+   "start": 45.895,
+   "end": 46.243,
+   "type": "word",
+   "line": "shot-5"
+  },
+  {
+   "text": "two.",
+   "start": 46.275,
+   "end": 46.665,
+   "type": "word",
+   "line": "shot-5"
+  },
+  {
+   "text": "His",
+   "start": 47.125,
+   "end": 47.297,
+   "type": "word",
+   "line": "shot-5"
+  },
+  {
+   "text": "insight:",
+   "start": 47.346,
+   "end": 47.815,
+   "type": "word",
+   "line": "shot-5"
+  },
+  {
+   "text": "the",
+   "start": 48.305,
+   "end": 48.363,
+   "type": "word",
+   "line": "shot-5"
+  },
+  {
+   "text": "catalyst's",
+   "start": 48.417,
+   "end": 48.962,
+   "type": "word",
+   "line": "shot-5"
+  },
+  {
+   "text": "metal",
+   "start": 49.012,
+   "end": 49.281,
+   "type": "word",
+   "line": "shot-5"
+  },
+  {
+   "text": "holds",
+   "start": 49.328,
+   "end": 49.644,
+   "type": "word",
+   "line": "shot-5"
+  },
+  {
+   "text": "two",
+   "start": 49.715,
+   "end": 49.873,
+   "type": "word",
+   "line": "shot-5"
+  },
+  {
+   "text": "pieces,",
+   "start": 49.875,
+   "end": 50.435,
+   "type": "word",
+   "line": "shot-5"
+  },
+  {
+   "text": "so",
+   "start": 50.645,
+   "end": 50.843,
+   "type": "word",
+   "line": "shot-5"
+  },
+  {
+   "text": "mixed",
+   "start": 50.909,
+   "end": 51.15,
+   "type": "word",
+   "line": "shot-5"
+  },
+  {
+   "text": "hands",
+   "start": 51.198,
+   "end": 51.55,
+   "type": "word",
+   "line": "shot-5"
+  },
+  {
+   "text": "make",
+   "start": 51.594,
+   "end": 51.767,
+   "type": "word",
+   "line": "shot-5"
+  },
+  {
+   "text": "three",
+   "start": 51.845,
+   "end": 52.047,
+   "type": "word",
+   "line": "shot-5"
+  },
+  {
+   "text": "kinds",
+   "start": 52.095,
+   "end": 52.336,
+   "type": "word",
+   "line": "shot-5"
+  },
+  {
+   "text": "of",
+   "start": 52.36,
+   "end": 52.416,
+   "type": "word",
+   "line": "shot-5"
+  },
+  {
+   "text": "pairs,",
+   "start": 52.455,
+   "end": 52.991,
+   "type": "word",
+   "line": "shot-5"
+  },
+  {
+   "text": "and",
+   "start": 53.135,
+   "end": 53.239,
+   "type": "word",
+   "line": "shot-5"
+  },
+  {
+   "text": "the",
+   "start": 53.263,
+   "end": 53.318,
+   "type": "word",
+   "line": "shot-5"
+  },
+  {
+   "text": "mixed",
+   "start": 53.387,
+   "end": 53.653,
+   "type": "word",
+   "line": "shot-5"
+  },
+  {
+   "text": "pair",
+   "start": 53.705,
+   "end": 53.963,
+   "type": "word",
+   "line": "shot-5"
+  },
+  {
+   "text": "barely",
+   "start": 54.015,
+   "end": 54.333,
+   "type": "word",
+   "line": "shot-5"
+  },
+  {
+   "text": "works.",
+   "start": 54.383,
+   "end": 54.805,
+   "type": "word",
+   "line": "shot-5"
+  },
+  {
+   "text": "Start",
+   "start": 55.315,
+   "end": 55.639,
+   "type": "word",
+   "line": "shot-5"
+  },
+  {
+   "text": "seventy-five",
+   "start": 55.704,
+   "end": 56.39,
+   "type": "word",
+   "line": "shot-5"
+  },
+  {
+   "text": "to",
+   "start": 56.435,
+   "end": 56.49,
+   "type": "word",
+   "line": "shot-5"
+  },
+  {
+   "text": "twenty-five,",
+   "start": 56.545,
+   "end": 57.285,
+   "type": "word",
+   "line": "shot-5"
+  },
+  {
+   "text": "and",
+   "start": 57.525,
+   "end": 57.598,
+   "type": "word",
+   "line": "shot-5"
+  },
+  {
+   "text": "the",
+   "start": 57.622,
+   "end": 57.672,
+   "type": "word",
+   "line": "shot-5"
+  },
+  {
+   "text": "working",
+   "start": 57.72,
+   "end": 58.031,
+   "type": "word",
+   "line": "shot-5"
+  },
+  {
+   "text": "catalysts",
+   "start": 58.079,
+   "end": 58.595,
+   "type": "word",
+   "line": "shot-5"
+  },
+  {
+   "text": "are",
+   "start": 58.632,
+   "end": 58.722,
+   "type": "word",
+   "line": "shot-5"
+  },
+  {
+   "text": "ninety",
+   "start": 58.785,
+   "end": 59.102,
+   "type": "word",
+   "line": "shot-5"
+  },
+  {
+   "text": "to",
+   "start": 59.15,
+   "end": 59.222,
+   "type": "word",
+   "line": "shot-5"
+  },
+  {
+   "text": "ten:",
+   "start": 59.265,
+   "end": 59.675,
+   "type": "word",
+   "line": "shot-5"
+  },
+  {
+   "text": "a",
+   "start": 59.985,
+   "end": 60.052,
+   "type": "word",
+   "line": "shot-5"
+  },
+  {
+   "text": "purer",
+   "start": 60.105,
+   "end": 60.422,
+   "type": "word",
+   "line": "shot-5"
+  },
+  {
+   "text": "product",
+   "start": 60.485,
+   "end": 60.883,
+   "type": "word",
+   "line": "shot-5"
+  },
+  {
+   "text": "than",
+   "start": 60.935,
+   "end": 61.082,
+   "type": "word",
+   "line": "shot-5"
+  },
+  {
+   "text": "a",
+   "start": 61.082,
+   "end": 61.172,
+   "type": "word",
+   "line": "shot-5"
+  },
+  {
+   "text": "straight",
+   "start": 61.172,
+   "end": 61.495,
+   "type": "word",
+   "line": "shot-5"
+  },
+  {
+   "text": "line",
+   "start": 61.525,
+   "end": 61.843,
+   "type": "word",
+   "line": "shot-5"
+  },
+  {
+   "text": "predicts.",
+   "start": 61.905,
+   "end": 62.442,
+   "type": "word",
+   "line": "shot-5"
+  },
+  {
+   "text": "In",
+   "start": 64.392,
+   "end": 64.453,
+   "type": "word",
+   "line": "shot-6"
+  },
+  {
+   "text": "nineteen",
+   "start": 64.498,
+   "end": 64.823,
+   "type": "word",
+   "line": "shot-6"
+  },
+  {
+   "text": "ninety-five,",
+   "start": 64.858,
+   "end": 65.552,
+   "type": "word",
+   "line": "shot-6"
+  },
+  {
+   "text": "Kenso",
+   "start": 65.822,
+   "end": 66.25,
+   "type": "word",
+   "line": "shot-6"
+  },
+  {
+   "text": "Soai",
+   "start": 66.344,
+   "end": 66.652,
+   "type": "word",
+   "line": "shot-6"
+  },
+  {
+   "text": "ticked",
+   "start": 66.652,
+   "end": 66.958,
+   "type": "word",
+   "line": "shot-6"
+  },
+  {
+   "text": "box",
+   "start": 66.992,
+   "end": 67.347,
+   "type": "word",
+   "line": "shot-6"
+  },
+  {
+   "text": "three:",
+   "start": 67.392,
+   "end": 67.802,
+   "type": "word",
+   "line": "shot-6"
+  },
+  {
+   "text": "a",
+   "start": 68.262,
+   "end": 68.339,
+   "type": "word",
+   "line": "shot-6"
+  },
+  {
+   "text": "molecule",
+   "start": 68.388,
+   "end": 68.909,
+   "type": "word",
+   "line": "shot-6"
+  },
+  {
+   "text": "that",
+   "start": 68.943,
+   "end": 69.033,
+   "type": "word",
+   "line": "shot-6"
+  },
+  {
+   "text": "helps",
+   "start": 69.08,
+   "end": 69.341,
+   "type": "word",
+   "line": "shot-6"
+  },
+  {
+   "text": "build",
+   "start": 69.382,
+   "end": 69.67,
+   "type": "word",
+   "line": "shot-6"
+  },
+  {
+   "text": "more",
+   "start": 69.718,
+   "end": 69.876,
+   "type": "word",
+   "line": "shot-6"
+  },
+  {
+   "text": "of",
+   "start": 69.9,
+   "end": 69.951,
+   "type": "word",
+   "line": "shot-6"
+  },
+  {
+   "text": "itself,",
+   "start": 70.022,
+   "end": 70.452,
+   "type": "word",
+   "line": "shot-6"
+  },
+  {
+   "text": "same",
+   "start": 70.634,
+   "end": 70.883,
+   "type": "word",
+   "line": "shot-6"
+  },
+  {
+   "text": "hand,",
+   "start": 70.931,
+   "end": 71.332,
+   "type": "word",
+   "line": "shot-6"
+  },
+  {
+   "text": "from",
+   "start": 71.582,
+   "end": 71.75,
+   "type": "word",
+   "line": "shot-6"
+  },
+  {
+   "text": "simple",
+   "start": 71.841,
+   "end": 72.149,
+   "type": "word",
+   "line": "shot-6"
+  },
+  {
+   "text": "ingredients.",
+   "start": 72.197,
+   "end": 72.918,
+   "type": "word",
+   "line": "shot-6"
+  },
+  {
+   "text": "In",
+   "start": 74.128,
+   "end": 74.193,
+   "type": "word",
+   "line": "shot-7"
+  },
+  {
+   "text": "two",
+   "start": 74.252,
+   "end": 74.366,
+   "type": "word",
+   "line": "shot-7"
+  },
+  {
+   "text": "thousand",
+   "start": 74.414,
+   "end": 74.784,
+   "type": "word",
+   "line": "shot-7"
+  },
+  {
+   "text": "three,",
+   "start": 74.818,
+   "end": 75.218,
+   "type": "word",
+   "line": "shot-7"
+  },
+  {
+   "text": "his",
+   "start": 75.498,
+   "end": 75.651,
+   "type": "word",
+   "line": "shot-7"
+  },
+  {
+   "text": "team",
+   "start": 75.678,
+   "end": 75.945,
+   "type": "word",
+   "line": "shot-7"
+  },
+  {
+   "text": "started",
+   "start": 75.996,
+   "end": 76.33,
+   "type": "word",
+   "line": "shot-7"
+  },
+  {
+   "text": "with",
+   "start": 76.359,
+   "end": 76.445,
+   "type": "word",
+   "line": "shot-7"
+  },
+  {
+   "text": "a",
+   "start": 76.47,
+   "end": 76.51,
+   "type": "word",
+   "line": "shot-7"
+  },
+  {
+   "text": "lead",
+   "start": 76.563,
+   "end": 76.779,
+   "type": "word",
+   "line": "shot-7"
+  },
+  {
+   "text": "of",
+   "start": 76.805,
+   "end": 76.875,
+   "type": "word",
+   "line": "shot-7"
+  },
+  {
+   "text": "five",
+   "start": 76.959,
+   "end": 77.265,
+   "type": "word",
+   "line": "shot-7"
+  },
+  {
+   "text": "parts",
+   "start": 77.338,
+   "end": 77.686,
+   "type": "word",
+   "line": "shot-7"
+  },
+  {
+   "text": "in",
+   "start": 77.733,
+   "end": 77.827,
+   "type": "word",
+   "line": "shot-7"
+  },
+  {
+   "text": "ten",
+   "start": 77.897,
+   "end": 78.09,
+   "type": "word",
+   "line": "shot-7"
+  },
+  {
+   "text": "million.",
+   "start": 78.137,
+   "end": 78.638,
+   "type": "word",
+   "line": "shot-7"
+  },
+  {
+   "text": "Each",
+   "start": 79.188,
+   "end": 79.417,
+   "type": "word",
+   "line": "shot-7"
+  },
+  {
+   "text": "run's",
+   "start": 79.472,
+   "end": 79.754,
+   "type": "word",
+   "line": "shot-7"
+  },
+  {
+   "text": "product",
+   "start": 79.828,
+   "end": 80.208,
+   "type": "word",
+   "line": "shot-7"
+  },
+  {
+   "text": "seeds",
+   "start": 80.276,
+   "end": 80.588,
+   "type": "word",
+   "line": "shot-7"
+  },
+  {
+   "text": "the",
+   "start": 80.626,
+   "end": 80.681,
+   "type": "word",
+   "line": "shot-7"
+  },
+  {
+   "text": "next:",
+   "start": 80.728,
+   "end": 81.268,
+   "type": "word",
+   "line": "shot-7"
+  },
+  {
+   "text": "fifty-seven",
+   "start": 81.551,
+   "end": 82.106,
+   "type": "word",
+   "line": "shot-7"
+  },
+  {
+   "text": "percent",
+   "start": 82.154,
+   "end": 82.559,
+   "type": "word",
+   "line": "shot-7"
+  },
+  {
+   "text": "after",
+   "start": 82.604,
+   "end": 82.84,
+   "type": "word",
+   "line": "shot-7"
+  },
+  {
+   "text": "one",
+   "start": 82.848,
+   "end": 83.065,
+   "type": "word",
+   "line": "shot-7"
+  },
+  {
+   "text": "run,",
+   "start": 83.113,
+   "end": 83.548,
+   "type": "word",
+   "line": "shot-7"
+  },
+  {
+   "text": "ninety-nine",
+   "start": 83.738,
+   "end": 84.382,
+   "type": "word",
+   "line": "shot-7"
+  },
+  {
+   "text": "after",
+   "start": 84.427,
+   "end": 84.662,
+   "type": "word",
+   "line": "shot-7"
+  },
+  {
+   "text": "two,",
+   "start": 84.778,
+   "end": 85.168,
+   "type": "word",
+   "line": "shot-7"
+  },
+  {
+   "text": "past",
+   "start": 85.372,
+   "end": 85.649,
+   "type": "word",
+   "line": "shot-7"
+  },
+  {
+   "text": "ninety-nine",
+   "start": 85.688,
+   "end": 86.385,
+   "type": "word",
+   "line": "shot-7"
+  },
+  {
+   "text": "and",
+   "start": 86.409,
+   "end": 86.48,
+   "type": "word",
+   "line": "shot-7"
+  },
+  {
+   "text": "a",
+   "start": 86.503,
+   "end": 86.533,
+   "type": "word",
+   "line": "shot-7"
+  },
+  {
+   "text": "half",
+   "start": 86.578,
+   "end": 86.827,
+   "type": "word",
+   "line": "shot-7"
+  },
+  {
+   "text": "after",
+   "start": 86.863,
+   "end": 87.094,
+   "type": "word",
+   "line": "shot-7"
+  },
+  {
+   "text": "three.",
+   "start": 87.164,
+   "end": 87.521,
+   "type": "word",
+   "line": "shot-7"
+  },
+  {
+   "text": "Then,",
+   "start": 89.461,
+   "end": 89.677,
+   "type": "word",
+   "line": "shot-8"
+  },
+  {
+   "text": "with",
+   "start": 89.734,
+   "end": 89.861,
+   "type": "word",
+   "line": "shot-8"
+  },
+  {
+   "text": "no",
+   "start": 89.942,
+   "end": 90.174,
+   "type": "word",
+   "line": "shot-8"
+  },
+  {
+   "text": "one-handed",
+   "start": 90.174,
+   "end": 90.762,
+   "type": "word",
+   "line": "shot-8"
+  },
+  {
+   "text": "ingredient",
+   "start": 90.805,
+   "end": 91.356,
+   "type": "word",
+   "line": "shot-8"
+  },
+  {
+   "text": "added,",
+   "start": 91.411,
+   "end": 91.921,
+   "type": "word",
+   "line": "shot-8"
+  },
+  {
+   "text": "the",
+   "start": 92.101,
+   "end": 92.135,
+   "type": "word",
+   "line": "shot-8"
+  },
+  {
+   "text": "reaction",
+   "start": 92.183,
+   "end": 92.67,
+   "type": "word",
+   "line": "shot-8"
+  },
+  {
+   "text": "still",
+   "start": 92.735,
+   "end": 92.943,
+   "type": "word",
+   "line": "shot-8"
+  },
+  {
+   "text": "picked",
+   "start": 92.993,
+   "end": 93.17,
+   "type": "word",
+   "line": "shot-8"
+  },
+  {
+   "text": "a",
+   "start": 93.201,
+   "end": 93.233,
+   "type": "word",
+   "line": "shot-8"
+  },
+  {
+   "text": "hand,",
+   "start": 93.293,
+   "end": 93.771,
+   "type": "word",
+   "line": "shot-8"
+  },
+  {
+   "text": "at",
+   "start": 93.941,
+   "end": 94.028,
+   "type": "word",
+   "line": "shot-8"
+  },
+  {
+   "text": "random.",
+   "start": 94.061,
+   "end": 94.611,
+   "type": "word",
+   "line": "shot-8"
+  },
+  {
+   "text": "In",
+   "start": 95.161,
+   "end": 95.244,
+   "type": "word",
+   "line": "shot-8"
+  },
+  {
+   "text": "thirty-seven",
+   "start": 95.315,
+   "end": 95.91,
+   "type": "word",
+   "line": "shot-8"
+  },
+  {
+   "text": "runs,",
+   "start": 95.958,
+   "end": 96.451,
+   "type": "word",
+   "line": "shot-8"
+  },
+  {
+   "text": "nineteen",
+   "start": 96.571,
+   "end": 97.069,
+   "type": "word",
+   "line": "shot-8"
+  },
+  {
+   "text": "leaned",
+   "start": 97.117,
+   "end": 97.373,
+   "type": "word",
+   "line": "shot-8"
+  },
+  {
+   "text": "one",
+   "start": 97.425,
+   "end": 97.595,
+   "type": "word",
+   "line": "shot-8"
+  },
+  {
+   "text": "way,",
+   "start": 97.643,
+   "end": 97.961,
+   "type": "word",
+   "line": "shot-8"
+  },
+  {
+   "text": "eighteen",
+   "start": 98.181,
+   "end": 98.546,
+   "type": "word",
+   "line": "shot-8"
+  },
+  {
+   "text": "the",
+   "start": 98.577,
+   "end": 98.657,
+   "type": "word",
+   "line": "shot-8"
+  },
+  {
+   "text": "other.",
+   "start": 98.699,
+   "end": 99.022,
+   "type": "word",
+   "line": "shot-8"
+  },
+  {
+   "text": "In",
+   "start": 100.212,
+   "end": 100.264,
+   "type": "word",
+   "line": "shot-9"
+  },
+  {
+   "text": "our",
+   "start": 100.288,
+   "end": 100.387,
+   "type": "word",
+   "line": "shot-9"
+  },
+  {
+   "text": "toy",
+   "start": 100.442,
+   "end": 100.683,
+   "type": "word",
+   "line": "shot-9"
+  },
+  {
+   "text": "model,",
+   "start": 100.73,
+   "end": 101.162,
+   "type": "word",
+   "line": "shot-9"
+  },
+  {
+   "text": "copying",
+   "start": 101.352,
+   "end": 101.733,
+   "type": "word",
+   "line": "shot-9"
+  },
+  {
+   "text": "alone",
+   "start": 101.78,
+   "end": 102.133,
+   "type": "word",
+   "line": "shot-9"
+  },
+  {
+   "text": "isn't",
+   "start": 102.174,
+   "end": 102.358,
+   "type": "word",
+   "line": "shot-9"
+  },
+  {
+   "text": "enough:",
+   "start": 102.387,
+   "end": 102.882,
+   "type": "word",
+   "line": "shot-9"
+  },
+  {
+   "text": "ten",
+   "start": 103.106,
+   "end": 103.298,
+   "type": "word",
+   "line": "shot-9"
+  },
+  {
+   "text": "thousand",
+   "start": 103.346,
+   "end": 103.686,
+   "type": "word",
+   "line": "shot-9"
+  },
+  {
+   "text": "runs",
+   "start": 103.737,
+   "end": 104.09,
+   "type": "word",
+   "line": "shot-9"
+  },
+  {
+   "text": "end",
+   "start": 104.137,
+   "end": 104.294,
+   "type": "word",
+   "line": "shot-9"
+  },
+  {
+   "text": "up",
+   "start": 104.318,
+   "end": 104.444,
+   "type": "word",
+   "line": "shot-9"
+  },
+  {
+   "text": "anywhere.",
+   "start": 104.479,
+   "end": 105.062,
+   "type": "word",
+   "line": "shot-9"
+  },
+  {
+   "text": "Add",
+   "start": 105.575,
+   "end": 105.798,
+   "type": "word",
+   "line": "shot-9"
+  },
+  {
+   "text": "box",
+   "start": 105.858,
+   "end": 106.223,
+   "type": "word",
+   "line": "shot-9"
+  },
+  {
+   "text": "two,",
+   "start": 106.296,
+   "end": 106.722,
+   "type": "word",
+   "line": "shot-9"
+  },
+  {
+   "text": "where",
+   "start": 106.825,
+   "end": 106.931,
+   "type": "word",
+   "line": "shot-9"
+  },
+  {
+   "text": "a",
+   "start": 106.968,
+   "end": 107.01,
+   "type": "word",
+   "line": "shot-9"
+  },
+  {
+   "text": "one-hand",
+   "start": 107.068,
+   "end": 107.613,
+   "type": "word",
+   "line": "shot-9"
+  },
+  {
+   "text": "and",
+   "start": 107.65,
+   "end": 107.72,
+   "type": "word",
+   "line": "shot-9"
+  },
+  {
+   "text": "a",
+   "start": 107.744,
+   "end": 107.776,
+   "type": "word",
+   "line": "shot-9"
+  },
+  {
+   "text": "mirror",
+   "start": 107.83,
+   "end": 108.07,
+   "type": "word",
+   "line": "shot-9"
+  },
+  {
+   "text": "molecule",
+   "start": 108.118,
+   "end": 108.635,
+   "type": "word",
+   "line": "shot-9"
+  },
+  {
+   "text": "pair",
+   "start": 108.722,
+   "end": 108.905,
+   "type": "word",
+   "line": "shot-9"
+  },
+  {
+   "text": "up",
+   "start": 108.936,
+   "end": 109.066,
+   "type": "word",
+   "line": "shot-9"
+  },
+  {
+   "text": "and",
+   "start": 109.092,
+   "end": 109.168,
+   "type": "word",
+   "line": "shot-9"
+  },
+  {
+   "text": "stop",
+   "start": 109.231,
+   "end": 109.521,
+   "type": "word",
+   "line": "shot-9"
+  },
+  {
+   "text": "working,",
+   "start": 109.562,
+   "end": 110.192,
+   "type": "word",
+   "line": "shot-9"
+  },
+  {
+   "text": "and",
+   "start": 110.337,
+   "end": 110.409,
+   "type": "word",
+   "line": "shot-9"
+  },
+  {
+   "text": "nearly",
+   "start": 110.453,
+   "end": 110.724,
+   "type": "word",
+   "line": "shot-9"
+  },
+  {
+   "text": "every",
+   "start": 110.784,
+   "end": 111.038,
+   "type": "word",
+   "line": "shot-9"
+  },
+  {
+   "text": "run",
+   "start": 111.102,
+   "end": 111.37,
+   "type": "word",
+   "line": "shot-9"
+  },
+  {
+   "text": "ends",
+   "start": 111.441,
+   "end": 111.676,
+   "type": "word",
+   "line": "shot-9"
+  },
+  {
+   "text": "with",
+   "start": 111.706,
+   "end": 111.822,
+   "type": "word",
+   "line": "shot-9"
+  },
+  {
+   "text": "one",
+   "start": 111.89,
+   "end": 112.063,
+   "type": "word",
+   "line": "shot-9"
+  },
+  {
+   "text": "hand",
+   "start": 112.113,
+   "end": 112.382,
+   "type": "word",
+   "line": "shot-9"
+  },
+  {
+   "text": "taking",
+   "start": 112.429,
+   "end": 112.676,
+   "type": "word",
+   "line": "shot-9"
+  },
+  {
+   "text": "over.",
+   "start": 112.714,
+   "end": 113.172,
+   "type": "word",
+   "line": "shot-9"
+  },
+  {
+   "text": "Which",
+   "start": 113.548,
+   "end": 113.725,
+   "type": "word",
+   "line": "shot-9"
+  },
+  {
+   "text": "hand",
+   "start": 113.732,
+   "end": 114.061,
+   "type": "word",
+   "line": "shot-9"
+  },
+  {
+   "text": "is",
+   "start": 114.097,
+   "end": 114.166,
+   "type": "word",
+   "line": "shot-9"
+  },
+  {
+   "text": "a",
+   "start": 114.196,
+   "end": 114.234,
+   "type": "word",
+   "line": "shot-9"
+  },
+  {
+   "text": "coin",
+   "start": 114.322,
+   "end": 114.618,
+   "type": "word",
+   "line": "shot-9"
+  },
+  {
+   "text": "toss.",
+   "start": 114.678,
+   "end": 115.141,
+   "type": "word",
+   "line": "shot-9"
+  },
+  {
+   "text": "A",
+   "start": 117.711,
+   "end": 117.746,
+   "type": "word",
+   "line": "shot-10"
+  },
+  {
+   "text": "toy,",
+   "start": 117.781,
+   "end": 118.251,
+   "type": "word",
+   "line": "shot-10"
+  },
+  {
+   "text": "not",
+   "start": 118.321,
+   "end": 118.542,
+   "type": "word",
+   "line": "shot-10"
+  },
+  {
+   "text": "how",
+   "start": 118.59,
+   "end": 118.754,
+   "type": "word",
+   "line": "shot-10"
+  },
+  {
+   "text": "life",
+   "start": 118.811,
+   "end": 119.057,
+   "type": "word",
+   "line": "shot-10"
+  },
+  {
+   "text": "chose",
+   "start": 119.107,
+   "end": 119.394,
+   "type": "word",
+   "line": "shot-10"
+  },
+  {
+   "text": "its",
+   "start": 119.451,
+   "end": 119.54,
+   "type": "word",
+   "line": "shot-10"
+  },
+  {
+   "text": "hand.",
+   "start": 119.588,
+   "end": 119.961,
+   "type": "word",
+   "line": "shot-10"
+  },
+  {
+   "text": "The",
+   "start": 120.441,
+   "end": 120.589,
+   "type": "word",
+   "line": "shot-10"
+  },
+  {
+   "text": "Nobel",
+   "start": 120.637,
+   "end": 121.023,
+   "type": "word",
+   "line": "shot-10"
+  },
+  {
+   "text": "Committee",
+   "start": 121.073,
+   "end": 121.5,
+   "type": "word",
+   "line": "shot-10"
+  },
+  {
+   "text": "stresses",
+   "start": 121.561,
+   "end": 121.998,
+   "type": "word",
+   "line": "shot-10"
+  },
+  {
+   "text": "Frank's",
+   "start": 122.068,
+   "end": 122.358,
+   "type": "word",
+   "line": "shot-10"
+  },
+  {
+   "text": "model",
+   "start": 122.42,
+   "end": 122.771,
+   "type": "word",
+   "line": "shot-10"
+  },
+  {
+   "text": "isn't",
+   "start": 122.961,
+   "end": 123.219,
+   "type": "word",
+   "line": "shot-10"
+  },
+  {
+   "text": "the",
+   "start": 123.245,
+   "end": 123.338,
+   "type": "word",
+   "line": "shot-10"
+  },
+  {
+   "text": "answer",
+   "start": 123.412,
+   "end": 123.735,
+   "type": "word",
+   "line": "shot-10"
+  },
+  {
+   "text": "to",
+   "start": 123.784,
+   "end": 123.857,
+   "type": "word",
+   "line": "shot-10"
+  },
+  {
+   "text": "life's",
+   "start": 123.904,
+   "end": 124.214,
+   "type": "word",
+   "line": "shot-10"
+  },
+  {
+   "text": "origin,",
+   "start": 124.262,
+   "end": 124.811,
+   "type": "word",
+   "line": "shot-10"
+  },
+  {
+   "text": "and",
+   "start": 125.141,
+   "end": 125.267,
+   "type": "word",
+   "line": "shot-10"
+  },
+  {
+   "text": "how",
+   "start": 125.315,
+   "end": 125.489,
+   "type": "word",
+   "line": "shot-10"
+  },
+  {
+   "text": "Soai's",
+   "start": 125.588,
+   "end": 125.933,
+   "type": "word",
+   "line": "shot-10"
+  },
+  {
+   "text": "reaction",
+   "start": 125.981,
+   "end": 126.446,
+   "type": "word",
+   "line": "shot-10"
+  },
+  {
+   "text": "works",
+   "start": 126.493,
+   "end": 126.754,
+   "type": "word",
+   "line": "shot-10"
+  },
+  {
+   "text": "is",
+   "start": 126.799,
+   "end": 126.868,
+   "type": "word",
+   "line": "shot-10"
+  },
+  {
+   "text": "still",
+   "start": 126.921,
+   "end": 127.134,
+   "type": "word",
+   "line": "shot-10"
+  },
+  {
+   "text": "debated.",
+   "start": 127.181,
+   "end": 127.699,
+   "type": "word",
+   "line": "shot-10"
+  },
+  {
+   "text": "Choosing",
+   "start": 128.899,
+   "end": 129.25,
+   "type": "word",
+   "line": "shot-11"
+  },
+  {
+   "text": "the",
+   "start": 129.282,
+   "end": 129.329,
+   "type": "word",
+   "line": "shot-11"
+  },
+  {
+   "text": "hand",
+   "start": 129.377,
+   "end": 129.639,
+   "type": "word",
+   "line": "shot-11"
+  },
+  {
+   "text": "matters",
+   "start": 129.686,
+   "end": 130.032,
+   "type": "word",
+   "line": "shot-11"
+  },
+  {
+   "text": "for",
+   "start": 130.077,
+   "end": 130.172,
+   "type": "word",
+   "line": "shot-11"
+  },
+  {
+   "text": "medicines:",
+   "start": 130.218,
+   "end": 130.899,
+   "type": "word",
+   "line": "shot-11"
+  },
+  {
+   "text": "one",
+   "start": 131.329,
+   "end": 131.502,
+   "type": "word",
+   "line": "shot-11"
+  },
+  {
+   "text": "form",
+   "start": 131.575,
+   "end": 131.849,
+   "type": "word",
+   "line": "shot-11"
+  },
+  {
+   "text": "does",
+   "start": 131.895,
+   "end": 132.049,
+   "type": "word",
+   "line": "shot-11"
+  },
+  {
+   "text": "the",
+   "start": 132.087,
+   "end": 132.14,
+   "type": "word",
+   "line": "shot-11"
+  },
+  {
+   "text": "job,",
+   "start": 132.203,
+   "end": 132.699,
+   "type": "word",
+   "line": "shot-11"
+  },
+  {
+   "text": "and",
+   "start": 132.999,
+   "end": 133.049,
+   "type": "word",
+   "line": "shot-11"
+  },
+  {
+   "text": "its",
+   "start": 133.073,
+   "end": 133.2,
+   "type": "word",
+   "line": "shot-11"
+  },
+  {
+   "text": "mirror",
+   "start": 133.271,
+   "end": 133.542,
+   "type": "word",
+   "line": "shot-11"
+  },
+  {
+   "text": "image",
+   "start": 133.619,
+   "end": 133.933,
+   "type": "word",
+   "line": "shot-11"
+  },
+  {
+   "text": "can",
+   "start": 134.019,
+   "end": 134.111,
+   "type": "word",
+   "line": "shot-11"
+  },
+  {
+   "text": "cause",
+   "start": 134.174,
+   "end": 134.5,
+   "type": "word",
+   "line": "shot-11"
+  },
+  {
+   "text": "unnecessary,",
+   "start": 134.569,
+   "end": 135.469,
+   "type": "word",
+   "line": "shot-11"
+  },
+  {
+   "text": "sometimes",
+   "start": 135.729,
+   "end": 136.235,
+   "type": "word",
+   "line": "shot-11"
+  },
+  {
+   "text": "harmful,",
+   "start": 136.308,
+   "end": 136.846,
+   "type": "word",
+   "line": "shot-11"
+  },
+  {
+   "text": "side",
+   "start": 136.979,
+   "end": 137.257,
+   "type": "word",
+   "line": "shot-11"
+  },
+  {
+   "text": "effects.",
+   "start": 137.289,
+   "end": 137.748,
+   "type": "word",
+   "line": "shot-11"
+  },
+  {
+   "text": "Race",
+   "start": 139.288,
+   "end": 139.55,
+   "type": "word",
+   "line": "shot-12"
+  },
+  {
+   "text": "the",
+   "start": 139.618,
+   "end": 139.658,
+   "type": "word",
+   "line": "shot-12"
+  },
+  {
+   "text": "mirrors",
+   "start": 139.709,
+   "end": 140.04,
+   "type": "word",
+   "line": "shot-12"
+  },
+  {
+   "text": "yourself",
+   "start": 140.087,
+   "end": 140.626,
+   "type": "word",
+   "line": "shot-12"
+  },
+  {
+   "text": "in",
+   "start": 140.674,
+   "end": 140.725,
+   "type": "word",
+   "line": "shot-12"
+  },
+  {
+   "text": "our",
+   "start": 140.748,
+   "end": 140.875,
+   "type": "word",
+   "line": "shot-12"
+  },
+  {
+   "text": "open",
+   "start": 140.918,
+   "end": 141.314,
+   "type": "word",
+   "line": "shot-12"
+  },
+  {
+   "text": "Nobel",
+   "start": 141.39,
+   "end": 141.862,
+   "type": "word",
+   "line": "shot-12"
+  },
+  {
+   "text": "2026",
+   "start": 141.898,
+   "end": 143.137,
+   "type": "word",
+   "line": "shot-12"
+  },
+  {
+   "text": "lab.",
+   "start": 143.187,
+   "end": 143.518,
+   "type": "word",
+   "line": "shot-12"
+  },
+  {
+   "text": "Explained",
+   "start": 144.108,
+   "end": 144.732,
+   "type": "word",
+   "line": "shot-12"
+  },
+  {
+   "text": "with",
+   "start": 144.767,
+   "end": 144.886,
+   "type": "word",
+   "line": "shot-12"
+  },
+  {
+   "text": "showtime,",
+   "start": 144.961,
+   "end": 145.578,
+   "type": "word",
+   "line": "shot-12"
+  },
+  {
+   "text": "an",
+   "start": 145.888,
+   "end": 145.956,
+   "type": "word",
+   "line": "shot-12"
+  },
+  {
+   "text": "open-source",
+   "start": 146.048,
+   "end": 146.664,
+   "type": "word",
+   "line": "shot-12"
+  },
+  {
+   "text": "video",
+   "start": 146.748,
+   "end": 146.999,
+   "type": "word",
+   "line": "shot-12"
+  },
+  {
+   "text": "studio",
+   "start": 147.046,
+   "end": 147.471,
+   "type": "word",
+   "line": "shot-12"
+  },
+  {
+   "text": "for",
+   "start": 147.519,
+   "end": 147.621,
+   "type": "word",
+   "line": "shot-12"
+  },
+  {
+   "text": "coding",
+   "start": 147.668,
+   "end": 147.983,
+   "type": "word",
+   "line": "shot-12"
+  },
+  {
+   "text": "agents.",
+   "start": 148.023,
+   "end": 148.562,
+   "type": "word",
+   "line": "shot-12"
+  }
+ ]
+}

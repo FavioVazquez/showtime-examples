@@ -71,7 +71,7 @@ showtime job init black-26-1-0 --mode quick --platform github --goal "Make a 35-
   --assumed "35 s, 16:9, 30 fps, no voice-over: on-screen text + deep-house bed (122 bpm) + keyclick/glitch SFX" \
   --assumed "the diff shown is 26.1.0 run on code 25.12.0 already formatted" --assumed "unofficial label; no logos" \
   --assumed "every diff and terminal line is real output from both versions"
-showtime new dom <p> --title "Black 26.1.0" --duration 35      # the template's timeline rescaled to 35 s, then rewritten
+showtime new dom <p> --title "Black 26.1.0" --duration 35 --look template   # the template's timeline rescaled to 35 s, then rewritten
 
 # real material
 venv-25.12.0/bin/black -q x.25.12.0.py; venv-26.1.0/bin/black -q x.26.1.0.py   # per sample, see evidence/samples

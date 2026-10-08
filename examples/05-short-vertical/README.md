@@ -59,7 +59,7 @@ showtime demo record <job>/work/shortcuts.mjs <job>/work/demo --serve examples/_
 showtime footage scenes <job>/work/demo/demo.mp4 --every 0.5 -o <job>/work/demo-sheet   # look at it
 
 # project, voice, fonts
-showtime new short <job>/project --duration 15
+showtime new short <job>/project --duration 15 --look template
 showtime voice script <job>/project/narration.md -o <job>/project/voice --fit 13.5
 showtime assets font inter --copy-to <job>/project/fonts
 showtime assets font "JetBrains Mono" --copy-to <job>/project/fonts

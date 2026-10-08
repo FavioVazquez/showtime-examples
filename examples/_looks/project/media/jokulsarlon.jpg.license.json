@@ -1,0 +1,23 @@
+{
+  "source": "commons",
+  "source_label": "Wikimedia Commons",
+  "id": "commons:62221230",
+  "title": "Iceberg reflection in Jökulsárlón (Unsplash)",
+  "author": "Jeremy Bishop tidesinourveins",
+  "author_url": null,
+  "license": "CC0 1.0",
+  "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+  "landing_url": "https://commons.wikimedia.org/wiki/File:Iceberg_reflection_in_J%C3%B6kuls%C3%A1rl%C3%B3n_(Unsplash).jpg",
+  "note": null,
+  "type": "image",
+  "license_notice": null,
+  "file_url": "https://upload.wikimedia.org/wikipedia/commons/5/58/Iceberg_reflection_in_J%C3%B6kuls%C3%A1rl%C3%B3n_%28Unsplash%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "sha256": "57097ffef37f9542336c3789eb9baf28a747c22b51ed69db87afad8b696595aa",
+  "fetched": "2026-09-27T16:42:16",
+  "license_class": "free",
+  "attribution_required": false,
+  "credit": "\"Iceberg reflection in Jökulsárlón (Unsplash)\" by Jeremy Bishop tidesinourveins via Wikimedia Commons (CC0 1.0) - https://commons.wikimedia.org/wiki/File:Iceberg_reflection_in_J%C3%B6kuls%C3%A1rl%C3%B3n_(Unsplash).jpg",
+  "file": "jokulsarlon.jpg",
+  "rendition": "3840px Commons thumbnail (original download rate-limited, HTTP 429)",
+  "derived": "resized to 1920x1280 for this demo (from the copy in examples/19-travel-slideshow-iceland)"
+}

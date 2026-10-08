@@ -122,7 +122,7 @@ showtime audio mix <p>/audio/mix.json -o <job>/work/mix.wav  # -14.0 LUFS, -1.1 
 showtime audio beats <job>/work/mix2.wav                     # the grid runs on unbroken through the splice (38.52 / 40.77 / 43.07)
 
 # project and first look
-showtime new dom <p> --title "Ring Road" --duration 45       # page then rewritten (index.html)
+showtime new dom <p> --title "Ring Road" --duration 45 --look template   # page then rewritten (index.html)
 showtime check <p>                                           # 4 rounds, see Iterations; final: PASS, 1 WARN (explained below)
 showtime snap <p> --at 0,1.9,2.4,3.0,... --sheet             # 5 targeted sheets across both aspects
 python <p>/tools/make_vertical.py                            # -> <job>/project-916 (1080x1920)

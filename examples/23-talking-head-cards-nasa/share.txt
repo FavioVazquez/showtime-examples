@@ -1,0 +1,24 @@
+YouTube (16:9, final.mp4):
+Title: Why NASA's GOLD mission watches the upper atmosphere (2018 interview)
+Description: NASA mission scientist Sarah Jones explains what the GOLD mission measures, why space weather
+matters for satellites, astronauts and GPS, and why sitting 22,000 miles above Earth lets it watch half the
+planet at once. Interview recorded by NASA Goddard in January 2018, before the mission's results.
+Footage: NASA Goddard Space Flight Center via the NASA Image and Video Library (public domain),
+https://images.nasa.gov/details/GSFC_20180124_m12825_SarahJones
+Upload final.srt as the caption track (the video also burns captions in, so leave auto captions off).
+
+Shorts / Reels (9:16, final-9x16.mp4):
+"GOLD will be sitting twenty two thousand miles above Earth." NASA's Sarah Jones on watching the upper
+atmosphere from one point above the Western Hemisphere (2018 interview). What would you want to watch from up
+there?
+
+Alt text (poster):
+A NASA scientist in a studio, with a card in the upper left reading "22,000 miles, above Earth" and a caption
+below: "GOLD will be sitting twenty two thousand miles above Earth".
+
+Notes for posting:
+- Credit the footage to NASA as above. Do not add NASA logos, and do not word the post as if NASA made or
+  endorses it.
+- The interview dates from January 2018 and speaks of the mission in the future tense ("will be sitting");
+  keep "2018 interview" in the post.
+- Captions are burned in: no caption upload for Shorts or Reels.

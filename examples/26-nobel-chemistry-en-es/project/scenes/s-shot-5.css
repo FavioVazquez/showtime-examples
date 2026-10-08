@@ -1,0 +1,67 @@
+/* .s-shot-5: the notebook ground and the recipe page (shared layout with the other Kagan/Frank scene) */
+.s-shot-5 { --u: calc(100cqw / 1920); padding: 0; }
+.s-shot-5 .nb-grid {
+  position: absolute; inset: 0; pointer-events: none;
+  background-image:
+    linear-gradient(to right, rgb(28 26 23 / 0.07) 1px, transparent 1px),
+    linear-gradient(to bottom, rgb(28 26 23 / 0.07) 1px, transparent 1px),
+    linear-gradient(to right, rgb(28 26 23 / 0.035) 1px, transparent 1px),
+    linear-gradient(to bottom, rgb(28 26 23 / 0.035) 1px, transparent 1px);
+  background-size: calc(var(--u) * 200) calc(var(--u) * 200), calc(var(--u) * 200) calc(var(--u) * 200),
+                   calc(var(--u) * 40) calc(var(--u) * 40), calc(var(--u) * 40) calc(var(--u) * 40);
+}
+.s-shot-5 .cam { position: absolute; inset: 0; }
+.s-shot-5 .pg, .s-shot-5 .kp, .s-shot-5 .cp { position: absolute; inset: 0; }
+.s-shot-5 svg.pg-svg, .s-shot-5 svg.kp-svg, .s-shot-5 svg.cp-svg { position: absolute; inset: 0; width: 100%; height: 100%; overflow: visible; }
+.s-shot-5 .t { position: absolute; margin: 0; white-space: nowrap; color: #1c1a17;
+  font-family: 'IBM Plex Sans', sans-serif; font-weight: 500; font-size: calc(var(--u) * 40); line-height: 1.25; }
+.s-shot-5 .note { left: calc(var(--u) * 60); font: 500 calc(var(--u) * 34)/1.3 'IBM Plex Mono', monospace; opacity: 0; }
+.s-shot-5 .note-frank-a { top: calc(var(--u) * 48); }
+.s-shot-5 .note-frank-b { top: calc(var(--u) * 94); }
+
+.s-shot-5 .pg-head { left: calc(var(--u) * 250); top: calc(var(--u) * 168); font: 700 calc(var(--u) * 100)/1.15 'Fraunces', serif;
+  letter-spacing: -0.02em; display: flex; align-items: center; }
+.s-shot-5 .pg-htxt { position: relative; display: inline-block; }
+.s-shot-5 .pg-uline { position: absolute; left: 0; right: calc(var(--u) * -6); bottom: calc(var(--u) * -10); height: calc(var(--u) * 14); }
+.s-shot-5 .pg-uline svg { display: block; width: 100%; height: 100%; }
+.s-shot-5 .pg-picto { display: inline-block; width: calc(var(--u) * 196); height: calc(var(--u) * 102); margin-left: calc(var(--u) * 64); }
+.s-shot-5 .pg-picto svg { display: block; width: 100%; height: 100%; overflow: visible; }
+.s-shot-5 .pg-num { left: calc(var(--u) * 372); font: 700 calc(var(--u) * 60)/1 'Fraunces', serif; opacity: 0; }
+.s-shot-5 .pg-txt { left: calc(var(--u) * 440); font-size: calc(var(--u) * 52); font-weight: 500; }
+.s-shot-5 .pg-num1 { top: calc(var(--u) * 372); } .s-shot-5 .pg-txt1 { top: calc(var(--u) * 366); }
+.s-shot-5 .pg-num2 { top: calc(var(--u) * 537); } .s-shot-5 .pg-txt2 { top: calc(var(--u) * 531); }
+.s-shot-5 .pg-num3 { top: calc(var(--u) * 702); } .s-shot-5 .pg-txt3 { top: calc(var(--u) * 696); }
+.s-shot-5 .pg-lab { left: calc(var(--u) * 1500); font: 500 calc(var(--u) * 40)/1.25 'IBM Plex Mono', monospace; opacity: 0; }
+.s-shot-5 .pg-lab1 { top: calc(var(--u) * 374); } .s-shot-5 .pg-lab2 { top: calc(var(--u) * 539); } .s-shot-5 .pg-lab3 { top: calc(var(--u) * 704); }
+.s-shot-5 .pg-src { left: calc(var(--u) * 250); top: calc(var(--u) * 806); font: 500 calc(var(--u) * 30)/1.25 'IBM Plex Mono', monospace;
+  color: #59534a; opacity: 0; }
+
+/* shot-5 only: margin note, recap strip, the Kagan page (5a) and the chart page (5b) */
+.s-shot-5 .note-kagan { top: calc(var(--u) * 48); }
+.s-shot-5 .rc { position: absolute; inset: 0; opacity: 0; }
+.s-shot-5 svg.rc-svg { position: absolute; inset: 0; width: 100%; height: 100%; overflow: visible; }
+.s-shot-5 .rc-lab { left: calc(var(--u) * 760); top: calc(var(--u) * 56); font: 500 calc(var(--u) * 30)/1.25 'IBM Plex Mono', monospace; }
+.s-shot-5 .rc-n { top: calc(var(--u) * 56); font: 500 calc(var(--u) * 30)/1.25 'IBM Plex Mono', monospace; }
+.s-shot-5 .rc-n1 { left: calc(var(--u) * 1040); } .s-shot-5 .rc-n2 { left: calc(var(--u) * 1130); } .s-shot-5 .rc-n3 { left: calc(var(--u) * 1220); }
+.s-shot-5 .kp { opacity: 0; }
+.s-shot-5 .kp-dlab { left: calc(var(--u) * 400); top: calc(var(--u) * 512); transform: translateX(-50%); font-size: calc(var(--u) * 38); opacity: 0; }
+.s-shot-5 .kp-pct { left: calc(var(--u) * 1474); font: 700 calc(var(--u) * 64)/1.25 'Fraunces', serif; opacity: 0;
+  font-variant-numeric: tabular-nums; }
+.s-shot-5 .kp-pct1 { top: calc(var(--u) * 290); } .s-shot-5 .kp-pct2 { top: calc(var(--u) * 480); } .s-shot-5 .kp-pct3 { top: calc(var(--u) * 670); }
+.s-shot-5 .kp-barely { left: calc(var(--u) * 1236); top: calc(var(--u) * 566); font: 600 calc(var(--u) * 38)/1.2 'IBM Plex Sans', sans-serif; opacity: 0; }
+.s-shot-5 .kp-plab { left: calc(var(--u) * 172); top: calc(var(--u) * 622); font: 600 calc(var(--u) * 44)/1.2 'IBM Plex Sans', sans-serif; opacity: 0; }
+.s-shot-5 .kp-credit { left: calc(var(--u) * 68); top: calc(var(--u) * 160); font: 500 calc(var(--u) * 28)/1.25 'IBM Plex Mono', monospace;
+  color: #59534a; opacity: 0; }
+.s-shot-5 .kp-chip { left: calc(var(--u) * 880); top: calc(var(--u) * 758); font: 600 calc(var(--u) * 50)/1.2 'Fraunces', serif;
+  transform-origin: 50% 0; opacity: 0; }
+.s-shot-5 .kp-chip-b { font-weight: 700; color: #1c1a17; }
+.s-shot-5 .cp { opacity: 0; }
+.s-shot-5 .cp-ylab { left: calc(var(--u) * 296); top: calc(var(--u) * 520); transform: translate(-50%, -50%) rotate(-90deg); font-size: calc(var(--u) * 40); }
+.s-shot-5 .cp-xlab { left: calc(var(--u) * 1420); top: calc(var(--u) * 768); transform: translateX(-100%); font-size: calc(var(--u) * 36); }
+.s-shot-5 .cp-exp { left: calc(var(--u) * 1040); top: calc(var(--u) * 450); color: #59534a; font-size: calc(var(--u) * 36);
+  transform: translate(-50%, -50%) rotate(-31.68deg); opacity: 0; }
+.s-shot-5 .cp-purer { left: calc(var(--u) * 1336); top: calc(var(--u) * 196); font: 700 calc(var(--u) * 46)/1.2 'Fraunces', serif;
+  color: #b13d0b; opacity: 0; }
+.s-shot-5 .cp-stamp { left: calc(var(--u) * 1390); top: calc(var(--u) * 620); font: 500 calc(var(--u) * 32)/1.3 'IBM Plex Mono', monospace;
+  padding: calc(var(--u) * 10) calc(var(--u) * 18); border: calc(var(--u) * 2.5) dashed rgb(28 26 23 / 0.6);
+  border-radius: calc(var(--u) * 4); background: rgb(246 240 228 / 0.85); white-space: nowrap; opacity: 0; }

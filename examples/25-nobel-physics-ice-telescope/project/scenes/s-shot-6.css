@@ -1,0 +1,44 @@
+/* shot-6: the blue cone. Look: Tidewater tokens; cyan/blue only for light and sensors. Design box 1920x1080 px;
+   all times scene-relative, landed on the am_michael cues (re-timed 10:59). */
+.s-shot-6 { background: var(--bg); padding: 0; overflow: hidden; }
+.s-shot-6 .s6-push { position: absolute; left: 0; top: 0; width: 1920px; height: 1080px; transform-origin: 55% 45%;
+  animation: s6-push 11.5s linear 0s both; }
+@keyframes s6-push { from { transform: scale(1); } to { transform: scale(1.045); } }
+.s-shot-6 .s6-cv { position: absolute; left: 0; top: 0; width: 1920px; height: 1080px; }
+.s-shot-6 p { margin: 0; }
+.s-shot-6 > .s6-push > p, .s-shot-6 .s6-legend, .s-shot-6 .s6-quote { position: absolute; }
+
+.s-shot-6 .s6-kicker { left: 120px; top: 76px; font: 600 34px/1 var(--font-mono); letter-spacing: 0.14em;
+  text-transform: uppercase; color: var(--muted); }
+.s-shot-6 .s6-lab { font: 600 40px/1 var(--font-body); color: var(--fg); padding: 8px 14px; border-radius: 10px;
+  background: color-mix(in oklab, var(--bg) 74%, transparent); }
+/* "When one does hit" 0.36-0.97 */
+.s-shot-6 .s6-nu { left: 112px; top: 596px; color: color-mix(in oklab, var(--fg) 85%, var(--muted));
+  animation: s6-in 0.45s var(--ease-out) 0.3s both; }
+.s-shot-6 .s6-nuc { left: 170px; top: 516px;
+  animation: s6-in 0.4s var(--ease-out) 0.92s both, s6-out 0.35s ease-in 2.85s forwards; }
+/* "charged" 2.00 */
+.s-shot-6 .s6-cp { left: 640px; top: 618px; color: var(--accent);
+  animation: s6-in 0.45s var(--ease-out) 1.97s both, s6-out 0.4s ease-in 5.75s forwards; }
+/* moved by s-shot-6.js with the cone (translate only); fades in on "cone" 6.09 */
+.s-shot-6 .s6-ck { left: 0; top: 0; font: 650 50px/1 var(--font-body); color: #58e1ff; white-space: nowrap;
+  padding: 8px 16px; border-radius: 12px; background: color-mix(in oklab, var(--bg) 62%, transparent);
+  animation: s6-fade 0.45s ease-out 6.05s both; }
+
+/* "each sensor" 7.82 */
+.s-shot-6 .s6-legend { right: 120px; top: 132px; display: flex; align-items: center; gap: 18px; padding: 12px 20px;
+  border-radius: 14px; background: color-mix(in oklab, var(--bg) 78%, transparent); font: 600 34px/1 var(--font-body); color: var(--fg);
+  animation: s6-in 0.45s var(--ease-out) 7.8s both; }
+.s-shot-6 .s6-bar { display: block; width: 240px; height: 16px; border-radius: 8px;
+  background: linear-gradient(90deg, color-mix(in oklab, var(--accent) 40%, white) 0%, var(--accent) 18%, #58e1ff 45%, #58a9ff 75%, #3c5ae6 100%); }
+
+/* P40 is reported speech: Halzen calls the sensors "a lightbulb in reverse"; on "sensor" 8.09 */
+.s-shot-6 .s6-quote { left: 120px; top: 150px; padding: 26px 34px 28px; border-radius: 20px; background: color-mix(in oklab, var(--surface) 92%, transparent);
+  border: 1px solid var(--border);
+  animation: s6-in 0.5s var(--ease-out) 8.15s both; }
+.s-shot-6 .s6-q { font: 500 40px/1.2 var(--font-body); color: var(--fg); }
+.s-shot-6 .s6-q em { display: block; margin-top: 6px; font: 700 56px/1.05 var(--font-display); font-style: normal; color: var(--fg); letter-spacing: -0.025em; }
+
+@keyframes s6-in { from { opacity: 0; transform: translateY(20px); } to { opacity: 1; transform: none; } }
+@keyframes s6-out { from { opacity: 1; } to { opacity: 0; } }
+@keyframes s6-fade { from { opacity: 0; } to { opacity: 1; } }

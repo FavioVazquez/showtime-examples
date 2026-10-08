@@ -1,0 +1,206 @@
+{
+  "source": "08-shot-8.wav",
+  "duration": 11.193,
+  "language": "es",
+  "model": "kokoro-v1.0-timestamped.onnx",
+  "words": [
+    {
+      "text": "Luego,",
+      "start": 0.03,
+      "end": 0.343,
+      "type": "word"
+    },
+    {
+      "text": "sin",
+      "start": 0.419,
+      "end": 0.539,
+      "type": "word"
+    },
+    {
+      "text": "añadir",
+      "start": 0.563,
+      "end": 0.914,
+      "type": "word"
+    },
+    {
+      "text": "ningún",
+      "start": 0.955,
+      "end": 1.243,
+      "type": "word"
+    },
+    {
+      "text": "ingrediente",
+      "start": 1.268,
+      "end": 1.766,
+      "type": "word"
+    },
+    {
+      "text": "de",
+      "start": 1.791,
+      "end": 1.839,
+      "type": "word"
+    },
+    {
+      "text": "una",
+      "start": 1.863,
+      "end": 2.008,
+      "type": "word"
+    },
+    {
+      "text": "sola",
+      "start": 2.056,
+      "end": 2.265,
+      "type": "word"
+    },
+    {
+      "text": "mano,",
+      "start": 2.312,
+      "end": 2.76,
+      "type": "word"
+    },
+    {
+      "text": "la",
+      "start": 2.954,
+      "end": 3.034,
+      "type": "word"
+    },
+    {
+      "text": "reacción",
+      "start": 3.081,
+      "end": 3.481,
+      "type": "word"
+    },
+    {
+      "text": "igual",
+      "start": 3.525,
+      "end": 3.795,
+      "type": "word"
+    },
+    {
+      "text": "eligió",
+      "start": 3.82,
+      "end": 4.144,
+      "type": "word"
+    },
+    {
+      "text": "una",
+      "start": 4.168,
+      "end": 4.309,
+      "type": "word"
+    },
+    {
+      "text": "mano,",
+      "start": 4.356,
+      "end": 4.7,
+      "type": "word"
+    },
+    {
+      "text": "al",
+      "start": 4.85,
+      "end": 4.912,
+      "type": "word"
+    },
+    {
+      "text": "azar.",
+      "start": 4.959,
+      "end": 5.38,
+      "type": "word"
+    },
+    {
+      "text": "En",
+      "start": 5.83,
+      "end": 5.915,
+      "type": "word"
+    },
+    {
+      "text": "treinta",
+      "start": 5.98,
+      "end": 6.334,
+      "type": "word"
+    },
+    {
+      "text": "y",
+      "start": 6.37,
+      "end": 6.406,
+      "type": "word"
+    },
+    {
+      "text": "siete",
+      "start": 6.454,
+      "end": 6.666,
+      "type": "word"
+    },
+    {
+      "text": "experimentos,",
+      "start": 6.72,
+      "end": 7.5,
+      "type": "word"
+    },
+    {
+      "text": "diecinueve",
+      "start": 7.64,
+      "end": 8.219,
+      "type": "word"
+    },
+    {
+      "text": "se",
+      "start": 8.263,
+      "end": 8.314,
+      "type": "word"
+    },
+    {
+      "text": "inclinaron",
+      "start": 8.338,
+      "end": 8.847,
+      "type": "word"
+    },
+    {
+      "text": "hacia",
+      "start": 8.873,
+      "end": 9.078,
+      "type": "word"
+    },
+    {
+      "text": "un",
+      "start": 9.103,
+      "end": 9.195,
+      "type": "word"
+    },
+    {
+      "text": "lado",
+      "start": 9.243,
+      "end": 9.526,
+      "type": "word"
+    },
+    {
+      "text": "y",
+      "start": 9.576,
+      "end": 9.606,
+      "type": "word"
+    },
+    {
+      "text": "dieciocho",
+      "start": 9.635,
+      "end": 10.127,
+      "type": "word"
+    },
+    {
+      "text": "hacia",
+      "start": 10.151,
+      "end": 10.345,
+      "type": "word"
+    },
+    {
+      "text": "el",
+      "start": 10.369,
+      "end": 10.434,
+      "type": "word"
+    },
+    {
+      "text": "otro.",
+      "start": 10.458,
+      "end": 10.773,
+      "type": "word"
+    }
+  ]
+}

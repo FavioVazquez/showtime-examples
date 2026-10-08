@@ -1,0 +1,13 @@
+/* roadmap bar: a stage-level overlay in the bottom 8% (y 996-1044 at 1080p: 48 px tall, 36 px clear of the bottom edge). Driven by video time in roadmap.js. */
+.st-roadmap { position: absolute; left: 0; right: 0; top: 996px; height: 48px; z-index: 30; pointer-events: none;
+  display: flex; justify-content: center; opacity: 0; }
+.st-roadmap-list { display: flex; gap: 12px; margin: 0; padding: 0; list-style: none; height: 48px; }
+.st-roadmap-step { --lit: 0; display: flex; align-items: center; gap: 10px; height: 48px; padding: 0 22px 0 6px; border-radius: 24px;
+  font: 600 32px/1 var(--font-body); white-space: nowrap; color: var(--muted);
+  background: color-mix(in srgb, var(--accent) calc(var(--lit) * 100%), color-mix(in srgb, var(--surface) 92%, transparent));
+  box-shadow: inset 0 0 0 2px color-mix(in srgb, var(--fg) 12%, transparent); }
+.st-roadmap-step b { display: grid; place-items: center; width: 40px; height: 40px; border-radius: 50%;
+  font: 700 32px/1 var(--font-display); color: var(--fg); background: color-mix(in srgb, var(--fg) 12%, transparent); }
+.st-roadmap-step.is-done { color: var(--fg); box-shadow: inset 0 0 0 2px color-mix(in srgb, var(--accent) 45%, transparent); }
+.st-roadmap-step.is-lit { color: var(--accent-ink); }
+.st-roadmap-step.is-lit b { color: var(--accent-ink); background: color-mix(in srgb, var(--accent-ink) 16%, transparent); }

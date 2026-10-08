@@ -1,0 +1,194 @@
+{
+  "source": "06-shot-6.wav",
+  "duration": 10.071,
+  "language": "es",
+  "model": "kokoro-v1.0-timestamped.onnx",
+  "words": [
+    {
+      "text": "En",
+      "start": 0.03,
+      "end": 0.064,
+      "type": "word"
+    },
+    {
+      "text": "mil",
+      "start": 0.098,
+      "end": 0.214,
+      "type": "word"
+    },
+    {
+      "text": "novecientos",
+      "start": 0.24,
+      "end": 0.759,
+      "type": "word"
+    },
+    {
+      "text": "noventa",
+      "start": 0.805,
+      "end": 1.166,
+      "type": "word"
+    },
+    {
+      "text": "y",
+      "start": 1.199,
+      "end": 1.245,
+      "type": "word"
+    },
+    {
+      "text": "cinco,",
+      "start": 1.305,
+      "end": 1.74,
+      "type": "word"
+    },
+    {
+      "text": "Kenso",
+      "start": 1.9,
+      "end": 2.21,
+      "type": "word"
+    },
+    {
+      "text": "Soai",
+      "start": 2.259,
+      "end": 2.518,
+      "type": "word"
+    },
+    {
+      "text": "marcó",
+      "start": 2.554,
+      "end": 2.848,
+      "type": "word"
+    },
+    {
+      "text": "la",
+      "start": 2.88,
+      "end": 2.951,
+      "type": "word"
+    },
+    {
+      "text": "casilla",
+      "start": 3.0,
+      "end": 3.366,
+      "type": "word"
+    },
+    {
+      "text": "tres:",
+      "start": 3.411,
+      "end": 3.86,
+      "type": "word"
+    },
+    {
+      "text": "una",
+      "start": 4.25,
+      "end": 4.427,
+      "type": "word"
+    },
+    {
+      "text": "molécula",
+      "start": 4.463,
+      "end": 4.927,
+      "type": "word"
+    },
+    {
+      "text": "que",
+      "start": 4.94,
+      "end": 5.029,
+      "type": "word"
+    },
+    {
+      "text": "ayuda",
+      "start": 5.076,
+      "end": 5.365,
+      "type": "word"
+    },
+    {
+      "text": "a",
+      "start": 5.391,
+      "end": 5.421,
+      "type": "word"
+    },
+    {
+      "text": "fabricar",
+      "start": 5.451,
+      "end": 5.906,
+      "type": "word"
+    },
+    {
+      "text": "más",
+      "start": 5.955,
+      "end": 6.111,
+      "type": "word"
+    },
+    {
+      "text": "de",
+      "start": 6.139,
+      "end": 6.205,
+      "type": "word"
+    },
+    {
+      "text": "sí",
+      "start": 6.253,
+      "end": 6.356,
+      "type": "word"
+    },
+    {
+      "text": "misma,",
+      "start": 6.404,
+      "end": 6.81,
+      "type": "word"
+    },
+    {
+      "text": "con",
+      "start": 6.93,
+      "end": 7.067,
+      "type": "word"
+    },
+    {
+      "text": "la",
+      "start": 7.094,
+      "end": 7.168,
+      "type": "word"
+    },
+    {
+      "text": "misma",
+      "start": 7.203,
+      "end": 7.483,
+      "type": "word"
+    },
+    {
+      "text": "mano,",
+      "start": 7.529,
+      "end": 7.92,
+      "type": "word"
+    },
+    {
+      "text": "a",
+      "start": 8.116,
+      "end": 8.152,
+      "type": "word"
+    },
+    {
+      "text": "partir",
+      "start": 8.19,
+      "end": 8.532,
+      "type": "word"
+    },
+    {
+      "text": "de",
+      "start": 8.556,
+      "end": 8.605,
+      "type": "word"
+    },
+    {
+      "text": "ingredientes",
+      "start": 8.629,
+      "end": 9.153,
+      "type": "word"
+    },
+    {
+      "text": "simples.",
+      "start": 9.202,
+      "end": 9.651,
+      "type": "word"
+    }
+  ]
+}

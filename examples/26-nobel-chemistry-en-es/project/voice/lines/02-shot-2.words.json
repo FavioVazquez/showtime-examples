@@ -1,0 +1,134 @@
+{
+  "source": "02-shot-2.wav",
+  "duration": 7.337,
+  "language": "en",
+  "model": "kokoro-v1.0-timestamped.onnx",
+  "words": [
+    {
+      "text": "Many",
+      "start": 0.03,
+      "end": 0.209,
+      "type": "word"
+    },
+    {
+      "text": "molecules",
+      "start": 0.256,
+      "end": 0.806,
+      "type": "word"
+    },
+    {
+      "text": "come",
+      "start": 0.82,
+      "end": 0.989,
+      "type": "word"
+    },
+    {
+      "text": "in",
+      "start": 1.016,
+      "end": 1.102,
+      "type": "word"
+    },
+    {
+      "text": "two",
+      "start": 1.13,
+      "end": 1.319,
+      "type": "word"
+    },
+    {
+      "text": "hands",
+      "start": 1.366,
+      "end": 1.631,
+      "type": "word"
+    },
+    {
+      "text": "like",
+      "start": 1.655,
+      "end": 1.791,
+      "type": "word"
+    },
+    {
+      "text": "that.",
+      "start": 1.85,
+      "end": 2.17,
+      "type": "word"
+    },
+    {
+      "text": "Life",
+      "start": 2.59,
+      "end": 2.951,
+      "type": "word"
+    },
+    {
+      "text": "is",
+      "start": 3.001,
+      "end": 3.104,
+      "type": "word"
+    },
+    {
+      "text": "picky:",
+      "start": 3.17,
+      "end": 3.63,
+      "type": "word"
+    },
+    {
+      "text": "your",
+      "start": 3.95,
+      "end": 4.061,
+      "type": "word"
+    },
+    {
+      "text": "proteins",
+      "start": 4.108,
+      "end": 4.608,
+      "type": "word"
+    },
+    {
+      "text": "use",
+      "start": 4.655,
+      "end": 4.816,
+      "type": "word"
+    },
+    {
+      "text": "only",
+      "start": 4.862,
+      "end": 5.11,
+      "type": "word"
+    },
+    {
+      "text": "one",
+      "start": 5.185,
+      "end": 5.36,
+      "type": "word"
+    },
+    {
+      "text": "hand",
+      "start": 5.415,
+      "end": 5.691,
+      "type": "word"
+    },
+    {
+      "text": "of",
+      "start": 5.715,
+      "end": 5.774,
+      "type": "word"
+    },
+    {
+      "text": "each",
+      "start": 5.822,
+      "end": 6.026,
+      "type": "word"
+    },
+    {
+      "text": "amino",
+      "start": 6.03,
+      "end": 6.44,
+      "type": "word"
+    },
+    {
+      "text": "acid.",
+      "start": 6.513,
+      "end": 6.947,
+      "type": "word"
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+# Hearing: what the sound does, measured
+
+You cannot listen to this video. These numbers measure what an ear would catch; judge only what they and transcript.txt support, and quote them. Levels are K-weighted like LUFS (100 ms blocks).
+
+Length 153.50s. Integrated -14.0 LUFS (target -14), true peak -1.6 dBTP (ceiling -1), loudness range 3.9 LU.
+Voice and music measured apart: the narration before the music was mixed in, lined up with this file's audio (lag 0.0 ms, correlation 0.98).
+The mix report says the voice sits 16.6 dB over the music overall.
+Lines from the voice timeline.
+Plot: hearing.png (top: loudness, scene changes as lines, speech as a blue band, effects as ticks, problems in red; bottom: each voice line's level over the music and its words per minute).
+
+## Voice line by line (aim 10-20 dB over the music; under 8 dB it competes with the words; comfortable narration is 130-170 words a minute)
+   0.40-   9.97s   169 wpm   +15.1 dB  shot-1: "About sixty-five billion neutrinos from the Sun pass through your little fingernail every…"
+  11.35-  27.08s   137 wpm   +15.4 dB  shot-2: "This year's Nobel Prize in Physics went to Francis Halzen, for decisive contributions to…"
+  28.28-  37.21s   168 wpm   +15.6 dB  shot-3: "Step one: the ghost particle. Guess: a high-energy neutrino crosses a whole kilometre of…"
+  41.54-  46.73s   185 wpm   +15.1 dB  shot-4: "In our toy model, about one in seventy thousand. So the detector had to be huge."
+  48.24-  57.67s   153 wpm   +15.1 dB  shot-5: "Step two: the telescope. In nineteen eighty-eight, Halzen and John Learned proposed using…"
+  60.26-  69.49s   182 wpm   +15.3 dB  shot-6: "When one does hit, it makes a charged particle faster than light travels in ice. It leave…"
+  71.73-  84.26s   163 wpm   +15.3 dB  shot-7: "Step three: our toy telescope. From the light's timing alone, it finds the particle's dir…"
+  88.59-  95.79s   150 wpm   +14.8 dB  shot-8: "In our toy model, about six times worse: fewer strings, less light. Trend only, not IceCu…"
+  97.23- 110.09s   145 wpm   +15.0 dB  shot-9: "Step four: what it found. In twenty thirteen, IceCube reported the first evidence of high…"
+ 111.31- 118.88s   151 wpm   +15.1 dB  shot-10: "IceCube records about a hundred thousand high-energy neutrinos a year. Guess: how many of…"
+ 123.30- 128.24s   182 wpm   +14.9 dB  shot-11: "About a hundred, the Nobel Committee says. The rest are made in our own atmosphere."
+ 129.43- 140.11s   135 wpm   +15.0 dB  shot-12: "The prize honours that discovery: high-energy neutrinos from space. Which objects make th…"
+ 141.29- 145.50s   200 wpm   +15.1 dB  shot-13: "So how do you catch one? With a cubic kilometre of ice, still watching."
+ 147.44- 151.68s   141 wpm   +15.3 dB  shot-14: "Made with showtime, an open-source video studio for coding agents."
+
+## Pauses in the voice longer than 2 s
+  37.21-  41.54s  4.3s, the programme at -22 LUFS meanwhile
+  57.67-  60.26s  2.6s, the programme at -23 LUFS meanwhile
+  69.49-  71.73s  2.2s, the programme at -24 LUFS meanwhile
+  84.26-  88.59s  4.3s, the programme at -21 LUFS meanwhile
+ 118.88- 123.30s  4.4s, the programme at -20 LUFS meanwhile
+
+## Near silence mid-video (2 s or more under integrated - 20 LUFS)
+(none)
+
+## Loudness per scene
+   0.00-  11.00s  -14.3 LUFS (loudest 3 s -13.1), music -27, voice -14, speech 87%  65 billion a second
+  11.00-  27.95s  -13.9 LUFS (loudest 3 s -12.6), music -28, voice -14, speech 93%  The prize
+  27.95-  41.19s  -15.1 LUFS (loudest 3 s -12.8), music -23, voice -14, speech 67%  Step 1: the ghost particle
+  41.19-  47.90s  -14.5 LUFS (loudest 3 s -12.7), music -26, voice -14, speech 78%  shot-4
+  47.90-  59.90s  -14.7 LUFS (loudest 3 s -12.7), music -25, voice -14, speech 79%  Step 2: a telescope of ice
+  59.90-  71.40s  -14.4 LUFS (loudest 3 s -12.6), music -25, voice -14, speech 80%  shot-6
+  71.40-  88.25s  -14.7 LUFS (loudest 3 s -12.9), music -22, voice -14, speech 75%  Step 3: our toy telescope
+  88.25-  96.90s  -14.2 LUFS (loudest 3 s -12.9), music -24, voice -14, speech 83%  shot-8
+  96.90- 110.93s  -14.0 LUFS (loudest 3 s -13.0), music -26, voice -14, speech 92%  Step 4: what it found
+ 110.93- 122.89s  -15.1 LUFS (loudest 3 s -12.9), music -21, voice -14, speech 63%  shot-10
+ 122.89- 129.10s  -14.4 LUFS (loudest 3 s -13.0), music -25, voice -14, speech 79%  shot-11
+ 129.10- 140.96s  -14.2 LUFS (loudest 3 s -12.7), music -26, voice -14, speech 90%  Still open
+ 140.96- 147.10s  -14.9 LUFS (loudest 3 s -13.4), music -24, voice -14, speech 69%  shot-13
+ 147.10- 153.50s  -15.0 LUFS (loudest 3 s -13.1), music -31, voice -14, speech 67%  Made with showtime
+
+## Level across each cut (1 s each side, like with like; over 6 LU the ear notices a jump)
+  11.00s  bed -27.2 -> -25.7 LUFS, +1.5 LU
+  27.95s  bed -28.7 -> -29.0 LUFS, -0.3 LU
+  41.19s  bed -24.2 -> -25.1 LUFS, -0.9 LU
+  47.90s  bed -26.2 -> -28.5 LUFS, -2.3 LU
+  59.90s  bed -24.1 -> -25.8 LUFS, -1.7 LU
+  71.40s  bed -24.5 -> -28.0 LUFS, -3.5 LU
+  88.25s  bed -22.0 -> -26.4 LUFS, -4.4 LU
+  96.90s  bed -24.2 -> -28.0 LUFS, -3.8 LU
+ 110.93s  bed -26.9 -> -24.5 LUFS, +2.4 LU
+ 122.89s  bed -19.4 -> -24.6 LUFS, -5.2 LU
+ 129.10s  bed -28.2 -> -28.2 LUFS, +0.0 LU
+ 140.96s  bed -26.0 -> -28.7 LUFS, -2.7 LU
+ 147.10s  bed -23.6 -> -26.7 LUFS, -3.1 LU
+
+## Effects (from the render's mix report: hit time, over the rest of the mix there, rise over the 0.5 s before, peak over the integrated loudness, the nearest cut or CUE)
+(no effects, or no mix report for this render)
+
+## The ending
+music bed (komiku-the-space-is-big): 0.00-153.50s, ducks 12 dB under the voice, fitted to the video
+The last 0.2 s of the bed: -85 LUFS; the 3 s before: -31 LUFS -> it has faded or ended
+
+## Peaks
+True peak -1.6 dBTP, sample peak -1.6 dBFS, no clipped runs

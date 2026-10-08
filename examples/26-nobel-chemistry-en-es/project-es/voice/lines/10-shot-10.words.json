@@ -1,0 +1,176 @@
+{
+  "source": "10-shot-10.wav",
+  "duration": 8.203,
+  "language": "es",
+  "model": "kokoro-v1.0-timestamped.onnx",
+  "words": [
+    {
+      "text": "Es",
+      "start": 0.03,
+      "end": 0.104,
+      "type": "word"
+    },
+    {
+      "text": "un",
+      "start": 0.128,
+      "end": 0.215,
+      "type": "word"
+    },
+    {
+      "text": "juguete.",
+      "start": 0.265,
+      "end": 0.81,
+      "type": "word"
+    },
+    {
+      "text": "El",
+      "start": 1.07,
+      "end": 1.164,
+      "type": "word"
+    },
+    {
+      "text": "Comité",
+      "start": 1.2,
+      "end": 1.549,
+      "type": "word"
+    },
+    {
+      "text": "Nobel",
+      "start": 1.582,
+      "end": 1.861,
+      "type": "word"
+    },
+    {
+      "text": "aclara",
+      "start": 1.906,
+      "end": 2.274,
+      "type": "word"
+    },
+    {
+      "text": "que",
+      "start": 2.33,
+      "end": 2.377,
+      "type": "word"
+    },
+    {
+      "text": "el",
+      "start": 2.402,
+      "end": 2.467,
+      "type": "word"
+    },
+    {
+      "text": "modelo",
+      "start": 2.509,
+      "end": 2.824,
+      "type": "word"
+    },
+    {
+      "text": "de",
+      "start": 2.852,
+      "end": 2.923,
+      "type": "word"
+    },
+    {
+      "text": "Frank",
+      "start": 2.973,
+      "end": 3.283,
+      "type": "word"
+    },
+    {
+      "text": "no",
+      "start": 3.33,
+      "end": 3.443,
+      "type": "word"
+    },
+    {
+      "text": "explica",
+      "start": 3.467,
+      "end": 3.915,
+      "type": "word"
+    },
+    {
+      "text": "cómo",
+      "start": 3.99,
+      "end": 4.161,
+      "type": "word"
+    },
+    {
+      "text": "la",
+      "start": 4.191,
+      "end": 4.272,
+      "type": "word"
+    },
+    {
+      "text": "vida",
+      "start": 4.299,
+      "end": 4.491,
+      "type": "word"
+    },
+    {
+      "text": "eligió",
+      "start": 4.516,
+      "end": 4.847,
+      "type": "word"
+    },
+    {
+      "text": "su",
+      "start": 4.892,
+      "end": 4.991,
+      "type": "word"
+    },
+    {
+      "text": "mano,",
+      "start": 5.037,
+      "end": 5.41,
+      "type": "word"
+    },
+    {
+      "text": "y",
+      "start": 5.81,
+      "end": 5.84,
+      "type": "word"
+    },
+    {
+      "text": "el",
+      "start": 5.862,
+      "end": 5.932,
+      "type": "word"
+    },
+    {
+      "text": "mecanismo",
+      "start": 5.965,
+      "end": 6.483,
+      "type": "word"
+    },
+    {
+      "text": "de",
+      "start": 6.512,
+      "end": 6.592,
+      "type": "word"
+    },
+    {
+      "text": "Soai",
+      "start": 6.643,
+      "end": 6.941,
+      "type": "word"
+    },
+    {
+      "text": "sigue",
+      "start": 6.999,
+      "end": 7.226,
+      "type": "word"
+    },
+    {
+      "text": "en",
+      "start": 7.253,
+      "end": 7.309,
+      "type": "word"
+    },
+    {
+      "text": "debate.",
+      "start": 7.338,
+      "end": 7.783,
+      "type": "word"
+    }
+  ]
+}

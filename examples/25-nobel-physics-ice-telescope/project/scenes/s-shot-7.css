@@ -1,0 +1,32 @@
+/* shot-7: our toy telescope (the toy example event on the real IceCube layout, then q2) */
+.s-shot-7 { --s7-accent: var(--accent, #ff7f61); --s7-cyan: #58e1ff; --s7-blue: #58a9ff; --s7-ink: var(--fg, #eaf4f1);
+  overflow: hidden; padding: 0; font-family: var(--font-body); color: var(--s7-ink); }
+.s-shot-7 .s7-ground { position: absolute; inset: 0;
+  background: radial-gradient(60% 70% at 64% 46%, rgb(88 169 255 / 0.10), transparent 70%),
+              linear-gradient(180deg, var(--bg) 0%, color-mix(in oklab, var(--bg) 82%, #0b2a3a) 100%); }
+.s-shot-7 .s7-cv { position: absolute; inset: 0; width: 100%; height: 100%; }
+.s-shot-7 .s7-toy { position: absolute; left: 60px; top: 40px; height: 60px; padding: 0 22px; display: flex; align-items: center;
+  font: 500 30px/1 var(--font-mono); letter-spacing: 0.04em; color: var(--s7-accent);
+  border: 2px solid color-mix(in oklab, var(--accent) 55%, transparent); border-radius: 30px; background: color-mix(in oklab, var(--bg) 70%, transparent); }
+.s-shot-7 .s7-head { position: absolute; left: 96px; top: 128px; margin: 0; }
+.s-shot-7 .s7-kick { margin: 0 0 10px; font: 600 30px/1 var(--font-mono); letter-spacing: 0.16em; text-transform: uppercase; color: var(--s7-accent); }
+.s-shot-7 .s7-title { margin: 0; font: var(--weight-display, 700) 76px/1.02 var(--font-display); letter-spacing: var(--tracking-display, -0.03em); color: var(--s7-ink); }
+.s-shot-7 .s7-legend { position: absolute; left: 96px; top: 318px; width: 600px; display: flex; flex-direction: column; gap: 22px; }
+.s-shot-7 .s7-legend p { margin: 0; }
+.s-shot-7 .s7-cap { font: 500 34px/1.2 var(--font-body); color: var(--muted); margin: 0 0 12px !important; }
+.s-shot-7 .s7-ramp { position: relative; width: 420px; padding-top: 22px; display: flex; justify-content: space-between;
+  font: 500 30px/1 var(--font-body); color: var(--s7-ink); }
+.s-shot-7 .s7-ramp i { position: absolute; left: 0; right: 0; top: 0; height: 12px; border-radius: 6px;
+  background: linear-gradient(90deg, #fff6d6 0%, #ffc45c 18%, #5ce1ff 45%, #4680ff 75%, #9668ff 100%); }
+.s-shot-7 .s7-ramp span { padding-top: 6px; }
+.s-shot-7 .s7-key { display: flex; align-items: center; gap: 18px; font: 600 36px/1.15 var(--font-body); color: var(--s7-ink); }
+.s-shot-7 .s7-key i { flex: none; width: 56px; height: 6px; border-radius: 3px; }
+.s-shot-7 .s7-key-true i { background: var(--s7-ink); }
+.s-shot-7 .s7-key-fit i { background: var(--s7-accent); box-shadow: 0 0 12px color-mix(in oklab, var(--accent) 70%, transparent); }
+.s-shot-7 .s7-spread { position: absolute; left: 96px; top: 268px; margin: 0; padding: 14px 26px; border-radius: 40px;
+  font: 600 38px/1.15 var(--font-body); color: var(--s7-ink); background: rgb(88 169 255 / 0.14); border: 2px solid rgb(88 169 255 / 0.5); }
+/* the question beat (component): centre-low, y 560-980 */
+.s-shot-7 .s7-qb { position: absolute; left: 0; right: 0; bottom: 100px; z-index: 2; --muted: var(--fg); }
+.s-shot-7 .s7-qb::before { content: ''; position: absolute; left: -10%; right: -10%; top: -60px; bottom: -120px; z-index: -1;
+  background: radial-gradient(50% 60% at 50% 55%, color-mix(in oklab, var(--bg) 88%, transparent), transparent 100%); }
+.s-shot-7 .s7-src { position: absolute; left: 0; top: 0; margin: 0; font: 600 36px/1 var(--font-body); color: var(--s7-accent); white-space: nowrap; }

@@ -1,0 +1,13 @@
+{
+  "title": "Una mano gana: el Premio Nobel de Química 2026",
+  "width": 1920,
+  "height": 1080,
+  "fps": 30,
+  "duration": 154.231,
+  "background": "#f6f0e4",
+  "poster": 0.0,
+  "audio": "audio/mix.json",
+  "startTitle": false,
+  "template": "dom",
+  "look": "paperback"
+}

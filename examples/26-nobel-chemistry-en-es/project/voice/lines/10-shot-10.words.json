@@ -1,0 +1,176 @@
+{
+  "source": "10-shot-10.wav",
+  "duration": 10.438,
+  "language": "en",
+  "model": "kokoro-v1.0-timestamped.onnx",
+  "words": [
+    {
+      "text": "A",
+      "start": 0.04,
+      "end": 0.075,
+      "type": "word"
+    },
+    {
+      "text": "toy,",
+      "start": 0.11,
+      "end": 0.58,
+      "type": "word"
+    },
+    {
+      "text": "not",
+      "start": 0.65,
+      "end": 0.871,
+      "type": "word"
+    },
+    {
+      "text": "how",
+      "start": 0.919,
+      "end": 1.083,
+      "type": "word"
+    },
+    {
+      "text": "life",
+      "start": 1.14,
+      "end": 1.386,
+      "type": "word"
+    },
+    {
+      "text": "chose",
+      "start": 1.436,
+      "end": 1.723,
+      "type": "word"
+    },
+    {
+      "text": "its",
+      "start": 1.78,
+      "end": 1.869,
+      "type": "word"
+    },
+    {
+      "text": "hand.",
+      "start": 1.917,
+      "end": 2.29,
+      "type": "word"
+    },
+    {
+      "text": "The",
+      "start": 2.77,
+      "end": 2.918,
+      "type": "word"
+    },
+    {
+      "text": "Nobel",
+      "start": 2.966,
+      "end": 3.352,
+      "type": "word"
+    },
+    {
+      "text": "Committee",
+      "start": 3.402,
+      "end": 3.829,
+      "type": "word"
+    },
+    {
+      "text": "stresses",
+      "start": 3.89,
+      "end": 4.327,
+      "type": "word"
+    },
+    {
+      "text": "Frank's",
+      "start": 4.397,
+      "end": 4.687,
+      "type": "word"
+    },
+    {
+      "text": "model",
+      "start": 4.749,
+      "end": 5.1,
+      "type": "word"
+    },
+    {
+      "text": "isn't",
+      "start": 5.29,
+      "end": 5.548,
+      "type": "word"
+    },
+    {
+      "text": "the",
+      "start": 5.574,
+      "end": 5.667,
+      "type": "word"
+    },
+    {
+      "text": "answer",
+      "start": 5.741,
+      "end": 6.064,
+      "type": "word"
+    },
+    {
+      "text": "to",
+      "start": 6.113,
+      "end": 6.186,
+      "type": "word"
+    },
+    {
+      "text": "life's",
+      "start": 6.233,
+      "end": 6.543,
+      "type": "word"
+    },
+    {
+      "text": "origin,",
+      "start": 6.591,
+      "end": 7.14,
+      "type": "word"
+    },
+    {
+      "text": "and",
+      "start": 7.47,
+      "end": 7.596,
+      "type": "word"
+    },
+    {
+      "text": "how",
+      "start": 7.644,
+      "end": 7.818,
+      "type": "word"
+    },
+    {
+      "text": "Soai's",
+      "start": 7.917,
+      "end": 8.262,
+      "type": "word"
+    },
+    {
+      "text": "reaction",
+      "start": 8.31,
+      "end": 8.775,
+      "type": "word"
+    },
+    {
+      "text": "works",
+      "start": 8.822,
+      "end": 9.083,
+      "type": "word"
+    },
+    {
+      "text": "is",
+      "start": 9.128,
+      "end": 9.197,
+      "type": "word"
+    },
+    {
+      "text": "still",
+      "start": 9.25,
+      "end": 9.463,
+      "type": "word"
+    },
+    {
+      "text": "debated.",
+      "start": 9.51,
+      "end": 10.028,
+      "type": "word"
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+/* shot-3 the ghost particle: a 1 km block of ice, neutrinos cross it untouched; q1 asks at 9.26 s.
+   Sizes in cqw/cqh of a 1920x1080 frame (1cqw = 19.2 px, 1cqh = 10.8 px). Times are scene-relative. */
+.s-shot-3 { padding: 0; background: var(--bg); overflow: hidden; }
+.s-shot-3 .s3-ground { position: absolute; inset: 0; pointer-events: none;
+  background:
+    radial-gradient(38% 52% at 66% 42%, rgb(88 169 255 / 0.14), transparent 70%),
+    radial-gradient(50% 60% at 10% 0%, color-mix(in oklab, var(--accent) 5%, transparent), transparent 70%),
+    var(--bg); }
+.s-shot-3 .s3-cam { position: absolute; inset: 0; transform-origin: 50% 40%;
+  animation: s3-push 13.25s cubic-bezier(0.37, 0, 0.63, 1) 0s both; }
+@keyframes s3-push { from { transform: scale(1); } to { transform: scale(1.035); } }
+
+/* title: on screen at frame 0 (the poster of this scene), settles as "Step one" is said */
+.s-shot-3 .s3-title { position: absolute; left: 6.25cqw; top: 15cqh; width: 36cqw; }
+.s-shot-3 .s3-kicker { margin: 0; font: 600 3.6cqh/1 var(--font-mono); letter-spacing: 0.08em; text-transform: uppercase; color: var(--accent); }
+.s-shot-3 .s3-head { margin: 2.2cqh 0 0; font: 600 9.6cqh/1.0 var(--font-display); letter-spacing: -0.025em; color: var(--fg); text-wrap: balance;
+  animation: s3-settle 0.9s cubic-bezier(0.16, 1, 0.3, 1) 0s both; }
+@keyframes s3-settle { from { transform: translateY(1.2cqh); } to { transform: none; } }
+
+/* the rig (block, particles, labels) lifts into y 110-560 before the question card arrives (8.30-9.15 s) */
+.s-shot-3 .s3-rig { position: absolute; inset: 0; transform-origin: 65.36cqw 10.19cqh;
+  animation: s3-lift 0.85s cubic-bezier(0.65, 0, 0.35, 1) 8.3s both; }
+@keyframes s3-lift { from { transform: none; } to { transform: translateX(-1.5cqw) scale(0.58); } }
+.s-shot-3 .s3-svg, .s-shot-3 .s3-canvas { position: absolute; inset: 0; width: 100%; height: 100%; }
+.s-shot-3 .s3-hidden { fill: none; stroke: rgb(159 212 255 / 0.28); stroke-width: 2; stroke-dasharray: 8 10; }
+.s-shot-3 .s3-edge { fill: none; stroke: rgb(190 226 255 / 0.85); stroke-width: 3; stroke-linejoin: round; }
+.s-shot-3 .s3-strata path { fill: none; stroke: rgb(190 226 255 / 0.12); stroke-width: 2; }
+.s-shot-3 .s3-dim-line { fill: none; stroke: var(--fg); stroke-width: 3; stroke-dasharray: 100 100;
+  animation: s3-draw 0.7s cubic-bezier(0.16, 1, 0.3, 1) 5.06s both; }
+.s-shot-3 .s3-dim-tick { fill: none; stroke: var(--fg); stroke-width: 3; animation: s3-fade 0.3s linear 5.06s both; }
+@keyframes s3-draw { from { stroke-dashoffset: 100; } to { stroke-dashoffset: 0; } }
+@keyframes s3-fade { from { opacity: 0; } to { opacity: 1; } }
+
+/* "1 km of ice" lands on "kilometre" (5.40 s); 5.2cqh = 56 px, 32 px after the lift */
+.s-shot-3 .s3-km { position: absolute; left: 46.875cqw; width: 25cqw; top: 73.5cqh; margin: 0; text-align: center;
+  font: 600 5.2cqh/1 var(--font-body); color: var(--fg);
+  animation: s3-rise 0.5s cubic-bezier(0.16, 1, 0.3, 1) 5.38s both; }
+/* "neutrino" names the bright particle as it is said (3.89 s), gone before the lift */
+.s-shot-3 .s3-nu { position: absolute; left: 34.6cqw; top: 44.6cqh; margin: 0;
+  font: 600 4cqh/1 var(--font-body); color: #58e1ff;
+  animation: s3-rise 0.45s cubic-bezier(0.16, 1, 0.3, 1) 3.86s both, s3-out 0.35s ease-in 7.85s forwards; }
+@keyframes s3-rise { from { opacity: 0; transform: translateY(1.6cqh); } to { opacity: 1; transform: none; } }
+@keyframes s3-out { from { opacity: 1; } to { opacity: 0; } }
+
+/* the toy-model label (top-left zone, x 60-560, y 40-100) comes with the question about our toy model */
+.s-shot-3 .s3-toy { position: absolute; left: 3.125cqw; top: 3.7cqh; margin: 0; height: 5.6cqh; box-sizing: border-box;
+  display: flex; align-items: center; padding: 0 1.25cqw; border: 2px solid color-mix(in oklab, var(--accent) 60%, transparent); border-radius: 2.8cqh;
+  font: 500 3.4cqh/1 var(--font-mono); color: var(--fg); background: color-mix(in oklab, var(--bg) 70%, transparent);
+  animation: s3-fade 0.4s ease-out 9.26s both; }
+
+/* the question beat: centre-low, y about 570-960 */
+.s-shot-3 .s3-qb { position: absolute; left: 4cqw; right: 4cqw; top: 52.8cqh; gap: 2.2cqmin; }
+.s-shot-3 .s3-qb .st-qb-prompt { font-size: 5cqmin; max-width: 80cqw; }
+.s-shot-3 .s3-qb .st-qb-clock { width: 9.5cqmin; height: 9.5cqmin; }
+.s-shot-3 .s3-qb .st-qb-choices { width: 86cqw; }
+.s-shot-3 .s3-qb .st-qb-choice { font-size: 3.6cqmin; }
+/* the card comes in whole at its time (its parts still ease in), so no text sits half-faded on the ground */
+.s-shot-3 .s3-qb { opacity: 1 !important; }

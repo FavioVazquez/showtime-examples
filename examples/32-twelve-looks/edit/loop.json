@@ -1,0 +1,203 @@
+{
+ "_comment": "Twelve looks, one project: 2 s of each look's render in turn (spans of the same dom project, made with new dom --look <id>), the spans' silence muted, one composed bed under all of them (120 bpm: each look change is on a downbeat), and a label naming each look.",
+ "sources": {
+  "01": "../spans/01-nocturne.mp4",
+  "02": "../spans/02-paperback.mp4",
+  "03": "../spans/03-tidewater.mp4",
+  "04": "../spans/04-gallery.mp4",
+  "05": "../spans/05-graphite.mp4",
+  "06": "../spans/06-sage.mp4",
+  "07": "../spans/07-redline.mp4",
+  "08": "../spans/08-blush.mp4",
+  "09": "../spans/09-evergreen.mp4",
+  "10": "../spans/10-skyline.mp4",
+  "11": "../spans/11-cobalt.mp4",
+  "12": "../spans/12-oxblood.mp4"
+ },
+ "ranges": [
+  {
+   "source": "01",
+   "start": 0,
+   "end": 2,
+   "mute": true,
+   "note": "nocturne"
+  },
+  {
+   "source": "02",
+   "start": 0,
+   "end": 2,
+   "mute": true,
+   "note": "paperback"
+  },
+  {
+   "source": "03",
+   "start": 0,
+   "end": 2,
+   "mute": true,
+   "note": "tidewater"
+  },
+  {
+   "source": "04",
+   "start": 0,
+   "end": 2,
+   "mute": true,
+   "note": "gallery"
+  },
+  {
+   "source": "05",
+   "start": 0,
+   "end": 2,
+   "mute": true,
+   "note": "graphite"
+  },
+  {
+   "source": "06",
+   "start": 0,
+   "end": 2,
+   "mute": true,
+   "note": "sage"
+  },
+  {
+   "source": "07",
+   "start": 0,
+   "end": 2,
+   "mute": true,
+   "note": "redline"
+  },
+  {
+   "source": "08",
+   "start": 0,
+   "end": 2,
+   "mute": true,
+   "note": "blush"
+  },
+  {
+   "source": "09",
+   "start": 0,
+   "end": 2,
+   "mute": true,
+   "note": "evergreen"
+  },
+  {
+   "source": "10",
+   "start": 0,
+   "end": 2,
+   "mute": true,
+   "note": "skyline"
+  },
+  {
+   "source": "11",
+   "start": 0,
+   "end": 2,
+   "mute": true,
+   "note": "cobalt"
+  },
+  {
+   "source": "12",
+   "start": 0,
+   "end": 2,
+   "mute": true,
+   "note": "oxblood"
+  }
+ ],
+ "output": {
+  "aspect": "16:9",
+  "fps": 30
+ },
+ "overlays": [
+  {
+   "file": "../labels/01-nocturne.png",
+   "start": 0,
+   "duration": 2,
+   "position": "full"
+  },
+  {
+   "file": "../labels/02-paperback.png",
+   "start": 2,
+   "duration": 2,
+   "position": "full"
+  },
+  {
+   "file": "../labels/03-tidewater.png",
+   "start": 4,
+   "duration": 2,
+   "position": "full"
+  },
+  {
+   "file": "../labels/04-gallery.png",
+   "start": 6,
+   "duration": 2,
+   "position": "full"
+  },
+  {
+   "file": "../labels/05-graphite.png",
+   "start": 8,
+   "duration": 2,
+   "position": "full"
+  },
+  {
+   "file": "../labels/06-sage.png",
+   "start": 10,
+   "duration": 2,
+   "position": "full"
+  },
+  {
+   "file": "../labels/07-redline.png",
+   "start": 12,
+   "duration": 2,
+   "position": "full"
+  },
+  {
+   "file": "../labels/08-blush.png",
+   "start": 14,
+   "duration": 2,
+   "position": "full"
+  },
+  {
+   "file": "../labels/09-evergreen.png",
+   "start": 16,
+   "duration": 2,
+   "position": "full"
+  },
+  {
+   "file": "../labels/10-skyline.png",
+   "start": 18,
+   "duration": 2,
+   "position": "full"
+  },
+  {
+   "file": "../labels/11-cobalt.png",
+   "start": 20,
+   "duration": 2,
+   "position": "full"
+  },
+  {
+   "file": "../labels/12-oxblood.png",
+   "start": 22,
+   "duration": 2,
+   "position": "full"
+  }
+ ],
+ "audio": {
+  "tracks": [
+   {
+    "id": "bed",
+    "kind": "music",
+    "compose": {
+     "style": "deep-house",
+     "bpm": 120,
+     "sections": "0:intro,4:verse,12:drop,20:outro",
+     "seed": 3
+    },
+    "section_gain": {
+     "intro": 4
+    },
+    "fade_out": 1.2
+   }
+  ]
+ },
+ "loudness": {
+  "lufs": -14,
+  "tp": -1
+ }
+}

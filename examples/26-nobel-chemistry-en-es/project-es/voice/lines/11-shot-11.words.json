@@ -1,0 +1,164 @@
+{
+  "source": "11-shot-11.wav",
+  "duration": 9.447,
+  "language": "es",
+  "model": "kokoro-v1.0-timestamped.onnx",
+  "words": [
+    {
+      "text": "Elegir",
+      "start": 0.03,
+      "end": 0.342,
+      "type": "word"
+    },
+    {
+      "text": "la",
+      "start": 0.385,
+      "end": 0.472,
+      "type": "word"
+    },
+    {
+      "text": "mano",
+      "start": 0.515,
+      "end": 0.732,
+      "type": "word"
+    },
+    {
+      "text": "importa",
+      "start": 0.776,
+      "end": 1.197,
+      "type": "word"
+    },
+    {
+      "text": "en",
+      "start": 1.22,
+      "end": 1.274,
+      "type": "word"
+    },
+    {
+      "text": "los",
+      "start": 1.299,
+      "end": 1.404,
+      "type": "word"
+    },
+    {
+      "text": "medicamentos:",
+      "start": 1.443,
+      "end": 2.37,
+      "type": "word"
+    },
+    {
+      "text": "una",
+      "start": 2.646,
+      "end": 2.823,
+      "type": "word"
+    },
+    {
+      "text": "forma",
+      "start": 2.871,
+      "end": 3.128,
+      "type": "word"
+    },
+    {
+      "text": "hace",
+      "start": 3.158,
+      "end": 3.361,
+      "type": "word"
+    },
+    {
+      "text": "su",
+      "start": 3.399,
+      "end": 3.493,
+      "type": "word"
+    },
+    {
+      "text": "trabajo,",
+      "start": 3.526,
+      "end": 4.14,
+      "type": "word"
+    },
+    {
+      "text": "y",
+      "start": 4.27,
+      "end": 4.3,
+      "type": "word"
+    },
+    {
+      "text": "su",
+      "start": 4.346,
+      "end": 4.433,
+      "type": "word"
+    },
+    {
+      "text": "imagen",
+      "start": 4.478,
+      "end": 4.809,
+      "type": "word"
+    },
+    {
+      "text": "en",
+      "start": 4.835,
+      "end": 4.889,
+      "type": "word"
+    },
+    {
+      "text": "espejo",
+      "start": 4.914,
+      "end": 5.324,
+      "type": "word"
+    },
+    {
+      "text": "puede",
+      "start": 5.377,
+      "end": 5.584,
+      "type": "word"
+    },
+    {
+      "text": "causar",
+      "start": 5.622,
+      "end": 5.955,
+      "type": "word"
+    },
+    {
+      "text": "efectos",
+      "start": 5.984,
+      "end": 6.367,
+      "type": "word"
+    },
+    {
+      "text": "secundarios",
+      "start": 6.406,
+      "end": 6.977,
+      "type": "word"
+    },
+    {
+      "text": "innecesarios,",
+      "start": 7.003,
+      "end": 7.9,
+      "type": "word"
+    },
+    {
+      "text": "y",
+      "start": 8.12,
+      "end": 8.153,
+      "type": "word"
+    },
+    {
+      "text": "a",
+      "start": 8.2,
+      "end": 8.23,
+      "type": "word"
+    },
+    {
+      "text": "veces",
+      "start": 8.252,
+      "end": 8.517,
+      "type": "word"
+    },
+    {
+      "text": "dañinos.",
+      "start": 8.58,
+      "end": 9.017,
+      "type": "word"
+    }
+  ]
+}

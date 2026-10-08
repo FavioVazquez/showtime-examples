@@ -1,0 +1,22 @@
+{
+  "title": "WAIT Vertical Animation",
+  "width": 1080,
+  "height": 1920,
+  "fps": 30,
+  "duration": 20,
+  "background": "#000000",
+  "adopt": {
+    "source": "WAIT 9 16 (10s loop)-html_final.zip",
+    "root": "src",
+    "entry": "Main.dc.html",
+    "kind": "clock",
+    "contract": "clock: CSS/Web Animations/requestAnimationFrame on the virtual clock",
+    "adopted": "2026-10-08T06:16:45.959Z",
+    "options": {
+      "setup": false
+    },
+    "zip": true,
+    "made": "Claude Design export"
+  },
+  "audio": "audio/mix.json"
+}

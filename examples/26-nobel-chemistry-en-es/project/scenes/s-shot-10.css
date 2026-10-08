@@ -1,0 +1,28 @@
+.s-shot-10 { position: absolute; inset: 0; overflow: hidden; background: #f6f0e4; }
+/* continues shot-9's push (it ends at 1.03 about the same origin) so the match cut does not jump */
+.s-shot-10 .s10-cam { position: absolute; inset: 0; transform-origin: 46% 48%; animation: s10-push 11.188s cubic-bezier(0.37, 0, 0.63, 1) both; }
+@keyframes s10-push { from { transform: scale(1.03); } to { transform: scale(1.055); } }
+.s-shot-10 .s10-svg, .s-shot-10 .s10-csvg { position: absolute; left: 0; top: 0; width: 1920px; height: 1080px; }
+.s-shot-10 .s10-chart, .s-shot-10 .s10-left, .s-shot-10 .s10-clabels { position: absolute; left: 0; top: 0; width: 1920px; height: 1080px; transform-origin: 0 0; }
+.s-shot-10 .s10-t { position: absolute; margin: 0; color: #1c1a17; white-space: nowrap; font-family: 'IBM Plex Sans', sans-serif; }
+.s-shot-10 .s10-note { left: 96px; top: 56px; font: 500 34px/44px 'IBM Plex Mono', monospace; }
+.s-shot-10 .s10-note2 { left: 96px; top: 104px; font: 400 28px/36px 'IBM Plex Mono', monospace; color: #59534a; }
+.s-shot-10 .s10-switch { left: 142px; top: 205px; font-size: 36px; line-height: 46px; font-weight: 600; }
+.s-shot-10 .s10-pairlab { left: 120px; width: 600px; top: 652px; text-align: center; font-size: 34px; line-height: 44px; font-weight: 500; }
+.s-shot-10 .s10-cond { left: 890px; width: 900px; top: 190px; text-align: center; font: 600 48px/56px 'Fraunces', serif; letter-spacing: -0.02em; }
+.s-shot-10 .s10-runs { left: 890px; width: 900px; top: 252px; text-align: center; font: 500 30px/38px 'IBM Plex Mono', monospace; color: #59534a; }
+.s-shot-10 .s10-pct { left: 890px; width: 900px; top: 296px; text-align: center; font: 500 30px/38px 'IBM Plex Mono', monospace; }
+.s-shot-10 .s10-axis { left: 840px; width: 1000px; top: 812px; text-align: center; font-size: 34px; line-height: 44px; font-weight: 500; }
+.s-shot-10 .s10-arr { width: 40px; height: 22px; vertical-align: -2px; fill: none; stroke: #1c1a17; stroke-width: 3.2; stroke-linecap: round; stroke-linejoin: round; }
+.s-shot-10 .s10-cnt { top: 392px; font-size: 32px; line-height: 40px; font-weight: 500; }
+.s-shot-10 .s10-cnt b { font: 600 52px/58px 'Fraunces', serif; letter-spacing: -0.02em; font-variant-numeric: tabular-nums; }
+.s-shot-10 .s10-cnt span { font-size: 30px; color: #2e2a25; }
+.s-shot-10 .s10-cnt-l { left: 918px; text-align: left; }
+.s-shot-10 .s10-cnt-r { right: 158px; text-align: right; }
+.s-shot-10 .s10-q { left: 740px; font: italic 500 66px/80px 'Fraunces', serif; letter-spacing: -0.015em; opacity: 0; }
+.s-shot-10 .s10-q1 { top: 262px; }
+.s-shot-10 .s10-q2 { top: 344px; left: 772px; }
+.s-shot-10 .s10-attr { left: 772px; top: 452px; font-size: 36px; line-height: 46px; font-weight: 500; color: #2e2a25; opacity: 0; }
+.s-shot-10 .s10-h { left: 740px; top: 640px; font: 600 50px/60px 'Fraunces', serif; letter-spacing: -0.02em; opacity: 0; }
+.s-shot-10 .s10-h2 { left: 740px; top: 714px; font-size: 38px; line-height: 48px; font-weight: 500; opacity: 0; }
+.s-shot-10 .s10-note3 { top: 140px; }

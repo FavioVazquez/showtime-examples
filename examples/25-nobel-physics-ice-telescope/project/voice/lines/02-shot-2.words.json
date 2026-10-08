@@ -1,0 +1,224 @@
+{
+  "source": "02-shot-2.wav",
+  "duration": 16.201,
+  "language": "en",
+  "model": "kokoro-v1.0-timestamped.onnx",
+  "words": [
+    {
+      "text": "This",
+      "start": 0.05,
+      "end": 0.228,
+      "type": "word"
+    },
+    {
+      "text": "year's",
+      "start": 0.25,
+      "end": 0.593,
+      "type": "word"
+    },
+    {
+      "text": "Nobel",
+      "start": 0.686,
+      "end": 1.148,
+      "type": "word"
+    },
+    {
+      "text": "Prize",
+      "start": 1.18,
+      "end": 1.619,
+      "type": "word"
+    },
+    {
+      "text": "in",
+      "start": 1.663,
+      "end": 1.758,
+      "type": "word"
+    },
+    {
+      "text": "Physics",
+      "start": 1.836,
+      "end": 2.22,
+      "type": "word"
+    },
+    {
+      "text": "went",
+      "start": 2.23,
+      "end": 2.413,
+      "type": "word"
+    },
+    {
+      "text": "to",
+      "start": 2.454,
+      "end": 2.512,
+      "type": "word"
+    },
+    {
+      "text": "Francis",
+      "start": 2.564,
+      "end": 2.961,
+      "type": "word"
+    },
+    {
+      "text": "Halzen,",
+      "start": 3.016,
+      "end": 3.46,
+      "type": "word"
+    },
+    {
+      "text": "for",
+      "start": 3.932,
+      "end": 4.04,
+      "type": "word"
+    },
+    {
+      "text": "decisive",
+      "start": 4.089,
+      "end": 4.701,
+      "type": "word"
+    },
+    {
+      "text": "contributions",
+      "start": 4.755,
+      "end": 5.551,
+      "type": "word"
+    },
+    {
+      "text": "to",
+      "start": 5.598,
+      "end": 5.678,
+      "type": "word"
+    },
+    {
+      "text": "IceCube,",
+      "start": 5.758,
+      "end": 6.36,
+      "type": "word"
+    },
+    {
+      "text": "a",
+      "start": 6.93,
+      "end": 6.972,
+      "type": "word"
+    },
+    {
+      "text": "telescope",
+      "start": 7.044,
+      "end": 7.654,
+      "type": "word"
+    },
+    {
+      "text": "made",
+      "start": 7.702,
+      "end": 7.924,
+      "type": "word"
+    },
+    {
+      "text": "of",
+      "start": 7.971,
+      "end": 8.058,
+      "type": "word"
+    },
+    {
+      "text": "Antarctic",
+      "start": 8.122,
+      "end": 8.688,
+      "type": "word"
+    },
+    {
+      "text": "ice,",
+      "start": 8.7,
+      "end": 9.14,
+      "type": "word"
+    },
+    {
+      "text": "and",
+      "start": 9.55,
+      "end": 9.704,
+      "type": "word"
+    },
+    {
+      "text": "the",
+      "start": 9.728,
+      "end": 9.776,
+      "type": "word"
+    },
+    {
+      "text": "discovery",
+      "start": 9.82,
+      "end": 10.433,
+      "type": "word"
+    },
+    {
+      "text": "of",
+      "start": 10.484,
+      "end": 10.57,
+      "type": "word"
+    },
+    {
+      "text": "high-energy",
+      "start": 10.641,
+      "end": 11.32,
+      "type": "word"
+    },
+    {
+      "text": "neutrinos",
+      "start": 11.368,
+      "end": 12.03,
+      "type": "word"
+    },
+    {
+      "text": "from",
+      "start": 12.077,
+      "end": 12.225,
+      "type": "word"
+    },
+    {
+      "text": "space.",
+      "start": 12.296,
+      "end": 12.81,
+      "type": "word"
+    },
+    {
+      "text": "Four",
+      "start": 13.38,
+      "end": 13.699,
+      "type": "word"
+    },
+    {
+      "text": "steps,",
+      "start": 13.772,
+      "end": 14.28,
+      "type": "word"
+    },
+    {
+      "text": "and",
+      "start": 14.43,
+      "end": 14.533,
+      "type": "word"
+    },
+    {
+      "text": "three",
+      "start": 14.631,
+      "end": 14.863,
+      "type": "word"
+    },
+    {
+      "text": "guesses",
+      "start": 14.932,
+      "end": 15.316,
+      "type": "word"
+    },
+    {
+      "text": "for",
+      "start": 15.364,
+      "end": 15.487,
+      "type": "word"
+    },
+    {
+      "text": "you.",
+      "start": 15.558,
+      "end": 15.78,
+      "type": "word"
+    }
+  ]
+}

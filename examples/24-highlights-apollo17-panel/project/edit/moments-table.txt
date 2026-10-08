@@ -1,0 +1,43 @@
+showtime: ranking moments in apollo17-legends.json (10 wanted, 20-60 s clips)
+next: read the moments' text in moments.json, keep the ones that stand alone, then: showtime edit clips apollo17-highlights-20261007-214556 --moments <job>/edit/moments.json --pick m1,m2,m3 --preview
+apollo17-legends: 57:48.14, 564 sentences, 30 topic segment(s), 2255 candidates
+signals: hook, complete, energy, events, lines, topic, flow, length
+
+ #  id   score  source time         clip    title
+ 1  m1      68  18:09.2-18:52.2         39 s  I'll say, hell of a job
+                  opens: "When I looked at the Artemis profile, a 22-day unmanned mission, I almost"
+                  why:   a number in the first seconds (22-day); a line worth quoting ("One hell of a job pulling that thing off"); repeats "hell of a"; applause right after the end; energy: 4 dB louder than the speaker's median, lively pitch; a complete thought (clean start and end); one topic (mission, engineer, hell); one speaker (S30)
+ 2  m2      67  54:54.0-55:42.5         44 s  Dream, aim high, and never surrender
+                  opens: "Generally when I talk to the uh young people, I give them a few words, dream, aim high, and never surrender."
+                  why:   a strong claim in the first sentence (never); a contrast in the first sentence (never); a line worth quoting ("dream, aim high, and never surrender."); repeats "to continue growing"; applause right after the end; a complete thought (one full turn); one topic (key, continue, growing); one speaker (S30)
+ 3  m3      62  54:18.8-54:46.1         27 s  Follow your dreams, and they can lead to you somewhere amazing
+                  opens: "I will just add that the you have a passion for a reason and follow it."
+                  why:   emotion in the first sentence (passion); a line worth quoting ("follow your dreams, and they can lead to you somewhere amazing."); repeats "flight control room"; applause right after the end; a complete thought (one full turn); one topic (follow, passion, girl); one speaker (S34)
+ 4  m4      59  29:41.3-30:37.1         45 s  What do you think Apollo did that will help Artemis the most?
+                  opens: "What do you think Apollo did that will help Artemis the most?"
+                  why:   opens with a question; a strong claim in the first sentence (most); a line worth quoting ("When we started Apollo, it had never been done"); short punchy lines ("It's kind of hard one."); the answer goes on after the end: check it; one topic (apollo, will, help); a 3.0 s pause inside (trimmed in the clip); one speaker (S25)
+ 5  m5      58  20:38.0-21:13.1         33 s  It's truly something I know I will never forget
+                  opens: "It's truly something I know I will never forget."
+                  why:   a strong claim in the first seconds (never); a contrast in the first seconds (never); a line worth quoting ("It's truly something I know I will never forget."); repeats "that both programs"; a complete thought (clean start and end); one topic (program, human, work); 2 speakers
+ 6  m6      58  35:37.0-36:03.5         25 s  Flew just a few months before 17
+                  opens: "It's also the 50th anniversary of Apollo 16, which flew just a few months before 17."
+                  why:   a number in the first seconds (50th); repeats "for the next"; applause right after the end; starts on "It's also": check it stands alone; one topic (apollo, flew, month); 2 speakers
+ 7  m7      57  28:21.5-29:32.6         59 s  I don't remember exactly how far 15 went
+                  opens: "You guys actually had a really good time together."
+                  why:   a contrast in the first seconds (actually); short punchy lines ("Well 17 did seven miles."); repeats "with the rover"; applause right after the end; a complete thought (one full turn); a 2.1 s pause inside (trimmed in the clip); 2 speakers
+ 8  m8      57  23:27.8-24:00.1         28 s  Rode the lunar rover on the surface
+                  opens: "16, you were the lunar module pilot and one of very few people who not only walked on the moon, but rode the lunar ..."
+                  why:   a number in the first seconds (16); a strong claim in the first sentence (only); repeats "lunar module pilot"; the answer goes on after the end: check it; one topic (apollo, lunar, module); a 1.9 s pause inside (trimmed in the clip); 2 speakers
+ 9  m9      57  14:57.4-15:39.0         39 s  It actually started with the last three missions
+                  opens: "Yes, one of the things that happened, it actually started with the last three missions, 15, 16."
+                  why:   a contrast in the first seconds (actually); a number in the first sentence (three); a line worth quoting ("that we always had them in walk back distance was our key."); short punchy lines ("Seventeen had a had a rover."); a complete thought (clean start and end); one topic (last, three, mission); one speaker (S25)
+10  m10     57  46:59.7-47:54.9         53 s  That was definitely a highlight of my first shift
+                  opens: "So, Jesse, people want to know what was your favorite moment personally with this Artemis mission?"
+                  why:   opens with a question; a line worth quoting ("that was definitely a highlight of my first shift."); short punchy lines ("There it goes."); a complete thought (one full turn); a 1.6 s pause inside (trimmed in the clip); 3 speakers
+
+suggestions only: read each moment's text in the JSON, keep the ones that stand alone (set "pick": true, or pass --pick), move start/end if needed (edges snap to whole words)
+<job>/edit/moments.json
+
+real	0m7.847s
+user	0m6.745s
+sys	0m0.772s

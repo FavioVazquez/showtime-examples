@@ -158,7 +158,7 @@ showtime studio feedback tidepool-trailer --new
 
 # round 2: storyboard (draft project = the animatic source)
 showtime audio compose --style cinematic-build --bpm 95 --dur 20 --sections 0:intro,7.6:build,12.6:drop,15.2:outro -o <job>/work/score/score.wav   # read the beat map
-showtime new dom <job>/project --duration 20 --title "Tidepool trailer"
+showtime new dom <job>/project --duration 20 --title "Tidepool trailer" --look template
 showtime assets font "Inter" --copy-to <job>/project/fonts          # and "JetBrains Mono"
 showtime assets font "Instrument Serif" --styles normal,italic --weights 400 --force --copy-to <job>/project/fonts
 #   (wrote index.html, showtime.json, audio/mix.json)

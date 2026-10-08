@@ -1,0 +1,60 @@
+{
+  "version": 1,
+  "title": "I just flew a spaceship around the moon",
+  "moment": {
+    "id": "m3",
+    "rank": 3,
+    "score": 0.623,
+    "start": 3266.03,
+    "end": 3286.1,
+    "title": "I just flew a spaceship around the moon"
+  },
+  "sources": {
+    "apollo17-legends": "../../raw/apollo17-legends.mp4"
+  },
+  "transcripts": {
+    "apollo17-legends": "../transcripts/apollo17-legends.json"
+  },
+  "ranges": [
+    {
+      "source": "apollo17-legends",
+      "start": 3266.03,
+      "end": 3286.23,
+      "note": "I was seven years old and I saw ..."
+    },
+    {
+      "source": "apollo17-legends",
+      "start": 3286.86,
+      "end": 3288.6,
+      "note": "",
+      "fade_out": 1.5
+    }
+  ],
+  "output": {
+    "aspect": "9:16",
+    "allow_upscale": true
+  },
+  "captions": {
+    "style": "bold-pop",
+    "avoid_face": true,
+    "size": 0.09
+  },
+  "cut_summary": {
+    "source_span": [
+      3266.03,
+      3288.6
+    ],
+    "after_s": 21.94,
+    "segments": 2,
+    "edge_words_dropped": [
+      "So"
+    ],
+    "removed": [],
+    "kept_event": {
+      "type": "applause",
+      "start": 3288.5,
+      "kept_to": 3288.6
+    }
+  },
+  "generated": "aa6e878b1a3bc201"
+}

@@ -128,7 +128,7 @@ showtime footage luts --preview .../jun11-channel.stable.mp4 --at 10            
 showtime footage grade .../jun11-channel.stable.mp4 --analyze
 showtime footage grade <clip>.stable.mp4 --auto --look warm-film --strength 0.5 -o <clip>.graded.mp4   # x2
 showtime footage grade .../jun11-channel.stable.mp4 --auto --look warm-film --strength 0.5 --compare --at 6 -o .../grade-compare.png
-showtime new dom <en>/project --title "Kilauea 2018" --duration 75
+showtime new dom <en>/project --title "Kilauea 2018" --duration 75 --look template
 showtime footage trim <clip>.graded.mp4 --webm --width 1280 --no-audio -o <en>/project/media/<clip>.webm   # x2
 
 showtime voice ipa "Kīlauea, Puʻu ʻŌʻō, Kapoho Bay, the Island of Hawaiʻi, Halemaʻumaʻu"

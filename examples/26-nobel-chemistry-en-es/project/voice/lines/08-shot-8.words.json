@@ -1,0 +1,152 @@
+{
+  "source": "08-shot-8.wav",
+  "duration": 10.001,
+  "language": "en",
+  "model": "kokoro-v1.0-timestamped.onnx",
+  "words": [
+    {
+      "text": "Then,",
+      "start": 0.04,
+      "end": 0.256,
+      "type": "word"
+    },
+    {
+      "text": "with",
+      "start": 0.313,
+      "end": 0.44,
+      "type": "word"
+    },
+    {
+      "text": "no",
+      "start": 0.521,
+      "end": 0.753,
+      "type": "word"
+    },
+    {
+      "text": "one-handed",
+      "start": 0.753,
+      "end": 1.341,
+      "type": "word"
+    },
+    {
+      "text": "ingredient",
+      "start": 1.384,
+      "end": 1.935,
+      "type": "word"
+    },
+    {
+      "text": "added,",
+      "start": 1.99,
+      "end": 2.5,
+      "type": "word"
+    },
+    {
+      "text": "the",
+      "start": 2.68,
+      "end": 2.714,
+      "type": "word"
+    },
+    {
+      "text": "reaction",
+      "start": 2.762,
+      "end": 3.249,
+      "type": "word"
+    },
+    {
+      "text": "still",
+      "start": 3.314,
+      "end": 3.522,
+      "type": "word"
+    },
+    {
+      "text": "picked",
+      "start": 3.572,
+      "end": 3.749,
+      "type": "word"
+    },
+    {
+      "text": "a",
+      "start": 3.78,
+      "end": 3.812,
+      "type": "word"
+    },
+    {
+      "text": "hand,",
+      "start": 3.872,
+      "end": 4.35,
+      "type": "word"
+    },
+    {
+      "text": "at",
+      "start": 4.52,
+      "end": 4.607,
+      "type": "word"
+    },
+    {
+      "text": "random.",
+      "start": 4.64,
+      "end": 5.19,
+      "type": "word"
+    },
+    {
+      "text": "In",
+      "start": 5.74,
+      "end": 5.823,
+      "type": "word"
+    },
+    {
+      "text": "thirty-seven",
+      "start": 5.894,
+      "end": 6.489,
+      "type": "word"
+    },
+    {
+      "text": "runs,",
+      "start": 6.537,
+      "end": 7.03,
+      "type": "word"
+    },
+    {
+      "text": "nineteen",
+      "start": 7.15,
+      "end": 7.648,
+      "type": "word"
+    },
+    {
+      "text": "leaned",
+      "start": 7.696,
+      "end": 7.952,
+      "type": "word"
+    },
+    {
+      "text": "one",
+      "start": 8.004,
+      "end": 8.174,
+      "type": "word"
+    },
+    {
+      "text": "way,",
+      "start": 8.222,
+      "end": 8.54,
+      "type": "word"
+    },
+    {
+      "text": "eighteen",
+      "start": 8.76,
+      "end": 9.125,
+      "type": "word"
+    },
+    {
+      "text": "the",
+      "start": 9.156,
+      "end": 9.236,
+      "type": "word"
+    },
+    {
+      "text": "other.",
+      "start": 9.278,
+      "end": 9.601,
+      "type": "word"
+    }
+  ]
+}

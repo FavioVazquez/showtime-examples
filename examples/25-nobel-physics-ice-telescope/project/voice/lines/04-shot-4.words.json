@@ -1,0 +1,104 @@
+{
+  "source": "04-shot-4.wav",
+  "duration": 6.053,
+  "language": "en",
+  "model": "kokoro-v1.0-timestamped.onnx",
+  "words": [
+    {
+      "text": "In",
+      "start": 0.03,
+      "end": 0.107,
+      "type": "word"
+    },
+    {
+      "text": "our",
+      "start": 0.132,
+      "end": 0.234,
+      "type": "word"
+    },
+    {
+      "text": "toy",
+      "start": 0.28,
+      "end": 0.602,
+      "type": "word"
+    },
+    {
+      "text": "model,",
+      "start": 0.65,
+      "end": 1.057,
+      "type": "word"
+    },
+    {
+      "text": "about",
+      "start": 1.18,
+      "end": 1.443,
+      "type": "word"
+    },
+    {
+      "text": "one",
+      "start": 1.517,
+      "end": 1.796,
+      "type": "word"
+    },
+    {
+      "text": "in",
+      "start": 1.856,
+      "end": 1.954,
+      "type": "word"
+    },
+    {
+      "text": "sixty-five",
+      "start": 2.053,
+      "end": 2.723,
+      "type": "word"
+    },
+    {
+      "text": "thousand.",
+      "start": 2.793,
+      "end": 3.37,
+      "type": "word"
+    },
+    {
+      "text": "So",
+      "start": 3.79,
+      "end": 3.925,
+      "type": "word"
+    },
+    {
+      "text": "the",
+      "start": 3.955,
+      "end": 4.005,
+      "type": "word"
+    },
+    {
+      "text": "detector",
+      "start": 4.052,
+      "end": 4.555,
+      "type": "word"
+    },
+    {
+      "text": "had",
+      "start": 4.624,
+      "end": 4.79,
+      "type": "word"
+    },
+    {
+      "text": "to",
+      "start": 4.79,
+      "end": 4.846,
+      "type": "word"
+    },
+    {
+      "text": "be",
+      "start": 4.885,
+      "end": 4.989,
+      "type": "word"
+    },
+    {
+      "text": "huge.",
+      "start": 5.067,
+      "end": 5.633,
+      "type": "word"
+    }
+  ]
+}

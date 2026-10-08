@@ -1,0 +1,97 @@
+{
+  "ok": true,
+  "project": ".",
+  "job": "..",
+  "source": "Showtime Test (12s, 16 9)-html.zip",
+  "entry": "Main.dc.html",
+  "kind": "clock",
+  "contract": "clock: CSS/Web Animations/requestAnimationFrame on the virtual clock",
+  "made": "Claude Design export",
+  "design": {
+    "artboard": {
+      "width": 1280,
+      "height": 720
+    },
+    "zoom": 1.5,
+    "offset": null
+  },
+  "width": 1920,
+  "height": 1080,
+  "fps": 30,
+  "duration": 12,
+  "loop": null,
+  "sources": {
+    "time_function": null,
+    "unit": "s",
+    "size": "Claude Design artboard 1280x720, scaled 1.5x with CSS zoom (laid out again: text stays sharp)",
+    "duration": "inferred: `Math.min(t, 12)` stops the animation at 12 s inside its 13 s loop (`% 13`): the video ends where the animation ends",
+    "fps": "default 30",
+    "ready": null,
+    "setup": null,
+    "drivers": []
+  },
+  "fonts": [
+    {
+      "url": "https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,700&family=JetBrains+Mono:wght@400;500;700&display=swap",
+      "css": "fonts/fonts.css",
+      "families": [
+        {
+          "family": "Bricolage Grotesque",
+          "license": "OFL-1.1",
+          "files": 3
+        },
+        {
+          "family": "JetBrains Mono",
+          "license": "OFL-1.1",
+          "files": 6
+        }
+      ]
+    }
+  ],
+  "audio": [],
+  "determinism": {
+    "verdict": "deterministic",
+    "method": "each frame captured twice: in order, then in reverse after other frames; frame 0 again after 150 ms",
+    "frames": [
+      {
+        "frame": 0,
+        "t": 0,
+        "sha256": "58f809f3e5aa4c76",
+        "same": true
+      },
+      {
+        "frame": 111,
+        "t": 3.7,
+        "sha256": "a9955d8aee60a51c",
+        "same": true
+      },
+      {
+        "frame": 223,
+        "t": 7.433,
+        "sha256": "b979607909f89eeb",
+        "same": true
+      },
+      {
+        "frame": 359,
+        "t": 11.967,
+        "sha256": "03433d28529b1a70",
+        "same": true
+      }
+    ]
+  },
+  "check": {
+    "exit": 0,
+    "errors": 0,
+    "warnings": 0,
+    "report": "work/check/report.json",
+    "sheet": "work/check/sheet.jpg",
+    "top": []
+  },
+  "findings": [],
+  "copied": {
+    "files": 5,
+    "bytes": 193770,
+    "skipped": []
+  },
+  "seconds": 14.3
+}

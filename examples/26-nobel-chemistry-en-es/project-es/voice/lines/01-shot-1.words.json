@@ -1,0 +1,134 @@
+{
+  "source": "01-shot-1.wav",
+  "duration": 6.941,
+  "language": "es",
+  "model": "kokoro-v1.0-timestamped.onnx",
+  "words": [
+    {
+      "text": "Tus",
+      "start": 0.04,
+      "end": 0.168,
+      "type": "word"
+    },
+    {
+      "text": "manos",
+      "start": 0.218,
+      "end": 0.533,
+      "type": "word"
+    },
+    {
+      "text": "son",
+      "start": 0.603,
+      "end": 0.777,
+      "type": "word"
+    },
+    {
+      "text": "imágenes",
+      "start": 0.823,
+      "end": 1.318,
+      "type": "word"
+    },
+    {
+      "text": "en",
+      "start": 1.366,
+      "end": 1.436,
+      "type": "word"
+    },
+    {
+      "text": "espejo.",
+      "start": 1.468,
+      "end": 2.08,
+      "type": "word"
+    },
+    {
+      "text": "El",
+      "start": 2.381,
+      "end": 2.462,
+      "type": "word"
+    },
+    {
+      "text": "Premio",
+      "start": 2.47,
+      "end": 2.816,
+      "type": "word"
+    },
+    {
+      "text": "Nobel",
+      "start": 2.847,
+      "end": 3.12,
+      "type": "word"
+    },
+    {
+      "text": "de",
+      "start": 3.151,
+      "end": 3.225,
+      "type": "word"
+    },
+    {
+      "text": "Química",
+      "start": 3.274,
+      "end": 3.631,
+      "type": "word"
+    },
+    {
+      "text": "de",
+      "start": 3.661,
+      "end": 3.728,
+      "type": "word"
+    },
+    {
+      "text": "este",
+      "start": 3.756,
+      "end": 4.053,
+      "type": "word"
+    },
+    {
+      "text": "año",
+      "start": 4.108,
+      "end": 4.331,
+      "type": "word"
+    },
+    {
+      "text": "trata",
+      "start": 4.38,
+      "end": 4.645,
+      "type": "word"
+    },
+    {
+      "text": "de",
+      "start": 4.672,
+      "end": 4.746,
+      "type": "word"
+    },
+    {
+      "text": "cómo",
+      "start": 4.795,
+      "end": 5.149,
+      "type": "word"
+    },
+    {
+      "text": "una",
+      "start": 5.23,
+      "end": 5.389,
+      "type": "word"
+    },
+    {
+      "text": "mano",
+      "start": 5.436,
+      "end": 5.663,
+      "type": "word"
+    },
+    {
+      "text": "puede",
+      "start": 5.713,
+      "end": 5.893,
+      "type": "word"
+    },
+    {
+      "text": "imponerse.",
+      "start": 5.917,
+      "end": 6.521,
+      "type": "word"
+    }
+  ]
+}

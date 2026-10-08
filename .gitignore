@@ -58,6 +58,15 @@ examples/**/*.prores
 /examples/19-travel-slideshow-iceland/final-9x16.mp4
 /examples/19-travel-slideshow-iceland/final.mp4
 /examples/21-tutorial-studio-board/final.mp4
+/examples/25-nobel-physics-ice-telescope/final.mp4
+/examples/26-nobel-chemistry-en-es/final-es.mp4
+/examples/26-nobel-chemistry-en-es/final.mp4
+/examples/28-claude-design-to-mp4/wait-9x16/final.mp4
+/examples/30-showreel-four-shapes/16x9/final.mp4
+/examples/30-showreel-four-shapes/1x1/final.mp4
+/examples/30-showreel-four-shapes/4x5/final.mp4
+/examples/30-showreel-four-shapes/9x16/final.mp4
+/examples/32-twelve-looks/final.mp4
 /examples/_brand/sting-square.mp4
 /examples/_brand/sting.mp4
 /examples/_crew/crew-16x9.mp4
@@ -69,4 +78,5 @@ examples/**/*.prores
 /examples/_launch/launch-9x16.mp4
 /examples/_showreel/showreel-16x9.html
 /examples/_showreel/showreel-16x9.mp4
+/examples/_showreel041/showreel-16x9.mp4
 # END example media

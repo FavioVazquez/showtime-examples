@@ -1,0 +1,4595 @@
+{
+  "version": 1,
+  "file": "vo.wav",
+  "sample_rate": 48000,
+  "duration": 145.991,
+  "lead_in": 0.0,
+  "tail": 0.6,
+  "loudness": -16.04,
+  "script": "../narration.md",
+  "lines": [
+    {
+      "id": "shot-1",
+      "index": 1,
+      "text": "Your hands are mirror images. This year's Nobel Prize in Chemistry is about how one hand can take over.",
+      "source_text": "Your hands are mirror images. This year's Nobel Prize in Chemistry is about how one hand can take over.",
+      "voice": "af_bella",
+      "engine": "kokoro",
+      "lang": "en-us",
+      "speed": 1.08,
+      "style": "neutral",
+      "start": 0.0,
+      "end": 6.867,
+      "duration": 6.867,
+      "speech_start": 0.03,
+      "speech_end": 6.457,
+      "pause_after": 0.45,
+      "slot": {
+        "start": 0.0,
+        "end": 7.317,
+        "duration": 7.317
+      },
+      "file": "lines/01-shot-1.wav",
+      "timing": "exact",
+      "wps": 2.956,
+      "words": [
+        {
+          "text": "Your",
+          "start": 0.03,
+          "end": 0.139,
+          "line": "shot-1"
+        },
+        {
+          "text": "hands",
+          "start": 0.191,
+          "end": 0.58,
+          "line": "shot-1"
+        },
+        {
+          "text": "are",
+          "start": 0.625,
+          "end": 0.718,
+          "line": "shot-1"
+        },
+        {
+          "text": "mirror",
+          "start": 0.793,
+          "end": 1.061,
+          "line": "shot-1"
+        },
+        {
+          "text": "images.",
+          "start": 1.14,
+          "end": 1.75,
+          "line": "shot-1"
+        },
+        {
+          "text": "This",
+          "start": 2.19,
+          "end": 2.322,
+          "line": "shot-1"
+        },
+        {
+          "text": "year's",
+          "start": 2.374,
+          "end": 2.648,
+          "line": "shot-1"
+        },
+        {
+          "text": "Nobel",
+          "start": 2.723,
+          "end": 3.112,
+          "line": "shot-1"
+        },
+        {
+          "text": "Prize",
+          "start": 3.182,
+          "end": 3.583,
+          "line": "shot-1"
+        },
+        {
+          "text": "in",
+          "start": 3.619,
+          "end": 3.711,
+          "line": "shot-1"
+        },
+        {
+          "text": "Chemistry",
+          "start": 3.765,
+          "end": 4.45,
+          "line": "shot-1"
+        },
+        {
+          "text": "is",
+          "start": 4.613,
+          "end": 4.687,
+          "line": "shot-1"
+        },
+        {
+          "text": "about",
+          "start": 4.7,
+          "end": 4.9,
+          "line": "shot-1"
+        },
+        {
+          "text": "how",
+          "start": 4.944,
+          "end": 5.098,
+          "line": "shot-1"
+        },
+        {
+          "text": "one",
+          "start": 5.171,
+          "end": 5.347,
+          "line": "shot-1"
+        },
+        {
+          "text": "hand",
+          "start": 5.409,
+          "end": 5.705,
+          "line": "shot-1"
+        },
+        {
+          "text": "can",
+          "start": 5.79,
+          "end": 5.849,
+          "line": "shot-1"
+        },
+        {
+          "text": "take",
+          "start": 5.896,
+          "end": 6.076,
+          "line": "shot-1"
+        },
+        {
+          "text": "over.",
+          "start": 6.09,
+          "end": 6.457,
+          "line": "shot-1"
+        }
+      ]
+    },
+    {
+      "id": "shot-2",
+      "index": 2,
+      "text": "Many molecules come in two hands like that. Life is picky: your proteins use only one hand of each amino acid.",
+      "source_text": "Many molecules come in two hands like that. Life is picky: your proteins use only one hand of each amino acid.",
+      "voice": "af_bella",
+      "engine": "kokoro",
+      "lang": "en-us",
+      "speed": 1.08,
+      "style": "neutral",
+      "start": 7.317,
+      "end": 14.654,
+      "duration": 7.337,
+      "speech_start": 7.347,
+      "speech_end": 14.264,
+      "pause_after": 0.45,
+      "slot": {
+        "start": 7.317,
+        "end": 15.104,
+        "duration": 7.787
+      },
+      "file": "lines/02-shot-2.wav",
+      "timing": "exact",
+      "wps": 3.036,
+      "words": [
+        {
+          "text": "Many",
+          "start": 7.347,
+          "end": 7.526,
+          "line": "shot-2"
+        },
+        {
+          "text": "molecules",
+          "start": 7.573,
+          "end": 8.123,
+          "line": "shot-2"
+        },
+        {
+          "text": "come",
+          "start": 8.137,
+          "end": 8.306,
+          "line": "shot-2"
+        },
+        {
+          "text": "in",
+          "start": 8.333,
+          "end": 8.419,
+          "line": "shot-2"
+        },
+        {
+          "text": "two",
+          "start": 8.447,
+          "end": 8.636,
+          "line": "shot-2"
+        },
+        {
+          "text": "hands",
+          "start": 8.683,
+          "end": 8.948,
+          "line": "shot-2"
+        },
+        {
+          "text": "like",
+          "start": 8.972,
+          "end": 9.108,
+          "line": "shot-2"
+        },
+        {
+          "text": "that.",
+          "start": 9.167,
+          "end": 9.487,
+          "line": "shot-2"
+        },
+        {
+          "text": "Life",
+          "start": 9.907,
+          "end": 10.268,
+          "line": "shot-2"
+        },
+        {
+          "text": "is",
+          "start": 10.318,
+          "end": 10.421,
+          "line": "shot-2"
+        },
+        {
+          "text": "picky:",
+          "start": 10.487,
+          "end": 10.947,
+          "line": "shot-2"
+        },
+        {
+          "text": "your",
+          "start": 11.267,
+          "end": 11.378,
+          "line": "shot-2"
+        },
+        {
+          "text": "proteins",
+          "start": 11.425,
+          "end": 11.925,
+          "line": "shot-2"
+        },
+        {
+          "text": "use",
+          "start": 11.972,
+          "end": 12.133,
+          "line": "shot-2"
+        },
+        {
+          "text": "only",
+          "start": 12.179,
+          "end": 12.427,
+          "line": "shot-2"
+        },
+        {
+          "text": "one",
+          "start": 12.502,
+          "end": 12.677,
+          "line": "shot-2"
+        },
+        {
+          "text": "hand",
+          "start": 12.732,
+          "end": 13.008,
+          "line": "shot-2"
+        },
+        {
+          "text": "of",
+          "start": 13.032,
+          "end": 13.091,
+          "line": "shot-2"
+        },
+        {
+          "text": "each",
+          "start": 13.139,
+          "end": 13.343,
+          "line": "shot-2"
+        },
+        {
+          "text": "amino",
+          "start": 13.347,
+          "end": 13.757,
+          "line": "shot-2"
+        },
+        {
+          "text": "acid.",
+          "start": 13.83,
+          "end": 14.264,
+          "line": "shot-2"
+        }
+      ]
+    },
+    {
+      "id": "shot-3",
+      "index": 3,
+      "text": "Yet a reaction left to itself makes both hands, fifty-fifty. A one-handed catalyst, a helper that isn't used up, can tip the balance.",
+      "source_text": "Yet a reaction left to itself makes both hands, fifty-fifty. A one-handed catalyst, a helper that isn't used up, can tip the balance.",
+      "voice": "af_bella",
+      "engine": "kokoro",
+      "lang": "en-us",
+      "speed": 1.08,
+      "style": "neutral",
+      "start": 15.104,
+      "end": 23.837,
+      "duration": 8.733,
+      "speech_start": 15.124,
+      "speech_end": 23.417,
+      "pause_after": 0.45,
+      "slot": {
+        "start": 15.104,
+        "end": 24.287,
+        "duration": 9.183
+      },
+      "file": "lines/03-shot-3.wav",
+      "timing": "exact",
+      "wps": 2.773,
+      "words": [
+        {
+          "text": "Yet",
+          "start": 15.124,
+          "end": 15.239,
+          "line": "shot-3"
+        },
+        {
+          "text": "a",
+          "start": 15.266,
+          "end": 15.296,
+          "line": "shot-3"
+        },
+        {
+          "text": "reaction",
+          "start": 15.339,
+          "end": 15.827,
+          "line": "shot-3"
+        },
+        {
+          "text": "left",
+          "start": 15.874,
+          "end": 16.066,
+          "line": "shot-3"
+        },
+        {
+          "text": "to",
+          "start": 16.114,
+          "end": 16.2,
+          "line": "shot-3"
+        },
+        {
+          "text": "itself",
+          "start": 16.247,
+          "end": 16.643,
+          "line": "shot-3"
+        },
+        {
+          "text": "makes",
+          "start": 16.704,
+          "end": 16.901,
+          "line": "shot-3"
+        },
+        {
+          "text": "both",
+          "start": 16.949,
+          "end": 17.185,
+          "line": "shot-3"
+        },
+        {
+          "text": "hands,",
+          "start": 17.235,
+          "end": 17.804,
+          "line": "shot-3"
+        },
+        {
+          "text": "fifty-fifty.",
+          "start": 17.994,
+          "end": 18.834,
+          "line": "shot-3"
+        },
+        {
+          "text": "A",
+          "start": 19.344,
+          "end": 19.395,
+          "line": "shot-3"
+        },
+        {
+          "text": "one-handed",
+          "start": 19.47,
+          "end": 20.058,
+          "line": "shot-3"
+        },
+        {
+          "text": "catalyst,",
+          "start": 20.114,
+          "end": 20.794,
+          "line": "shot-3"
+        },
+        {
+          "text": "a",
+          "start": 20.904,
+          "end": 20.946,
+          "line": "shot-3"
+        },
+        {
+          "text": "helper",
+          "start": 20.996,
+          "end": 21.302,
+          "line": "shot-3"
+        },
+        {
+          "text": "that",
+          "start": 21.343,
+          "end": 21.424,
+          "line": "shot-3"
+        },
+        {
+          "text": "isn't",
+          "start": 21.448,
+          "end": 21.627,
+          "line": "shot-3"
+        },
+        {
+          "text": "used",
+          "start": 21.68,
+          "end": 21.895,
+          "line": "shot-3"
+        },
+        {
+          "text": "up,",
+          "start": 21.954,
+          "end": 22.254,
+          "line": "shot-3"
+        },
+        {
+          "text": "can",
+          "start": 22.379,
+          "end": 22.511,
+          "line": "shot-3"
+        },
+        {
+          "text": "tip",
+          "start": 22.57,
+          "end": 22.744,
+          "line": "shot-3"
+        },
+        {
+          "text": "the",
+          "start": 22.779,
+          "end": 22.828,
+          "line": "shot-3"
+        },
+        {
+          "text": "balance.",
+          "start": 22.834,
+          "end": 23.417,
+          "line": "shot-3"
+        }
+      ]
+    },
+    {
+      "id": "shot-4",
+      "index": 4,
+      "text": "In nineteen fifty-three, Charles Frank wrote a recipe for one hand to take over completely. One: a one-handed catalyst; chemists had that by the early nineteen hundreds. Two: boost one hand and hold back the other. Three: a reaction that makes its own catalyst.",
+      "source_text": "In nineteen fifty-three, Charles Frank wrote a recipe for one hand to take over completely. One: a one-handed catalyst; chemists had that by the early nineteen hundreds. Two: boost one hand and hold back the other. Three: a reaction that makes its own catalyst.",
+      "voice": "af_bella",
+      "engine": "kokoro",
+      "lang": "en-us",
+      "speed": 1.08,
+      "style": "neutral",
+      "start": 24.287,
+      "end": 41.105,
+      "duration": 16.818,
+      "speech_start": 24.317,
+      "speech_end": 40.685,
+      "pause_after": 0.8,
+      "slot": {
+        "start": 24.287,
+        "end": 41.905,
+        "duration": 17.618
+      },
+      "file": "lines/04-shot-4.wav",
+      "timing": "exact",
+      "wps": 2.688,
+      "words": [
+        {
+          "text": "In",
+          "start": 24.317,
+          "end": 24.389,
+          "line": "shot-4"
+        },
+        {
+          "text": "nineteen",
+          "start": 24.435,
+          "end": 24.793,
+          "line": "shot-4"
+        },
+        {
+          "text": "fifty-three,",
+          "start": 24.844,
+          "end": 25.575,
+          "line": "shot-4"
+        },
+        {
+          "text": "Charles",
+          "start": 25.677,
+          "end": 26.053,
+          "line": "shot-4"
+        },
+        {
+          "text": "Frank",
+          "start": 26.108,
+          "end": 26.388,
+          "line": "shot-4"
+        },
+        {
+          "text": "wrote",
+          "start": 26.447,
+          "end": 26.576,
+          "line": "shot-4"
+        },
+        {
+          "text": "a",
+          "start": 26.602,
+          "end": 26.635,
+          "line": "shot-4"
+        },
+        {
+          "text": "recipe",
+          "start": 26.682,
+          "end": 27.139,
+          "line": "shot-4"
+        },
+        {
+          "text": "for",
+          "start": 27.187,
+          "end": 27.29,
+          "line": "shot-4"
+        },
+        {
+          "text": "one",
+          "start": 27.351,
+          "end": 27.522,
+          "line": "shot-4"
+        },
+        {
+          "text": "hand",
+          "start": 27.569,
+          "end": 27.824,
+          "line": "shot-4"
+        },
+        {
+          "text": "to",
+          "start": 27.866,
+          "end": 27.917,
+          "line": "shot-4"
+        },
+        {
+          "text": "take",
+          "start": 27.917,
+          "end": 28.15,
+          "line": "shot-4"
+        },
+        {
+          "text": "over",
+          "start": 28.173,
+          "end": 28.338,
+          "line": "shot-4"
+        },
+        {
+          "text": "completely.",
+          "start": 28.347,
+          "end": 29.017,
+          "line": "shot-4"
+        },
+        {
+          "text": "One:",
+          "start": 29.477,
+          "end": 29.947,
+          "line": "shot-4"
+        },
+        {
+          "text": "a",
+          "start": 30.167,
+          "end": 30.266,
+          "line": "shot-4"
+        },
+        {
+          "text": "one-handed",
+          "start": 30.341,
+          "end": 30.932,
+          "line": "shot-4"
+        },
+        {
+          "text": "catalyst;",
+          "start": 30.947,
+          "end": 31.647,
+          "line": "shot-4"
+        },
+        {
+          "text": "chemists",
+          "start": 31.897,
+          "end": 32.304,
+          "line": "shot-4"
+        },
+        {
+          "text": "had",
+          "start": 32.352,
+          "end": 32.509,
+          "line": "shot-4"
+        },
+        {
+          "text": "that",
+          "start": 32.554,
+          "end": 32.709,
+          "line": "shot-4"
+        },
+        {
+          "text": "by",
+          "start": 32.746,
+          "end": 32.829,
+          "line": "shot-4"
+        },
+        {
+          "text": "the",
+          "start": 32.855,
+          "end": 32.928,
+          "line": "shot-4"
+        },
+        {
+          "text": "early",
+          "start": 32.99,
+          "end": 33.239,
+          "line": "shot-4"
+        },
+        {
+          "text": "nineteen",
+          "start": 33.286,
+          "end": 33.681,
+          "line": "shot-4"
+        },
+        {
+          "text": "hundreds.",
+          "start": 33.728,
+          "end": 34.327,
+          "line": "shot-4"
+        },
+        {
+          "text": "Two:",
+          "start": 34.777,
+          "end": 35.187,
+          "line": "shot-4"
+        },
+        {
+          "text": "boost",
+          "start": 35.407,
+          "end": 35.73,
+          "line": "shot-4"
+        },
+        {
+          "text": "one",
+          "start": 35.784,
+          "end": 35.958,
+          "line": "shot-4"
+        },
+        {
+          "text": "hand",
+          "start": 36.006,
+          "end": 36.303,
+          "line": "shot-4"
+        },
+        {
+          "text": "and",
+          "start": 36.338,
+          "end": 36.41,
+          "line": "shot-4"
+        },
+        {
+          "text": "hold",
+          "start": 36.457,
+          "end": 36.686,
+          "line": "shot-4"
+        },
+        {
+          "text": "back",
+          "start": 36.747,
+          "end": 36.942,
+          "line": "shot-4"
+        },
+        {
+          "text": "the",
+          "start": 36.987,
+          "end": 37.062,
+          "line": "shot-4"
+        },
+        {
+          "text": "other.",
+          "start": 37.109,
+          "end": 37.467,
+          "line": "shot-4"
+        },
+        {
+          "text": "Three:",
+          "start": 37.897,
+          "end": 38.407,
+          "line": "shot-4"
+        },
+        {
+          "text": "a",
+          "start": 38.717,
+          "end": 38.764,
+          "line": "shot-4"
+        },
+        {
+          "text": "reaction",
+          "start": 38.811,
+          "end": 39.31,
+          "line": "shot-4"
+        },
+        {
+          "text": "that",
+          "start": 39.352,
+          "end": 39.442,
+          "line": "shot-4"
+        },
+        {
+          "text": "makes",
+          "start": 39.475,
+          "end": 39.667,
+          "line": "shot-4"
+        },
+        {
+          "text": "its",
+          "start": 39.694,
+          "end": 39.787,
+          "line": "shot-4"
+        },
+        {
+          "text": "own",
+          "start": 39.819,
+          "end": 40.02,
+          "line": "shot-4"
+        },
+        {
+          "text": "catalyst.",
+          "start": 40.047,
+          "end": 40.685,
+          "line": "shot-4"
+        }
+      ]
+    },
+    {
+      "id": "shot-5",
+      "index": 5,
+      "text": "In nineteen eighty-six, Henri Kagan ticked box two. His insight: the catalyst's metal holds two pieces, so mixed hands make three kinds of pairs, and the mixed pair barely works. Start seventy-five to twenty-five, and the working catalysts are ninety to ten: a purer product than a straight line predicts.",
+      "source_text": "In nineteen eighty-six, Henri Kagan ticked box two. His insight: the catalyst's metal holds two pieces, so mixed hands make three kinds of pairs, and the mixed pair barely works. Start seventy-five to twenty-five, and the working catalysts are ninety to ten: a purer product than a straight line predicts.",
+      "voice": "af_bella",
+      "engine": "kokoro",
+      "lang": "en-us",
+      "speed": 1.08,
+      "style": "neutral",
+      "start": 41.905,
+      "end": 61.351,
+      "duration": 19.447,
+      "speech_start": 41.945,
+      "speech_end": 60.942,
+      "pause_after": 1.2,
+      "slot": {
+        "start": 41.905,
+        "end": 62.551,
+        "duration": 20.647
+      },
+      "file": "lines/05-shot-5.wav",
+      "timing": "exact",
+      "wps": 2.632,
+      "words": [
+        {
+          "text": "In",
+          "start": 41.945,
+          "end": 42.015,
+          "line": "shot-5"
+        },
+        {
+          "text": "nineteen",
+          "start": 42.062,
+          "end": 42.445,
+          "line": "shot-5"
+        },
+        {
+          "text": "eighty-six,",
+          "start": 42.487,
+          "end": 43.165,
+          "line": "shot-5"
+        },
+        {
+          "text": "Henri",
+          "start": 43.355,
+          "end": 43.6,
+          "line": "shot-5"
+        },
+        {
+          "text": "Kagan",
+          "start": 43.669,
+          "end": 44.031,
+          "line": "shot-5"
+        },
+        {
+          "text": "ticked",
+          "start": 44.055,
+          "end": 44.333,
+          "line": "shot-5"
+        },
+        {
+          "text": "box",
+          "start": 44.395,
+          "end": 44.743,
+          "line": "shot-5"
+        },
+        {
+          "text": "two.",
+          "start": 44.775,
+          "end": 45.165,
+          "line": "shot-5"
+        },
+        {
+          "text": "His",
+          "start": 45.625,
+          "end": 45.797,
+          "line": "shot-5"
+        },
+        {
+          "text": "insight:",
+          "start": 45.846,
+          "end": 46.315,
+          "line": "shot-5"
+        },
+        {
+          "text": "the",
+          "start": 46.805,
+          "end": 46.863,
+          "line": "shot-5"
+        },
+        {
+          "text": "catalyst's",
+          "start": 46.917,
+          "end": 47.462,
+          "line": "shot-5"
+        },
+        {
+          "text": "metal",
+          "start": 47.512,
+          "end": 47.781,
+          "line": "shot-5"
+        },
+        {
+          "text": "holds",
+          "start": 47.828,
+          "end": 48.144,
+          "line": "shot-5"
+        },
+        {
+          "text": "two",
+          "start": 48.215,
+          "end": 48.373,
+          "line": "shot-5"
+        },
+        {
+          "text": "pieces,",
+          "start": 48.375,
+          "end": 48.935,
+          "line": "shot-5"
+        },
+        {
+          "text": "so",
+          "start": 49.145,
+          "end": 49.343,
+          "line": "shot-5"
+        },
+        {
+          "text": "mixed",
+          "start": 49.409,
+          "end": 49.65,
+          "line": "shot-5"
+        },
+        {
+          "text": "hands",
+          "start": 49.698,
+          "end": 50.05,
+          "line": "shot-5"
+        },
+        {
+          "text": "make",
+          "start": 50.094,
+          "end": 50.267,
+          "line": "shot-5"
+        },
+        {
+          "text": "three",
+          "start": 50.345,
+          "end": 50.547,
+          "line": "shot-5"
+        },
+        {
+          "text": "kinds",
+          "start": 50.595,
+          "end": 50.836,
+          "line": "shot-5"
+        },
+        {
+          "text": "of",
+          "start": 50.86,
+          "end": 50.916,
+          "line": "shot-5"
+        },
+        {
+          "text": "pairs,",
+          "start": 50.955,
+          "end": 51.491,
+          "line": "shot-5"
+        },
+        {
+          "text": "and",
+          "start": 51.635,
+          "end": 51.739,
+          "line": "shot-5"
+        },
+        {
+          "text": "the",
+          "start": 51.763,
+          "end": 51.818,
+          "line": "shot-5"
+        },
+        {
+          "text": "mixed",
+          "start": 51.887,
+          "end": 52.153,
+          "line": "shot-5"
+        },
+        {
+          "text": "pair",
+          "start": 52.205,
+          "end": 52.463,
+          "line": "shot-5"
+        },
+        {
+          "text": "barely",
+          "start": 52.515,
+          "end": 52.833,
+          "line": "shot-5"
+        },
+        {
+          "text": "works.",
+          "start": 52.883,
+          "end": 53.305,
+          "line": "shot-5"
+        },
+        {
+          "text": "Start",
+          "start": 53.815,
+          "end": 54.139,
+          "line": "shot-5"
+        },
+        {
+          "text": "seventy-five",
+          "start": 54.204,
+          "end": 54.89,
+          "line": "shot-5"
+        },
+        {
+          "text": "to",
+          "start": 54.935,
+          "end": 54.99,
+          "line": "shot-5"
+        },
+        {
+          "text": "twenty-five,",
+          "start": 55.045,
+          "end": 55.785,
+          "line": "shot-5"
+        },
+        {
+          "text": "and",
+          "start": 56.025,
+          "end": 56.098,
+          "line": "shot-5"
+        },
+        {
+          "text": "the",
+          "start": 56.122,
+          "end": 56.172,
+          "line": "shot-5"
+        },
+        {
+          "text": "working",
+          "start": 56.22,
+          "end": 56.531,
+          "line": "shot-5"
+        },
+        {
+          "text": "catalysts",
+          "start": 56.579,
+          "end": 57.095,
+          "line": "shot-5"
+        },
+        {
+          "text": "are",
+          "start": 57.132,
+          "end": 57.222,
+          "line": "shot-5"
+        },
+        {
+          "text": "ninety",
+          "start": 57.285,
+          "end": 57.602,
+          "line": "shot-5"
+        },
+        {
+          "text": "to",
+          "start": 57.65,
+          "end": 57.722,
+          "line": "shot-5"
+        },
+        {
+          "text": "ten:",
+          "start": 57.765,
+          "end": 58.175,
+          "line": "shot-5"
+        },
+        {
+          "text": "a",
+          "start": 58.485,
+          "end": 58.552,
+          "line": "shot-5"
+        },
+        {
+          "text": "purer",
+          "start": 58.605,
+          "end": 58.922,
+          "line": "shot-5"
+        },
+        {
+          "text": "product",
+          "start": 58.985,
+          "end": 59.383,
+          "line": "shot-5"
+        },
+        {
+          "text": "than",
+          "start": 59.435,
+          "end": 59.582,
+          "line": "shot-5"
+        },
+        {
+          "text": "a",
+          "start": 59.582,
+          "end": 59.672,
+          "line": "shot-5"
+        },
+        {
+          "text": "straight",
+          "start": 59.672,
+          "end": 59.995,
+          "line": "shot-5"
+        },
+        {
+          "text": "line",
+          "start": 60.025,
+          "end": 60.343,
+          "line": "shot-5"
+        },
+        {
+          "text": "predicts.",
+          "start": 60.405,
+          "end": 60.942,
+          "line": "shot-5"
+        }
+      ]
+    },
+    {
+      "id": "shot-6",
+      "index": 6,
+      "text": "In nineteen ninety-five, Kenso Soai ticked box three: a molecule that helps build more of itself, same hand, from simple ingredients.",
+      "source_text": "In nineteen ninety-five, Kenso Soai ticked box three: a molecule that helps build more of itself, same hand, from simple ingredients.",
+      "voice": "af_bella",
+      "engine": "kokoro",
+      "lang": "en-us",
+      "speed": 1.08,
+      "style": "neutral",
+      "start": 62.551,
+      "end": 71.537,
+      "duration": 8.986,
+      "speech_start": 62.591,
+      "speech_end": 71.117,
+      "pause_after": 0.45,
+      "slot": {
+        "start": 62.551,
+        "end": 71.987,
+        "duration": 9.436
+      },
+      "file": "lines/06-shot-6.wav",
+      "timing": "exact",
+      "wps": 2.463,
+      "words": [
+        {
+          "text": "In",
+          "start": 62.591,
+          "end": 62.652,
+          "line": "shot-6"
+        },
+        {
+          "text": "nineteen",
+          "start": 62.697,
+          "end": 63.022,
+          "line": "shot-6"
+        },
+        {
+          "text": "ninety-five,",
+          "start": 63.057,
+          "end": 63.751,
+          "line": "shot-6"
+        },
+        {
+          "text": "Kenso",
+          "start": 64.021,
+          "end": 64.449,
+          "line": "shot-6"
+        },
+        {
+          "text": "Soai",
+          "start": 64.543,
+          "end": 64.851,
+          "line": "shot-6"
+        },
+        {
+          "text": "ticked",
+          "start": 64.851,
+          "end": 65.157,
+          "line": "shot-6"
+        },
+        {
+          "text": "box",
+          "start": 65.191,
+          "end": 65.546,
+          "line": "shot-6"
+        },
+        {
+          "text": "three:",
+          "start": 65.591,
+          "end": 66.001,
+          "line": "shot-6"
+        },
+        {
+          "text": "a",
+          "start": 66.461,
+          "end": 66.538,
+          "line": "shot-6"
+        },
+        {
+          "text": "molecule",
+          "start": 66.587,
+          "end": 67.108,
+          "line": "shot-6"
+        },
+        {
+          "text": "that",
+          "start": 67.142,
+          "end": 67.232,
+          "line": "shot-6"
+        },
+        {
+          "text": "helps",
+          "start": 67.279,
+          "end": 67.54,
+          "line": "shot-6"
+        },
+        {
+          "text": "build",
+          "start": 67.581,
+          "end": 67.869,
+          "line": "shot-6"
+        },
+        {
+          "text": "more",
+          "start": 67.917,
+          "end": 68.075,
+          "line": "shot-6"
+        },
+        {
+          "text": "of",
+          "start": 68.099,
+          "end": 68.15,
+          "line": "shot-6"
+        },
+        {
+          "text": "itself,",
+          "start": 68.221,
+          "end": 68.651,
+          "line": "shot-6"
+        },
+        {
+          "text": "same",
+          "start": 68.833,
+          "end": 69.082,
+          "line": "shot-6"
+        },
+        {
+          "text": "hand,",
+          "start": 69.13,
+          "end": 69.531,
+          "line": "shot-6"
+        },
+        {
+          "text": "from",
+          "start": 69.781,
+          "end": 69.949,
+          "line": "shot-6"
+        },
+        {
+          "text": "simple",
+          "start": 70.04,
+          "end": 70.348,
+          "line": "shot-6"
+        },
+        {
+          "text": "ingredients.",
+          "start": 70.396,
+          "end": 71.117,
+          "line": "shot-6"
+        }
+      ]
+    },
+    {
+      "id": "shot-7",
+      "index": 7,
+      "text": "In two thousand three, his team started with a lead of five parts in ten million. Each run's product seeds the next: fifty-seven percent after one run, ninety-nine after two, past ninety-nine and a half after three.",
+      "source_text": "In two thousand three, his team started with a lead of five parts in ten million. Each run's product seeds the next: fifty-seven percent after one run, ninety-nine after two, past ninety-nine and a half after three.",
+      "voice": "af_bella",
+      "engine": "kokoro",
+      "lang": "en-us",
+      "speed": 1.08,
+      "style": "neutral",
+      "start": 71.987,
+      "end": 85.82,
+      "duration": 13.833,
+      "speech_start": 72.027,
+      "speech_end": 85.42,
+      "pause_after": 1.2,
+      "slot": {
+        "start": 71.987,
+        "end": 87.02,
+        "duration": 15.033
+      },
+      "file": "lines/07-shot-7.wav",
+      "timing": "exact",
+      "wps": 2.763,
+      "words": [
+        {
+          "text": "In",
+          "start": 72.027,
+          "end": 72.092,
+          "line": "shot-7"
+        },
+        {
+          "text": "two",
+          "start": 72.151,
+          "end": 72.265,
+          "line": "shot-7"
+        },
+        {
+          "text": "thousand",
+          "start": 72.313,
+          "end": 72.683,
+          "line": "shot-7"
+        },
+        {
+          "text": "three,",
+          "start": 72.717,
+          "end": 73.117,
+          "line": "shot-7"
+        },
+        {
+          "text": "his",
+          "start": 73.397,
+          "end": 73.55,
+          "line": "shot-7"
+        },
+        {
+          "text": "team",
+          "start": 73.577,
+          "end": 73.844,
+          "line": "shot-7"
+        },
+        {
+          "text": "started",
+          "start": 73.895,
+          "end": 74.229,
+          "line": "shot-7"
+        },
+        {
+          "text": "with",
+          "start": 74.258,
+          "end": 74.344,
+          "line": "shot-7"
+        },
+        {
+          "text": "a",
+          "start": 74.369,
+          "end": 74.409,
+          "line": "shot-7"
+        },
+        {
+          "text": "lead",
+          "start": 74.462,
+          "end": 74.678,
+          "line": "shot-7"
+        },
+        {
+          "text": "of",
+          "start": 74.704,
+          "end": 74.774,
+          "line": "shot-7"
+        },
+        {
+          "text": "five",
+          "start": 74.858,
+          "end": 75.164,
+          "line": "shot-7"
+        },
+        {
+          "text": "parts",
+          "start": 75.237,
+          "end": 75.585,
+          "line": "shot-7"
+        },
+        {
+          "text": "in",
+          "start": 75.632,
+          "end": 75.726,
+          "line": "shot-7"
+        },
+        {
+          "text": "ten",
+          "start": 75.796,
+          "end": 75.989,
+          "line": "shot-7"
+        },
+        {
+          "text": "million.",
+          "start": 76.036,
+          "end": 76.537,
+          "line": "shot-7"
+        },
+        {
+          "text": "Each",
+          "start": 77.087,
+          "end": 77.316,
+          "line": "shot-7"
+        },
+        {
+          "text": "run's",
+          "start": 77.371,
+          "end": 77.653,
+          "line": "shot-7"
+        },
+        {
+          "text": "product",
+          "start": 77.727,
+          "end": 78.107,
+          "line": "shot-7"
+        },
+        {
+          "text": "seeds",
+          "start": 78.175,
+          "end": 78.487,
+          "line": "shot-7"
+        },
+        {
+          "text": "the",
+          "start": 78.525,
+          "end": 78.58,
+          "line": "shot-7"
+        },
+        {
+          "text": "next:",
+          "start": 78.627,
+          "end": 79.167,
+          "line": "shot-7"
+        },
+        {
+          "text": "fifty-seven",
+          "start": 79.45,
+          "end": 80.005,
+          "line": "shot-7"
+        },
+        {
+          "text": "percent",
+          "start": 80.053,
+          "end": 80.458,
+          "line": "shot-7"
+        },
+        {
+          "text": "after",
+          "start": 80.503,
+          "end": 80.739,
+          "line": "shot-7"
+        },
+        {
+          "text": "one",
+          "start": 80.747,
+          "end": 80.964,
+          "line": "shot-7"
+        },
+        {
+          "text": "run,",
+          "start": 81.012,
+          "end": 81.447,
+          "line": "shot-7"
+        },
+        {
+          "text": "ninety-nine",
+          "start": 81.637,
+          "end": 82.281,
+          "line": "shot-7"
+        },
+        {
+          "text": "after",
+          "start": 82.326,
+          "end": 82.561,
+          "line": "shot-7"
+        },
+        {
+          "text": "two,",
+          "start": 82.677,
+          "end": 83.067,
+          "line": "shot-7"
+        },
+        {
+          "text": "past",
+          "start": 83.271,
+          "end": 83.548,
+          "line": "shot-7"
+        },
+        {
+          "text": "ninety-nine",
+          "start": 83.587,
+          "end": 84.284,
+          "line": "shot-7"
+        },
+        {
+          "text": "and",
+          "start": 84.308,
+          "end": 84.379,
+          "line": "shot-7"
+        },
+        {
+          "text": "a",
+          "start": 84.402,
+          "end": 84.432,
+          "line": "shot-7"
+        },
+        {
+          "text": "half",
+          "start": 84.477,
+          "end": 84.726,
+          "line": "shot-7"
+        },
+        {
+          "text": "after",
+          "start": 84.762,
+          "end": 84.993,
+          "line": "shot-7"
+        },
+        {
+          "text": "three.",
+          "start": 85.063,
+          "end": 85.42,
+          "line": "shot-7"
+        }
+      ]
+    },
+    {
+      "id": "shot-8",
+      "index": 8,
+      "text": "Then, with no one-handed ingredient added, the reaction still picked a hand, at random. In thirty-seven runs, nineteen leaned one way, eighteen the other.",
+      "source_text": "Then, with no one-handed ingredient added, the reaction still picked a hand, at random. In thirty-seven runs, nineteen leaned one way, eighteen the other.",
+      "voice": "af_bella",
+      "engine": "kokoro",
+      "lang": "en-us",
+      "speed": 1.08,
+      "style": "neutral",
+      "start": 87.02,
+      "end": 97.021,
+      "duration": 10.001,
+      "speech_start": 87.06,
+      "speech_end": 96.621,
+      "pause_after": 0.45,
+      "slot": {
+        "start": 87.02,
+        "end": 97.471,
+        "duration": 10.451
+      },
+      "file": "lines/08-shot-8.wav",
+      "timing": "exact",
+      "wps": 2.51,
+      "words": [
+        {
+          "text": "Then,",
+          "start": 87.06,
+          "end": 87.276,
+          "line": "shot-8"
+        },
+        {
+          "text": "with",
+          "start": 87.333,
+          "end": 87.46,
+          "line": "shot-8"
+        },
+        {
+          "text": "no",
+          "start": 87.541,
+          "end": 87.773,
+          "line": "shot-8"
+        },
+        {
+          "text": "one-handed",
+          "start": 87.773,
+          "end": 88.361,
+          "line": "shot-8"
+        },
+        {
+          "text": "ingredient",
+          "start": 88.404,
+          "end": 88.955,
+          "line": "shot-8"
+        },
+        {
+          "text": "added,",
+          "start": 89.01,
+          "end": 89.52,
+          "line": "shot-8"
+        },
+        {
+          "text": "the",
+          "start": 89.7,
+          "end": 89.734,
+          "line": "shot-8"
+        },
+        {
+          "text": "reaction",
+          "start": 89.782,
+          "end": 90.269,
+          "line": "shot-8"
+        },
+        {
+          "text": "still",
+          "start": 90.334,
+          "end": 90.542,
+          "line": "shot-8"
+        },
+        {
+          "text": "picked",
+          "start": 90.592,
+          "end": 90.769,
+          "line": "shot-8"
+        },
+        {
+          "text": "a",
+          "start": 90.8,
+          "end": 90.832,
+          "line": "shot-8"
+        },
+        {
+          "text": "hand,",
+          "start": 90.892,
+          "end": 91.37,
+          "line": "shot-8"
+        },
+        {
+          "text": "at",
+          "start": 91.54,
+          "end": 91.627,
+          "line": "shot-8"
+        },
+        {
+          "text": "random.",
+          "start": 91.66,
+          "end": 92.21,
+          "line": "shot-8"
+        },
+        {
+          "text": "In",
+          "start": 92.76,
+          "end": 92.843,
+          "line": "shot-8"
+        },
+        {
+          "text": "thirty-seven",
+          "start": 92.914,
+          "end": 93.509,
+          "line": "shot-8"
+        },
+        {
+          "text": "runs,",
+          "start": 93.557,
+          "end": 94.05,
+          "line": "shot-8"
+        },
+        {
+          "text": "nineteen",
+          "start": 94.17,
+          "end": 94.668,
+          "line": "shot-8"
+        },
+        {
+          "text": "leaned",
+          "start": 94.716,
+          "end": 94.972,
+          "line": "shot-8"
+        },
+        {
+          "text": "one",
+          "start": 95.024,
+          "end": 95.194,
+          "line": "shot-8"
+        },
+        {
+          "text": "way,",
+          "start": 95.242,
+          "end": 95.56,
+          "line": "shot-8"
+        },
+        {
+          "text": "eighteen",
+          "start": 95.78,
+          "end": 96.145,
+          "line": "shot-8"
+        },
+        {
+          "text": "the",
+          "start": 96.176,
+          "end": 96.256,
+          "line": "shot-8"
+        },
+        {
+          "text": "other.",
+          "start": 96.298,
+          "end": 96.621,
+          "line": "shot-8"
+        }
+      ]
+    },
+    {
+      "id": "shot-9",
+      "index": 9,
+      "text": "In our toy model, copying alone isn't enough: ten thousand runs end up anywhere. Add box two, where a one-hand and a mirror molecule pair up and stop working, and nearly every run ends with one hand taking over. Which hand is a coin toss.",
+      "source_text": "In our toy model, copying alone isn't enough: ten thousand runs end up anywhere. Add box two, where a one-hand and a mirror molecule pair up and stop working, and nearly every run ends with one hand taking over. Which hand is a coin toss.",
+      "voice": "af_bella",
+      "engine": "kokoro",
+      "lang": "en-us",
+      "speed": 1.08,
+      "style": "neutral",
+      "start": 97.471,
+      "end": 112.87,
+      "duration": 15.399,
+      "speech_start": 97.511,
+      "speech_end": 112.44,
+      "pause_after": 1.8,
+      "slot": {
+        "start": 97.471,
+        "end": 114.67,
+        "duration": 17.199
+      },
+      "file": "lines/09-shot-9.wav",
+      "timing": "exact",
+      "wps": 3.014,
+      "words": [
+        {
+          "text": "In",
+          "start": 97.511,
+          "end": 97.563,
+          "line": "shot-9"
+        },
+        {
+          "text": "our",
+          "start": 97.587,
+          "end": 97.686,
+          "line": "shot-9"
+        },
+        {
+          "text": "toy",
+          "start": 97.741,
+          "end": 97.982,
+          "line": "shot-9"
+        },
+        {
+          "text": "model,",
+          "start": 98.029,
+          "end": 98.461,
+          "line": "shot-9"
+        },
+        {
+          "text": "copying",
+          "start": 98.651,
+          "end": 99.032,
+          "line": "shot-9"
+        },
+        {
+          "text": "alone",
+          "start": 99.079,
+          "end": 99.432,
+          "line": "shot-9"
+        },
+        {
+          "text": "isn't",
+          "start": 99.473,
+          "end": 99.657,
+          "line": "shot-9"
+        },
+        {
+          "text": "enough:",
+          "start": 99.686,
+          "end": 100.181,
+          "line": "shot-9"
+        },
+        {
+          "text": "ten",
+          "start": 100.405,
+          "end": 100.597,
+          "line": "shot-9"
+        },
+        {
+          "text": "thousand",
+          "start": 100.645,
+          "end": 100.985,
+          "line": "shot-9"
+        },
+        {
+          "text": "runs",
+          "start": 101.036,
+          "end": 101.389,
+          "line": "shot-9"
+        },
+        {
+          "text": "end",
+          "start": 101.436,
+          "end": 101.593,
+          "line": "shot-9"
+        },
+        {
+          "text": "up",
+          "start": 101.617,
+          "end": 101.743,
+          "line": "shot-9"
+        },
+        {
+          "text": "anywhere.",
+          "start": 101.778,
+          "end": 102.361,
+          "line": "shot-9"
+        },
+        {
+          "text": "Add",
+          "start": 102.874,
+          "end": 103.097,
+          "line": "shot-9"
+        },
+        {
+          "text": "box",
+          "start": 103.157,
+          "end": 103.522,
+          "line": "shot-9"
+        },
+        {
+          "text": "two,",
+          "start": 103.595,
+          "end": 104.021,
+          "line": "shot-9"
+        },
+        {
+          "text": "where",
+          "start": 104.124,
+          "end": 104.23,
+          "line": "shot-9"
+        },
+        {
+          "text": "a",
+          "start": 104.267,
+          "end": 104.309,
+          "line": "shot-9"
+        },
+        {
+          "text": "one-hand",
+          "start": 104.367,
+          "end": 104.912,
+          "line": "shot-9"
+        },
+        {
+          "text": "and",
+          "start": 104.949,
+          "end": 105.019,
+          "line": "shot-9"
+        },
+        {
+          "text": "a",
+          "start": 105.043,
+          "end": 105.075,
+          "line": "shot-9"
+        },
+        {
+          "text": "mirror",
+          "start": 105.129,
+          "end": 105.369,
+          "line": "shot-9"
+        },
+        {
+          "text": "molecule",
+          "start": 105.417,
+          "end": 105.934,
+          "line": "shot-9"
+        },
+        {
+          "text": "pair",
+          "start": 106.021,
+          "end": 106.204,
+          "line": "shot-9"
+        },
+        {
+          "text": "up",
+          "start": 106.235,
+          "end": 106.365,
+          "line": "shot-9"
+        },
+        {
+          "text": "and",
+          "start": 106.391,
+          "end": 106.467,
+          "line": "shot-9"
+        },
+        {
+          "text": "stop",
+          "start": 106.53,
+          "end": 106.82,
+          "line": "shot-9"
+        },
+        {
+          "text": "working,",
+          "start": 106.861,
+          "end": 107.491,
+          "line": "shot-9"
+        },
+        {
+          "text": "and",
+          "start": 107.636,
+          "end": 107.708,
+          "line": "shot-9"
+        },
+        {
+          "text": "nearly",
+          "start": 107.752,
+          "end": 108.023,
+          "line": "shot-9"
+        },
+        {
+          "text": "every",
+          "start": 108.083,
+          "end": 108.337,
+          "line": "shot-9"
+        },
+        {
+          "text": "run",
+          "start": 108.401,
+          "end": 108.669,
+          "line": "shot-9"
+        },
+        {
+          "text": "ends",
+          "start": 108.74,
+          "end": 108.975,
+          "line": "shot-9"
+        },
+        {
+          "text": "with",
+          "start": 109.005,
+          "end": 109.121,
+          "line": "shot-9"
+        },
+        {
+          "text": "one",
+          "start": 109.189,
+          "end": 109.362,
+          "line": "shot-9"
+        },
+        {
+          "text": "hand",
+          "start": 109.412,
+          "end": 109.681,
+          "line": "shot-9"
+        },
+        {
+          "text": "taking",
+          "start": 109.728,
+          "end": 109.975,
+          "line": "shot-9"
+        },
+        {
+          "text": "over.",
+          "start": 110.013,
+          "end": 110.471,
+          "line": "shot-9"
+        },
+        {
+          "text": "Which",
+          "start": 110.847,
+          "end": 111.024,
+          "line": "shot-9"
+        },
+        {
+          "text": "hand",
+          "start": 111.031,
+          "end": 111.36,
+          "line": "shot-9"
+        },
+        {
+          "text": "is",
+          "start": 111.396,
+          "end": 111.465,
+          "line": "shot-9"
+        },
+        {
+          "text": "a",
+          "start": 111.495,
+          "end": 111.533,
+          "line": "shot-9"
+        },
+        {
+          "text": "coin",
+          "start": 111.621,
+          "end": 111.917,
+          "line": "shot-9"
+        },
+        {
+          "text": "toss.",
+          "start": 111.977,
+          "end": 112.44,
+          "line": "shot-9"
+        }
+      ]
+    },
+    {
+      "id": "shot-10",
+      "index": 10,
+      "text": "A toy, not how life chose its hand. The Nobel Committee stresses Frank's model isn't the answer to life's origin, and how Soai's reaction works is still debated.",
+      "source_text": "A toy, not how life chose its hand. The Nobel Committee stresses Frank's model isn't the answer to life's origin, and how Soai's reaction works is still debated.",
+      "voice": "af_bella",
+      "engine": "kokoro",
+      "lang": "en-us",
+      "speed": 1.08,
+      "style": "neutral",
+      "start": 114.67,
+      "end": 125.108,
+      "duration": 10.438,
+      "speech_start": 114.71,
+      "speech_end": 124.698,
+      "pause_after": 0.45,
+      "slot": {
+        "start": 114.67,
+        "end": 125.558,
+        "duration": 10.888
+      },
+      "file": "lines/10-shot-10.wav",
+      "timing": "exact",
+      "wps": 2.803,
+      "words": [
+        {
+          "text": "A",
+          "start": 114.71,
+          "end": 114.745,
+          "line": "shot-10"
+        },
+        {
+          "text": "toy,",
+          "start": 114.78,
+          "end": 115.25,
+          "line": "shot-10"
+        },
+        {
+          "text": "not",
+          "start": 115.32,
+          "end": 115.541,
+          "line": "shot-10"
+        },
+        {
+          "text": "how",
+          "start": 115.589,
+          "end": 115.753,
+          "line": "shot-10"
+        },
+        {
+          "text": "life",
+          "start": 115.81,
+          "end": 116.056,
+          "line": "shot-10"
+        },
+        {
+          "text": "chose",
+          "start": 116.106,
+          "end": 116.393,
+          "line": "shot-10"
+        },
+        {
+          "text": "its",
+          "start": 116.45,
+          "end": 116.539,
+          "line": "shot-10"
+        },
+        {
+          "text": "hand.",
+          "start": 116.587,
+          "end": 116.96,
+          "line": "shot-10"
+        },
+        {
+          "text": "The",
+          "start": 117.44,
+          "end": 117.588,
+          "line": "shot-10"
+        },
+        {
+          "text": "Nobel",
+          "start": 117.636,
+          "end": 118.022,
+          "line": "shot-10"
+        },
+        {
+          "text": "Committee",
+          "start": 118.072,
+          "end": 118.499,
+          "line": "shot-10"
+        },
+        {
+          "text": "stresses",
+          "start": 118.56,
+          "end": 118.997,
+          "line": "shot-10"
+        },
+        {
+          "text": "Frank's",
+          "start": 119.067,
+          "end": 119.357,
+          "line": "shot-10"
+        },
+        {
+          "text": "model",
+          "start": 119.419,
+          "end": 119.77,
+          "line": "shot-10"
+        },
+        {
+          "text": "isn't",
+          "start": 119.96,
+          "end": 120.218,
+          "line": "shot-10"
+        },
+        {
+          "text": "the",
+          "start": 120.244,
+          "end": 120.337,
+          "line": "shot-10"
+        },
+        {
+          "text": "answer",
+          "start": 120.411,
+          "end": 120.734,
+          "line": "shot-10"
+        },
+        {
+          "text": "to",
+          "start": 120.783,
+          "end": 120.856,
+          "line": "shot-10"
+        },
+        {
+          "text": "life's",
+          "start": 120.903,
+          "end": 121.213,
+          "line": "shot-10"
+        },
+        {
+          "text": "origin,",
+          "start": 121.261,
+          "end": 121.81,
+          "line": "shot-10"
+        },
+        {
+          "text": "and",
+          "start": 122.14,
+          "end": 122.266,
+          "line": "shot-10"
+        },
+        {
+          "text": "how",
+          "start": 122.314,
+          "end": 122.488,
+          "line": "shot-10"
+        },
+        {
+          "text": "Soai's",
+          "start": 122.587,
+          "end": 122.932,
+          "line": "shot-10"
+        },
+        {
+          "text": "reaction",
+          "start": 122.98,
+          "end": 123.445,
+          "line": "shot-10"
+        },
+        {
+          "text": "works",
+          "start": 123.492,
+          "end": 123.753,
+          "line": "shot-10"
+        },
+        {
+          "text": "is",
+          "start": 123.798,
+          "end": 123.867,
+          "line": "shot-10"
+        },
+        {
+          "text": "still",
+          "start": 123.92,
+          "end": 124.133,
+          "line": "shot-10"
+        },
+        {
+          "text": "debated.",
+          "start": 124.18,
+          "end": 124.698,
+          "line": "shot-10"
+        }
+      ]
+    },
+    {
+      "id": "shot-11",
+      "index": 11,
+      "text": "Choosing the hand matters for medicines: one form does the job, and its mirror image can cause unnecessary, sometimes harmful, side effects.",
+      "source_text": "Choosing the hand matters for medicines: one form does the job, and its mirror image can cause unnecessary, sometimes harmful, side effects.",
+      "voice": "af_bella",
+      "engine": "kokoro",
+      "lang": "en-us",
+      "speed": 1.08,
+      "style": "neutral",
+      "start": 125.558,
+      "end": 134.867,
+      "duration": 9.309,
+      "speech_start": 125.598,
+      "speech_end": 134.447,
+      "pause_after": 0.8,
+      "slot": {
+        "start": 125.558,
+        "end": 135.667,
+        "duration": 10.109
+      },
+      "file": "lines/11-shot-11.wav",
+      "timing": "exact",
+      "wps": 2.486,
+      "words": [
+        {
+          "text": "Choosing",
+          "start": 125.598,
+          "end": 125.949,
+          "line": "shot-11"
+        },
+        {
+          "text": "the",
+          "start": 125.981,
+          "end": 126.028,
+          "line": "shot-11"
+        },
+        {
+          "text": "hand",
+          "start": 126.076,
+          "end": 126.338,
+          "line": "shot-11"
+        },
+        {
+          "text": "matters",
+          "start": 126.385,
+          "end": 126.731,
+          "line": "shot-11"
+        },
+        {
+          "text": "for",
+          "start": 126.776,
+          "end": 126.871,
+          "line": "shot-11"
+        },
+        {
+          "text": "medicines:",
+          "start": 126.917,
+          "end": 127.598,
+          "line": "shot-11"
+        },
+        {
+          "text": "one",
+          "start": 128.028,
+          "end": 128.201,
+          "line": "shot-11"
+        },
+        {
+          "text": "form",
+          "start": 128.274,
+          "end": 128.548,
+          "line": "shot-11"
+        },
+        {
+          "text": "does",
+          "start": 128.594,
+          "end": 128.748,
+          "line": "shot-11"
+        },
+        {
+          "text": "the",
+          "start": 128.786,
+          "end": 128.839,
+          "line": "shot-11"
+        },
+        {
+          "text": "job,",
+          "start": 128.902,
+          "end": 129.398,
+          "line": "shot-11"
+        },
+        {
+          "text": "and",
+          "start": 129.698,
+          "end": 129.748,
+          "line": "shot-11"
+        },
+        {
+          "text": "its",
+          "start": 129.772,
+          "end": 129.899,
+          "line": "shot-11"
+        },
+        {
+          "text": "mirror",
+          "start": 129.97,
+          "end": 130.241,
+          "line": "shot-11"
+        },
+        {
+          "text": "image",
+          "start": 130.318,
+          "end": 130.632,
+          "line": "shot-11"
+        },
+        {
+          "text": "can",
+          "start": 130.718,
+          "end": 130.81,
+          "line": "shot-11"
+        },
+        {
+          "text": "cause",
+          "start": 130.873,
+          "end": 131.199,
+          "line": "shot-11"
+        },
+        {
+          "text": "unnecessary,",
+          "start": 131.268,
+          "end": 132.168,
+          "line": "shot-11"
+        },
+        {
+          "text": "sometimes",
+          "start": 132.428,
+          "end": 132.934,
+          "line": "shot-11"
+        },
+        {
+          "text": "harmful,",
+          "start": 133.007,
+          "end": 133.545,
+          "line": "shot-11"
+        },
+        {
+          "text": "side",
+          "start": 133.678,
+          "end": 133.956,
+          "line": "shot-11"
+        },
+        {
+          "text": "effects.",
+          "start": 133.988,
+          "end": 134.447,
+          "line": "shot-11"
+        }
+      ]
+    },
+    {
+      "id": "shot-12",
+      "index": 12,
+      "text": "Race the mirrors yourself in our open Nobel 2026 lab. Explained with showtime, an open-source video studio for coding agents.",
+      "source_text": "Race the mirrors yourself in our open Nobel 2026 lab. Explained with showtime, an open-source video studio for coding agents.",
+      "voice": "af_bella",
+      "engine": "kokoro",
+      "lang": "en-us",
+      "speed": 1.08,
+      "style": "neutral",
+      "start": 135.667,
+      "end": 145.391,
+      "duration": 9.724,
+      "speech_start": 135.687,
+      "speech_end": 144.961,
+      "pause_after": 0.45,
+      "slot": {
+        "start": 135.667,
+        "end": 145.991,
+        "duration": 10.324
+      },
+      "file": "lines/12-shot-12.wav",
+      "timing": "exact",
+      "wps": 2.157,
+      "words": [
+        {
+          "text": "Race",
+          "start": 135.687,
+          "end": 135.949,
+          "line": "shot-12"
+        },
+        {
+          "text": "the",
+          "start": 136.017,
+          "end": 136.057,
+          "line": "shot-12"
+        },
+        {
+          "text": "mirrors",
+          "start": 136.108,
+          "end": 136.439,
+          "line": "shot-12"
+        },
+        {
+          "text": "yourself",
+          "start": 136.486,
+          "end": 137.025,
+          "line": "shot-12"
+        },
+        {
+          "text": "in",
+          "start": 137.073,
+          "end": 137.124,
+          "line": "shot-12"
+        },
+        {
+          "text": "our",
+          "start": 137.147,
+          "end": 137.274,
+          "line": "shot-12"
+        },
+        {
+          "text": "open",
+          "start": 137.317,
+          "end": 137.713,
+          "line": "shot-12"
+        },
+        {
+          "text": "Nobel",
+          "start": 137.789,
+          "end": 138.261,
+          "line": "shot-12"
+        },
+        {
+          "text": "2026",
+          "start": 138.297,
+          "end": 139.536,
+          "line": "shot-12"
+        },
+        {
+          "text": "lab.",
+          "start": 139.586,
+          "end": 139.917,
+          "line": "shot-12"
+        },
+        {
+          "text": "Explained",
+          "start": 140.507,
+          "end": 141.131,
+          "line": "shot-12"
+        },
+        {
+          "text": "with",
+          "start": 141.166,
+          "end": 141.285,
+          "line": "shot-12"
+        },
+        {
+          "text": "showtime,",
+          "start": 141.36,
+          "end": 141.977,
+          "line": "shot-12"
+        },
+        {
+          "text": "an",
+          "start": 142.287,
+          "end": 142.355,
+          "line": "shot-12"
+        },
+        {
+          "text": "open-source",
+          "start": 142.447,
+          "end": 143.063,
+          "line": "shot-12"
+        },
+        {
+          "text": "video",
+          "start": 143.147,
+          "end": 143.398,
+          "line": "shot-12"
+        },
+        {
+          "text": "studio",
+          "start": 143.445,
+          "end": 143.87,
+          "line": "shot-12"
+        },
+        {
+          "text": "for",
+          "start": 143.918,
+          "end": 144.02,
+          "line": "shot-12"
+        },
+        {
+          "text": "coding",
+          "start": 144.067,
+          "end": 144.382,
+          "line": "shot-12"
+        },
+        {
+          "text": "agents.",
+          "start": 144.422,
+          "end": 144.961,
+          "line": "shot-12"
+        }
+      ]
+    }
+  ],
+  "words": [
+    {
+      "text": "Your",
+      "start": 0.03,
+      "end": 0.139,
+      "line": "shot-1"
+    },
+    {
+      "text": "hands",
+      "start": 0.191,
+      "end": 0.58,
+      "line": "shot-1"
+    },
+    {
+      "text": "are",
+      "start": 0.625,
+      "end": 0.718,
+      "line": "shot-1"
+    },
+    {
+      "text": "mirror",
+      "start": 0.793,
+      "end": 1.061,
+      "line": "shot-1"
+    },
+    {
+      "text": "images.",
+      "start": 1.14,
+      "end": 1.75,
+      "line": "shot-1"
+    },
+    {
+      "text": "This",
+      "start": 2.19,
+      "end": 2.322,
+      "line": "shot-1"
+    },
+    {
+      "text": "year's",
+      "start": 2.374,
+      "end": 2.648,
+      "line": "shot-1"
+    },
+    {
+      "text": "Nobel",
+      "start": 2.723,
+      "end": 3.112,
+      "line": "shot-1"
+    },
+    {
+      "text": "Prize",
+      "start": 3.182,
+      "end": 3.583,
+      "line": "shot-1"
+    },
+    {
+      "text": "in",
+      "start": 3.619,
+      "end": 3.711,
+      "line": "shot-1"
+    },
+    {
+      "text": "Chemistry",
+      "start": 3.765,
+      "end": 4.45,
+      "line": "shot-1"
+    },
+    {
+      "text": "is",
+      "start": 4.613,
+      "end": 4.687,
+      "line": "shot-1"
+    },
+    {
+      "text": "about",
+      "start": 4.7,
+      "end": 4.9,
+      "line": "shot-1"
+    },
+    {
+      "text": "how",
+      "start": 4.944,
+      "end": 5.098,
+      "line": "shot-1"
+    },
+    {
+      "text": "one",
+      "start": 5.171,
+      "end": 5.347,
+      "line": "shot-1"
+    },
+    {
+      "text": "hand",
+      "start": 5.409,
+      "end": 5.705,
+      "line": "shot-1"
+    },
+    {
+      "text": "can",
+      "start": 5.79,
+      "end": 5.849,
+      "line": "shot-1"
+    },
+    {
+      "text": "take",
+      "start": 5.896,
+      "end": 6.076,
+      "line": "shot-1"
+    },
+    {
+      "text": "over.",
+      "start": 6.09,
+      "end": 6.457,
+      "line": "shot-1"
+    },
+    {
+      "text": "Many",
+      "start": 7.347,
+      "end": 7.526,
+      "line": "shot-2"
+    },
+    {
+      "text": "molecules",
+      "start": 7.573,
+      "end": 8.123,
+      "line": "shot-2"
+    },
+    {
+      "text": "come",
+      "start": 8.137,
+      "end": 8.306,
+      "line": "shot-2"
+    },
+    {
+      "text": "in",
+      "start": 8.333,
+      "end": 8.419,
+      "line": "shot-2"
+    },
+    {
+      "text": "two",
+      "start": 8.447,
+      "end": 8.636,
+      "line": "shot-2"
+    },
+    {
+      "text": "hands",
+      "start": 8.683,
+      "end": 8.948,
+      "line": "shot-2"
+    },
+    {
+      "text": "like",
+      "start": 8.972,
+      "end": 9.108,
+      "line": "shot-2"
+    },
+    {
+      "text": "that.",
+      "start": 9.167,
+      "end": 9.487,
+      "line": "shot-2"
+    },
+    {
+      "text": "Life",
+      "start": 9.907,
+      "end": 10.268,
+      "line": "shot-2"
+    },
+    {
+      "text": "is",
+      "start": 10.318,
+      "end": 10.421,
+      "line": "shot-2"
+    },
+    {
+      "text": "picky:",
+      "start": 10.487,
+      "end": 10.947,
+      "line": "shot-2"
+    },
+    {
+      "text": "your",
+      "start": 11.267,
+      "end": 11.378,
+      "line": "shot-2"
+    },
+    {
+      "text": "proteins",
+      "start": 11.425,
+      "end": 11.925,
+      "line": "shot-2"
+    },
+    {
+      "text": "use",
+      "start": 11.972,
+      "end": 12.133,
+      "line": "shot-2"
+    },
+    {
+      "text": "only",
+      "start": 12.179,
+      "end": 12.427,
+      "line": "shot-2"
+    },
+    {
+      "text": "one",
+      "start": 12.502,
+      "end": 12.677,
+      "line": "shot-2"
+    },
+    {
+      "text": "hand",
+      "start": 12.732,
+      "end": 13.008,
+      "line": "shot-2"
+    },
+    {
+      "text": "of",
+      "start": 13.032,
+      "end": 13.091,
+      "line": "shot-2"
+    },
+    {
+      "text": "each",
+      "start": 13.139,
+      "end": 13.343,
+      "line": "shot-2"
+    },
+    {
+      "text": "amino",
+      "start": 13.347,
+      "end": 13.757,
+      "line": "shot-2"
+    },
+    {
+      "text": "acid.",
+      "start": 13.83,
+      "end": 14.264,
+      "line": "shot-2"
+    },
+    {
+      "text": "Yet",
+      "start": 15.124,
+      "end": 15.239,
+      "line": "shot-3"
+    },
+    {
+      "text": "a",
+      "start": 15.266,
+      "end": 15.296,
+      "line": "shot-3"
+    },
+    {
+      "text": "reaction",
+      "start": 15.339,
+      "end": 15.827,
+      "line": "shot-3"
+    },
+    {
+      "text": "left",
+      "start": 15.874,
+      "end": 16.066,
+      "line": "shot-3"
+    },
+    {
+      "text": "to",
+      "start": 16.114,
+      "end": 16.2,
+      "line": "shot-3"
+    },
+    {
+      "text": "itself",
+      "start": 16.247,
+      "end": 16.643,
+      "line": "shot-3"
+    },
+    {
+      "text": "makes",
+      "start": 16.704,
+      "end": 16.901,
+      "line": "shot-3"
+    },
+    {
+      "text": "both",
+      "start": 16.949,
+      "end": 17.185,
+      "line": "shot-3"
+    },
+    {
+      "text": "hands,",
+      "start": 17.235,
+      "end": 17.804,
+      "line": "shot-3"
+    },
+    {
+      "text": "fifty-fifty.",
+      "start": 17.994,
+      "end": 18.834,
+      "line": "shot-3"
+    },
+    {
+      "text": "A",
+      "start": 19.344,
+      "end": 19.395,
+      "line": "shot-3"
+    },
+    {
+      "text": "one-handed",
+      "start": 19.47,
+      "end": 20.058,
+      "line": "shot-3"
+    },
+    {
+      "text": "catalyst,",
+      "start": 20.114,
+      "end": 20.794,
+      "line": "shot-3"
+    },
+    {
+      "text": "a",
+      "start": 20.904,
+      "end": 20.946,
+      "line": "shot-3"
+    },
+    {
+      "text": "helper",
+      "start": 20.996,
+      "end": 21.302,
+      "line": "shot-3"
+    },
+    {
+      "text": "that",
+      "start": 21.343,
+      "end": 21.424,
+      "line": "shot-3"
+    },
+    {
+      "text": "isn't",
+      "start": 21.448,
+      "end": 21.627,
+      "line": "shot-3"
+    },
+    {
+      "text": "used",
+      "start": 21.68,
+      "end": 21.895,
+      "line": "shot-3"
+    },
+    {
+      "text": "up,",
+      "start": 21.954,
+      "end": 22.254,
+      "line": "shot-3"
+    },
+    {
+      "text": "can",
+      "start": 22.379,
+      "end": 22.511,
+      "line": "shot-3"
+    },
+    {
+      "text": "tip",
+      "start": 22.57,
+      "end": 22.744,
+      "line": "shot-3"
+    },
+    {
+      "text": "the",
+      "start": 22.779,
+      "end": 22.828,
+      "line": "shot-3"
+    },
+    {
+      "text": "balance.",
+      "start": 22.834,
+      "end": 23.417,
+      "line": "shot-3"
+    },
+    {
+      "text": "In",
+      "start": 24.317,
+      "end": 24.389,
+      "line": "shot-4"
+    },
+    {
+      "text": "nineteen",
+      "start": 24.435,
+      "end": 24.793,
+      "line": "shot-4"
+    },
+    {
+      "text": "fifty-three,",
+      "start": 24.844,
+      "end": 25.575,
+      "line": "shot-4"
+    },
+    {
+      "text": "Charles",
+      "start": 25.677,
+      "end": 26.053,
+      "line": "shot-4"
+    },
+    {
+      "text": "Frank",
+      "start": 26.108,
+      "end": 26.388,
+      "line": "shot-4"
+    },
+    {
+      "text": "wrote",
+      "start": 26.447,
+      "end": 26.576,
+      "line": "shot-4"
+    },
+    {
+      "text": "a",
+      "start": 26.602,
+      "end": 26.635,
+      "line": "shot-4"
+    },
+    {
+      "text": "recipe",
+      "start": 26.682,
+      "end": 27.139,
+      "line": "shot-4"
+    },
+    {
+      "text": "for",
+      "start": 27.187,
+      "end": 27.29,
+      "line": "shot-4"
+    },
+    {
+      "text": "one",
+      "start": 27.351,
+      "end": 27.522,
+      "line": "shot-4"
+    },
+    {
+      "text": "hand",
+      "start": 27.569,
+      "end": 27.824,
+      "line": "shot-4"
+    },
+    {
+      "text": "to",
+      "start": 27.866,
+      "end": 27.917,
+      "line": "shot-4"
+    },
+    {
+      "text": "take",
+      "start": 27.917,
+      "end": 28.15,
+      "line": "shot-4"
+    },
+    {
+      "text": "over",
+      "start": 28.173,
+      "end": 28.338,
+      "line": "shot-4"
+    },
+    {
+      "text": "completely.",
+      "start": 28.347,
+      "end": 29.017,
+      "line": "shot-4"
+    },
+    {
+      "text": "One:",
+      "start": 29.477,
+      "end": 29.947,
+      "line": "shot-4"
+    },
+    {
+      "text": "a",
+      "start": 30.167,
+      "end": 30.266,
+      "line": "shot-4"
+    },
+    {
+      "text": "one-handed",
+      "start": 30.341,
+      "end": 30.932,
+      "line": "shot-4"
+    },
+    {
+      "text": "catalyst;",
+      "start": 30.947,
+      "end": 31.647,
+      "line": "shot-4"
+    },
+    {
+      "text": "chemists",
+      "start": 31.897,
+      "end": 32.304,
+      "line": "shot-4"
+    },
+    {
+      "text": "had",
+      "start": 32.352,
+      "end": 32.509,
+      "line": "shot-4"
+    },
+    {
+      "text": "that",
+      "start": 32.554,
+      "end": 32.709,
+      "line": "shot-4"
+    },
+    {
+      "text": "by",
+      "start": 32.746,
+      "end": 32.829,
+      "line": "shot-4"
+    },
+    {
+      "text": "the",
+      "start": 32.855,
+      "end": 32.928,
+      "line": "shot-4"
+    },
+    {
+      "text": "early",
+      "start": 32.99,
+      "end": 33.239,
+      "line": "shot-4"
+    },
+    {
+      "text": "nineteen",
+      "start": 33.286,
+      "end": 33.681,
+      "line": "shot-4"
+    },
+    {
+      "text": "hundreds.",
+      "start": 33.728,
+      "end": 34.327,
+      "line": "shot-4"
+    },
+    {
+      "text": "Two:",
+      "start": 34.777,
+      "end": 35.187,
+      "line": "shot-4"
+    },
+    {
+      "text": "boost",
+      "start": 35.407,
+      "end": 35.73,
+      "line": "shot-4"
+    },
+    {
+      "text": "one",
+      "start": 35.784,
+      "end": 35.958,
+      "line": "shot-4"
+    },
+    {
+      "text": "hand",
+      "start": 36.006,
+      "end": 36.303,
+      "line": "shot-4"
+    },
+    {
+      "text": "and",
+      "start": 36.338,
+      "end": 36.41,
+      "line": "shot-4"
+    },
+    {
+      "text": "hold",
+      "start": 36.457,
+      "end": 36.686,
+      "line": "shot-4"
+    },
+    {
+      "text": "back",
+      "start": 36.747,
+      "end": 36.942,
+      "line": "shot-4"
+    },
+    {
+      "text": "the",
+      "start": 36.987,
+      "end": 37.062,
+      "line": "shot-4"
+    },
+    {
+      "text": "other.",
+      "start": 37.109,
+      "end": 37.467,
+      "line": "shot-4"
+    },
+    {
+      "text": "Three:",
+      "start": 37.897,
+      "end": 38.407,
+      "line": "shot-4"
+    },
+    {
+      "text": "a",
+      "start": 38.717,
+      "end": 38.764,
+      "line": "shot-4"
+    },
+    {
+      "text": "reaction",
+      "start": 38.811,
+      "end": 39.31,
+      "line": "shot-4"
+    },
+    {
+      "text": "that",
+      "start": 39.352,
+      "end": 39.442,
+      "line": "shot-4"
+    },
+    {
+      "text": "makes",
+      "start": 39.475,
+      "end": 39.667,
+      "line": "shot-4"
+    },
+    {
+      "text": "its",
+      "start": 39.694,
+      "end": 39.787,
+      "line": "shot-4"
+    },
+    {
+      "text": "own",
+      "start": 39.819,
+      "end": 40.02,
+      "line": "shot-4"
+    },
+    {
+      "text": "catalyst.",
+      "start": 40.047,
+      "end": 40.685,
+      "line": "shot-4"
+    },
+    {
+      "text": "In",
+      "start": 41.945,
+      "end": 42.015,
+      "line": "shot-5"
+    },
+    {
+      "text": "nineteen",
+      "start": 42.062,
+      "end": 42.445,
+      "line": "shot-5"
+    },
+    {
+      "text": "eighty-six,",
+      "start": 42.487,
+      "end": 43.165,
+      "line": "shot-5"
+    },
+    {
+      "text": "Henri",
+      "start": 43.355,
+      "end": 43.6,
+      "line": "shot-5"
+    },
+    {
+      "text": "Kagan",
+      "start": 43.669,
+      "end": 44.031,
+      "line": "shot-5"
+    },
+    {
+      "text": "ticked",
+      "start": 44.055,
+      "end": 44.333,
+      "line": "shot-5"
+    },
+    {
+      "text": "box",
+      "start": 44.395,
+      "end": 44.743,
+      "line": "shot-5"
+    },
+    {
+      "text": "two.",
+      "start": 44.775,
+      "end": 45.165,
+      "line": "shot-5"
+    },
+    {
+      "text": "His",
+      "start": 45.625,
+      "end": 45.797,
+      "line": "shot-5"
+    },
+    {
+      "text": "insight:",
+      "start": 45.846,
+      "end": 46.315,
+      "line": "shot-5"
+    },
+    {
+      "text": "the",
+      "start": 46.805,
+      "end": 46.863,
+      "line": "shot-5"
+    },
+    {
+      "text": "catalyst's",
+      "start": 46.917,
+      "end": 47.462,
+      "line": "shot-5"
+    },
+    {
+      "text": "metal",
+      "start": 47.512,
+      "end": 47.781,
+      "line": "shot-5"
+    },
+    {
+      "text": "holds",
+      "start": 47.828,
+      "end": 48.144,
+      "line": "shot-5"
+    },
+    {
+      "text": "two",
+      "start": 48.215,
+      "end": 48.373,
+      "line": "shot-5"
+    },
+    {
+      "text": "pieces,",
+      "start": 48.375,
+      "end": 48.935,
+      "line": "shot-5"
+    },
+    {
+      "text": "so",
+      "start": 49.145,
+      "end": 49.343,
+      "line": "shot-5"
+    },
+    {
+      "text": "mixed",
+      "start": 49.409,
+      "end": 49.65,
+      "line": "shot-5"
+    },
+    {
+      "text": "hands",
+      "start": 49.698,
+      "end": 50.05,
+      "line": "shot-5"
+    },
+    {
+      "text": "make",
+      "start": 50.094,
+      "end": 50.267,
+      "line": "shot-5"
+    },
+    {
+      "text": "three",
+      "start": 50.345,
+      "end": 50.547,
+      "line": "shot-5"
+    },
+    {
+      "text": "kinds",
+      "start": 50.595,
+      "end": 50.836,
+      "line": "shot-5"
+    },
+    {
+      "text": "of",
+      "start": 50.86,
+      "end": 50.916,
+      "line": "shot-5"
+    },
+    {
+      "text": "pairs,",
+      "start": 50.955,
+      "end": 51.491,
+      "line": "shot-5"
+    },
+    {
+      "text": "and",
+      "start": 51.635,
+      "end": 51.739,
+      "line": "shot-5"
+    },
+    {
+      "text": "the",
+      "start": 51.763,
+      "end": 51.818,
+      "line": "shot-5"
+    },
+    {
+      "text": "mixed",
+      "start": 51.887,
+      "end": 52.153,
+      "line": "shot-5"
+    },
+    {
+      "text": "pair",
+      "start": 52.205,
+      "end": 52.463,
+      "line": "shot-5"
+    },
+    {
+      "text": "barely",
+      "start": 52.515,
+      "end": 52.833,
+      "line": "shot-5"
+    },
+    {
+      "text": "works.",
+      "start": 52.883,
+      "end": 53.305,
+      "line": "shot-5"
+    },
+    {
+      "text": "Start",
+      "start": 53.815,
+      "end": 54.139,
+      "line": "shot-5"
+    },
+    {
+      "text": "seventy-five",
+      "start": 54.204,
+      "end": 54.89,
+      "line": "shot-5"
+    },
+    {
+      "text": "to",
+      "start": 54.935,
+      "end": 54.99,
+      "line": "shot-5"
+    },
+    {
+      "text": "twenty-five,",
+      "start": 55.045,
+      "end": 55.785,
+      "line": "shot-5"
+    },
+    {
+      "text": "and",
+      "start": 56.025,
+      "end": 56.098,
+      "line": "shot-5"
+    },
+    {
+      "text": "the",
+      "start": 56.122,
+      "end": 56.172,
+      "line": "shot-5"
+    },
+    {
+      "text": "working",
+      "start": 56.22,
+      "end": 56.531,
+      "line": "shot-5"
+    },
+    {
+      "text": "catalysts",
+      "start": 56.579,
+      "end": 57.095,
+      "line": "shot-5"
+    },
+    {
+      "text": "are",
+      "start": 57.132,
+      "end": 57.222,
+      "line": "shot-5"
+    },
+    {
+      "text": "ninety",
+      "start": 57.285,
+      "end": 57.602,
+      "line": "shot-5"
+    },
+    {
+      "text": "to",
+      "start": 57.65,
+      "end": 57.722,
+      "line": "shot-5"
+    },
+    {
+      "text": "ten:",
+      "start": 57.765,
+      "end": 58.175,
+      "line": "shot-5"
+    },
+    {
+      "text": "a",
+      "start": 58.485,
+      "end": 58.552,
+      "line": "shot-5"
+    },
+    {
+      "text": "purer",
+      "start": 58.605,
+      "end": 58.922,
+      "line": "shot-5"
+    },
+    {
+      "text": "product",
+      "start": 58.985,
+      "end": 59.383,
+      "line": "shot-5"
+    },
+    {
+      "text": "than",
+      "start": 59.435,
+      "end": 59.582,
+      "line": "shot-5"
+    },
+    {
+      "text": "a",
+      "start": 59.582,
+      "end": 59.672,
+      "line": "shot-5"
+    },
+    {
+      "text": "straight",
+      "start": 59.672,
+      "end": 59.995,
+      "line": "shot-5"
+    },
+    {
+      "text": "line",
+      "start": 60.025,
+      "end": 60.343,
+      "line": "shot-5"
+    },
+    {
+      "text": "predicts.",
+      "start": 60.405,
+      "end": 60.942,
+      "line": "shot-5"
+    },
+    {
+      "text": "In",
+      "start": 62.591,
+      "end": 62.652,
+      "line": "shot-6"
+    },
+    {
+      "text": "nineteen",
+      "start": 62.697,
+      "end": 63.022,
+      "line": "shot-6"
+    },
+    {
+      "text": "ninety-five,",
+      "start": 63.057,
+      "end": 63.751,
+      "line": "shot-6"
+    },
+    {
+      "text": "Kenso",
+      "start": 64.021,
+      "end": 64.449,
+      "line": "shot-6"
+    },
+    {
+      "text": "Soai",
+      "start": 64.543,
+      "end": 64.851,
+      "line": "shot-6"
+    },
+    {
+      "text": "ticked",
+      "start": 64.851,
+      "end": 65.157,
+      "line": "shot-6"
+    },
+    {
+      "text": "box",
+      "start": 65.191,
+      "end": 65.546,
+      "line": "shot-6"
+    },
+    {
+      "text": "three:",
+      "start": 65.591,
+      "end": 66.001,
+      "line": "shot-6"
+    },
+    {
+      "text": "a",
+      "start": 66.461,
+      "end": 66.538,
+      "line": "shot-6"
+    },
+    {
+      "text": "molecule",
+      "start": 66.587,
+      "end": 67.108,
+      "line": "shot-6"
+    },
+    {
+      "text": "that",
+      "start": 67.142,
+      "end": 67.232,
+      "line": "shot-6"
+    },
+    {
+      "text": "helps",
+      "start": 67.279,
+      "end": 67.54,
+      "line": "shot-6"
+    },
+    {
+      "text": "build",
+      "start": 67.581,
+      "end": 67.869,
+      "line": "shot-6"
+    },
+    {
+      "text": "more",
+      "start": 67.917,
+      "end": 68.075,
+      "line": "shot-6"
+    },
+    {
+      "text": "of",
+      "start": 68.099,
+      "end": 68.15,
+      "line": "shot-6"
+    },
+    {
+      "text": "itself,",
+      "start": 68.221,
+      "end": 68.651,
+      "line": "shot-6"
+    },
+    {
+      "text": "same",
+      "start": 68.833,
+      "end": 69.082,
+      "line": "shot-6"
+    },
+    {
+      "text": "hand,",
+      "start": 69.13,
+      "end": 69.531,
+      "line": "shot-6"
+    },
+    {
+      "text": "from",
+      "start": 69.781,
+      "end": 69.949,
+      "line": "shot-6"
+    },
+    {
+      "text": "simple",
+      "start": 70.04,
+      "end": 70.348,
+      "line": "shot-6"
+    },
+    {
+      "text": "ingredients.",
+      "start": 70.396,
+      "end": 71.117,
+      "line": "shot-6"
+    },
+    {
+      "text": "In",
+      "start": 72.027,
+      "end": 72.092,
+      "line": "shot-7"
+    },
+    {
+      "text": "two",
+      "start": 72.151,
+      "end": 72.265,
+      "line": "shot-7"
+    },
+    {
+      "text": "thousand",
+      "start": 72.313,
+      "end": 72.683,
+      "line": "shot-7"
+    },
+    {
+      "text": "three,",
+      "start": 72.717,
+      "end": 73.117,
+      "line": "shot-7"
+    },
+    {
+      "text": "his",
+      "start": 73.397,
+      "end": 73.55,
+      "line": "shot-7"
+    },
+    {
+      "text": "team",
+      "start": 73.577,
+      "end": 73.844,
+      "line": "shot-7"
+    },
+    {
+      "text": "started",
+      "start": 73.895,
+      "end": 74.229,
+      "line": "shot-7"
+    },
+    {
+      "text": "with",
+      "start": 74.258,
+      "end": 74.344,
+      "line": "shot-7"
+    },
+    {
+      "text": "a",
+      "start": 74.369,
+      "end": 74.409,
+      "line": "shot-7"
+    },
+    {
+      "text": "lead",
+      "start": 74.462,
+      "end": 74.678,
+      "line": "shot-7"
+    },
+    {
+      "text": "of",
+      "start": 74.704,
+      "end": 74.774,
+      "line": "shot-7"
+    },
+    {
+      "text": "five",
+      "start": 74.858,
+      "end": 75.164,
+      "line": "shot-7"
+    },
+    {
+      "text": "parts",
+      "start": 75.237,
+      "end": 75.585,
+      "line": "shot-7"
+    },
+    {
+      "text": "in",
+      "start": 75.632,
+      "end": 75.726,
+      "line": "shot-7"
+    },
+    {
+      "text": "ten",
+      "start": 75.796,
+      "end": 75.989,
+      "line": "shot-7"
+    },
+    {
+      "text": "million.",
+      "start": 76.036,
+      "end": 76.537,
+      "line": "shot-7"
+    },
+    {
+      "text": "Each",
+      "start": 77.087,
+      "end": 77.316,
+      "line": "shot-7"
+    },
+    {
+      "text": "run's",
+      "start": 77.371,
+      "end": 77.653,
+      "line": "shot-7"
+    },
+    {
+      "text": "product",
+      "start": 77.727,
+      "end": 78.107,
+      "line": "shot-7"
+    },
+    {
+      "text": "seeds",
+      "start": 78.175,
+      "end": 78.487,
+      "line": "shot-7"
+    },
+    {
+      "text": "the",
+      "start": 78.525,
+      "end": 78.58,
+      "line": "shot-7"
+    },
+    {
+      "text": "next:",
+      "start": 78.627,
+      "end": 79.167,
+      "line": "shot-7"
+    },
+    {
+      "text": "fifty-seven",
+      "start": 79.45,
+      "end": 80.005,
+      "line": "shot-7"
+    },
+    {
+      "text": "percent",
+      "start": 80.053,
+      "end": 80.458,
+      "line": "shot-7"
+    },
+    {
+      "text": "after",
+      "start": 80.503,
+      "end": 80.739,
+      "line": "shot-7"
+    },
+    {
+      "text": "one",
+      "start": 80.747,
+      "end": 80.964,
+      "line": "shot-7"
+    },
+    {
+      "text": "run,",
+      "start": 81.012,
+      "end": 81.447,
+      "line": "shot-7"
+    },
+    {
+      "text": "ninety-nine",
+      "start": 81.637,
+      "end": 82.281,
+      "line": "shot-7"
+    },
+    {
+      "text": "after",
+      "start": 82.326,
+      "end": 82.561,
+      "line": "shot-7"
+    },
+    {
+      "text": "two,",
+      "start": 82.677,
+      "end": 83.067,
+      "line": "shot-7"
+    },
+    {
+      "text": "past",
+      "start": 83.271,
+      "end": 83.548,
+      "line": "shot-7"
+    },
+    {
+      "text": "ninety-nine",
+      "start": 83.587,
+      "end": 84.284,
+      "line": "shot-7"
+    },
+    {
+      "text": "and",
+      "start": 84.308,
+      "end": 84.379,
+      "line": "shot-7"
+    },
+    {
+      "text": "a",
+      "start": 84.402,
+      "end": 84.432,
+      "line": "shot-7"
+    },
+    {
+      "text": "half",
+      "start": 84.477,
+      "end": 84.726,
+      "line": "shot-7"
+    },
+    {
+      "text": "after",
+      "start": 84.762,
+      "end": 84.993,
+      "line": "shot-7"
+    },
+    {
+      "text": "three.",
+      "start": 85.063,
+      "end": 85.42,
+      "line": "shot-7"
+    },
+    {
+      "text": "Then,",
+      "start": 87.06,
+      "end": 87.276,
+      "line": "shot-8"
+    },
+    {
+      "text": "with",
+      "start": 87.333,
+      "end": 87.46,
+      "line": "shot-8"
+    },
+    {
+      "text": "no",
+      "start": 87.541,
+      "end": 87.773,
+      "line": "shot-8"
+    },
+    {
+      "text": "one-handed",
+      "start": 87.773,
+      "end": 88.361,
+      "line": "shot-8"
+    },
+    {
+      "text": "ingredient",
+      "start": 88.404,
+      "end": 88.955,
+      "line": "shot-8"
+    },
+    {
+      "text": "added,",
+      "start": 89.01,
+      "end": 89.52,
+      "line": "shot-8"
+    },
+    {
+      "text": "the",
+      "start": 89.7,
+      "end": 89.734,
+      "line": "shot-8"
+    },
+    {
+      "text": "reaction",
+      "start": 89.782,
+      "end": 90.269,
+      "line": "shot-8"
+    },
+    {
+      "text": "still",
+      "start": 90.334,
+      "end": 90.542,
+      "line": "shot-8"
+    },
+    {
+      "text": "picked",
+      "start": 90.592,
+      "end": 90.769,
+      "line": "shot-8"
+    },
+    {
+      "text": "a",
+      "start": 90.8,
+      "end": 90.832,
+      "line": "shot-8"
+    },
+    {
+      "text": "hand,",
+      "start": 90.892,
+      "end": 91.37,
+      "line": "shot-8"
+    },
+    {
+      "text": "at",
+      "start": 91.54,
+      "end": 91.627,
+      "line": "shot-8"
+    },
+    {
+      "text": "random.",
+      "start": 91.66,
+      "end": 92.21,
+      "line": "shot-8"
+    },
+    {
+      "text": "In",
+      "start": 92.76,
+      "end": 92.843,
+      "line": "shot-8"
+    },
+    {
+      "text": "thirty-seven",
+      "start": 92.914,
+      "end": 93.509,
+      "line": "shot-8"
+    },
+    {
+      "text": "runs,",
+      "start": 93.557,
+      "end": 94.05,
+      "line": "shot-8"
+    },
+    {
+      "text": "nineteen",
+      "start": 94.17,
+      "end": 94.668,
+      "line": "shot-8"
+    },
+    {
+      "text": "leaned",
+      "start": 94.716,
+      "end": 94.972,
+      "line": "shot-8"
+    },
+    {
+      "text": "one",
+      "start": 95.024,
+      "end": 95.194,
+      "line": "shot-8"
+    },
+    {
+      "text": "way,",
+      "start": 95.242,
+      "end": 95.56,
+      "line": "shot-8"
+    },
+    {
+      "text": "eighteen",
+      "start": 95.78,
+      "end": 96.145,
+      "line": "shot-8"
+    },
+    {
+      "text": "the",
+      "start": 96.176,
+      "end": 96.256,
+      "line": "shot-8"
+    },
+    {
+      "text": "other.",
+      "start": 96.298,
+      "end": 96.621,
+      "line": "shot-8"
+    },
+    {
+      "text": "In",
+      "start": 97.511,
+      "end": 97.563,
+      "line": "shot-9"
+    },
+    {
+      "text": "our",
+      "start": 97.587,
+      "end": 97.686,
+      "line": "shot-9"
+    },
+    {
+      "text": "toy",
+      "start": 97.741,
+      "end": 97.982,
+      "line": "shot-9"
+    },
+    {
+      "text": "model,",
+      "start": 98.029,
+      "end": 98.461,
+      "line": "shot-9"
+    },
+    {
+      "text": "copying",
+      "start": 98.651,
+      "end": 99.032,
+      "line": "shot-9"
+    },
+    {
+      "text": "alone",
+      "start": 99.079,
+      "end": 99.432,
+      "line": "shot-9"
+    },
+    {
+      "text": "isn't",
+      "start": 99.473,
+      "end": 99.657,
+      "line": "shot-9"
+    },
+    {
+      "text": "enough:",
+      "start": 99.686,
+      "end": 100.181,
+      "line": "shot-9"
+    },
+    {
+      "text": "ten",
+      "start": 100.405,
+      "end": 100.597,
+      "line": "shot-9"
+    },
+    {
+      "text": "thousand",
+      "start": 100.645,
+      "end": 100.985,
+      "line": "shot-9"
+    },
+    {
+      "text": "runs",
+      "start": 101.036,
+      "end": 101.389,
+      "line": "shot-9"
+    },
+    {
+      "text": "end",
+      "start": 101.436,
+      "end": 101.593,
+      "line": "shot-9"
+    },
+    {
+      "text": "up",
+      "start": 101.617,
+      "end": 101.743,
+      "line": "shot-9"
+    },
+    {
+      "text": "anywhere.",
+      "start": 101.778,
+      "end": 102.361,
+      "line": "shot-9"
+    },
+    {
+      "text": "Add",
+      "start": 102.874,
+      "end": 103.097,
+      "line": "shot-9"
+    },
+    {
+      "text": "box",
+      "start": 103.157,
+      "end": 103.522,
+      "line": "shot-9"
+    },
+    {
+      "text": "two,",
+      "start": 103.595,
+      "end": 104.021,
+      "line": "shot-9"
+    },
+    {
+      "text": "where",
+      "start": 104.124,
+      "end": 104.23,
+      "line": "shot-9"
+    },
+    {
+      "text": "a",
+      "start": 104.267,
+      "end": 104.309,
+      "line": "shot-9"
+    },
+    {
+      "text": "one-hand",
+      "start": 104.367,
+      "end": 104.912,
+      "line": "shot-9"
+    },
+    {
+      "text": "and",
+      "start": 104.949,
+      "end": 105.019,
+      "line": "shot-9"
+    },
+    {
+      "text": "a",
+      "start": 105.043,
+      "end": 105.075,
+      "line": "shot-9"
+    },
+    {
+      "text": "mirror",
+      "start": 105.129,
+      "end": 105.369,
+      "line": "shot-9"
+    },
+    {
+      "text": "molecule",
+      "start": 105.417,
+      "end": 105.934,
+      "line": "shot-9"
+    },
+    {
+      "text": "pair",
+      "start": 106.021,
+      "end": 106.204,
+      "line": "shot-9"
+    },
+    {
+      "text": "up",
+      "start": 106.235,
+      "end": 106.365,
+      "line": "shot-9"
+    },
+    {
+      "text": "and",
+      "start": 106.391,
+      "end": 106.467,
+      "line": "shot-9"
+    },
+    {
+      "text": "stop",
+      "start": 106.53,
+      "end": 106.82,
+      "line": "shot-9"
+    },
+    {
+      "text": "working,",
+      "start": 106.861,
+      "end": 107.491,
+      "line": "shot-9"
+    },
+    {
+      "text": "and",
+      "start": 107.636,
+      "end": 107.708,
+      "line": "shot-9"
+    },
+    {
+      "text": "nearly",
+      "start": 107.752,
+      "end": 108.023,
+      "line": "shot-9"
+    },
+    {
+      "text": "every",
+      "start": 108.083,
+      "end": 108.337,
+      "line": "shot-9"
+    },
+    {
+      "text": "run",
+      "start": 108.401,
+      "end": 108.669,
+      "line": "shot-9"
+    },
+    {
+      "text": "ends",
+      "start": 108.74,
+      "end": 108.975,
+      "line": "shot-9"
+    },
+    {
+      "text": "with",
+      "start": 109.005,
+      "end": 109.121,
+      "line": "shot-9"
+    },
+    {
+      "text": "one",
+      "start": 109.189,
+      "end": 109.362,
+      "line": "shot-9"
+    },
+    {
+      "text": "hand",
+      "start": 109.412,
+      "end": 109.681,
+      "line": "shot-9"
+    },
+    {
+      "text": "taking",
+      "start": 109.728,
+      "end": 109.975,
+      "line": "shot-9"
+    },
+    {
+      "text": "over.",
+      "start": 110.013,
+      "end": 110.471,
+      "line": "shot-9"
+    },
+    {
+      "text": "Which",
+      "start": 110.847,
+      "end": 111.024,
+      "line": "shot-9"
+    },
+    {
+      "text": "hand",
+      "start": 111.031,
+      "end": 111.36,
+      "line": "shot-9"
+    },
+    {
+      "text": "is",
+      "start": 111.396,
+      "end": 111.465,
+      "line": "shot-9"
+    },
+    {
+      "text": "a",
+      "start": 111.495,
+      "end": 111.533,
+      "line": "shot-9"
+    },
+    {
+      "text": "coin",
+      "start": 111.621,
+      "end": 111.917,
+      "line": "shot-9"
+    },
+    {
+      "text": "toss.",
+      "start": 111.977,
+      "end": 112.44,
+      "line": "shot-9"
+    },
+    {
+      "text": "A",
+      "start": 114.71,
+      "end": 114.745,
+      "line": "shot-10"
+    },
+    {
+      "text": "toy,",
+      "start": 114.78,
+      "end": 115.25,
+      "line": "shot-10"
+    },
+    {
+      "text": "not",
+      "start": 115.32,
+      "end": 115.541,
+      "line": "shot-10"
+    },
+    {
+      "text": "how",
+      "start": 115.589,
+      "end": 115.753,
+      "line": "shot-10"
+    },
+    {
+      "text": "life",
+      "start": 115.81,
+      "end": 116.056,
+      "line": "shot-10"
+    },
+    {
+      "text": "chose",
+      "start": 116.106,
+      "end": 116.393,
+      "line": "shot-10"
+    },
+    {
+      "text": "its",
+      "start": 116.45,
+      "end": 116.539,
+      "line": "shot-10"
+    },
+    {
+      "text": "hand.",
+      "start": 116.587,
+      "end": 116.96,
+      "line": "shot-10"
+    },
+    {
+      "text": "The",
+      "start": 117.44,
+      "end": 117.588,
+      "line": "shot-10"
+    },
+    {
+      "text": "Nobel",
+      "start": 117.636,
+      "end": 118.022,
+      "line": "shot-10"
+    },
+    {
+      "text": "Committee",
+      "start": 118.072,
+      "end": 118.499,
+      "line": "shot-10"
+    },
+    {
+      "text": "stresses",
+      "start": 118.56,
+      "end": 118.997,
+      "line": "shot-10"
+    },
+    {
+      "text": "Frank's",
+      "start": 119.067,
+      "end": 119.357,
+      "line": "shot-10"
+    },
+    {
+      "text": "model",
+      "start": 119.419,
+      "end": 119.77,
+      "line": "shot-10"
+    },
+    {
+      "text": "isn't",
+      "start": 119.96,
+      "end": 120.218,
+      "line": "shot-10"
+    },
+    {
+      "text": "the",
+      "start": 120.244,
+      "end": 120.337,
+      "line": "shot-10"
+    },
+    {
+      "text": "answer",
+      "start": 120.411,
+      "end": 120.734,
+      "line": "shot-10"
+    },
+    {
+      "text": "to",
+      "start": 120.783,
+      "end": 120.856,
+      "line": "shot-10"
+    },
+    {
+      "text": "life's",
+      "start": 120.903,
+      "end": 121.213,
+      "line": "shot-10"
+    },
+    {
+      "text": "origin,",
+      "start": 121.261,
+      "end": 121.81,
+      "line": "shot-10"
+    },
+    {
+      "text": "and",
+      "start": 122.14,
+      "end": 122.266,
+      "line": "shot-10"
+    },
+    {
+      "text": "how",
+      "start": 122.314,
+      "end": 122.488,
+      "line": "shot-10"
+    },
+    {
+      "text": "Soai's",
+      "start": 122.587,
+      "end": 122.932,
+      "line": "shot-10"
+    },
+    {
+      "text": "reaction",
+      "start": 122.98,
+      "end": 123.445,
+      "line": "shot-10"
+    },
+    {
+      "text": "works",
+      "start": 123.492,
+      "end": 123.753,
+      "line": "shot-10"
+    },
+    {
+      "text": "is",
+      "start": 123.798,
+      "end": 123.867,
+      "line": "shot-10"
+    },
+    {
+      "text": "still",
+      "start": 123.92,
+      "end": 124.133,
+      "line": "shot-10"
+    },
+    {
+      "text": "debated.",
+      "start": 124.18,
+      "end": 124.698,
+      "line": "shot-10"
+    },
+    {
+      "text": "Choosing",
+      "start": 125.598,
+      "end": 125.949,
+      "line": "shot-11"
+    },
+    {
+      "text": "the",
+      "start": 125.981,
+      "end": 126.028,
+      "line": "shot-11"
+    },
+    {
+      "text": "hand",
+      "start": 126.076,
+      "end": 126.338,
+      "line": "shot-11"
+    },
+    {
+      "text": "matters",
+      "start": 126.385,
+      "end": 126.731,
+      "line": "shot-11"
+    },
+    {
+      "text": "for",
+      "start": 126.776,
+      "end": 126.871,
+      "line": "shot-11"
+    },
+    {
+      "text": "medicines:",
+      "start": 126.917,
+      "end": 127.598,
+      "line": "shot-11"
+    },
+    {
+      "text": "one",
+      "start": 128.028,
+      "end": 128.201,
+      "line": "shot-11"
+    },
+    {
+      "text": "form",
+      "start": 128.274,
+      "end": 128.548,
+      "line": "shot-11"
+    },
+    {
+      "text": "does",
+      "start": 128.594,
+      "end": 128.748,
+      "line": "shot-11"
+    },
+    {
+      "text": "the",
+      "start": 128.786,
+      "end": 128.839,
+      "line": "shot-11"
+    },
+    {
+      "text": "job,",
+      "start": 128.902,
+      "end": 129.398,
+      "line": "shot-11"
+    },
+    {
+      "text": "and",
+      "start": 129.698,
+      "end": 129.748,
+      "line": "shot-11"
+    },
+    {
+      "text": "its",
+      "start": 129.772,
+      "end": 129.899,
+      "line": "shot-11"
+    },
+    {
+      "text": "mirror",
+      "start": 129.97,
+      "end": 130.241,
+      "line": "shot-11"
+    },
+    {
+      "text": "image",
+      "start": 130.318,
+      "end": 130.632,
+      "line": "shot-11"
+    },
+    {
+      "text": "can",
+      "start": 130.718,
+      "end": 130.81,
+      "line": "shot-11"
+    },
+    {
+      "text": "cause",
+      "start": 130.873,
+      "end": 131.199,
+      "line": "shot-11"
+    },
+    {
+      "text": "unnecessary,",
+      "start": 131.268,
+      "end": 132.168,
+      "line": "shot-11"
+    },
+    {
+      "text": "sometimes",
+      "start": 132.428,
+      "end": 132.934,
+      "line": "shot-11"
+    },
+    {
+      "text": "harmful,",
+      "start": 133.007,
+      "end": 133.545,
+      "line": "shot-11"
+    },
+    {
+      "text": "side",
+      "start": 133.678,
+      "end": 133.956,
+      "line": "shot-11"
+    },
+    {
+      "text": "effects.",
+      "start": 133.988,
+      "end": 134.447,
+      "line": "shot-11"
+    },
+    {
+      "text": "Race",
+      "start": 135.687,
+      "end": 135.949,
+      "line": "shot-12"
+    },
+    {
+      "text": "the",
+      "start": 136.017,
+      "end": 136.057,
+      "line": "shot-12"
+    },
+    {
+      "text": "mirrors",
+      "start": 136.108,
+      "end": 136.439,
+      "line": "shot-12"
+    },
+    {
+      "text": "yourself",
+      "start": 136.486,
+      "end": 137.025,
+      "line": "shot-12"
+    },
+    {
+      "text": "in",
+      "start": 137.073,
+      "end": 137.124,
+      "line": "shot-12"
+    },
+    {
+      "text": "our",
+      "start": 137.147,
+      "end": 137.274,
+      "line": "shot-12"
+    },
+    {
+      "text": "open",
+      "start": 137.317,
+      "end": 137.713,
+      "line": "shot-12"
+    },
+    {
+      "text": "Nobel",
+      "start": 137.789,
+      "end": 138.261,
+      "line": "shot-12"
+    },
+    {
+      "text": "2026",
+      "start": 138.297,
+      "end": 139.536,
+      "line": "shot-12"
+    },
+    {
+      "text": "lab.",
+      "start": 139.586,
+      "end": 139.917,
+      "line": "shot-12"
+    },
+    {
+      "text": "Explained",
+      "start": 140.507,
+      "end": 141.131,
+      "line": "shot-12"
+    },
+    {
+      "text": "with",
+      "start": 141.166,
+      "end": 141.285,
+      "line": "shot-12"
+    },
+    {
+      "text": "showtime,",
+      "start": 141.36,
+      "end": 141.977,
+      "line": "shot-12"
+    },
+    {
+      "text": "an",
+      "start": 142.287,
+      "end": 142.355,
+      "line": "shot-12"
+    },
+    {
+      "text": "open-source",
+      "start": 142.447,
+      "end": 143.063,
+      "line": "shot-12"
+    },
+    {
+      "text": "video",
+      "start": 143.147,
+      "end": 143.398,
+      "line": "shot-12"
+    },
+    {
+      "text": "studio",
+      "start": 143.445,
+      "end": 143.87,
+      "line": "shot-12"
+    },
+    {
+      "text": "for",
+      "start": 143.918,
+      "end": 144.02,
+      "line": "shot-12"
+    },
+    {
+      "text": "coding",
+      "start": 144.067,
+      "end": 144.382,
+      "line": "shot-12"
+    },
+    {
+      "text": "agents.",
+      "start": 144.422,
+      "end": 144.961,
+      "line": "shot-12"
+    }
+  ],
+  "captions": {
+    "srt": "vo.srt",
+    "transcript": "vo.words.json",
+    "cues": 62
+  },
+  "build_seconds": 79.94,
+  "lexicon": [
+    "showtime:lib/st/voice/lexicon.json"
+  ]
+}

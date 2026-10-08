@@ -1,0 +1,392 @@
+{
+  "source": "05-shot-5.wav",
+  "duration": 19.814,
+  "language": "es",
+  "model": "kokoro-v1.0-timestamped.onnx",
+  "words": [
+    {
+      "text": "En",
+      "start": 0.03,
+      "end": 0.06,
+      "type": "word"
+    },
+    {
+      "text": "mil",
+      "start": 0.093,
+      "end": 0.198,
+      "type": "word"
+    },
+    {
+      "text": "novecientos",
+      "start": 0.223,
+      "end": 0.754,
+      "type": "word"
+    },
+    {
+      "text": "ochenta",
+      "start": 0.801,
+      "end": 1.184,
+      "type": "word"
+    },
+    {
+      "text": "y",
+      "start": 1.22,
+      "end": 1.263,
+      "type": "word"
+    },
+    {
+      "text": "seis,",
+      "start": 1.311,
+      "end": 1.665,
+      "type": "word"
+    },
+    {
+      "text": "Henri",
+      "start": 1.75,
+      "end": 1.997,
+      "type": "word"
+    },
+    {
+      "text": "Kagan",
+      "start": 2.03,
+      "end": 2.301,
+      "type": "word"
+    },
+    {
+      "text": "marcó",
+      "start": 2.344,
+      "end": 2.634,
+      "type": "word"
+    },
+    {
+      "text": "la",
+      "start": 2.664,
+      "end": 2.733,
+      "type": "word"
+    },
+    {
+      "text": "casilla",
+      "start": 2.75,
+      "end": 3.147,
+      "type": "word"
+    },
+    {
+      "text": "dos.",
+      "start": 3.178,
+      "end": 3.5,
+      "type": "word"
+    },
+    {
+      "text": "Su",
+      "start": 3.76,
+      "end": 3.944,
+      "type": "word"
+    },
+    {
+      "text": "idea:",
+      "start": 3.992,
+      "end": 4.35,
+      "type": "word"
+    },
+    {
+      "text": "el",
+      "start": 4.572,
+      "end": 4.643,
+      "type": "word"
+    },
+    {
+      "text": "metal",
+      "start": 4.679,
+      "end": 4.958,
+      "type": "word"
+    },
+    {
+      "text": "del",
+      "start": 4.984,
+      "end": 5.078,
+      "type": "word"
+    },
+    {
+      "text": "catalizador",
+      "start": 5.109,
+      "end": 5.67,
+      "type": "word"
+    },
+    {
+      "text": "sujeta",
+      "start": 5.717,
+      "end": 6.051,
+      "type": "word"
+    },
+    {
+      "text": "dos",
+      "start": 6.08,
+      "end": 6.22,
+      "type": "word"
+    },
+    {
+      "text": "piezas,",
+      "start": 6.27,
+      "end": 6.757,
+      "type": "word"
+    },
+    {
+      "text": "así",
+      "start": 6.85,
+      "end": 7.108,
+      "type": "word"
+    },
+    {
+      "text": "que",
+      "start": 7.144,
+      "end": 7.195,
+      "type": "word"
+    },
+    {
+      "text": "mezclar",
+      "start": 7.225,
+      "end": 7.59,
+      "type": "word"
+    },
+    {
+      "text": "manos",
+      "start": 7.638,
+      "end": 7.88,
+      "type": "word"
+    },
+    {
+      "text": "da",
+      "start": 7.907,
+      "end": 7.994,
+      "type": "word"
+    },
+    {
+      "text": "tres",
+      "start": 8.026,
+      "end": 8.223,
+      "type": "word"
+    },
+    {
+      "text": "tipos",
+      "start": 8.271,
+      "end": 8.496,
+      "type": "word"
+    },
+    {
+      "text": "de",
+      "start": 8.522,
+      "end": 8.582,
+      "type": "word"
+    },
+    {
+      "text": "pares,",
+      "start": 8.629,
+      "end": 8.96,
+      "type": "word"
+    },
+    {
+      "text": "y",
+      "start": 9.224,
+      "end": 9.254,
+      "type": "word"
+    },
+    {
+      "text": "el",
+      "start": 9.276,
+      "end": 9.353,
+      "type": "word"
+    },
+    {
+      "text": "par",
+      "start": 9.36,
+      "end": 9.57,
+      "type": "word"
+    },
+    {
+      "text": "mixto",
+      "start": 9.618,
+      "end": 9.886,
+      "type": "word"
+    },
+    {
+      "text": "apenas",
+      "start": 9.913,
+      "end": 10.217,
+      "type": "word"
+    },
+    {
+      "text": "funciona.",
+      "start": 10.27,
+      "end": 10.8,
+      "type": "word"
+    },
+    {
+      "text": "Empieza",
+      "start": 11.17,
+      "end": 11.618,
+      "type": "word"
+    },
+    {
+      "text": "con",
+      "start": 11.63,
+      "end": 11.787,
+      "type": "word"
+    },
+    {
+      "text": "setenta",
+      "start": 11.829,
+      "end": 12.253,
+      "type": "word"
+    },
+    {
+      "text": "y",
+      "start": 12.298,
+      "end": 12.342,
+      "type": "word"
+    },
+    {
+      "text": "cinco",
+      "start": 12.391,
+      "end": 12.632,
+      "type": "word"
+    },
+    {
+      "text": "a",
+      "start": 12.656,
+      "end": 12.686,
+      "type": "word"
+    },
+    {
+      "text": "veinticinco,",
+      "start": 12.704,
+      "end": 13.45,
+      "type": "word"
+    },
+    {
+      "text": "y",
+      "start": 13.59,
+      "end": 13.647,
+      "type": "word"
+    },
+    {
+      "text": "los",
+      "start": 13.669,
+      "end": 13.782,
+      "type": "word"
+    },
+    {
+      "text": "catalizadores",
+      "start": 13.8,
+      "end": 14.488,
+      "type": "word"
+    },
+    {
+      "text": "que",
+      "start": 14.53,
+      "end": 14.598,
+      "type": "word"
+    },
+    {
+      "text": "sí",
+      "start": 14.646,
+      "end": 14.741,
+      "type": "word"
+    },
+    {
+      "text": "funcionan",
+      "start": 14.789,
+      "end": 15.258,
+      "type": "word"
+    },
+    {
+      "text": "quedan",
+      "start": 15.29,
+      "end": 15.543,
+      "type": "word"
+    },
+    {
+      "text": "noventa",
+      "start": 15.572,
+      "end": 15.925,
+      "type": "word"
+    },
+    {
+      "text": "a",
+      "start": 15.955,
+      "end": 15.985,
+      "type": "word"
+    },
+    {
+      "text": "diez:",
+      "start": 16.006,
+      "end": 16.41,
+      "type": "word"
+    },
+    {
+      "text": "un",
+      "start": 16.77,
+      "end": 16.866,
+      "type": "word"
+    },
+    {
+      "text": "producto",
+      "start": 16.95,
+      "end": 17.317,
+      "type": "word"
+    },
+    {
+      "text": "más",
+      "start": 17.365,
+      "end": 17.536,
+      "type": "word"
+    },
+    {
+      "text": "puro",
+      "start": 17.596,
+      "end": 17.816,
+      "type": "word"
+    },
+    {
+      "text": "de",
+      "start": 17.843,
+      "end": 17.891,
+      "type": "word"
+    },
+    {
+      "text": "lo",
+      "start": 17.916,
+      "end": 17.983,
+      "type": "word"
+    },
+    {
+      "text": "que",
+      "start": 18.04,
+      "end": 18.081,
+      "type": "word"
+    },
+    {
+      "text": "predice",
+      "start": 18.124,
+      "end": 18.508,
+      "type": "word"
+    },
+    {
+      "text": "una",
+      "start": 18.535,
+      "end": 18.678,
+      "type": "word"
+    },
+    {
+      "text": "línea",
+      "start": 18.719,
+      "end": 18.978,
+      "type": "word"
+    },
+    {
+      "text": "recta.",
+      "start": 19.026,
+      "end": 19.384,
+      "type": "word"
+    }
+  ]
+}

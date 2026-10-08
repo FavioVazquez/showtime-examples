@@ -1,0 +1,278 @@
+1
+00:00:00,030 --> 00:00:01,750
+Your hands are mirror images.
+
+2
+00:00:02,190 --> 00:00:04,450
+This year's Nobel
+Prize in Chemistry
+
+3
+00:00:04,613 --> 00:00:06,457
+is about how one
+hand can take over.
+
+4
+00:00:07,327 --> 00:00:08,447
+Many molecules come in
+
+5
+00:00:08,447 --> 00:00:09,487
+two hands like that.
+
+6
+00:00:09,907 --> 00:00:12,133
+Life is picky: your proteins use
+
+7
+00:00:12,179 --> 00:00:14,264
+only one hand of
+each amino acid.
+
+8
+00:00:15,124 --> 00:00:16,643
+Yet a reaction left to itself
+
+9
+00:00:16,704 --> 00:00:18,834
+makes both hands, fifty-fifty.
+
+10
+00:00:19,344 --> 00:00:21,424
+A one-handed catalyst,
+a helper that
+
+11
+00:00:21,448 --> 00:00:23,417
+isn't used up, can
+tip the balance.
+
+12
+00:00:24,317 --> 00:00:25,575
+In nineteen fifty-three,
+
+13
+00:00:25,677 --> 00:00:27,297
+Charles Frank wrote a recipe for
+
+14
+00:00:27,351 --> 00:00:29,021
+one hand to take
+over completely.
+
+15
+00:00:29,477 --> 00:00:32,509
+One: a one-handed
+catalyst; chemists had
+
+16
+00:00:32,554 --> 00:00:34,374
+that by the early
+nineteen hundreds.
+
+17
+00:00:34,777 --> 00:00:36,410
+Two: boost one hand and
+
+18
+00:00:36,457 --> 00:00:37,477
+hold back the other.
+
+19
+00:00:37,897 --> 00:00:39,442
+Three: a reaction that
+
+20
+00:00:39,475 --> 00:00:40,685
+makes its own catalyst.
+
+21
+00:00:41,945 --> 00:00:43,165
+In nineteen eighty-six,
+
+22
+00:00:43,355 --> 00:00:45,165
+Henri Kagan ticked box two.
+
+23
+00:00:45,625 --> 00:00:45,797
+His
+
+24
+00:00:45,846 --> 00:00:46,315
+insight:
+
+25
+00:00:46,805 --> 00:00:53,305
+the catalyst's metal holds two pieces, so mixed hands make
+three kinds of pairs, and the mixed pair barely works.
+
+26
+00:00:53,815 --> 00:00:56,172
+Start seventy-five to
+twenty-five, and the
+
+27
+00:00:56,220 --> 00:00:56,531
+working
+
+28
+00:00:56,579 --> 00:01:00,942
+catalysts are ninety to ten: a purer
+product than a straight line predicts.
+
+29
+00:01:02,591 --> 00:01:03,811
+In nineteen ninety-five,
+
+30
+00:01:04,021 --> 00:01:06,001
+Kenso Soai ticked box three:
+
+31
+00:01:06,461 --> 00:01:06,538
+a
+
+32
+00:01:06,587 --> 00:01:11,117
+molecule that helps build more of itself,
+same hand, from simple ingredients.
+
+33
+00:01:12,027 --> 00:01:14,229
+In two thousand three,
+his team started
+
+34
+00:01:14,258 --> 00:01:16,537
+with a lead of five
+parts in ten million.
+
+35
+00:01:17,087 --> 00:01:19,167
+Each run's product
+seeds the next:
+
+36
+00:01:19,450 --> 00:01:21,447
+fifty-seven percent
+after one run,
+
+37
+00:01:21,637 --> 00:01:23,067
+ninety-nine after two,
+
+38
+00:01:23,271 --> 00:01:25,420
+past ninety-nine and
+a half after three.
+
+39
+00:01:27,060 --> 00:01:29,520
+Then, with no one-handed
+ingredient added,
+
+40
+00:01:29,700 --> 00:01:31,370
+the reaction still
+picked a hand,
+
+41
+00:01:31,540 --> 00:01:32,210
+at random.
+
+42
+00:01:32,760 --> 00:01:34,668
+In thirty-seven runs, nineteen
+
+43
+00:01:34,716 --> 00:01:36,621
+leaned one way,
+eighteen the other.
+
+44
+00:01:37,511 --> 00:01:39,657
+In our toy model,
+copying alone isn't
+
+45
+00:01:39,686 --> 00:01:42,361
+enough: ten thousand
+runs end up anywhere.
+
+46
+00:01:42,874 --> 00:01:45,019
+Add box two, where
+a one-hand and
+
+47
+00:01:45,043 --> 00:01:46,820
+a mirror molecule
+pair up and stop
+
+48
+00:01:46,861 --> 00:01:48,669
+working, and nearly every run
+
+49
+00:01:48,740 --> 00:01:50,471
+ends with one hand taking over.
+
+50
+00:01:50,847 --> 00:01:52,440
+Which hand is a coin toss.
+
+51
+00:01:54,710 --> 00:01:56,960
+A toy, not how life
+chose its hand.
+
+52
+00:01:57,440 --> 00:01:59,770
+The Nobel Committee
+stresses Frank's model
+
+53
+00:01:59,960 --> 00:02:02,488
+isn't the answer to
+life's origin, and how
+
+54
+00:02:02,587 --> 00:02:04,698
+Soai's reaction works
+is still debated.
+
+55
+00:02:05,598 --> 00:02:07,618
+Choosing the hand
+matters for medicines:
+
+56
+00:02:08,028 --> 00:02:09,398
+one form does the job,
+
+57
+00:02:09,698 --> 00:02:09,748
+and
+
+58
+00:02:09,772 --> 00:02:14,447
+its mirror image can cause unnecessary,
+sometimes harmful, side effects.
+
+59
+00:02:15,687 --> 00:02:17,025
+Race the mirrors yourself
+
+60
+00:02:17,073 --> 00:02:19,917
+in our open Nobel 2026 lab.
+
+61
+00:02:20,507 --> 00:02:23,063
+Explained with
+showtime, an open-source
+
+62
+00:02:23,147 --> 00:02:24,961
+video studio for coding agents.

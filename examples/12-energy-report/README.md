@@ -61,7 +61,7 @@ showtime job init us-power-mix --mode quick --platform youtube --goal "Make a on
 showtime data inspect data/eia-mer-T07.02A-2026-09-27.csv      # long table: MSN, YYYYMM, Value
 python3 data/derive.py                                          # -> annual TWh (wide), race table, 2025 shares
 showtime data inspect data/us-generation-annual-twh.csv
-showtime new data <p> --title "Wind and solar passed coal in 2024" --duration 60
+showtime new data <p> --title "Wind and solar passed coal in 2024" --duration 60 --look template
 
 # voice first: the narration sets the scene lengths
 showtime voice script <p>/narration.md -o <p>/voice --fit 58   # 66.6 s natural: "cut about 23 words" -> cut

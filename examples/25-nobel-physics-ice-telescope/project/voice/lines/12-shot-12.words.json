@@ -1,0 +1,152 @@
+{
+  "source": "12-shot-12.wav",
+  "duration": 11.111,
+  "language": "en",
+  "model": "kokoro-v1.0-timestamped.onnx",
+  "words": [
+    {
+      "text": "The",
+      "start": 0.03,
+      "end": 0.075,
+      "type": "word"
+    },
+    {
+      "text": "prize",
+      "start": 0.14,
+      "end": 0.57,
+      "type": "word"
+    },
+    {
+      "text": "honours",
+      "start": 0.63,
+      "end": 0.962,
+      "type": "word"
+    },
+    {
+      "text": "that",
+      "start": 1.009,
+      "end": 1.161,
+      "type": "word"
+    },
+    {
+      "text": "discovery:",
+      "start": 1.21,
+      "end": 1.84,
+      "type": "word"
+    },
+    {
+      "text": "high-energy",
+      "start": 2.17,
+      "end": 2.861,
+      "type": "word"
+    },
+    {
+      "text": "neutrinos",
+      "start": 2.909,
+      "end": 3.535,
+      "type": "word"
+    },
+    {
+      "text": "from",
+      "start": 3.582,
+      "end": 3.722,
+      "type": "word"
+    },
+    {
+      "text": "space.",
+      "start": 3.795,
+      "end": 4.34,
+      "type": "word"
+    },
+    {
+      "text": "Which",
+      "start": 4.73,
+      "end": 4.887,
+      "type": "word"
+    },
+    {
+      "text": "objects",
+      "start": 4.961,
+      "end": 5.466,
+      "type": "word"
+    },
+    {
+      "text": "make",
+      "start": 5.48,
+      "end": 5.696,
+      "type": "word"
+    },
+    {
+      "text": "them",
+      "start": 5.73,
+      "end": 5.92,
+      "type": "word"
+    },
+    {
+      "text": "is",
+      "start": 5.974,
+      "end": 6.045,
+      "type": "word"
+    },
+    {
+      "text": "still",
+      "start": 6.113,
+      "end": 6.375,
+      "type": "word"
+    },
+    {
+      "text": "open:",
+      "start": 6.44,
+      "end": 6.89,
+      "type": "word"
+    },
+    {
+      "text": "one",
+      "start": 7.29,
+      "end": 7.549,
+      "type": "word"
+    },
+    {
+      "text": "nearby",
+      "start": 7.618,
+      "end": 8.032,
+      "type": "word"
+    },
+    {
+      "text": "galaxy",
+      "start": 8.1,
+      "end": 8.609,
+      "type": "word"
+    },
+    {
+      "text": "shows",
+      "start": 8.687,
+      "end": 8.951,
+      "type": "word"
+    },
+    {
+      "text": "evidence,",
+      "start": 9.07,
+      "end": 9.58,
+      "type": "word"
+    },
+    {
+      "text": "not",
+      "start": 9.75,
+      "end": 9.971,
+      "type": "word"
+    },
+    {
+      "text": "yet",
+      "start": 10.018,
+      "end": 10.191,
+      "type": "word"
+    },
+    {
+      "text": "proof.",
+      "start": 10.28,
+      "end": 10.711,
+      "type": "word"
+    }
+  ]
+}

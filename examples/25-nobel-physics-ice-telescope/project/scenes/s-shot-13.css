@@ -1,0 +1,18 @@
+/* shot-13 the tie-back: the fingertip of shot-1, then one neutrino "from space" makes a blue flash among IceCube's strings. */
+.s-shot-13 { background: var(--bg); color: var(--fg); }
+.s-shot-13 .s13-a, .s-shot-13 .s13-b { position: absolute; inset: 0; }
+.s-shot-13 .s13-a { background: radial-gradient(60% 70% at 55% 52%, rgb(88 169 255 / 0.10), transparent 70%), var(--bg);
+  transform-origin: 50% 52%; animation: s13-out 0.32s cubic-bezier(0.3, 0, 0.8, 0.15) 1.92s both, s13-pusha 2.24s linear 0s both; }
+.s-shot-13 .s13-b { background: radial-gradient(70% 80% at 50% 45%, color-mix(in srgb, #58a9ff 10%, var(--bg)), var(--bg) 62%);
+  animation: s13-in 0.32s cubic-bezier(0.22, 1, 0.36, 1) 1.92s both; }
+@keyframes s13-out { from { opacity: 1; } to { opacity: 0; } }
+@keyframes s13-in { from { opacity: 0; } to { opacity: 1; } }
+@keyframes s13-pusha { from { transform: scale(1.04); } to { transform: scale(1.09); } }
+.s-shot-13 .s13-finger, .s-shot-13 .s13-stream, .s-shot-13 .s13-ice { position: absolute; inset: 0; width: 1920px; height: 1080px; }
+.s-shot-13 .s13-skin { fill: color-mix(in srgb, var(--fg) 4.5%, transparent); stroke: var(--fg); stroke-width: 4; stroke-linejoin: round; opacity: 0.92; }
+.s-shot-13 .s13-nail { fill: color-mix(in srgb, var(--accent) 30%, transparent); stroke: var(--accent); stroke-width: 3; opacity: 0.9; }
+.s-shot-13 .s13-line { fill: none; stroke: var(--fg); stroke-width: 3; stroke-linecap: round; opacity: 0.55; }
+.s-shot-13 .s13-km, .s-shot-13 .s13-from { position: absolute; left: 0; top: 0; margin: 0; white-space: nowrap; opacity: 0;
+  text-shadow: 0 0 16px var(--bg), 0 0 5px var(--bg); }
+.s-shot-13 .s13-km { font: 650 40px/1 var(--font-body); color: var(--fg); }
+.s-shot-13 .s13-from { translate: -100% 0; font: 650 44px/1 var(--font-body); color: var(--accent); }

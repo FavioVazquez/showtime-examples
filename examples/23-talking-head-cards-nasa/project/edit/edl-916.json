@@ -1,0 +1,136 @@
+{
+  "version": 1,
+  "sources": {
+    "gsfc_20180124_m12825_sarahjones": "../raw/GSFC_20180124_m12825_SarahJones.mp4"
+  },
+  "transcripts": {
+    "gsfc_20180124_m12825_sarahjones": "transcripts/GSFC_20180124_m12825_SarahJones.json"
+  },
+  "ranges": [
+    {
+      "source": "gsfc_20180124_m12825_sarahjones",
+      "start": 7.24,
+      "end": 27.375,
+      "note": "GOLD measures the upper atmosphere, which is directly ..."
+    },
+    {
+      "source": "gsfc_20180124_m12825_sarahjones",
+      "start": 29.9,
+      "end": 44.775,
+      "note": "GOLD will be sitting twenty two thousand miles ..."
+    },
+    {
+      "source": "gsfc_20180124_m12825_sarahjones",
+      "start": 47.77,
+      "end": 59.735,
+      "note": "I am excited about this mission because GOLD ..."
+    },
+    {
+      "source": "gsfc_20180124_m12825_sarahjones",
+      "start": 62.225,
+      "end": 68.971,
+      "note": "The GOLD and ICON missions will give scientists the ...",
+      "hold": 1.5
+    }
+  ],
+  "captions": {
+    "style": "bold-pop",
+    "emphasis": [
+      "space weather",
+      "twenty two thousand miles",
+      "Western Hemisphere",
+      "faster than ever before",
+      "most comprehensive"
+    ],
+    "position": "middle",
+    "size": {
+      "portrait": 0.095
+    }
+  },
+  "look": "tidewater",
+  "cards": [
+    {
+      "type": "title",
+      "say": "GOLD measures the upper atmosphere",
+      "kicker": "NASA's GOLD mission",
+      "title": "Why is GOLD measuring the upper atmosphere?",
+      "dur": 5.4,
+      "lead": 0.2
+    },
+    {
+      "type": "lower-third",
+      "say": "Scientists are working",
+      "name": "Sarah Jones",
+      "role": "Mission Scientist, NASA Goddard",
+      "dur": 3.9
+    },
+    {
+      "type": "list",
+      "say": "it directly affects",
+      "title": "Space weather affects",
+      "items": [
+        {
+          "text": "Satellites",
+          "say": "safety of our satellites"
+        },
+        {
+          "text": "Astronauts",
+          "say": "health of our astronauts"
+        },
+        {
+          "text": "GPS navigation",
+          "say": "GPS navigation"
+        }
+      ]
+    },
+    {
+      "type": "stat",
+      "say": "twenty two thousand miles",
+      "value": 22000,
+      "suffix": " miles",
+      "label": "above Earth",
+      "until": "above Earth"
+    },
+    {
+      "type": "panel",
+      "say": "a whole half of the Earth",
+      "kicker": "From 22,000 miles up",
+      "title": "Half of Earth in one view",
+      "items": [
+        {
+          "text": "All of the Western Hemisphere",
+          "say": "all of the Western Hemisphere"
+        },
+        {
+          "text": "Over one point on Earth",
+          "say": "one particular point on Earth"
+        },
+        {
+          "text": "Watching the atmosphere below",
+          "say": "watching the dynamics"
+        }
+      ],
+      "until": "play out below"
+    },
+    {
+      "type": "chapter",
+      "say": "I am excited about this mission",
+      "title": "Why are you excited about GOLD?",
+      "dur": 3.0
+    },
+    {
+      "type": "behind",
+      "say": "faster than ever before",
+      "text": "Faster"
+    },
+    {
+      "type": "quote",
+      "say": "the most comprehensive view we've ever had of the upper atmosphere",
+      "hold": 2.0
+    }
+  ],
+  "output": {
+    "aspect": "9:16",
+    "allow_upscale": true
+  }
+}

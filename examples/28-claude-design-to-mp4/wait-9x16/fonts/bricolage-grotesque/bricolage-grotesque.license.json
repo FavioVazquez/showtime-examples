@@ -1,0 +1,17 @@
+{
+  "source": "google-fonts",
+  "source_label": "Google Fonts",
+  "id": "bricolage-grotesque",
+  "title": "Bricolage Grotesque",
+  "license": "OFL-1.1",
+  "license_url": "https://spdx.org/licenses/OFL-1.1.html",
+  "landing_url": "https://fonts.google.com/specimen/Bricolage+Grotesque",
+  "license_text": "LICENSE.txt",
+  "license_text_source": "https://raw.githubusercontent.com/google/fonts/main/ofl/bricolagegrotesque/OFL.txt",
+  "stylesheet": "https://fonts.googleapis.com/css2?family=Anton&family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&display=swap",
+  "fetched": "2026-10-08T02:21:27",
+  "license_class": "free",
+  "attribution_required": false,
+  "credit": "\"Bricolage Grotesque\" via Google Fonts (OFL-1.1) - https://fonts.google.com/specimen/Bricolage+Grotesque",
+  "file": "bricolage-grotesque"
+}

@@ -70,7 +70,7 @@ showtime job init gistemp-data --mode quick \
   --assumed "Warming-stripes band drawn from the same data as the visual spine"
 showtime data inspect data/gistemp-global-annual.csv
 showtime job note <job> --stage understand --verified "..." --next "..."
-showtime new data <job>/project --title "..." --duration 30
+showtime new data <job>/project --title "..." --duration 30 --look template
 
 # CSV -> chart JSON (the full series, and the 11 warmest as bars)
 showtime data import data/gistemp-global-annual.csv <job>/project --chart line --x year --y anomaly_c \

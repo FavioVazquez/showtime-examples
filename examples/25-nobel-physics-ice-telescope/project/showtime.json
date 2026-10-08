@@ -1,0 +1,100 @@
+{
+  "title": "A telescope made of ice: the 2026 Nobel Prize in Physics",
+  "width": 1920,
+  "height": 1080,
+  "fps": 30,
+  "duration": 157.5,
+  "background": "#0b1a1c",
+  "poster": 0.0,
+  "audio": "audio/mix.json",
+  "startTitle": false,
+  "template": "dom",
+  "look": "tidewater",
+  "questions": [
+    {
+      "id": "q1",
+      "at": "shot-3",
+      "prompt": "A high-energy neutrino (100 TeV) crosses a whole kilometre of ice. What are the odds it hits anything on the way?",
+      "choices": [
+        "About 1 in 1,000",
+        "About 1 in 100,000",
+        "About 1 in 10 million"
+      ],
+      "answer": 1,
+      "reply": {
+        "0": "Far rarer than that: in our toy model, about one in 65,000 at 100 TeV.",
+        "1": "Closest: in our toy model, about one in 65,000 at 100 TeV.",
+        "2": "Not that rare: in our toy model, about one in 65,000."
+      },
+      "think": 3
+    },
+    {
+      "id": "q2",
+      "at": "shot-7",
+      "prompt": "Same patch of ice (1 km²), strings twice as far apart, so a quarter as many. How much worse does our toy telescope aim? (1 TeV muons)",
+      "choices": [
+        "Barely worse (under 1.5x)",
+        "A few times worse (1.5x to 20x)",
+        "Over 20 times worse"
+      ],
+      "answer": 1,
+      "reply": {
+        "0": "Worse than that: in our toy model, more than five times worse (5.6x) with a quarter of the strings.",
+        "1": "Yes: in our toy model, more than five times worse (5.6x) with a quarter of the strings. Trend only, not IceCube's real aim.",
+        "2": "Not that much: in our toy model, about 5.6 times worse."
+      },
+      "think": 3
+    },
+    {
+      "id": "q3",
+      "at": "shot-10",
+      "prompt": "IceCube records about 100,000 neutrinos a year. How many come from outer space?",
+      "choices": [
+        "About half",
+        "About 1 in 10",
+        "About 1 in 1,000"
+      ],
+      "answer": 2,
+      "reply": {
+        "0": "Far fewer: about a hundred a year, the Nobel Committee says.",
+        "1": "Fewer still: about a hundred a year, the Nobel Committee says.",
+        "2": "Yes: about a hundred a year, the Nobel Committee says. Most of the rest are made in our own atmosphere."
+      },
+      "think": 3
+    }
+  ],
+  "chapters": [
+    [
+      0,
+      "65 billion a second"
+    ],
+    [
+      11.0,
+      "The prize"
+    ],
+    [
+      27.95,
+      "Step 1: the ghost particle"
+    ],
+    [
+      47.9,
+      "Step 2: a telescope of ice"
+    ],
+    [
+      71.4,
+      "Step 3: our toy telescope"
+    ],
+    [
+      96.9,
+      "Step 4: what it found"
+    ],
+    [
+      129.1,
+      "Still open"
+    ],
+    [
+      147.1,
+      "Made with showtime"
+    ]
+  ]
+}

@@ -1,0 +1,158 @@
+{
+  "source": "03-shot-3.wav",
+  "duration": 9.344,
+  "language": "en",
+  "model": "kokoro-v1.0-timestamped.onnx",
+  "words": [
+    {
+      "text": "Step",
+      "start": 0.03,
+      "end": 0.3,
+      "type": "word"
+    },
+    {
+      "text": "one:",
+      "start": 0.33,
+      "end": 0.576,
+      "type": "word"
+    },
+    {
+      "text": "the",
+      "start": 0.631,
+      "end": 0.685,
+      "type": "word"
+    },
+    {
+      "text": "ghost",
+      "start": 0.733,
+      "end": 1.003,
+      "type": "word"
+    },
+    {
+      "text": "particle.",
+      "start": 1.09,
+      "end": 1.62,
+      "type": "word"
+    },
+    {
+      "text": "Guess:",
+      "start": 1.95,
+      "end": 2.42,
+      "type": "word"
+    },
+    {
+      "text": "a",
+      "start": 2.76,
+      "end": 2.829,
+      "type": "word"
+    },
+    {
+      "text": "high-energy",
+      "start": 2.903,
+      "end": 3.546,
+      "type": "word"
+    },
+    {
+      "text": "neutrino",
+      "start": 3.593,
+      "end": 4.158,
+      "type": "word"
+    },
+    {
+      "text": "crosses",
+      "start": 4.2,
+      "end": 4.598,
+      "type": "word"
+    },
+    {
+      "text": "a",
+      "start": 4.647,
+      "end": 4.692,
+      "type": "word"
+    },
+    {
+      "text": "whole",
+      "start": 4.764,
+      "end": 5.014,
+      "type": "word"
+    },
+    {
+      "text": "kilometre",
+      "start": 5.1,
+      "end": 5.638,
+      "type": "word"
+    },
+    {
+      "text": "of",
+      "start": 5.676,
+      "end": 5.759,
+      "type": "word"
+    },
+    {
+      "text": "ice.",
+      "start": 5.87,
+      "end": 6.31,
+      "type": "word"
+    },
+    {
+      "text": "What",
+      "start": 6.68,
+      "end": 6.817,
+      "type": "word"
+    },
+    {
+      "text": "are",
+      "start": 6.841,
+      "end": 6.912,
+      "type": "word"
+    },
+    {
+      "text": "the",
+      "start": 6.939,
+      "end": 7.047,
+      "type": "word"
+    },
+    {
+      "text": "odds",
+      "start": 7.11,
+      "end": 7.447,
+      "type": "word"
+    },
+    {
+      "text": "it",
+      "start": 7.484,
+      "end": 7.54,
+      "type": "word"
+    },
+    {
+      "text": "hits",
+      "start": 7.588,
+      "end": 7.816,
+      "type": "word"
+    },
+    {
+      "text": "anything",
+      "start": 7.87,
+      "end": 8.314,
+      "type": "word"
+    },
+    {
+      "text": "on",
+      "start": 8.388,
+      "end": 8.488,
+      "type": "word"
+    },
+    {
+      "text": "the",
+      "start": 8.488,
+      "end": 8.555,
+      "type": "word"
+    },
+    {
+      "text": "way?",
+      "start": 8.621,
+      "end": 8.96,
+      "type": "word"
+    }
+  ]
+}

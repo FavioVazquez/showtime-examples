@@ -1,0 +1,18 @@
+/* shot-14 end card: showtime first (director update 2), then the lab, disclaimers and credits. All text inside y 90-860. */
+.s-shot-14 { background: radial-gradient(60% 70% at 30% 35%, rgb(88 169 255 / 0.09), transparent 70%), var(--bg); color: var(--fg); }
+.s-shot-14 .s14-cam { position: absolute; inset: 0; transform-origin: 6% 30%; animation: s14-push 7.06s cubic-bezier(0.45, 0, 0.55, 1) 0s both; }
+@keyframes s14-push { from { transform: scale(1); } to { transform: scale(1.04); } }
+.s-shot-14 .s14-card { position: absolute; left: 120px; top: 118px; width: 1680px; }
+.s-shot-14 .s14-card p { margin: 0; }
+.s-shot-14 .s14-made { margin: 0; font: 700 128px/1 var(--font-display); letter-spacing: -0.03em; color: var(--fg); }
+.s-shot-14 .s14-made span { color: var(--accent); }
+.s-shot-14 .s14-what { margin-top: 30px !important; font: 500 50px/1.15 var(--font-body); color: var(--fg);
+  animation: s14-rise 0.5s cubic-bezier(0.22, 1, 0.36, 1) 0.8s both; }
+.s-shot-14 .s14-repo { margin-top: 16px !important; font: 600 42px/1.2 var(--font-body); color: var(--accent);
+  animation: s14-rise 0.5s cubic-bezier(0.22, 1, 0.36, 1) 1.0s both; }
+.s-shot-14 .s14-small { margin-top: 46px; padding-top: 30px; border-top: 2px solid color-mix(in srgb, var(--fg) 16%, transparent);
+  font: 450 30px/1.45 var(--font-body); color: var(--muted);
+  animation: s14-rise 0.5s cubic-bezier(0.22, 1, 0.36, 1) 1.2s both; }
+.s-shot-14 .s14-lab { color: var(--fg); }
+.s-shot-14 .s14-lab b { font-weight: 650; }
+@keyframes s14-rise { from { opacity: 0; transform: translateY(22px); filter: blur(8px); } to { opacity: 1; transform: none; filter: none; } }

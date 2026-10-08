@@ -1,0 +1,53 @@
+# Hearing: what the sound does, measured
+
+You cannot listen to this video. These numbers measure what an ear would catch; judge only what they and transcript.txt support, and quote them. Levels are K-weighted like LUFS (100 ms blocks).
+
+Length 24.00s. Integrated -14.3 LUFS (target -14), true peak -1.2 dBTP (ceiling -1), loudness range 2.6 LU.
+Voice and music measured together (no narration stem: the narration stem did not line up with this file's audio (another mix?)): the music under a line is estimated from the quietest moments between its words, which overstates it a little (marked estimate).
+Heard on a phone: on a phone speaker: -17.9 LUFS, 3.6 LU under the mix (above 1 kHz -19.3 LUFS, 5.0 LU under). Phone and laptop speakers play little under 300 Hz; the posted films sit 1-8 LU under, over 10 LU the video sounds quiet on a phone, over 18 it is close to silent there -> fine.
+Plot: hearing.png (top: loudness, scene changes as lines, speech as a blue band, effects as ticks, problems in red; bottom: each voice line's level over the music and its words per minute).
+
+## Voice line by line (aim 10-20 dB over the music; under 8 dB it competes with the words; comfortable narration is 130-170 words a minute)
+(no narration: no voice timeline or caption file belongs to this render)
+
+## Pauses in the voice longer than 2 s
+(none)
+
+## Near silence mid-video (2 s or more under integrated - 20 LUFS)
+(none)
+
+## Loudness per scene
+   0.00-   2.00s  -18.0 LUFS (loudest 3 s -), speech 0%  01 0.00s
+   2.00-   4.00s  -12.6 LUFS (loudest 3 s -), speech 0%  02 0.00s
+   4.00-   6.00s  -14.0 LUFS (loudest 3 s -), speech 0%  03 0.00s
+   6.00-   8.00s  -15.8 LUFS (loudest 3 s -), speech 0%  04 0.00s
+   8.00-  10.00s  -15.7 LUFS (loudest 3 s -), speech 0%  05 0.00s
+  10.00-  12.00s  -14.9 LUFS (loudest 3 s -), speech 0%  06 0.00s
+  12.00-  14.00s  -13.5 LUFS (loudest 3 s -), speech 0%  07 0.00s
+  14.00-  16.00s  -14.3 LUFS (loudest 3 s -), speech 0%  08 0.00s
+  16.00-  18.00s  -14.3 LUFS (loudest 3 s -), speech 0%  09 0.00s
+  18.00-  20.00s  -13.7 LUFS (loudest 3 s -), speech 0%  10 0.00s
+  20.00-  22.00s  -14.1 LUFS (loudest 3 s -), speech 0%  11 0.00s
+  22.00-  24.00s  -13.8 LUFS (loudest 3 s -), speech 0%  12 0.00s
+
+## Level across each cut (1 s each side, like with like; over 6 LU the ear notices a jump)
+   2.00s  programme -18.2 -> -14.7 LUFS, +3.5 LU
+   4.00s  programme -11.8 -> -13.5 LUFS, -1.7 LU
+   6.00s  programme -14.8 -> -16.2 LUFS, -1.4 LU
+   8.00s  programme -15.6 -> -16.1 LUFS, -0.5 LU
+  10.00s  programme -15.4 -> -16.3 LUFS, -0.9 LU
+  12.00s  programme -14.4 -> -13.1 LUFS, +1.3 LU
+  14.00s  programme -13.9 -> -14.3 LUFS, -0.5 LU
+  16.00s  programme -14.4 -> -14.4 LUFS, -0.0 LU
+  18.00s  programme -14.3 -> -14.3 LUFS, -0.0 LU
+  20.00s  programme -13.4 -> -13.6 LUFS, -0.3 LU
+  22.00s  programme -14.8 -> -11.7 LUFS, +3.1 LU
+
+## Effects (from the render's mix report: hit time, over the rest of the mix there, rise over the 0.5 s before, peak over the integrated loudness, the nearest cut or CUE)
+(no effects, or no mix report for this render)
+
+## The ending
+The last 0.2 s of the programme: -46 LUFS; the 3 s before: -14 LUFS -> it has faded or ended
+
+## Peaks
+True peak -1.2 dBTP, sample peak -1.3 dBFS, no clipped runs

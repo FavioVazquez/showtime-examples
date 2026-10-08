@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en"><head>
+<meta charset="utf-8">
+<title>showtime: shutter blur on snap beats</title>
+<script src="/_st/stage.js"></script>
+<link rel="stylesheet" href="/_st/themes/fonts/anton.css">
+<link rel="stylesheet" href="/_st/themes/fonts/geist-mono.css">
+<style>
+  /* Four snap beats, each the whole move in 6-9 frames on a hard ease-out, each with data-st-blur on the one element
+     that moves: copies only on its fast frames, sharp from the frame it lands. The last scene runs the same whip
+     twice, without and with the blur. */
+  :root { --ink: #070818; --paper: #f4f0e6; --ice: #29e7ff; --hot: #ff4fd8; --lime: #d8ff3a; --red: #ff3b30;
+          --snap: cubic-bezier(0.16, 1, 0.3, 1); }
+  body { background: #0d1030; }
+  .scene { position: absolute; inset: 0; overflow: hidden; container-type: size; }
+  .word { position: absolute; inset: 0; display: grid; place-items: center; }
+  .word span { display: inline-block; font: 400 min(30cqh, 17cqw)/0.9 'Anton', sans-serif; letter-spacing: 0.01em; color: var(--paper); }
+  /* what the beat is and the one attribute that blurs it */
+  .tag { position: absolute; left: 5cqw; top: 7cqh; display: flex; align-items: baseline; gap: 1.6cqw;
+         font: 500 3.2cqh/1 'Geist Mono', monospace; letter-spacing: 0.04em; color: var(--paper); }
+  .tag code, .label code { font: inherit; color: var(--ice); }
+
+  /* 1. a whip: in from the left edge */
+  #whip { background: radial-gradient(70% 80% at 50% 45%, #232a6e, #0d1030 72%); }
+  #whip .word span { animation: whip 0.3s var(--snap) 0.3s both; }
+  @keyframes whip { from { transform: translateX(-118cqw) skewX(-16deg); } to { transform: none; } }
+
+  /* 2. a slam: down from above, a little squash on the landing frame and back */
+  #slam { background: var(--red); }
+  #slam .tag, #slam .tag code { color: var(--ink); }
+  #slam .word span { color: var(--ink); animation: slam 0.2s var(--snap) 0.3s both, squash 0.24s ease-out 0.5s both; transform-origin: 50% 100%; }
+  @keyframes slam { from { translate: 0 -110cqh; } to { translate: 0 0; } }
+  @keyframes squash { 0% { scale: 1.06 0.9; } 100% { scale: 1 1; } }
+
+  /* 3. a scale punch: a card in from 3x */
+  #punch { background: var(--lime); }
+  #punch .tag, #punch .tag code { color: var(--ink); }
+  #punch .card { position: absolute; left: 50%; top: 50%; width: 46cqw; height: 40cqh; margin: -20cqh 0 0 -23cqw; border-radius: 4cqh;
+                 background: linear-gradient(135deg, #c8177c, #1f2ad6); box-shadow: 0 3cqh 7cqh rgb(7 8 24 / 0.35);
+                 display: grid; place-items: center; animation: punch 0.3s var(--snap) 0.3s both; }
+  #punch .card b { font: 400 17cqh/1 'Anton', sans-serif; color: var(--paper); letter-spacing: 0.02em; }
+  #punch .card i { position: absolute; right: 2.4cqw; top: 3cqh; width: 3cqh; height: 3cqh; border-radius: 50%; background: var(--lime); }
+  @keyframes punch { from { transform: scale(3); } to { transform: none; } }
+
+  /* 4. the same whip, without and with */
+  #compare { background: radial-gradient(70% 90% at 50% 50%, #1a1f52, #0d1030 75%); }
+  #compare .half { position: absolute; top: 0; bottom: 0; width: 50%; overflow: hidden; }
+  #compare .half + .half { left: 50%; border-left: 0.3cqh solid rgb(244 240 230 / 0.25); }
+  #compare .half .word span { font-size: min(22cqh, 9cqw); animation: whip2 0.26s var(--snap) 0.3s both; }
+  #compare .label { position: absolute; bottom: 9cqh; left: 0; right: 0; text-align: center; font: 500 3.2cqh/1 'Geist Mono', monospace; color: rgb(244 240 230 / 0.82); }
+  #compare .label code { color: var(--ice); }
+  @keyframes whip2 { from { transform: translateX(-62cqw); } to { transform: none; } }
+</style>
+</head>
+<body>
+  <section class="scene" id="whip" data-start="0" data-dur="1.9">
+    <div class="word"><span data-st-blur>WHIP.</span></div>
+    <div class="tag"><code>data-st-blur</code><span>01 a whip</span></div>
+  </section>
+
+  <section class="scene" id="slam" data-start="1.9" data-dur="1.9">
+    <div class="word"><span data-st-blur>SLAM.</span></div>
+    <div class="tag"><code>data-st-blur</code><span>02 a slam</span></div>
+  </section>
+
+  <section class="scene" id="punch" data-start="3.8" data-dur="1.9">
+    <div class="card" data-st-blur><b>PUNCH.</b><i></i></div>
+    <div class="tag"><code>data-st-blur</code><span>03 a scale punch</span></div>
+  </section>
+
+  <section class="scene" id="compare" data-start="5.7" data-dur="1.8">
+    <div class="half"><div class="word"><span>SNAP.</span></div><div class="label">without</div></div>
+    <div class="half"><div class="word"><span data-st-blur>SNAP.</span></div><div class="label">with <code>data-st-blur</code></div></div>
+  </section>
+</body></html>

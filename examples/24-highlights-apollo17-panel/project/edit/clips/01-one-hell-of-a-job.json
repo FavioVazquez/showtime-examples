@@ -1,0 +1,113 @@
+{
+  "version": 1,
+  "title": "One hell of a job",
+  "moment": {
+    "id": "m1",
+    "rank": 1,
+    "score": 0.681,
+    "start": 1089.16,
+    "end": 1132.18,
+    "title": "One hell of a job"
+  },
+  "sources": {
+    "apollo17-legends": "../../raw/apollo17-legends.mp4"
+  },
+  "transcripts": {
+    "apollo17-legends": "../transcripts/apollo17-legends.json"
+  },
+  "ranges": [
+    {
+      "source": "apollo17-legends",
+      "start": 1089.01,
+      "end": 1094.715,
+      "note": "When I looked at the Artemis profile, a ..."
+    },
+    {
+      "source": "apollo17-legends",
+      "start": 1095.815,
+      "end": 1103.445,
+      "note": "wanted to know what they were going to ..."
+    },
+    {
+      "source": "apollo17-legends",
+      "start": 1104.005,
+      "end": 1105.29,
+      "note": "And I went over the"
+    },
+    {
+      "source": "apollo17-legends",
+      "start": 1105.55,
+      "end": 1112.395,
+      "note": "alternate mission options they had in there, and ..."
+    },
+    {
+      "source": "apollo17-legends",
+      "start": 1112.845,
+      "end": 1115.225,
+      "note": "And I got then into"
+    },
+    {
+      "source": "apollo17-legends",
+      "start": 1115.525,
+      "end": 1120.945,
+      "note": "watching the videos program from a standpoint of ..."
+    },
+    {
+      "source": "apollo17-legends",
+      "start": 1121.14,
+      "end": 1122.375,
+      "note": "overview."
+    },
+    {
+      "source": "apollo17-legends",
+      "start": 1123.205,
+      "end": 1127.075,
+      "note": "And I just wanted to say you did ..."
+    },
+    {
+      "source": "apollo17-legends",
+      "start": 1127.565,
+      "end": 1134.68,
+      "note": "One hell of a job pulling that thing ...",
+      "fade_out": 1.5
+    }
+  ],
+  "output": {
+    "aspect": "9:16",
+    "allow_upscale": true
+  },
+  "captions": {
+    "style": "bold-pop",
+    "avoid_face": true,
+    "size": 0.09
+  },
+  "cut_summary": {
+    "source_span": [
+      1089.01,
+      1134.68
+    ],
+    "after_s": 41.485,
+    "segments": 9,
+    "edge_words_dropped": [],
+    "removed": [
+      {
+        "id": "w2458",
+        "text": "uh",
+        "at": 1105.29,
+        "why": "filler"
+      },
+      {
+        "id": "w2484",
+        "text": "uh",
+        "at": 1115.21,
+        "why": "filler"
+      }
+    ],
+    "kept_event": {
+      "type": "applause",
+      "start": 1134.5,
+      "kept_to": 1134.68
+    }
+  },
+  "generated": "79cdb157d5a41784"
+}

@@ -1,0 +1,22 @@
+{
+  "title": "Showtime Test",
+  "width": 1920,
+  "height": 1080,
+  "fps": 30,
+  "duration": 12,
+  "background": "#000000",
+  "adopt": {
+    "source": "Showtime Test (12s, 16 9)-html.zip",
+    "root": "src",
+    "entry": "Main.dc.html",
+    "kind": "clock",
+    "contract": "clock: CSS/Web Animations/requestAnimationFrame on the virtual clock",
+    "adopted": "2026-10-08T08:03:34.911Z",
+    "options": {
+      "setup": false
+    },
+    "zip": true,
+    "made": "Claude Design export"
+  },
+  "audio": "audio/mix.json"
+}

@@ -1,0 +1,7 @@
+{
+  "duration": 12,
+  "tracks": [
+    {"id": "bed", "kind": "music", "catalog": "incompetech-deep-haze", "offset": 30.02, "fit": true}
+  ],
+  "master": {"lufs": -14, "true_peak": -1}
+}

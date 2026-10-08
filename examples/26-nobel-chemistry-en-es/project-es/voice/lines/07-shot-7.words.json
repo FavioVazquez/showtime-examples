@@ -1,0 +1,302 @@
+{
+  "source": "07-shot-7.wav",
+  "duration": 14.834,
+  "language": "es",
+  "model": "kokoro-v1.0-timestamped.onnx",
+  "words": [
+    {
+      "text": "En",
+      "start": 0.03,
+      "end": 0.072,
+      "type": "word"
+    },
+    {
+      "text": "dos",
+      "start": 0.103,
+      "end": 0.252,
+      "type": "word"
+    },
+    {
+      "text": "mil",
+      "start": 0.292,
+      "end": 0.435,
+      "type": "word"
+    },
+    {
+      "text": "tres,",
+      "start": 0.485,
+      "end": 0.835,
+      "type": "word"
+    },
+    {
+      "text": "su",
+      "start": 0.919,
+      "end": 0.999,
+      "type": "word"
+    },
+    {
+      "text": "equipo",
+      "start": 1.026,
+      "end": 1.286,
+      "type": "word"
+    },
+    {
+      "text": "empezó",
+      "start": 1.311,
+      "end": 1.718,
+      "type": "word"
+    },
+    {
+      "text": "con",
+      "start": 1.8,
+      "end": 1.889,
+      "type": "word"
+    },
+    {
+      "text": "una",
+      "start": 1.914,
+      "end": 2.049,
+      "type": "word"
+    },
+    {
+      "text": "ventaja",
+      "start": 2.075,
+      "end": 2.484,
+      "type": "word"
+    },
+    {
+      "text": "de",
+      "start": 2.511,
+      "end": 2.586,
+      "type": "word"
+    },
+    {
+      "text": "cinco",
+      "start": 2.635,
+      "end": 2.899,
+      "type": "word"
+    },
+    {
+      "text": "partes",
+      "start": 2.96,
+      "end": 3.336,
+      "type": "word"
+    },
+    {
+      "text": "en",
+      "start": 3.385,
+      "end": 3.46,
+      "type": "word"
+    },
+    {
+      "text": "diez",
+      "start": 3.493,
+      "end": 3.708,
+      "type": "word"
+    },
+    {
+      "text": "millones.",
+      "start": 3.74,
+      "end": 4.36,
+      "type": "word"
+    },
+    {
+      "text": "El",
+      "start": 4.78,
+      "end": 4.853,
+      "type": "word"
+    },
+    {
+      "text": "producto",
+      "start": 4.898,
+      "end": 5.286,
+      "type": "word"
+    },
+    {
+      "text": "de",
+      "start": 5.313,
+      "end": 5.372,
+      "type": "word"
+    },
+    {
+      "text": "cada",
+      "start": 5.42,
+      "end": 5.654,
+      "type": "word"
+    },
+    {
+      "text": "ronda",
+      "start": 5.703,
+      "end": 5.992,
+      "type": "word"
+    },
+    {
+      "text": "siembra",
+      "start": 6.042,
+      "end": 6.361,
+      "type": "word"
+    },
+    {
+      "text": "la",
+      "start": 6.387,
+      "end": 6.471,
+      "type": "word"
+    },
+    {
+      "text": "siguiente:",
+      "start": 6.51,
+      "end": 7.1,
+      "type": "word"
+    },
+    {
+      "text": "cincuenta",
+      "start": 7.42,
+      "end": 7.902,
+      "type": "word"
+    },
+    {
+      "text": "y",
+      "start": 7.935,
+      "end": 7.972,
+      "type": "word"
+    },
+    {
+      "text": "siete",
+      "start": 8.022,
+      "end": 8.284,
+      "type": "word"
+    },
+    {
+      "text": "por",
+      "start": 8.34,
+      "end": 8.474,
+      "type": "word"
+    },
+    {
+      "text": "ciento",
+      "start": 8.524,
+      "end": 8.84,
+      "type": "word"
+    },
+    {
+      "text": "tras",
+      "start": 8.89,
+      "end": 9.041,
+      "type": "word"
+    },
+    {
+      "text": "la",
+      "start": 9.072,
+      "end": 9.149,
+      "type": "word"
+    },
+    {
+      "text": "primera,",
+      "start": 9.22,
+      "end": 9.74,
+      "type": "word"
+    },
+    {
+      "text": "noventa",
+      "start": 9.84,
+      "end": 10.317,
+      "type": "word"
+    },
+    {
+      "text": "y",
+      "start": 10.366,
+      "end": 10.398,
+      "type": "word"
+    },
+    {
+      "text": "nueve",
+      "start": 10.443,
+      "end": 10.729,
+      "type": "word"
+    },
+    {
+      "text": "tras",
+      "start": 10.79,
+      "end": 10.937,
+      "type": "word"
+    },
+    {
+      "text": "la",
+      "start": 10.965,
+      "end": 11.045,
+      "type": "word"
+    },
+    {
+      "text": "segunda,",
+      "start": 11.084,
+      "end": 11.64,
+      "type": "word"
+    },
+    {
+      "text": "y",
+      "start": 11.98,
+      "end": 12.012,
+      "type": "word"
+    },
+    {
+      "text": "más",
+      "start": 12.061,
+      "end": 12.217,
+      "type": "word"
+    },
+    {
+      "text": "de",
+      "start": 12.244,
+      "end": 12.294,
+      "type": "word"
+    },
+    {
+      "text": "noventa",
+      "start": 12.322,
+      "end": 12.761,
+      "type": "word"
+    },
+    {
+      "text": "y",
+      "start": 12.81,
+      "end": 12.847,
+      "type": "word"
+    },
+    {
+      "text": "nueve",
+      "start": 12.896,
+      "end": 13.204,
+      "type": "word"
+    },
+    {
+      "text": "y",
+      "start": 13.256,
+      "end": 13.292,
+      "type": "word"
+    },
+    {
+      "text": "medio",
+      "start": 13.341,
+      "end": 13.624,
+      "type": "word"
+    },
+    {
+      "text": "tras",
+      "start": 13.68,
+      "end": 13.828,
+      "type": "word"
+    },
+    {
+      "text": "la",
+      "start": 13.857,
+      "end": 13.929,
+      "type": "word"
+    },
+    {
+      "text": "tercera.",
+      "start": 13.99,
+      "end": 14.414,
+      "type": "word"
+    }
+  ]
+}

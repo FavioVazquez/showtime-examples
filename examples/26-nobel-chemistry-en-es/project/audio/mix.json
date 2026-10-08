@@ -1,0 +1,123 @@
+{
+ "_comment": "Written by `showtime new --from-storyboard`: a quiet documentary bed with a section on each shot; the storyboard names no other sound (its Sound notes are in storyboard.json). `showtime retime --from-voice` adds the voice lines and ducks the bed under them.",
+ "sample_rate": 48000,
+ "tracks": [
+  {
+   "id": "bed",
+   "kind": "music",
+   "catalog": "loyalty-freak-music-im-glad-you-are-here-with-me",
+   "fit": true,
+   "duck": {
+    "under": "voice"
+   },
+   "gain_db": -7,
+   "fade_out": 2.5,
+   "gain_points": [
+    [
+     0,
+     0
+    ],
+    [
+     109.8,
+     0
+    ],
+    [
+     111.0,
+     1.5
+    ],
+    [
+     116.0,
+     1.5
+    ],
+    [
+     119.5,
+     0
+    ],
+    [
+     138.4,
+     0
+    ],
+    [
+     139.4,
+     3
+    ]
+   ]
+  },
+  {
+   "id": "vo-shot-1",
+   "kind": "voice",
+   "file": "voice/lines/01-shot-1.wav",
+   "start": 0.3
+  },
+  {
+   "id": "vo-shot-2",
+   "kind": "voice",
+   "file": "voice/lines/02-shot-2.wav",
+   "start": 7.917
+  },
+  {
+   "id": "vo-shot-3",
+   "kind": "voice",
+   "file": "voice/lines/03-shot-3.wav",
+   "start": 16.004
+  },
+  {
+   "id": "vo-shot-4",
+   "kind": "voice",
+   "file": "voice/lines/04-shot-4.wav",
+   "start": 25.487
+  },
+  {
+   "id": "vo-shot-5",
+   "kind": "voice",
+   "file": "voice/lines/05-shot-5.wav",
+   "start": 43.405
+  },
+  {
+   "id": "vo-shot-6",
+   "kind": "voice",
+   "file": "voice/lines/06-shot-6.wav",
+   "start": 64.352
+  },
+  {
+   "id": "vo-shot-7",
+   "kind": "voice",
+   "file": "voice/lines/07-shot-7.wav",
+   "start": 74.088
+  },
+  {
+   "id": "vo-shot-8",
+   "kind": "voice",
+   "file": "voice/lines/08-shot-8.wav",
+   "start": 89.421
+  },
+  {
+   "id": "vo-shot-9",
+   "kind": "voice",
+   "file": "voice/lines/09-shot-9.wav",
+   "start": 100.172
+  },
+  {
+   "id": "vo-shot-10",
+   "kind": "voice",
+   "file": "voice/lines/10-shot-10.wav",
+   "start": 117.671
+  },
+  {
+   "id": "vo-shot-11",
+   "kind": "voice",
+   "file": "voice/lines/11-shot-11.wav",
+   "start": 128.859
+  },
+  {
+   "id": "vo-shot-12",
+   "kind": "voice",
+   "file": "voice/lines/12-shot-12.wav",
+   "start": 139.268
+  }
+ ],
+ "master": {
+  "lufs": -14,
+  "true_peak": -1
+ }
+}

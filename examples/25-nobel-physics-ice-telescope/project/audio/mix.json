@@ -1,0 +1,22 @@
+{
+  "_comment": "Physics: a produced CC0 ambient track (Komiku, \"The space is big\"), different from the Medicine film's composed bed; voice am_michael.",
+  "sample_rate": 48000,
+  "tracks": [
+    {"id": "bed", "kind": "music", "catalog": "komiku-the-space-is-big", "fit": true, "gain_db": -3, "duck": {"under": "voice"}, "fade_out": 1.5},
+    {"id": "vo-shot-1", "kind": "voice", "file": "voice/lines/01-shot-1.wav", "start": 0.3},
+    {"id": "vo-shot-2", "kind": "voice", "file": "voice/lines/02-shot-2.wav", "start": 11.3},
+    {"id": "vo-shot-3", "kind": "voice", "file": "voice/lines/03-shot-3.wav", "start": 28.25},
+    {"id": "vo-shot-4", "kind": "voice", "file": "voice/lines/04-shot-4.wav", "start": 41.5},
+    {"id": "vo-shot-5", "kind": "voice", "file": "voice/lines/05-shot-5.wav", "start": 48.3},
+    {"id": "vo-shot-6", "kind": "voice", "file": "voice/lines/06-shot-6.wav", "start": 60.2},
+    {"id": "vo-shot-7", "kind": "voice", "file": "voice/lines/07-shot-7.wav", "start": 71.7},
+    {"id": "vo-shot-8", "kind": "voice", "file": "voice/lines/08-shot-8.wav", "start": 92.93},
+    {"id": "vo-shot-9", "kind": "voice", "file": "voice/lines/09-shot-9.wav", "start": 101.41},
+    {"id": "vo-shot-10", "kind": "voice", "file": "voice/lines/10-shot-10.wav", "start": 115.44},
+    {"id": "vo-shot-11", "kind": "voice", "file": "voice/lines/11-shot-11.wav", "start": 126.61},
+    {"id": "vo-shot-12", "kind": "voice", "file": "voice/lines/12-shot-12.wav", "start": 133.27},
+    {"id": "vo-shot-13", "kind": "voice", "file": "voice/lines/13-shot-13.wav", "start": 145.13},
+    {"id": "vo-shot-14", "kind": "voice", "file": "voice/lines/14-shot-14.wav", "start": 150.74}
+  ],
+  "master": {"lufs": -14, "true_peak": -1}
+}

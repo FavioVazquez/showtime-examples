@@ -1,0 +1,208 @@
+{
+  "version": 1,
+  "job": "<job>",
+  "moments": "<job>/edit/moments.json",
+  "preview": false,
+  "aspect": "9:16",
+  "captions": "bold-pop",
+  "cards": false,
+  "platform": null,
+  "clips": [
+    {
+      "n": 1,
+      "name": "01-one-hell-of-a-job",
+      "moment": "m1",
+      "title": "One hell of a job",
+      "source_range": [
+        1089.01,
+        1134.68
+      ],
+      "edl": "<job>/edit/clips/01-one-hell-of-a-job.json",
+      "video": "<job>/clips/01-one-hell-of-a-job.mp4",
+      "duration": 41.474767,
+      "size": [
+        1080,
+        1920
+      ],
+      "segments": 9,
+      "cards": 0,
+      "captions": "bold-pop",
+      "edge_words_dropped": [],
+      "kept_event": {
+        "type": "applause",
+        "start": 1134.5,
+        "kept_to": 1134.68
+      },
+      "notes": [],
+      "render_warnings": [],
+      "render_seconds": 21.3,
+      "qa": {
+        "verdict": "WARN",
+        "fail": 0,
+        "warn": 5,
+        "report": "<job>/work/qa/01-one-hell-of-a-job/qa.json",
+        "lufs": -14.01,
+        "true_peak": -1.6,
+        "findings": [
+          {
+            "severity": "WARN",
+            "rule": "soft_footage",
+            "message": "footage looks soft or upscaled at 1080x1920 (edge sharpness 0.715, crisp is about 1 or more) at 5.2-40.4s",
+            "t": 5.184
+          },
+          {
+            "severity": "WARN",
+            "rule": "caption_fast",
+            "message": "caption at 8.33s needs 22 characters/s to read (max 20): \"to do, what problems they would fac…\" (01-one-hell-of-a-job.srt)",
+            "t": 8.331
+          },
+          {
+            "severity": "WARN",
+            "rule": "level_jump",
+            "message": "the voice level jumps +7.5 LU at the cut at 13.35s (-16.9 -> -9.4 LUFS)",
+            "t": 13.347
+          },
+          {
+            "severity": "WARN",
+            "rule": "level_jump",
+            "message": "the voice level jumps +7.0 LU at the cut at 21.49s (-17.6 -> -10.6 LUFS)",
+            "t": 21.488
+          },
+          {
+            "severity": "WARN",
+            "rule": "level_jump",
+            "message": "the voice level jumps +6.5 LU at the cut at 29.26s (-23.1 -> -16.6 LUFS)",
+            "t": 29.263
+          }
+        ],
+        "seconds": 13.1
+      }
+    },
+    {
+      "n": 2,
+      "name": "02-i-just-flew-a-spaceship-around-the-moon",
+      "moment": "m3",
+      "title": "I just flew a spaceship around the moon",
+      "source_range": [
+        3266.03,
+        3288.6
+      ],
+      "edl": "<job>/edit/clips/02-i-just-flew-a-spaceship-around-the-moon.json",
+      "video": "<job>/clips/02-i-just-flew-a-spaceship-around-the-moon.mp4",
+      "duration": 21.9219,
+      "size": [
+        1080,
+        1920
+      ],
+      "segments": 2,
+      "cards": 0,
+      "captions": "bold-pop",
+      "edge_words_dropped": [
+        "So"
+      ],
+      "kept_event": {
+        "type": "applause",
+        "start": 3288.5,
+        "kept_to": 3288.6
+      },
+      "notes": [],
+      "render_warnings": [],
+      "render_seconds": 17.1,
+      "qa": {
+        "verdict": "WARN",
+        "fail": 0,
+        "warn": 1,
+        "report": "<job>/work/qa/02-i-just-flew-a-spaceship-around-the-moon/qa.json",
+        "lufs": -14.04,
+        "true_peak": -1.6,
+        "findings": [
+          {
+            "severity": "WARN",
+            "rule": "caption_fast",
+            "message": "caption at 12.31s needs 24 characters/s to read (max 20): \"and they can lead to you somewhere …\" (02-i-just-flew-a-spaceship-around-the-moon.srt)",
+            "t": 12.31
+          }
+        ],
+        "seconds": 9.5
+      }
+    },
+    {
+      "n": 3,
+      "name": "03-it-can-be-done-we-did-it-50-years-ago",
+      "moment": "m4",
+      "title": "It can be done. We did it 50 years ago",
+      "source_range": [
+        1781.11,
+        1840.76
+      ],
+      "edl": "<job>/edit/clips/03-it-can-be-done-we-did-it-50-years-ago.json",
+      "video": "<job>/clips/03-it-can-be-done-we-did-it-50-years-ago.mp4",
+      "duration": 45.979267,
+      "size": [
+        1080,
+        1920
+      ],
+      "segments": 16,
+      "cards": 0,
+      "captions": "bold-pop",
+      "edge_words_dropped": [],
+      "kept_event": null,
+      "notes": [
+        "captions at 0.08 of the width: the size that keeps them under the chin"
+      ],
+      "render_warnings": [],
+      "render_seconds": 24.5,
+      "qa": {
+        "verdict": "WARN",
+        "fail": 0,
+        "warn": 6,
+        "report": "<job>/work/qa/03-it-can-be-done-we-did-it-50-years-ago/qa.json",
+        "lufs": -14.05,
+        "true_peak": -1.59,
+        "findings": [
+          {
+            "severity": "WARN",
+            "rule": "level_jump",
+            "message": "the voice level jumps +7.9 LU at the cut at 4.61s (-20.5 -> -12.5 LUFS)",
+            "t": 4.605
+          },
+          {
+            "severity": "WARN",
+            "rule": "soft_footage",
+            "message": "footage looks soft or upscaled at 1080x1920 (edge sharpness 0.715, crisp is about 1 or more) at 5.7-44.8s",
+            "t": 5.747
+          },
+          {
+            "severity": "WARN",
+            "rule": "level_jump",
+            "message": "the voice level jumps +10.4 LU at the cut at 18.89s (-21.5 -> -11.1 LUFS)",
+            "t": 18.886
+          },
+          {
+            "severity": "WARN",
+            "rule": "level_jump",
+            "message": "the voice level jumps +8.7 LU at the cut at 27.49s (-21.1 -> -12.3 LUFS)",
+            "t": 27.494
+          },
+          {
+            "severity": "WARN",
+            "rule": "caption_fast",
+            "message": "caption at 33.38s needs 21 characters/s to read (max 20): \"the Mission Control Center,\" (03-it-can-be-done-we-did-it-50-years-ago.srt)",
+            "t": 33.376
+          },
+          {
+            "severity": "WARN",
+            "rule": "level_jump",
+            "message": "the voice level jumps +7.9 LU at the cut at 36.94s (-22.5 -> -14.5 LUFS)",
+            "t": 36.937
+          }
+        ],
+        "seconds": 13.5
+      }
+    }
+  ],
+  "sheet": "<job>/clips/sheet.jpg",
+  "parallel": 3,
+  "seconds": 68.4,
+  "created": "2026-10-07T23:25:35"
+}

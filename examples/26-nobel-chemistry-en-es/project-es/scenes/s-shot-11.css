@@ -1,0 +1,13 @@
+.s-shot-11 { position: absolute; inset: 0; overflow: hidden; background: #f6f0e4; }
+.s-shot-11 .s11-cam { position: absolute; inset: 0; transform-origin: 50% 56%; animation: s11-push 10.547s cubic-bezier(0.37, 0, 0.63, 1) both; }
+@keyframes s11-push { from { transform: scale(1); } to { transform: scale(1.035); } }
+.s-shot-11 .s11-svg { position: absolute; left: 0; top: 0; width: 1920px; height: 1080px; }
+.s-shot-11 .s11-t { position: absolute; margin: 0; color: #1c1a17; white-space: nowrap; font-family: 'IBM Plex Sans', sans-serif; }
+.s-shot-11 .s11-note { left: 96px; top: 56px; font: 500 32px/42px 'IBM Plex Mono', monospace; }
+.s-shot-11 .s11-pay { left: 160px; width: 1600px; top: 188px; text-align: center; font: 600 76px/92px 'Fraunces', serif; letter-spacing: -0.025em; }
+.s-shot-11 .s11-pay span { opacity: 0; }
+.s-shot-11 .s11-job { left: 300px; width: 560px; top: 738px; text-align: center; font: 600 50px/60px 'Fraunces', serif; letter-spacing: -0.02em; opacity: 0; }
+.s-shot-11 .s11-side { left: 1110px; width: 760px; text-align: center; font-size: 38px; line-height: 48px; font-weight: 500; opacity: 0; }
+.s-shot-11 .s11-side1 { top: 728px; }
+.s-shot-11 .s11-side2 { top: 778px; }
+.s-shot-11 .s11-foot { left: 60px; width: 1800px; top: 132px; text-align: center; font-size: 28px; line-height: 40px; font-weight: 500; color: #2e2a25; opacity: 0; }

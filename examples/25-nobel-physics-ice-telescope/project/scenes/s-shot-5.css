@@ -1,0 +1,48 @@
+/* shot-5: a telescope of ice. Look: Tidewater tokens (--bg --fg --muted --accent --surface, --font-display/body/mono).
+   Cyan #58e1ff / blue #58a9ff only for light, water, ice and sensors. Design box 1920x1080 px; all times scene-relative
+   (animation-delay from the scene start), landed on the am_michael cues (re-timed 10:59). */
+.s-shot-5 { background: var(--bg); padding: 0; overflow: hidden; }
+.s-shot-5 .s5-push { position: absolute; left: 0; top: 0; width: 1920px; height: 1080px; transform-origin: 30% 45%;
+  animation: s5-push 11.9s linear 0s both; }
+@keyframes s5-push { from { transform: scale(1); } to { transform: scale(1.035); } }
+.s-shot-5 .s5-cv { position: absolute; left: 0; top: 0; width: 1920px; height: 1080px; }
+.s-shot-5 p, .s-shot-5 h2 { margin: 0; position: absolute; }
+
+.s-shot-5 .s5-kicker { left: 112px; top: 142px; font: 600 34px/1 var(--font-mono); letter-spacing: 0.14em;
+  text-transform: uppercase; color: var(--accent); }
+.s-shot-5 .s5-title { left: 110px; top: 186px; font: 700 66px/1 var(--font-display); letter-spacing: -0.03em; color: var(--fg); }
+.s-shot-5 .s5-surf { left: 600px; top: 356px; font: 500 30px/1 var(--font-mono); color: var(--muted); letter-spacing: 0.04em; }
+
+/* on screen while the hole melts (P39) */
+.s-shot-5 .s5-melt { left: 474px; top: 432px; font: 600 42px/1.12 var(--font-body); color: var(--fg);
+  animation: s5-in 0.5s var(--ease-out) 1.25s both; }
+/* depth marks when the string reaches the bottom (P13) */
+.s-shot-5 .s5-d { left: 590px; font: 600 40px/1 var(--font-body); color: #58e1ff; font-variant-numeric: tabular-nums;
+  animation: s5-in 0.5s var(--ease-out) 8.4s both; }
+.s-shot-5 .s5-d1 { top: 640px; }
+.s-shot-5 .s5-d2 { top: 812px; animation-delay: 8.55s; }
+
+/* 1988 card: "nineteen" 2.60, "Halzen" 3.99, "proposed" 5.35; out as "Halzen then led" (7.75) runs */
+.s-shot-5 .s5-card { position: absolute; left: 1020px; top: 290px; width: 800px; box-sizing: border-box; padding: 40px 48px 44px;
+  border-radius: 24px; background: color-mix(in oklab, var(--surface) 90%, transparent); border: 1px solid var(--border);
+  animation: s5-in 0.55s var(--ease-out) 2.55s both, s5-out 0.45s cubic-bezier(0.7, 0, 0.84, 0) 8.15s forwards; }
+.s-shot-5 .s5-card p { position: static; }
+.s-shot-5 .s5-yr { font: 700 120px/1 var(--font-display); color: var(--accent); letter-spacing: -0.03em; font-variant-numeric: lining-nums; }
+.s-shot-5 .s5-who { margin-top: 26px !important; font: 650 50px/1.15 var(--font-body); color: var(--fg);
+  animation: s5-in 0.5s var(--ease-out) 3.95s both; }
+.s-shot-5 .s5-what { margin-top: 14px !important; font: 450 42px/1.25 var(--font-body); color: color-mix(in oklab, var(--fg) 82%, var(--muted));
+  animation: s5-in 0.5s var(--ease-out) 5.3s both; }
+
+/* top view of the real layout, filling to 86 strings on "the team that built it" */
+.s-shot-5 .s5-top { left: 1400px; top: 132px; transform: translateX(-50%); font: 500 32px/1 var(--font-mono);
+  letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted);
+  animation: s5-fade 0.5s ease-out 8.4s both; }
+.s-shot-5 .s5-count { left: 1400px; top: 780px; transform: translateX(-50%); white-space: nowrap;
+  font: 700 56px/1 var(--font-display); color: var(--fg); letter-spacing: -0.02em;
+  animation: s5-fade 0.5s ease-out 8.55s both; }
+.s-shot-5 .s5-n { font-family: var(--font-body); font-weight: 700; font-variant-numeric: tabular-nums; color: var(--accent);
+  display: inline-block; min-width: 1.35em; text-align: right; }
+
+@keyframes s5-in { from { opacity: 0; transform: translateY(22px); } to { opacity: 1; transform: none; } }
+@keyframes s5-out { from { opacity: 1; } to { opacity: 0; transform: translateY(-12px); } }
+@keyframes s5-fade { from { opacity: 0; } to { opacity: 1; } }

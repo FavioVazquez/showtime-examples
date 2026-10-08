@@ -1,0 +1,278 @@
+{
+  "source": "09-shot-9.wav",
+  "duration": 15.399,
+  "language": "en",
+  "model": "kokoro-v1.0-timestamped.onnx",
+  "words": [
+    {
+      "text": "In",
+      "start": 0.04,
+      "end": 0.092,
+      "type": "word"
+    },
+    {
+      "text": "our",
+      "start": 0.116,
+      "end": 0.215,
+      "type": "word"
+    },
+    {
+      "text": "toy",
+      "start": 0.27,
+      "end": 0.511,
+      "type": "word"
+    },
+    {
+      "text": "model,",
+      "start": 0.558,
+      "end": 0.99,
+      "type": "word"
+    },
+    {
+      "text": "copying",
+      "start": 1.18,
+      "end": 1.561,
+      "type": "word"
+    },
+    {
+      "text": "alone",
+      "start": 1.608,
+      "end": 1.961,
+      "type": "word"
+    },
+    {
+      "text": "isn't",
+      "start": 2.002,
+      "end": 2.186,
+      "type": "word"
+    },
+    {
+      "text": "enough:",
+      "start": 2.215,
+      "end": 2.71,
+      "type": "word"
+    },
+    {
+      "text": "ten",
+      "start": 2.934,
+      "end": 3.126,
+      "type": "word"
+    },
+    {
+      "text": "thousand",
+      "start": 3.174,
+      "end": 3.514,
+      "type": "word"
+    },
+    {
+      "text": "runs",
+      "start": 3.565,
+      "end": 3.918,
+      "type": "word"
+    },
+    {
+      "text": "end",
+      "start": 3.965,
+      "end": 4.122,
+      "type": "word"
+    },
+    {
+      "text": "up",
+      "start": 4.146,
+      "end": 4.272,
+      "type": "word"
+    },
+    {
+      "text": "anywhere.",
+      "start": 4.307,
+      "end": 4.89,
+      "type": "word"
+    },
+    {
+      "text": "Add",
+      "start": 5.403,
+      "end": 5.626,
+      "type": "word"
+    },
+    {
+      "text": "box",
+      "start": 5.686,
+      "end": 6.051,
+      "type": "word"
+    },
+    {
+      "text": "two,",
+      "start": 6.124,
+      "end": 6.55,
+      "type": "word"
+    },
+    {
+      "text": "where",
+      "start": 6.653,
+      "end": 6.759,
+      "type": "word"
+    },
+    {
+      "text": "a",
+      "start": 6.796,
+      "end": 6.838,
+      "type": "word"
+    },
+    {
+      "text": "one-hand",
+      "start": 6.896,
+      "end": 7.441,
+      "type": "word"
+    },
+    {
+      "text": "and",
+      "start": 7.478,
+      "end": 7.548,
+      "type": "word"
+    },
+    {
+      "text": "a",
+      "start": 7.572,
+      "end": 7.604,
+      "type": "word"
+    },
+    {
+      "text": "mirror",
+      "start": 7.658,
+      "end": 7.898,
+      "type": "word"
+    },
+    {
+      "text": "molecule",
+      "start": 7.946,
+      "end": 8.463,
+      "type": "word"
+    },
+    {
+      "text": "pair",
+      "start": 8.55,
+      "end": 8.733,
+      "type": "word"
+    },
+    {
+      "text": "up",
+      "start": 8.764,
+      "end": 8.894,
+      "type": "word"
+    },
+    {
+      "text": "and",
+      "start": 8.92,
+      "end": 8.996,
+      "type": "word"
+    },
+    {
+      "text": "stop",
+      "start": 9.059,
+      "end": 9.349,
+      "type": "word"
+    },
+    {
+      "text": "working,",
+      "start": 9.39,
+      "end": 10.02,
+      "type": "word"
+    },
+    {
+      "text": "and",
+      "start": 10.165,
+      "end": 10.237,
+      "type": "word"
+    },
+    {
+      "text": "nearly",
+      "start": 10.281,
+      "end": 10.552,
+      "type": "word"
+    },
+    {
+      "text": "every",
+      "start": 10.612,
+      "end": 10.866,
+      "type": "word"
+    },
+    {
+      "text": "run",
+      "start": 10.93,
+      "end": 11.198,
+      "type": "word"
+    },
+    {
+      "text": "ends",
+      "start": 11.269,
+      "end": 11.504,
+      "type": "word"
+    },
+    {
+      "text": "with",
+      "start": 11.534,
+      "end": 11.65,
+      "type": "word"
+    },
+    {
+      "text": "one",
+      "start": 11.718,
+      "end": 11.891,
+      "type": "word"
+    },
+    {
+      "text": "hand",
+      "start": 11.941,
+      "end": 12.21,
+      "type": "word"
+    },
+    {
+      "text": "taking",
+      "start": 12.257,
+      "end": 12.504,
+      "type": "word"
+    },
+    {
+      "text": "over.",
+      "start": 12.542,
+      "end": 13.0,
+      "type": "word"
+    },
+    {
+      "text": "Which",
+      "start": 13.376,
+      "end": 13.553,
+      "type": "word"
+    },
+    {
+      "text": "hand",
+      "start": 13.56,
+      "end": 13.889,
+      "type": "word"
+    },
+    {
+      "text": "is",
+      "start": 13.925,
+      "end": 13.994,
+      "type": "word"
+    },
+    {
+      "text": "a",
+      "start": 14.024,
+      "end": 14.062,
+      "type": "word"
+    },
+    {
+      "text": "coin",
+      "start": 14.15,
+      "end": 14.446,
+      "type": "word"
+    },
+    {
+      "text": "toss.",
+      "start": 14.506,
+      "end": 14.969,
+      "type": "word"
+    }
+  ]
+}

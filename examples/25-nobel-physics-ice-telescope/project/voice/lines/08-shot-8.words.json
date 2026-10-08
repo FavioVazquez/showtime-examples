@@ -1,0 +1,122 @@
+{
+  "source": "08-shot-8.wav",
+  "duration": 7.734,
+  "language": "en",
+  "model": "kokoro-v1.0-timestamped.onnx",
+  "words": [
+    {
+      "text": "In",
+      "start": 0.05,
+      "end": 0.102,
+      "type": "word"
+    },
+    {
+      "text": "our",
+      "start": 0.126,
+      "end": 0.222,
+      "type": "word"
+    },
+    {
+      "text": "toy",
+      "start": 0.27,
+      "end": 0.549,
+      "type": "word"
+    },
+    {
+      "text": "model,",
+      "start": 0.596,
+      "end": 0.909,
+      "type": "word"
+    },
+    {
+      "text": "more",
+      "start": 0.983,
+      "end": 1.151,
+      "type": "word"
+    },
+    {
+      "text": "than",
+      "start": 1.187,
+      "end": 1.303,
+      "type": "word"
+    },
+    {
+      "text": "five",
+      "start": 1.385,
+      "end": 1.667,
+      "type": "word"
+    },
+    {
+      "text": "times",
+      "start": 1.68,
+      "end": 2.047,
+      "type": "word"
+    },
+    {
+      "text": "worse:",
+      "start": 2.11,
+      "end": 2.47,
+      "type": "word"
+    },
+    {
+      "text": "fewer",
+      "start": 2.903,
+      "end": 3.207,
+      "type": "word"
+    },
+    {
+      "text": "strings,",
+      "start": 3.32,
+      "end": 3.723,
+      "type": "word"
+    },
+    {
+      "text": "less",
+      "start": 3.791,
+      "end": 3.976,
+      "type": "word"
+    },
+    {
+      "text": "light.",
+      "start": 4.039,
+      "end": 4.27,
+      "type": "word"
+    },
+    {
+      "text": "Trend",
+      "start": 4.73,
+      "end": 5.055,
+      "type": "word"
+    },
+    {
+      "text": "only,",
+      "start": 5.09,
+      "end": 5.566,
+      "type": "word"
+    },
+    {
+      "text": "not",
+      "start": 5.648,
+      "end": 5.832,
+      "type": "word"
+    },
+    {
+      "text": "IceCube's",
+      "start": 5.89,
+      "end": 6.529,
+      "type": "word"
+    },
+    {
+      "text": "real",
+      "start": 6.601,
+      "end": 6.9,
+      "type": "word"
+    },
+    {
+      "text": "aim.",
+      "start": 6.97,
+      "end": 7.35,
+      "type": "word"
+    }
+  ]
+}

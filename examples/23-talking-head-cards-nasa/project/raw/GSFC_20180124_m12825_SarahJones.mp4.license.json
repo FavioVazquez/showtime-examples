@@ -1,0 +1,26 @@
+{
+  "source": "nasa",
+  "source_label": "NASA Image and Video Library",
+  "id": "nasa:GSFC_20180124_m12825_SarahJones",
+  "title": "GOLD Resources: Sarah Jones Mission Scientist",
+  "author": "Tom Mason, Joy Ng, Andrew Gelfman",
+  "author_url": null,
+  "license": "Public domain (NASA media)",
+  "license_url": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+  "landing_url": "https://images.nasa.gov/details/GSFC_20180124_m12825_SarahJones",
+  "note": "NASA media: no endorsement implied; do not use NASA logos or insignia. Check the description for third-party copyright notices.",
+  "type": "video",
+  "license_notice": null,
+  "description_excerpt": "The Global-scale Observations of the Limb and Disk, or GOLD, mission is designed to explore the nearest reaches of space. Capturing never-before-seen images of Earth’s upper atmosphere, GOLD explores in unprecedented detail our space environment — which is home to astronauts, radio signals used to g",
+  "quality": "large",
+  "file_url": "https://images-assets.nasa.gov/video/GSFC_20180124_m12825_SarahJones/GSFC_20180124_m12825_SarahJones~large.mp4",
+  "captions": [
+    "https://images-assets.nasa.gov/video/GSFC_20180124_m12825_SarahJones/GSFC_20180124_m12825_SarahJones.vtt"
+  ],
+  "sha256": "42248730c3f711a6a235f4fd86e7f958550c241017c01e3c9b6ef418afa1a4e0",
+  "fetched": "2026-10-07T10:39:43",
+  "license_class": "free",
+  "attribution_required": false,
+  "credit": "\"GOLD Resources: Sarah Jones Mission Scientist\" by Tom Mason, Joy Ng, Andrew Gelfman via NASA Image and Video Library (Public domain (NASA media)) - https://images.nasa.gov/details/GSFC_20180124_m12825_SarahJones",
+  "file": "GSFC_20180124_m12825_SarahJones.mp4"
+}

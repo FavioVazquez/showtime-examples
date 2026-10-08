@@ -1,0 +1,13 @@
+.s-shot-6 { position: absolute; inset: 0; overflow: hidden; background: #f6f0e4; }
+.s-shot-6 .s6-cam { position: absolute; inset: 0; transform-origin: 50% 45%; animation: s6-push 10.821s cubic-bezier(0.37, 0, 0.63, 1) both; }
+@keyframes s6-push { from { transform: scale(1); } to { transform: scale(1.035); } }
+.s-shot-6 .s6-svg { position: absolute; left: 0; top: 0; width: 1920px; height: 1080px; }
+.s-shot-6 .s6-t { position: absolute; margin: 0; color: #1c1a17; white-space: nowrap; font-family: 'IBM Plex Sans', sans-serif; }
+.s-shot-6 .s6-n { top: 50px; font: 600 36px/44px 'IBM Plex Mono', monospace; }
+.s-shot-6 .s6-recipe { left: 438px; top: 52px; font: 500 30px/40px 'IBM Plex Mono', monospace; color: #59534a; }
+.s-shot-6 .s6-note { left: 96px; top: 116px; font: 500 30px/40px 'IBM Plex Mono', monospace; opacity: 0; }
+.s-shot-6 .s6-same { left: 806px; top: 236px; font-size: 42px; line-height: 50px; font-weight: 600; color: #7d2a07; opacity: 0; }
+.s-shot-6 .s6-count { left: 0; width: 1920px; text-align: center; top: 760px; font: 600 72px/84px 'Fraunces', serif; letter-spacing: -0.02em; font-variant-numeric: tabular-nums; }
+.s-shot-6 .s6-c { display: inline-block; opacity: 0; }
+.s-shot-6 .s6-ar { display: inline-block; width: 64px; height: 32px; margin: 0 22px; vertical-align: 0.12em; }
+.s-shot-6 .s6-simple { left: 1524px; top: 790px; font-size: 36px; line-height: 46px; font-weight: 500; opacity: 0; }

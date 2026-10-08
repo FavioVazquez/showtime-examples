@@ -1,0 +1,128 @@
+{
+  "source": "02-shot-2.wav",
+  "duration": 7.026,
+  "language": "es",
+  "model": "kokoro-v1.0-timestamped.onnx",
+  "words": [
+    {
+      "text": "Muchas",
+      "start": 0.03,
+      "end": 0.327,
+      "type": "word"
+    },
+    {
+      "text": "moléculas",
+      "start": 0.374,
+      "end": 0.913,
+      "type": "word"
+    },
+    {
+      "text": "tienen",
+      "start": 0.97,
+      "end": 1.24,
+      "type": "word"
+    },
+    {
+      "text": "dos",
+      "start": 1.275,
+      "end": 1.434,
+      "type": "word"
+    },
+    {
+      "text": "manos",
+      "start": 1.482,
+      "end": 1.759,
+      "type": "word"
+    },
+    {
+      "text": "así.",
+      "start": 1.813,
+      "end": 2.16,
+      "type": "word"
+    },
+    {
+      "text": "Y",
+      "start": 2.51,
+      "end": 2.598,
+      "type": "word"
+    },
+    {
+      "text": "la",
+      "start": 2.635,
+      "end": 2.718,
+      "type": "word"
+    },
+    {
+      "text": "vida",
+      "start": 2.744,
+      "end": 2.937,
+      "type": "word"
+    },
+    {
+      "text": "es",
+      "start": 2.961,
+      "end": 3.042,
+      "type": "word"
+    },
+    {
+      "text": "exigente:",
+      "start": 3.1,
+      "end": 3.75,
+      "type": "word"
+    },
+    {
+      "text": "tus",
+      "start": 3.89,
+      "end": 4.039,
+      "type": "word"
+    },
+    {
+      "text": "proteínas",
+      "start": 4.06,
+      "end": 4.583,
+      "type": "word"
+    },
+    {
+      "text": "usan",
+      "start": 4.61,
+      "end": 4.914,
+      "type": "word"
+    },
+    {
+      "text": "solo",
+      "start": 4.983,
+      "end": 5.198,
+      "type": "word"
+    },
+    {
+      "text": "una",
+      "start": 5.222,
+      "end": 5.368,
+      "type": "word"
+    },
+    {
+      "text": "mano",
+      "start": 5.415,
+      "end": 5.629,
+      "type": "word"
+    },
+    {
+      "text": "de",
+      "start": 5.657,
+      "end": 5.726,
+      "type": "word"
+    },
+    {
+      "text": "cada",
+      "start": 5.8,
+      "end": 5.96,
+      "type": "word"
+    },
+    {
+      "text": "aminoácido.",
+      "start": 5.983,
+      "end": 6.606,
+      "type": "word"
+    }
+  ]
+}

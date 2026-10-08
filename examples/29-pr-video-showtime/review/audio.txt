@@ -1,0 +1,44 @@
+# Hearing: what the sound does, measured
+
+You cannot listen to this video. These numbers measure what an ear would catch; judge only what they and transcript.txt support, and quote them. Levels are K-weighted like LUFS (100 ms blocks).
+
+Length 33.67s. Integrated -14.0 LUFS (target -14), true peak -1.6 dBTP (ceiling -1), loudness range 0.8 LU.
+Voice and music measured together (no narration stem): the music under a line is estimated from the quietest moments between its words, which overstates it a little (marked estimate).
+Plot: hearing.png (top: loudness, scene changes as lines, speech as a blue band, effects as ticks, problems in red; bottom: each voice line's level over the music and its words per minute).
+
+## Voice line by line (aim 10-20 dB over the music; under 8 dB it competes with the words; comfortable narration is 130-170 words a minute)
+(no narration: no voice timeline or caption file belongs to this render)
+
+## Pauses in the voice longer than 2 s
+(none)
+
+## Near silence mid-video (2 s or more under integrated - 20 LUFS)
+(none)
+
+## Loudness per scene
+   0.00-   2.80s  -17.2 LUFS (loudest 3 s -), speech 0%  hook
+   2.80-   6.62s  -13.8 LUFS (loudest 3 s -13.8), speech 0%  sum1
+   6.62-  10.62s  -13.8 LUFS (loudest 3 s -13.7), speech 0%  sum2
+  10.62-  13.62s  -13.6 LUFS (loudest 3 s -13.6), speech 0%  sum3
+  13.62-  17.95s  -13.8 LUFS (loudest 3 s -13.7), speech 0%  sum4
+  17.95-  22.87s  -13.7 LUFS (loudest 3 s -13.7), speech 0%  files
+  22.87-  30.87s  -14.0 LUFS (loudest 3 s -13.7), speech 0%  diff1
+  30.87-  33.67s  -14.9 LUFS (loudest 3 s -), speech 0%  end
+
+## Level across each cut (1 s each side, like with like; over 6 LU the ear notices a jump)
+   2.80s  programme -17.6 -> -14.0 LUFS, +3.5 LU
+   6.62s  programme -13.8 -> -13.9 LUFS, -0.1 LU
+  10.62s  programme -14.3 -> -13.9 LUFS, +0.4 LU
+  13.62s  programme -13.5 -> -13.7 LUFS, -0.3 LU
+  17.95s  programme -14.1 -> -14.0 LUFS, +0.2 LU
+  22.87s  programme -13.9 -> -14.1 LUFS, -0.2 LU
+  30.87s  programme -12.9 -> -13.5 LUFS, -0.6 LU
+
+## Effects (from the render's mix report: hit time, over the rest of the mix there, rise over the 0.5 s before, peak over the integrated loudness, the nearest cut or CUE)
+(no effects, or no mix report for this render)
+
+## The ending
+The last 0.2 s of the programme: -38 LUFS; the 3 s before: -14 LUFS -> it has faded or ended
+
+## Peaks
+True peak -1.6 dBTP, sample peak -1.6 dBFS, no clipped runs

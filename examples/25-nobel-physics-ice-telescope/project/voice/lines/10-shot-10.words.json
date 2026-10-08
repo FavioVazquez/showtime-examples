@@ -1,0 +1,116 @@
+{
+  "source": "10-shot-10.wav",
+  "duration": 7.272,
+  "language": "en",
+  "model": "kokoro-v1.0-timestamped.onnx",
+  "words": [
+    {
+      "text": "IceCube",
+      "start": 0.09,
+      "end": 0.688,
+      "type": "word"
+    },
+    {
+      "text": "records",
+      "start": 0.755,
+      "end": 1.129,
+      "type": "word"
+    },
+    {
+      "text": "about",
+      "start": 1.162,
+      "end": 1.355,
+      "type": "word"
+    },
+    {
+      "text": "a",
+      "start": 1.384,
+      "end": 1.426,
+      "type": "word"
+    },
+    {
+      "text": "hundred",
+      "start": 1.5,
+      "end": 1.864,
+      "type": "word"
+    },
+    {
+      "text": "thousand",
+      "start": 1.9,
+      "end": 2.315,
+      "type": "word"
+    },
+    {
+      "text": "neutrinos",
+      "start": 2.345,
+      "end": 2.934,
+      "type": "word"
+    },
+    {
+      "text": "a",
+      "start": 2.98,
+      "end": 3.028,
+      "type": "word"
+    },
+    {
+      "text": "year.",
+      "start": 3.103,
+      "end": 3.51,
+      "type": "word"
+    },
+    {
+      "text": "Guess:",
+      "start": 3.93,
+      "end": 4.39,
+      "type": "word"
+    },
+    {
+      "text": "how",
+      "start": 4.7,
+      "end": 4.904,
+      "type": "word"
+    },
+    {
+      "text": "many",
+      "start": 4.987,
+      "end": 5.305,
+      "type": "word"
+    },
+    {
+      "text": "of",
+      "start": 5.305,
+      "end": 5.352,
+      "type": "word"
+    },
+    {
+      "text": "them",
+      "start": 5.4,
+      "end": 5.569,
+      "type": "word"
+    },
+    {
+      "text": "come",
+      "start": 5.61,
+      "end": 5.809,
+      "type": "word"
+    },
+    {
+      "text": "from",
+      "start": 5.857,
+      "end": 5.994,
+      "type": "word"
+    },
+    {
+      "text": "outer",
+      "start": 6.08,
+      "end": 6.311,
+      "type": "word"
+    },
+    {
+      "text": "space?",
+      "start": 6.373,
+      "end": 6.862,
+      "type": "word"
+    }
+  ]
+}

@@ -2,17 +2,17 @@
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://github.com/FavioVazquez/showtime/raw/main/assets/readme/marquee-dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="https://github.com/FavioVazquez/showtime/raw/main/assets/readme/marquee-light.svg">
-    <img alt="Now showing: 22 examples, every frame rendered by showtime." src="https://github.com/FavioVazquez/showtime/raw/main/assets/readme/marquee-light.svg" width="100%">
+    <img alt="Now showing: 32 videos, every frame rendered by showtime." src="https://github.com/FavioVazquez/showtime/raw/main/assets/readme/marquee-light.svg" width="100%">
   </picture>
 </p>
 
 # Examples
 
-Twenty-two finished videos, each made with [showtime](https://github.com/FavioVazquez/showtime) by an agent acting as a user. Every folder has the
-project sources, the share copy and a README that tells the story: the request, the assumptions, the
+Thirty finished videos, each made with [showtime](https://github.com/FavioVazquez/showtime) by an agent acting as a user, and two short demos of the
+looks and the shutter blur. Every folder has the project sources, the share copy and a README that tells the story: the request, the assumptions, the
 commands, what the critic found and what changed. Pick one from the wall, or jump to a use case:
 
-<p align="center"><a href="#data-and-reports"><b>Data and reports</b></a> (3) · <a href="#explainers"><b>Explainers</b></a> (4) · <a href="#product-and-brand"><b>Product and brand</b></a> (4) · <a href="#footage-and-audio"><b>Footage and audio</b></a> (2) · <a href="#tutorials"><b>Tutorials</b></a> (3) · <a href="#social"><b>Social</b></a> (3) · <a href="#trailers-and-montage"><b>Trailers and montage</b></a> (4) · <a href="#for-developers"><b>For developers</b></a> (1)</p>
+<p align="center"><a href="#data-and-reports"><b>Data and reports</b></a> (3) · <a href="#explainers"><b>Explainers</b></a> (6) · <a href="#product-and-brand"><b>Product and brand</b></a> (5) · <a href="#footage-and-audio"><b>Footage and audio</b></a> (4) · <a href="#tutorials"><b>Tutorials</b></a> (3) · <a href="#social"><b>Social</b></a> (3) · <a href="#trailers-and-montage"><b>Trailers and montage</b></a> (5) · <a href="#looks-and-motion"><b>Looks and motion</b></a> (4) · <a href="#for-developers"><b>For developers</b></a> (2)</p>
 
 <table>
 <tr>
@@ -44,6 +44,18 @@ commands, what the critic found and what changed. Pick one from the wall, or jum
 <td width="16%" align="center"><a href="#ex-20"><img src="https://github.com/FavioVazquez/showtime/raw/main/assets/readme/gallery/20-curtain-call-pack.webp" width="100%" alt="Red velvet curtains part on a spotlit stage: the showtime logo sting."></a><br><sub><b>20</b></sub></td>
 <td width="16%" align="center"><a href="#ex-21"><img src="https://github.com/FavioVazquez/showtime/raw/main/assets/readme/gallery/21-tutorial-studio-board.webp" width="100%" alt="The showtime studio board comparing two concepts side by side."></a><br><sub><b>21</b></sub></td>
 <td width="16%" align="center"><a href="#ex-22"><img src="https://github.com/FavioVazquez/showtime/raw/main/assets/readme/gallery/22-manim-circle-area.webp" width="100%" alt="A circle made of rings unrolls into a triangle, a Manim animation."></a><br><sub><b>22</b></sub></td>
+<td width="16%" align="center"><a href="#ex-23"><img src="https://github.com/FavioVazquez/showtime/raw/main/assets/readme/gallery/23-talking-head-cards-nasa.webp" width="100%" alt="A NASA scientist on the right, a side panel on the left: From 22,000 miles up, Half of Earth in one view."></a><br><sub><b>23</b></sub></td>
+<td width="16%" align="center"><a href="#ex-24"><img src="https://github.com/FavioVazquez/showtime/raw/main/assets/readme/gallery/24-highlights-apollo17-panel.webp" width="100%" alt="A vertical clip of an Artemis flight controller, with bold captions: a spaceship."></a><br><sub><b>24</b></sub></td>
+<td width="16%" align="center"><a href="#ex-25"><img src="https://github.com/FavioVazquez/showtime/raw/main/assets/readme/gallery/25-nobel-physics-ice-telescope.webp" width="100%" alt="A pause-and-think card: what are the odds a neutrino hits anything in a kilometre of ice? Three choices and a countdown."></a><br><sub><b>25</b></sub></td>
+<td width="16%" align="center"><a href="#ex-26"><img src="https://github.com/FavioVazquez/showtime/raw/main/assets/readme/gallery/26-nobel-chemistry-en-es.webp" width="100%" alt="A flask of orange and teal dots tips toward orange under a catalyst stamp: 48 to 22, tipped."></a><br><sub><b>26</b></sub></td>
+</tr>
+<tr>
+<td width="16%" align="center"><a href="#ex-28"><img src="https://github.com/FavioVazquez/showtime/raw/main/assets/readme/gallery/28-claude-design-to-mp4.webp" width="100%" alt="An amber counter at 1,234 over four growing bars, a design adopted from Claude Design."></a><br><sub><b>28</b></sub></td>
+<td width="16%" align="center"><a href="#ex-29"><img src="https://github.com/FavioVazquez/showtime/raw/main/assets/readme/gallery/29-pr-video-showtime.webp" width="100%" alt="68 files changed, +1138 -159: a file tree with green and red bars, from showtime&#x27;s pull request #7."></a><br><sub><b>29</b></sub></td>
+<td width="16%" align="center"><a href="#ex-30"><img src="https://github.com/FavioVazquez/showtime/raw/main/assets/readme/gallery/30-showreel-four-shapes.webp" width="100%" alt="The flash word TYPE. smeared by the shutter blur as it whips in, on a cyan ground."></a><br><sub><b>30</b></sub></td>
+<td width="16%" align="center"><a href="#ex-32"><img src="https://github.com/FavioVazquez/showtime/raw/main/assets/readme/gallery/32-twelve-looks.webp" width="100%" alt="The same launch film in two look signatures: nocturne&#x27;s ink blue, then paperback&#x27;s warm paper, a label naming each."></a><br><sub><b>32</b></sub></td>
+<td width="16%" align="center"><a href="#ex-looks"><img src="https://github.com/FavioVazquez/showtime/raw/main/assets/readme/gallery/_looks.webp" width="100%" alt="Metaballs gathering into one coral blob next to the word Metaballs."></a><br><sub><b>looks</b></sub></td>
+<td width="16%" align="center"><a href="#ex-blur"><img src="https://github.com/FavioVazquez/showtime/raw/main/assets/readme/gallery/_blur.webp" width="100%" alt="A card reading PUNCH. lands on a lime ground after a scale punch."></a><br><sub><b>blur</b></sub></td>
 </tr>
 </table>
 
@@ -171,6 +183,36 @@ download one and open it to play it.
 </tr>
 </table>
 
+<a id="ex-25"></a>
+
+<table>
+<tr>
+<td width="44%" valign="top"><a href="25-nobel-physics-ice-telescope/"><img src="https://github.com/FavioVazquez/showtime/raw/main/assets/readme/gallery/25-nobel-physics-ice-telescope.webp" width="100%" alt="A pause-and-think card: what are the odds a neutrino hits anything in a kilometre of ice? Three choices and a countdown."></a></td>
+<td valign="top">
+<sub>25 · 2:38 · 16:9 + an HTML video that asks</sub><br>
+<b><a href="25-nobel-physics-ice-telescope/">An explainer that stops and asks</a></b>
+<p><sub>THE PROMPT</sub><br><i>“Physics 2026 explainer for nobel-2026-lab: a telescope made of ice, ~2 min, three stop-and-ask questions, interactive export, 60 s vertical cut; publish today”</i></p>
+<p><sub>WHAT IT SHOWS</sub><br>Questions that stop the HTML video until the viewer answers, a roadmap, real IceCube data, two critic rounds</p>
+<p>▶ <a href="25-nobel-physics-ice-telescope/final.github.mp4"><code>final.github.mp4</code></a> · HTML video: <a href="25-nobel-physics-ice-telescope/interactive/index.html"><code>interactive/index.html</code></a><br><a href="25-nobel-physics-ice-telescope/">the folder, the story and the commands</a></p>
+</td>
+</tr>
+</table>
+
+<a id="ex-26"></a>
+
+<table>
+<tr>
+<td width="44%" valign="top"><a href="26-nobel-chemistry-en-es/"><img src="https://github.com/FavioVazquez/showtime/raw/main/assets/readme/gallery/26-nobel-chemistry-en-es.webp" width="100%" alt="A flask of orange and teal dots tips toward orange under a catalyst stamp: 48 to 22, tipped."></a></td>
+<td valign="top">
+<sub>26 · 2:30 + 2:34 · 16:9, English + Spanish</sub><br>
+<b><a href="26-nobel-chemistry-en-es/">Nobel Chemistry, in English and Spanish</a></b>
+<p><sub>THE PROMPT</sub><br><i>“Full Chemistry 2026 explainer (~2:10, 16:9) for the nobel-2026-lab: Frank&#x27;s recipe, Kagan&#x27;s bend, Soai&#x27;s copier, the 2003 staircase, the coin flip, our mirror-race toy, caveats, medicines. NOT socratic: no questions to the viewer. American voice (af_bella; not the British female). Paperback lab-notebook look, CC0 bed, showtime credited (corner mark, end card, closing line). Must look great; post soon.”</i></p>
+<p><sub>WHAT IT SHOWS</sub><br>A storyboard table to a 2:30 film in a light look signature, then the whole film in Spanish: voice, strings, captions</p>
+<p>▶ <a href="26-nobel-chemistry-en-es/final.github.mp4"><code>final.github.mp4</code></a> · <a href="26-nobel-chemistry-en-es/final-es.github.mp4"><code>final-es.github.mp4</code></a><br><a href="26-nobel-chemistry-en-es/">the folder, the story and the commands</a></p>
+</td>
+</tr>
+</table>
+
 ## Product and brand
 
 <a id="ex-01"></a>
@@ -233,6 +275,21 @@ download one and open it to play it.
 </tr>
 </table>
 
+<a id="ex-28"></a>
+
+<table>
+<tr>
+<td width="44%" valign="top"><a href="28-claude-design-to-mp4/"><img src="https://github.com/FavioVazquez/showtime/raw/main/assets/readme/gallery/28-claude-design-to-mp4.webp" width="100%" alt="An amber counter at 1,234 over four growing bars, a design adopted from Claude Design."></a></td>
+<td valign="top">
+<sub>28 · 12 s + 20 s loop · 16:9 + 9:16</sub><br>
+<b><a href="28-claude-design-to-mp4/">Claude Design to MP4</a></b>
+<p><sub>THE PROMPT</sub><br><i>“Make &#x27;Showtime Test (12s, 16 9)-html.zip&#x27; an MP4, with a music bed.”</i></p>
+<p><sub>WHAT IT SHOWS</sub><br>Two Claude Design exports adopted unchanged: laid out again at 1080p, fonts copied, one seamless loop, a bed on the phrase</p>
+<p>▶ <a href="28-claude-design-to-mp4/showtime-test-16x9/final.mp4"><code>showtime-test-16x9/final.mp4</code></a> · <a href="28-claude-design-to-mp4/wait-9x16/final.github.mp4"><code>wait-9x16/final.github.mp4</code></a><br><a href="28-claude-design-to-mp4/">the folder, the story and the commands</a></p>
+</td>
+</tr>
+</table>
+
 ## Footage and audio
 
 <a id="ex-06"></a>
@@ -261,6 +318,36 @@ download one and open it to play it.
 <p><sub>THE PROMPT</sub><br><i>“Cut a 40-second vertical audiogram from this NASA podcast episode for Reels, TikTok and Shorts, with captions and the speakers&#x27; names.”</i></p>
 <p><sub>WHAT IT SHOWS</sub><br>Speaker names, audiogram waveform, captions, loops</p>
 <p>▶ <a href="https://github.com/FavioVazquez/showtime-examples/releases/download/examples-media-v1/16-podcast-audiogram--final.mp4"><code>final.mp4</code></a><br><a href="16-podcast-audiogram/">the folder, the story and the commands</a></p>
+</td>
+</tr>
+</table>
+
+<a id="ex-23"></a>
+
+<table>
+<tr>
+<td width="44%" valign="top"><a href="23-talking-head-cards-nasa/"><img src="https://github.com/FavioVazquez/showtime/raw/main/assets/readme/gallery/23-talking-head-cards-nasa.webp" width="100%" alt="A NASA scientist on the right, a side panel on the left: From 22,000 miles up, Half of Earth in one view."></a></td>
+<td valign="top">
+<sub>23 · 55 s · 16:9 + 9:16, SRT</sub><br>
+<b><a href="23-talking-head-cards-nasa/">Talking head, dressed</a></b>
+<p><sub>THE PROMPT</sub><br><i>“Dress up this NASA interview with Sarah Jones about the GOLD mission: name tag, a data callout, a pull-quote, a list or chapter, a side panel and captions with emphasis; a 16:9 and a 9:16 cut.”</i></p>
+<p><sub>WHAT IT SHOWS</sub><br>Cards anchored to the words, side panel and 9:16 splits, captions kept off the face, caption emphasis, a critic round</p>
+<p>▶ <a href="23-talking-head-cards-nasa/final.mp4"><code>final.mp4</code></a> · <a href="23-talking-head-cards-nasa/final-9x16.mp4"><code>final-9x16.mp4</code></a><br><a href="23-talking-head-cards-nasa/">the folder, the story and the commands</a></p>
+</td>
+</tr>
+</table>
+
+<a id="ex-24"></a>
+
+<table>
+<tr>
+<td width="44%" valign="top"><a href="24-highlights-apollo17-panel/"><img src="https://github.com/FavioVazquez/showtime/raw/main/assets/readme/gallery/24-highlights-apollo17-panel.webp" width="100%" alt="A vertical clip of an Artemis flight controller, with bold captions: a spaceship."></a></td>
+<td valign="top">
+<sub>24 · 3 clips, 22-46 s · 9:16, SRT</sub><br>
+<b><a href="24-highlights-apollo17-panel/">A long panel, its best moments</a></b>
+<p><sub>THE PROMPT</sub><br><i>“Find the best 30-60 s moments of this 58-minute NASA panel (Apollo 17 legends and Artemis leaders) and make three vertical clips with captions”</i></p>
+<p><sub>WHAT IT SHOWS</sub><br>edit moments ranks an hour&#x27;s best moments, edit clips cuts three captioned vertical clips, qa on each</p>
+<p>▶ <a href="24-highlights-apollo17-panel/clips/01-one-hell-of-a-job.mp4"><code>clips/01-one-hell-of-a-job.mp4</code></a> · <a href="24-highlights-apollo17-panel/clips/02-i-just-flew-a-spaceship-around-the-moon.mp4"><code>clips/02-i-just-flew-a-spaceship-around-the-moon.mp4</code></a> · <a href="24-highlights-apollo17-panel/clips/03-it-can-be-done-we-did-it-50-years-ago.mp4"><code>clips/03-it-can-be-done-we-did-it-50-years-ago.mp4</code></a><br><a href="24-highlights-apollo17-panel/">the folder, the story and the commands</a></p>
 </td>
 </tr>
 </table>
@@ -395,6 +482,71 @@ download one and open it to play it.
 
 <sub>Also in this group: <a href="#ex-19"><b>19 · Travel slideshow</b></a>, above.</sub>
 
+<sub>Also in this group: <a href="#ex-30"><b>30 · The showreel template in four shapes</b></a>, under Looks and motion.</sub>
+
+## Looks and motion
+
+<a id="ex-30"></a>
+
+<table>
+<tr>
+<td width="44%" valign="top"><a href="30-showreel-four-shapes/"><img src="https://github.com/FavioVazquez/showtime/raw/main/assets/readme/gallery/30-showreel-four-shapes.webp" width="100%" alt="The flash word TYPE. smeared by the shutter blur as it whips in, on a cyan ground."></a></td>
+<td valign="top">
+<sub>30 · 4 × 15 s · 16:9, 9:16, 1:1, 4:5</sub><br>
+<b><a href="30-showreel-four-shapes/">The showreel template in four shapes</a></b>
+<p><sub>THE PROMPT</sub><br><i>“Render the showreel template as it ships, with no edits, at 16:9, 9:16, 1:1 and 4:5.”</i></p>
+<p><sub>WHAT IT SHOWS</sub><br>Fourteen techniques in 15 s, recomposed for each shape with no edits; flash words under the shutter blur</p>
+<p>▶ <a href="30-showreel-four-shapes/16x9/final.github.mp4"><code>16x9/final.github.mp4</code></a> · <a href="30-showreel-four-shapes/9x16/final.github.mp4"><code>9x16/final.github.mp4</code></a> · <a href="30-showreel-four-shapes/1x1/final.github.mp4"><code>1x1/final.github.mp4</code></a> · <a href="30-showreel-four-shapes/4x5/final.github.mp4"><code>4x5/final.github.mp4</code></a><br><a href="30-showreel-four-shapes/">the folder, the story and the commands</a></p>
+</td>
+</tr>
+</table>
+
+<a id="ex-32"></a>
+
+<table>
+<tr>
+<td width="44%" valign="top"><a href="32-twelve-looks/"><img src="https://github.com/FavioVazquez/showtime/raw/main/assets/readme/gallery/32-twelve-looks.webp" width="100%" alt="The same launch film in two look signatures: nocturne&#x27;s ink blue, then paperback&#x27;s warm paper, a label naming each."></a></td>
+<td valign="top">
+<sub>32 · 24 s loop · 16:9 + a contact sheet</sub><br>
+<b><a href="32-twelve-looks/">Twelve looks, one project</a></b>
+<p><sub>THE PROMPT</sub><br><i>“Show one project in each of the twelve look signatures: a contact sheet of all twelve, and a 24-second loop that changes look every 2 seconds.”</i></p>
+<p><sub>WHAT IT SHOWS</sub><br>new --look for each of the twelve signatures, signature apply, a contact sheet, 2 s of each cut on the beat</p>
+<p>▶ <a href="32-twelve-looks/final.github.mp4"><code>final.github.mp4</code></a><br><a href="32-twelve-looks/">the folder, the story and the commands</a></p>
+</td>
+</tr>
+</table>
+
+<a id="ex-looks"></a>
+
+<table>
+<tr>
+<td width="44%" valign="top"><a href="_looks/"><img src="https://github.com/FavioVazquez/showtime/raw/main/assets/readme/gallery/_looks.webp" width="100%" alt="Metaballs gathering into one coral blob next to the word Metaballs."></a></td>
+<td valign="top">
+<sub>Demo · 18 s · 16:9, no sound</sub><br>
+<b><a href="_looks/">Seven looks, no GPU</a></b>
+<p><sub>THE PROMPT</sub><br><i>“Show the seven WebGL looks in one short page, one scene each, rendered without a GPU.”</i></p>
+<p><sub>WHAT IT SHOWS</sub><br>Fluted glass, tilt-shift, liquid metal, god rays, mesh gradient, marble and metaballs, in showtime&#x27;s own WebGL</p>
+<p>▶ <a href="_looks/looks-720p.mp4"><code>looks-720p.mp4</code></a><br><a href="_looks/">the folder, the story and the commands</a></p>
+</td>
+</tr>
+</table>
+
+<a id="ex-blur"></a>
+
+<table>
+<tr>
+<td width="44%" valign="top"><a href="_blur/"><img src="https://github.com/FavioVazquez/showtime/raw/main/assets/readme/gallery/_blur.webp" width="100%" alt="A card reading PUNCH. lands on a lime ground after a scale punch."></a></td>
+<td valign="top">
+<sub>Demo · 7.5 s · 16:9, no sound</sub><br>
+<b><a href="_blur/">Shutter blur on fast moves</a></b>
+<p><sub>THE PROMPT</sub><br><i>“Show the shutter blur on four snaps: a whip, a slam, a scale punch, and the same whip without and with it.”</i></p>
+<p><sub>WHAT IT SHOWS</sub><br>data-st-blur on the element that moves: smeared on its fast frames, sharp on the frame it lands</p>
+<p>▶ <a href="_blur/blur-720p.mp4"><code>blur-720p.mp4</code></a><br><a href="_blur/">the folder, the story and the commands</a></p>
+</td>
+</tr>
+</table>
+
+
 ## For developers
 
 <a id="ex-15"></a>
@@ -412,21 +564,40 @@ download one and open it to play it.
 </tr>
 </table>
 
+<a id="ex-29"></a>
+
+<table>
+<tr>
+<td width="44%" valign="top"><a href="29-pr-video-showtime/"><img src="https://github.com/FavioVazquez/showtime/raw/main/assets/readme/gallery/29-pr-video-showtime.webp" width="100%" alt="68 files changed, +1138 -159: a file tree with green and red bars, from showtime&#x27;s pull request #7."></a></td>
+<td valign="top">
+<sub>29 · 40 s · 16:9, GitHub copy</sub><br>
+<b><a href="29-pr-video-showtime/">A pull request becomes a video</a></b>
+<p><sub>THE PROMPT</sub><br><i>“Turn showtime&#x27;s pull request #7 into a short video I can paste into its description.”</i></p>
+<p><sub>WHAT IT SHOWS</sub><br>showtime pr-video in one command: the PR&#x27;s own words, files and a real hunk, secrets masked, a copy under 10 MB</p>
+<p>▶ <a href="29-pr-video-showtime/pr-7.github.mp4"><code>pr-7.github.mp4</code></a><br><a href="29-pr-video-showtime/">the folder, the story and the commands</a></p>
+</td>
+</tr>
+</table>
+
 ## Also here
 
 - [`_apps/tidepool`](_apps/tidepool): the fictional notes app several examples record and capture.
   Tidepool is not a real product and is not linked to any company or project with a similar name.
 - [`_html`](_html/): two templates exported as self-contained web pages with `showtime export html`.
+- [`_showreel`](_showreel/): the 0.3.0 showreel, the film on the site's front page, with its project.
 
 ## Rebuilding one
 
 Each example's `project/` (or episode folder) is a showtime project; its README lists the commands in
 order. Voice sidecars store paths relative to their folder, and `showtime voice script` regenerates the
-voice clips from `narration.md` where the WAVs are not committed.
+voice clips from `narration.md` where the WAVs are not committed. Examples 01-23 were made before look
+signatures (0.4.0), in each template's own look, so their `showtime new` lines say `--look template`; 25, 26, 30 and
+32 start in a signature (`--look <id>`). Example 28 has no `project/`: its `src/` is Claude Design's runtime.
 
 ## About the previews
 
 The looping previews (here and in the showtime README) live in the showtime repository, in
 [`assets/readme/gallery/`](https://github.com/FavioVazquez/showtime/tree/main/assets/readme/gallery): 480x270 animated WebP, 12 fps, about 4 s of each
 video, made from the finals with `showtime deliver exports <final.mp4> --targets webp-small --from <s>
---to <s>` (vertical and square videos were first centred on a 16:9 stage so the shelves line up).
+--to <s>` (vertical and square videos were first centred on a 16:9 stage so the shelves line up:
+`showtime deliver exports <video> --targets youtube --fit pad --pad-color "#15100f"`).

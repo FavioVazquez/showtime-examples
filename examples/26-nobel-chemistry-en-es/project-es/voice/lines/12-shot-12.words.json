@@ -1,0 +1,182 @@
+{
+  "source": "12-shot-12.wav",
+  "duration": 10.643,
+  "language": "es",
+  "model": "kokoro-v1.0-timestamped.onnx",
+  "words": [
+    {
+      "text": "Haz",
+      "start": 0.03,
+      "end": 0.149,
+      "type": "word"
+    },
+    {
+      "text": "tu",
+      "start": 0.2,
+      "end": 0.283,
+      "type": "word"
+    },
+    {
+      "text": "propia",
+      "start": 0.34,
+      "end": 0.627,
+      "type": "word"
+    },
+    {
+      "text": "carrera",
+      "start": 0.69,
+      "end": 0.998,
+      "type": "word"
+    },
+    {
+      "text": "de",
+      "start": 1.022,
+      "end": 1.071,
+      "type": "word"
+    },
+    {
+      "text": "espejos",
+      "start": 1.095,
+      "end": 1.579,
+      "type": "word"
+    },
+    {
+      "text": "en",
+      "start": 1.627,
+      "end": 1.691,
+      "type": "word"
+    },
+    {
+      "text": "nuestro",
+      "start": 1.716,
+      "end": 1.978,
+      "type": "word"
+    },
+    {
+      "text": "laboratorio",
+      "start": 2.007,
+      "end": 2.602,
+      "type": "word"
+    },
+    {
+      "text": "abierto",
+      "start": 2.649,
+      "end": 2.996,
+      "type": "word"
+    },
+    {
+      "text": "del",
+      "start": 3.01,
+      "end": 3.125,
+      "type": "word"
+    },
+    {
+      "text": "Nobel",
+      "start": 3.16,
+      "end": 3.62,
+      "type": "word"
+    },
+    {
+      "text": "dos",
+      "start": 3.8,
+      "end": 3.985,
+      "type": "word"
+    },
+    {
+      "text": "mil",
+      "start": 4.036,
+      "end": 4.196,
+      "type": "word"
+    },
+    {
+      "text": "veintiséis.",
+      "start": 4.235,
+      "end": 4.99,
+      "type": "word"
+    },
+    {
+      "text": "Explicado",
+      "start": 5.37,
+      "end": 5.981,
+      "type": "word"
+    },
+    {
+      "text": "con",
+      "start": 6.05,
+      "end": 6.207,
+      "type": "word"
+    },
+    {
+      "text": "showtime,",
+      "start": 6.289,
+      "end": 6.84,
+      "type": "word"
+    },
+    {
+      "text": "un",
+      "start": 7.04,
+      "end": 7.133,
+      "type": "word"
+    },
+    {
+      "text": "estudio",
+      "start": 7.158,
+      "end": 7.545,
+      "type": "word"
+    },
+    {
+      "text": "de",
+      "start": 7.57,
+      "end": 7.619,
+      "type": "word"
+    },
+    {
+      "text": "video",
+      "start": 7.647,
+      "end": 7.927,
+      "type": "word"
+    },
+    {
+      "text": "de",
+      "start": 7.953,
+      "end": 8.022,
+      "type": "word"
+    },
+    {
+      "text": "código",
+      "start": 8.07,
+      "end": 8.385,
+      "type": "word"
+    },
+    {
+      "text": "abierto",
+      "start": 8.434,
+      "end": 8.834,
+      "type": "word"
+    },
+    {
+      "text": "para",
+      "start": 8.9,
+      "end": 9.017,
+      "type": "word"
+    },
+    {
+      "text": "agentes",
+      "start": 9.049,
+      "end": 9.442,
+      "type": "word"
+    },
+    {
+      "text": "de",
+      "start": 9.468,
+      "end": 9.517,
+      "type": "word"
+    },
+    {
+      "text": "programación.",
+      "start": 9.57,
+      "end": 10.233,
+      "type": "word"
+    }
+  ]
+}

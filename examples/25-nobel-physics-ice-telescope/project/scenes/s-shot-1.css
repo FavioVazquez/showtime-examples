@@ -1,0 +1,31 @@
+/* shot-1 cold open: a fingertip, a stream of neutrinos straight through it. Scene-relative times only. */
+.s-shot-1 { background: radial-gradient(60% 70% at 55% 52%, rgb(88 169 255 / 0.10), transparent 70%), var(--bg); color: var(--fg); }
+.s-shot-1 .s1-cam { position: absolute; inset: 0; transform-origin: 8% 70%;
+  animation: s1-push 11s cubic-bezier(0.45, 0, 0.55, 1) 0s both; }
+@keyframes s1-push { from { transform: scale(1); } to { transform: scale(1.04); } }
+.s-shot-1 .s1-finger, .s-shot-1 .s1-stream, .s-shot-1 .s1-leader { position: absolute; inset: 0; width: 1920px; height: 1080px; }
+.s-shot-1 .s1-skin { fill: color-mix(in srgb, var(--fg) 4.5%, transparent); stroke: var(--fg); stroke-width: 4; stroke-linejoin: round; opacity: 0.92; }
+.s-shot-1 .s1-nail { fill: color-mix(in srgb, var(--fg) 6%, transparent); stroke: var(--fg); stroke-width: 3; opacity: 0.9;
+  animation: s1-nail 0.6s cubic-bezier(0.22, 1, 0.36, 1) 4.47s both; }
+@keyframes s1-nail { from { fill: color-mix(in srgb, var(--fg) 6%, transparent); stroke: var(--fg); } to { fill: color-mix(in srgb, var(--accent) 30%, transparent); stroke: var(--accent); } }
+.s-shot-1 .s1-line { fill: none; stroke: var(--fg); stroke-width: 3; stroke-linecap: round; opacity: 0.55; }
+.s-shot-1 .s1-leader path { stroke: var(--accent); stroke-width: 3; stroke-linecap: round; fill: none; stroke-dasharray: 60; stroke-dashoffset: 60;
+  animation: s1-draw 0.4s cubic-bezier(0.22, 1, 0.36, 1) 4.6s both; }
+@keyframes s1-draw { to { stroke-dashoffset: 0; } }
+
+.s-shot-1 .s1-type { position: absolute; left: 120px; top: 96px; }
+.s-shot-1 .s1-head { margin: 0; font: 700 108px/1 var(--font-display); letter-spacing: -0.025em; color: var(--fg); white-space: nowrap; }
+.s-shot-1 .s1-kicker { margin: 26px 0 0; font: 650 40px/1.1 var(--font-body); letter-spacing: 0.08em; text-transform: uppercase; color: var(--accent); }
+
+.s-shot-1 .s1-nail-label { position: absolute; left: 1068px; top: 344px; margin: 0; translate: -50% 0; white-space: nowrap;
+  font: 600 40px/1.1 var(--font-body); color: var(--accent);
+  animation: s1-rise 0.5s cubic-bezier(0.22, 1, 0.36, 1) 4.47s both; }
+.s-shot-1 .s1-touch { position: absolute; left: 1266px; top: 520px; margin: 0;
+  font: 600 48px/1.12 var(--font-display); color: var(--fg);
+  animation: s1-rise 0.5s cubic-bezier(0.22, 1, 0.36, 1) 7.36s both; }
+.s-shot-1 .s1-count { position: absolute; left: 120px; top: 668px;
+  animation: s1-rise 0.5s cubic-bezier(0.22, 1, 0.36, 1) 5.12s both; }
+.s-shot-1 .s1-count-n { margin: 0; font: 700 64px/1 var(--font-body); font-variant-numeric: tabular-nums; color: var(--fg); }
+.s-shot-1 .s1-count-n .s1-num { color: #58e1ff; }
+.s-shot-1 .s1-count-l { margin: 12px 0 0; font: 500 36px/1.15 var(--font-body); color: var(--muted); }
+@keyframes s1-rise { from { opacity: 0; transform: translateY(24px); filter: blur(8px); } to { opacity: 1; transform: none; filter: none; } }

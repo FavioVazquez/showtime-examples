@@ -1,0 +1,230 @@
+{
+  "source": "07-shot-7.wav",
+  "duration": 13.833,
+  "language": "en",
+  "model": "kokoro-v1.0-timestamped.onnx",
+  "words": [
+    {
+      "text": "In",
+      "start": 0.04,
+      "end": 0.105,
+      "type": "word"
+    },
+    {
+      "text": "two",
+      "start": 0.164,
+      "end": 0.278,
+      "type": "word"
+    },
+    {
+      "text": "thousand",
+      "start": 0.326,
+      "end": 0.696,
+      "type": "word"
+    },
+    {
+      "text": "three,",
+      "start": 0.73,
+      "end": 1.13,
+      "type": "word"
+    },
+    {
+      "text": "his",
+      "start": 1.41,
+      "end": 1.563,
+      "type": "word"
+    },
+    {
+      "text": "team",
+      "start": 1.59,
+      "end": 1.857,
+      "type": "word"
+    },
+    {
+      "text": "started",
+      "start": 1.908,
+      "end": 2.242,
+      "type": "word"
+    },
+    {
+      "text": "with",
+      "start": 2.271,
+      "end": 2.357,
+      "type": "word"
+    },
+    {
+      "text": "a",
+      "start": 2.382,
+      "end": 2.422,
+      "type": "word"
+    },
+    {
+      "text": "lead",
+      "start": 2.475,
+      "end": 2.691,
+      "type": "word"
+    },
+    {
+      "text": "of",
+      "start": 2.717,
+      "end": 2.787,
+      "type": "word"
+    },
+    {
+      "text": "five",
+      "start": 2.871,
+      "end": 3.177,
+      "type": "word"
+    },
+    {
+      "text": "parts",
+      "start": 3.25,
+      "end": 3.598,
+      "type": "word"
+    },
+    {
+      "text": "in",
+      "start": 3.645,
+      "end": 3.739,
+      "type": "word"
+    },
+    {
+      "text": "ten",
+      "start": 3.809,
+      "end": 4.002,
+      "type": "word"
+    },
+    {
+      "text": "million.",
+      "start": 4.049,
+      "end": 4.55,
+      "type": "word"
+    },
+    {
+      "text": "Each",
+      "start": 5.1,
+      "end": 5.329,
+      "type": "word"
+    },
+    {
+      "text": "run's",
+      "start": 5.384,
+      "end": 5.666,
+      "type": "word"
+    },
+    {
+      "text": "product",
+      "start": 5.74,
+      "end": 6.12,
+      "type": "word"
+    },
+    {
+      "text": "seeds",
+      "start": 6.188,
+      "end": 6.5,
+      "type": "word"
+    },
+    {
+      "text": "the",
+      "start": 6.538,
+      "end": 6.593,
+      "type": "word"
+    },
+    {
+      "text": "next:",
+      "start": 6.64,
+      "end": 7.18,
+      "type": "word"
+    },
+    {
+      "text": "fifty-seven",
+      "start": 7.463,
+      "end": 8.018,
+      "type": "word"
+    },
+    {
+      "text": "percent",
+      "start": 8.066,
+      "end": 8.471,
+      "type": "word"
+    },
+    {
+      "text": "after",
+      "start": 8.516,
+      "end": 8.752,
+      "type": "word"
+    },
+    {
+      "text": "one",
+      "start": 8.76,
+      "end": 8.977,
+      "type": "word"
+    },
+    {
+      "text": "run,",
+      "start": 9.025,
+      "end": 9.46,
+      "type": "word"
+    },
+    {
+      "text": "ninety-nine",
+      "start": 9.65,
+      "end": 10.294,
+      "type": "word"
+    },
+    {
+      "text": "after",
+      "start": 10.339,
+      "end": 10.574,
+      "type": "word"
+    },
+    {
+      "text": "two,",
+      "start": 10.69,
+      "end": 11.08,
+      "type": "word"
+    },
+    {
+      "text": "past",
+      "start": 11.284,
+      "end": 11.561,
+      "type": "word"
+    },
+    {
+      "text": "ninety-nine",
+      "start": 11.6,
+      "end": 12.297,
+      "type": "word"
+    },
+    {
+      "text": "and",
+      "start": 12.321,
+      "end": 12.392,
+      "type": "word"
+    },
+    {
+      "text": "a",
+      "start": 12.415,
+      "end": 12.445,
+      "type": "word"
+    },
+    {
+      "text": "half",
+      "start": 12.49,
+      "end": 12.739,
+      "type": "word"
+    },
+    {
+      "text": "after",
+      "start": 12.775,
+      "end": 13.006,
+      "type": "word"
+    },
+    {
+      "text": "three.",
+      "start": 13.076,
+      "end": 13.433,
+      "type": "word"
+    }
+  ]
+}

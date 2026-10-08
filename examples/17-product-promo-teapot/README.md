@@ -68,7 +68,7 @@ showtime job init dresser-teapot --mode quick --goal "Make a 20-second square pr
   --assumed "no voice-over: on-screen text from The Met record 823191 only; ..." \
   --assumed "two full views (025 side, 026 three-quarter) + underside marks detail (046)" \
   --assumed "theme bold with silver accent override; no Met logo; end card = record + CC0 credit + no-endorsement line"
-showtime new dom <p> --title "Teapot, ca. 1879" --aspect 1:1 --duration 20   # native 1:1 layout; page then rewritten
+showtime new dom <p> --title "Teapot, ca. 1879" --aspect 1:1 --duration 20 --look template   # native 1:1 layout; page then rewritten
 
 # the object off its museum backdrop (macOS Vision here; rembg on Windows/Linux)
 showtime assets cutout <p>/img/DP-18258-025.jpg --crop --pad 24   # "subject covers 17% of the image (vision, 3.2s)"

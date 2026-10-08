@@ -1,0 +1,2353 @@
+{
+  "source": "vo.wav",
+  "duration": 151.821,
+  "language": "en",
+  "model": "showtime-voice",
+  "words": [
+    {
+      "text": "About",
+      "start": 0.1,
+      "end": 0.377,
+      "type": "word",
+      "line": "shot-1"
+    },
+    {
+      "text": "sixty-five",
+      "start": 0.475,
+      "end": 1.216,
+      "type": "word",
+      "line": "shot-1"
+    },
+    {
+      "text": "billion",
+      "start": 1.305,
+      "end": 1.672,
+      "type": "word",
+      "line": "shot-1"
+    },
+    {
+      "text": "neutrinos",
+      "start": 1.718,
+      "end": 2.343,
+      "type": "word",
+      "line": "shot-1"
+    },
+    {
+      "text": "from",
+      "start": 2.391,
+      "end": 2.537,
+      "type": "word",
+      "line": "shot-1"
+    },
+    {
+      "text": "the",
+      "start": 2.537,
+      "end": 2.612,
+      "type": "word",
+      "line": "shot-1"
+    },
+    {
+      "text": "Sun",
+      "start": 2.717,
+      "end": 3.092,
+      "type": "word",
+      "line": "shot-1"
+    },
+    {
+      "text": "pass",
+      "start": 3.15,
+      "end": 3.479,
+      "type": "word",
+      "line": "shot-1"
+    },
+    {
+      "text": "through",
+      "start": 3.547,
+      "end": 3.741,
+      "type": "word",
+      "line": "shot-1"
+    },
+    {
+      "text": "your",
+      "start": 3.788,
+      "end": 3.903,
+      "type": "word",
+      "line": "shot-1"
+    },
+    {
+      "text": "little",
+      "start": 3.95,
+      "end": 4.139,
+      "type": "word",
+      "line": "shot-1"
+    },
+    {
+      "text": "fingernail",
+      "start": 4.227,
+      "end": 4.775,
+      "type": "word",
+      "line": "shot-1"
+    },
+    {
+      "text": "every",
+      "start": 4.88,
+      "end": 5.089,
+      "type": "word",
+      "line": "shot-1"
+    },
+    {
+      "text": "second,",
+      "start": 5.182,
+      "end": 5.842,
+      "type": "word",
+      "line": "shot-1"
+    },
+    {
+      "text": "and",
+      "start": 6.04,
+      "end": 6.123,
+      "type": "word",
+      "line": "shot-1"
+    },
+    {
+      "text": "almost",
+      "start": 6.156,
+      "end": 6.541,
+      "type": "word",
+      "line": "shot-1"
+    },
+    {
+      "text": "none",
+      "start": 6.611,
+      "end": 6.763,
+      "type": "word",
+      "line": "shot-1"
+    },
+    {
+      "text": "of",
+      "start": 6.793,
+      "end": 6.858,
+      "type": "word",
+      "line": "shot-1"
+    },
+    {
+      "text": "them",
+      "start": 6.9,
+      "end": 7.06,
+      "type": "word",
+      "line": "shot-1"
+    },
+    {
+      "text": "touch",
+      "start": 7.12,
+      "end": 7.369,
+      "type": "word",
+      "line": "shot-1"
+    },
+    {
+      "text": "anything.",
+      "start": 7.44,
+      "end": 7.94,
+      "type": "word",
+      "line": "shot-1"
+    },
+    {
+      "text": "So",
+      "start": 8.43,
+      "end": 8.545,
+      "type": "word",
+      "line": "shot-1"
+    },
+    {
+      "text": "how",
+      "start": 8.598,
+      "end": 8.764,
+      "type": "word",
+      "line": "shot-1"
+    },
+    {
+      "text": "do",
+      "start": 8.788,
+      "end": 8.883,
+      "type": "word",
+      "line": "shot-1"
+    },
+    {
+      "text": "you",
+      "start": 8.907,
+      "end": 8.98,
+      "type": "word",
+      "line": "shot-1"
+    },
+    {
+      "text": "catch",
+      "start": 9.04,
+      "end": 9.369,
+      "type": "word",
+      "line": "shot-1"
+    },
+    {
+      "text": "one?",
+      "start": 9.42,
+      "end": 9.67,
+      "type": "word",
+      "line": "shot-1"
+    },
+    {
+      "text": "This",
+      "start": 10.75,
+      "end": 10.928,
+      "type": "word",
+      "line": "shot-2"
+    },
+    {
+      "text": "year's",
+      "start": 10.95,
+      "end": 11.293,
+      "type": "word",
+      "line": "shot-2"
+    },
+    {
+      "text": "Nobel",
+      "start": 11.386,
+      "end": 11.848,
+      "type": "word",
+      "line": "shot-2"
+    },
+    {
+      "text": "Prize",
+      "start": 11.88,
+      "end": 12.319,
+      "type": "word",
+      "line": "shot-2"
+    },
+    {
+      "text": "in",
+      "start": 12.363,
+      "end": 12.458,
+      "type": "word",
+      "line": "shot-2"
+    },
+    {
+      "text": "Physics",
+      "start": 12.536,
+      "end": 12.92,
+      "type": "word",
+      "line": "shot-2"
+    },
+    {
+      "text": "went",
+      "start": 12.93,
+      "end": 13.113,
+      "type": "word",
+      "line": "shot-2"
+    },
+    {
+      "text": "to",
+      "start": 13.154,
+      "end": 13.212,
+      "type": "word",
+      "line": "shot-2"
+    },
+    {
+      "text": "Francis",
+      "start": 13.264,
+      "end": 13.661,
+      "type": "word",
+      "line": "shot-2"
+    },
+    {
+      "text": "Halzen,",
+      "start": 13.716,
+      "end": 14.16,
+      "type": "word",
+      "line": "shot-2"
+    },
+    {
+      "text": "for",
+      "start": 14.632,
+      "end": 14.74,
+      "type": "word",
+      "line": "shot-2"
+    },
+    {
+      "text": "decisive",
+      "start": 14.789,
+      "end": 15.401,
+      "type": "word",
+      "line": "shot-2"
+    },
+    {
+      "text": "contributions",
+      "start": 15.455,
+      "end": 16.251,
+      "type": "word",
+      "line": "shot-2"
+    },
+    {
+      "text": "to",
+      "start": 16.298,
+      "end": 16.378,
+      "type": "word",
+      "line": "shot-2"
+    },
+    {
+      "text": "IceCube,",
+      "start": 16.458,
+      "end": 17.06,
+      "type": "word",
+      "line": "shot-2"
+    },
+    {
+      "text": "a",
+      "start": 17.63,
+      "end": 17.672,
+      "type": "word",
+      "line": "shot-2"
+    },
+    {
+      "text": "telescope",
+      "start": 17.744,
+      "end": 18.354,
+      "type": "word",
+      "line": "shot-2"
+    },
+    {
+      "text": "made",
+      "start": 18.402,
+      "end": 18.624,
+      "type": "word",
+      "line": "shot-2"
+    },
+    {
+      "text": "of",
+      "start": 18.671,
+      "end": 18.758,
+      "type": "word",
+      "line": "shot-2"
+    },
+    {
+      "text": "Antarctic",
+      "start": 18.822,
+      "end": 19.388,
+      "type": "word",
+      "line": "shot-2"
+    },
+    {
+      "text": "ice,",
+      "start": 19.4,
+      "end": 19.84,
+      "type": "word",
+      "line": "shot-2"
+    },
+    {
+      "text": "and",
+      "start": 20.25,
+      "end": 20.404,
+      "type": "word",
+      "line": "shot-2"
+    },
+    {
+      "text": "the",
+      "start": 20.428,
+      "end": 20.476,
+      "type": "word",
+      "line": "shot-2"
+    },
+    {
+      "text": "discovery",
+      "start": 20.52,
+      "end": 21.133,
+      "type": "word",
+      "line": "shot-2"
+    },
+    {
+      "text": "of",
+      "start": 21.184,
+      "end": 21.27,
+      "type": "word",
+      "line": "shot-2"
+    },
+    {
+      "text": "high-energy",
+      "start": 21.341,
+      "end": 22.02,
+      "type": "word",
+      "line": "shot-2"
+    },
+    {
+      "text": "neutrinos",
+      "start": 22.068,
+      "end": 22.73,
+      "type": "word",
+      "line": "shot-2"
+    },
+    {
+      "text": "from",
+      "start": 22.777,
+      "end": 22.925,
+      "type": "word",
+      "line": "shot-2"
+    },
+    {
+      "text": "space.",
+      "start": 22.996,
+      "end": 23.51,
+      "type": "word",
+      "line": "shot-2"
+    },
+    {
+      "text": "Four",
+      "start": 24.08,
+      "end": 24.399,
+      "type": "word",
+      "line": "shot-2"
+    },
+    {
+      "text": "steps,",
+      "start": 24.472,
+      "end": 24.98,
+      "type": "word",
+      "line": "shot-2"
+    },
+    {
+      "text": "and",
+      "start": 25.13,
+      "end": 25.233,
+      "type": "word",
+      "line": "shot-2"
+    },
+    {
+      "text": "three",
+      "start": 25.331,
+      "end": 25.563,
+      "type": "word",
+      "line": "shot-2"
+    },
+    {
+      "text": "guesses",
+      "start": 25.632,
+      "end": 26.016,
+      "type": "word",
+      "line": "shot-2"
+    },
+    {
+      "text": "for",
+      "start": 26.064,
+      "end": 26.187,
+      "type": "word",
+      "line": "shot-2"
+    },
+    {
+      "text": "you.",
+      "start": 26.258,
+      "end": 26.48,
+      "type": "word",
+      "line": "shot-2"
+    },
+    {
+      "text": "Step",
+      "start": 27.38,
+      "end": 27.65,
+      "type": "word",
+      "line": "shot-3"
+    },
+    {
+      "text": "one:",
+      "start": 27.68,
+      "end": 27.926,
+      "type": "word",
+      "line": "shot-3"
+    },
+    {
+      "text": "the",
+      "start": 27.981,
+      "end": 28.035,
+      "type": "word",
+      "line": "shot-3"
+    },
+    {
+      "text": "ghost",
+      "start": 28.083,
+      "end": 28.353,
+      "type": "word",
+      "line": "shot-3"
+    },
+    {
+      "text": "particle.",
+      "start": 28.44,
+      "end": 28.97,
+      "type": "word",
+      "line": "shot-3"
+    },
+    {
+      "text": "Guess:",
+      "start": 29.3,
+      "end": 29.77,
+      "type": "word",
+      "line": "shot-3"
+    },
+    {
+      "text": "a",
+      "start": 30.11,
+      "end": 30.179,
+      "type": "word",
+      "line": "shot-3"
+    },
+    {
+      "text": "high-energy",
+      "start": 30.253,
+      "end": 30.896,
+      "type": "word",
+      "line": "shot-3"
+    },
+    {
+      "text": "neutrino",
+      "start": 30.943,
+      "end": 31.508,
+      "type": "word",
+      "line": "shot-3"
+    },
+    {
+      "text": "crosses",
+      "start": 31.55,
+      "end": 31.948,
+      "type": "word",
+      "line": "shot-3"
+    },
+    {
+      "text": "a",
+      "start": 31.997,
+      "end": 32.042,
+      "type": "word",
+      "line": "shot-3"
+    },
+    {
+      "text": "whole",
+      "start": 32.114,
+      "end": 32.364,
+      "type": "word",
+      "line": "shot-3"
+    },
+    {
+      "text": "kilometre",
+      "start": 32.45,
+      "end": 32.988,
+      "type": "word",
+      "line": "shot-3"
+    },
+    {
+      "text": "of",
+      "start": 33.026,
+      "end": 33.109,
+      "type": "word",
+      "line": "shot-3"
+    },
+    {
+      "text": "ice.",
+      "start": 33.22,
+      "end": 33.66,
+      "type": "word",
+      "line": "shot-3"
+    },
+    {
+      "text": "What",
+      "start": 34.03,
+      "end": 34.167,
+      "type": "word",
+      "line": "shot-3"
+    },
+    {
+      "text": "are",
+      "start": 34.191,
+      "end": 34.262,
+      "type": "word",
+      "line": "shot-3"
+    },
+    {
+      "text": "the",
+      "start": 34.289,
+      "end": 34.397,
+      "type": "word",
+      "line": "shot-3"
+    },
+    {
+      "text": "odds",
+      "start": 34.46,
+      "end": 34.797,
+      "type": "word",
+      "line": "shot-3"
+    },
+    {
+      "text": "it",
+      "start": 34.834,
+      "end": 34.89,
+      "type": "word",
+      "line": "shot-3"
+    },
+    {
+      "text": "hits",
+      "start": 34.938,
+      "end": 35.166,
+      "type": "word",
+      "line": "shot-3"
+    },
+    {
+      "text": "anything",
+      "start": 35.22,
+      "end": 35.664,
+      "type": "word",
+      "line": "shot-3"
+    },
+    {
+      "text": "on",
+      "start": 35.738,
+      "end": 35.838,
+      "type": "word",
+      "line": "shot-3"
+    },
+    {
+      "text": "the",
+      "start": 35.838,
+      "end": 35.905,
+      "type": "word",
+      "line": "shot-3"
+    },
+    {
+      "text": "way?",
+      "start": 35.971,
+      "end": 36.31,
+      "type": "word",
+      "line": "shot-3"
+    },
+    {
+      "text": "In",
+      "start": 40.33,
+      "end": 40.407,
+      "type": "word",
+      "line": "shot-4"
+    },
+    {
+      "text": "our",
+      "start": 40.432,
+      "end": 40.534,
+      "type": "word",
+      "line": "shot-4"
+    },
+    {
+      "text": "toy",
+      "start": 40.58,
+      "end": 40.902,
+      "type": "word",
+      "line": "shot-4"
+    },
+    {
+      "text": "model,",
+      "start": 40.95,
+      "end": 41.357,
+      "type": "word",
+      "line": "shot-4"
+    },
+    {
+      "text": "about",
+      "start": 41.48,
+      "end": 41.743,
+      "type": "word",
+      "line": "shot-4"
+    },
+    {
+      "text": "one",
+      "start": 41.817,
+      "end": 42.096,
+      "type": "word",
+      "line": "shot-4"
+    },
+    {
+      "text": "in",
+      "start": 42.156,
+      "end": 42.254,
+      "type": "word",
+      "line": "shot-4"
+    },
+    {
+      "text": "sixty-five",
+      "start": 42.353,
+      "end": 43.023,
+      "type": "word",
+      "line": "shot-4"
+    },
+    {
+      "text": "thousand.",
+      "start": 43.093,
+      "end": 43.67,
+      "type": "word",
+      "line": "shot-4"
+    },
+    {
+      "text": "So",
+      "start": 44.09,
+      "end": 44.225,
+      "type": "word",
+      "line": "shot-4"
+    },
+    {
+      "text": "the",
+      "start": 44.255,
+      "end": 44.305,
+      "type": "word",
+      "line": "shot-4"
+    },
+    {
+      "text": "detector",
+      "start": 44.352,
+      "end": 44.855,
+      "type": "word",
+      "line": "shot-4"
+    },
+    {
+      "text": "had",
+      "start": 44.924,
+      "end": 45.09,
+      "type": "word",
+      "line": "shot-4"
+    },
+    {
+      "text": "to",
+      "start": 45.09,
+      "end": 45.146,
+      "type": "word",
+      "line": "shot-4"
+    },
+    {
+      "text": "be",
+      "start": 45.185,
+      "end": 45.289,
+      "type": "word",
+      "line": "shot-4"
+    },
+    {
+      "text": "huge.",
+      "start": 45.367,
+      "end": 45.933,
+      "type": "word",
+      "line": "shot-4"
+    },
+    {
+      "text": "Step",
+      "start": 46.84,
+      "end": 47.117,
+      "type": "word",
+      "line": "shot-5"
+    },
+    {
+      "text": "two:",
+      "start": 47.12,
+      "end": 47.527,
+      "type": "word",
+      "line": "shot-5"
+    },
+    {
+      "text": "the",
+      "start": 47.689,
+      "end": 47.745,
+      "type": "word",
+      "line": "shot-5"
+    },
+    {
+      "text": "telescope.",
+      "start": 47.78,
+      "end": 48.55,
+      "type": "word",
+      "line": "shot-5"
+    },
+    {
+      "text": "In",
+      "start": 48.95,
+      "end": 49.049,
+      "type": "word",
+      "line": "shot-5"
+    },
+    {
+      "text": "nineteen",
+      "start": 49.096,
+      "end": 49.546,
+      "type": "word",
+      "line": "shot-5"
+    },
+    {
+      "text": "eighty-eight,",
+      "start": 49.62,
+      "end": 50.23,
+      "type": "word",
+      "line": "shot-5"
+    },
+    {
+      "text": "Halzen",
+      "start": 50.49,
+      "end": 50.896,
+      "type": "word",
+      "line": "shot-5"
+    },
+    {
+      "text": "and",
+      "start": 50.931,
+      "end": 51.003,
+      "type": "word",
+      "line": "shot-5"
+    },
+    {
+      "text": "John",
+      "start": 51.051,
+      "end": 51.412,
+      "type": "word",
+      "line": "shot-5"
+    },
+    {
+      "text": "Learned",
+      "start": 51.468,
+      "end": 51.775,
+      "type": "word",
+      "line": "shot-5"
+    },
+    {
+      "text": "proposed",
+      "start": 51.85,
+      "end": 52.389,
+      "type": "word",
+      "line": "shot-5"
+    },
+    {
+      "text": "using",
+      "start": 52.4,
+      "end": 52.738,
+      "type": "word",
+      "line": "shot-5"
+    },
+    {
+      "text": "the",
+      "start": 52.769,
+      "end": 52.858,
+      "type": "word",
+      "line": "shot-5"
+    },
+    {
+      "text": "ice",
+      "start": 52.97,
+      "end": 53.166,
+      "type": "word",
+      "line": "shot-5"
+    },
+    {
+      "text": "itself.",
+      "start": 53.212,
+      "end": 53.89,
+      "type": "word",
+      "line": "shot-5"
+    },
+    {
+      "text": "Halzen",
+      "start": 54.245,
+      "end": 54.669,
+      "type": "word",
+      "line": "shot-5"
+    },
+    {
+      "text": "then",
+      "start": 54.717,
+      "end": 54.892,
+      "type": "word",
+      "line": "shot-5"
+    },
+    {
+      "text": "led",
+      "start": 54.939,
+      "end": 55.099,
+      "type": "word",
+      "line": "shot-5"
+    },
+    {
+      "text": "the",
+      "start": 55.13,
+      "end": 55.191,
+      "type": "word",
+      "line": "shot-5"
+    },
+    {
+      "text": "team",
+      "start": 55.267,
+      "end": 55.6,
+      "type": "word",
+      "line": "shot-5"
+    },
+    {
+      "text": "that",
+      "start": 55.643,
+      "end": 55.768,
+      "type": "word",
+      "line": "shot-5"
+    },
+    {
+      "text": "built",
+      "start": 55.831,
+      "end": 56.091,
+      "type": "word",
+      "line": "shot-5"
+    },
+    {
+      "text": "it.",
+      "start": 56.14,
+      "end": 56.27,
+      "type": "word",
+      "line": "shot-5"
+    },
+    {
+      "text": "When",
+      "start": 58.46,
+      "end": 58.548,
+      "type": "word",
+      "line": "shot-6"
+    },
+    {
+      "text": "one",
+      "start": 58.594,
+      "end": 58.757,
+      "type": "word",
+      "line": "shot-6"
+    },
+    {
+      "text": "does",
+      "start": 58.804,
+      "end": 59.018,
+      "type": "word",
+      "line": "shot-6"
+    },
+    {
+      "text": "hit,",
+      "start": 59.066,
+      "end": 59.32,
+      "type": "word",
+      "line": "shot-6"
+    },
+    {
+      "text": "it",
+      "start": 59.64,
+      "end": 59.727,
+      "type": "word",
+      "line": "shot-6"
+    },
+    {
+      "text": "makes",
+      "start": 59.767,
+      "end": 59.978,
+      "type": "word",
+      "line": "shot-6"
+    },
+    {
+      "text": "a",
+      "start": 60.013,
+      "end": 60.055,
+      "type": "word",
+      "line": "shot-6"
+    },
+    {
+      "text": "charged",
+      "start": 60.1,
+      "end": 60.603,
+      "type": "word",
+      "line": "shot-6"
+    },
+    {
+      "text": "particle",
+      "start": 60.61,
+      "end": 61.097,
+      "type": "word",
+      "line": "shot-6"
+    },
+    {
+      "text": "faster",
+      "start": 61.191,
+      "end": 61.617,
+      "type": "word",
+      "line": "shot-6"
+    },
+    {
+      "text": "than",
+      "start": 61.664,
+      "end": 61.786,
+      "type": "word",
+      "line": "shot-6"
+    },
+    {
+      "text": "light",
+      "start": 61.845,
+      "end": 62.078,
+      "type": "word",
+      "line": "shot-6"
+    },
+    {
+      "text": "travels",
+      "start": 62.14,
+      "end": 62.536,
+      "type": "word",
+      "line": "shot-6"
+    },
+    {
+      "text": "in",
+      "start": 62.582,
+      "end": 62.671,
+      "type": "word",
+      "line": "shot-6"
+    },
+    {
+      "text": "ice.",
+      "start": 62.76,
+      "end": 63.21,
+      "type": "word",
+      "line": "shot-6"
+    },
+    {
+      "text": "It",
+      "start": 63.64,
+      "end": 63.741,
+      "type": "word",
+      "line": "shot-6"
+    },
+    {
+      "text": "leaves",
+      "start": 63.788,
+      "end": 64.039,
+      "type": "word",
+      "line": "shot-6"
+    },
+    {
+      "text": "a",
+      "start": 64.077,
+      "end": 64.124,
+      "type": "word",
+      "line": "shot-6"
+    },
+    {
+      "text": "cone",
+      "start": 64.19,
+      "end": 64.602,
+      "type": "word",
+      "line": "shot-6"
+    },
+    {
+      "text": "of",
+      "start": 64.645,
+      "end": 64.729,
+      "type": "word",
+      "line": "shot-6"
+    },
+    {
+      "text": "blue",
+      "start": 64.803,
+      "end": 65.026,
+      "type": "word",
+      "line": "shot-6"
+    },
+    {
+      "text": "light,",
+      "start": 65.094,
+      "end": 65.44,
+      "type": "word",
+      "line": "shot-6"
+    },
+    {
+      "text": "and",
+      "start": 65.77,
+      "end": 65.841,
+      "type": "word",
+      "line": "shot-6"
+    },
+    {
+      "text": "each",
+      "start": 65.916,
+      "end": 66.117,
+      "type": "word",
+      "line": "shot-6"
+    },
+    {
+      "text": "sensor",
+      "start": 66.189,
+      "end": 66.553,
+      "type": "word",
+      "line": "shot-6"
+    },
+    {
+      "text": "times",
+      "start": 66.622,
+      "end": 66.956,
+      "type": "word",
+      "line": "shot-6"
+    },
+    {
+      "text": "its",
+      "start": 66.986,
+      "end": 67.094,
+      "type": "word",
+      "line": "shot-6"
+    },
+    {
+      "text": "arrival.",
+      "start": 67.1,
+      "end": 67.69,
+      "type": "word",
+      "line": "shot-6"
+    },
+    {
+      "text": "Step",
+      "start": 69.63,
+      "end": 69.882,
+      "type": "word",
+      "line": "shot-7"
+    },
+    {
+      "text": "three:",
+      "start": 69.89,
+      "end": 70.278,
+      "type": "word",
+      "line": "shot-7"
+    },
+    {
+      "text": "our",
+      "start": 70.46,
+      "end": 70.578,
+      "type": "word",
+      "line": "shot-7"
+    },
+    {
+      "text": "toy",
+      "start": 70.68,
+      "end": 70.936,
+      "type": "word",
+      "line": "shot-7"
+    },
+    {
+      "text": "telescope.",
+      "start": 71.0,
+      "end": 71.983,
+      "type": "word",
+      "line": "shot-7"
+    },
+    {
+      "text": "From",
+      "start": 72.12,
+      "end": 72.28,
+      "type": "word",
+      "line": "shot-7"
+    },
+    {
+      "text": "the",
+      "start": 72.28,
+      "end": 72.336,
+      "type": "word",
+      "line": "shot-7"
+    },
+    {
+      "text": "light's",
+      "start": 72.383,
+      "end": 72.65,
+      "type": "word",
+      "line": "shot-7"
+    },
+    {
+      "text": "timing",
+      "start": 72.7,
+      "end": 73.056,
+      "type": "word",
+      "line": "shot-7"
+    },
+    {
+      "text": "alone,",
+      "start": 73.104,
+      "end": 73.518,
+      "type": "word",
+      "line": "shot-7"
+    },
+    {
+      "text": "it",
+      "start": 73.586,
+      "end": 73.676,
+      "type": "word",
+      "line": "shot-7"
+    },
+    {
+      "text": "finds",
+      "start": 73.736,
+      "end": 74.035,
+      "type": "word",
+      "line": "shot-7"
+    },
+    {
+      "text": "the",
+      "start": 74.067,
+      "end": 74.117,
+      "type": "word",
+      "line": "shot-7"
+    },
+    {
+      "text": "particle's",
+      "start": 74.21,
+      "end": 74.645,
+      "type": "word",
+      "line": "shot-7"
+    },
+    {
+      "text": "direction.",
+      "start": 74.693,
+      "end": 75.35,
+      "type": "word",
+      "line": "shot-7"
+    },
+    {
+      "text": "Neutrinos",
+      "start": 75.91,
+      "end": 76.527,
+      "type": "word",
+      "line": "shot-7"
+    },
+    {
+      "text": "fly",
+      "start": 76.595,
+      "end": 76.857,
+      "type": "word",
+      "line": "shot-7"
+    },
+    {
+      "text": "straight,",
+      "start": 76.94,
+      "end": 77.326,
+      "type": "word",
+      "line": "shot-7"
+    },
+    {
+      "text": "so",
+      "start": 77.52,
+      "end": 77.586,
+      "type": "word",
+      "line": "shot-7"
+    },
+    {
+      "text": "that",
+      "start": 77.621,
+      "end": 77.773,
+      "type": "word",
+      "line": "shot-7"
+    },
+    {
+      "text": "points",
+      "start": 77.828,
+      "end": 78.133,
+      "type": "word",
+      "line": "shot-7"
+    },
+    {
+      "text": "back",
+      "start": 78.184,
+      "end": 78.415,
+      "type": "word",
+      "line": "shot-7"
+    },
+    {
+      "text": "to",
+      "start": 78.463,
+      "end": 78.53,
+      "type": "word",
+      "line": "shot-7"
+    },
+    {
+      "text": "where",
+      "start": 78.577,
+      "end": 78.703,
+      "type": "word",
+      "line": "shot-7"
+    },
+    {
+      "text": "they",
+      "start": 78.742,
+      "end": 78.858,
+      "type": "word",
+      "line": "shot-7"
+    },
+    {
+      "text": "came",
+      "start": 78.91,
+      "end": 79.163,
+      "type": "word",
+      "line": "shot-7"
+    },
+    {
+      "text": "from.",
+      "start": 79.216,
+      "end": 79.56,
+      "type": "word",
+      "line": "shot-7"
+    },
+    {
+      "text": "Guess:",
+      "start": 80.0,
+      "end": 80.48,
+      "type": "word",
+      "line": "shot-7"
+    },
+    {
+      "text": "same",
+      "start": 80.78,
+      "end": 81.14,
+      "type": "word",
+      "line": "shot-7"
+    },
+    {
+      "text": "ice,",
+      "start": 81.22,
+      "end": 81.643,
+      "type": "word",
+      "line": "shot-7"
+    },
+    {
+      "text": "strings",
+      "start": 81.71,
+      "end": 82.142,
+      "type": "word",
+      "line": "shot-7"
+    },
+    {
+      "text": "twice",
+      "start": 82.19,
+      "end": 82.514,
+      "type": "word",
+      "line": "shot-7"
+    },
+    {
+      "text": "as",
+      "start": 82.559,
+      "end": 82.655,
+      "type": "word",
+      "line": "shot-7"
+    },
+    {
+      "text": "far",
+      "start": 82.727,
+      "end": 82.955,
+      "type": "word",
+      "line": "shot-7"
+    },
+    {
+      "text": "apart,",
+      "start": 83.001,
+      "end": 83.438,
+      "type": "word",
+      "line": "shot-7"
+    },
+    {
+      "text": "so",
+      "start": 83.54,
+      "end": 83.704,
+      "type": "word",
+      "line": "shot-7"
+    },
+    {
+      "text": "a",
+      "start": 83.732,
+      "end": 83.769,
+      "type": "word",
+      "line": "shot-7"
+    },
+    {
+      "text": "quarter",
+      "start": 83.84,
+      "end": 84.188,
+      "type": "word",
+      "line": "shot-7"
+    },
+    {
+      "text": "as",
+      "start": 84.234,
+      "end": 84.329,
+      "type": "word",
+      "line": "shot-7"
+    },
+    {
+      "text": "many.",
+      "start": 84.378,
+      "end": 84.72,
+      "type": "word",
+      "line": "shot-7"
+    },
+    {
+      "text": "How",
+      "start": 85.09,
+      "end": 85.251,
+      "type": "word",
+      "line": "shot-7"
+    },
+    {
+      "text": "much",
+      "start": 85.297,
+      "end": 85.505,
+      "type": "word",
+      "line": "shot-7"
+    },
+    {
+      "text": "worse",
+      "start": 85.576,
+      "end": 85.814,
+      "type": "word",
+      "line": "shot-7"
+    },
+    {
+      "text": "does",
+      "start": 85.861,
+      "end": 85.986,
+      "type": "word",
+      "line": "shot-7"
+    },
+    {
+      "text": "it",
+      "start": 86.024,
+      "end": 86.086,
+      "type": "word",
+      "line": "shot-7"
+    },
+    {
+      "text": "aim?",
+      "start": 86.138,
+      "end": 86.528,
+      "type": "word",
+      "line": "shot-7"
+    },
+    {
+      "text": "In",
+      "start": 90.58,
+      "end": 90.632,
+      "type": "word",
+      "line": "shot-8"
+    },
+    {
+      "text": "our",
+      "start": 90.656,
+      "end": 90.752,
+      "type": "word",
+      "line": "shot-8"
+    },
+    {
+      "text": "toy",
+      "start": 90.8,
+      "end": 91.079,
+      "type": "word",
+      "line": "shot-8"
+    },
+    {
+      "text": "model,",
+      "start": 91.126,
+      "end": 91.439,
+      "type": "word",
+      "line": "shot-8"
+    },
+    {
+      "text": "more",
+      "start": 91.513,
+      "end": 91.681,
+      "type": "word",
+      "line": "shot-8"
+    },
+    {
+      "text": "than",
+      "start": 91.717,
+      "end": 91.833,
+      "type": "word",
+      "line": "shot-8"
+    },
+    {
+      "text": "five",
+      "start": 91.915,
+      "end": 92.197,
+      "type": "word",
+      "line": "shot-8"
+    },
+    {
+      "text": "times",
+      "start": 92.21,
+      "end": 92.577,
+      "type": "word",
+      "line": "shot-8"
+    },
+    {
+      "text": "worse:",
+      "start": 92.64,
+      "end": 93.0,
+      "type": "word",
+      "line": "shot-8"
+    },
+    {
+      "text": "fewer",
+      "start": 93.433,
+      "end": 93.737,
+      "type": "word",
+      "line": "shot-8"
+    },
+    {
+      "text": "strings,",
+      "start": 93.85,
+      "end": 94.253,
+      "type": "word",
+      "line": "shot-8"
+    },
+    {
+      "text": "less",
+      "start": 94.321,
+      "end": 94.506,
+      "type": "word",
+      "line": "shot-8"
+    },
+    {
+      "text": "light.",
+      "start": 94.569,
+      "end": 94.8,
+      "type": "word",
+      "line": "shot-8"
+    },
+    {
+      "text": "Trend",
+      "start": 95.26,
+      "end": 95.585,
+      "type": "word",
+      "line": "shot-8"
+    },
+    {
+      "text": "only,",
+      "start": 95.62,
+      "end": 96.096,
+      "type": "word",
+      "line": "shot-8"
+    },
+    {
+      "text": "not",
+      "start": 96.178,
+      "end": 96.362,
+      "type": "word",
+      "line": "shot-8"
+    },
+    {
+      "text": "IceCube's",
+      "start": 96.42,
+      "end": 97.059,
+      "type": "word",
+      "line": "shot-8"
+    },
+    {
+      "text": "real",
+      "start": 97.131,
+      "end": 97.43,
+      "type": "word",
+      "line": "shot-8"
+    },
+    {
+      "text": "aim.",
+      "start": 97.5,
+      "end": 97.88,
+      "type": "word",
+      "line": "shot-8"
+    },
+    {
+      "text": "Step",
+      "start": 98.74,
+      "end": 98.998,
+      "type": "word",
+      "line": "shot-9"
+    },
+    {
+      "text": "four:",
+      "start": 99.07,
+      "end": 99.4,
+      "type": "word",
+      "line": "shot-9"
+    },
+    {
+      "text": "what",
+      "start": 99.471,
+      "end": 99.568,
+      "type": "word",
+      "line": "shot-9"
+    },
+    {
+      "text": "it",
+      "start": 99.598,
+      "end": 99.686,
+      "type": "word",
+      "line": "shot-9"
+    },
+    {
+      "text": "found.",
+      "start": 99.76,
+      "end": 100.28,
+      "type": "word",
+      "line": "shot-9"
+    },
+    {
+      "text": "In",
+      "start": 100.73,
+      "end": 100.801,
+      "type": "word",
+      "line": "shot-9"
+    },
+    {
+      "text": "twenty",
+      "start": 100.849,
+      "end": 101.097,
+      "type": "word",
+      "line": "shot-9"
+    },
+    {
+      "text": "thirteen,",
+      "start": 101.175,
+      "end": 101.73,
+      "type": "word",
+      "line": "shot-9"
+    },
+    {
+      "text": "IceCube",
+      "start": 101.97,
+      "end": 102.549,
+      "type": "word",
+      "line": "shot-9"
+    },
+    {
+      "text": "reported",
+      "start": 102.597,
+      "end": 103.024,
+      "type": "word",
+      "line": "shot-9"
+    },
+    {
+      "text": "the",
+      "start": 103.06,
+      "end": 103.129,
+      "type": "word",
+      "line": "shot-9"
+    },
+    {
+      "text": "first",
+      "start": 103.239,
+      "end": 103.536,
+      "type": "word",
+      "line": "shot-9"
+    },
+    {
+      "text": "evidence",
+      "start": 103.64,
+      "end": 104.018,
+      "type": "word",
+      "line": "shot-9"
+    },
+    {
+      "text": "of",
+      "start": 104.063,
+      "end": 104.145,
+      "type": "word",
+      "line": "shot-9"
+    },
+    {
+      "text": "high-energy",
+      "start": 104.226,
+      "end": 104.903,
+      "type": "word",
+      "line": "shot-9"
+    },
+    {
+      "text": "neutrinos",
+      "start": 104.951,
+      "end": 105.604,
+      "type": "word",
+      "line": "shot-9"
+    },
+    {
+      "text": "from",
+      "start": 105.652,
+      "end": 105.803,
+      "type": "word",
+      "line": "shot-9"
+    },
+    {
+      "text": "outer",
+      "start": 105.91,
+      "end": 106.138,
+      "type": "word",
+      "line": "shot-9"
+    },
+    {
+      "text": "space.",
+      "start": 106.209,
+      "end": 106.79,
+      "type": "word",
+      "line": "shot-9"
+    },
+    {
+      "text": "In",
+      "start": 107.25,
+      "end": 107.302,
+      "type": "word",
+      "line": "shot-9"
+    },
+    {
+      "text": "twenty",
+      "start": 107.35,
+      "end": 107.609,
+      "type": "word",
+      "line": "shot-9"
+    },
+    {
+      "text": "sixteen,",
+      "start": 107.69,
+      "end": 108.29,
+      "type": "word",
+      "line": "shot-9"
+    },
+    {
+      "text": "it",
+      "start": 108.45,
+      "end": 108.538,
+      "type": "word",
+      "line": "shot-9"
+    },
+    {
+      "text": "caught",
+      "start": 108.59,
+      "end": 108.833,
+      "type": "word",
+      "line": "shot-9"
+    },
+    {
+      "text": "this",
+      "start": 108.89,
+      "end": 109.013,
+      "type": "word",
+      "line": "shot-9"
+    },
+    {
+      "text": "shower,",
+      "start": 109.107,
+      "end": 109.59,
+      "type": "word",
+      "line": "shot-9"
+    },
+    {
+      "text": "replayed",
+      "start": 109.88,
+      "end": 110.423,
+      "type": "word",
+      "line": "shot-9"
+    },
+    {
+      "text": "from",
+      "start": 110.47,
+      "end": 110.634,
+      "type": "word",
+      "line": "shot-9"
+    },
+    {
+      "text": "the",
+      "start": 110.634,
+      "end": 110.746,
+      "type": "word",
+      "line": "shot-9"
+    },
+    {
+      "text": "real",
+      "start": 110.842,
+      "end": 111.153,
+      "type": "word",
+      "line": "shot-9"
+    },
+    {
+      "text": "data.",
+      "start": 111.221,
+      "end": 111.6,
+      "type": "word",
+      "line": "shot-9"
+    },
+    {
+      "text": "IceCube",
+      "start": 112.53,
+      "end": 113.128,
+      "type": "word",
+      "line": "shot-10"
+    },
+    {
+      "text": "records",
+      "start": 113.195,
+      "end": 113.569,
+      "type": "word",
+      "line": "shot-10"
+    },
+    {
+      "text": "about",
+      "start": 113.602,
+      "end": 113.795,
+      "type": "word",
+      "line": "shot-10"
+    },
+    {
+      "text": "a",
+      "start": 113.824,
+      "end": 113.866,
+      "type": "word",
+      "line": "shot-10"
+    },
+    {
+      "text": "hundred",
+      "start": 113.94,
+      "end": 114.304,
+      "type": "word",
+      "line": "shot-10"
+    },
+    {
+      "text": "thousand",
+      "start": 114.34,
+      "end": 114.755,
+      "type": "word",
+      "line": "shot-10"
+    },
+    {
+      "text": "neutrinos",
+      "start": 114.785,
+      "end": 115.374,
+      "type": "word",
+      "line": "shot-10"
+    },
+    {
+      "text": "a",
+      "start": 115.42,
+      "end": 115.468,
+      "type": "word",
+      "line": "shot-10"
+    },
+    {
+      "text": "year.",
+      "start": 115.543,
+      "end": 115.95,
+      "type": "word",
+      "line": "shot-10"
+    },
+    {
+      "text": "Guess:",
+      "start": 116.37,
+      "end": 116.83,
+      "type": "word",
+      "line": "shot-10"
+    },
+    {
+      "text": "how",
+      "start": 117.14,
+      "end": 117.344,
+      "type": "word",
+      "line": "shot-10"
+    },
+    {
+      "text": "many",
+      "start": 117.427,
+      "end": 117.745,
+      "type": "word",
+      "line": "shot-10"
+    },
+    {
+      "text": "of",
+      "start": 117.745,
+      "end": 117.792,
+      "type": "word",
+      "line": "shot-10"
+    },
+    {
+      "text": "them",
+      "start": 117.84,
+      "end": 118.009,
+      "type": "word",
+      "line": "shot-10"
+    },
+    {
+      "text": "come",
+      "start": 118.05,
+      "end": 118.249,
+      "type": "word",
+      "line": "shot-10"
+    },
+    {
+      "text": "from",
+      "start": 118.297,
+      "end": 118.434,
+      "type": "word",
+      "line": "shot-10"
+    },
+    {
+      "text": "outer",
+      "start": 118.52,
+      "end": 118.751,
+      "type": "word",
+      "line": "shot-10"
+    },
+    {
+      "text": "space?",
+      "start": 118.813,
+      "end": 119.302,
+      "type": "word",
+      "line": "shot-10"
+    },
+    {
+      "text": "About",
+      "start": 123.39,
+      "end": 123.6,
+      "type": "word",
+      "line": "shot-11"
+    },
+    {
+      "text": "a",
+      "start": 123.629,
+      "end": 123.668,
+      "type": "word",
+      "line": "shot-11"
+    },
+    {
+      "text": "hundred,",
+      "start": 123.739,
+      "end": 124.28,
+      "type": "word",
+      "line": "shot-11"
+    },
+    {
+      "text": "the",
+      "start": 124.5,
+      "end": 124.538,
+      "type": "word",
+      "line": "shot-11"
+    },
+    {
+      "text": "Nobel",
+      "start": 124.604,
+      "end": 124.995,
+      "type": "word",
+      "line": "shot-11"
+    },
+    {
+      "text": "Committee",
+      "start": 125.045,
+      "end": 125.47,
+      "type": "word",
+      "line": "shot-11"
+    },
+    {
+      "text": "says.",
+      "start": 125.544,
+      "end": 126.01,
+      "type": "word",
+      "line": "shot-11"
+    },
+    {
+      "text": "Most",
+      "start": 126.4,
+      "end": 126.637,
+      "type": "word",
+      "line": "shot-11"
+    },
+    {
+      "text": "of",
+      "start": 126.66,
+      "end": 126.713,
+      "type": "word",
+      "line": "shot-11"
+    },
+    {
+      "text": "the",
+      "start": 126.741,
+      "end": 126.806,
+      "type": "word",
+      "line": "shot-11"
+    },
+    {
+      "text": "rest",
+      "start": 126.875,
+      "end": 127.156,
+      "type": "word",
+      "line": "shot-11"
+    },
+    {
+      "text": "are",
+      "start": 127.17,
+      "end": 127.278,
+      "type": "word",
+      "line": "shot-11"
+    },
+    {
+      "text": "made",
+      "start": 127.329,
+      "end": 127.579,
+      "type": "word",
+      "line": "shot-11"
+    },
+    {
+      "text": "in",
+      "start": 127.615,
+      "end": 127.667,
+      "type": "word",
+      "line": "shot-11"
+    },
+    {
+      "text": "our",
+      "start": 127.691,
+      "end": 127.821,
+      "type": "word",
+      "line": "shot-11"
+    },
+    {
+      "text": "own",
+      "start": 127.89,
+      "end": 128.092,
+      "type": "word",
+      "line": "shot-11"
+    },
+    {
+      "text": "atmosphere.",
+      "start": 128.15,
+      "end": 128.83,
+      "type": "word",
+      "line": "shot-11"
+    },
+    {
+      "text": "The",
+      "start": 129.7,
+      "end": 129.745,
+      "type": "word",
+      "line": "shot-12"
+    },
+    {
+      "text": "prize",
+      "start": 129.81,
+      "end": 130.24,
+      "type": "word",
+      "line": "shot-12"
+    },
+    {
+      "text": "honours",
+      "start": 130.3,
+      "end": 130.632,
+      "type": "word",
+      "line": "shot-12"
+    },
+    {
+      "text": "that",
+      "start": 130.679,
+      "end": 130.831,
+      "type": "word",
+      "line": "shot-12"
+    },
+    {
+      "text": "discovery:",
+      "start": 130.88,
+      "end": 131.51,
+      "type": "word",
+      "line": "shot-12"
+    },
+    {
+      "text": "high-energy",
+      "start": 131.84,
+      "end": 132.531,
+      "type": "word",
+      "line": "shot-12"
+    },
+    {
+      "text": "neutrinos",
+      "start": 132.579,
+      "end": 133.205,
+      "type": "word",
+      "line": "shot-12"
+    },
+    {
+      "text": "from",
+      "start": 133.252,
+      "end": 133.392,
+      "type": "word",
+      "line": "shot-12"
+    },
+    {
+      "text": "space.",
+      "start": 133.465,
+      "end": 134.01,
+      "type": "word",
+      "line": "shot-12"
+    },
+    {
+      "text": "Which",
+      "start": 134.4,
+      "end": 134.557,
+      "type": "word",
+      "line": "shot-12"
+    },
+    {
+      "text": "objects",
+      "start": 134.631,
+      "end": 135.136,
+      "type": "word",
+      "line": "shot-12"
+    },
+    {
+      "text": "make",
+      "start": 135.15,
+      "end": 135.366,
+      "type": "word",
+      "line": "shot-12"
+    },
+    {
+      "text": "them",
+      "start": 135.4,
+      "end": 135.59,
+      "type": "word",
+      "line": "shot-12"
+    },
+    {
+      "text": "is",
+      "start": 135.644,
+      "end": 135.715,
+      "type": "word",
+      "line": "shot-12"
+    },
+    {
+      "text": "still",
+      "start": 135.783,
+      "end": 136.045,
+      "type": "word",
+      "line": "shot-12"
+    },
+    {
+      "text": "open:",
+      "start": 136.11,
+      "end": 136.56,
+      "type": "word",
+      "line": "shot-12"
+    },
+    {
+      "text": "one",
+      "start": 136.96,
+      "end": 137.219,
+      "type": "word",
+      "line": "shot-12"
+    },
+    {
+      "text": "nearby",
+      "start": 137.288,
+      "end": 137.702,
+      "type": "word",
+      "line": "shot-12"
+    },
+    {
+      "text": "galaxy",
+      "start": 137.77,
+      "end": 138.279,
+      "type": "word",
+      "line": "shot-12"
+    },
+    {
+      "text": "shows",
+      "start": 138.357,
+      "end": 138.621,
+      "type": "word",
+      "line": "shot-12"
+    },
+    {
+      "text": "evidence,",
+      "start": 138.74,
+      "end": 139.25,
+      "type": "word",
+      "line": "shot-12"
+    },
+    {
+      "text": "not",
+      "start": 139.42,
+      "end": 139.641,
+      "type": "word",
+      "line": "shot-12"
+    },
+    {
+      "text": "yet",
+      "start": 139.688,
+      "end": 139.861,
+      "type": "word",
+      "line": "shot-12"
+    },
+    {
+      "text": "proof.",
+      "start": 139.95,
+      "end": 140.381,
+      "type": "word",
+      "line": "shot-12"
+    },
+    {
+      "text": "So",
+      "start": 141.28,
+      "end": 141.425,
+      "type": "word",
+      "line": "shot-13"
+    },
+    {
+      "text": "how",
+      "start": 141.474,
+      "end": 141.601,
+      "type": "word",
+      "line": "shot-13"
+    },
+    {
+      "text": "do",
+      "start": 141.627,
+      "end": 141.728,
+      "type": "word",
+      "line": "shot-13"
+    },
+    {
+      "text": "you",
+      "start": 141.754,
+      "end": 141.832,
+      "type": "word",
+      "line": "shot-13"
+    },
+    {
+      "text": "catch",
+      "start": 141.87,
+      "end": 142.248,
+      "type": "word",
+      "line": "shot-13"
+    },
+    {
+      "text": "one?",
+      "start": 142.299,
+      "end": 142.57,
+      "type": "word",
+      "line": "shot-13"
+    },
+    {
+      "text": "With",
+      "start": 142.96,
+      "end": 143.045,
+      "type": "word",
+      "line": "shot-13"
+    },
+    {
+      "text": "a",
+      "start": 143.073,
+      "end": 143.117,
+      "type": "word",
+      "line": "shot-13"
+    },
+    {
+      "text": "cubic",
+      "start": 143.2,
+      "end": 143.557,
+      "type": "word",
+      "line": "shot-13"
+    },
+    {
+      "text": "kilometre",
+      "start": 143.63,
+      "end": 144.082,
+      "type": "word",
+      "line": "shot-13"
+    },
+    {
+      "text": "of",
+      "start": 144.113,
+      "end": 144.198,
+      "type": "word",
+      "line": "shot-13"
+    },
+    {
+      "text": "ice,",
+      "start": 144.3,
+      "end": 144.661,
+      "type": "word",
+      "line": "shot-13"
+    },
+    {
+      "text": "still",
+      "start": 144.824,
+      "end": 145.065,
+      "type": "word",
+      "line": "shot-13"
+    },
+    {
+      "text": "watching.",
+      "start": 145.126,
+      "end": 145.71,
+      "type": "word",
+      "line": "shot-13"
+    },
+    {
+      "text": "Made",
+      "start": 146.58,
+      "end": 146.829,
+      "type": "word",
+      "line": "shot-14"
+    },
+    {
+      "text": "with",
+      "start": 146.867,
+      "end": 146.99,
+      "type": "word",
+      "line": "shot-14"
+    },
+    {
+      "text": "showtime,",
+      "start": 147.073,
+      "end": 147.66,
+      "type": "word",
+      "line": "shot-14"
+    },
+    {
+      "text": "an",
+      "start": 147.99,
+      "end": 148.142,
+      "type": "word",
+      "line": "shot-14"
+    },
+    {
+      "text": "open-source",
+      "start": 148.19,
+      "end": 148.875,
+      "type": "word",
+      "line": "shot-14"
+    },
+    {
+      "text": "video",
+      "start": 148.922,
+      "end": 149.204,
+      "type": "word",
+      "line": "shot-14"
+    },
+    {
+      "text": "studio",
+      "start": 149.251,
+      "end": 149.688,
+      "type": "word",
+      "line": "shot-14"
+    },
+    {
+      "text": "for",
+      "start": 149.735,
+      "end": 149.842,
+      "type": "word",
+      "line": "shot-14"
+    },
+    {
+      "text": "coding",
+      "start": 149.88,
+      "end": 150.221,
+      "type": "word",
+      "line": "shot-14"
+    },
+    {
+      "text": "agents.",
+      "start": 150.263,
+      "end": 150.821,
+      "type": "word",
+      "line": "shot-14"
+    }
+  ]
+}

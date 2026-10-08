@@ -1,0 +1,92 @@
+{
+  "source": "13-shot-13.wav",
+  "duration": 4.861,
+  "language": "en",
+  "model": "kokoro-v1.0-timestamped.onnx",
+  "words": [
+    {
+      "text": "So",
+      "start": 0.05,
+      "end": 0.195,
+      "type": "word"
+    },
+    {
+      "text": "how",
+      "start": 0.244,
+      "end": 0.371,
+      "type": "word"
+    },
+    {
+      "text": "do",
+      "start": 0.397,
+      "end": 0.498,
+      "type": "word"
+    },
+    {
+      "text": "you",
+      "start": 0.524,
+      "end": 0.602,
+      "type": "word"
+    },
+    {
+      "text": "catch",
+      "start": 0.64,
+      "end": 1.018,
+      "type": "word"
+    },
+    {
+      "text": "one?",
+      "start": 1.069,
+      "end": 1.34,
+      "type": "word"
+    },
+    {
+      "text": "With",
+      "start": 1.73,
+      "end": 1.815,
+      "type": "word"
+    },
+    {
+      "text": "a",
+      "start": 1.843,
+      "end": 1.887,
+      "type": "word"
+    },
+    {
+      "text": "cubic",
+      "start": 1.97,
+      "end": 2.327,
+      "type": "word"
+    },
+    {
+      "text": "kilometre",
+      "start": 2.4,
+      "end": 2.852,
+      "type": "word"
+    },
+    {
+      "text": "of",
+      "start": 2.883,
+      "end": 2.968,
+      "type": "word"
+    },
+    {
+      "text": "ice,",
+      "start": 3.07,
+      "end": 3.431,
+      "type": "word"
+    },
+    {
+      "text": "still",
+      "start": 3.594,
+      "end": 3.835,
+      "type": "word"
+    },
+    {
+      "text": "watching.",
+      "start": 3.896,
+      "end": 4.48,
+      "type": "word"
+    }
+  ]
+}

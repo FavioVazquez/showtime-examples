@@ -1,0 +1,66 @@
+# Hearing: what the sound does, measured
+
+You cannot listen to this video. These numbers measure what an ear would catch; judge only what they and transcript.txt support, and quote them. Levels are K-weighted like LUFS (100 ms blocks).
+
+Length 154.97s. Integrated -14.0 LUFS (target -14), true peak -1.7 dBTP (ceiling -1), loudness range 2.8 LU.
+Voice and music measured apart: the narration before the music was mixed in, lined up with this file's audio (lag 0.0 ms, correlation 0.992).
+The mix report says the voice sits 22.0 dB over the music overall.
+Lines from the voice timeline.
+Plot: hearing.png (top: loudness, scene changes as lines, speech as a blue band, effects as ticks, problems in red; bottom: each voice line's level over the music and its words per minute).
+
+## Voice line by line (aim 10-20 dB over the music; under 8 dB it competes with the words; comfortable narration is 130-170 words a minute)
+   0.33-   6.54s   203 wpm   +19.0 dB  shot-1: "Tus manos son imágenes en espejo. El Premio Nobel de Química de este año trata de cómo un…"  <- fast
+   7.75-  14.33s   182 wpm   +18.8 dB  shot-2: "Muchas moléculas tienen dos manos así. Y la vida es exigente: tus proteínas usan solo una…"
+  15.53-  24.88s   193 wpm   +18.5 dB  shot-3: "Pero una reacción, dejada a su suerte, produce las dos manos, mitad y mitad. Un catalizad…"
+  26.09-  42.72s   191 wpm   +18.6 dB  shot-4: "En mil novecientos cincuenta y tres, Charles Frank escribió una receta para que una mano…"
+  44.28-  63.63s   198 wpm   +18.6 dB  shot-5: "En mil novecientos ochenta y seis, Henri Kagan marcó la casilla dos. Su idea: el metal de…"
+  65.59-  75.21s   193 wpm   +18.7 dB  shot-6: "En mil novecientos noventa y cinco, Kenso Soai marcó la casilla tres: una molécula que ay…"
+  76.41-  90.32s   211 wpm   +18.5 dB  shot-7: "En dos mil tres, su equipo empezó con una ventaja de cinco partes en diez millones. El pr…"  <- fast
+  92.29- 103.03s   184 wpm   +18.6 dB  shot-8: "Luego, sin añadir ningún ingrediente de una sola mano, la reacción igual eligió una mano,…"
+ 104.23- 119.51s   200 wpm   +18.2 dB  shot-9: "En nuestro modelo de juguete, copiar no basta: diez mil simulaciones terminan en cualquie…"  <- fast
+ 122.05- 132.18s   243 wpm   +18.5 dB  shot-10: "Es un juguete, no la forma en que la vida eligió su mano. El Comité Nobel subraya que el…"  <- fast
+ 133.37- 142.36s   174 wpm   +18.7 dB  shot-11: "Elegir la mano importa en los medicamentos: una forma hace su trabajo, y su imagen en esp…"
+ 143.92- 153.93s   168 wpm   +17.3 dB  shot-12: "Haz tu propia carrera de espejos en nuestro laboratorio abierto, Nobel dos mil veintiséis…"
+
+## Pauses in the voice longer than 2 s
+ 119.51- 122.05s  2.5s, the programme at -25 LUFS meanwhile
+
+## Near silence mid-video (2 s or more under integrated - 20 LUFS)
+(none)
+
+## Loudness per scene
+   0.00-   7.42s  -14.7 LUFS (loudest 3 s -13.2), music -28, voice -14, speech 84%  shot-1
+   7.42-  15.20s  -14.7 LUFS (loudest 3 s -13.4), music -33, voice -14, speech 83%  shot-2
+  15.20-  25.76s  -14.5 LUFS (loudest 3 s -13.1), music -29, voice -14, speech 89%  shot-3
+  25.76-  43.95s  -14.4 LUFS (loudest 3 s -12.9), music -29, voice -14, speech 92%  shot-4
+  43.95-  65.26s  -14.4 LUFS (loudest 3 s -13.1), music -26, voice -14, speech 90%  shot-5
+  65.26-  76.08s  -14.4 LUFS (loudest 3 s -13.0), music -31, voice -14, speech 89%  shot-6
+  76.08-  91.96s  -14.5 LUFS (loudest 3 s -13.0), music -27, voice -14, speech 87%  shot-7
+  91.96- 103.90s  -14.4 LUFS (loudest 3 s -13.3), music -29, voice -14, speech 90%  shot-8
+ 103.90- 121.72s  -14.7 LUFS (loudest 3 s -12.5), music -25, voice -14, speech 86%  shot-9
+ 121.72- 133.04s  -14.5 LUFS (loudest 3 s -13.2), music -27, voice -14, speech 90%  shot-10
+ 133.04- 143.59s  -14.6 LUFS (loudest 3 s -13.3), music -28, voice -14, speech 85%  shot-11
+ 143.59- 154.97s  -14.3 LUFS (loudest 3 s -12.8), music -34, voice -14, speech 88%  shot-12
+
+## Level across each cut (1 s each side, like with like; over 6 LU the ear notices a jump)
+   7.42s  bed -30.7 -> -32.0 LUFS, -1.4 LU
+  15.20s  bed -33.3 -> -32.0 LUFS, +1.2 LU
+  25.76s  bed -30.7 -> -31.4 LUFS, -0.8 LU
+  43.95s  bed -29.0 -> -27.4 LUFS, +1.6 LU
+  65.26s  bed -24.9 -> -30.2 LUFS, -5.4 LU
+  76.08s  bed -30.6 -> -32.2 LUFS, -1.6 LU
+  91.96s  bed -27.2 -> -29.5 LUFS, -2.3 LU
+ 103.90s  bed -29.2 -> -31.6 LUFS, -2.4 LU
+ 121.72s  bed -24.1 -> -30.0 LUFS, -5.9 LU
+ 133.04s  bed -30.3 -> -29.0 LUFS, +1.3 LU
+ 143.59s  bed -28.9 -> -30.4 LUFS, -1.5 LU  (gain automation on the bed here)
+
+## Effects (from the render's mix report: hit time, over the rest of the mix there, rise over the 0.5 s before, peak over the integrated loudness, the nearest cut or CUE)
+(no effects, or no mix report for this render)
+
+## The ending
+music bed (loyalty-freak-music-im-glad-you-are-here-with-me): 0.00-154.96s, ducks 12 dB under the voice, fitted to the video
+The last 0.2 s of the bed: -96 LUFS; the 3 s before: -35 LUFS -> it has faded or ended
+
+## Peaks
+True peak -1.7 dBTP, sample peak -1.7 dBFS, no clipped runs

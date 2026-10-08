@@ -1,0 +1,16 @@
+Credits
+
+This video uses the following third-party material:
+
+- "GOLD Resources: Sarah Jones Mission Scientist" by Tom Mason, Joy Ng, Andrew Gelfman (NASA Goddard Space
+  Flight Center, 2018-01-24) via NASA Image and Video Library (Public domain (NASA media)) -
+  https://images.nasa.gov/details/GSFC_20180124_m12825_SarahJones
+
+Source: NASA Image and Video Library, item GSFC_20180124_m12825_SarahJones. The interview answers are used in
+order; the black question slates and the pauses between answers were cut. NASA media is generally not subject
+to copyright in the United States (NASA media usage guidelines:
+https://www.nasa.gov/nasa-brand-center/images-and-media/). No NASA logo or insignia is added, and nothing in
+this edit implies that NASA endorses showtime.
+
+Fonts: Space Grotesk, Inter, Geist Mono (the Tidewater look) and Inter, Anton (captions), SIL OFL, bundled by
+showtime.

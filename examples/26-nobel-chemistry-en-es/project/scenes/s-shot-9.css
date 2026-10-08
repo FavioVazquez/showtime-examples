@@ -1,0 +1,22 @@
+.s-shot-9 { position: absolute; inset: 0; overflow: hidden; background: #f6f0e4; }
+.s-shot-9 .s9-cam { position: absolute; inset: 0; transform-origin: 46% 48%; animation: s9-push 17.499s cubic-bezier(0.37, 0, 0.63, 1) both; }
+@keyframes s9-push { from { transform: scale(1); } to { transform: scale(1.03); } }
+.s-shot-9 .s9-svg { position: absolute; left: 0; top: 0; width: 1920px; height: 1080px; }
+.s-shot-9 .s9-t { position: absolute; margin: 0; color: #1c1a17; white-space: nowrap; font-family: 'IBM Plex Sans', sans-serif; }
+.s-shot-9 .s9-note { left: 96px; top: 56px; font: 500 34px/44px 'IBM Plex Mono', monospace; }
+.s-shot-9 .s9-note2 { left: 96px; top: 104px; font: 400 28px/36px 'IBM Plex Mono', monospace; color: #59534a; }
+.s-shot-9 .s9-runlab { left: 110px; width: 500px; top: 184px; text-align: center; font-size: 34px; line-height: 44px; font-weight: 500; }
+.s-shot-9 .s9-switch { left: 142px; top: 205px; font-size: 36px; line-height: 46px; font-weight: 600; opacity: 0; }
+.s-shot-9 .s9-pairlab { left: 120px; width: 600px; top: 652px; text-align: center; font-size: 34px; line-height: 44px; font-weight: 500; opacity: 0; }
+.s-shot-9 .s9-cond { left: 890px; width: 900px; top: 190px; text-align: center; font: 600 48px/56px 'Fraunces', serif; letter-spacing: -0.02em; opacity: 0; }
+.s-shot-9 .s9-runs { left: 890px; width: 900px; top: 252px; text-align: center; font: 500 30px/38px 'IBM Plex Mono', monospace; color: #59534a; font-variant-numeric: tabular-nums; opacity: 0; }
+.s-shot-9 .s9-flat { left: 890px; width: 900px; top: 392px; text-align: center; font-size: 34px; line-height: 44px; font-weight: 500; opacity: 0; }
+.s-shot-9 .s9-pct { left: 890px; width: 900px; top: 296px; text-align: center; font: 500 30px/38px 'IBM Plex Mono', monospace; color: #1c1a17; opacity: 0; }
+.s-shot-9 .s9-axis { left: 840px; width: 1000px; top: 812px; text-align: center; font-size: 34px; line-height: 44px; font-weight: 500; opacity: 0; }
+.s-shot-9 .s9-arr { width: 40px; height: 22px; vertical-align: -2px; fill: none; stroke: #1c1a17; stroke-width: 3.2; stroke-linecap: round; stroke-linejoin: round; }
+.s-shot-9 .s9-cnt { top: 392px; font-size: 32px; line-height: 40px; font-weight: 500; opacity: 0; }
+.s-shot-9 .s9-cnt b { font: 600 52px/58px 'Fraunces', serif; letter-spacing: -0.02em; font-variant-numeric: tabular-nums; }
+.s-shot-9 .s9-cnt span { font-size: 30px; color: #2e2a25; }
+.s-shot-9 .s9-cnt-l { left: 918px; text-align: left; }
+.s-shot-9 .s9-cnt-r { right: 158px; text-align: right; }
+.s-shot-9 .s9-note3 { top: 140px; }

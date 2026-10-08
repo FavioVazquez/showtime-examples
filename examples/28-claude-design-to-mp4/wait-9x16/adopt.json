@@ -1,0 +1,111 @@
+{
+  "ok": true,
+  "project": ".",
+  "job": "..",
+  "source": "WAIT 9 16 (10s loop)-html_final.zip",
+  "entry": "Main.dc.html",
+  "kind": "clock",
+  "contract": "clock: CSS/Web Animations/requestAnimationFrame on the virtual clock",
+  "made": "Claude Design export",
+  "design": {
+    "artboard": {
+      "width": 540,
+      "height": 960
+    },
+    "zoom": 2,
+    "offset": null
+  },
+  "width": 1080,
+  "height": 1920,
+  "fps": 30,
+  "duration": 20,
+  "loop": {
+    "period": 20,
+    "how": "sky-drift goes there and back every 20 s (alternate); glow-pulse, wait-in, rule-grow and 3 more repeat every 10 s: one loop is 20 s, when all of them are back at the start (--duration 10 plays one 10 s cycle, and sky-drift jumps at the seam)",
+    "aligned": true,
+    "seam": {
+      "t": 20,
+      "against": 0,
+      "same": true,
+      "changedPct": 0,
+      "solidPct": 0
+    },
+    "seamless": true
+  },
+  "sources": {
+    "time_function": null,
+    "unit": "s",
+    "size": "Claude Design artboard 540x960, scaled 2x with CSS zoom (laid out again: text stays sharp)",
+    "duration": "inferred: sky-drift goes there and back every 20 s (alternate); glow-pulse, wait-in, rule-grow and 3 more repeat every 10 s: one loop is 20 s, when all of them are back at the start (--duration 10 plays one 10 s cycle, and sky-drift jumps at the seam)",
+    "fps": "default 30",
+    "ready": null,
+    "setup": null,
+    "drivers": []
+  },
+  "fonts": [
+    {
+      "url": "https://fonts.googleapis.com/css2?family=Anton&family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&display=swap",
+      "css": "fonts/fonts.css",
+      "families": [
+        {
+          "family": "Anton",
+          "license": "OFL-1.1",
+          "files": 3
+        },
+        {
+          "family": "Bricolage Grotesque",
+          "license": "OFL-1.1",
+          "files": 3
+        }
+      ]
+    }
+  ],
+  "audio": [],
+  "determinism": {
+    "verdict": "deterministic",
+    "method": "each frame captured twice: in order, then in reverse after other frames; frame 0 again after 150 ms",
+    "frames": [
+      {
+        "frame": 0,
+        "t": 0,
+        "sha256": "8584d0dc194cc5f2",
+        "same": true
+      },
+      {
+        "frame": 186,
+        "t": 6.2,
+        "sha256": "6c421d26e5e94ebd",
+        "same": true
+      },
+      {
+        "frame": 372,
+        "t": 12.4,
+        "sha256": "7da8501139b0d9e5",
+        "same": true
+      },
+      {
+        "frame": 599,
+        "t": 19.967,
+        "sha256": "aa953ed13aff3084",
+        "same": true
+      }
+    ]
+  },
+  "check": {
+    "exit": 0,
+    "errors": 0,
+    "warnings": 1,
+    "report": "work/check/report.json",
+    "sheet": "work/check/sheet.jpg",
+    "top": [
+      "warning look_repeat: this look repeats recent videos: palette #000000 #0b0a14 #ffffff #14123a (5 of the last 5: claude-design-9x16-20261008-060141, job"
+    ]
+  },
+  "findings": [],
+  "copied": {
+    "files": 5,
+    "bytes": 195293,
+    "skipped": []
+  },
+  "seconds": 51.3
+}

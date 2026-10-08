@@ -1,0 +1,7 @@
+{
+  "duration": 20,
+  "tracks": [
+    {"id": "bed", "kind": "music", "catalog": "loyalty-freak-music-aeroplane", "offset": 76.8, "fade_in": 0.4, "fit": true}
+  ],
+  "master": {"lufs": -14, "true_peak": -1}
+}

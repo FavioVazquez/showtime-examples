@@ -1,0 +1,188 @@
+{
+  "source": "03-shot-3.wav",
+  "duration": 9.806,
+  "language": "es",
+  "model": "kokoro-v1.0-timestamped.onnx",
+  "words": [
+    {
+      "text": "Pero",
+      "start": 0.03,
+      "end": 0.145,
+      "type": "word"
+    },
+    {
+      "text": "una",
+      "start": 0.169,
+      "end": 0.303,
+      "type": "word"
+    },
+    {
+      "text": "reacción,",
+      "start": 0.344,
+      "end": 0.928,
+      "type": "word"
+    },
+    {
+      "text": "dejada",
+      "start": 1.1,
+      "end": 1.436,
+      "type": "word"
+    },
+    {
+      "text": "a",
+      "start": 1.461,
+      "end": 1.491,
+      "type": "word"
+    },
+    {
+      "text": "su",
+      "start": 1.518,
+      "end": 1.614,
+      "type": "word"
+    },
+    {
+      "text": "suerte,",
+      "start": 1.662,
+      "end": 2.122,
+      "type": "word"
+    },
+    {
+      "text": "produce",
+      "start": 2.211,
+      "end": 2.568,
+      "type": "word"
+    },
+    {
+      "text": "las",
+      "start": 2.598,
+      "end": 2.719,
+      "type": "word"
+    },
+    {
+      "text": "dos",
+      "start": 2.754,
+      "end": 2.925,
+      "type": "word"
+    },
+    {
+      "text": "manos,",
+      "start": 2.983,
+      "end": 3.35,
+      "type": "word"
+    },
+    {
+      "text": "mitad",
+      "start": 3.57,
+      "end": 3.878,
+      "type": "word"
+    },
+    {
+      "text": "y",
+      "start": 3.921,
+      "end": 3.951,
+      "type": "word"
+    },
+    {
+      "text": "mitad.",
+      "start": 3.984,
+      "end": 4.41,
+      "type": "word"
+    },
+    {
+      "text": "Un",
+      "start": 4.91,
+      "end": 5.013,
+      "type": "word"
+    },
+    {
+      "text": "catalizador",
+      "start": 5.06,
+      "end": 5.629,
+      "type": "word"
+    },
+    {
+      "text": "de",
+      "start": 5.654,
+      "end": 5.702,
+      "type": "word"
+    },
+    {
+      "text": "una",
+      "start": 5.726,
+      "end": 5.871,
+      "type": "word"
+    },
+    {
+      "text": "sola",
+      "start": 5.919,
+      "end": 6.135,
+      "type": "word"
+    },
+    {
+      "text": "mano,",
+      "start": 6.182,
+      "end": 6.573,
+      "type": "word"
+    },
+    {
+      "text": "un",
+      "start": 6.666,
+      "end": 6.758,
+      "type": "word"
+    },
+    {
+      "text": "ayudante",
+      "start": 6.782,
+      "end": 7.248,
+      "type": "word"
+    },
+    {
+      "text": "que",
+      "start": 7.32,
+      "end": 7.36,
+      "type": "word"
+    },
+    {
+      "text": "no",
+      "start": 7.404,
+      "end": 7.506,
+      "type": "word"
+    },
+    {
+      "text": "se",
+      "start": 7.548,
+      "end": 7.636,
+      "type": "word"
+    },
+    {
+      "text": "gasta,",
+      "start": 7.667,
+      "end": 8.05,
+      "type": "word"
+    },
+    {
+      "text": "puede",
+      "start": 8.15,
+      "end": 8.331,
+      "type": "word"
+    },
+    {
+      "text": "inclinar",
+      "start": 8.355,
+      "end": 8.756,
+      "type": "word"
+    },
+    {
+      "text": "la",
+      "start": 8.79,
+      "end": 8.86,
+      "type": "word"
+    },
+    {
+      "text": "balanza.",
+      "start": 8.885,
+      "end": 9.376,
+      "type": "word"
+    }
+  ]
+}

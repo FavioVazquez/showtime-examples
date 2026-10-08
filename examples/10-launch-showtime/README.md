@@ -85,7 +85,7 @@ showtime new dom fmt -d 4 && showtime render fmt --preview --out-dir .          
 showtime audio mix examples/01-launch-tidepool/project/audio/mix.json -o <job>/work/ex01-mix.wav   # the mix line + waveform in the terminal
 
 # project
-showtime new dom <job>/project --title "showtime" --duration 30
+showtime new dom <job>/project --title "showtime" --duration 30 --look template
 showtime voice ipa "API keys showtime Claude"
 showtime voice script <job>/project/narration.md -o <job>/project/voice --fit 25      # x4 while cutting words (1.15x was too fast)
 showtime assets font "Inter" --copy-to <job>/project/fonts

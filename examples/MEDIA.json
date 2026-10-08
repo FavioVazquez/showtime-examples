@@ -16,10 +16,10 @@
     "url_pattern": "https://github.com/{repo}/releases/download/{tag}/{asset}"
   },
   "summary": {
-    "release_files": 41,
-    "release_bytes": 803505104,
-    "git_files": 1178,
-    "git_bytes": 216919407
+    "release_files": 51,
+    "release_bytes": 1353516963,
+    "git_files": 1524,
+    "git_bytes": 369526677
   },
   "files": [
     {
@@ -27,209 +27,302 @@
       "bytes": 17021713,
       "sha256": "bba4572bd8b7173c8e66f879ca71d34bcc5de58d1e438673fac7f93a185eb205",
       "asset": "01-launch-tidepool--final.mp4",
-      "reason": "over 10 MB"
+      "reason": "over 10 MB",
+      "missing_locally": true
     },
     {
       "path": "examples/02-explainer-heat-pump/final.mp4",
       "bytes": 16215392,
       "sha256": "992972ea326b0d589ec2647f312a103d7bdf15c620dce2290ed6e4b77ab29042",
       "asset": "02-explainer-heat-pump--final.mp4",
-      "reason": "over 10 MB"
+      "reason": "over 10 MB",
+      "missing_locally": true
     },
     {
       "path": "examples/03-explainer-heat-pump-es/final.mp4",
       "bytes": 18092656,
       "sha256": "1901d71efff6db3e1a825cdee33b5418511a7264923609cc5036407abd5dd766",
       "asset": "03-explainer-heat-pump-es--final.mp4",
-      "reason": "over 10 MB"
+      "reason": "over 10 MB",
+      "missing_locally": true
     },
     {
       "path": "examples/04-tutorial-tidepool/final.mp4",
       "bytes": 18329183,
       "sha256": "9d4e757e15aa1643dda80f3bdbaa56b9ded5115655573db9f57755130d5c1b98",
       "asset": "04-tutorial-tidepool--final.mp4",
-      "reason": "over 10 MB"
+      "reason": "over 10 MB",
+      "missing_locally": true
     },
     {
       "path": "examples/06-footage-edit-nasa/final-16x9.mp4",
       "bytes": 18408002,
       "sha256": "032db1dd5bc6bbe630b7911e6aabd162a8d26834f23122ad7e121d3f0aa46803",
       "asset": "06-footage-edit-nasa--final-16x9.mp4",
-      "reason": "over 10 MB"
+      "reason": "over 10 MB",
+      "missing_locally": true
     },
     {
       "path": "examples/06-footage-edit-nasa/final.mp4",
       "bytes": 17296032,
       "sha256": "29c6174c5a532df5102eb725da7c6194e3d5dddf8641dbca1b4703fa0862b0f9",
       "asset": "06-footage-edit-nasa--final.mp4",
-      "reason": "over 10 MB"
+      "reason": "over 10 MB",
+      "missing_locally": true
     },
     {
       "path": "examples/07-data-story/final.mp4",
       "bytes": 15703386,
       "sha256": "1976ecc095be2fa9b825e8d83449ededebb09e992cff53991407330718433f32",
       "asset": "07-data-story--final.mp4",
-      "reason": "over 10 MB"
+      "reason": "over 10 MB",
+      "missing_locally": true
     },
     {
       "path": "examples/08-beat-montage/final.mp4",
       "bytes": 14212308,
       "sha256": "3eb1bc51eafa4ba3f495269215af7f66414bfcb8d534b2fa6d1df88f2d0dfcdd",
       "asset": "08-beat-montage--final.mp4",
-      "reason": "over 10 MB"
+      "reason": "over 10 MB",
+      "missing_locally": true
     },
     {
       "path": "examples/09-studio-trailer/final.mp4",
       "bytes": 12234113,
       "sha256": "e4592c0a7a978f3999755fda1cecda49eccaebfffccbce8cf100f2f3980ebf24",
       "asset": "09-studio-trailer--final.mp4",
-      "reason": "over 10 MB"
+      "reason": "over 10 MB",
+      "missing_locally": true
     },
     {
       "path": "examples/10-launch-showtime/final.mp4",
       "bytes": 16850159,
       "sha256": "d2c51bc0d95bfcc95945ad0c25551ab42022846ec74a17ab94e826e3d3eff844",
       "asset": "10-launch-showtime--final.mp4",
-      "reason": "over 10 MB"
+      "reason": "over 10 MB",
+      "missing_locally": true
     },
     {
       "path": "examples/11-tutorial-series-tidepool/episode-01/final.mp4",
       "bytes": 19184568,
       "sha256": "f4ad94016d4fbbe885f553a056613abfeb50d63e8fe47da31a38ec92639e2017",
       "asset": "11-tutorial-series-tidepool--episode-01--final.mp4",
-      "reason": "over 10 MB"
+      "reason": "over 10 MB",
+      "missing_locally": true
     },
     {
       "path": "examples/11-tutorial-series-tidepool/episode-02/final.mp4",
       "bytes": 19190176,
       "sha256": "63b68938b3f6ae70376e2f691f6aa899181ca66d1dd9026856e48926285f3235",
       "asset": "11-tutorial-series-tidepool--episode-02--final.mp4",
-      "reason": "over 10 MB"
+      "reason": "over 10 MB",
+      "missing_locally": true
     },
     {
       "path": "examples/12-energy-report/final.mp4",
       "bytes": 19165712,
       "sha256": "66ca6878bb2ad1ba556db269411b219f190a3383c84e37b29ae19b306ea0b26a",
       "asset": "12-energy-report--final.mp4",
-      "reason": "over 10 MB"
+      "reason": "over 10 MB",
+      "missing_locally": true
     },
     {
       "path": "examples/13-wikipedia-waggle-dance/danse-fretillante.html",
       "bytes": 11375659,
       "sha256": "fa2571eeae211e88b8aa965d36d2942922716fed2ff0bd622151e8fb52bea485",
       "asset": "13-wikipedia-waggle-dance--danse-fretillante.html",
-      "reason": "over 10 MB"
+      "reason": "over 10 MB",
+      "missing_locally": true
     },
     {
       "path": "examples/13-wikipedia-waggle-dance/final-fr.mp4",
       "bytes": 15079702,
       "sha256": "c681f5e35644277641e0922bf8264e9736680625d0a18712b1f1853c36b3e512",
       "asset": "13-wikipedia-waggle-dance--final-fr.mp4",
-      "reason": "over 10 MB"
+      "reason": "over 10 MB",
+      "missing_locally": true
     },
     {
       "path": "examples/13-wikipedia-waggle-dance/final.mp4",
       "bytes": 15047140,
       "sha256": "078c93f08db7abe6770d1667436a10c0c35256fc564d1c82627715db3078ccbf",
       "asset": "13-wikipedia-waggle-dance--final.mp4",
-      "reason": "over 10 MB"
+      "reason": "over 10 MB",
+      "missing_locally": true
     },
     {
       "path": "examples/13-wikipedia-waggle-dance/waggle-dance.html",
       "bytes": 11315607,
       "sha256": "bd1f0cd6e8a4eed7a4523106d5c34501ab4aa9c413dacfc2e113b24e9a8ba9ee",
       "asset": "13-wikipedia-waggle-dance--waggle-dance.html",
-      "reason": "over 10 MB"
+      "reason": "over 10 MB",
+      "missing_locally": true
     },
     {
       "path": "examples/14-usgs-kilauea-pdf/final-es.mp4",
       "bytes": 18714967,
       "sha256": "e910bbeafff0e307536904152eef2de0a873518eee46032750fffba5ab3d257a",
       "asset": "14-usgs-kilauea-pdf--final-es.mp4",
-      "reason": "over 10 MB"
+      "reason": "over 10 MB",
+      "missing_locally": true
     },
     {
       "path": "examples/14-usgs-kilauea-pdf/final.mp4",
       "bytes": 18643812,
       "sha256": "4a868cb07a1424ef0f5490724ab52517eb2fecd03b64dc971b43b4d71ab426ec",
       "asset": "14-usgs-kilauea-pdf--final.mp4",
-      "reason": "over 10 MB"
+      "reason": "over 10 MB",
+      "missing_locally": true
     },
     {
       "path": "examples/15-oss-release-black/final.mp4",
       "bytes": 18033275,
       "sha256": "05877d5ae50b796c9996c58768f8ef34d94b0150b59422bb3cdae51772105783",
       "asset": "15-oss-release-black--final.mp4",
-      "reason": "over 10 MB"
+      "reason": "over 10 MB",
+      "missing_locally": true
     },
     {
       "path": "examples/16-podcast-audiogram/final.mp4",
       "bytes": 19126357,
       "sha256": "7613e855b41c76b79ca5c61b0284976dc8edf28b3c5a3eb89c936a0fc02d8071",
       "asset": "16-podcast-audiogram--final.mp4",
-      "reason": "over 10 MB"
+      "reason": "over 10 MB",
+      "missing_locally": true
     },
     {
       "path": "examples/17-product-promo-teapot/final.mp4",
       "bytes": 14970954,
       "sha256": "38c368a6d947276e70314e6403345b6244cca76a7a1126408a5bb55ac9defd84",
       "asset": "17-product-promo-teapot--final.mp4",
-      "reason": "over 10 MB"
+      "reason": "over 10 MB",
+      "missing_locally": true
     },
     {
       "path": "examples/18-book-trailer-war-of-the-worlds/final-teaser-9x16.mp4",
       "bytes": 11444267,
       "sha256": "a64c687cea16d5ff9c71adee8c0633a688a6b99983ddc4d60e0f0cef43c8147a",
       "asset": "18-book-trailer-war-of-the-worlds--final-teaser-9x16.mp4",
-      "reason": "over 10 MB"
+      "reason": "over 10 MB",
+      "missing_locally": true
     },
     {
       "path": "examples/18-book-trailer-war-of-the-worlds/final.mp4",
       "bytes": 17298767,
       "sha256": "375ab7cd0a924c82392228f327fc4b6e3e6b7027b4c082fe9b924349529db476",
       "asset": "18-book-trailer-war-of-the-worlds--final.mp4",
-      "reason": "over 10 MB"
+      "reason": "over 10 MB",
+      "missing_locally": true
     },
     {
       "path": "examples/19-travel-slideshow-iceland/final-9x16.mp4",
       "bytes": 18877581,
       "sha256": "c14f84e862b083ba92d5b1fef551847c628a15077dbbd1111e3dfe33b9bbb0fe",
       "asset": "19-travel-slideshow-iceland--final-9x16.mp4",
-      "reason": "over 10 MB"
+      "reason": "over 10 MB",
+      "missing_locally": true
     },
     {
       "path": "examples/19-travel-slideshow-iceland/final.mp4",
       "bytes": 18945638,
       "sha256": "80c9d05a135163828095b3c904a1fa00556c4d1b0c2bb17a642f79ca807685e4",
       "asset": "19-travel-slideshow-iceland--final.mp4",
-      "reason": "over 10 MB"
+      "reason": "over 10 MB",
+      "missing_locally": true
     },
     {
       "path": "examples/20-curtain-call-pack/pack/lower-thirds/lt-bar.mov",
       "bytes": 16024998,
       "sha256": "240dea2e386efc2068426fb83f7ace1beacb58a70661d3b53f449546bcd25c22",
       "asset": "20-curtain-call-pack--pack--lower-thirds--lt-bar.mov",
-      "reason": "ProRes/.mov master"
+      "reason": "ProRes/.mov master",
+      "missing_locally": true
     },
     {
       "path": "examples/20-curtain-call-pack/pack/lower-thirds/lt-card.mov",
       "bytes": 15085599,
       "sha256": "ba37503065214d0ad832bd0af67ea0c5a0362e889d66cf7d3f4b702d57168299",
       "asset": "20-curtain-call-pack--pack--lower-thirds--lt-card.mov",
-      "reason": "ProRes/.mov master"
+      "reason": "ProRes/.mov master",
+      "missing_locally": true
     },
     {
       "path": "examples/20-curtain-call-pack/pack/lower-thirds/lt-pill.mov",
       "bytes": 17673436,
       "sha256": "487f5bb9ed2edeeedeb7e07753e13c52bc01aac8275bdef97a9d4da87749ad2c",
       "asset": "20-curtain-call-pack--pack--lower-thirds--lt-pill.mov",
-      "reason": "ProRes/.mov master"
+      "reason": "ProRes/.mov master",
+      "missing_locally": true
     },
     {
       "path": "examples/21-tutorial-studio-board/final.mp4",
       "bytes": 17964097,
       "sha256": "1749517b5658427eabee135c57df633309ef8a20ed3f2fbb8edb9b628d41c2da",
       "asset": "21-tutorial-studio-board--final.mp4",
+      "reason": "over 10 MB",
+      "missing_locally": true
+    },
+    {
+      "path": "examples/25-nobel-physics-ice-telescope/final.mp4",
+      "bytes": 177123180,
+      "sha256": "68abe0dddaf4b902ef53d1f0a8fb3d5cecf99f83564c1009b49c395a16ebc74a",
+      "asset": "25-nobel-physics-ice-telescope--final.mp4",
+      "reason": "over 10 MB"
+    },
+    {
+      "path": "examples/26-nobel-chemistry-en-es/final-es.mp4",
+      "bytes": 93012947,
+      "sha256": "8f2384ccedadceeee76e616b222cd9bb1d6b050b95d7712d07c0d35d2aaf7b5f",
+      "asset": "26-nobel-chemistry-en-es--final-es.mp4",
+      "reason": "over 10 MB"
+    },
+    {
+      "path": "examples/26-nobel-chemistry-en-es/final.mp4",
+      "bytes": 87691394,
+      "sha256": "0535dd47be6149d5ca9e53e29043b8b3bf3ed45297332b08e9c50380b54697f1",
+      "asset": "26-nobel-chemistry-en-es--final.mp4",
+      "reason": "over 10 MB"
+    },
+    {
+      "path": "examples/28-claude-design-to-mp4/wait-9x16/final.mp4",
+      "bytes": 16453364,
+      "sha256": "229d27f609a1a5bab155d6fe26bf5c7d46748e07f43057f2a30b58cf60b3661d",
+      "asset": "28-claude-design-to-mp4--wait-9x16--final.mp4",
+      "reason": "over 10 MB"
+    },
+    {
+      "path": "examples/30-showreel-four-shapes/16x9/final.mp4",
+      "bytes": 15401063,
+      "sha256": "dafe90d1ca2f832c5f0d3435880f4cf55fe0f266b3253df2d802557290eb6a4c",
+      "asset": "30-showreel-four-shapes--16x9--final.mp4",
+      "reason": "over 10 MB"
+    },
+    {
+      "path": "examples/30-showreel-four-shapes/1x1/final.mp4",
+      "bytes": 10879014,
+      "sha256": "9decec7f2b266b55f487e897f9ae08df192559a11342fe0dcf08c0bc0888dfc1",
+      "asset": "30-showreel-four-shapes--1x1--final.mp4",
+      "reason": "over 10 MB"
+    },
+    {
+      "path": "examples/30-showreel-four-shapes/4x5/final.mp4",
+      "bytes": 12302669,
+      "sha256": "2982f1ca4188aa51c9a56d177df5d58cea972061ac621529567aa4d214e08b17",
+      "asset": "30-showreel-four-shapes--4x5--final.mp4",
+      "reason": "over 10 MB"
+    },
+    {
+      "path": "examples/30-showreel-four-shapes/9x16/final.mp4",
+      "bytes": 14603329,
+      "sha256": "d74331e0197ce347e396f307c321dafa89e1c13f71b91d11d1c6189003805510",
+      "asset": "30-showreel-four-shapes--9x16--final.mp4",
+      "reason": "over 10 MB"
+    },
+    {
+      "path": "examples/32-twelve-looks/final.mp4",
+      "bytes": 15106619,
+      "sha256": "890badca78347f3e46d3d2896f60fd6babc121b1c28572ae3287679364c23922",
+      "asset": "32-twelve-looks--final.mp4",
       "reason": "over 10 MB"
     },
     {
@@ -237,76 +330,94 @@
       "bytes": 4265168,
       "sha256": "d6e4cadf9ca2b4dcd8d88c4eb048aa75a49b2c04209f1a7a368a1d47e097a59d",
       "asset": "_brand--sting-square.mp4",
-      "reason": "brand media"
+      "reason": "brand media",
+      "missing_locally": true
     },
     {
       "path": "examples/_brand/sting.mp4",
       "bytes": 8225359,
       "sha256": "6e706c368ad5a402aa9cd5e5e22585bb9488e4c34cc83e8cc660125b5ae304ea",
       "asset": "_brand--sting.mp4",
-      "reason": "brand media"
+      "reason": "brand media",
+      "missing_locally": true
     },
     {
       "path": "examples/_crew/crew-16x9.mp4",
       "bytes": 19289016,
       "sha256": "74b5646282cda6e311e3d4f805f17f78e4f742e909c801cf78551c48da70fa5c",
       "asset": "_crew--crew-16x9.mp4",
-      "reason": "over 10 MB"
+      "reason": "over 10 MB",
+      "missing_locally": true
     },
     {
       "path": "examples/_crew/crew-1x1.mp4",
       "bytes": 13472625,
       "sha256": "327ca8c54815c007bd8f5f136b942aa103aab88b15131d08c6ed71d6ccde3613",
       "asset": "_crew--crew-1x1.mp4",
-      "reason": "over 10 MB"
+      "reason": "over 10 MB",
+      "missing_locally": true
     },
     {
       "path": "examples/_crew/crew-9x16.mp4",
       "bytes": 18005549,
       "sha256": "d629e2d22109e284b703b267a2eb5be7b9a959a8589eb369405c6fcd5a3b9391",
       "asset": "_crew--crew-9x16.mp4",
-      "reason": "over 10 MB"
+      "reason": "over 10 MB",
+      "missing_locally": true
     },
     {
       "path": "examples/_launch/launch-16x9.html",
       "bytes": 11775208,
       "sha256": "66bbd52882a2d024af5c6d4206d461fda3f7013a6b446bd20bd373b3644030fe",
       "asset": "_launch--launch-16x9.html",
-      "reason": "over 10 MB"
+      "reason": "over 10 MB",
+      "missing_locally": true
     },
     {
       "path": "examples/_launch/launch-16x9.mp4",
       "bytes": 68301667,
       "sha256": "b51c40e2dacfc26fa92df9f95d2fa6424acf4250b36a68a7132f753191b09eaa",
       "asset": "_launch--launch-16x9.mp4",
-      "reason": "over 10 MB"
+      "reason": "over 10 MB",
+      "missing_locally": true
     },
     {
       "path": "examples/_launch/launch-1x1.mp4",
       "bytes": 44757431,
       "sha256": "af826bbabe6372790688f02321a5eb7c24c8834654970eeeebd97b71a35dd276",
       "asset": "_launch--launch-1x1.mp4",
-      "reason": "over 10 MB"
+      "reason": "over 10 MB",
+      "missing_locally": true
     },
     {
       "path": "examples/_launch/launch-9x16.mp4",
       "bytes": 64824167,
       "sha256": "f149b1cc78238e3532ae425d1f750f9692b05d5be6395fec981412198a114357",
       "asset": "_launch--launch-9x16.mp4",
-      "reason": "over 10 MB"
+      "reason": "over 10 MB",
+      "missing_locally": true
     },
     {
       "path": "examples/_showreel/showreel-16x9.html",
       "bytes": 11703950,
       "sha256": "d1463dac8867642615185c87ad5c63cc35de4d206134adc8579b9cba6f50d222",
       "asset": "_showreel--showreel-16x9.html",
-      "reason": "over 10 MB"
+      "reason": "over 10 MB",
+      "missing_locally": true
     },
     {
       "path": "examples/_showreel/showreel-16x9.mp4",
       "bytes": 41359708,
       "sha256": "9ca41d63a004e6b6f0273ce74cd2aeb0b76cb94b0530ba47d0787fc9ee0c3458",
       "asset": "_showreel--showreel-16x9.mp4",
+      "reason": "over 10 MB",
+      "missing_locally": true
+    },
+    {
+      "path": "examples/_showreel041/showreel-16x9.mp4",
+      "bytes": 106961784,
+      "sha256": "1788e719ce64ba635a69b771e1fbf46220172519f9ff4dad7f9752abf020086b",
+      "asset": "_showreel041--showreel-16x9.mp4",
       "reason": "over 10 MB"
     }
   ]

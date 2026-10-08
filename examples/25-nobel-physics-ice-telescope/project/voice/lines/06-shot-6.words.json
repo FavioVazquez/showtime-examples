@@ -1,0 +1,176 @@
+{
+  "source": "06-shot-6.wav",
+  "duration": 9.685,
+  "language": "en",
+  "model": "kokoro-v1.0-timestamped.onnx",
+  "words": [
+    {
+      "text": "When",
+      "start": 0.06,
+      "end": 0.148,
+      "type": "word"
+    },
+    {
+      "text": "one",
+      "start": 0.194,
+      "end": 0.357,
+      "type": "word"
+    },
+    {
+      "text": "does",
+      "start": 0.404,
+      "end": 0.618,
+      "type": "word"
+    },
+    {
+      "text": "hit,",
+      "start": 0.666,
+      "end": 0.92,
+      "type": "word"
+    },
+    {
+      "text": "it",
+      "start": 1.24,
+      "end": 1.327,
+      "type": "word"
+    },
+    {
+      "text": "makes",
+      "start": 1.367,
+      "end": 1.578,
+      "type": "word"
+    },
+    {
+      "text": "a",
+      "start": 1.613,
+      "end": 1.655,
+      "type": "word"
+    },
+    {
+      "text": "charged",
+      "start": 1.7,
+      "end": 2.203,
+      "type": "word"
+    },
+    {
+      "text": "particle",
+      "start": 2.21,
+      "end": 2.697,
+      "type": "word"
+    },
+    {
+      "text": "faster",
+      "start": 2.791,
+      "end": 3.217,
+      "type": "word"
+    },
+    {
+      "text": "than",
+      "start": 3.264,
+      "end": 3.386,
+      "type": "word"
+    },
+    {
+      "text": "light",
+      "start": 3.445,
+      "end": 3.678,
+      "type": "word"
+    },
+    {
+      "text": "travels",
+      "start": 3.74,
+      "end": 4.136,
+      "type": "word"
+    },
+    {
+      "text": "in",
+      "start": 4.182,
+      "end": 4.271,
+      "type": "word"
+    },
+    {
+      "text": "ice.",
+      "start": 4.36,
+      "end": 4.81,
+      "type": "word"
+    },
+    {
+      "text": "It",
+      "start": 5.24,
+      "end": 5.341,
+      "type": "word"
+    },
+    {
+      "text": "leaves",
+      "start": 5.388,
+      "end": 5.639,
+      "type": "word"
+    },
+    {
+      "text": "a",
+      "start": 5.677,
+      "end": 5.724,
+      "type": "word"
+    },
+    {
+      "text": "cone",
+      "start": 5.79,
+      "end": 6.202,
+      "type": "word"
+    },
+    {
+      "text": "of",
+      "start": 6.245,
+      "end": 6.329,
+      "type": "word"
+    },
+    {
+      "text": "blue",
+      "start": 6.403,
+      "end": 6.626,
+      "type": "word"
+    },
+    {
+      "text": "light,",
+      "start": 6.694,
+      "end": 7.04,
+      "type": "word"
+    },
+    {
+      "text": "and",
+      "start": 7.37,
+      "end": 7.441,
+      "type": "word"
+    },
+    {
+      "text": "each",
+      "start": 7.516,
+      "end": 7.717,
+      "type": "word"
+    },
+    {
+      "text": "sensor",
+      "start": 7.789,
+      "end": 8.153,
+      "type": "word"
+    },
+    {
+      "text": "times",
+      "start": 8.222,
+      "end": 8.556,
+      "type": "word"
+    },
+    {
+      "text": "its",
+      "start": 8.586,
+      "end": 8.694,
+      "type": "word"
+    },
+    {
+      "text": "arrival.",
+      "start": 8.7,
+      "end": 9.29,
+      "type": "word"
+    }
+  ]
+}

@@ -1,0 +1,923 @@
+{
+  "version": 1,
+  "created": "2026-10-07T23:07:19",
+  "params": {
+    "count": 10,
+    "min": 20.0,
+    "max": 60.0,
+    "audio": true
+  },
+  "sources": {
+    "apollo17-legends": {
+      "transcript": "transcripts/apollo17-legends.json",
+      "media": "../raw/apollo17-legends.mp4",
+      "duration": 3468.14,
+      "language": "en",
+      "words": 8239,
+      "sentences": 564,
+      "candidates": 2255,
+      "topics": [
+        {
+          "start": 5.05,
+          "end": 199.99,
+          "keywords": [
+            "noise",
+            "nation",
+            "liptop",
+            "engines",
+            "american"
+          ]
+        },
+        {
+          "start": 199.99,
+          "end": 346.66,
+          "keywords": [
+            "space",
+            "exploration",
+            "center",
+            "apollo",
+            "era"
+          ]
+        },
+        {
+          "start": 352.94,
+          "end": 439.37,
+          "keywords": [
+            "family",
+            "members",
+            "evans",
+            "joining",
+            "cernan"
+          ]
+        },
+        {
+          "start": 440.18,
+          "end": 549.18,
+          "keywords": [
+            "successful",
+            "commander",
+            "return",
+            "launch",
+            "mission"
+          ]
+        },
+        {
+          "start": 549.75,
+          "end": 669.4,
+          "keywords": [
+            "living",
+            "exploration",
+            "international",
+            "program",
+            "human"
+          ]
+        },
+        {
+          "start": 670.06,
+          "end": 796.02,
+          "keywords": [
+            "apollo",
+            "director",
+            "flight",
+            "first",
+            "lead"
+          ]
+        },
+        {
+          "start": 796.02,
+          "end": 879.71,
+          "keywords": [
+            "director",
+            "flight",
+            "responsibility",
+            "primarily",
+            "pre-flight"
+          ]
+        },
+        {
+          "start": 879.99,
+          "end": 1053.6,
+          "keywords": [
+            "focus",
+            "expiration",
+            "distance",
+            "launch",
+            "science"
+          ]
+        },
+        {
+          "start": 1054.22,
+          "end": 1138.61,
+          "keywords": [
+            "unmanned",
+            "options",
+            "hell",
+            "mission",
+            "always"
+          ]
+        },
+        {
+          "start": 1138.61,
+          "end": 1275.62,
+          "keywords": [
+            "landing",
+            "incredible",
+            "maneuvering",
+            "weeks",
+            "sun"
+          ]
+        },
+        {
+          "start": 1276.09,
+          "end": 1373.41,
+          "keywords": [
+            "ensure",
+            "safety",
+            "medical",
+            "health",
+            "food"
+          ]
+        },
+        {
+          "start": 1374.16,
+          "end": 1545.86,
+          "keywords": [
+            "crew",
+            "backup",
+            "lunar",
+            "prime",
+            "good"
+          ]
+        },
+        {
+          "start": 1548.46,
+          "end": 1650.18,
+          "keywords": [
+            "stu",
+            "snake",
+            "chairs",
+            "roll",
+            "dispatch"
+          ]
+        },
+        {
+          "start": 1650.68,
+          "end": 1766.13,
+          "keywords": [
+            "curse",
+            "choice",
+            "miles",
+            "else",
+            "rover"
+          ]
+        },
+        {
+          "start": 1767.99,
+          "end": 1868.44,
+          "keywords": [
+            "tools",
+            "done",
+            "thought",
+            "pulling",
+            "will"
+          ]
+        },
+        {
+          "start": 1871.27,
+          "end": 2007.73,
+          "keywords": [
+            "bill",
+            "level",
+            "tyndall",
+            "memo",
+            "lowe"
+          ]
+        },
+        {
+          "start": 2010.3,
+          "end": 2184.45,
+          "keywords": [
+            "taking",
+            "away",
+            "meeting",
+            "next",
+            "awesome"
+          ]
+        },
+        {
+          "start": 2184.71,
+          "end": 2294.54,
+          "keywords": [
+            "guess",
+            "foundation",
+            "building",
+            "may",
+            "hard"
+          ]
+        },
+        {
+          "start": 2295.08,
+          "end": 2358.31,
+          "keywords": [
+            "soft",
+            "order",
+            "opinions",
+            "technical",
+            "skills"
+          ]
+        },
+        {
+          "start": 2358.4,
+          "end": 2463.17,
+          "keywords": [
+            "slower",
+            "reading",
+            "load",
+            "checklists",
+            "technology"
+          ]
+        },
+        {
+          "start": 2463.85,
+          "end": 2581.39,
+          "keywords": [
+            "side",
+            "seems",
+            "perfectly",
+            "folks",
+            "getting"
+          ]
+        },
+        {
+          "start": 2584.46,
+          "end": 2710.85,
+          "keywords": [
+            "developed",
+            "writing",
+            "schematics",
+            "procedures",
+            "basically"
+          ]
+        },
+        {
+          "start": 2710.85,
+          "end": 2825.82,
+          "keywords": [
+            "personal",
+            "pronoun",
+            "brief",
+            "done",
+            "team"
+          ]
+        },
+        {
+          "start": 2827.37,
+          "end": 2905.7,
+          "keywords": [
+            "imagery",
+            "orion",
+            "shot",
+            "shift",
+            "execute"
+          ]
+        },
+        {
+          "start": 2908.43,
+          "end": 3035.77,
+          "keywords": [
+            "rover",
+            "hear",
+            "steering",
+            "scale",
+            "kilometers"
+          ]
+        },
+        {
+          "start": 3036.26,
+          "end": 3094.71,
+          "keywords": [
+            "design",
+            "carry",
+            "busy",
+            "rover",
+            "hard"
+          ]
+        },
+        {
+          "start": 3097.45,
+          "end": 3178.35,
+          "keywords": [
+            "passion",
+            "schooler",
+            "high",
+            "take",
+            "wants"
+          ]
+        },
+        {
+          "start": 3178.35,
+          "end": 3254.87,
+          "keywords": [
+            "internship",
+            "pathways",
+            "opportunities",
+            "talent",
+            "several"
+          ]
+        },
+        {
+          "start": 3258.77,
+          "end": 3352.55,
+          "keywords": [
+            "growing",
+            "follow",
+            "continue",
+            "key",
+            "saw"
+          ]
+        },
+        {
+          "start": 3353.31,
+          "end": 3407.56,
+          "keywords": [
+            "thank",
+            "generation",
+            "panelists",
+            "forward",
+            "sharing"
+          ]
+        }
+      ]
+    }
+  },
+  "signals": {
+    "weights": {
+      "hook": 0.2,
+      "complete": 0.18,
+      "energy": 0.14,
+      "events": 0.16,
+      "lines": 0.1,
+      "topic": 0.1,
+      "flow": 0.08,
+      "length": 0.04
+    },
+    "measured": {
+      "hook": true,
+      "complete": true,
+      "lines": true,
+      "flow": true,
+      "length": true,
+      "topic": true,
+      "energy": true,
+      "events": true
+    }
+  },
+  "candidates": 2255,
+  "seconds": 7.32,
+  "notes": [],
+  "moments": [
+    {
+      "id": "m1",
+      "rank": 1,
+      "score": 0.681,
+      "source": "apollo17-legends",
+      "transcript": "transcripts/apollo17-legends.json",
+      "start": 1089.16,
+      "end": 1132.18,
+      "span": 43.02,
+      "duration": 39.0,
+      "words": [
+        "w2414",
+        "w2523"
+      ],
+      "title": "One hell of a job",
+      "opening": "When I looked at the Artemis profile, a 22-day unmanned mission, I almost",
+      "closing": "One hell of a job pulling that thing off, because it was incredible.",
+      "keywords": [
+        "mission",
+        "engineer",
+        "hell"
+      ],
+      "signals": {
+        "hook": 0.3,
+        "complete": 1.0,
+        "energy": 0.74,
+        "events": 0.6,
+        "lines": 0.53,
+        "topic": 0.73,
+        "flow": 0.95,
+        "length": 0.97
+      },
+      "why": [
+        "a number in the first seconds (22-day)",
+        "a line worth quoting (\"One hell of a job pulling that thing off\")",
+        "repeats \"hell of a\"",
+        "applause right after the end",
+        "energy: 4 dB louder than the speaker's median, lively pitch",
+        "a complete thought (clean start and end)",
+        "one topic (mission, engineer, hell)",
+        "one speaker (S30)"
+      ],
+      "speakers": {
+        "S30": 1.0
+      },
+      "events": [
+        {
+          "type": "applause",
+          "at": 1134.5
+        }
+      ],
+      "topic": 8,
+      "fillers": 2,
+      "housekeeping": [],
+      "text": "When I looked at the Artemis profile, a 22-day unmanned mission, I almost wanted to know what they were going to do, what problems they would face. So I got together with a couple of the engineers from Lockheed. And I went over the uh alternate mission options they had in there, and I talked with Mike Hawes and one of his engineers in there. And I got then into uh watching the videos program from a standpoint of the mission overview. And I just wanted to say you did one, I'll say, hell of a job. One hell of a job pulling that thing off, because it was incredible.",
+      "pick": true
+    },
+    {
+      "id": "m2",
+      "rank": 2,
+      "score": 0.674,
+      "source": "apollo17-legends",
+      "transcript": "transcripts/apollo17-legends.json",
+      "start": 3293.96,
+      "end": 3342.52,
+      "span": 48.56,
+      "duration": 44.0,
+      "words": [
+        "w7981",
+        "w8115"
+      ],
+      "title": "Dream, aim high, and never surrender",
+      "opening": "Generally when I talk to the uh young people, I give them a few words, dream, aim high, and never surrender.",
+      "closing": "We never stopped accepting the challenge to continue growing and being better.",
+      "keywords": [
+        "key",
+        "continue",
+        "growing"
+      ],
+      "signals": {
+        "hook": 0.3,
+        "complete": 1.0,
+        "energy": 0.57,
+        "events": 0.6,
+        "lines": 0.81,
+        "topic": 0.63,
+        "flow": 0.98,
+        "length": 0.9
+      },
+      "why": [
+        "a strong claim in the first sentence (never)",
+        "a contrast in the first sentence (never)",
+        "a line worth quoting (\"dream, aim high, and never surrender.\")",
+        "repeats \"to continue growing\"",
+        "applause right after the end",
+        "a complete thought (one full turn)",
+        "one topic (key, continue, growing)",
+        "one speaker (S30)"
+      ],
+      "speakers": {
+        "S30": 0.92,
+        "S14": 0.08
+      },
+      "events": [
+        {
+          "type": "applause",
+          "at": 3346.5
+        }
+      ],
+      "topic": 28,
+      "fillers": 2,
+      "housekeeping": [],
+      "text": "Generally when I talk to the uh young people, I give them a few words, dream, aim high, and never surrender. And I think the key thing is, no matter what you're doing in life, schooling right or down the line, you're going to run into bottlenecks, you're going to run into times when you are just tempted to uh just quit right or down the line. And I think the key thing is to continue growing. Always set your goal high. And then once you reach that growth, move it a bit higher and continue this process of growing and learning throughout your entire life. And that I think is the thing that was really key to our success in mission control. We never stopped accepting the challenge to continue growing and being better."
+    },
+    {
+      "id": "m3",
+      "rank": 3,
+      "score": 0.623,
+      "source": "apollo17-legends",
+      "transcript": "transcripts/apollo17-legends.json",
+      "start": 3266.03,
+      "end": 3286.1,
+      "span": 27.33,
+      "duration": 27.3,
+      "words": [
+        "w7889",
+        "w7978"
+      ],
+      "title": "I just flew a spaceship around the moon",
+      "opening": "I will just add that the you have a passion for a reason and follow it.",
+      "closing": "... around the moon from that very flight control room that I saw as a little girl.",
+      "keywords": [
+        "follow",
+        "passion",
+        "girl"
+      ],
+      "signals": {
+        "hook": 0.2,
+        "complete": 1.0,
+        "energy": 0.38,
+        "events": 0.6,
+        "lines": 0.53,
+        "topic": 0.93,
+        "flow": 1.0,
+        "length": 0.68
+      },
+      "why": [
+        "emotion in the first sentence (passion)",
+        "a line worth quoting (\"follow your dreams, and they can lead to you somewhere amazing.\")",
+        "repeats \"flight control room\"",
+        "applause right after the end",
+        "a complete thought (one full turn)",
+        "one topic (follow, passion, girl)",
+        "one speaker (S34)"
+      ],
+      "speakers": {
+        "S34": 1.0
+      },
+      "events": [
+        {
+          "type": "applause",
+          "at": 3288.5
+        }
+      ],
+      "topic": 28,
+      "fillers": 0,
+      "housekeeping": [],
+      "text": "I will just add that the you have a passion for a reason and follow it. That's what I did as a little girl sitting here. I was seven years old and I saw the white flight control room on a tour from Space Center Houston and that just sparked everything for me. So follow your passions, follow your dreams, and they can lead to you somewhere amazing. I just flew a a spaceship around the moon from that very flight control room that I saw as a little girl.",
+      "pick": true
+    },
+    {
+      "id": "m4",
+      "rank": 4,
+      "score": 0.591,
+      "source": "apollo17-legends",
+      "transcript": "transcripts/apollo17-legends.json",
+      "start": 1781.26,
+      "end": 1840.41,
+      "span": 55.81,
+      "duration": 45.0,
+      "words": [
+        "w4113",
+        "w4239"
+      ],
+      "title": "It can be done. We did it 50 years ago",
+      "opening": "What do you think Apollo did that will help Artemis the most?",
+      "closing": "It can be done.",
+      "keywords": [
+        "apollo",
+        "will",
+        "help"
+      ],
+      "signals": {
+        "hook": 0.67,
+        "complete": 0.77,
+        "energy": 0.62,
+        "events": 0.0,
+        "lines": 0.72,
+        "topic": 0.69,
+        "flow": 0.66,
+        "length": 0.88
+      },
+      "why": [
+        "opens with a question",
+        "a strong claim in the first sentence (most)",
+        "a line worth quoting (\"When we started Apollo, it had never been done\")",
+        "short punchy lines (\"It's kind of hard one.\")",
+        "the answer goes on after the end: check it",
+        "one topic (apollo, will, help)",
+        "a 3.0 s pause inside (trimmed in the clip)",
+        "one speaker (S25)"
+      ],
+      "speakers": {
+        "S25": 0.87,
+        "S56": 0.07,
+        "S28": 0.06
+      },
+      "events": [],
+      "topic": 14,
+      "fillers": 2,
+      "housekeeping": [],
+      "text": "What do you think Apollo did that will help Artemis the most? It's kind of hard one. I've thought a lot about that more in recent years than than I did early on. I think the thing that we probably provided that they'll that will help them the most is the fact that we did it. When we started Apollo, it had never been done, and we thought we could do it, and we were a bunch of young people that that uh had great leadership and and we pulled it off. And uh when I say we, I'm not just talking the Mission Control Center, I'm talking the whole system. We pulled it off. Now that takes that element out for Artemis. It can be done.",
+      "remove": [
+        "w4125-w4129"
+      ],
+      "pick": true
+    },
+    {
+      "id": "m5",
+      "rank": 5,
+      "score": 0.584,
+      "source": "apollo17-legends",
+      "transcript": "transcripts/apollo17-legends.json",
+      "start": 1237.99,
+      "end": 1273.11,
+      "span": 35.12,
+      "duration": 33.3,
+      "words": [
+        "w2782",
+        "w2871"
+      ],
+      "title": "It's truly something I know I will never forget",
+      "opening": "It's truly something I know I will never forget.",
+      "closing": "Let's see, the past few weeks.",
+      "keywords": [
+        "program",
+        "human",
+        "work"
+      ],
+      "signals": {
+        "hook": 0.7,
+        "complete": 1.0,
+        "energy": 0.18,
+        "events": 0.0,
+        "lines": 0.56,
+        "topic": 0.69,
+        "flow": 1.0,
+        "length": 0.83
+      },
+      "why": [
+        "a strong claim in the first seconds (never)",
+        "a contrast in the first seconds (never)",
+        "a line worth quoting (\"It's truly something I know I will never forget.\")",
+        "repeats \"that both programs\"",
+        "a complete thought (clean start and end)",
+        "one topic (program, human, work)",
+        "2 speakers"
+      ],
+      "speakers": {
+        "S34": 0.76,
+        "S36": 0.24
+      },
+      "events": [],
+      "topic": 9,
+      "fillers": 0,
+      "housekeeping": [],
+      "text": "It's truly something I know I will never forget. I think one of the parallels between Apollo and Artemis that sticks out to me the most. Is that both programs really embody the human spirit to explore and to dream big. And that is something that I have been inspired by throughout my entire career. And they also show that both programs can demonstrate the ability to have humans work together and achieve an incredible goal when you work together through a common goal. Let's see, the past few weeks."
+    },
+    {
+      "id": "m6",
+      "rank": 6,
+      "score": 0.583,
+      "source": "apollo17-legends",
+      "transcript": "transcripts/apollo17-legends.json",
+      "start": 2136.97,
+      "end": 2163.52,
+      "span": 26.55,
+      "duration": 25.3,
+      "words": [
+        "w4955",
+        "w5052"
+      ],
+      "title": "Flew just a few months before 17",
+      "opening": "It's also the 50th anniversary of Apollo 16, which flew just a few months before 17.",
+      "closing": "Awesome.",
+      "keywords": [
+        "apollo",
+        "flew",
+        "month"
+      ],
+      "signals": {
+        "hook": 0.3,
+        "complete": 0.74,
+        "energy": 0.54,
+        "events": 0.6,
+        "lines": 0.4,
+        "topic": 0.76,
+        "flow": 0.96,
+        "length": 0.63
+      },
+      "why": [
+        "a number in the first seconds (50th)",
+        "repeats \"for the next\"",
+        "applause right after the end",
+        "starts on \"It's also\": check it stands alone",
+        "one topic (apollo, flew, month)",
+        "2 speakers"
+      ],
+      "speakers": {
+        "S66": 0.73,
+        "S65": 0.27
+      },
+      "events": [
+        {
+          "type": "applause",
+          "at": 2164.5
+        }
+      ],
+      "topic": 16,
+      "fillers": 2,
+      "housekeeping": [],
+      "text": "It's also the 50th anniversary of Apollo 16, which flew just a few months before 17. These guys flew to the moon, came back, and they're like, Yeah, we'll be back up crew for the next for the next crew. And I'm like, Well, most people would be taking a month off and and hanging out with their families. But you know, the what you all did in Apollo was just uh truly magnificent, and you motivated uh an entire world to get into science, technology, engineering, and math, and and we all thank you for that. Awesome."
+    },
+    {
+      "id": "m7",
+      "rank": 7,
+      "score": 0.572,
+      "source": "apollo17-legends",
+      "transcript": "transcripts/apollo17-legends.json",
+      "start": 1701.47,
+      "end": 1772.64,
+      "span": 71.17,
+      "duration": 59.1,
+      "words": [
+        "w3934",
+        "w4099"
+      ],
+      "title": "I don't remember exactly how far 15 went",
+      "opening": "You guys actually had a really good time together.",
+      "closing": "Thank you.",
+      "keywords": [
+        "rover",
+        "three",
+        "miles"
+      ],
+      "signals": {
+        "hook": 0.25,
+        "complete": 1.0,
+        "energy": 0.52,
+        "events": 0.6,
+        "lines": 0.6,
+        "topic": 0.57,
+        "flow": 0.42,
+        "length": 0.52
+      },
+      "why": [
+        "a contrast in the first seconds (actually)",
+        "short punchy lines (\"Well 17 did seven miles.\")",
+        "repeats \"with the rover\"",
+        "applause right after the end",
+        "a complete thought (one full turn)",
+        "a 2.1 s pause inside (trimmed in the clip)",
+        "2 speakers"
+      ],
+      "speakers": {
+        "S47": 0.78,
+        "S48": 0.1,
+        "S53": 0.07,
+        "S54": 0.05
+      },
+      "events": [
+        {
+          "type": "applause",
+          "at": 1772.5
+        }
+      ],
+      "topic": 13,
+      "fillers": 14,
+      "housekeeping": [],
+      "text": "You guys actually had a really good time together. Were I uh, you know, being uh on a backup crew with that experience we had as uh uh with our three days on the moon is was really helpful to them and their training. And uh uh we were able to uh give them some ideas about their uh traverses and uh what they should look for and everything else like that. And they did a fantastic job as we built on the the expertise of the three previous missions with the rover. We got more and more confident with the rover. So uh I don't remember exactly how far 15 went, but we went up about four miles or so, maybe a little bit more. Well 17 did seven miles. uh And so with the confidence in the rover we were able to expand uh the uh exploration territory. And it uh worked really, really well. Awesome. Well thank you for sharing that. Thank you."
+    },
+    {
+      "id": "m8",
+      "rank": 8,
+      "score": 0.571,
+      "source": "apollo17-legends",
+      "transcript": "transcripts/apollo17-legends.json",
+      "start": 1407.78,
+      "end": 1440.1,
+      "span": 32.32,
+      "duration": 28.5,
+      "words": [
+        "w3216",
+        "w3288"
+      ],
+      "title": "Rode the lunar rover on the surface",
+      "opening": "16, you were the lunar module pilot and one of very few people who not only walked on the moon, but rode the lunar ...",
+      "closing": "Uh the astronauts during Apollo.",
+      "keywords": [
+        "apollo",
+        "lunar",
+        "module"
+      ],
+      "signals": {
+        "hook": 0.6,
+        "complete": 0.77,
+        "energy": 0.66,
+        "events": 0.0,
+        "lines": 0.43,
+        "topic": 0.79,
+        "flow": 0.85,
+        "length": 0.71
+      },
+      "why": [
+        "a number in the first seconds (16)",
+        "a strong claim in the first sentence (only)",
+        "repeats \"lunar module pilot\"",
+        "the answer goes on after the end: check it",
+        "one topic (apollo, lunar, module)",
+        "a 1.9 s pause inside (trimmed in the clip)",
+        "2 speakers"
+      ],
+      "speakers": {
+        "S21": 0.81,
+        "S47": 0.19
+      },
+      "events": [],
+      "topic": 11,
+      "fillers": 2,
+      "housekeeping": [],
+      "text": "16, you were the lunar module pilot and one of very few people who not only walked on the moon, but rode the lunar rover on the surface. Then you became the backup lunar module pilot for Apollo 17. Talk about the crew of Apollo 17 and your memories of training with them after having returned on Apollo 16. Well uh of course we were all close friends. Uh the astronauts during Apollo."
+    },
+    {
+      "id": "m9",
+      "rank": 9,
+      "score": 0.568,
+      "source": "apollo17-legends",
+      "transcript": "transcripts/apollo17-legends.json",
+      "start": 897.36,
+      "end": 939.03,
+      "span": 41.67,
+      "duration": 39.2,
+      "words": [
+        "w1940",
+        "w2035"
+      ],
+      "title": "It actually started with the last three missions",
+      "opening": "Yes, one of the things that happened, it actually started with the last three missions, 15, 16.",
+      "closing": "And 17 was really the capstone.",
+      "keywords": [
+        "last",
+        "three",
+        "mission"
+      ],
+      "signals": {
+        "hook": 0.15,
+        "complete": 1.0,
+        "energy": 0.67,
+        "events": 0.0,
+        "lines": 0.72,
+        "topic": 0.74,
+        "flow": 1.0,
+        "length": 0.98
+      },
+      "why": [
+        "a contrast in the first seconds (actually)",
+        "a number in the first sentence (three)",
+        "a line worth quoting (\"that we always had them in walk back distance was our key.\")",
+        "short punchy lines (\"Seventeen had a had a rover.\")",
+        "a complete thought (clean start and end)",
+        "one topic (last, three, mission)",
+        "one speaker (S25)"
+      ],
+      "speakers": {
+        "S25": 1.0
+      },
+      "events": [],
+      "topic": 7,
+      "fillers": 1,
+      "housekeeping": [],
+      "text": "Yes, one of the things that happened, it actually started with the last three missions, 15, 16. Seventeen had a had a rover. And that made the expiration of the moon a lot. a lot better because they could traverse further. Now, of course, that we always had them in walk back distance was our key. So it was kind of of a constant measure of how far we could go. But those last three missions were very similar um and and they were but they built on each other. And 17 was really the capstone."
+    },
+    {
+      "id": "m10",
+      "rank": 10,
+      "score": 0.566,
+      "source": "apollo17-legends",
+      "transcript": "transcripts/apollo17-legends.json",
+      "start": 2819.67,
+      "end": 2874.9,
+      "span": 55.23,
+      "duration": 52.6,
+      "words": [
+        "w6743",
+        "w6887"
+      ],
+      "title": "That was definitely a highlight of my first shift",
+      "opening": "So, Jesse, people want to know what was your favorite moment personally with this Artemis mission?",
+      "closing": "... so many, it's hard to choose, but that was definitely a highlight of my first shift.",
+      "keywords": [
+        "first",
+        "orion",
+        "earth"
+      ],
+      "signals": {
+        "hook": 0.55,
+        "complete": 0.95,
+        "energy": 0.4,
+        "events": 0.0,
+        "lines": 0.64,
+        "topic": 0.61,
+        "flow": 0.96,
+        "length": 0.69
+      },
+      "why": [
+        "opens with a question",
+        "a line worth quoting (\"that was definitely a highlight of my first shift.\")",
+        "short punchy lines (\"There it goes.\")",
+        "a complete thought (one full turn)",
+        "a 1.6 s pause inside (trimmed in the clip)",
+        "3 speakers"
+      ],
+      "speakers": {
+        "S34": 0.76,
+        "S80": 0.13,
+        "S79": 0.11
+      },
+      "events": [],
+      "topic": 23,
+      "fillers": 1,
+      "housekeeping": [],
+      "text": "So, Jesse, people want to know what was your favorite moment personally with this Artemis mission? There were so many of them, it's hard to choose just one. But I think it was the first time I was on console for an orbit shift. And we were maneuvering Orion to take its first public affairs imagery shot of the Earth. And I knew that there were commands on the vehicle that were from my team that were just about to execute. And it was incredible watching the time at which the commands were supposed to execute. There it goes. And Orion starts maneuvering to look at the earth and show the first shot of Earth. Uh from Orion. So that was I think my favorite moment. There were again so many, it's hard to choose, but that was definitely a highlight of my first shift."
+    }
+  ]
+}

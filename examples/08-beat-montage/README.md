@@ -100,7 +100,7 @@ showtime assets media fetch nasa:<id> --quality orig -o <job>/work/orig/ # (retu
 showtime assets sheet <job>/project/assets/media --labels name -o <job>/work/sheet.jpg   # sizes + low-res badges
 
 # project
-showtime new dom <job>/project --title "Look Up" --duration 20
+showtime new dom <job>/project --title "Look Up" --duration 20 --look template
 showtime assets font "Space Grotesk" --weights 400,500,700 --copy-to <job>/project/fonts
 showtime assets font "JetBrains Mono" --copy-to <job>/project/fonts
 #   index.html rewritten: 13 scenes on the grid; audio/mix.json -> library track with fit

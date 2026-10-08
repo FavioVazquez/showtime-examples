@@ -1,0 +1,416 @@
+{
+  "_comment": "Written by `showtime new --from-storyboard`: the plan. Scene ids are the <section> ids in index.html and the ## headings in narration.md. `showtime retime --from-voice` reads it to say where the voice outgrew a shot's planned length.",
+  "generator": "showtime new --from-storyboard",
+  "source": "storyboard.md",
+  "lang": null,
+  "pad": 0.3,
+  "duration": 150.0,
+  "budget": {
+    "words_per_s": 2.8
+  },
+  "rows": [
+    {
+      "id": "shot-1",
+      "shot": "1 cold open",
+      "start": 0.0,
+      "dur": 11.0,
+      "visual": "A line drawing of a fingertip; thousands of faint dots stream straight through it, untouched; a counter \"65 billion per second\"; on \"how do you catch one\" the stream keeps going. Frame 0 and the poster: the fingertip with the stream and the type \"65 billion per second · Nobel Prize in Physics 2026\"",
+      "brief": "A line drawing of a fingertip; thousands of faint dots stream straight through it, untouched; a counter \"65 billion per second\"; on \"how do you catch one\" the stream keeps going. Frame 0 and the poster: the fingertip with the stream and the type \"65 billion per second · Nobel Prize in Physics 2026\"",
+      "onscreen": [],
+      "vo": [
+        "shot-1"
+      ],
+      "narration": "About sixty-five billion neutrinos from the Sun pass through your little fingernail every second, and almost none of them touch anything. So how do you catch one?",
+      "planned": {
+        "dur": 11.0,
+        "estimated": false,
+        "length": "11 s"
+      },
+      "speech": {
+        "words": 27,
+        "seconds": 9.64,
+        "rate": 2.52,
+        "fits": true
+      },
+      "notes": {
+        "Claims": "P11, P09, P10"
+      }
+    },
+    {
+      "id": "shot-2",
+      "shot": "2 the prize and the roadmap",
+      "start": 11.0,
+      "dur": 13.5,
+      "visual": "Name card \"Francis Halzen\" with the exact citation in quote marks (readable); a line \"IceCube Collaboration: about 450 people, 58 institutions, 14 countries\"; a drawing of the ice sheet with \"South Pole\" and the hexagon of strings beneath; then the roadmap bar slides in and stays; step 1 lights",
+      "brief": "Name card with the exact citation in quote marks (readable); a line ; a drawing of the ice sheet with and the hexagon of strings beneath; then the roadmap bar slides in and stays; step 1 lights",
+      "onscreen": [
+        "Francis Halzen",
+        "IceCube Collaboration: about 450 people, 58 institutions, 14 countries",
+        "South Pole"
+      ],
+      "vo": [
+        "shot-2"
+      ],
+      "narration": "This year's Nobel Prize in Physics went to Francis Halzen, for decisive contributions to IceCube, a telescope made of Antarctic ice, and the discovery of high-energy neutrinos from space. Four steps, and three guesses for you.",
+      "planned": {
+        "dur": 13.5,
+        "estimated": false,
+        "length": "13.5 s"
+      },
+      "speech": {
+        "words": 36,
+        "seconds": 12.86,
+        "rate": 2.73,
+        "fits": false
+      },
+      "notes": {
+        "Claims": "P01, P18, P13"
+      }
+    },
+    {
+      "id": "shot-3",
+      "shot": "3 the ghost particle",
+      "start": 24.5,
+      "dur": 14.0,
+      "visual": "Step 1 lit. A 1 km block of ice; neutrino arrows cross it untouched. Question card \"What are the odds it hits anything in 1 km of ice? (at 100 TeV, our toy model)\", timer ring; chips appear after the line: \"About 1 in 1,000\" / \"About 1 in 100,000\" / \"About 1 in 10 million\"",
+      "brief": "Step 1 lit. A 1 km block of ice; neutrino arrows cross it untouched. Question card , timer ring; chips appear after the line: / /",
+      "onscreen": [
+        "What are the odds it hits anything in 1 km of ice? (at 100 TeV, our toy model)",
+        "About 1 in 1,000",
+        "About 1 in 100,000",
+        "About 1 in 10 million"
+      ],
+      "vo": [
+        "shot-3"
+      ],
+      "narration": "Step one: the ghost particle. Guess: a high-energy neutrino crosses a whole kilometre of ice. What are the odds it hits anything on the way?",
+      "planned": {
+        "dur": 14.0,
+        "estimated": false,
+        "length": "14 s"
+      },
+      "speech": {
+        "words": 25,
+        "seconds": 8.93,
+        "rate": 1.82,
+        "fits": true
+      },
+      "notes": {
+        "Claims": "P09"
+      }
+    },
+    {
+      "id": "shot-4",
+      "shot": "3b the answer",
+      "start": 38.5,
+      "dur": 8.0,
+      "visual": "The chance-vs-energy curve from our toy model with 100 TeV marked; \"about 1 in {K1}\" highlighted; label \"our toy model\"",
+      "brief": "The chance-vs-energy curve from our toy model with 100 TeV marked; \"about 1 in {K1}\" highlighted; label \"our toy model\"",
+      "onscreen": [],
+      "vo": [
+        "shot-4"
+      ],
+      "narration": "In our toy model, about one in {K1}. So the detector had to be huge.",
+      "planned": {
+        "dur": 8.0,
+        "estimated": false,
+        "length": "8 s"
+      },
+      "speech": {
+        "words": 15,
+        "seconds": 5.36,
+        "rate": 1.95,
+        "fits": true
+      },
+      "notes": {
+        "Claims": "K1, P16"
+      }
+    },
+    {
+      "id": "shot-5",
+      "shot": "4 a telescope of ice",
+      "start": 46.5,
+      "dur": 12.0,
+      "visual": "Step 2 lit. Schematic: a hot-water drill melts a hole (hose, hot water); a string of sensors drops in; the hexagon fills to 86 strings; on screen \"holes melted with hot water\", \"86 strings · 5,160 sensors\", depth marks 1,450 m and 2,450 m",
+      "brief": "Step 2 lit. Schematic: a hot-water drill melts a hole (hose, hot water); a string of sensors drops in; the hexagon fills to 86 strings; on screen \"holes melted with hot water\", \"86 strings · 5,160 sensors\", depth marks 1,450 m and 2,450 m",
+      "onscreen": [],
+      "vo": [
+        "shot-5"
+      ],
+      "narration": "Step two: the telescope. In nineteen eighty-eight, Halzen and John Learned proposed using the ice itself. Halzen then led the team that built it.",
+      "planned": {
+        "dur": 12.0,
+        "estimated": false,
+        "length": "12 s"
+      },
+      "speech": {
+        "words": 24,
+        "seconds": 8.57,
+        "rate": 2.05,
+        "fits": true
+      },
+      "notes": {
+        "Claims": "P41, P05, P04, P39, P13"
+      }
+    },
+    {
+      "id": "shot-6",
+      "shot": "5 the blue cone",
+      "start": 58.5,
+      "dur": 11.5,
+      "visual": "Inside the ice: a neutrino hits a nucleus; a muon flies out leaving a cone of blue light; sensors along the strings light up in time order (colour by time); on screen \"Cherenkov light\"",
+      "brief": "Inside the ice: a neutrino hits a nucleus; a muon flies out leaving a cone of blue light; sensors along the strings light up in time order (colour by time); on screen \"Cherenkov light\"",
+      "onscreen": [],
+      "vo": [
+        "shot-6"
+      ],
+      "narration": "When one does hit, it makes a charged particle faster than light travels in ice. It leaves a cone of blue light, and each sensor times its arrival.",
+      "planned": {
+        "dur": 11.5,
+        "estimated": false,
+        "length": "11.5 s"
+      },
+      "speech": {
+        "words": 28,
+        "seconds": 10.0,
+        "rate": 2.5,
+        "fits": true
+      },
+      "notes": {
+        "Claims": "P15, P40"
+      }
+    },
+    {
+      "id": "shot-7",
+      "shot": "6 our toy telescope",
+      "start": 70.0,
+      "dur": 16.5,
+      "visual": "Step 3 lit; label \"our toy model\" top-left. The toy example event in 3D on the real IceCube layout: the track, the hits by time, then the fitted direction drawn over the true one. Question card \"Space the strings twice as far apart: how much worse does it aim?\", ring; chips after the line: \"Barely worse (under 1.5x)\" / \"A few times worse (1.5x to 20x)\" / \"Over 20 times worse\"",
+      "brief": "Step 3 lit; label top-left. The toy example event in 3D on the real IceCube layout: the track, the hits by time, then the fitted direction drawn over the true one. Question card , ring; chips after the line: / /",
+      "onscreen": [
+        "our toy model",
+        "Space the strings twice as far apart: how much worse does it aim?",
+        "Barely worse (under 1.5x)",
+        "A few times worse (1.5x to 20x)",
+        "Over 20 times worse"
+      ],
+      "vo": [
+        "shot-7"
+      ],
+      "narration": "Step three: our toy telescope. From the light's arrival times alone, it works out which way the particle was going. Guess: space the strings twice as far apart. How much worse does it aim?",
+      "planned": {
+        "dur": 16.5,
+        "estimated": false,
+        "length": "16.5 s"
+      },
+      "speech": {
+        "words": 34,
+        "seconds": 12.14,
+        "rate": 2.1,
+        "fits": true
+      },
+      "notes": {
+        "Claims": "T-example"
+      }
+    },
+    {
+      "id": "shot-8",
+      "shot": "6b the answer",
+      "start": 86.5,
+      "dur": 9.0,
+      "visual": "The error-vs-spacing curve from our toy model (Pandel fit), 125 m and 250 m marked, degrees only on the chart; the ratio highlighted; caveat chip top-right \"tuned constants: trend only, not IceCube's real aim\"",
+      "brief": "The error-vs-spacing curve from our toy model (Pandel fit), 125 m and 250 m marked, degrees only on the chart; the ratio highlighted; caveat chip top-right \"tuned constants: trend only, not IceCube's real aim\"",
+      "onscreen": [],
+      "vo": [
+        "shot-8"
+      ],
+      "narration": "In our toy model, about {T21} times worse: fewer sensors see the light. Trend only, not IceCube's real aim.",
+      "planned": {
+        "dur": 9.0,
+        "estimated": false,
+        "length": "9 s"
+      },
+      "speech": {
+        "words": 19,
+        "seconds": 6.79,
+        "rate": 2.18,
+        "fits": true
+      },
+      "notes": {
+        "Claims": "T21"
+      }
+    },
+    {
+      "id": "shot-9",
+      "shot": "7 what it found",
+      "start": 95.5,
+      "dur": 13.0,
+      "visual": "Step 4 lit. Card \"2013: first evidence of high-energy neutrinos from outer space (4 sigma)\"; card \"2014: 5.7 sigma\"; then the real 6 PeV replay from the public data with \"Real event, 8 December 2016\", \"A shower: the light spreads like a ball, not a cone\", \"about 6 PeV: almost 1,000 times what the LHC can produce (IceCube)\", \"time slowed down\"",
+      "brief": "Step 4 lit. Card ; card ; then the real 6 PeV replay from the public data with",
+      "onscreen": [
+        "2013: first evidence of high-energy neutrinos from outer space (4 sigma)",
+        "2014: 5.7 sigma",
+        "Real event, 8 December 2016",
+        "A shower: the light spreads like a ball, not a cone",
+        "about 6 PeV: almost 1,000 times what the LHC can produce (IceCube)",
+        "time slowed down"
+      ],
+      "vo": [
+        "shot-9"
+      ],
+      "narration": "Step four: what it found. In twenty thirteen, IceCube reported the first evidence of high-energy neutrinos from outer space. In twenty sixteen, it caught this shower, replayed from the real data.",
+      "planned": {
+        "dur": 13.0,
+        "estimated": false,
+        "length": "13 s"
+      },
+      "speech": {
+        "words": 31,
+        "seconds": 11.07,
+        "rate": 2.44,
+        "fits": true
+      },
+      "notes": {
+        "Claims": "P19, P20, P33, P38"
+      }
+    },
+    {
+      "id": "shot-10",
+      "shot": "8 how many from space",
+      "start": 108.5,
+      "dur": 11.5,
+      "visual": "A counter \"about 100,000 high-energy neutrinos a year\"; a jar of identical dots (no colour difference before the reveal); question card \"How many come from outer space?\", ring; chips after the line: \"About half\" / \"About 1 in 10\" / \"About 1 in 1,000\"",
+      "brief": "A counter ; a jar of identical dots (no colour difference before the reveal); question card , ring; chips after the line: / /",
+      "onscreen": [
+        "about 100,000 high-energy neutrinos a year",
+        "How many come from outer space?",
+        "About half",
+        "About 1 in 10",
+        "About 1 in 1,000"
+      ],
+      "vo": [
+        "shot-10"
+      ],
+      "narration": "IceCube records about a hundred thousand high-energy neutrinos a year. Guess: how many of them come from outer space?",
+      "planned": {
+        "dur": 11.5,
+        "estimated": false,
+        "length": "11.5 s"
+      },
+      "speech": {
+        "words": 19,
+        "seconds": 6.79,
+        "rate": 1.7,
+        "fits": true
+      },
+      "notes": {
+        "Claims": "P17"
+      }
+    },
+    {
+      "id": "shot-11",
+      "shot": "8b the answer",
+      "start": 120.0,
+      "dur": 7.0,
+      "visual": "One dot in a thousand lights up gold: \"about 100 (Nobel Committee)\"",
+      "brief": "One dot in a thousand lights up gold: \"about 100 (Nobel Committee)\"",
+      "onscreen": [],
+      "vo": [
+        "shot-11"
+      ],
+      "narration": "About a hundred, the Nobel Committee says. The rest are made in our own atmosphere.",
+      "planned": {
+        "dur": 7.0,
+        "estimated": false,
+        "length": "7 s"
+      },
+      "speech": {
+        "words": 15,
+        "seconds": 5.36,
+        "rate": 2.24,
+        "fits": true
+      },
+      "notes": {
+        "Claims": "P17"
+      }
+    },
+    {
+      "id": "shot-12",
+      "shot": "9a the open question",
+      "start": 127.0,
+      "dur": 11.0,
+      "visual": "An illustrated sky (labelled \"illustration\"): a diffuse glow; a faint band \"our galaxy shines in neutrinos too\"; one galaxy circled \"NGC 1068: evidence (4.2 sigma), not yet proof\"",
+      "brief": "An illustrated sky (labelled \"illustration\"): a diffuse glow; a faint band \"our galaxy shines in neutrinos too\"; one galaxy circled \"NGC 1068: evidence (4.2 sigma), not yet proof\"",
+      "onscreen": [],
+      "vo": [
+        "shot-12"
+      ],
+      "narration": "The prize honours that discovery: high-energy neutrinos from space. Which objects make them is still open: one nearby galaxy shows evidence, not yet proof.",
+      "planned": {
+        "dur": 11.0,
+        "estimated": false,
+        "length": "11 s"
+      },
+      "speech": {
+        "words": 24,
+        "seconds": 8.57,
+        "rate": 2.24,
+        "fits": true
+      },
+      "notes": {
+        "Claims": "P01, P20, P23, P25, P31"
+      }
+    },
+    {
+      "id": "shot-13",
+      "shot": "9b the tie-back",
+      "start": 138.0,
+      "dur": 7.0,
+      "visual": "Back to the fingertip from shot 1, the stream still passing; cut to the ice: one dot labelled \"from space\" makes a blue flash among the strings; hold 1.5 s",
+      "brief": "Back to the fingertip from shot 1, the stream still passing; cut to the ice: one dot labelled \"from space\" makes a blue flash among the strings; hold 1.5 s",
+      "onscreen": [],
+      "vo": [
+        "shot-13"
+      ],
+      "narration": "So how do you catch one? With a cubic kilometre of ice, still watching.",
+      "planned": {
+        "dur": 7.0,
+        "estimated": false,
+        "length": "7 s"
+      },
+      "speech": {
+        "words": 14,
+        "seconds": 5.0,
+        "rate": 2.09,
+        "fits": true
+      },
+      "notes": {
+        "Claims": "P13"
+      }
+    },
+    {
+      "id": "shot-14",
+      "shot": "10 end card",
+      "start": 145.0,
+      "dur": 5.0,
+      "visual": "\"nobel-2026-lab\" / \"Educational demos of this year's Nobel Prizes. Not research.\" / \"Unofficial. Not affiliated with the Nobel Foundation or the IceCube Collaboration.\" / \"Event data: IceCube Collaboration, DOI 10.21234/gr2021 · Sensor positions: IceCube ppc geometry (Zenodo, CC-BY-4.0)\" / \"Sources: nobelprize.org; claims ledger in the repo\" / \"Made with showtime\" / \"faviovazquez.github.io/nobel-2026-lab\"",
+      "brief": "\"nobel-2026-lab\" / \"Educational demos of this year's Nobel Prizes. Not research.\" / \"Unofficial. Not affiliated with the Nobel Foundation or the IceCube Collaboration.\" / \"Event data: IceCube Collaboration, DOI 10.21234/gr2021 · Sensor positions: IceCube ppc geometry (Zenodo, CC-BY-4.0)\" / \"Sources: nobelprize.org; claims ledger in the repo\" / \"Made with showtime\" / \"faviovazquez.github.io/nobel-2026-lab\"",
+      "onscreen": [],
+      "vo": [
+        "shot-14"
+      ],
+      "narration": "Educational demos of this year's Nobel Prizes, made with showtime.",
+      "planned": {
+        "dur": 5.0,
+        "estimated": false,
+        "length": "5 s"
+      },
+      "speech": {
+        "words": 10,
+        "seconds": 3.57,
+        "rate": 2.13,
+        "fits": true
+      }
+    }
+  ]
+}
