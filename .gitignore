@@ -20,6 +20,7 @@ __pycache__/
 # excluded by the managed block at the end (python scripts/publish_media.py --refresh).
 *.mp4
 !examples/**/*.mp4
+!benchmarks/plugin-eval/**/*.mp4
 
 # OS / editor noise
 .DS_Store
