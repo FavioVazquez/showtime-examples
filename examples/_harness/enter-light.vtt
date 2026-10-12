@@ -1,0 +1,39 @@
+WEBVTT
+
+00:00:00.440 --> 00:00:01.340
+You press Enter.
+
+00:00:01.800 --> 00:00:04.088
+Claude Code packs
+your message, the chat
+
+00:00:04.142 --> 00:00:06.899
+so far, CLAUDE.md
+and its tools.
+
+00:00:07.719 --> 00:00:08.939
+The model, in the cloud,
+
+00:00:09.209 --> 00:00:10.670
+answers with tool calls.
+
+00:00:11.460 --> 00:00:13.360
+Each call passes a
+permission check,
+
+00:00:13.660 --> 00:00:15.049
+then runs on your machine.
+
+00:00:15.829 --> 00:00:16.879
+Results go back.
+
+00:00:17.129 --> 00:00:19.638
+It loops: test,
+edit, test again.
+
+00:00:20.419 --> 00:00:21.489
+The test passes.
+
+00:00:21.779 --> 00:00:23.758
+No more calls: you
+get the answer.
