@@ -17,9 +17,9 @@
   },
   "summary": {
     "release_files": 61,
-    "release_bytes": 1524377420,
-    "git_files": 1601,
-    "git_bytes": 456589151
+    "release_bytes": 1524378559,
+    "git_files": 1602,
+    "git_bytes": 456595622
   },
   "files": [
     {
@@ -439,8 +439,8 @@
     },
     {
       "path": "examples/_xray/musicbox-through-16x9-live.html",
-      "bytes": 13339942,
-      "sha256": "8c08dbd1cbafc9155aa4807c6891dab1cbe72114f2620ebfd4851205f7f7d61b",
+      "bytes": 13340502,
+      "sha256": "5573089aa281d9c2ebb12ed1dc027208f0d0b39f477b614e868ee3f311e3c3ed",
       "asset": "_xray--musicbox-through-16x9-live.html",
       "reason": "over 10 MB"
     },
@@ -453,8 +453,8 @@
     },
     {
       "path": "examples/_xray/musicbox-through-9x16-live.html",
-      "bytes": 13339611,
-      "sha256": "d7f020f0c7fa58b36e826041487ec9f7231e8e713e9a45265baade1895fc5190",
+      "bytes": 13340190,
+      "sha256": "7b86f8cfbbe24db4192bc84e8a82362cd9d6e229224b98531d873436d4f6379b",
       "asset": "_xray--musicbox-through-9x16-live.html",
       "reason": "over 10 MB"
     },

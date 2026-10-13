@@ -617,6 +617,8 @@ var v=x.offsets&&x.offsets[id];if(!v)return;
 var p=seg(t,x.at,x.dur,E.inOutCubic)*(x.back!=null?1 - seg(t,x.back,x.dur,E.inOutCubic):1);
 for(var k=0;k<3;k++)o[k]+=(v[k]||0)*p;
 });
+var so=spec.offset&&id?spec.offset(id,t):null;
+if(so)for(var q=0;q<3;q++)o[q]+=so[q]||0;
 return o;
 }
 var BACK={'x-':1,'y-':1,bottom:1},cycleMsg=null;
@@ -1671,7 +1673,7 @@ if(TYPE){
 var typeEl=el('label','fg-type','<span class="fg-type-k"></span><input type="text" autocomplete="off" autocapitalize="off" autocorrect="off" spellcheck="false" enterkeyhint="enter">');
 typeEl.querySelector('.fg-type-k').textContent=typeHint;
 typeEl.querySelector('input').setAttribute('aria-label',typeHint + ': what you type here is typed on the figure');
-typeEl.querySelector('input').placeholder='type here, or anywhere on the page';
+typeEl.querySelector('input').placeholder='type here or anywhere';
 main.insertBefore(typeEl,strip);
 }
 var rail=el('aside','fg-rail');
