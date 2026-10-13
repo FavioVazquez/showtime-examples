@@ -80,4 +80,14 @@ examples/**/*.prores
 /examples/_showreel/showreel-16x9.html
 /examples/_showreel/showreel-16x9.mp4
 /examples/_showreel041/showreel-16x9.mp4
+/examples/_xray/guitar-tab-9x16.mp4
+/examples/_xray/musicbox-through-16x9-live.html
+/examples/_xray/musicbox-through-16x9.mp4
+/examples/_xray/musicbox-through-9x16-live.html
+/examples/_xray/musicbox-through-9x16.mp4
+/examples/_xray/piano-score-9x16.mp4
+/examples/_xray/typewriter-diagram-16x9.mp4
+/examples/_xray/typewriter-through-dark-16x9.mp4
+/examples/_xray/typewriter-through-dark-9x16.mp4
+/examples/_xray/typewriter-through-light-16x9.mp4
 # END example media

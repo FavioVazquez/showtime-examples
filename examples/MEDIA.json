@@ -16,10 +16,10 @@
     "url_pattern": "https://github.com/{repo}/releases/download/{tag}/{asset}"
   },
   "summary": {
-    "release_files": 51,
-    "release_bytes": 1353516963,
-    "git_files": 1524,
-    "git_bytes": 369526677
+    "release_files": 61,
+    "release_bytes": 1524377420,
+    "git_files": 1601,
+    "git_bytes": 456589151
   },
   "files": [
     {
@@ -267,63 +267,72 @@
       "bytes": 177123180,
       "sha256": "68abe0dddaf4b902ef53d1f0a8fb3d5cecf99f83564c1009b49c395a16ebc74a",
       "asset": "25-nobel-physics-ice-telescope--final.mp4",
-      "reason": "over 10 MB"
+      "reason": "over 10 MB",
+      "missing_locally": true
     },
     {
       "path": "examples/26-nobel-chemistry-en-es/final-es.mp4",
       "bytes": 93012947,
       "sha256": "8f2384ccedadceeee76e616b222cd9bb1d6b050b95d7712d07c0d35d2aaf7b5f",
       "asset": "26-nobel-chemistry-en-es--final-es.mp4",
-      "reason": "over 10 MB"
+      "reason": "over 10 MB",
+      "missing_locally": true
     },
     {
       "path": "examples/26-nobel-chemistry-en-es/final.mp4",
       "bytes": 87691394,
       "sha256": "0535dd47be6149d5ca9e53e29043b8b3bf3ed45297332b08e9c50380b54697f1",
       "asset": "26-nobel-chemistry-en-es--final.mp4",
-      "reason": "over 10 MB"
+      "reason": "over 10 MB",
+      "missing_locally": true
     },
     {
       "path": "examples/28-claude-design-to-mp4/wait-9x16/final.mp4",
       "bytes": 16453364,
       "sha256": "229d27f609a1a5bab155d6fe26bf5c7d46748e07f43057f2a30b58cf60b3661d",
       "asset": "28-claude-design-to-mp4--wait-9x16--final.mp4",
-      "reason": "over 10 MB"
+      "reason": "over 10 MB",
+      "missing_locally": true
     },
     {
       "path": "examples/30-showreel-four-shapes/16x9/final.mp4",
       "bytes": 15401063,
       "sha256": "dafe90d1ca2f832c5f0d3435880f4cf55fe0f266b3253df2d802557290eb6a4c",
       "asset": "30-showreel-four-shapes--16x9--final.mp4",
-      "reason": "over 10 MB"
+      "reason": "over 10 MB",
+      "missing_locally": true
     },
     {
       "path": "examples/30-showreel-four-shapes/1x1/final.mp4",
       "bytes": 10879014,
       "sha256": "9decec7f2b266b55f487e897f9ae08df192559a11342fe0dcf08c0bc0888dfc1",
       "asset": "30-showreel-four-shapes--1x1--final.mp4",
-      "reason": "over 10 MB"
+      "reason": "over 10 MB",
+      "missing_locally": true
     },
     {
       "path": "examples/30-showreel-four-shapes/4x5/final.mp4",
       "bytes": 12302669,
       "sha256": "2982f1ca4188aa51c9a56d177df5d58cea972061ac621529567aa4d214e08b17",
       "asset": "30-showreel-four-shapes--4x5--final.mp4",
-      "reason": "over 10 MB"
+      "reason": "over 10 MB",
+      "missing_locally": true
     },
     {
       "path": "examples/30-showreel-four-shapes/9x16/final.mp4",
       "bytes": 14603329,
       "sha256": "d74331e0197ce347e396f307c321dafa89e1c13f71b91d11d1c6189003805510",
       "asset": "30-showreel-four-shapes--9x16--final.mp4",
-      "reason": "over 10 MB"
+      "reason": "over 10 MB",
+      "missing_locally": true
     },
     {
       "path": "examples/32-twelve-looks/final.mp4",
       "bytes": 15106619,
       "sha256": "890badca78347f3e46d3d2896f60fd6babc121b1c28572ae3287679364c23922",
       "asset": "32-twelve-looks--final.mp4",
-      "reason": "over 10 MB"
+      "reason": "over 10 MB",
+      "missing_locally": true
     },
     {
       "path": "examples/_brand/sting-square.mp4",
@@ -418,6 +427,77 @@
       "bytes": 106961784,
       "sha256": "1788e719ce64ba635a69b771e1fbf46220172519f9ff4dad7f9752abf020086b",
       "asset": "_showreel041--showreel-16x9.mp4",
+      "reason": "over 10 MB",
+      "missing_locally": true
+    },
+    {
+      "path": "examples/_xray/guitar-tab-9x16.mp4",
+      "bytes": 11071810,
+      "sha256": "6ab344636c50affee253b1ad2811c63d0bdf97140ac2185ad001d74d7ac4fe94",
+      "asset": "_xray--guitar-tab-9x16.mp4",
+      "reason": "over 10 MB"
+    },
+    {
+      "path": "examples/_xray/musicbox-through-16x9-live.html",
+      "bytes": 13339942,
+      "sha256": "8c08dbd1cbafc9155aa4807c6891dab1cbe72114f2620ebfd4851205f7f7d61b",
+      "asset": "_xray--musicbox-through-16x9-live.html",
+      "reason": "over 10 MB"
+    },
+    {
+      "path": "examples/_xray/musicbox-through-16x9.mp4",
+      "bytes": 19816502,
+      "sha256": "53749640a12664e8ae364b8dee4b42e2b403f32ef07a5048ae655fd66f0f02a9",
+      "asset": "_xray--musicbox-through-16x9.mp4",
+      "reason": "over 10 MB"
+    },
+    {
+      "path": "examples/_xray/musicbox-through-9x16-live.html",
+      "bytes": 13339611,
+      "sha256": "d7f020f0c7fa58b36e826041487ec9f7231e8e713e9a45265baade1895fc5190",
+      "asset": "_xray--musicbox-through-9x16-live.html",
+      "reason": "over 10 MB"
+    },
+    {
+      "path": "examples/_xray/musicbox-through-9x16.mp4",
+      "bytes": 16900051,
+      "sha256": "b64e312d7b257af3bc331771438c9ba0887ea327c056c7f80b020658e98f0ca9",
+      "asset": "_xray--musicbox-through-9x16.mp4",
+      "reason": "over 10 MB"
+    },
+    {
+      "path": "examples/_xray/piano-score-9x16.mp4",
+      "bytes": 12446244,
+      "sha256": "0fd5a91811f2ea8566b8d18dbe229fdeb870ac1f5ad7ecfc4ed89a2c9859d435",
+      "asset": "_xray--piano-score-9x16.mp4",
+      "reason": "over 10 MB"
+    },
+    {
+      "path": "examples/_xray/typewriter-diagram-16x9.mp4",
+      "bytes": 12537310,
+      "sha256": "e73005a1564ae5065ddc95a4f751445a410f59a64efc8227e5d688d920afcec9",
+      "asset": "_xray--typewriter-diagram-16x9.mp4",
+      "reason": "over 10 MB"
+    },
+    {
+      "path": "examples/_xray/typewriter-through-dark-16x9.mp4",
+      "bytes": 29294394,
+      "sha256": "afc4f161dfc4badbcf79597fcbdc071c4da158d7c2c9df00bd72106e77f26733",
+      "asset": "_xray--typewriter-through-dark-16x9.mp4",
+      "reason": "over 10 MB"
+    },
+    {
+      "path": "examples/_xray/typewriter-through-dark-9x16.mp4",
+      "bytes": 14454324,
+      "sha256": "106ec825d9c101c01f4e891b9b5682b2852143ee315e6d0178c4aa147c752874",
+      "asset": "_xray--typewriter-through-dark-9x16.mp4",
+      "reason": "over 10 MB"
+    },
+    {
+      "path": "examples/_xray/typewriter-through-light-16x9.mp4",
+      "bytes": 28136765,
+      "sha256": "3bc29ad09cc37937577fbd7f60f499d0178542b5ecb5e0e5cd1a7edb9708c6b6",
+      "asset": "_xray--typewriter-through-light-16x9.mp4",
       "reason": "over 10 MB"
     }
   ]
