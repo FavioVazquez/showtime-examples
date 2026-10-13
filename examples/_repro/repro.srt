@@ -1,0 +1,42 @@
+1
+00:00:00,330 --> 00:00:04,005
+Signs in and greets the user. This test
+fails at step 6.
+
+2
+00:00:06,120 --> 00:00:07,050
+Open the page.
+
+3
+00:00:08,340 --> 00:00:09,790
+Type into the Email field.
+
+4
+00:00:11,730 --> 00:00:13,250
+Type into the Password field.
+
+5
+00:00:15,320 --> 00:00:17,405
+Type into the API token field.
+
+6
+00:00:19,020 --> 00:00:20,320
+Click the Sign in button.
+
+7
+00:00:22,860 --> 00:00:23,750
+Step 6 fails.
+
+8
+00:00:23,750 --> 00:00:27,651
+It expected "Welcome, Ada!", but got
+"Welcome back, Ada".
+
+9
+00:00:27,651 --> 00:00:29,567
+The console logged an error.
+
+10
+00:00:30,710 --> 00:00:32,810
+Run the command on screen to see it fail.
+

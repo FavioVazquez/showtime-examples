@@ -2,17 +2,17 @@
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://github.com/FavioVazquez/showtime/raw/main/assets/readme/marquee-dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="https://github.com/FavioVazquez/showtime/raw/main/assets/readme/marquee-light.svg">
-    <img alt="Now showing: 32 videos, every frame rendered by showtime." src="https://github.com/FavioVazquez/showtime/raw/main/assets/readme/marquee-light.svg" width="100%">
+    <img alt="Now showing: 35 videos, every frame rendered by showtime." src="https://github.com/FavioVazquez/showtime/raw/main/assets/readme/marquee-light.svg" width="100%">
   </picture>
 </p>
 
 # Examples
 
-Thirty finished videos, each made with [showtime](https://github.com/FavioVazquez/showtime) by an agent acting as a user, and two short demos of the
-looks and the shutter blur. Every folder has the project sources, the share copy and a README that tells the story: the request, the assumptions, the
+Thirty finished videos, each made with [showtime](https://github.com/FavioVazquez/showtime) by an agent acting as a user, and five short demos: the
+looks, the shutter blur, a living diagram with its live figures, a session recap and a failing test as a video. Every folder has the project sources, the share copy and a README that tells the story: the request, the assumptions, the
 commands, what the critic found and what changed. Pick one from the wall, or jump to a use case:
 
-<p align="center"><a href="#data-and-reports"><b>Data and reports</b></a> (3) · <a href="#explainers"><b>Explainers</b></a> (6) · <a href="#product-and-brand"><b>Product and brand</b></a> (5) · <a href="#footage-and-audio"><b>Footage and audio</b></a> (4) · <a href="#tutorials"><b>Tutorials</b></a> (3) · <a href="#social"><b>Social</b></a> (3) · <a href="#trailers-and-montage"><b>Trailers and montage</b></a> (5) · <a href="#looks-and-motion"><b>Looks and motion</b></a> (4) · <a href="#for-developers"><b>For developers</b></a> (2)</p>
+<p align="center"><a href="#data-and-reports"><b>Data and reports</b></a> (3) · <a href="#explainers"><b>Explainers</b></a> (7) · <a href="#product-and-brand"><b>Product and brand</b></a> (5) · <a href="#footage-and-audio"><b>Footage and audio</b></a> (4) · <a href="#tutorials"><b>Tutorials</b></a> (3) · <a href="#social"><b>Social</b></a> (3) · <a href="#trailers-and-montage"><b>Trailers and montage</b></a> (5) · <a href="#looks-and-motion"><b>Looks and motion</b></a> (4) · <a href="#for-developers"><b>For developers</b></a> (4)</p>
 
 <table>
 <tr>
@@ -56,6 +56,11 @@ commands, what the critic found and what changed. Pick one from the wall, or jum
 <td width="16%" align="center"><a href="#ex-32"><img src="https://github.com/FavioVazquez/showtime/raw/main/assets/readme/gallery/32-twelve-looks.webp" width="100%" alt="The same launch film in two look signatures: nocturne&#x27;s ink blue, then paperback&#x27;s warm paper, a label naming each."></a><br><sub><b>32</b></sub></td>
 <td width="16%" align="center"><a href="#ex-looks"><img src="https://github.com/FavioVazquez/showtime/raw/main/assets/readme/gallery/_looks.webp" width="100%" alt="Metaballs gathering into one coral blob next to the word Metaballs."></a><br><sub><b>looks</b></sub></td>
 <td width="16%" align="center"><a href="#ex-blur"><img src="https://github.com/FavioVazquez/showtime/raw/main/assets/readme/gallery/_blur.webp" width="100%" alt="A card reading PUNCH. lands on a lime ground after a scale punch."></a><br><sub><b>blur</b></sub></td>
+</tr>
+<tr>
+<td width="16%" align="center"><a href="#ex-diagram"><img src="https://github.com/FavioVazquez/showtime/raw/main/assets/readme/gallery/_diagram.webp" width="100%" alt="The Enter loop at work: your machine with the terminal, Claude Code, Bash and a permission check, a request flying up to a glass cube labelled cloud."></a><br><sub><b>diagram</b></sub></td>
+<td width="16%" align="center"><a href="#ex-recap"><img src="https://github.com/FavioVazquez/showtime/raw/main/assets/readme/gallery/_recap.webp" width="100%" alt="Red to green, from a Claude Code session: one red test run, then two green ones, and 12/12 test files passed."></a><br><sub><b>recap</b></sub></td>
+<td width="16%" align="center"><a href="#ex-repro"><img src="https://github.com/FavioVazquez/showtime/raw/main/assets/readme/gallery/_repro.webp" width="100%" alt="A failing Playwright step: the page says Welcome back, Ada; expected &quot;Welcome, Ada!&quot;, received &quot;Welcome back, Ada&quot;, and the console error."></a><br><sub><b>repro</b></sub></td>
 </tr>
 </table>
 
@@ -209,6 +214,21 @@ download one and open it to play it.
 <p><sub>THE PROMPT</sub><br><i>“Full Chemistry 2026 explainer (~2:10, 16:9) for the nobel-2026-lab: Frank&#x27;s recipe, Kagan&#x27;s bend, Soai&#x27;s copier, the 2003 staircase, the coin flip, our mirror-race toy, caveats, medicines. NOT socratic: no questions to the viewer. American voice (af_bella; not the British female). Paperback lab-notebook look, CC0 bed, showtime credited (corner mark, end card, closing line). Must look great; post soon.”</i></p>
 <p><sub>WHAT IT SHOWS</sub><br>A storyboard table to a 2:30 film in a light look signature, then the whole film in Spanish: voice, strings, captions</p>
 <p>▶ <a href="26-nobel-chemistry-en-es/final.github.mp4"><code>final.github.mp4</code></a> · <a href="26-nobel-chemistry-en-es/final-es.github.mp4"><code>final-es.github.mp4</code></a><br><a href="26-nobel-chemistry-en-es/">the folder, the story and the commands</a></p>
+</td>
+</tr>
+</table>
+
+<a id="ex-diagram"></a>
+
+<table>
+<tr>
+<td width="44%" valign="top"><a href="_diagram/"><img src="https://github.com/FavioVazquez/showtime/raw/main/assets/readme/gallery/_diagram.webp" width="100%" alt="The Enter loop at work: your machine with the terminal, Claude Code, Bash and a permission check, a request flying up to a glass cube labelled cloud."></a></td>
+<td valign="top">
+<sub>Demo · 27 s · 16:9 + two live figures</sub><br>
+<b><a href="_diagram/">A living diagram, and figures people poke</a></b>
+<p><sub>THE PROMPT</sub><br><i>“Show what happens when you press Enter in a coding agent, as a diagram that builds itself, and a live version people can poke.”</i></p>
+<p><sub>WHAT IT SHOWS</sub><br>showtime new diagram --example enter as a film, and export html --interactive: a board you hover, step through and tune, offline</p>
+<p>▶ <a href="_diagram/enter-720p.mp4"><code>enter-720p.mp4</code></a> · Live figures: <a href="_diagram/econ-lab-figure.html"><code>econ-lab-figure.html</code></a> · <a href="_diagram/enter-figure.html"><code>enter-figure.html</code></a><br><a href="_diagram/">the folder, the story and the commands</a></p>
 </td>
 </tr>
 </table>
@@ -575,6 +595,36 @@ download one and open it to play it.
 <p><sub>THE PROMPT</sub><br><i>“Turn showtime&#x27;s pull request #7 into a short video I can paste into its description.”</i></p>
 <p><sub>WHAT IT SHOWS</sub><br>showtime pr-video in one command: the PR&#x27;s own words, files and a real hunk, secrets masked, a copy under 10 MB</p>
 <p>▶ <a href="29-pr-video-showtime/pr-7.github.mp4"><code>pr-7.github.mp4</code></a><br><a href="29-pr-video-showtime/">the folder, the story and the commands</a></p>
+</td>
+</tr>
+</table>
+
+<a id="ex-recap"></a>
+
+<table>
+<tr>
+<td width="44%" valign="top"><a href="_recap/"><img src="https://github.com/FavioVazquez/showtime/raw/main/assets/readme/gallery/_recap.webp" width="100%" alt="Red to green, from a Claude Code session: one red test run, then two green ones, and 12/12 test files passed."></a></td>
+<td valign="top">
+<sub>Demo · 37 s · 16:9, narrated</sub><br>
+<b><a href="_recap/">A recap of an agent's session</a></b>
+<p><sub>THE PROMPT</sub><br><i>“Make a short video of what my agent did in this Claude Code session.”</i></p>
+<p><sub>WHAT IT SHOWS</sub><br>showtime recap on the test session: the numbers, a living timeline, the edit, the tests red to green, from allow-listed facts only</p>
+<p>▶ <a href="_recap/recap.mp4"><code>recap.mp4</code></a><br><a href="_recap/">the folder, the story and the commands</a></p>
+</td>
+</tr>
+</table>
+
+<a id="ex-repro"></a>
+
+<table>
+<tr>
+<td width="44%" valign="top"><a href="_repro/"><img src="https://github.com/FavioVazquez/showtime/raw/main/assets/readme/gallery/_repro.webp" width="100%" alt="A failing Playwright step: the page says Welcome back, Ada; expected &quot;Welcome, Ada!&quot;, received &quot;Welcome back, Ada&quot;, and the console error."></a></td>
+<td valign="top">
+<sub>Demo · 34 s · 16:9, narrated</sub><br>
+<b><a href="_repro/">A failing test as a bug-report video</a></b>
+<p><sub>THE PROMPT</sub><br><i>“Turn this failing Playwright test into a video I can attach to the bug report.”</i></p>
+<p><sub>WHAT IT SHOWS</sub><br>showtime repro on a trace: each step on its screenshots, the failure slowed down, typed values covered, repro.md for the issue</p>
+<p>▶ <a href="_repro/repro.mp4"><code>repro.mp4</code></a><br><a href="_repro/">the folder, the story and the commands</a></p>
 </td>
 </tr>
 </table>

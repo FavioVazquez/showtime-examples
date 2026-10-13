@@ -1,0 +1,166 @@
+{
+  "generator": "showtime recap",
+  "version": 1,
+  "ref": "6abc69442c",
+  "kind": "session",
+  "date": "2026-10-01",
+  "started": "2026-10-01T09:00:37+00:00",
+  "ended": "2026-10-01T09:30:00+00:00",
+  "duration": 1036.0,
+  "span": 1763.0,
+  "turns": 14,
+  "tool_calls": 12,
+  "tools": [
+    [
+      "Bash",
+      5
+    ],
+    [
+      "Edit",
+      3
+    ],
+    [
+      "Read",
+      2
+    ],
+    [
+      "Grep",
+      1
+    ],
+    [
+      "MCP tool",
+      1
+    ]
+  ],
+  "files": [
+    {
+      "path": "src/parser.py",
+      "read": 1,
+      "edited": 1,
+      "first": 148.0,
+      "first_edit": 444.0
+    }
+  ],
+  "files_outside": 2,
+  "commands": [
+    [
+      "python -m pytest",
+      1
+    ],
+    [
+      "tail",
+      1
+    ],
+    [
+      "curl",
+      1
+    ],
+    [
+      "jq",
+      1
+    ],
+    [
+      "ssh",
+      1
+    ],
+    [
+      "python3",
+      1
+    ],
+    [
+      "git add",
+      1
+    ],
+    [
+      "git commit",
+      1
+    ]
+  ],
+  "commands_total": 5,
+  "tests": [
+    {
+      "passed": 11,
+      "failed": 1,
+      "unit": "tests",
+      "t": 370.0,
+      "ok": false
+    },
+    {
+      "passed": 12,
+      "failed": 0,
+      "unit": "tests",
+      "t": 740.0,
+      "ok": true
+    },
+    {
+      "passed": 12,
+      "failed": 0,
+      "unit": "test files",
+      "t": 814.0,
+      "ok": true
+    }
+  ],
+  "commits": 1,
+  "diff": {
+    "files": 1,
+    "additions": 4,
+    "deletions": 1,
+    "source": "commits",
+    "per_file": {
+      "src/parser.py": [
+        4,
+        1
+      ]
+    }
+  },
+  "timeline": [
+    {
+      "t": 148.0,
+      "k": "read"
+    },
+    {
+      "t": 222.0,
+      "k": "read"
+    },
+    {
+      "t": 296.0,
+      "k": "read"
+    },
+    {
+      "t": 370.0,
+      "k": "test"
+    },
+    {
+      "t": 444.0,
+      "k": "edit"
+    },
+    {
+      "t": 518.0,
+      "k": "edit"
+    },
+    {
+      "t": 592.0,
+      "k": "other"
+    },
+    {
+      "t": 666.0,
+      "k": "run"
+    },
+    {
+      "t": 740.0,
+      "k": "test"
+    },
+    {
+      "t": 814.0,
+      "k": "test"
+    },
+    {
+      "t": 888.0,
+      "k": "run"
+    },
+    {
+      "t": 962.0,
+      "k": "other"
+    }
+  ]
+}
