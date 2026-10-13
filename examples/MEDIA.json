@@ -17,9 +17,9 @@
   },
   "summary": {
     "release_files": 61,
-    "release_bytes": 1524378559,
+    "release_bytes": 1524436526,
     "git_files": 1602,
-    "git_bytes": 456595622
+    "git_bytes": 456595832
   },
   "files": [
     {
@@ -467,8 +467,8 @@
     },
     {
       "path": "examples/_xray/piano-score-9x16.mp4",
-      "bytes": 12446244,
-      "sha256": "0fd5a91811f2ea8566b8d18dbe229fdeb870ac1f5ad7ecfc4ed89a2c9859d435",
+      "bytes": 12504211,
+      "sha256": "abf01224a71b335358e1fc8dacc8dfd2d0cda2d7f3197d6ffee39fd490ce15b9",
       "asset": "_xray--piano-score-9x16.mp4",
       "reason": "over 10 MB"
     },
