@@ -21,6 +21,7 @@ __pycache__/
 *.mp4
 !examples/**/*.mp4
 !benchmarks/plugin-eval/**/*.mp4
+!benchmarks/plugin-eval/**/*.webm
 
 # OS / editor noise
 .DS_Store

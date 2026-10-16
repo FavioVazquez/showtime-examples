@@ -19,8 +19,9 @@
 /* depth marks when the string reaches the bottom (P13) */
 .s-shot-5 .s5-d { left: 590px; font: 600 40px/1 var(--font-body); color: #58e1ff; font-variant-numeric: tabular-nums;
   animation: s5-in 0.5s var(--ease-out) 8.4s both; }
-.s-shot-5 .s5-d1 { top: 640px; }
-.s-shot-5 .s5-d2 { top: 812px; animation-delay: 8.55s; }
+/* each label sits just above its ruler tick (y 660 and 840): the lower one clears the caption line under it */
+.s-shot-5 .s5-d1 { top: 620px; }
+.s-shot-5 .s5-d2 { top: 792px; animation-delay: 8.55s; }
 
 /* 1988 card: "nineteen" 2.60, "Halzen" 3.99, "proposed" 5.35; out as "Halzen then led" (7.75) runs */
 .s-shot-5 .s5-card { position: absolute; left: 1020px; top: 290px; width: 800px; box-sizing: border-box; padding: 40px 48px 44px;
